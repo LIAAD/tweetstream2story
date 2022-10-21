@@ -1,0 +1,319 @@
+T1	Time 16 27	08 nov 2020
+A1	Time_Type T1 Date
+A2	TemporalFunction T1 Publication_Time
+#1	AnnotatorNotes T1	value=2020-11-08
+T2	Time 119 131	hoje à tarde
+A3	Time_Type T2 Date
+A4	TemporalFunction T2 Publication_Time
+#2	AnnotatorNotes T2	value=2020-11-08TAf anchorTime=Publication_Time
+R1	TLINK_identity Arg1:T2 Arg2:T1	
+T3	Event 132 142	encontrado
+A5	Class T3 Occurrence
+A6	Event_Type T3 Transition
+A7	Pos T3 Verb
+A8	Tense T3 Past
+A9	Aspect T3 Perfective
+A10	Polarity T3 Pos
+T4	Event 143 148	morto
+A11	Class T4 State
+A12	Event_Type T4 State
+A13	Pos T4 Adjective
+A15	Polarity T4 Pos
+T5	Event 205 212	afirmou
+A14	Class T5 Reporting
+A16	Event_Type T5 Transition
+A17	Pos T5 Verb
+A18	Tense T5 Past
+A19	Aspect T5 Perfective
+A20	Polarity T5 Pos
+T6	Event 242 253	salientando
+A21	Class T6 Reporting
+A22	Event_Type T6 Transition
+A23	Pos T6 Verb
+A24	VForm T6 Gerundive
+A25	Polarity T6 Pos
+T7	Event 258 264	não há
+A26	Class T7 State
+A27	Event_Type T7 State
+A28	Pos T7 Verb
+A29	Tense T7 Present
+A30	Aspect T7 Imperfective
+A31	Polarity T7 Neg
+T8	Event 265 274	suspeitas
+A32	Class T8 State
+A33	Pos T8 Noun
+A34	Polarity T8 Pos
+T9	Event 278 283	crime
+A35	Class T9 State
+A36	Event_Type T9 State
+A37	Pos T9 Noun
+A38	Polarity T9 Pos
+T10	Event 353 358	caído
+A39	Class T10 Occurrence
+A40	Event_Type T10 Transition
+A41	Pos T10 Verb
+A42	Tense T10 Past
+A43	Aspect T10 Perfective
+A44	Mood T10 Future
+A45	Polarity T10 Pos
+T11	Event 397 402	queda
+A46	Class T11 Occurrence
+A47	Event_Type T11 Transition
+A48	Pos T11 Noun
+A49	Polarity T11 Pos
+T12	Event 429 435;452 462	Poderá ter havido
+A50	Class T12 State
+A51	Event_Type T12 State
+A52	Pos T12 Verb
+A53	Tense T12 Past
+A54	Aspect T12 Perfective
+A55	VForm T12 Infinitive
+A56	Modality T12 Poder
+A57	Polarity T12 Pos
+T13	Event 466 474	acidente
+A58	Class T13 Occurrence
+A59	Event_Type T13 Transition
+A60	Pos T13 Noun
+A61	Polarity T13 Pos
+T14	Event 482 498	estamos a tentar
+A62	Class T14 I_Action
+A63	Event_Type T14 Process
+A64	Pos T14 Verb
+A65	Tense T14 Present
+A66	Aspect T14 Progressive
+A67	Polarity T14 Pos
+T15	Event 499 507	perceber
+A68	Class T15 Perception
+A69	Event_Type T15 Process
+A70	Pos T15 Verb
+A71	VForm T15 Infinitive
+A72	Polarity T15 Pos
+R2	SLINK_intensional Arg1:T14 Arg2:T15	
+T16	Event 521 532	acrescentou
+A73	Class T16 Reporting
+A74	Event_Type T16 Transition
+A75	Pos T16 Verb
+A76	Tense T16 Past
+A77	Aspect T16 Perfective
+A78	Polarity T16 Pos
+T17	Event 565 570	óbito
+A79	Class T17 Occurrence
+A80	Event_Type T17 Transition
+A81	Pos T17 Noun
+A82	Polarity T17 Pos
+T18	Event 575 585	confirmado
+A83	Class T18 Reporting
+A84	Event_Type T18 Transition
+A85	Pos T18 Verb
+A86	Tense T18 Past
+A87	Aspect T18 Perfective
+A88	Polarity T18 Pos
+T19	Event 609 621	transportado
+A89	Class T19 Occurrence
+A90	Event_Type T19 Transition
+A91	Pos T19 Verb
+A92	Tense T19 Past
+A93	Aspect T19 Perfective
+A94	Polarity T19 Pos
+T20	Event 739 748	estiveram
+A95	Class T20 State
+A96	Event_Type T20 State
+A97	Pos T20 Verb
+A98	Tense T20 Past
+A99	Aspect T20 Perfective
+A100	Polarity T20 Pos
+T21	Event 768 776	apoiados
+A101	Class T21 State
+A102	Event_Type T21 State
+A103	Pos T21 Verb
+A104	VForm T21 Participle
+A105	Polarity T21 Pos
+R3	TLINK_isIncluded Arg1:T3 Arg2:T2	
+R4	TLINK_includes Arg1:T4 Arg2:T3	
+R5	TLINK_after Arg1:T5 Arg2:T4	
+R6	TLINK_simultaneous Arg1:T6 Arg2:T5	
+R7	TLINK_includes Arg1:T7 Arg2:T6	
+R8	TLINK_identity Arg1:T8 Arg2:T7	
+R9	TLINK_isIncluded Arg1:T9 Arg2:T8	
+R10	TLINK_identity Arg1:T11 Arg2:T10	
+R11	TLINK_identity Arg1:T13 Arg2:T12	
+R12	TLINK_after Arg1:T14 Arg2:T13	
+R13	TLINK_isIncluded Arg1:T15 Arg2:T14	
+R14	TLINK_after Arg1:T18 Arg2:T17	
+R15	TLINK_after Arg1:T19 Arg2:T18	
+R16	TLINK_includes Arg1:T20 Arg2:T19	
+R17	TLINK_simultaneous Arg1:T21 Arg2:T20	
+R18	TLINK_before Arg1:T10 Arg2:T6	
+R19	TLINK_simultaneous Arg1:T12 Arg2:T11	
+R20	TLINK_isIncluded Arg1:T16 Arg2:T15	
+R21	TLINK_before Arg1:T17 Arg2:T16	
+T22	Participant 95 114	Um homem de 54 anos
+A106	Lexical_Head T22 Noun
+A107	Individuation_Domain T22 Individual
+A108	Participant_Type_Domain T22 Per
+A109	Involvement T22 1
+T23	Participant 150 161	uma ribeira
+A110	Lexical_Head T23 Noun
+A111	Individuation_Domain T23 Individual
+A112	Participant_Type_Domain T23 Nat
+A113	Involvement T23 1
+T24	Participant 165 182	aldeia de Fráguas
+A114	Lexical_Head T24 Noun
+A115	Individuation_Domain T24 Individual
+A116	Participant_Type_Domain T24 Loc
+A117	Involvement T24 1
+T25	Participant 184 203	concelho de Tondela
+A118	Lexical_Head T25 Noun
+A119	Individuation_Domain T25 Individual
+A120	Participant_Type_Domain T25 Loc
+A121	Involvement T25 1
+R22	OLINK_partOf Arg1:T23 Arg2:T24	
+R23	OLINK_partOf Arg1:T24 Arg2:T25	
+T26	Participant 215 227	agência Lusa
+A122	Lexical_Head T26 Noun
+A123	Individuation_Domain T26 Individual
+A124	Participant_Type_Domain T26 Org
+A125	Involvement T26 1
+T27	Participant 228 233	fonte
+A126	Lexical_Head T27 Noun
+A127	Individuation_Domain T27 Individual
+A128	Participant_Type_Domain T27 Per
+A129	Involvement T27 1
+T28	Participant 237 240	GNR
+A130	Lexical_Head T28 Noun
+A131	Individuation_Domain T28 Individual
+A132	Participant_Type_Domain T28 Org
+A133	Involvement T28 1
+R24	OLINK_partOf Arg1:T27 Arg2:T28	
+T29	Participant 293 298	fonte
+A134	Lexical_Head T29 Noun
+A135	Individuation_Domain T29 Individual
+A136	Participant_Type_Domain T29 Per
+A137	Involvement T29 1
+T30	Participant 302 321	Comando Territorial
+A138	Lexical_Head T30 Noun
+A139	Individuation_Domain T30 Individual
+A140	Participant_Type_Domain T30 Org
+A141	Involvement T30 1
+T31	Participant 325 337	GNR de Viseu
+A142	Lexical_Head T31 Noun
+A143	Individuation_Domain T31 Individual
+A144	Participant_Type_Domain T31 Org
+A145	Involvement T31 1
+R25	OLINK_partOf Arg1:T30 Arg2:T31	
+T32	Participant 339 346	o homem
+A146	Lexical_Head T32 Noun
+A147	Individuation_Domain T32 Individual
+A148	Participant_Type_Domain T32 Per
+A149	Involvement T32 1
+T33	Participant 362 367	berma
+A150	Lexical_Head T33 Noun
+A151	Individuation_Domain T33 Individual
+A152	Participant_Type_Domain T33 Other
+A153	Involvement T33 1
+T34	Participant 371 374	via
+A154	Lexical_Head T34 Noun
+A155	Individuation_Domain T34 Individual
+A156	Participant_Type_Domain T34 Other
+A157	Involvement T34 1
+R26	OLINK_partOf Arg1:T33 Arg2:T34	
+T35	Participant 380 389	a ribeira
+A158	Lexical_Head T35 Noun
+A159	Individuation_Domain T35 Individual
+A160	Participant_Type_Domain T35 Nat
+A161	Involvement T35 1
+T36	Participant 406 426	cerca de dois metros
+A162	Lexical_Head T36 Noun
+A163	Individuation_Domain T36 Individual
+A164	Participant_Type_Domain T36 Other
+A165	Involvement T36 >1
+T37	Participant 508 518	o contexto
+A166	Lexical_Head T37 Noun
+A167	Individuation_Domain T37 Individual
+A168	Participant_Type_Domain T37 Other
+A169	Involvement T37 1
+T38	Participant 548 561	a mesma fonte
+A170	Lexical_Head T38 Noun
+A171	Individuation_Domain T38 Individual
+A172	Participant_Type_Domain T38 Per
+A173	Involvement T38 1
+T39	Participant 587 594	o local
+A174	Lexical_Head T39 Noun
+A175	Individuation_Domain T39 Individual
+A176	Participant_Type_Domain T39 Loc
+A177	Involvement T39 1
+T40	Participant 597 604	o corpo
+A178	Lexical_Head T40 Noun
+A179	Individuation_Domain T40 Individual
+A180	Participant_Type_Domain T40 Other
+A181	Involvement T40 1
+T41	Participant 627 665	o Instituto Nacional de Medicina Legal
+A182	Lexical_Head T41 Noun
+A183	Individuation_Domain T41 Individual
+A184	Participant_Type_Domain T41 Org
+A185	Involvement T41 1
+T42	Participant 675 727	o Comando Distrital de Operações de Socorro de Viseu
+A186	Lexical_Head T42 Noun
+A187	Individuation_Domain T42 Individual
+A188	Participant_Type_Domain T42 Org
+A189	Involvement T42 1
+T43	Participant 730 737	o local
+A190	Lexical_Head T43 Noun
+A191	Individuation_Domain T43 Individual
+A192	Participant_Type_Domain T43 Loc
+A193	Involvement T43 1
+T44	Participant 749 766	nove operacionais
+A194	Lexical_Head T44 Noun
+A195	Individuation_Domain T44 Individual
+A196	Participant_Type_Domain T44 Per
+A197	Involvement T44 >1
+T45	Participant 781 796	quatro veículos
+A198	Lexical_Head T45 Noun
+A199	Individuation_Domain T45 Individual
+A200	Participant_Type_Domain T45 Obj
+A201	Involvement T45 >1
+R27	OLINK_objIdentity Arg1:T29 Arg2:T27	
+R28	OLINK_objIdentity Arg1:T31 Arg2:T28	
+R29	OLINK_objIdentity Arg1:T32 Arg2:T22	
+R30	OLINK_objIdentity Arg1:T35 Arg2:T23	
+R31	OLINK_objIdentity Arg1:T38 Arg2:T29	
+R32	OLINK_objIdentity Arg1:T39 Arg2:T24	
+R33	OLINK_partOf Arg1:T40 Arg2:T32	
+R34	OLINK_partOf Arg1:T42 Arg2:T31	
+R35	OLINK_objIdentity Arg1:T43 Arg2:T39	
+R36	OLINK_partOf Arg1:T44 Arg2:T42	
+R37	OLINK_partOf Arg1:T45 Arg2:T42	
+R38	SRLINK_patient Arg1:T3 Arg2:T22	
+R39	SRLINK_manner Arg1:T3 Arg2:T4	
+R40	SRLINK_pivot Arg1:T4 Arg2:T22	
+R41	SRLINK_location Arg1:T3 Arg2:T23	
+R42	SLINK_evidential Arg1:T5 Arg2:T3	
+R43	SRLINK_theme Arg1:T5 Arg2:T3	
+R44	SRLINK_goal Arg1:T5 Arg2:T26	
+R45	SRLINK_agent Arg1:T5 Arg2:T27	
+R46	SRLINK_agent Arg1:T6 Arg2:T27	
+R47	SLINK_evidential Arg1:T6 Arg2:T7	
+R48	SRLINK_theme Arg1:T6 Arg2:T7	
+R49	SRLINK_theme Arg1:T7 Arg2:T8	
+R50	SRLINK_theme Arg1:T8 Arg2:T9	
+A202	Event_Type T8 State
+R51	SRLINK_patient Arg1:T10 Arg2:T32	
+R52	SRLINK_initialLocation Arg1:T10 Arg2:T33	
+R53	SRLINK_finalLocation Arg1:T10 Arg2:T35	
+R54	SRLINK_amount Arg1:T11 Arg2:T36	
+R55	SRLINK_pivot Arg1:T12 Arg2:T13	
+R56	SRLINK_theme Arg1:T14 Arg2:T15	
+R57	SRLINK_theme Arg1:T15 Arg2:T37	
+R58	SRLINK_agent Arg1:T14 Arg2:T30	
+R59	SRLINK_agent Arg1:T16 Arg2:T29	
+R60	SRLINK_theme Arg1:T16 Arg2:T14	
+R61	SLINK_evidential Arg1:T16 Arg2:T14	
+R62	SRLINK_theme Arg1:T18 Arg2:T17	
+R63	SLINK_evidential Arg1:T18 Arg2:T17	
+R64	SRLINK_location Arg1:T18 Arg2:T39	
+R65	SRLINK_patient Arg1:T19 Arg2:T40	
+R66	SRLINK_finalLocation Arg1:T19 Arg2:T41	
+R67	SRLINK_location Arg1:T20 Arg2:T43	
+R68	SRLINK_pivot Arg1:T20 Arg2:T44	
+R69	SRLINK_pivot Arg1:T21 Arg2:T44	
+R70	SRLINK_theme Arg1:T21 Arg2:T45	

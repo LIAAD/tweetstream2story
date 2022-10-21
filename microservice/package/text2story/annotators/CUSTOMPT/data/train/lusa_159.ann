@@ -1,0 +1,205 @@
+T1	Time 17 28	24 out 2020
+A1	Time_Type T1 Date
+A2	TemporalFunction T1 Publication_Time
+#1	AnnotatorNotes T1	value=2020-10-24
+T2	Time 123 127	hoje
+A3	Time_Type T2 Date
+A4	TemporalFunction T2 Publication_Time
+#2	AnnotatorNotes T2	value=2020-10-24 anchorTime=Publication_Time
+T3	Event 116 122	morreu
+A5	Class T3 Occurrence
+A6	Event_Type T3 Transition
+A7	Pos T3 Verb
+A8	Tense T3 Past
+A9	Aspect T3 Perfective
+A10	Polarity T3 Pos
+T4	Event 142 149	colisão
+A11	Class T4 Occurrence
+A12	Event_Type T4 Transition
+A13	Pos T4 Noun
+A14	Polarity T4 Pos
+T5	Event 150 159	registada
+A15	Class T5 Occurrence
+A16	Event_Type T5 Transition
+A17	Pos T5 Verb
+A18	Tense T5 Past
+A19	Aspect T5 Perfective
+A20	Polarity T5 Pos
+T6	Event 245 252	indicou
+A21	Class T6 Reporting
+A22	Event_Type T6 Transition
+A23	Pos T6 Verb
+A24	Tense T6 Past
+A25	Aspect T6 Perfective
+A26	Polarity T6 Pos
+T7	Event 128 134	vítima
+A27	Class T7 State
+A28	Event_Type T7 State
+A29	Pos T7 Noun
+A30	Polarity T7 Pos
+T8	Event 324 332	acidente
+A31	Class T8 Occurrence
+A32	Event_Type T8 Transition
+A33	Pos T8 Noun
+A34	Polarity T8 Pos
+T9	Event 362 371	registado
+A35	Class T9 Occurrence
+A36	Event_Type T9 Transition
+A37	Pos T9 Verb
+A38	Tense T9 Past
+A39	Aspect T9 Perfective
+A40	Polarity T9 Pos
+T10	Time 386 391	13:00
+A41	Time_Type T10 Time
+A42	TemporalFunction T10 None
+#3	AnnotatorNotes T10	value=2020-10-24T13:00 anchorTime=Publication_Time
+T11	Event 409 412	era
+A43	Class T11 State
+A44	Event_Type T11 State
+A45	Pos T11 Verb
+A46	Tense T11 Past
+A47	Polarity T11 Pos
+T12	Event 462 471	registado
+A48	Class T12 Occurrence
+A49	Event_Type T12 Transition
+A50	Pos T12 Verb
+A51	Tense T12 Past
+A52	Aspect T12 Perfective
+A54	Polarity T12 Pos
+T13	Event 530 542	transportado
+A55	Class T13 Occurrence
+A56	Event_Type T13 Transition
+A57	Pos T13 Verb
+A58	Tense T13 Past
+A59	Aspect T13 Perfective
+A60	Polarity T13 Pos
+A53	VForm T12 Participle
+T14	Event 572 580	adiantou
+A61	Class T14 Reporting
+A62	Event_Type T14 Transition
+A63	Pos T14 Verb
+A64	Tense T14 Past
+A65	Aspect T14 Perfective
+A66	Polarity T14 Pos
+R1	TLINK_isIncluded Arg1:T3 Arg2:T2	
+R2	TLINK_identity Arg1:T7 Arg2:T3	
+R3	TLINK_simultaneous Arg1:T5 Arg2:T4	
+R4	TLINK_before Arg1:T4 Arg2:T7	
+R5	TLINK_after Arg1:T6 Arg2:T5	
+R6	TLINK_before Arg1:T8 Arg2:T6	
+R7	TLINK_identity Arg1:T8 Arg2:T4	
+R8	TLINK_isIncluded Arg1:T9 Arg2:T10	
+R9	TLINK_simultaneous Arg1:T9 Arg2:T8	
+R10	TLINK_includes Arg1:T11 Arg2:T9	
+R11	TLINK_isIncluded Arg1:T12 Arg2:T11	
+R12	TLINK_after Arg1:T13 Arg2:T12	
+R13	TLINK_after Arg1:T14 Arg2:T13	
+T15	Participant 96 115	Um homem de 48 anos
+A67	Lexical_Head T15 Noun
+A68	Individuation_Domain T15 Individual
+A69	Participant_Type_Domain T15 Per
+A70	Involvement T15 1
+T16	Participant 166 188	dois veículos ligeiros
+A71	Lexical_Head T16 Noun
+A72	Individuation_Domain T16 Individual
+A73	Participant_Type_Domain T16 Obj
+A74	Involvement T16 >1
+T17	Participant 192 213	freguesia de Chorente
+A75	Lexical_Head T17 Noun
+A76	Individuation_Domain T17 Individual
+A77	Participant_Type_Domain T17 Loc
+A78	Involvement T17 1
+T18	Participant 215 243	concelho de Barcelos (Braga)
+A79	Lexical_Head T18 Noun
+A80	Individuation_Domain T18 Individual
+A81	Participant_Type_Domain T18 Loc
+A82	Involvement T18 1
+R14	OLINK_partOf Arg1:T17 Arg2:T18	
+T19	Participant 253 258	fonte
+A83	Lexical_Head T19 Noun
+A84	Individuation_Domain T19 Individual
+A85	Participant_Type_Domain T19 Per
+A86	Involvement T19 1
+T20	Participant 262 320	Comando Distrital de Operações de Socorros (CDOS) de Braga
+A87	Lexical_Head T20 Noun
+A88	Individuation_Domain T20 Individual
+A89	Participant_Type_Domain T20 Org
+A90	Involvement T20 1
+R15	OLINK_partOf Arg1:T19 Arg2:T20	
+T21	Participant 339 357	os dois automóveis
+A91	Lexical_Head T21 Noun
+A92	Individuation_Domain T21 Individual
+A93	Participant_Type_Domain T21 Obj
+A94	Involvement T21 >1
+R16	OLINK_objIdentity Arg1:T21 Arg2:T16	
+T22	Participant 393 408	A vítima mortal
+A95	Lexical_Head T22 Noun
+A96	Individuation_Domain T22 Individual
+A97	Participant_Type_Domain T22 Per
+A98	Involvement T22 1
+R17	OLINK_objIdentity Arg1:T22 Arg2:T15	
+T23	Participant 413 423	o condutor
+A99	Lexical_Head T23 Noun
+A100	Individuation_Domain T23 Individual
+A101	Participant_Type_Domain T23 Per
+A102	Involvement T23 1
+R18	OLINK_objIdentity Arg1:T23 Arg2:T22	
+T24	Participant 431 442	os veículos
+A103	Lexical_Head T24 Noun
+A104	Individuation_Domain T24 Individual
+A105	Participant_Type_Domain T24 Obj
+A106	Involvement T24 >1
+T25	Participant 427 429	um
+A107	Lexical_Head T25 Noun
+A108	Individuation_Domain T25 Individual
+A109	Participant_Type_Domain T25 Obj
+A110	Involvement T25 1
+R19	OLINK_partOf Arg1:T25 Arg2:T24	
+R20	OLINK_partOf Arg1:T23 Arg2:T25	
+T26	Participant 472 520	um ferido ligeiro, com cerca de 20 anos de idade
+A111	Lexical_Head T26 Noun
+A112	Individuation_Domain T26 Individual
+A113	Participant_Type_Domain T26 Per
+A114	Involvement T26 1
+T27	Participant 548 570	o Hospital de Barcelos
+A115	Lexical_Head T27 Noun
+A116	Individuation_Domain T27 Individual
+A117	Participant_Type_Domain T27 Loc
+A118	Involvement T27 1
+T28	Participant 581 586	fonte
+A119	Lexical_Head T28 Noun
+A120	Individuation_Domain T28 Individual
+A121	Participant_Type_Domain T28 Per
+A122	Involvement T28 1
+T29	Participant 590 603	CDOS de Braga
+A123	Lexical_Head T29 Noun
+A124	Individuation_Domain T29 Individual
+A125	Participant_Type_Domain T29 Org
+A126	Involvement T29 1
+R21	OLINK_partOf Arg1:T28 Arg2:T29	
+R22	OLINK_objIdentity Arg1:T29 Arg2:T20	
+T30	Participant 610 643	Bombeiros Voluntários de Viatodos
+A127	Lexical_Head T30 Noun
+A128	Individuation_Domain T30 Individual
+A129	Participant_Type_Domain T30 Org
+A130	Involvement T30 1
+R23	OLINK_partOf Arg1:T28 Arg2:T30	
+R24	SRLINK_patient Arg1:T3 Arg2:T15	
+R25	SRLINK_theme Arg1:T5 Arg2:T4	
+R26	SRLINK_location Arg1:T5 Arg2:T17	
+R27	SRLINK_agent Arg1:T6 Arg2:T19	
+R28	SRLINK_theme Arg1:T6 Arg2:T3	
+R29	SLINK_evidential Arg1:T6 Arg2:T3	
+R30	SRLINK_manner Arg1:T3 Arg2:T7	
+R31	SRLINK_theme Arg1:T7 Arg2:T4	
+R32	SRLINK_theme Arg1:T4 Arg2:T16	
+R33	SRLINK_theme Arg1:T9 Arg2:T8	
+R34	SRLINK_theme Arg1:T8 Arg2:T21	
+R35	SRLINK_theme Arg1:T11 Arg2:T22	
+R36	SRLINK_pivot Arg1:T11 Arg2:T23	
+R37	SRLINK_patient Arg1:T12 Arg2:T26	
+R38	SRLINK_patient Arg1:T13 Arg2:T26	
+R39	SRLINK_finalLocation Arg1:T13 Arg2:T27	
+R40	SLINK_evidential Arg1:T14 Arg2:T11	
+R41	SRLINK_theme Arg1:T14 Arg2:T11	
+R42	SRLINK_agent Arg1:T14 Arg2:T28	

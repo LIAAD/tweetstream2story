@@ -1,0 +1,267 @@
+T1	Time 151 155	hoje
+A1	Time_Type T1 Date
+A2	TemporalFunction T1 Publication_Time
+#1	AnnotatorNotes T1	value=2020-11-27 anchorTime=Publication_Time
+T2	Event 159 171	estado grave
+A3	Class T2 State
+A4	Event_Type T2 State
+A5	Pos T2 Noun
+A6	Polarity T2 Pos
+T3	Event 186 196	atropelado
+A7	Class T3 Occurrence
+A8	Event_Type T3 Transition
+A9	Pos T3 Verb
+A10	Tense T3 Past
+A11	Aspect T3 Perfective
+A12	Polarity T3 Pos
+T4	Event 257 262	disse
+A13	Class T4 Reporting
+A14	Event_Type T4 Transition
+A15	Pos T4 Verb
+A16	Tense T4 Past
+A17	Aspect T4 Perfective
+A18	Polarity T4 Pos
+T5	Event 318 327	assistido
+A19	Class T5 Occurrence
+A20	Event_Type T5 Process
+A21	Pos T5 Verb
+A22	Tense T5 Past
+A23	Aspect T5 Perfective
+A24	VForm T5 Infinitive
+A25	Polarity T5 Pos
+T6	Event 342 354	transportado
+A26	Class T6 Occurrence
+A27	Event_Type T6 Transition
+A28	Pos T6 Verb
+A29	Tense T6 Past
+A30	Aspect T6 Perfective
+A31	VForm T6 Participle
+A32	Polarity T6 Pos
+T7	Event 424 435	acrescentou
+A33	Event_Type T7 Transition
+A34	Pos T7 Verb
+A35	Tense T7 Past
+A36	Aspect T7 Perfective
+A37	Polarity T7 Pos
+T8	Event 456 463	ocorreu
+A38	Class T8 Occurrence
+A39	Event_Type T8 Transition
+A40	Pos T8 Verb
+A41	Tense T8 Past
+A42	Aspect T8 Perfective
+A43	Polarity T8 Pos
+T9	Event 447 455	acidente
+A44	Class T9 Occurrence
+A45	Event_Type T9 Transition
+A46	Pos T9 Noun
+A47	Polarity T9 Pos
+T10	Event 528 535	prestar
+A48	Class T10 Occurrence
+A49	Event_Type T10 Process
+A50	Pos T10 Verb
+A51	VForm T10 Infinitive
+A52	Polarity T10 Pos
+A53	Aspect T10 Progressive
+T11	Event 536 547	assistência
+A54	Class T11 Occurrence
+A55	Event_Type T11 Process
+A56	Pos T11 Noun
+A57	Polarity T11 Pos
+T12	Event 591 597	esteve
+A58	Class T12 State
+A59	Event_Type T12 State
+A60	Pos T12 Verb
+A61	Tense T12 Past
+A62	Aspect T12 Perfective
+A63	Polarity T12 Pos
+T13	Event 740 745	disse
+A64	Class T13 Reporting
+A65	Event_Type T13 Transition
+A66	Pos T13 Verb
+A67	Tense T13 Past
+A68	Aspect T13 Perfective
+A69	Polarity T13 Pos
+T14	Event 145 150	ficou
+A70	Class T14 State
+A71	Event_Type T14 State
+A72	Pos T14 Verb
+A73	Tense T14 Past
+A74	Aspect T14 Perfective
+A75	Polarity T14 Pos
+R1	TLINK_isIncluded Arg1:T14 Arg2:T1	
+R2	TLINK_simultaneous Arg1:T2 Arg2:T14	
+R3	TLINK_before Arg1:T3 Arg2:T2	
+R4	TLINK_after Arg1:T4 Arg2:T3	
+R5	SLINK_evidential Arg1:T4 Arg2:T14	
+R6	SRLINK_theme Arg1:T4 Arg2:T14	
+R7	TLINK_after Arg1:T6 Arg2:T5	
+R8	TLINK_after Arg1:T7 Arg2:T6	
+R9	SLINK_evidential Arg1:T7 Arg2:T6	
+R10	SRLINK_theme Arg1:T7 Arg2:T6	
+R11	TLINK_before Arg1:T5 Arg2:T4	
+R12	TLINK_after Arg1:T7 Arg2:T4	
+R13	TLINK_identity Arg1:T9 Arg2:T3	
+R14	TLINK_identity Arg1:T8 Arg2:T9	
+R15	TLINK_after Arg1:T10 Arg2:T8	
+R16	TLINK_simultaneous Arg1:T11 Arg2:T10	
+R17	TLINK_simultaneous Arg1:T12 Arg2:T11	
+R18	TLINK_after Arg1:T13 Arg2:T12	
+R19	SLINK_evidential Arg1:T13 Arg2:T12	
+R20	SRLINK_theme Arg1:T13 Arg2:T12	
+T15	Participant 125 144	Um jovem de 14 anos
+A76	Lexical_Head T15 Noun
+A77	Individuation_Domain T15 Individual
+A78	Participant_Type_Domain T15 Per
+A79	Involvement T15 1
+T16	Participant 201 213	um autocarro
+A80	Lexical_Head T16 Noun
+A81	Individuation_Domain T16 Individual
+A82	Participant_Type_Domain T16 Obj
+A83	Involvement T16 1
+T17	Participant 217 230	Vila das Aves
+A84	Lexical_Head T17 Noun
+A85	Individuation_Domain T17 Individual
+A86	Participant_Type_Domain T17 Loc
+A87	Involvement T17 1
+T18	Participant 232 255	concelho de Santo Tirso
+A88	Lexical_Head T18 Noun
+A89	Individuation_Domain T18 Individual
+A90	Participant_Type_Domain T18 Loc
+A91	Involvement T18 1
+R21	OLINK_partOf Arg1:T17 Arg2:T18	
+T19	Participant 265 269	Lusa
+A92	Lexical_Head T19 Noun
+A93	Individuation_Domain T19 Individual
+A94	Participant_Type_Domain T19 Org
+A95	Involvement T19 1
+T20	Participant 270 275	fonte
+A96	Lexical_Head T20 Noun
+A97	Individuation_Domain T20 Individual
+A98	Participant_Type_Domain T20 Per
+A99	Involvement T20 1
+T21	Participant 279 293	Proteção Civil
+A100	Lexical_Head T21 Noun
+A101	Individuation_Domain T21 Individual
+A102	Participant_Type_Domain T21 Org
+A103	Involvement T21 1
+R22	OLINK_partOf Arg1:T20 Arg2:T21	
+T22	Participant 295 302	O jovem
+A104	Lexical_Head T22 Noun
+A105	Individuation_Domain T22 Individual
+A106	Participant_Type_Domain T22 Per
+A107	Involvement T22 1
+R23	OLINK_objIdentity Arg1:T22 Arg2:T15	
+T23	Participant 331 336	local
+A108	Lexical_Head T23 Noun
+A109	Individuation_Domain T23 Individual
+A110	Participant_Type_Domain T23 Loc
+A111	Involvement T23 1
+T24	Participant 361 387	Bombeiros da Vila das Aves
+A112	Lexical_Head T24 Noun
+A113	Individuation_Domain T24 Individual
+A114	Participant_Type_Domain T24 Org
+A115	Involvement T24 1
+T25	Participant 393 412	o Hospital São João
+A116	Lexical_Head T25 Noun
+A117	Individuation_Domain T25 Individual
+A118	Participant_Type_Domain T25 Loc
+A119	Involvement T25 1
+T26	Participant 417 422	Porto
+A120	Lexical_Head T26 Noun
+A121	Individuation_Domain T26 Individual
+A122	Participant_Type_Domain T26 Loc
+A123	Involvement T26 1
+R24	OLINK_partOf Arg1:T25 Arg2:T26	
+T28	Participant 436 443	a fonte
+A128	Lexical_Head T28 Noun
+A129	Individuation_Domain T28 Individual
+A130	Participant_Type_Domain T28 Per
+A131	Involvement T28 1
+R27	OLINK_objIdentity Arg1:T28 Arg2:T20	
+T29	Time 464 474	pela 18:16
+A132	Time_Type T29 Time
+A133	TemporalFunction T29 None
+#2	AnnotatorNotes T29	value=2020-11-27T18:30 anchorTime=Publication_Time
+T30	Participant 479 514	Rua Luís Gonzaga Mendes de Carvalho
+A134	Lexical_Head T30 Noun
+A135	Individuation_Domain T30 Individual
+A136	Participant_Type_Domain T30 Loc
+A137	Involvement T30 1
+T31	Participant 519 524	local
+A138	Lexical_Head T31 Noun
+A139	Individuation_Domain T31 Individual
+A140	Participant_Type_Domain T31 Loc
+A141	Involvement T31 1
+R29	OLINK_objIdentity Arg1:T31 Arg2:T30	
+T32	Participant 563 572	Bombeiros
+A142	Lexical_Head T32 Noun
+A143	Individuation_Domain T32 Individual
+A144	Participant_Type_Domain T32 Org
+A145	Involvement T32 1
+T33	Participant 576 589	Vila das Aves
+A146	Lexical_Head T33 Noun
+A147	Individuation_Domain T33 Individual
+A148	Participant_Type_Domain T33 Loc
+A149	Involvement T33 1
+R30	OLINK_partOf Arg1:T32 Arg2:T33	
+T34	Participant 598 667	a Viatura Médica de Emergência e Reanimação de Vila Nova de Famalicão
+A150	Lexical_Head T34 Noun
+A151	Individuation_Domain T34 Individual
+A152	Participant_Type_Domain T34 Obj
+A153	Involvement T34 1
+T36	Participant 669 724	a Ambulância de Suporte Imediato de Vida de Santo Tirso
+A158	Lexical_Head T36 Noun
+A159	Individuation_Domain T36 Individual
+A160	Participant_Type_Domain T36 Org
+A161	Involvement T36 1
+T38	Participant 727 738	a GNR local
+A166	Lexical_Head T38 Noun
+A167	Individuation_Domain T38 Individual
+A168	Participant_Type_Domain T38 Org
+A169	Involvement T38 1
+T39	Participant 748 752	Lusa
+A170	Lexical_Head T39 Noun
+A171	Individuation_Domain T39 Individual
+A172	Participant_Type_Domain T39 Org
+A173	Involvement T39 1
+T40	Participant 753 758	fonte
+A174	Lexical_Head T40 Noun
+A175	Individuation_Domain T40 Individual
+A176	Participant_Type_Domain T40 Per
+A177	Involvement T40 1
+T41	Participant 762 772	corporação
+A178	Lexical_Head T41 Noun
+A179	Individuation_Domain T41 Individual
+A180	Participant_Type_Domain T41 Org
+A181	Involvement T41 1
+R33	OLINK_partOf Arg1:T40 Arg2:T41	
+R34	OLINK_objIdentity Arg1:T41 Arg2:T32	
+R35	OLINK_objIdentity Arg1:T40 Arg2:T28	
+R36	OLINK_objIdentity Arg1:T39 Arg2:T19	
+R37	TLINK_isIncluded Arg1:T8 Arg2:T29	
+R38	SRLINK_theme Arg1:T14 Arg2:T2	
+R39	SRLINK_pivot Arg1:T14 Arg2:T15	
+R40	SRLINK_patient Arg1:T3 Arg2:T15	
+R41	SRLINK_cause Arg1:T3 Arg2:T16	
+R42	SRLINK_reason Arg1:T14 Arg2:T3	
+R43	SRLINK_location Arg1:T3 Arg2:T17	
+R44	SRLINK_location Arg1:T3 Arg2:T18	
+R45	SRLINK_goal Arg1:T4 Arg2:T19	
+R46	SRLINK_agent Arg1:T4 Arg2:T20	
+R47	SRLINK_patient Arg1:T5 Arg2:T22	
+R48	SRLINK_location Arg1:T5 Arg2:T23	
+R49	SRLINK_patient Arg1:T6 Arg2:T22	
+R50	SRLINK_agent Arg1:T6 Arg2:T24	
+R51	SRLINK_finalLocation Arg1:T6 Arg2:T25	
+R52	SRLINK_agent Arg1:T7 Arg2:T28	
+R53	SRLINK_theme Arg1:T8 Arg2:T9	
+R54	SRLINK_location Arg1:T8 Arg2:T30	
+R55	SRLINK_location Arg1:T10 Arg2:T31	
+R56	SRLINK_theme Arg1:T10 Arg2:T11	
+R57	SRLINK_agent Arg1:T10 Arg2:T32	
+R58	SRLINK_location Arg1:T12 Arg2:T31	
+R59	SRLINK_pivot Arg1:T12 Arg2:T34	
+R60	SRLINK_pivot Arg1:T12 Arg2:T36	
+R61	SRLINK_pivot Arg1:T12 Arg2:T38	
+R62	SRLINK_goal Arg1:T13 Arg2:T39	
+R63	SRLINK_agent Arg1:T13 Arg2:T40	

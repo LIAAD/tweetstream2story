@@ -1,0 +1,353 @@
+T1	Time 13 24	11 nov 2020
+A1	Time_Type T1 Date
+A2	TemporalFunction T1 Publication_Time
+#1	AnnotatorNotes T1	value=2020-11-11
+T2	Event 118 129	aparentando
+A3	Class T2 State
+A4	Event_Type T2 State
+A5	Pos T2 Verb
+A6	VForm T2 Participle
+A7	Polarity T2 Pos
+T3	Event 153 163	encontrado
+A8	Class T3 Occurrence
+A9	Event_Type T3 Transition
+A10	Pos T3 Verb
+A11	Tense T3 Past
+A12	Aspect T3 Perfective
+A13	Polarity T3 Pos
+T4	Time 164 176	hoje à tarde
+A14	Time_Type T4 Time
+A15	TemporalFunction T4 Publication_Time
+#2	AnnotatorNotes T4	value=2020-11-11TAf
+T5	Event 179 184	boiar
+A16	Class T5 State
+A17	Event_Type T5 State
+A18	Pos T5 Verb
+A19	VForm T5 Infinitive
+A20	Polarity T5 Pos
+T6	Event 253 260	revelou
+A21	Class T6 Reporting
+A22	Event_Type T6 Transition
+A23	Pos T6 Verb
+A24	Tense T6 Past
+A25	Aspect T6 Perfective
+A26	Polarity T6 Pos
+T7	Event 336 340;354 359	terá caído
+A27	Class T7 Occurrence
+A28	Event_Type T7 Transition
+A29	Pos T7 Verb
+A30	Tense T7 Past
+A31	Aspect T7 Perfective
+A33	Polarity T7 Pos
+T8	Event 374 383	praticava
+A32	Class T8 Occurrence
+A34	Event_Type T8 Process
+A35	Pos T8 Verb
+A36	Tense T8 Past
+A37	Aspect T8 Progressive
+A38	Polarity T8 Pos
+T9	Event 384 396	pesca lúdica
+A39	Class T9 Occurrence
+A40	Event_Type T9 Process
+A41	Pos T9 Noun
+A42	Polarity T9 Pos
+T10	Event 474 478	dado
+A43	Class T10 Occurrence
+A44	Event_Type T10 Transition
+A45	Pos T10 Verb
+A46	Tense T10 Past
+A47	Aspect T10 Perfective
+A48	VForm T10 Participle
+A49	Polarity T10 Pos
+T11	Event 481 487	alerta
+A50	Class T11 Occurrence
+A51	Event_Type T11 Transition
+A52	Pos T11 Noun
+A53	Polarity T11 Pos
+T12	Event 495 506	avistamento
+A54	Class T12 Perception
+A55	Event_Type T12 Transition
+A56	Pos T12 Noun
+A57	Polarity T12 Pos
+T13	Event 521 526	boiar
+A58	Class T13 State
+A59	Event_Type T13 State
+A60	Pos T13 Verb
+A61	VForm T13 Infinitive
+A62	Polarity T13 Pos
+T14	Event 539 546	ativada
+A63	Class T14 Occurrence
+A64	Event_Type T14 Transition
+A65	Pos T14 Verb
+A66	Tense T14 Past
+A67	Aspect T14 Perfective
+A68	Polarity T14 Pos
+T15	Event 586 594	procedeu
+A69	Class T15 Occurrence
+A70	Event_Type T15 Process
+A71	Pos T15 Verb
+A72	Tense T15 Past
+A73	Aspect T15 Perfective
+A74	Polarity T15 Pos
+T16	Event 597 604	recolha
+A75	Class T16 Occurrence
+A76	Event_Type T16 Transition
+A77	Pos T16 Noun
+A78	Polarity T16 Pos
+T17	Event 615 628	transportando
+A79	Class T17 Occurrence
+A80	Event_Type T17 Transition
+A81	Pos T17 Verb
+A82	Tense T17 Past
+A83	VForm T17 Gerundive
+A84	Polarity T17 Pos
+T18	Event 661 666	óbito
+A85	Class T18 Occurrence
+A86	Event_Type T18 Transition
+A87	Pos T18 Noun
+A88	Polarity T18 Pos
+T19	Event 671 680	declarado
+A89	Class T19 Occurrence
+A90	Event_Type T19 Transition
+A91	Pos T19 Verb
+A92	Tense T19 Past
+A93	Aspect T19 Perfective
+A94	Polarity T19 Pos
+T20	Event 723 728;737 754	tendo sido transportado
+A95	Class T20 Occurrence
+A96	Event_Type T20 Transition
+A97	Pos T20 Verb
+A98	Tense T20 Past
+A99	Aspect T20 Perfective
+A100	VForm T20 Gerundive
+A101	Polarity T20 Pos
+T21	Event 803 814	especificou
+A102	Class T21 Reporting
+A103	Event_Type T21 Transition
+A104	Pos T21 Verb
+A105	Tense T21 Past
+A106	Aspect T21 Perfective
+A107	Polarity T21 Pos
+T22	Event 869 880	tomou conta
+A108	Class T22 Occurrence
+A109	Event_Type T22 Transition
+A110	Pos T22 Verb
+A111	Tense T22 Past
+A112	Aspect T22 Perfective
+A113	Polarity T22 Pos
+T23	Event 884 894	ocorrência
+A114	Class T23 Occurrence
+A115	Event_Type T23 Transition
+A116	Pos T23 Noun
+A117	Polarity T23 Pos
+R1	TLINK_isIncluded Arg1:T3 Arg2:T2	
+R2	TLINK_isIncluded Arg1:T3 Arg2:T4	
+R3	TLINK_includes Arg1:T5 Arg2:T3	
+R4	TLINK_after Arg1:T6 Arg2:T5	
+R5	TLINK_before Arg1:T7 Arg2:T6	
+R6	TLINK_simultaneous Arg1:T8 Arg2:T7	
+R7	TLINK_identity Arg1:T9 Arg2:T8	
+R8	TLINK_identity Arg1:T11 Arg2:T10	
+R9	TLINK_after Arg1:T10 Arg2:T9	
+R10	TLINK_before Arg1:T12 Arg2:T11	
+R11	TLINK_includes Arg1:T13 Arg2:T12	
+R12	TLINK_isIncluded Arg1:T14 Arg2:T13	
+R13	TLINK_after Arg1:T15 Arg2:T14	
+R14	TLINK_identity Arg1:T16 Arg2:T15	
+R15	TLINK_after Arg1:T17 Arg2:T16	
+R16	TLINK_before Arg1:T18 Arg2:T17	
+R17	TLINK_identity Arg1:T19 Arg2:T18	
+R18	TLINK_after Arg1:T20 Arg2:T19	
+R19	TLINK_after Arg1:T21 Arg2:T20	
+R20	TLINK_before Arg1:T23 Arg2:T22	
+R21	TLINK_before Arg1:T22 Arg2:T21	
+T24	Participant 98 105	O corpo
+A118	Lexical_Head T24 Noun
+A119	Individuation_Domain T24 Individual
+A120	Participant_Type_Domain T24 Other
+A121	Involvement T24 1
+T25	Participant 109 117	um homem
+A122	Lexical_Head T25 Noun
+A123	Individuation_Domain T25 Individual
+A124	Participant_Type_Domain T25 Per
+A125	Involvement T25 1
+T26	Participant 186 191	o mar
+A126	Lexical_Head T26 Noun
+A127	Individuation_Domain T26 Individual
+A128	Participant_Type_Domain T26 Nat
+A129	Involvement T26 1
+T27	Participant 200 219	praia da Estaquinha
+A130	Lexical_Head T27 Noun
+A131	Individuation_Domain T27 Individual
+A132	Participant_Type_Domain T27 Loc
+A133	Involvement T27 1
+T28	Participant 224 251	concelho de Lagoa (Algarve)
+A134	Lexical_Head T28 Noun
+A135	Individuation_Domain T28 Individual
+A136	Participant_Type_Domain T28 Loc
+A137	Involvement T28 1
+T29	Participant 261 282	a Autoridade Marítima
+A138	Lexical_Head T29 Noun
+A139	Individuation_Domain T29 Individual
+A140	Participant_Type_Domain T29 Org
+A141	Involvement T29 1
+T30	Participant 298 312	as autoridades
+A142	Lexical_Head T30 Noun
+A143	Individuation_Domain T30 Individual
+A144	Participant_Type_Domain T30 Org
+A145	Involvement T30 >1
+T31	Participant 314 321	o homem
+A146	Lexical_Head T31 Noun
+A147	Individuation_Domain T31 Individual
+A148	Participant_Type_Domain T31 Per
+A149	Involvement T31 1
+T32	Participant 323 334	um pescador
+A150	Lexical_Head T32 Noun
+A151	Individuation_Domain T32 Individual
+A152	Participant_Type_Domain T32 Per
+A153	Involvement T32 1
+T33	Participant 361 366	o mar
+A154	Lexical_Head T33 Noun
+A155	Individuation_Domain T33 Individual
+A156	Participant_Type_Domain T33 Nat
+A157	Involvement T33 1
+T34	Participant 398 408	uma arriba
+A158	Lexical_Head T34 Noun
+A159	Individuation_Domain T34 Individual
+A160	Participant_Type_Domain T34 Nat
+A161	Involvement T34 1
+T35	Participant 411 423	aquela praia
+A162	Lexical_Head T35 Noun
+A163	Individuation_Domain T35 Individual
+A164	Participant_Type_Domain T35 Loc
+A165	Involvement T35 1
+T36	Participant 427 432	Lagoa
+A166	Lexical_Head T36 Noun
+A167	Individuation_Domain T36 Individual
+A168	Participant_Type_Domain T36 Loc
+A169	Involvement T36 1
+T37	Participant 435 453	o distrito de Faro
+A170	Lexical_Head T37 Noun
+A171	Individuation_Domain T37 Individual
+A172	Participant_Type_Domain T37 Loc
+A173	Involvement T37 1
+T38	Participant 510 518	um corpo
+A174	Lexical_Head T38 Noun
+A175	Individuation_Domain T38 Individual
+A176	Participant_Type_Domain T38 Other
+A177	Involvement T38 1
+T39	Participant 528 533	o mar
+A178	Lexical_Head T39 Noun
+A179	Individuation_Domain T39 Individual
+A180	Participant_Type_Domain T39 Nat
+A181	Involvement T39 1
+T40	Participant 547 581	a Estação Salva-vidas de Ferragudo
+A182	Lexical_Head T40 Noun
+A183	Individuation_Domain T40 Individual
+A184	Participant_Type_Domain T40 Org
+A185	Involvement T40 1
+T41	Participant 606 613	o corpo
+A186	Lexical_Head T41 Noun
+A187	Individuation_Domain T41 Individual
+A188	Participant_Type_Domain T41 Other
+A189	Involvement T41 1
+T42	Participant 636 656	a marina de Portimão
+A190	Lexical_Head T42 Noun
+A191	Individuation_Domain T42 Individual
+A192	Participant_Type_Domain T42 Loc
+A193	Involvement T42 1
+T43	Participant 682 689	o local
+A194	Lexical_Head T43 Noun
+A195	Individuation_Domain T43 Individual
+A196	Participant_Type_Domain T43 Loc
+A197	Involvement T43 1
+T44	Participant 693 712	a delegada de saúde
+A198	Lexical_Head T44 Noun
+A199	Individuation_Domain T44 Individual
+A200	Participant_Type_Domain T44 Per
+A201	Involvement T44 1
+T45	Participant 716 721	Lagoa
+A202	Lexical_Head T45 Noun
+A203	Individuation_Domain T45 Individual
+A204	Participant_Type_Domain T45 Loc
+A205	Involvement T45 1
+T46	Participant 729 736	o corpo
+A206	Lexical_Head T46 Noun
+A207	Individuation_Domain T46 Individual
+A208	Participant_Type_Domain T46 Other
+A209	Involvement T46 1
+T47	Participant 760 800	o gabinete de medicina legal de Portimão
+A210	Lexical_Head T47 Noun
+A211	Individuation_Domain T47 Individual
+A212	Participant_Type_Domain T47 Loc
+A213	Involvement T47 1
+T48	Participant 815 836	a Autoridade Marítima
+A214	Lexical_Head T48 Noun
+A215	Individuation_Domain T48 Individual
+A216	Participant_Type_Domain T48 Org
+A217	Involvement T48 1
+T49	Participant 838 868	A Polícia Marítima de Portimão
+A218	Lexical_Head T49 Noun
+A219	Individuation_Domain T49 Individual
+A220	Participant_Type_Domain T49 Org
+A221	Involvement T49 1
+R22	OLINK_partOf Arg1:T24 Arg2:T25	
+R23	OLINK_partOf Arg1:T26 Arg2:T27	
+R24	OLINK_partOf Arg1:T27 Arg2:T28	
+R25	OLINK_partOf Arg1:T30 Arg2:T29	
+R26	OLINK_objIdentity Arg1:T31 Arg2:T25	
+R27	OLINK_objIdentity Arg1:T32 Arg2:T31	
+R28	OLINK_objIdentity Arg1:T33 Arg2:T26	
+R29	OLINK_partOf Arg1:T34 Arg2:T35	
+R30	OLINK_partOf Arg1:T35 Arg2:T36	
+R31	OLINK_partOf Arg1:T36 Arg2:T37	
+R32	OLINK_objIdentity Arg1:T35 Arg2:T27	
+R33	OLINK_objIdentity Arg1:T36 Arg2:T28	
+R34	OLINK_objIdentity Arg1:T38 Arg2:T24	
+R35	OLINK_objIdentity Arg1:T39 Arg2:T33	
+R36	OLINK_objIdentity Arg1:T41 Arg2:T38	
+R37	OLINK_objIdentity Arg1:T43 Arg2:T35	
+R38	OLINK_partOf Arg1:T44 Arg2:T45	
+R39	OLINK_objIdentity Arg1:T46 Arg2:T41	
+R40	OLINK_objIdentity Arg1:T48 Arg2:T29	
+R41	SRLINK_pivot Arg1:T2 Arg2:T25	
+T50	Participant 130 148	entre 60 e 70 anos
+A222	Lexical_Head T50 Noun
+A223	Individuation_Domain T50 Individual
+A224	Participant_Type_Domain T50 Other
+A225	Involvement T50 >1
+R42	SRLINK_theme Arg1:T2 Arg2:T50	
+R43	SRLINK_patient Arg1:T3 Arg2:T24	
+R44	SRLINK_manner Arg1:T3 Arg2:T5	
+R45	SRLINK_location Arg1:T3 Arg2:T26	
+R46	SLINK_evidential Arg1:T6 Arg2:T3	
+R47	SRLINK_theme Arg1:T6 Arg2:T3	
+R48	SRLINK_agent Arg1:T6 Arg2:T29	
+R49	SRLINK_patient Arg1:T7 Arg2:T32	
+R50	SRLINK_finalLocation Arg1:T7 Arg2:T33	
+R51	SRLINK_agent Arg1:T8 Arg2:T32	
+R52	SRLINK_theme Arg1:T8 Arg2:T9	
+R53	SRLINK_location Arg1:T8 Arg2:T34	
+R54	SRLINK_reason Arg1:T11 Arg2:T12	
+R55	SRLINK_theme Arg1:T12 Arg2:T38	
+R56	SRLINK_theme Arg1:T10 Arg2:T11	
+R57	SRLINK_pivot Arg1:T13 Arg2:T38	
+R58	SRLINK_location Arg1:T13 Arg2:T39	
+R59	SRLINK_patient Arg1:T14 Arg2:T40	
+R60	SRLINK_agent Arg1:T15 Arg2:T40	
+R61	SRLINK_theme Arg1:T15 Arg2:T16	
+R62	SRLINK_patient Arg1:T16 Arg2:T41	
+R63	SRLINK_patient Arg1:T17 Arg2:T41	
+R64	SRLINK_agent Arg1:T17 Arg2:T40	
+R65	SRLINK_finalLocation Arg1:T17 Arg2:T42	
+R66	SRLINK_theme Arg1:T19 Arg2:T18	
+R67	SRLINK_location Arg1:T19 Arg2:T43	
+R68	SRLINK_agent Arg1:T19 Arg2:T44	
+R69	SRLINK_patient Arg1:T20 Arg2:T46	
+R70	SRLINK_finalLocation Arg1:T20 Arg2:T47	
+R71	SRLINK_agent Arg1:T21 Arg2:T48	
+R72	SLINK_evidential Arg1:T21 Arg2:T19	
+R73	SRLINK_theme Arg1:T21 Arg2:T19	
+R74	SRLINK_agent Arg1:T22 Arg2:T49	
+R75	SRLINK_theme Arg1:T22 Arg2:T23	
+R76	TLINK_identity Arg1:T4 Arg2:T1	

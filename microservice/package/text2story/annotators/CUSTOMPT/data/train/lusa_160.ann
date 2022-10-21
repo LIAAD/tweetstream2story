@@ -1,0 +1,379 @@
+T1	Time 8 19	26 out 2020
+A1	Time_Type T1 Date
+A2	TemporalFunction T1 Publication_Time
+#1	AnnotatorNotes T1	value=2020-10-26 
+T2	Event 138 144	deteve
+A3	Class T2 Occurrence
+A4	Event_Type T2 Transition
+A5	Pos T2 Verb
+A6	Tense T2 Past
+A7	Aspect T2 Perfective
+A8	Polarity T2 Pos
+T3	Time 148 154	sábado
+A9	Time_Type T3 Date
+A10	TemporalFunction T3 None
+#2	AnnotatorNotes T3	value=2020-10-24 anchorTime=Publication_Time
+T4	Event 167 172	posse
+A11	Class T4 State
+A12	Event_Type T4 State
+A13	Pos T4 Noun
+A14	Polarity T4 Pos
+T5	Event 212 219	tentava
+A15	Class T5 I_Action
+A16	Event_Type T5 Process
+A17	Pos T5 Verb
+A18	Tense T5 Past
+A19	Aspect T5 Imperfective
+A20	Polarity T5 Pos
+T6	Event 220 228	embarcar
+A21	Class T6 Occurrence
+A22	Event_Type T6 Transition
+A23	Pos T6 Verb
+A24	VForm T6 Infinitive
+A25	Polarity T6 Pos
+T7	Event 259 267	anunciou
+A26	Class T7 Reporting
+A27	Event_Type T7 Transition
+A28	Pos T7 Verb
+A29	Tense T7 Past
+A30	Aspect T7 Perfective
+A31	Polarity T7 Pos
+T8	Event 294 304	comunicado
+A32	Class T8 Occurrence
+A33	Event_Type T8 Transition
+A34	Pos T8 Noun
+A35	Polarity T8 Pos
+T9	Event 316 326	comunicado
+A36	Class T9 Reporting
+A37	Event_Type T9 Transition
+A38	Pos T9 Noun
+A39	Polarity T9 Pos
+T10	Event 364 376	transportava
+A40	Class T10 Occurrence
+A41	Event_Type T10 Transition
+A42	Pos T10 Verb
+A43	Tense T10 Past
+A44	Aspect T10 Imperfective
+A45	Polarity T10 Pos
+T11	Event 385 396	dissimulada
+A46	Class T11 State
+A47	Event_Type T11 State
+A48	Pos T11 Verb
+A49	VForm T11 Participle
+A50	Polarity T11 Pos
+T12	Event 418 424	detido
+A51	Class T12 Occurrence
+A52	Event_Type T12 Transition
+A53	Pos T12 Verb
+A54	Tense T12 Past
+A55	Aspect T12 Perfective
+A56	Polarity T12 Pos
+T13	Event 484 494	acrescenta
+A57	Class T13 Reporting
+A58	Event_Type T13 Transition
+A59	Pos T13 Verb
+A60	Tense T13 Present
+A61	Aspect T13 Imperfective
+A62	Polarity T13 Pos
+T14	Event 530 534;540 548	será presente
+A63	Class T14 Occurrence
+A64	Event_Type T14 Transition
+A65	Pos T14 Verb
+A66	Tense T14 Future
+A67	Mood T14 Future
+A68	Polarity T14 Pos
+T15	Time 535 539	hoje
+A69	Time_Type T15 Date
+A70	TemporalFunction T15 Publication_Time
+#3	AnnotatorNotes T15	value=2020-10-26 anchorTime=Publication_Time
+T16	Time 575 592	início de outubro
+A71	Time_Type T16 Date
+A72	TemporalFunction T16 None
+#4	AnnotatorNotes T16	value=2020-10-XX anchorTime=Publication_Time
+T17	Event 608 614	detido
+A73	Class T17 Occurrence
+A74	Event_Type T17 Transition
+A75	Pos T17 Verb
+A76	Tense T17 Past
+A77	Aspect T17 Perfective
+A78	VForm T17 Participle
+T18	Event 708 713	posse
+A79	Class T18 State
+A80	Event_Type T18 State
+A81	Pos T18 Noun
+A82	Polarity T18 Pos
+T19	Event 750 762	se preparava
+A83	Class T19 I_Action
+A84	Event_Type T19 Transition
+A85	Pos T19 Verb
+A86	Tense T19 Past
+A87	Aspect T19 Imperfective
+A88	Polarity T19 Pos
+T20	Event 768 774	viajar
+A89	Class T20 Occurrence
+A90	Event_Type T20 Process
+A91	Pos T20 Verb
+A92	VForm T20 Infinitive
+A93	Polarity T20 Pos
+T21	Event 806 814	detenção
+A94	Class T21 Occurrence
+A95	Event_Type T21 Transition
+A96	Pos T21 Noun
+A97	Polarity T21 Pos
+T22	Event 821 827	deteve
+A98	Class T22 Occurrence
+A99	Event_Type T22 Transition
+A100	Pos T22 Verb
+A101	Tense T22 Past
+A102	Aspect T22 Perfective
+A103	Polarity T22 Pos
+T23	Event 855 875	alegado envolvimento
+A104	Class T23 State
+A105	Event_Type T23 State
+A106	Pos T23 Noun
+A107	Polarity T23 Pos
+T24	Event 880 889	aquisição
+A108	Class T24 Occurrence
+A109	Event_Type T24 Transition
+A110	Pos T24 Noun
+A111	Polarity T24 Pos
+T25	Event 891 898	entrega
+A112	Class T25 Occurrence
+A113	Event_Type T25 Transition
+A114	Pos T25 Noun
+A115	Polarity T25 Pos
+T26	Event 901 926	facilitação na introdução
+A116	Class T26 Occurrence
+A117	Event_Type T26 Transition
+A118	Pos T26 Noun
+A119	Polarity T26 Pos
+T27	Event 233 236	voo
+A120	Class T27 State
+A121	Event_Type T27 State
+A122	Pos T27 Noun
+A123	Polarity T27 Pos
+R1	TLINK_isIncluded Arg1:T2 Arg2:T3	
+R2	TLINK_includes Arg1:T4 Arg2:T2	
+R3	TLINK_simultaneous Arg1:T5 Arg2:T2	
+R4	TLINK_isIncluded Arg1:T5 Arg2:T4	
+R5	TLINK_after Arg1:T6 Arg2:T5	
+R6	TLINK_after Arg1:T27 Arg2:T6	
+R7	TLINK_after Arg1:T7 Arg2:T27	
+R8	TLINK_includes Arg1:T8 Arg2:T7	
+R9	TLINK_identity Arg1:T9 Arg2:T8	
+R10	TLINK_isIncluded Arg1:T10 Arg2:T9	
+R11	TLINK_includes Arg1:T11 Arg2:T10	
+R12	TLINK_isIncluded Arg1:T12 Arg2:T11	
+R13	TLINK_simultaneous Arg1:T12 Arg2:T10	
+R14	TLINK_after Arg1:T13 Arg2:T12	
+R15	TLINK_after Arg1:T14 Arg2:T13	
+R16	TLINK_isIncluded Arg1:T14 Arg2:T15	
+R17	TLINK_isIncluded Arg1:T17 Arg2:T16	
+R18	TLINK_before Arg1:T17 Arg2:T14	
+R19	TLINK_includes Arg1:T18 Arg2:T17	
+R20	TLINK_isIncluded Arg1:T19 Arg2:T18	
+R21	TLINK_simultaneous Arg1:T19 Arg2:T17	
+R22	TLINK_after Arg1:T20 Arg2:T19	
+R23	TLINK_identity Arg1:T21 Arg2:T17	
+R24	TLINK_before Arg1:T21 Arg2:T20	
+R25	TLINK_simultaneous Arg1:T22 Arg2:T21	
+R26	TLINK_before Arg1:T23 Arg2:T22	
+R27	TLINK_simultaneous Arg1:T25 Arg2:T24	
+R28	TLINK_simultaneous Arg1:T26 Arg2:T25	
+R29	TLINK_isIncluded Arg1:T24 Arg2:T23	
+T28	Participant 101 137	A Polícia Judiciária da Guiné-Bissau
+A124	Lexical_Head T28 Noun
+A125	Individuation_Domain T28 Individual
+A126	Participant_Type_Domain T28 Org
+A127	Involvement T28 1
+T29	Participant 155 163	um homem
+A128	Lexical_Head T29 Noun
+A129	Individuation_Domain T29 Individual
+A130	Participant_Type_Domain T29 Per
+A131	Involvement T29 1
+T30	Participant 196 203	cocaína
+A132	Lexical_Head T30 Noun
+A134	Participant_Type_Domain T30 Obj
+T31	Participant 176 192	três quilogramas
+A136	Lexical_Head T31 Noun
+A137	Individuation_Domain T31 Individual
+A138	Participant_Type_Domain T31 Other
+A139	Involvement T31 >1
+T32	Participant 251 257	Lisboa
+A140	Lexical_Head T32 Noun
+A141	Individuation_Domain T32 Individual
+A142	Participant_Type_Domain T32 Loc
+A143	Involvement T32 1
+T33	Participant 268 289	aquela força policial
+A144	Lexical_Head T33 Noun
+A145	Individuation_Domain T33 Individual
+A146	Participant_Type_Domain T33 Org
+A147	Involvement T33 1
+T34	Participant 328 335	o homem
+A148	Lexical_Head T34 Noun
+A149	Individuation_Domain T34 Individual
+A150	Participant_Type_Domain T34 Per
+A151	Involvement T34 1
+T35	Participant 337 362	um cidadão luso-guineense
+A152	Lexical_Head T35 Noun
+A153	Individuation_Domain T35 Individual
+A154	Participant_Type_Domain T35 Per
+A155	Involvement T35 1
+T36	Participant 377 384	a droga
+A156	Lexical_Head T36 Noun
+A157	Individuation_Domain T36 Mass
+A158	Participant_Type_Domain T36 Obj
+A159	Involvement T36 Und
+T37	Participant 400 403	sua
+A133	Lexical_Head T37 Pronoun
+A135	Individuation_Domain T37 Individual
+A160	Participant_Type_Domain T37 Per
+A161	Involvement T37 1
+T38	Participant 404 411	cintura
+A162	Lexical_Head T38 Noun
+A163	Individuation_Domain T38 Individual
+A164	Participant_Type_Domain T38 Other
+A165	Involvement T38 1
+T39	Participant 428 466	aeroporto internacional Osvaldo Vieira
+A166	Lexical_Head T39 Noun
+A167	Individuation_Domain T39 Individual
+A168	Participant_Type_Domain T39 Loc
+A169	Involvement T39 1
+T40	Participant 471 477	Bissau
+A170	Lexical_Head T40 Noun
+A171	Individuation_Domain T40 Individual
+A172	Participant_Type_Domain T40 Loc
+A173	Involvement T40 1
+T41	Participant 479 483	A PJ
+A174	Lexical_Head T41 Noun
+A175	Individuation_Domain T41 Individual
+A176	Participant_Type_Domain T41 Org
+A177	Involvement T41 1
+T42	Participant 499 528	o homem, com 47 anos de idade
+A178	Lexical_Head T42 Noun
+A179	Individuation_Domain T42 Individual
+A180	Participant_Type_Domain T42 Per
+A181	Involvement T42 1
+T43	Participant 552 570	Ministério Público
+A182	Lexical_Head T43 Noun
+A183	Individuation_Domain T43 Individual
+A184	Participant_Type_Domain T43 Org
+A185	Involvement T43 1
+T44	Participant 594 598	a PJ
+A186	Lexical_Head T44 Noun
+A187	Individuation_Domain T44 Individual
+A188	Participant_Type_Domain T44 Org
+A189	Involvement T44 1
+T45	Participant 625 649	aeroporto Osvaldo Vieira
+A190	Lexical_Head T45 Noun
+A191	Individuation_Domain T45 Individual
+A192	Participant_Type_Domain T45 Loc
+A193	Involvement T45 1
+T46	Participant 650 703	um outro cidadão luso-guineense, com 22 anos de idade
+A194	Lexical_Head T46 Noun
+A195	Individuation_Domain T46 Individual
+A196	Participant_Type_Domain T46 Per
+A197	Involvement T46 1
+T47	Participant 734 741	cocaína
+A198	Lexical_Head T47 Noun
+A199	Individuation_Domain T47 Mass
+A200	Participant_Type_Domain T47 Obj
+A201	Involvement T47 Und
+T48	Participant 717 730	um quilograma
+A202	Lexical_Head T48 Noun
+A203	Individuation_Domain T48 Individual
+A204	Participant_Type_Domain T48 Other
+A205	Involvement T48 1
+T49	Participant 780 786	Lisboa
+A206	Lexical_Head T49 Noun
+A207	Individuation_Domain T49 Individual
+A208	Participant_Type_Domain T49 Loc
+A209	Involvement T49 1
+T50	Participant 816 820	a PJ
+A210	Lexical_Head T50 Noun
+A211	Individuation_Domain T50 Individual
+A212	Participant_Type_Domain T50 Org
+A213	Involvement T50 1
+T51	Participant 839 850	três homens
+A214	Lexical_Head T51 Noun
+A215	Individuation_Domain T51 Individual
+A216	Participant_Type_Domain T51 Per
+A217	Involvement T51 >1
+T52	Participant 931 936	droga
+A218	Lexical_Head T52 Noun
+A219	Individuation_Domain T52 Individual
+A220	Participant_Type_Domain T52 Obj
+A221	Involvement T52 Und
+T53	Participant 940 948	interior
+A222	Lexical_Head T53 Noun
+A223	Individuation_Domain T53 Individual
+A224	Participant_Type_Domain T53 Loc
+A225	Involvement T53 1
+T54	Participant 952 961	aeroporto
+A226	Lexical_Head T54 Noun
+A227	Individuation_Domain T54 Individual
+A228	Participant_Type_Domain T54 Loc
+A229	Involvement T54 1
+R30	OLINK_objIdentity Arg1:T33 Arg2:T28	
+R31	OLINK_objIdentity Arg1:T34 Arg2:T29	
+R32	OLINK_objIdentity Arg1:T35 Arg2:T34	
+R33	OLINK_objIdentity Arg1:T36 Arg2:T30	
+A230	Individuation_Domain T30 Mass
+A231	Involvement T30 Und
+R34	OLINK_objIdentity Arg1:T37 Arg2:T34	
+R35	OLINK_partOf Arg1:T38 Arg2:T37	
+R36	OLINK_partOf Arg1:T39 Arg2:T40	
+R37	OLINK_objIdentity Arg1:T42 Arg2:T37	
+R38	OLINK_objIdentity Arg1:T44 Arg2:T41	
+R39	OLINK_objIdentity Arg1:T45 Arg2:T39	
+R40	OLINK_objIdentity Arg1:T49 Arg2:T32	
+R41	OLINK_objIdentity Arg1:T50 Arg2:T44	
+R42	OLINK_partOf Arg1:T47 Arg2:T52	
+R43	OLINK_partOf Arg1:T53 Arg2:T54	
+R44	OLINK_objIdentity Arg1:T54 Arg2:T45	
+R45	SRLINK_agent Arg1:T2 Arg2:T28	
+R46	SRLINK_patient Arg1:T2 Arg2:T29	
+R47	SRLINK_pivot Arg1:T4 Arg2:T29	
+R48	SRLINK_theme Arg1:T4 Arg2:T30	
+R49	SRLINK_amount Arg1:T4 Arg2:T31	
+R50	SRLINK_agent Arg1:T5 Arg2:T29	
+R51	SLINK_intensional Arg1:T5 Arg2:T6	
+R52	SRLINK_theme Arg1:T5 Arg2:T6	
+R53	SRLINK_location Arg1:T6 Arg2:T27	
+R54	SRLINK_finalLocation Arg1:T27 Arg2:T32	
+R55	SLINK_evidential Arg1:T7 Arg2:T2	
+R56	SRLINK_theme Arg1:T7 Arg2:T2	
+R57	SRLINK_agent Arg1:T7 Arg2:T33	
+R58	SRLINK_medium Arg1:T7 Arg2:T8	
+R59	SRLINK_agent Arg1:T10 Arg2:T35	
+R60	SRLINK_theme Arg1:T10 Arg2:T36	
+R61	SRLINK_manner Arg1:T10 Arg2:T11	
+R62	SRLINK_theme Arg1:T11 Arg2:T38	
+R63	SRLINK_patient Arg1:T12 Arg2:T35	
+R64	SRLINK_location Arg1:T12 Arg2:T39	
+R65	SRLINK_agent Arg1:T13 Arg2:T41	
+R66	SLINK_evidential Arg1:T13 Arg2:T14	
+R67	SRLINK_theme Arg1:T13 Arg2:T14	
+R68	SRLINK_patient Arg1:T14 Arg2:T42	
+R69	SRLINK_goal Arg1:T14 Arg2:T43	
+R70	SRLINK_agent Arg1:T17 Arg2:T44	
+R71	SRLINK_location Arg1:T17 Arg2:T45	
+R72	SRLINK_patient Arg1:T17 Arg2:T46	
+R73	SRLINK_reason Arg1:T17 Arg2:T18	
+R74	SRLINK_reason Arg1:T2 Arg2:T4	
+R75	SRLINK_theme Arg1:T18 Arg2:T47	
+R76	SRLINK_amount Arg1:T18 Arg2:T48	
+R77	SRLINK_pivot Arg1:T18 Arg2:T46	
+R78	SRLINK_agent Arg1:T19 Arg2:T46	
+R79	SRLINK_theme Arg1:T19 Arg2:T20	
+R80	SLINK_intensional Arg1:T19 Arg2:T20	
+R81	SRLINK_finalLocation Arg1:T20 Arg2:T49	
+R82	SRLINK_setting Arg1:T22 Arg2:T21	
+R83	SRLINK_agent Arg1:T22 Arg2:T50	
+R84	SRLINK_patient Arg1:T22 Arg2:T51	
+R85	SRLINK_reason Arg1:T22 Arg2:T23	
+R86	SRLINK_theme Arg1:T23 Arg2:T24	
+R87	SRLINK_theme Arg1:T26 Arg2:T52	
+R88	SRLINK_location Arg1:T26 Arg2:T53	
+R89	SRLINK_theme Arg1:T23 Arg2:T25	
+R90	SRLINK_theme Arg1:T23 Arg2:T26	

@@ -1,0 +1,410 @@
+T1	Time 7 18	02 dez 2020
+A1	Time_Type T1 Date
+A2	TemporalFunction T1 Publication_Time
+#1	AnnotatorNotes T1	value=2020-12-02
+T2	Event 117 123	acusou
+A3	Class T2 Occurrence
+A4	Event_Type T2 Transition
+A5	Pos T2 Verb
+A6	Tense T2 Past
+A7	Aspect T2 Perfective
+A8	Polarity T2 Pos
+T3	Event 154 162	peculato
+A9	Class T3 Occurrence
+A10	Event_Type T3 Process
+A11	Pos T3 Noun
+A12	Polarity T3 Pos
+T4	Event 165 179	abuso de poder
+A13	Class T4 Occurrence
+A14	Event_Type T4 Process
+A15	Pos T4 Noun
+A16	Polarity T4 Pos
+T5	Event 201 212	falsificado
+A17	Class T5 Occurrence
+A18	Event_Type T5 Transition
+A19	Pos T5 Verb
+A20	Tense T5 Past
+A21	Aspect T5 Perfective
+A22	VForm T5 Infinitive
+A23	Polarity T5 Pos
+T6	Event 261 269	logrando
+A24	Class T6 I_Action
+A25	Event_Type T6 Process
+A26	Pos T6 Verb
+A27	Tense T6 Present
+A28	Aspect T6 Imperfective
+A29	VForm T6 Gerundive
+A30	Polarity T6 Pos
+T7	Event 276 283	receber
+A31	Class T7 Occurrence
+A32	Event_Type T7 Transition
+A33	Pos T7 Verb
+A34	VForm T7 Infinitive
+A35	Polarity T7 Pos
+T8	Event 319 323	nota
+A36	Class T8 Reporting
+A37	Event_Type T8 State
+A38	Pos T8 Noun
+A39	Polarity T8 Pos
+T9	Time 324 328	hoje
+A40	Time_Type T9 Date
+A41	TemporalFunction T9 Publication_Time
+#2	AnnotatorNotes T9	value=2020-12-02 anchorTime=Publication_Time
+T10	Event 329 338	publicada
+A42	Class T10 Occurrence
+A43	Event_Type T10 Transition
+A44	Pos T10 Verb
+A45	Tense T10 Past
+A46	Aspect T10 Perfective
+A47	VForm T10 Participle
+A48	Polarity T10 Pos
+T11	Event 404 409	chefe
+A49	Class T11 State
+A50	Event_Type T11 State
+A51	Pos T11 Verb
+A52	Tense T11 Past
+A53	Aspect T11 Progressive
+A54	Polarity T11 Pos
+T12	Event 489 502	preenchimento
+A55	Class T12 Occurrence
+A56	Event_Type T12 Transition
+A57	Pos T12 Noun
+A58	Polarity T12 Pos
+T13	Event 505 510	envio
+A59	Class T13 Occurrence
+A60	Event_Type T13 Transition
+A61	Pos T13 Noun
+A62	Polarity T13 Pos
+T14	Event 516 529	processamento
+A63	Class T14 Occurrence
+A64	Event_Type T14 Transition
+A65	Pos T14 Noun
+A66	Polarity T14 Pos
+T15	Event 618 625	incluiu
+A67	Class T15 Occurrence
+A68	Event_Type T15 Process
+A69	Pos T15 Verb
+A70	Tense T15 Past
+A71	Aspect T15 Perfective
+A72	Polarity T15 Pos
+T16	Event 691 710	não tivesse direito
+A73	Class T16 State
+A74	Event_Type T16 State
+A75	Pos T16 Verb
+A76	Tense T16 Past
+A77	Polarity T16 Neg
+T17	Event 713 720	receber
+A78	Class T17 Occurrence
+A79	Event_Type T17 Transition
+A80	Pos T17 Verb
+A81	VForm T17 Infinitive
+A82	Polarity T17 Pos
+T18	Event 738 744	refere
+A83	Class T18 Reporting
+A84	Event_Type T18 Transition
+A85	Pos T18 Verb
+A86	Tense T18 Present
+A87	Aspect T18 Imperfective
+A88	Polarity T18 Pos
+T19	Event 747 751	nota
+A89	Class T19 Reporting
+A90	Event_Type T19 State
+A91	Pos T19 Noun
+A92	Polarity T19 Pos
+T20	Event 774 782	concluiu
+A93	Class T20 Perception
+A94	Pos T20 Verb
+A95	Tense T20 Past
+A96	Aspect T20 Perfective
+A97	Polarity T20 Pos
+T21	Event 811 818	recebeu
+A98	Class T21 Occurrence
+A99	Event_Type T21 Transition
+A100	Pos T21 Verb
+A101	Tense T21 Past
+A102	Aspect T21 Perfective
+A103	Polarity T21 Pos
+T22	Event 892 899	acusado
+A104	Class T22 State
+A105	Event_Type T22 State
+A106	Pos T22 Verb
+A107	Tense T22 Present
+A108	Aspect T22 Progressive
+A109	Polarity T22 Pos
+T23	Event 907 915	ordenado
+A110	Class T23 I_Action
+A111	Event_Type T23 Transition
+A112	Pos T23 Verb
+A113	Tense T23 Past
+A114	Aspect T23 Perfective
+A115	VForm T23 Infinitive
+A116	Polarity T23 Pos
+T24	Event 1003 1016	substituíssem
+A117	Class T24 Occurrence
+A118	Event_Type T24 Process
+A119	Pos T24 Verb
+A120	Tense T24 Past
+A121	Mood T24 Subjunctive
+A122	Polarity T24 Pos
+T25	Event 1020 1028	execução
+A123	Class T25 Occurrence
+A124	Event_Type T25 Process
+A125	Pos T25 Noun
+A126	Polarity T25 Pos
+T26	Event 1060 1068	escalado
+A127	Class T26 State
+A128	Event_Type T26 State
+A129	Pos T26 Verb
+A130	Tense T26 Past
+A131	Aspect T26 Progressive
+A132	Polarity T26 Pos
+R1	TLINK_before Arg1:T3 Arg2:T2	
+R2	TLINK_simultaneous Arg1:T4 Arg2:T3	
+R3	TLINK_identity Arg1:T5 Arg2:T4	
+R4	TLINK_identity Arg1:T5 Arg2:T3	
+R5	SLINK_intensional Arg1:T6 Arg2:T7	
+R6	TLINK_simultaneous Arg1:T7 Arg2:T6	
+R7	TLINK_isIncluded Arg1:T10 Arg2:T9	
+R8	TLINK_after Arg1:T8 Arg2:T7	
+R9	TLINK_identity Arg1:T10 Arg2:T8	
+R10	TLINK_before Arg1:T11 Arg2:T10	
+T27	Event 472 483	responsável
+A133	Class T27 State
+A134	Event_Type T27 State
+A135	Pos T27 Adjective
+A136	Polarity T27 Pos
+R11	TLINK_isIncluded Arg1:T12 Arg2:T27	
+R12	TLINK_after Arg1:T13 Arg2:T12	
+R13	TLINK_after Arg1:T14 Arg2:T13	
+T28	Event 646 658	beneficiário
+A137	Class T28 State
+A138	Event_Type T28 State
+A139	Pos T28 Adjective
+A140	Polarity T28 Pos
+R14	TLINK_before Arg1:T15 Arg2:T14	
+R15	TLINK_isIncluded Arg1:T28 Arg2:T15	
+R16	TLINK_includes Arg1:T16 Arg2:T28	
+R17	TLINK_isIncluded Arg1:T17 Arg2:T16	
+R18	TLINK_after Arg1:T18 Arg2:T17	
+R19	TLINK_includes Arg1:T19 Arg2:T18	
+R20	TLINK_before Arg1:T20 Arg2:T19	
+R21	TLINK_before Arg1:T21 Arg2:T20	
+R22	TLINK_includes Arg1:T22 Arg2:T21	
+R23	TLINK_before Arg1:T23 Arg2:T22	
+R24	TLINK_after Arg1:T24 Arg2:T23	
+R25	TLINK_simultaneous Arg1:T25 Arg2:T24	
+R26	TLINK_includes Arg1:T26 Arg2:T25	
+T29	Participant 91 116	O Ministério Público (MP)
+A141	Lexical_Head T29 Noun
+A142	Individuation_Domain T29 Individual
+A143	Participant_Type_Domain T29 Org
+A144	Involvement T29 1
+T30	Participant 124 134	um militar
+A145	Lexical_Head T30 Noun
+A146	Individuation_Domain T30 Individual
+A147	Participant_Type_Domain T30 Per
+A148	Involvement T30 1
+T31	Participant 138 150	GNR de Braga
+A149	Lexical_Head T31 Noun
+A150	Individuation_Domain T31 Individual
+A151	Participant_Type_Domain T31 Org
+A152	Involvement T31 1
+R27	OLINK_partOf Arg1:T30 Arg2:T31	
+T32	Participant 213 259	os mapas mensais de suplementos remuneratórios
+A153	Lexical_Head T32 Noun
+A154	Individuation_Domain T32 Individual
+A155	Participant_Type_Domain T32 Other
+A156	Involvement T32 >1
+T33	Participant 298 309	5.400 euros
+A157	Lexical_Head T33 Noun
+A158	Individuation_Domain T33 Individual
+A159	Participant_Type_Domain T33 Obj
+A160	Involvement T33 >1
+T34	Participant 342 348	página
+A161	Lexical_Head T34 Noun
+A162	Individuation_Domain T34 Individual
+A163	Participant_Type_Domain T34 Other
+A164	Involvement T34 1
+T35	Participant 352 388	Procuradoria-Geral Regional do Porto
+A165	Lexical_Head T35 Noun
+A166	Individuation_Domain T35 Individual
+A167	Participant_Type_Domain T35 Org
+A168	Involvement T35 1
+T36	Participant 390 399	o arguido
+A169	Lexical_Head T36 Noun
+A170	Individuation_Domain T36 Individual
+A171	Participant_Type_Domain T36 Per
+A172	Involvement T36 1
+T37	Participant 413 444	Núcleo de Investigação Criminal
+A173	Lexical_Head T37 Noun
+A174	Individuation_Domain T37 Individual
+A175	Participant_Type_Domain T37 Org
+A176	Involvement T37 1
+T38	Participant 448 460	GNR de Braga
+A177	Lexical_Head T38 Noun
+A178	Individuation_Domain T38 Individual
+A179	Participant_Type_Domain T38 Org
+A180	Involvement T38 1
+R28	OLINK_partOf Arg1:T37 Arg2:T38	
+R29	OLINK_partOf Arg1:T34 Arg2:T35	
+R30	OLINK_objIdentity Arg1:T36 Arg2:T30	
+R31	OLINK_objIdentity Arg1:T38 Arg2:T31	
+T39	Participant 534 577	mapas mensais de suplementos remuneratórios
+A181	Lexical_Head T39 Noun
+A182	Individuation_Domain T39 Individual
+A183	Participant_Type_Domain T39 Other
+A184	Involvement T39 >1
+R32	OLINK_objIdentity Arg1:T39 Arg2:T32	
+T40	Participant 628 631	seu
+A185	Lexical_Head T40 Pronoun
+A186	Individuation_Domain T40 Individual
+A187	Participant_Type_Domain T40 Per
+A188	Involvement T40 1
+R33	OLINK_objIdentity Arg1:T40 Arg2:T36	
+T41	Participant 632 636	nome
+A189	Lexical_Head T41 Noun
+A190	Individuation_Domain T41 Individual
+A191	Participant_Type_Domain T41 Other
+A192	Involvement T41 1
+R34	OLINK_partOf Arg1:T41 Arg2:T40	
+T42	Participant 662 682	suplemento de escala
+A193	Lexical_Head T42 Noun
+A194	Individuation_Domain T42 Individual
+A195	Participant_Type_Domain T42 Other
+A196	Involvement T42 1
+T43	Participant 725 735	suplemento
+A197	Lexical_Head T43 Noun
+A198	Individuation_Domain T43 Individual
+A199	Participant_Type_Domain T43 Other
+A200	Involvement T43 1
+R35	OLINK_partOf Arg1:T42 Arg2:T39	
+R36	OLINK_objIdentity Arg1:T43 Arg2:T42	
+T44	Participant 753 773	O Ministério Público
+A201	Lexical_Head T44 Noun
+A202	Individuation_Domain T44 Individual
+A203	Participant_Type_Domain T44 Org
+A204	Involvement T44 1
+R37	OLINK_objIdentity Arg1:T44 Arg2:T29	
+R38	OLINK_partOf Arg1:T35 Arg2:T29	
+T45	Participant 801 810	o arguido
+A205	Lexical_Head T45 Noun
+A206	Individuation_Domain T45 Individual
+A207	Participant_Type_Domain T45 Per
+A208	Involvement T45 1
+T46	Participant 833 869	o montante líquido de 5.400,17 euros
+A209	Lexical_Head T46 Noun
+A210	Individuation_Domain T46 Set
+A211	Participant_Type_Domain T46 Obj
+A212	Involvement T46 1
+T47	Participant 871 880	O arguido
+A213	Lexical_Head T47 Noun
+A214	Individuation_Domain T47 Individual
+A215	Participant_Type_Domain T47 Per
+A216	Involvement T47 1
+R39	OLINK_objIdentity Arg1:T47 Arg2:T45	
+R40	OLINK_objIdentity Arg1:T45 Arg2:T40	
+R41	OLINK_objIdentity Arg1:T46 Arg2:T33	
+T48	Participant 920 929	militares
+A217	Lexical_Head T48 Noun
+A218	Individuation_Domain T48 Individual
+A219	Participant_Type_Domain T48 Per
+A220	Involvement T48 >1
+T49	Participant 933 941	efectivo
+A221	Lexical_Head T49 Noun
+A222	Individuation_Domain T49 Set
+A223	Participant_Type_Domain T49 Per
+A224	Involvement T49 1
+R42	OLINK_partOf Arg1:T48 Arg2:T49	
+T50	Participant 945 976	Núcleo de Investigação Criminal
+A225	Lexical_Head T50 Noun
+A226	Individuation_Domain T50 Individual
+A227	Participant_Type_Domain T50 Org
+A228	Involvement T50 1
+R43	OLINK_partOf Arg1:T50 Arg2:T44	
+T51	Participant 978 982	seus
+A229	Lexical_Head T51 Pronoun
+A230	Individuation_Domain T51 Individual
+A231	Participant_Type_Domain T51 Per
+A232	Involvement T51 1
+R44	OLINK_objIdentity Arg1:T51 Arg2:T47	
+T52	Participant 983 995	subordinados
+A233	Lexical_Head T52 Noun
+A234	Individuation_Domain T52 Individual
+A235	Participant_Type_Domain T52 Per
+A236	Involvement T52 >1
+R45	OLINK_objIdentity Arg1:T52 Arg2:T48	
+T53	Participant 1032 1039	serviço
+A237	Lexical_Head T53 Noun
+A238	Individuation_Domain T53 Individual
+A239	Participant_Type_Domain T53 Other
+A240	Involvement T53 Und
+T54	Participant 1049 1052	ele
+A241	Lexical_Head T54 Pronoun
+A242	Individuation_Domain T54 Individual
+A243	Participant_Type_Domain T54 Per
+A244	Involvement T54 1
+T55	Participant 1045 1048	que
+A245	Lexical_Head T55 Pronoun
+A246	Participant_Type_Domain T55 Other
+A247	Involvement T55 Und
+R46	OLINK_objIdentity Arg1:T55 Arg2:T53	
+R47	OLINK_objIdentity Arg1:T54 Arg2:T56	
+R48	SRLINK_agent Arg1:T2 Arg2:T29	
+R49	SRLINK_patient Arg1:T2 Arg2:T30	
+R50	SRLINK_theme Arg1:T2 Arg2:T3	
+R51	SRLINK_theme Arg1:T2 Arg2:T4	
+R52	SRLINK_reason Arg1:T2 Arg2:T5	
+R53	SRLINK_patient Arg1:T5 Arg2:T32	
+R54	SRLINK_agent Arg1:T6 Arg2:T30	
+R55	SRLINK_theme Arg1:T6 Arg2:T7	
+R56	SRLINK_theme Arg1:T7 Arg2:T33	
+R57	SRLINK_location Arg1:T10 Arg2:T34	
+R58	SRLINK_patient Arg1:T10 Arg2:T8	
+R59	SRLINK_agent Arg1:T10 Arg2:T35	
+R60	SRLINK_pivot Arg1:T11 Arg2:T36	
+R61	SRLINK_theme Arg1:T11 Arg2:T37	
+R62	SRLINK_pivot Arg1:T27 Arg2:T36	
+R63	SRLINK_theme Arg1:T27 Arg2:T12	
+R64	SRLINK_theme Arg1:T27 Arg2:T13	
+R65	SRLINK_purpose Arg1:T13 Arg2:T14	
+R66	SRLINK_patient Arg1:T12 Arg2:T39	
+R67	SRLINK_patient Arg1:T13 Arg2:T39	
+R68	SRLINK_patient Arg1:T14 Arg2:T39	
+R69	SRLINK_agent Arg1:T15 Arg2:T36	
+R70	SRLINK_theme Arg1:T15 Arg2:T41	
+R71	SRLINK_purpose Arg1:T15 Arg2:T28	
+R72	SRLINK_theme Arg1:T28 Arg2:T42	
+R73	SRLINK_pivot Arg1:T16 Arg2:T36	
+R74	SRLINK_theme Arg1:T16 Arg2:T17	
+R75	SRLINK_theme Arg1:T17 Arg2:T43	
+R76	SRLINK_source Arg1:T18 Arg2:T19	
+R77	SRLINK_theme Arg1:T18 Arg2:T15	
+R78	SLINK_evidential Arg1:T18 Arg2:T15	
+R79	SRLINK_agent Arg1:T20 Arg2:T44	
+R80	SLINK_evidential Arg1:T20 Arg2:T21	
+R81	SRLINK_theme Arg1:T20 Arg2:T21	
+R82	SRLINK_patient Arg1:T21 Arg2:T45	
+R83	SRLINK_theme Arg1:T21 Arg2:T46	
+R84	SRLINK_pivot Arg1:T22 Arg2:T47	
+R85	SRLINK_reason Arg1:T22 Arg2:T23	
+R86	SRLINK_agent Arg1:T23 Arg2:T47	
+R87	SRLINK_goal Arg1:T23 Arg2:T48	
+R88	SRLINK_theme Arg1:T23 Arg2:T24	
+R89	SLINK_intensional Arg1:T23 Arg2:T24	
+T56	Participant 1001 1002	o
+A248	Lexical_Head T56 Pronoun
+A249	Individuation_Domain T56 Individual
+A250	Participant_Type_Domain T56 Per
+A251	Involvement T56 1
+R90	OLINK_objIdentity Arg1:T56 Arg2:T47	
+R91	SRLINK_agent Arg1:T24 Arg2:T48	
+R92	SRLINK_patient Arg1:T24 Arg2:T56	
+R93	SRLINK_theme Arg1:T24 Arg2:T25	
+R94	SRLINK_theme Arg1:T25 Arg2:T53	
+R95	SRLINK_pivot Arg1:T26 Arg2:T54	
+R96	SRLINK_purpose Arg1:T26 Arg2:T53	
+T57	Time 579 616	de novembro de 2011 a outubro de 2016
+A252	Time_Type T57 Duration
+A253	TemporalFunction T57 None
+#3	AnnotatorNotes T57	value=P4Y11M anchorTime=Publication_Time
+R97	TLINK_during Arg1:T15 Arg2:T57	

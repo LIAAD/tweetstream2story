@@ -1,0 +1,236 @@
+T1	Event 185 190	pediu
+A1	Class T1 I_Action
+A2	Pos T1 Verb
+A3	Tense T1 Past
+A4	Aspect T1 Perfective
+A5	Polarity T1 Pos
+T2	Time 191 195	hoje
+A6	Time_Type T2 Date
+A7	TemporalFunction T2 Publication_Time
+#1	AnnotatorNotes T2	value=2020-12-21
+T3	Event 196 204	desculpa
+A8	Class T3 State
+A9	Event_Type T3 State
+A10	Pos T3 Noun
+A11	Polarity T3 Pos
+T4	Event 211 216	erros
+A12	Class T4 Occurrence
+A13	Event_Type T4 Transition
+A14	Pos T4 Noun
+A15	Polarity T4 Pos
+T5	Event 262 269	levaram
+A16	Class T5 Occurrence
+A17	Pos T5 Verb
+A18	Tense T5 Past
+A19	Aspect T5 Perfective
+A20	Polarity T5 Pos
+A21	Event_Type T5 Transition
+T6	Event 284 290	mortes
+A22	Class T6 Occurrence
+A23	Event_Type T6 Transition
+A24	Pos T6 Noun
+A25	Polarity T6 Pos
+T7	Event 232 242	quarentena
+A26	Class T7 State
+A27	Event_Type T7 State
+A28	Pos T7 Noun
+A29	Polarity T7 Pos
+T8	Event 320 330	divulgação
+A30	Class T8 Occurrence
+A31	Event_Type T8 Transition
+A32	Pos T8 Noun
+A33	Polarity T8 Pos
+T9	Event 407 415	explicou
+A34	Class T9 Reporting
+A35	Event_Type T9 Process
+A36	Pos T9 Verb
+A37	Tense T9 Past
+A38	Aspect T9 Perfective
+A39	Polarity T9 Pos
+T10	Event 455 467	implementado
+A40	Class T10 Occurrence
+A41	Event_Type T10 Transition
+A42	Pos T10 Verb
+A43	Tense T10 Past
+A44	Aspect T10 Perfective
+A45	Polarity T10 Pos
+T11	Event 220 228	programa
+A46	Class T11 State
+A47	Event_Type T11 State
+A48	Pos T11 Noun
+A49	Polarity T11 Pos
+T12	Event 334 343	relatório
+A50	Class T12 Reporting
+A51	Event_Type T12 State
+A52	Pos T12 Noun
+A53	Polarity T12 Pos
+T13	Event 347 359	investigação
+A54	Class T13 Occurrence
+A55	Event_Type T13 Process
+A56	Pos T13 Noun
+A57	Polarity T13 Pos
+T14	Event 433 443	quarentena
+A58	Class T14 State
+A59	Event_Type T14 State
+A60	Pos T14 Noun
+A61	Polarity T14 Pos
+T15	Event 517 522	Quero
+A62	Class T15 I_State
+A63	Event_Type T15 State
+A64	Pos T15 Verb
+A65	Tense T15 Present
+A66	Aspect T15 Imperfective
+A67	Polarity T15 Pos
+T16	Event 523 528	pedir
+A68	Class T16 I_Action
+A69	Event_Type T16 Transition
+A70	Pos T16 Verb
+A71	VForm T16 Infinitive
+A72	Polarity T16 Pos
+T17	Event 529 537	desculpa
+A73	Class T17 State
+A74	Event_Type T17 State
+A75	Pos T17 Noun
+A76	Polarity T17 Pos
+T18	Event 567 572	erros
+A77	Class T18 Occurrence
+A78	Event_Type T18 Transition
+A79	Pos T18 Noun
+A80	Polarity T18 Pos
+T19	Event 596 605	cometidos
+A81	Class T19 Occurrence
+A82	Event_Type T19 Transition
+A83	Pos T19 Verb
+A84	Tense T19 Past
+A85	Aspect T19 Perfective
+A86	Polarity T19 Pos
+T20	Event 612 620	programa
+A87	Class T20 State
+A88	Event_Type T20 State
+A89	Pos T20 Noun
+A90	Polarity T20 Pos
+T21	Event 623 628	disse
+A91	Class T21 Reporting
+A92	Event_Type T21 Transition
+A93	Pos T21 Verb
+A94	Tense T21 Past
+A95	Aspect T21 Perfective
+A96	Polarity T21 Pos
+T22	Event 640 654	fraco controlo
+A97	Class T22 Occurrence
+A98	Event_Type T22 Process
+A99	Pos T22 Noun
+A100	Polarity T22 Pos
+T23	Event 673 683	quarentena
+A101	Class T23 State
+A102	Event_Type T23 State
+A103	Pos T23 Noun
+A104	Polarity T23 Pos
+T24	Event 684 697	desencadearam
+A105	Class T24 Occurrence
+A106	Event_Type T24 Transition
+A107	Pos T24 Verb
+A108	Tense T24 Past
+A109	Aspect T24 Perfective
+A110	Polarity T24 Pos
+T25	Event 702 706	onda
+A111	Class T25 State
+A112	Event_Type T25 State
+A113	Pos T25 Noun
+A114	Polarity T25 Pos
+T26	Event 710 718	infeções
+A115	Class T26 Occurrence
+A116	Event_Type T26 Transition
+A117	Pos T26 Noun
+A118	Polarity T26 Pos
+T27	Event 788 794	estado
+A119	Class T27 State
+A120	Event_Type T27 State
+A121	Pos T27 Verb
+A122	Tense T27 Past
+A123	Aspect T27 Imperfective_Progressive
+A124	VForm T27 Participle
+A125	Polarity T27 Pos
+T28	Event 811 816	livre
+A126	Class T28 State
+A127	Event_Type T28 State
+A128	Pos T28 Noun
+A129	Polarity T28 Pos
+T29	Event 835 841	mortes
+A130	Class T29 Occurrence
+A131	Event_Type T29 Transition
+A132	Pos T29 Noun
+A133	Polarity T29 Pos
+T30	Event 873 881	morreram
+A134	Class T30 Occurrence
+A135	Event_Type T30 Transition
+A136	Pos T30 Verb
+A137	Tense T30 Past
+A138	Aspect T30 Perfective
+A139	Polarity T30 Pos
+T31	Event 905 912	fornece
+A140	Class T31 I_Action
+A141	Event_Type T31 Process
+A142	Pos T31 Verb
+A143	Tense T31 Present
+A144	Aspect T31 Progressive
+A145	Polarity T31 Pos
+T32	Event 919 928	segurança
+A146	Class T32 State
+A147	Event_Type T32 State
+A148	Pos T32 Noun
+A149	Polarity T32 Pos
+T33	Event 943 953	quarentena
+A150	Class T33 State
+A151	Event_Type T33 State
+A152	Pos T33 Noun
+A153	Polarity T33 Pos
+T34	Event 1000 1005	feito
+A154	Class T34 State
+A155	Event_Type T34 State
+A156	Pos T34 Verb
+A157	Tense T34 Past
+A158	Aspect T34 Perfective
+A160	Polarity T34 Pos
+T35	Event 1062 1071	registada
+A159	Class T35 Reporting
+A161	Event_Type T35 Transition
+A162	Pos T35 Verb
+A163	Tense T35 Past
+A164	Aspect T35 Imperfective
+A165	Polarity T35 Neg
+T36	Event 1075 1079	caso
+A166	Class T36 Occurrence
+A167	Event_Type T36 Transition
+A168	Pos T36 Noun
+A169	Polarity T36 Pos
+T37	Event 1083 1106	transmissão comunitária
+A170	Class T37 Occurrence
+A171	Event_Type T37 Transition
+A172	Pos T37 Noun
+A173	Polarity T37 Pos
+R1	TLINK_identity Arg1:T37 Arg2:T36	
+T38	Event 1145 1152	começou
+A174	Class T38 Aspectual
+A175	Event_Type T38 Transition
+A176	Pos T38 Verb
+A177	Tense T38 Past
+A178	Aspect T38 Perfective
+A179	Polarity T38 Pos
+T39	Event 1155 1162	aceitar
+A180	Class T39 I_Action
+A181	Event_Type T39 Transition
+A182	Pos T39 Verb
+A183	VForm T39 Infinitive
+A184	Polarity T39 Pos
+R2	ALINK_initiates Arg1:T38 Arg2:T39	
+T40	Event 1163 1186	chegadas internacionais
+A185	Class T40 Occurrence
+A186	Event_Type T40 Transition
+A187	Pos T40 Noun
+A188	Polarity T40 Pos
+R3	SLINK_intensional Arg1:T39 Arg2:T40	
+R4	SLINK_evidential Arg1:T21 Arg2:T15	
+R5	SRLINK_theme Arg1:T21 Arg2:T15	
+R6	SLINK_intensional Arg1:T31 Arg2:T32	
+R7	SRLINK_theme Arg1:T31 Arg2:T32	

@@ -1,0 +1,505 @@
+T1	Time 8 19	25 dez 2020
+A1	Time_Type T1 Date
+A2	TemporalFunction T1 Publication_Time
+#1	AnnotatorNotes T1	value=2020-12-25
+T2	Event 152 176	foi mantido em cativeiro
+A3	Class T2 State
+A4	Event_Type T2 State
+A5	Pos T2 Verb
+A6	Tense T2 Past
+A7	Aspect T2 Perfective
+A8	Polarity T2 Pos
+T3	Time 177 195	durante seis meses
+A9	Time_Type T3 Duration
+A10	TemporalFunction T3 None
+#2	AnnotatorNotes T3	value=P6M anchorTime=Publication_Time
+T4	Event 214 220	morreu
+A11	Class T4 Occurrence
+A12	Event_Type T4 Transition
+A13	Pos T4 Verb
+A14	Tense T4 Past
+A15	Aspect T4 Perfective
+A16	Polarity T4 Pos
+T5	Time 221 225	hoje
+A17	Time_Type T5 Date
+A18	TemporalFunction T5 Publication_Time
+#3	AnnotatorNotes T5	value=2020-12-25 anchorTime=Publication_Time
+T6	Event 278 288	anunciaram
+A19	Class T6 Reporting
+A20	Event_Type T6 Transition
+A21	Pos T6 Verb
+A22	Tense T6 Past
+A23	Aspect T6 Perfective
+A24	Polarity T6 Pos
+T7	Event 360 366	morreu
+A25	Class T7 Occurrence
+A26	Pos T7 Verb
+A27	Tense T7 Past
+A28	Aspect T7 Perfective
+A29	Polarity T7 Pos
+T8	Time 367 371	hoje
+A30	Time_Type T8 Date
+A31	TemporalFunction T8 Publication_Time
+#4	AnnotatorNotes T8	value=2020-12-25 anchorTime=Publication_Time
+T9	Event 397 408	transferido
+A32	Class T9 Occurrence
+A33	Event_Type T9 Transition
+A34	Pos T9 Verb
+A35	Tense T9 Past
+A36	Aspect T9 Perfective
+A37	Polarity T9 Pos
+T10	Event 414 424	tratamento
+A38	Class T10 Occurrence
+A39	Event_Type T10 Process
+A40	Pos T10 Noun
+A41	Polarity T10 Pos
+T11	Event 445 450	disse
+A42	Class T11 Reporting
+A43	Event_Type T11 Transition
+A44	Pos T11 Verb
+A45	Tense T11 Past
+A46	Aspect T11 Perfective
+A47	Polarity T11 Pos
+T12	Event 508 516	Confirmo
+A48	Class T12 Reporting
+A49	Event_Type T12 Transition
+A50	Pos T12 Verb
+A51	Tense T12 Present
+A52	Aspect T12 Imperfective
+A53	Polarity T12 Pos
+T13	Event 519 535	terrível notícia
+A54	Class T13 Reporting
+A55	Event_Type T13 Transition
+A56	Pos T13 Noun
+A57	Polarity T13 Pos
+T14	Event 546 551	morto
+A58	Class T14 State
+A59	Event_Type T14 State
+A60	Pos T14 Verb
+A61	Tense T14 Present
+A62	VForm T14 Participle
+A63	Polarity T14 Pos
+T15	Event 571 575	está
+A64	Class T15 State
+A65	Event_Type T15 State
+A66	Pos T15 Verb
+A67	Tense T15 Present
+A68	Aspect T15 Progressive
+A69	Polarity T15 Pos
+T16	Event 587 596	confirmou
+A70	Class T16 Reporting
+A71	Event_Type T16 Transition
+A72	Pos T16 Verb
+A73	Tense T16 Past
+A74	Aspect T16 Perfective
+A75	Polarity T16 Pos
+T17	Event 602 610	reiterou
+A76	Class T17 Reporting
+A77	Event_Type T17 Transition
+A78	Pos T17 Verb
+A79	Tense T17 Past
+A80	Aspect T17 Perfective
+A81	Polarity T17 Pos
+T18	Event 724 735	sequestrado
+A82	Class T18 Occurrence
+A83	Event_Type T18 Transition
+A84	Pos T18 Verb
+A85	Tense T18 Past
+A86	Aspect T18 Perfective
+A87	Polarity T18 Pos
+T19	Time 739 754	dia 25 de março
+A88	Time_Type T19 Date
+A89	TemporalFunction T19 None
+#5	AnnotatorNotes T19	value=2020-03-25 anchorTime=Publication_Time
+T20	Event 771 779	campanha
+A90	Class T20 Occurrence
+A91	Event_Type T20 Transition
+A92	Pos T20 Verb
+A93	Tense T20 Past
+A94	Aspect T20 Progressive
+A95	Polarity T20 Pos
+T21	Event 788 809	eleições legislativas
+A96	Class T21 Occurrence
+A97	Event_Type T21 Transition
+A98	Pos T21 Noun
+A99	Polarity T21 Pos
+T22	Event 848 857	libertado
+A100	Class T22 Occurrence
+A101	Event_Type T22 Transition
+A102	Pos T22 Verb
+A103	Tense T22 Past
+A104	Aspect T22 Perfective
+A105	Polarity T22 Pos
+T23	Time 861 868	outubro
+A106	Time_Type T23 Date
+A107	TemporalFunction T23 None
+#6	AnnotatorNotes T23	value=2020-10-XX anchorTime=Publication_Time
+T24	Time 875 885	seis meses
+A108	Time_Type T24 Duration
+A109	TemporalFunction T24 None
+#7	AnnotatorNotes T24	value=P6M
+T25	Event 1011 1021	libertados
+A110	Class T25 State
+A111	Event_Type T25 State
+A112	Pos T25 Verb
+A113	Tense T25 Past
+A114	Aspect T25 Perfective
+A115	VForm T25 Participle
+A116	Polarity T25 Pos
+T26	Event 1028 1033	sofri
+A117	Class T26 Perception
+A118	Event_Type T26 State
+A119	Pos T26 Verb
+A120	Tense T26 Past
+A121	Aspect T26 Perfective
+A122	Polarity T26 Neg
+T27	Event 1034 1073	nenhuma violência, nem física nem verba
+A123	Class T27 State
+A124	Event_Type T27 State
+A125	Pos T27 Noun
+A126	Polarity T27 Neg
+T28	Event 1077 1084	afirmou
+A127	Class T28 Reporting
+A128	Event_Type T28 Transition
+A129	Pos T28 Verb
+A130	Tense T28 Past
+A131	Aspect T28 Perfective
+A132	Polarity T28 Pos
+T29	Event 1095 1105	libertação
+A133	Class T29 Occurrence
+A134	Event_Type T29 Transition
+A135	Pos T29 Noun
+A136	Polarity T29 Pos
+T30	Event 1149 1154	ficou
+A137	Class T30 State
+A138	Event_Type T30 State
+A139	Pos T30 Verb
+A140	Tense T30 Past
+A141	Aspect T30 Perfective
+A142	Polarity T30 Pos
+T31	Event 1175 1202	três eleições presidenciais
+A143	Class T31 Occurrence
+A144	Event_Type T31 Transition
+A145	Pos T31 Noun
+A146	Polarity T31 Pos
+R1	TLINK_during Arg1:T2 Arg2:T3	
+R2	TLINK_isIncluded Arg1:T4 Arg2:T5	
+R3	TLINK_after Arg1:T4 Arg2:T2	
+R4	TLINK_after Arg1:T6 Arg2:T4	
+R5	TLINK_isIncluded Arg1:T7 Arg2:T8	
+R6	TLINK_identity Arg1:T7 Arg2:T4	
+R7	TLINK_before Arg1:T9 Arg2:T7	
+R8	TLINK_after Arg1:T10 Arg2:T9	
+R9	TLINK_after Arg1:T11 Arg2:T10	
+R10	TLINK_simultaneous Arg1:T12 Arg2:T11	
+R11	TLINK_before Arg1:T13 Arg2:T12	
+R12	TLINK_includes Arg1:T14 Arg2:T13	
+R13	TLINK_simultaneous Arg1:T15 Arg2:T14	
+R14	TLINK_isIncluded Arg1:T16 Arg2:T15	
+R15	TLINK_after Arg1:T17 Arg2:T16	
+R16	TLINK_isIncluded Arg1:T18 Arg2:T19	
+R17	TLINK_before Arg1:T18 Arg2:T17	
+R18	TLINK_simultaneous Arg1:T20 Arg2:T18	
+R19	TLINK_after Arg1:T21 Arg2:T20	
+R20	TLINK_after Arg1:T22 Arg2:T21	
+R21	TLINK_isIncluded Arg1:T22 Arg2:T23	
+T32	Event 889 898	cativeiro
+A147	Class T32 State
+A148	Event_Type T32 State
+A149	Pos T32 Noun
+A150	Polarity T32 Pos
+R23	TLINK_during Arg1:T32 Arg2:T24	
+R22	TLINK_before Arg1:T32 Arg2:T22	
+R24	TLINK_before Arg1:T25 Arg2:T67	
+R25	TLINK_before Arg1:T26 Arg2:T25	
+R26	TLINK_simultaneous Arg1:T27 Arg2:T26	
+R27	TLINK_after Arg1:T28 Arg2:T27	
+R28	TLINK_before Arg1:T29 Arg2:T28	
+R29	TLINK_includes Arg1:T30 Arg2:T29	
+R30	TLINK_simultaneous Arg1:T31 Arg2:T30	
+T33	Participant 91 129	O principal opositor do Governo do Mal
+A151	Lexical_Head T33 Noun
+A152	Individuation_Domain T33 Individual
+A153	Participant_Type_Domain T33 Per
+A154	Involvement T33 1
+T36	Participant 132 146	Soumaila Cissé
+A163	Lexical_Head T36 Noun
+A164	Individuation_Domain T36 Individual
+A165	Participant_Type_Domain T36 Per
+A166	Involvement T36 1
+R31	OLINK_objIdentity Arg1:T36 Arg2:T33	
+T37	Participant 201 211	jihadistas
+A167	Lexical_Head T37 Noun
+A168	Individuation_Domain T37 Individual
+A169	Participant_Type_Domain T37 Per
+A170	Involvement T37 >1
+T38	Participant 229 235	França
+A171	Lexical_Head T38 Noun
+A172	Individuation_Domain T38 Individual
+A173	Participant_Type_Domain T38 Loc
+A174	Involvement T38 1
+T39	Participant 260 276	novo coronavírus
+A175	Lexical_Head T39 Noun
+A176	Individuation_Domain T39 Individual
+A177	Participant_Type_Domain T39 Nat
+A178	Involvement T39 1
+T40	Participant 291 298	família
+A179	Lexical_Head T40 Noun
+A180	Individuation_Domain T40 Set
+A181	Participant_Type_Domain T40 Per
+A182	Involvement T40 1
+T41	Participant 303 306	seu
+A183	Lexical_Head T41 Pronoun
+A184	Individuation_Domain T41 Individual
+A185	Participant_Type_Domain T41 Per
+A186	Involvement T41 1
+T42	Participant 307 314	partido
+A187	Lexical_Head T42 Noun
+A188	Individuation_Domain T42 Individual
+A189	Participant_Type_Domain T42 Org
+A190	Involvement T42 1
+T43	Participant 317 331	Soumaila Cissé
+A191	Lexical_Head T43 Noun
+A192	Individuation_Domain T43 Individual
+A193	Participant_Type_Domain T43 Per
+A194	Involvement T43 1
+T44	Participant 333 350	líder da oposição
+A195	Lexical_Head T44 Noun
+A196	Individuation_Domain T44 Individual
+A197	Participant_Type_Domain T44 Per
+A198	Involvement T44 1
+T45	Participant 354 358	Mali
+A199	Lexical_Head T45 Noun
+A200	Individuation_Domain T45 Individual
+A201	Participant_Type_Domain T45 Per
+A202	Involvement T45 1
+R32	OLINK_partOf Arg1:T44 Arg2:T45	
+T46	Participant 375 381	França
+A203	Lexical_Head T46 Noun
+A204	Individuation_Domain T46 Individual
+A205	Participant_Type_Domain T46 Loc
+A206	Involvement T46 1
+T47	Participant 388 392	onde
+A207	Lexical_Head T47 Pronoun
+A208	Individuation_Domain T47 Individual
+A209	Participant_Type_Domain T47 Loc
+A210	Involvement T47 1
+T48	Participant 432 442	a covid-19
+A211	Lexical_Head T48 Noun
+A212	Individuation_Domain T48 Individual
+A213	Participant_Type_Domain T48 Nat
+A214	Involvement T48 1
+T49	Participant 451 460	um membro
+A215	Lexical_Head T49 Noun
+A216	Individuation_Domain T49 Individual
+A217	Participant_Type_Domain T49 Per
+A218	Involvement T49 1
+T50	Participant 464 467	sua
+A219	Lexical_Head T50 Pronoun
+A220	Individuation_Domain T50 Individual
+A221	Participant_Type_Domain T50 Per
+A222	Involvement T50 1
+T51	Participant 468 475	família
+A223	Lexical_Head T51 Noun
+A224	Individuation_Domain T51 Set
+A225	Participant_Type_Domain T51 Per
+A226	Involvement T51 1
+T52	Participant 478 505	Agência France-Presse (AFP)
+A227	Lexical_Head T52 Noun
+A228	Individuation_Domain T52 Individual
+A229	Participant_Type_Domain T52 Org
+A230	Involvement T52 1
+T53	Participant 537 540	Ele
+A231	Lexical_Head T53 Pronoun
+A232	Individuation_Domain T53 Individual
+A233	Participant_Type_Domain T53 Per
+A234	Involvement T53 1
+T54	Participant 555 558	sua
+A235	Lexical_Head T54 Pronoun
+A236	Individuation_Domain T54 Individual
+A237	Participant_Type_Domain T54 Per
+A238	Involvement T54 1
+T55	Participant 559 565	esposa
+A239	Lexical_Head T55 Noun
+A240	Individuation_Domain T55 Individual
+A241	Participant_Type_Domain T55 Per
+A242	Involvement T55 1
+T56	Participant 567 570	que
+A243	Lexical_Head T56 Pronoun
+A244	Individuation_Domain T56 Individual
+A245	Participant_Type_Domain T56 Per
+A246	Involvement T56 1
+T57	Participant 579 585	França
+A247	Lexical_Head T57 Noun
+A248	Individuation_Domain T57 Individual
+A249	Participant_Type_Domain T57 Loc
+A250	Involvement T57 1
+T58	Participant 613 616	AFP
+A251	Lexical_Head T58 Noun
+A252	Individuation_Domain T58 Individual
+A253	Participant_Type_Domain T58 Org
+A254	Involvement T58 1
+T59	Participant 617 628	um elemento
+A255	Lexical_Head T59 Noun
+A256	Individuation_Domain T59 Individual
+A257	Participant_Type_Domain T59 Per
+A258	Involvement T59 1
+T60	Participant 632 675	União para a República e a Democracia (URD)
+A259	Lexical_Head T60 Noun
+A260	Individuation_Domain T60 Individual
+A261	Participant_Type_Domain T60 Org
+A262	Involvement T60 1
+T61	Participant 705 719	Soumaila Cissé
+A263	Lexical_Head T61 Noun
+A264	Individuation_Domain T61 Individual
+A265	Participant_Type_Domain T61 Per
+A266	Involvement T61 1
+T62	Participant 813 842	região de Tumbuktu (Noroeste)
+A267	Lexical_Head T62 Noun
+A268	Individuation_Domain T62 Individual
+A269	Participant_Type_Domain T62 Loc
+A270	Involvement T62 1
+T63	Participant 911 921	jihadistas
+A271	Lexical_Head T63 Noun
+A272	Individuation_Domain T63 Individual
+A273	Participant_Type_Domain T63 Per
+A274	Involvement T63 >1
+T64	Participant 942 968	a francesa Sophie Pétronin
+A275	Lexical_Head T64 Noun
+A276	Individuation_Domain T64 Individual
+A277	Participant_Type_Domain T64 Per
+A278	Involvement T64 1
+T65	Participant 971 985	dois italianos
+A279	Lexical_Head T65 Noun
+A280	Individuation_Domain T65 Individual
+A281	Participant_Type_Domain T65 Per
+A282	Involvement T65 >1
+T66	Participant 999 1010	200 detidos
+A283	Lexical_Head T66 Noun
+A284	Individuation_Domain T66 Individual
+A285	Participant_Type_Domain T66 Per
+A286	Involvement T66 >1
+T67	Event 990 995	troca
+A287	Class T67 Occurrence
+A288	Event_Type T67 Transition
+A289	Pos T67 Noun
+A290	Polarity T67 Pos
+R33	TLINK_after Arg1:T67 Arg2:T32	
+T68	Participant 1091 1094	sua
+A291	Lexical_Head T68 Pronoun
+A292	Individuation_Domain T68 Individual
+A293	Participant_Type_Domain T68 Per
+A294	Involvement T68 1
+T69	Participant 1107 1121	Soumaila Cissé
+A295	Lexical_Head T69 Noun
+A296	Individuation_Domain T69 Individual
+A297	Participant_Type_Domain T69 Per
+A298	Involvement T69 1
+T70	Participant 1123 1147	engenheiro de computação
+A299	Lexical_Head T70 Noun
+A300	Individuation_Domain T70 Individual
+A301	Participant_Type_Domain T70 Per
+A302	Involvement T70 1
+T71	Participant 1158 1171	segundo lugar
+A303	Lexical_Head T71 Noun
+A304	Individuation_Domain T71 Individual
+A305	Participant_Type_Domain T71 Other
+A306	Involvement T71 1
+T35	Participant 677 695	Figura da oposição
+A159	Lexical_Head T35 Noun
+A160	Individuation_Domain T35 Individual
+A161	Participant_Type_Domain T35 Per
+A162	Involvement T35 1
+T72	Participant 699 703	Mali
+A307	Lexical_Head T72 Noun
+A308	Individuation_Domain T72 Individual
+A309	Participant_Type_Domain T72 Loc
+A310	Involvement T72 1
+R34	OLINK_partOf Arg1:T35 Arg2:T72	
+R35	OLINK_objIdentity Arg1:T61 Arg2:T35	
+R36	OLINK_objIdentity Arg1:T41 Arg2:T36	
+R37	OLINK_memberOf Arg1:T36 Arg2:T40	
+R38	OLINK_memberOf Arg1:T41 Arg2:T42	
+R39	OLINK_objIdentity Arg1:T43 Arg2:T41	
+R40	OLINK_objIdentity Arg1:T44 Arg2:T43	
+R41	OLINK_objIdentity Arg1:T46 Arg2:T38	
+R42	OLINK_objIdentity Arg1:T47 Arg2:T46	
+R43	OLINK_objIdentity Arg1:T48 Arg2:T39	
+R44	OLINK_memberOf Arg1:T49 Arg2:T51	
+R45	OLINK_objIdentity Arg1:T50 Arg2:T44	
+R46	OLINK_partOf Arg1:T50 Arg2:T51	
+R47	OLINK_objIdentity Arg1:T53 Arg2:T50	
+R48	OLINK_objIdentity Arg1:T56 Arg2:T55	
+R49	OLINK_objIdentity Arg1:T54 Arg2:T53	
+R50	OLINK_partOf Arg1:T54 Arg2:T55	
+R51	OLINK_objIdentity Arg1:T57 Arg2:T47	
+T34	Participant 597 599	me
+A155	Lexical_Head T34 Pronoun
+A156	Individuation_Domain T34 Individual
+A157	Participant_Type_Domain T34 Per
+A158	Involvement T34 1
+R53	OLINK_objIdentity Arg1:T58 Arg2:T52	
+R52	OLINK_objIdentity Arg1:T59 Arg2:T34	
+R54	OLINK_partOf Arg1:T59 Arg2:T60	
+R55	OLINK_objIdentity Arg1:T35 Arg2:T54	
+R56	OLINK_objIdentity Arg1:T72 Arg2:T45	
+R57	OLINK_partOf Arg1:T62 Arg2:T72	
+R58	OLINK_objIdentity Arg1:T63 Arg2:T37	
+R59	OLINK_objIdentity Arg1:T68 Arg2:T61	
+R60	OLINK_objIdentity Arg1:T69 Arg2:T68	
+R61	OLINK_objIdentity Arg1:T70 Arg2:T69	
+R62	SRLINK_pivot Arg1:T2 Arg2:T36	
+R63	SRLINK_agent Arg1:T2 Arg2:T37	
+R64	SRLINK_patient Arg1:T4 Arg2:T36	
+R65	SRLINK_location Arg1:T4 Arg2:T38	
+R66	SRLINK_reason Arg1:T4 Arg2:T39	
+R67	SRLINK_agent Arg1:T6 Arg2:T40	
+R68	SRLINK_agent Arg1:T6 Arg2:T42	
+R69	SLINK_evidential Arg1:T6 Arg2:T4	
+R70	SRLINK_theme Arg1:T6 Arg2:T4	
+R71	SRLINK_patient Arg1:T7 Arg2:T44	
+R72	SRLINK_location Arg1:T7 Arg2:T46	
+R73	SRLINK_finalLocation Arg1:T9 Arg2:T47	
+R74	SRLINK_patient Arg1:T9 Arg2:T44	
+R75	SRLINK_purpose Arg1:T9 Arg2:T10	
+R76	SRLINK_theme Arg1:T10 Arg2:T48	
+R77	SRLINK_agent Arg1:T11 Arg2:T49	
+R78	SLINK_evidential Arg1:T11 Arg2:T7	
+R79	SRLINK_theme Arg1:T11 Arg2:T7	
+R80	SRLINK_goal Arg1:T11 Arg2:T52	
+R81	SRLINK_agent Arg1:T12 Arg2:T49	
+R82	SRLINK_theme Arg1:T12 Arg2:T13	
+R83	SRLINK_pivot Arg1:T14 Arg2:T53	
+R84	SRLINK_pivot Arg1:T15 Arg2:T56	
+R85	SRLINK_location Arg1:T15 Arg2:T57	
+R86	SRLINK_agent Arg1:T16 Arg2:T56	
+R87	SRLINK_goal Arg1:T16 Arg2:T34	
+R88	SRLINK_theme Arg1:T16 Arg2:T14	
+R89	SLINK_evidential Arg1:T16 Arg2:T14	
+R90	SLINK_evidential Arg1:T17 Arg2:T16	
+R91	SRLINK_theme Arg1:T17 Arg2:T16	
+R92	SRLINK_goal Arg1:T17 Arg2:T58	
+R93	SRLINK_agent Arg1:T17 Arg2:T59	
+R94	SRLINK_patient Arg1:T18 Arg2:T61	
+R95	SRLINK_setting Arg1:T18 Arg2:T20	
+R96	SRLINK_purpose Arg1:T20 Arg2:T21	
+R97	SRLINK_location Arg1:T18 Arg2:T62	
+R98	SRLINK_patient Arg1:T22 Arg2:T61	
+R99	SRLINK_initialLocation Arg1:T22 Arg2:T32	
+R100	SRLINK_agent Arg1:T32 Arg2:T63	
+R101	SRLINK_pivot Arg1:T32 Arg2:T61	
+R102	SRLINK_partner Arg1:T22 Arg2:T64	
+R103	SRLINK_partner Arg1:T22 Arg2:T65	
+R104	SRLINK_patient Arg1:T67 Arg2:T66	
+R105	SRLINK_pivot Arg1:T25 Arg2:T66	
+R106	SRLINK_reason Arg1:T22 Arg2:T67	
+R107	SLINK_evidential Arg1:T28 Arg2:T26	
+R108	SRLINK_theme Arg1:T28 Arg2:T26	
+R109	SRLINK_pivot Arg1:T26 Arg2:T61	
+R110	SRLINK_theme Arg1:T26 Arg2:T27	
+R111	SRLINK_agent Arg1:T28 Arg2:T61	
+R112	SRLINK_setting Arg1:T28 Arg2:T29	
+R113	SRLINK_patient Arg1:T29 Arg2:T68	
+R114	SRLINK_pivot Arg1:T30 Arg2:T70	
+R115	SRLINK_theme Arg1:T30 Arg2:T71	
+R116	SRLINK_setting Arg1:T30 Arg2:T31	

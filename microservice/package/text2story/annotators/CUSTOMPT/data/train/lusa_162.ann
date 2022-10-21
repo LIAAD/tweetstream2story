@@ -1,0 +1,343 @@
+T1	Time 26 37	27 out 2020
+A1	Time_Type T1 Date
+A2	TemporalFunction T1 Publication_Time
+#1	AnnotatorNotes T1	value=2020-10-27
+T2	Event 114 119	matou
+A3	Class T2 Occurrence
+A4	Event_Type T2 Transition
+A5	Pos T2 Verb
+A6	Tense T2 Past
+A7	Aspect T2 Perfective
+A8	Polarity T2 Pos
+T3	Time 120 124	hoje
+A9	Time_Type T3 Date
+A10	TemporalFunction T3 Publication_Time
+#2	AnnotatorNotes T3	value=2020-10-27 anchorTime=Publication_Time
+T4	Event 132 139	disparo
+A11	Class T4 Occurrence
+A12	Event_Type T4 Transition
+A13	Pos T4 Noun
+T5	Event 200 206	detido
+A14	Class T5 Occurrence
+A15	Event_Type T5 Transition
+A16	Pos T5 Verb
+A17	Tense T5 Past
+A18	Aspect T5 Perfective
+A19	Polarity T5 Pos
+T6	Event 236 242	tentar
+A20	Class T6 I_Action
+A21	Event_Type T6 Transition
+A22	Pos T6 Verb
+A23	Aspect T6 Progressive
+A24	VForm T6 Infinitive
+A25	Polarity T6 Pos
+A26	Mood T6 Conditional
+T7	Event 245 253	suicídio
+A27	Class T7 Occurrence
+A28	Event_Type T7 Transition
+A29	Pos T7 Noun
+A30	Polarity T7 Pos
+T8	Event 272 277	disse
+A31	Class T8 Reporting
+A32	Event_Type T8 Transition
+A33	Pos T8 Verb
+A34	Tense T8 Past
+A35	Aspect T8 Perfective
+A36	Polarity T8 Pos
+T9	Event 337 344	referiu
+A37	Class T9 Reporting
+A38	Event_Type T9 Transition
+A39	Pos T9 Verb
+A40	Tense T9 Past
+A41	Aspect T9 Perfective
+A42	Polarity T9 Pos
+T10	Event 372 379	ocorreu
+A43	Class T10 Occurrence
+A44	Event_Type T10 Transition
+A45	Pos T10 Verb
+A46	Tense T10 Past
+A47	Aspect T10 Perfective
+A48	Polarity T10 Pos
+T11	Time 390 395	10:30
+A49	Time_Type T11 Time
+A50	TemporalFunction T11 Publication_Time
+#3	AnnotatorNotes T11	value=2020-10-27T10:30 anchorTime=Publication_Time
+T12	Event 481 484	tem
+A51	Class T12 State
+A52	Event_Type T12 State
+A53	Pos T12 Verb
+A54	Tense T12 Present
+A55	Aspect T12 Progressive
+A56	Polarity T12 Pos
+T13	Event 503 506	era
+A57	Class T13 State
+A58	Event_Type T13 State
+A59	Pos T13 Verb
+A60	Tense T13 Past
+A61	Aspect T13 Imperfective
+A62	Polarity T13 Pos
+T14	Event 534 541	admitiu
+A63	Class T14 Reporting
+A64	Event_Type T14 Transition
+A65	Pos T14 Verb
+A66	Tense T14 Past
+A67	Aspect T14 Perfective
+A68	Polarity T14 Pos
+T15	Event 560 568	cometido
+A69	Class T15 Occurrence
+A70	Event_Type T15 Transition
+A71	Pos T15 Verb
+A72	Tense T15 Past
+A73	Aspect T15 Perfective
+A74	VForm T15 Participle
+A75	Mood T15 Subjunctive
+A76	Polarity T15 Pos
+T16	Event 571 576	crime
+A77	Class T16 State
+A78	Pos T16 Noun
+A79	Polarity T16 Pos
+A80	Event_Type T16 State
+T17	Event 580 590	retaliação
+A81	Class T17 State
+A82	Event_Type T17 State
+A83	Pos T17 Noun
+A84	Polarity T17 Pos
+T18	Event 608 614	optado
+A85	Class T18 I_Action
+A86	Event_Type T18 Transition
+A87	Pos T18 Verb
+A88	Tense T18 Past
+A89	Aspect T18 Perfective
+A90	VForm T18 Infinitive
+A91	Polarity T18 Pos
+T19	Event 619 627	terminar
+A92	Class T19 Aspectual
+A93	Event_Type T19 Transition
+A94	Pos T19 Verb
+A95	VForm T19 Infinitive
+A96	Polarity T19 Pos
+T20	Event 630 637	relação
+A97	Class T20 State
+A98	Event_Type T20 State
+A99	Pos T20 Noun
+A100	Polarity T20 Pos
+T21	Event 648 658	mantiveram
+A101	Class T21 State
+A102	Event_Type T21 State
+A103	Pos T21 Verb
+A104	Tense T21 Past
+A105	Aspect T21 Perfective
+A106	Polarity T21 Pos
+T22	Event 678 682	caso
+A107	Class T22 Occurrence
+A108	Event_Type T22 Transition
+A109	Pos T22 Noun
+A110	Polarity T22 Pos
+T23	Event 683 689	passou
+A111	Class T23 Occurrence
+A112	Event_Type T23 Transition
+A113	Pos T23 Verb
+A114	Tense T23 Past
+A115	Aspect T23 Perfective
+A116	Polarity T23 Pos
+T24	Time 659 674	durante 10 anos
+A117	Time_Type T24 Duration
+A118	TemporalFunction T24 None
+#4	AnnotatorNotes T24	value=P10Y anchorTime=Publication_Time
+R1	TLINK_isIncluded Arg1:T2 Arg2:T3	
+R2	TLINK_simultaneous Arg1:T4 Arg2:T2	
+R3	TLINK_after Arg1:T5 Arg2:T4	
+R4	TLINK_identity Arg1:T7 Arg2:T6	
+R5	TLINK_simultaneous Arg1:T6 Arg2:T5	
+R6	TLINK_after Arg1:T8 Arg2:T7	
+R7	TLINK_simultaneous Arg1:T9 Arg2:T8	
+R8	TLINK_before Arg1:T10 Arg2:T9	
+R9	TLINK_isIncluded Arg1:T10 Arg2:T11	
+R10	TLINK_includes Arg1:T12 Arg2:T10	
+R11	TLINK_isIncluded Arg1:T13 Arg2:T12	
+R12	TLINK_after Arg1:T14 Arg2:T13	
+R13	TLINK_before Arg1:T15 Arg2:T14	
+R14	TLINK_identity Arg1:T16 Arg2:T15	
+R15	TLINK_includes Arg1:T17 Arg2:T16	
+R16	TLINK_before Arg1:T18 Arg2:T17	
+R17	TLINK_after Arg1:T19 Arg2:T18	
+R18	TLINK_includes Arg1:T20 Arg2:T19	
+R19	TLINK_simultaneous Arg1:T21 Arg2:T20	
+R20	TLINK_during Arg1:T21 Arg2:T24	
+R21	TLINK_after Arg1:T22 Arg2:T21	
+R22	TLINK_isIncluded Arg1:T23 Arg2:T22	
+T25	Participant 105 113	Um homem
+A119	Lexical_Head T25 Noun
+A120	Individuation_Domain T25 Individual
+A121	Participant_Type_Domain T25 Per
+A122	Involvement T25 1
+T26	Participant 143 155	arma de fogo
+A123	Lexical_Head T26 Noun
+A124	Individuation_Domain T26 Individual
+A125	Participant_Type_Domain T26 Obj
+A126	Involvement T26 1
+T27	Participant 158 172	ex-companheira
+A127	Lexical_Head T27 Noun
+A128	Individuation_Domain T27 Individual
+A129	Participant_Type_Domain T27 Per
+A130	Involvement T27 1
+T28	Participant 176 193	Vila Nova de Gaia
+A131	Lexical_Head T28 Noun
+A132	Individuation_Domain T28 Individual
+A133	Participant_Type_Domain T28 Loc
+A134	Involvement T28 1
+T29	Participant 258 270	a mesma arma
+A135	Lexical_Head T29 Noun
+A136	Individuation_Domain T29 Individual
+A137	Involvement T29 1
+T30	Participant 278 283	fonte
+A138	Lexical_Head T30 Noun
+A139	Individuation_Domain T30 Individual
+A140	Participant_Type_Domain T30 Per
+A141	Involvement T30 1
+T31	Participant 287 290	GNR
+A142	Lexical_Head T31 Noun
+A143	Individuation_Domain T31 Individual
+A144	Participant_Type_Domain T31 Org
+A145	Involvement T31 1
+R23	OLINK_partOf Arg1:T30 Arg2:T31	
+T32	Participant 292 297	Fonte
+A146	Lexical_Head T32 Noun
+A147	Individuation_Domain T32 Individual
+A148	Participant_Type_Domain T32 Per
+A149	Involvement T32 1
+T33	Participant 301 320	Comando Territorial
+A150	Lexical_Head T33 Noun
+A151	Individuation_Domain T33 Individual
+A152	Participant_Type_Domain T33 Org
+A153	Involvement T33 1
+T34	Participant 347 359	agência Lusa
+A154	Lexical_Head T34 Noun
+A155	Individuation_Domain T34 Individual
+A156	Participant_Type_Domain T34 Org
+A157	Involvement T34 1
+T35	Event 366 371	crime
+A158	Class T35 Occurrence
+A159	Event_Type T35 Transition
+A160	Pos T35 Noun
+A161	Polarity T35 Pos
+T36	Participant 399 417	Rua da Figueirinha
+A162	Lexical_Head T36 Noun
+A163	Individuation_Domain T36 Individual
+A164	Participant_Type_Domain T36 Loc
+A165	Involvement T36 1
+T37	Participant 422 427	Grijó
+A166	Lexical_Head T37 Noun
+A167	Individuation_Domain T37 Individual
+A168	Participant_Type_Domain T37 Loc
+A169	Involvement T37 1
+T38	Participant 429 446	Vila Nova de Gaia
+A170	Lexical_Head T38 Noun
+A171	Individuation_Domain T38 Individual
+A172	Participant_Type_Domain T38 Loc
+A173	Involvement T38 1
+T39	Participant 448 465	distrito do Porto
+A174	Lexical_Head T39 Noun
+A175	Individuation_Domain T39 Individual
+A176	Participant_Type_Domain T39 Loc
+A177	Involvement T39 1
+T40	Participant 473 480	o homem
+A178	Lexical_Head T40 Noun
+A179	Individuation_Domain T40 Individual
+A180	Participant_Type_Domain T40 Per
+A181	Involvement T40 1
+T41	Participant 485 492	62 anos
+A182	Lexical_Head T41 Noun
+A183	Individuation_Domain T41 Individual
+A184	Participant_Type_Domain T41 Other
+A185	Involvement T41 >1
+T42	Participant 494 502	A vítima
+A186	Lexical_Head T42 Noun
+A187	Individuation_Domain T42 Individual
+A188	Participant_Type_Domain T42 Per
+A189	Involvement T42 1
+T43	Participant 507 524	20 anos mais nova
+A190	Lexical_Head T43 Noun
+A191	Individuation_Domain T43 Individual
+A192	Participant_Type_Domain T43 Other
+A193	Involvement T43 >1
+T44	Participant 526 533	A fonte
+A194	Lexical_Head T44 Noun
+A195	Individuation_Domain T44 Individual
+A196	Participant_Type_Domain T44 Per
+A197	Involvement T44 1
+T45	Participant 546 553	o homem
+A198	Lexical_Head T45 Noun
+A199	Individuation_Domain T45 Individual
+A200	Participant_Type_Domain T45 Per
+A201	Involvement T45 1
+T46	Participant 595 603	a mulher
+A202	Lexical_Head T46 Noun
+A203	Individuation_Domain T46 Individual
+A204	Participant_Type_Domain T46 Per
+A205	Involvement T46 1
+T47	Participant 642 647	ambos
+A206	Lexical_Head T47 Noun
+A207	Individuation_Domain T47 Set
+A208	Participant_Type_Domain T47 Per
+A209	Involvement T47 All
+T48	Participant 707 725	Polícia Judiciária
+A210	Lexical_Head T48 Noun
+A211	Individuation_Domain T48 Individual
+A212	Participant_Type_Domain T48 Org
+A213	Involvement T48 1
+R25	OLINK_partOf Arg1:T29 Arg2:T26	
+R26	OLINK_partOf Arg1:T32 Arg2:T33	
+R27	OLINK_objIdentity Arg1:T32 Arg2:T30	
+R28	OLINK_partOf Arg1:T36 Arg2:T37	
+R29	OLINK_partOf Arg1:T37 Arg2:T38	
+R30	OLINK_partOf Arg1:T38 Arg2:T39	
+R31	OLINK_objIdentity Arg1:T40 Arg2:T25	
+R32	OLINK_objIdentity Arg1:T42 Arg2:T27	
+R33	OLINK_objIdentity Arg1:T44 Arg2:T32	
+R34	OLINK_objIdentity Arg1:T45 Arg2:T40	
+R35	OLINK_objIdentity Arg1:T46 Arg2:T42	
+R36	OLINK_memberOf Arg1:T46 Arg2:T47	
+R37	OLINK_memberOf Arg1:T45 Arg2:T47	
+R38	SRLINK_agent Arg1:T2 Arg2:T25	
+R39	SRLINK_manner Arg1:T2 Arg2:T4	
+R40	SRLINK_instrument Arg1:T2 Arg2:T26	
+R41	SRLINK_patient Arg1:T2 Arg2:T27	
+R42	SRLINK_location Arg1:T2 Arg2:T28	
+R43	SRLINK_patient Arg1:T5 Arg2:T25	
+R44	SRLINK_agent Arg1:T6 Arg2:T25	
+R45	SRLINK_theme Arg1:T6 Arg2:T7	
+R46	SRLINK_instrument Arg1:T7 Arg2:T29	
+R47	SRLINK_agent Arg1:T7 Arg2:T25	
+R48	SRLINK_agent Arg1:T8 Arg2:T30	
+R49	SRLINK_theme Arg1:T8 Arg2:T2	
+R50	SLINK_evidential Arg1:T8 Arg2:T2	
+T50	Participant 324 336	GNR do Porto
+A218	Lexical_Head T50 Noun
+A219	Individuation_Domain T50 Individual
+A220	Participant_Type_Domain T50 Org
+A221	Involvement T50 1
+R51	OLINK_partOf Arg1:T33 Arg2:T50	
+R52	SRLINK_agent Arg1:T9 Arg2:T32	
+R53	SRLINK_goal Arg1:T9 Arg2:T34	
+R54	SRLINK_theme Arg1:T9 Arg2:T10	
+R55	SLINK_evidential Arg1:T9 Arg2:T10	
+R56	SRLINK_theme Arg1:T10 Arg2:T35	
+R57	SRLINK_location Arg1:T10 Arg2:T36	
+R58	SRLINK_pivot Arg1:T12 Arg2:T40	
+R59	SRLINK_theme Arg1:T12 Arg2:T41	
+R60	SRLINK_pivot Arg1:T13 Arg2:T42	
+R61	SRLINK_agent Arg1:T14 Arg2:T44	
+R62	SRLINK_theme Arg1:T14 Arg2:T15	
+R63	SLINK_evidential Arg1:T14 Arg2:T15	
+R64	SRLINK_agent Arg1:T15 Arg2:T45	
+R65	SRLINK_theme Arg1:T15 Arg2:T16	
+R66	SRLINK_reason Arg1:T16 Arg2:T17	
+R67	SRLINK_agent Arg1:T18 Arg2:T46	
+R68	SRLINK_theme Arg1:T18 Arg2:T19	
+R69	SRLINK_theme Arg1:T19 Arg2:T20	
+R70	SRLINK_pivot Arg1:T21 Arg2:T47	
+R71	SRLINK_theme Arg1:T47 Arg2:T20	
+R72	SRLINK_patient Arg1:T23 Arg2:T22	
+R24	SRLINK_goal Arg1:T23 Arg2:T48	
+R73	SLINK_intensional Arg1:T18 Arg2:T19	

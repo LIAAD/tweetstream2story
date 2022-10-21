@@ -1,0 +1,353 @@
+T1	Event 106 115	encontrou
+A1	Class T1 Occurrence
+A2	Event_Type T1 Transition
+A3	Pos T1 Verb
+A4	Tense T1 Past
+A5	Aspect T1 Perfective
+A6	Polarity T1 Pos
+T2	Time 11 22	24 nov 2020
+A7	Time_Type T2 Date
+A8	TemporalFunction T2 Publication_Time
+#1	AnnotatorNotes T2	value=2020-11-24
+T3	Time 121 126	tarde
+A9	Time_Type T3 Time
+A10	TemporalFunction T3 None
+#2	AnnotatorNotes T3	value=2020-11-24TAf
+T4	Event 157 179	dada como desaparecida
+A11	Class T4 State
+A12	Event_Type T4 State
+A13	Pos T4 Verb
+A14	Aspect T4 Progressive
+A15	Polarity T4 Pos
+A16	Tense T4 Past
+T5	Time 186 199	segunda-feira
+A17	Time_Type T5 Date
+A18	TemporalFunction T5 None
+#3	AnnotatorNotes T5	value=2020-11-23 anchorTime=Publication_Time
+T6	Event 235 240	disse
+A19	Class T6 Reporting
+A20	Event_Type T6 Transition
+A21	Pos T6 Verb
+A22	Tense T6 Past
+A23	Aspect T6 Perfective
+A24	Polarity T6 Pos
+T7	Time 241 245	hoje
+A25	Time_Type T7 Date
+A26	TemporalFunction T7 Publication_Time
+#4	AnnotatorNotes T7	value=2020-11-24 anchorTime=Publication_Time
+T8	Event 294 302	detetada
+A27	Class T8 Perception
+A28	Event_Type T8 Transition
+A29	Pos T8 Verb
+A30	Tense T8 Past
+A31	Aspect T8 Perfective
+A32	Polarity T8 Pos
+T9	Event 395 407	transportada
+A33	Class T9 Occurrence
+A34	Event_Type T9 Transition
+A35	Pos T9 Verb
+A36	Tense T9 Past
+A37	Aspect T9 Perfective
+A38	Polarity T9 Pos
+T10	Event 491 497	alerta
+A39	Class T10 Occurrence
+A40	Event_Type T10 Transition
+A41	Pos T10 Noun
+A42	Polarity T10 Pos
+T11	Event 505 520	desaparecimento
+A43	Class T11 Occurrence
+A44	Event_Type T11 Transition
+A45	Pos T11 Noun
+A46	Polarity T11 Pos
+T12	Event 535 541	reside
+A47	Class T12 State
+A48	Event_Type T12 State
+A49	Pos T12 Verb
+A50	Tense T12 Present
+A51	Aspect T12 Imperfective
+A52	Polarity T12 Pos
+T13	Event 563 567	dado
+A53	Class T13 Occurrence
+A54	Event_Type T13 Transition
+A55	Pos T13 Verb
+A56	Tense T13 Past
+A57	Aspect T13 Perfective
+A58	Polarity T13 Pos
+T14	Time 574 596	17:00 de segunda-feira
+A59	Time_Type T14 Time
+A60	TemporalFunction T14 None
+#5	AnnotatorNotes T14	value=2020-11-23T17:00 anchorTime=Publication_Time
+T15	Event 609 618	procurada
+A61	Class T15 Occurrence
+A62	Event_Type T15 Process
+A63	Pos T15 Verb
+A64	Tense T15 Past
+A65	Aspect T15 Perfective
+A66	VForm T15 Participle
+A67	Polarity T15 Pos
+T16	Time 694 709	durante a noite
+A68	Time_Type T16 Duration
+#6	AnnotatorNotes T16	value=2020-11-23TN anchorTime=Publication_Time
+T17	Event 727 736	retomadas
+A70	Class T17 Occurrence
+A71	Event_Type T17 Transition
+A72	Pos T17 Verb
+A73	Tense T17 Past
+A74	Aspect T17 Perfective
+A75	Polarity T17 Pos
+T18	Event 714 720	buscas
+A76	Class T18 Occurrence
+A77	Event_Type T18 Process
+A78	Pos T18 Noun
+A79	Polarity T18 Pos
+T19	Time 737 747	esta manhã
+A80	Time_Type T19 Time
+A81	TemporalFunction T19 None
+#7	AnnotatorNotes T19	value=2020-11-23TMo anchorTime=Publication_Time
+T20	Event 749 759	envolveram
+A82	Class T20 Occurrence
+A83	Event_Type T20 Process
+A84	Pos T20 Verb
+A85	Tense T20 Past
+A86	Aspect T20 Perfective
+A87	Polarity T20 Pos
+T21	Event 809 819	encontrada
+A88	Class T21 Occurrence
+A89	Event_Type T21 Transition
+A90	Pos T21 Verb
+A91	Tense T21 Past
+A92	Aspect T21 Perfective
+A93	Polarity T21 Pos
+T22	Time 826 831	15:40
+A94	Time_Type T22 Time
+A95	TemporalFunction T22 None
+#8	AnnotatorNotes T22	value=2020-11-24T15:40 anchorTime=Publication_Time
+T23	Event 929 940	mobilizados
+A96	Class T23 Occurrence
+A97	Event_Type T23 Transition
+A98	Pos T23 Verb
+A99	Tense T23 Past
+A100	Aspect T23 Perfective
+A101	Polarity T23 Pos
+T24	Event 951 961	ocorrência
+A102	Class T24 Occurrence
+A103	Event_Type T24 Transition
+A104	Pos T24 Noun
+A105	Polarity T24 Pos
+R1	TLINK_isIncluded Arg1:T1 Arg2:T3	
+R2	TLINK_isIncluded Arg1:T4 Arg2:T5	
+R3	TLINK_isIncluded Arg1:T6 Arg2:T7	
+R4	TLINK_before Arg1:T4 Arg2:T1	
+R5	TLINK_after Arg1:T6 Arg2:T4	
+R6	TLINK_before Arg1:T8 Arg2:T6	
+R7	TLINK_after Arg1:T9 Arg2:T8	
+R8	TLINK_before Arg1:T10 Arg2:T9	
+R9	TLINK_before Arg1:T11 Arg2:T10	
+R10	TLINK_includes Arg1:T12 Arg2:T11	
+R11	TLINK_isIncluded Arg1:T13 Arg2:T12	
+R12	TLINK_identity Arg1:T13 Arg2:T10	
+R13	TLINK_isIncluded Arg1:T13 Arg2:T14	
+R14	TLINK_after Arg1:T15 Arg2:T13	
+A69	TemporalFunction T16 None
+R15	TLINK_identity Arg1:T18 Arg2:T15	
+R16	TLINK_isIncluded Arg1:T17 Arg2:T19	
+R17	TLINK_identity Arg1:T17 Arg2:T18	
+R18	TLINK_simultaneous Arg1:T20 Arg2:T17	
+R19	TLINK_isIncluded Arg1:T21 Arg2:T20	
+R20	TLINK_isIncluded Arg1:T21 Arg2:T22	
+R21	TLINK_before Arg1:T23 Arg2:T21	
+R22	TLINK_includes Arg1:T24 Arg2:T23	
+T25	Participant 100 105	A GNR
+A106	Lexical_Head T25 Noun
+A107	Individuation_Domain T25 Individual
+A108	Participant_Type_Domain T25 Org
+A109	Involvement T25 1
+T26	Participant 127 145	a idosa de 81 anos
+A110	Lexical_Head T26 Noun
+A111	Individuation_Domain T26 Individual
+A112	Participant_Type_Domain T26 Per
+A113	Involvement T26 1
+T27	Participant 146 149	que
+A114	Lexical_Head T27 Pronoun
+A115	Individuation_Domain T27 Individual
+A116	Participant_Type_Domain T27 Per
+A117	Involvement T27 1
+R23	OLINK_objIdentity Arg1:T27 Arg2:T26	
+T28	Participant 203 210	Sabroso
+A118	Lexical_Head T28 Noun
+A119	Individuation_Domain T28 Individual
+A120	Participant_Type_Domain T28 Loc
+A121	Involvement T28 1
+T29	Participant 212 233	concelho de Vila Real
+A122	Lexical_Head T29 Noun
+A123	Individuation_Domain T29 Individual
+A124	Participant_Type_Domain T29 Loc
+A125	Involvement T29 1
+R24	OLINK_partOf Arg1:T28 Arg2:T29	
+T30	Participant 246 251	fonte
+A126	Lexical_Head T30 Noun
+A127	Individuation_Domain T30 Individual
+A128	Participant_Type_Domain T30 Per
+A129	Involvement T30 1
+T31	Participant 253 274	aquela força policial
+A130	Lexical_Head T31 Noun
+A131	Individuation_Domain T31 Individual
+A132	Participant_Type_Domain T31 Org
+A133	Involvement T31 1
+R25	OLINK_partOf Arg1:T30 Arg2:T31	
+T32	Participant 276 289	A octogenária
+A134	Lexical_Head T32 Noun
+A135	Individuation_Domain T32 Individual
+A136	Participant_Type_Domain T32 Per
+A137	Involvement T32 1
+R26	OLINK_objIdentity Arg1:T32 Arg2:T27	
+T33	Participant 307 313	um cão
+A138	Lexical_Head T33 Noun
+A139	Individuation_Domain T33 Individual
+A140	Participant_Type_Domain T33 Nat
+A141	Involvement T33 1
+T34	Participant 317 335	equipa cinotécnica
+A142	Lexical_Head T34 Noun
+A143	Individuation_Domain T34 Set
+A144	Participant_Type_Domain T34 Per
+T35	Participant 339 342	GNR
+A145	Lexical_Head T35 Noun
+A146	Individuation_Domain T35 Individual
+A147	Participant_Type_Domain T35 Org
+A148	Involvement T35 1
+R27	OLINK_partOf Arg1:T33 Arg2:T34	
+R28	OLINK_partOf Arg1:T34 Arg2:T35	
+T36	Participant 374 377	sua
+A149	Lexical_Head T36 Pronoun
+A150	Individuation_Domain T36 Individual
+A151	Participant_Type_Domain T36 Per
+A152	Involvement T36 1
+R29	OLINK_objIdentity Arg1:T36 Arg2:T32	
+T37	Participant 378 388	residência
+A153	Lexical_Head T37 Noun
+A154	Individuation_Domain T37 Individual
+A155	Participant_Type_Domain T37 Loc
+A156	Involvement T37 1
+T38	Participant 354 370	dois quilómetros
+A157	Lexical_Head T38 Noun
+A158	Individuation_Domain T38 Individual
+A159	Participant_Type_Domain T38 Other
+A160	Involvement T38 >1
+T39	Participant 413 435	a unidade de Vila Real
+A161	Lexical_Head T39 Noun
+A162	Individuation_Domain T39 Individual
+A163	Participant_Type_Domain T39 Org
+A164	Involvement T39 1
+T40	Participant 439 487	Centro Hospitalar de Trás-os-Montes e Alto Douro
+A165	Lexical_Head T40 Noun
+A166	Individuation_Domain T40 Individual
+A167	Participant_Type_Domain T40 Org
+A168	Involvement T40 1
+R30	OLINK_partOf Arg1:T39 Arg2:T40	
+T41	Participant 524 529	idosa
+A169	Lexical_Head T41 Noun
+A170	Individuation_Domain T41 Individual
+A171	Participant_Type_Domain T41 Per
+A172	Involvement T41 1
+T42	Participant 546 557	um familiar
+A173	Lexical_Head T42 Noun
+A174	Individuation_Domain T42 Individual
+A175	Participant_Type_Domain T42 Per
+A176	Involvement T42 1
+T43	Participant 623 632	elementos
+A177	Lexical_Head T43 Noun
+A178	Individuation_Domain T43 Individual
+A179	Participant_Type_Domain T43 Per
+A180	Involvement T43 >1
+T44	Participant 636 686	Unidade de Emergência de Proteção e Socorro (UEPS)
+A181	Lexical_Head T44 Noun
+A182	Individuation_Domain T44 Individual
+A183	Participant_Type_Domain T44 Org
+A184	Involvement T44 1
+T45	Participant 690 693	GNR
+A185	Lexical_Head T45 Noun
+A186	Individuation_Domain T45 Individual
+A187	Participant_Type_Domain T45 Org
+A188	Involvement T45 1
+R31	OLINK_partOf Arg1:T43 Arg2:T44	
+R32	OLINK_partOf Arg1:T44 Arg2:T45	
+T46	Participant 760 769	elementos
+A189	Lexical_Head T46 Noun
+A190	Individuation_Domain T46 Individual
+A191	Participant_Type_Domain T46 Per
+A192	Involvement T46 >1
+T47	Participant 773 776	GNR
+A193	Lexical_Head T47 Noun
+A194	Individuation_Domain T47 Individual
+A195	Participant_Type_Domain T47 Org
+A196	Involvement T47 1
+T48	Participant 783 792	bombeiros
+A197	Lexical_Head T48 Noun
+A198	Individuation_Domain T48 Individual
+A199	Participant_Type_Domain T48 Org
+A200	Involvement T48 1
+T49	Participant 796 804	a mulher
+A201	Lexical_Head T49 Noun
+A202	Individuation_Domain T49 Individual
+A203	Participant_Type_Domain T49 Per
+A204	Involvement T49 1
+R33	OLINK_partOf Arg1:T46 Arg2:T47	
+R34	OLINK_objIdentity Arg1:T47 Arg2:T45	
+R35	OLINK_objIdentity Arg1:T45 Arg2:T35	
+R36	OLINK_objIdentity Arg1:T35 Arg2:T31	
+R37	OLINK_objIdentity Arg1:T31 Arg2:T25	
+R38	OLINK_objIdentity Arg1:T48 Arg2:T41	
+T50	Participant 847 867	a página na Internet
+A205	Lexical_Head T50 Noun
+A206	Individuation_Domain T50 Individual
+A207	Participant_Type_Domain T50 Other
+A208	Involvement T50 1
+T51	Participant 871 921	Autoridade Nacional de Emergência e Proteção Civil
+A209	Lexical_Head T51 Noun
+A210	Individuation_Domain T51 Individual
+A211	Participant_Type_Domain T51 Org
+A212	Involvement T51 1
+T52	Participant 962 977	29 operacionais
+A213	Lexical_Head T52 Noun
+A214	Individuation_Domain T52 Individual
+A215	Participant_Type_Domain T52 Per
+A216	Involvement T52 >1
+T53	Participant 980 993	nove viaturas
+A217	Lexical_Head T53 Noun
+A218	Individuation_Domain T53 Individual
+A219	Participant_Type_Domain T53 Obj
+A220	Involvement T53 >1
+R39	OLINK_partOf Arg1:T50 Arg2:T51	
+R40	SRLINK_agent Arg1:T1 Arg2:T25	
+R41	SRLINK_patient Arg1:T1 Arg2:T26	
+R42	SRLINK_pivot Arg1:T4 Arg2:T27	
+R43	SRLINK_location Arg1:T1 Arg2:T28	
+R44	SRLINK_location Arg1:T1 Arg2:T29	
+R45	SRLINK_theme Arg1:T6 Arg2:T1	
+R46	SLINK_evidential Arg1:T6 Arg2:T1	
+R47	SRLINK_agent Arg1:T6 Arg2:T30	
+R48	SRLINK_patient Arg1:T8 Arg2:T32	
+R49	SRLINK_agent Arg1:T8 Arg2:T33	
+R50	SRLINK_distance Arg1:T8 Arg2:T38	
+R51	SRLINK_location Arg1:T8 Arg2:T37	
+R52	SRLINK_patient Arg1:T9 Arg2:T32	
+R53	SRLINK_finalLocation Arg1:T9 Arg2:T39	
+R54	SRLINK_agent Arg1:T9 Arg2:T34	
+A221	Involvement T34 1
+R55	SRLINK_theme Arg1:T10 Arg2:T11	
+R56	SRLINK_theme Arg1:T11 Arg2:T41	
+R57	SRLINK_pivot Arg1:T12 Arg2:T41	
+R58	SRLINK_partner Arg1:T12 Arg2:T42	
+R59	SRLINK_theme Arg1:T13 Arg2:T10	
+R60	SRLINK_theme Arg1:T15 Arg2:T41	
+R61	SRLINK_agent Arg1:T15 Arg2:T43	
+R62	TLINK_during Arg1:T15 Arg2:T16	
+R63	SRLINK_theme Arg1:T17 Arg2:T18	
+R64	SRLINK_theme Arg1:T20 Arg2:T18	
+R65	SRLINK_patient Arg1:T20 Arg2:T46	
+R66	OLINK_partOf Arg1:T46 Arg2:T48	
+R67	SRLINK_patient Arg1:T21 Arg2:T49	
+R68	SRLINK_agent Arg1:T23 Arg2:T51	
+R69	SRLINK_patient Arg1:T23 Arg2:T52	
+R70	SRLINK_patient Arg1:T23 Arg2:T53	
+R71	SRLINK_setting Arg1:T23 Arg2:T24	

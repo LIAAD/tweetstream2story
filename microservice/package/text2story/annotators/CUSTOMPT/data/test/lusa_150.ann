@@ -1,0 +1,495 @@
+T1	Time 8 19	01 dez 2020
+A1	Time_Type T1 Date
+A2	TemporalFunction T1 Publication_Time
+#1	AnnotatorNotes T1	value=2020-12-01
+T2	Event 133 142	expressou
+A3	Class T2 Reporting
+A4	Event_Type T2 Transition
+A5	Pos T2 Verb
+A6	Tense T2 Past
+A7	Aspect T2 Perfective
+A8	Polarity T2 Pos
+T3	Event 150 163	solidariedade
+A9	Class T3 State
+A10	Event_Type T3 State
+A11	Pos T3 Noun
+A12	Polarity T3 Pos
+T4	Event 200 208	atentado
+A13	Class T4 Occurrence
+A14	Event_Type T4 Transition
+A15	Pos T4 Noun
+A16	Polarity T4 Pos
+T5	Event 213 222	aconteceu
+A17	Class T5 Occurrence
+A18	Event_Type T5 Transition
+A19	Pos T5 Verb
+A20	Tense T5 Past
+A21	Aspect T5 Perfective
+A22	Polarity T5 Pos
+T6	Time 223 227	hoje
+A23	Time_Type T6 Date
+A24	TemporalFunction T6 Publication_Time
+#2	AnnotatorNotes T6	value=2020-12-01 anchorTime=Publication_Time
+T7	Event 262 272	reiterando
+A25	Class T7 Reporting
+A26	Event_Type T7 Transition
+A27	Pos T7 Verb
+A28	Aspect T7 Progressive
+A29	VForm T7 Gerundive
+A30	Polarity T7 Pos
+T8	Event 275 280	apoio
+A31	Class T8 State
+A32	Event_Type T8 State
+A33	Pos T8 Noun
+A34	Polarity T8 Pos
+T9	Event 324 332	morreram
+A35	Class T9 Occurrence
+A36	Event_Type T9 Transition
+A37	Pos T9 Verb
+A38	Tense T9 Past
+A39	Aspect T9 Perfective
+A40	Polarity T9 Pos
+T10	Event 333 344	atropeladas
+A41	Class T10 Occurrence
+A42	Event_Type T10 Transition
+A43	Pos T10 Verb
+A44	VForm T10 Participle
+A45	Polarity T10 Pos
+T11	Event 362 369	feridas
+A46	Class T11 Occurrence
+A47	Event_Type T11 Transition
+A48	Pos T11 Verb
+A49	Tense T11 Past
+A50	Aspect T11 Perfective
+A51	Polarity T11 Pos
+T12	Event 395 403	avançado
+A52	Class T12 Occurrence
+A53	Event_Type T12 Transition
+A54	Pos T12 Verb
+A55	Tense T12 Past
+A56	Aspect T12 Perfective
+A57	VForm T12 Infinitive
+A58	Polarity T12 Pos
+T13	Event 601 611	manifestou
+A59	Class T13 Reporting
+A60	Event_Type T13 Transition
+A61	Pos T13 Verb
+A62	Tense T13 Past
+A63	Aspect T13 Perfective
+A64	Polarity T13 Pos
+T14	Event 614 627	solidariedade
+A65	Class T14 State
+A66	Event_Type T14 State
+A67	Pos T14 Noun
+A68	Polarity T14 Pos
+T15	Event 665 673	atentado
+A69	Class T15 Occurrence
+A70	Event_Type T15 Transition
+A71	Pos T15 Noun
+A72	Polarity T15 Pos
+T16	Event 679 688	aconteceu
+A73	Class T16 Occurrence
+A74	Event_Type T16 Transition
+A75	Pos T16 Verb
+A76	Tense T16 Past
+A77	Aspect T16 Perfective
+A78	Polarity T16 Pos
+T17	Event 712 721	Desejamos
+A79	Class T17 I_State
+A80	Event_Type T17 State
+A81	Pos T17 Verb
+A82	Tense T17 Present
+A83	Aspect T17 Imperfective
+A84	Polarity T17 Pos
+T18	Event 724 742	rápida recuperação
+A85	Class T18 Occurrence
+A86	Event_Type T18 Transition
+A87	Pos T18 Noun
+A88	Polarity T18 Pos
+T19	Event 757 767	reiteramos
+A89	Class T19 Reporting
+A90	Tense T19 Present
+A91	Aspect T19 Imperfective
+A92	Polarity T19 Pos
+T20	Event 770 775	apoio
+A93	Class T20 State
+A94	Event_Type T20 State
+A95	Pos T20 Noun
+A96	Polarity T20 Pos
+A97	Event_Type T19 Transition
+A98	Pos T19 Verb
+T21	Event 812 818	refere
+A99	Class T21 Reporting
+A100	Event_Type T21 Transition
+A101	Pos T21 Verb
+A102	Tense T21 Present
+A103	Aspect T21 Imperfective
+T22	Event 827 837	publicação
+A104	Class T22 Reporting
+A105	Event_Type T22 State
+A106	Pos T22 Noun
+A107	Polarity T22 Pos
+T23	Event 855 861	detido
+A108	Class T23 Occurrence
+A109	Event_Type T23 Transition
+A110	Pos T23 Verb
+A111	Tense T23 Past
+A112	Aspect T23 Perfective
+A113	Polarity T23 Pos
+T24	Event 874 884	apreendido
+A114	Class T24 Occurrence
+A115	Event_Type T24 Transition
+A116	Pos T24 Verb
+A117	Tense T24 Past
+A118	Aspect T24 Perfective
+A119	Polarity T24 Pos
+T25	Event 907 916	publicada
+A120	Class T25 Occurrence
+A121	Event_Type T25 Transition
+A122	Pos T25 Verb
+A123	VForm T25 Participle
+A124	Polarity T25 Pos
+T26	Event 995 1002	pediram
+A125	Class T26 I_Action
+A126	Event_Type T26 Transition
+A127	Pos T26 Verb
+A128	Tense T26 Past
+A129	Aspect T26 Perfective
+A130	Polarity T26 Pos
+T27	Event 1019 1027	evitarem
+A131	Class T27 Occurrence
+A132	Event_Type T27 Process
+A133	Pos T27 Verb
+A134	VForm T27 Infinitive
+A135	Polarity T27 Pos
+T28	Event 1048 1064	desconhecendo-se
+A136	Class T28 State
+A137	Event_Type T28 State
+A138	Pos T28 Verb
+A139	Tense T28 Present
+A140	Aspect T28 Imperfective
+A141	VForm T28 Gerundive
+A142	Polarity T28 Pos
+T29	Event 1095 1104	incidente
+A143	Class T29 Occurrence
+A144	Event_Type T29 Transition
+A145	Pos T29 Noun
+A146	Polarity T29 Pos
+T30	Event 1112 1116	fica
+A147	Class T30 State
+A148	Event_Type T30 State
+A149	Pos T30 Verb
+A150	Tense T30 Present
+A151	Aspect T30 Imperfective
+A152	Polarity T30 Pos
+T31	Event 898 906	mensagem
+A153	Class T31 State
+A154	Event_Type T31 State
+A155	Pos T31 Noun
+A156	Polarity T31 Pos
+R1	TLINK_includes Arg1:T3 Arg2:T2	
+R2	TLINK_before Arg1:T4 Arg2:T3	
+R4	TLINK_isIncluded Arg1:T5 Arg2:T6	
+R5	TLINK_includes Arg1:T8 Arg2:T7	
+R6	TLINK_after Arg1:T7 Arg2:T5	
+R7	TLINK_before Arg1:T9 Arg2:T8	
+R8	TLINK_simultaneous Arg1:T10 Arg2:T9	
+R9	TLINK_simultaneous Arg1:T11 Arg2:T10	
+R10	TLINK_before Arg1:T12 Arg2:T11	
+R11	TLINK_after Arg1:T13 Arg2:T12	
+R12	TLINK_includes Arg1:T14 Arg2:T13	
+R13	TLINK_before Arg1:T15 Arg2:T14	
+R14	TLINK_identity Arg1:T16 Arg2:T15	
+R16	TLINK_after Arg1:T17 Arg2:T16	
+R17	TLINK_includes Arg1:T20 Arg2:T19	
+R18	TLINK_before Arg1:T19 Arg2:T18	
+R19	TLINK_before Arg1:T21 Arg2:T20	
+R20	TLINK_includes Arg1:T22 Arg2:T21	
+R21	TLINK_before Arg1:T23 Arg2:T22	
+R22	TLINK_simultaneous Arg1:T24 Arg2:T23	
+R23	TLINK_after Arg1:T31 Arg2:T24	
+R24	TLINK_identity Arg1:T25 Arg2:T31	
+R25	TLINK_after Arg1:T27 Arg2:T26	
+R26	TLINK_includes Arg1:T28 Arg2:T27	
+R27	TLINK_before Arg1:T29 Arg2:T28	
+R28	TLINK_isIncluded Arg1:T26 Arg2:T25	
+R29	TLINK_includes Arg1:T30 Arg2:T29	
+T32	Participant 113 132	O Governo português
+A157	Lexical_Head T32 Noun
+A158	Individuation_Domain T32 Individual
+A159	Participant_Type_Domain T32 Org
+A160	Involvement T32 1
+T33	Participant 146 149	sua
+A161	Lexical_Head T33 Pronoun
+A162	Individuation_Domain T33 Individual
+A163	Participant_Type_Domain T33 Org
+A164	Involvement T33 1
+R30	OLINK_objIdentity Arg1:T33 Arg2:T32	
+T34	Participant 173 184	as famílias
+A165	Lexical_Head T34 Noun
+A166	Individuation_Domain T34 Set
+A167	Participant_Type_Domain T34 Per
+A168	Involvement T34 All
+T37	Participant 251 259	Alemanha
+A177	Lexical_Head T37 Noun
+A178	Individuation_Domain T37 Individual
+A179	Participant_Type_Domain T37 Loc
+A180	Involvement T37 1
+T39	Participant 291 309	autoridades alemãs
+A185	Lexical_Head T39 Noun
+A186	Individuation_Domain T39 Individual
+A187	Participant_Type_Domain T39 Org
+A188	Involvement T39 >1
+T40	Participant 311 323	Duas pessoas
+A189	Lexical_Head T40 Noun
+A190	Individuation_Domain T40 Individual
+A191	Participant_Type_Domain T40 Per
+A192	Involvement T40 >1
+T41	Participant 347 353	várias
+A193	Lexical_Head T41 Pronoun
+A194	Individuation_Domain T41 Individual
+A195	Participant_Type_Domain T41 Per
+A196	Involvement T41 >1
+T42	Participant 380 390	um veículo
+A197	Lexical_Head T42 Noun
+A198	Individuation_Domain T42 Individual
+A199	Participant_Type_Domain T42 Obj
+A200	Involvement T42 1
+T43	Participant 410 426	uma zona pedonal
+A201	Lexical_Head T43 Noun
+A202	Individuation_Domain T43 Individual
+A203	Participant_Type_Domain T43 Loc
+A204	Involvement T43 1
+T46	Participant 486 501	a polícia local
+A213	Lexical_Head T46 Noun
+A214	Individuation_Domain T46 Individual
+A215	Participant_Type_Domain T46 Org
+A216	Involvement T46 1
+T49	Participant 581 600	o Governo português
+A225	Lexical_Head T49 Noun
+A226	Individuation_Domain T49 Individual
+A227	Participant_Type_Domain T49 Org
+A228	Involvement T49 1
+R39	OLINK_objIdentity Arg1:T49 Arg2:T32	
+T50	Participant 638 649	as famílias
+A229	Lexical_Head T50 Noun
+A230	Individuation_Domain T50 Set
+A231	Participant_Type_Domain T50 Per
+A232	Involvement T50 >1
+R41	OLINK_objIdentity Arg1:T50 Arg2:T34	
+T52	Participant 690 709	aquela cidade alemã
+A237	Lexical_Head T52 Noun
+A238	Individuation_Domain T52 Individual
+A239	Participant_Type_Domain T52 Loc
+A240	Involvement T52 1
+T56	Participant 839 850	O motorista
+A253	Lexical_Head T56 Noun
+A254	Individuation_Domain T56 Individual
+A255	Participant_Type_Domain T56 Per
+A256	Involvement T56 1
+T57	Participant 864 873	o veículo
+A257	Lexical_Head T57 Noun
+A258	Individuation_Domain T57 Individual
+A259	Participant_Type_Domain T57 Obj
+A260	Involvement T57 1
+T60	Participant 961 970	A polícia
+A269	Lexical_Head T60 Noun
+A270	Individuation_Domain T60 Individual
+A271	Participant_Type_Domain T60 Org
+A272	Involvement T60 1
+T61	Participant 973 994	as equipas de resgate
+A273	Lexical_Head T61 Noun
+A274	Individuation_Domain T61 Individual
+A275	Participant_Type_Domain T61 Org
+A276	Involvement T61 >1
+T63	Participant 1028 1046	o centro da cidade
+A281	Lexical_Head T63 Noun
+A282	Individuation_Domain T63 Individual
+A283	Participant_Type_Domain T63 Loc
+A284	Involvement T63 1
+T65	Participant 1106 1111	Trier
+A289	Lexical_Head T65 Noun
+A290	Individuation_Domain T65 Individual
+A291	Participant_Type_Domain T65 Loc
+A292	Involvement T65 1
+R45	TLINK_identity Arg1:T14 Arg2:T3	
+R46	TLINK_identity Arg1:T15 Arg2:T4	
+R53	OLINK_objIdentity Arg1:T57 Arg2:T42	
+R58	OLINK_partOf Arg1:T63 Arg2:T52	
+R61	SRLINK_agent Arg1:T2 Arg2:T32	
+R62	SRLINK_theme Arg1:T2 Arg2:T3	
+R63	SLINK_evidential Arg1:T2 Arg2:T3	
+R64	SRLINK_pivot Arg1:T3 Arg2:T33	
+R65	SRLINK_beneficiary Arg1:T3 Arg2:T34	
+R69	SRLINK_location Arg1:T5 Arg2:T37	
+R70	SRLINK_agent Arg1:T7 Arg2:T32	
+R71	SRLINK_theme Arg1:T7 Arg2:T8	
+R72	SLINK_evidential Arg1:T7 Arg2:T8	
+R74	SRLINK_beneficiary Arg1:T8 Arg2:T39	
+R75	SRLINK_agent Arg1:T8 Arg2:T33	
+R76	SRLINK_patient Arg1:T9 Arg2:T40	
+R77	SRLINK_manner Arg1:T9 Arg2:T10	
+R78	SRLINK_patient Arg1:T11 Arg2:T41	
+R81	SRLINK_theme Arg1:T12 Arg2:T42	
+R82	SRLINK_finalLocation Arg1:T12 Arg2:T43	
+R85	SRLINK_agent Arg1:T13 Arg2:T49	
+R87	SLINK_evidential Arg1:T13 Arg2:T14	
+R88	SRLINK_theme Arg1:T13 Arg2:T14	
+R89	SRLINK_beneficiary Arg1:T14 Arg2:T50	
+R90	SRLINK_pivot Arg1:T14 Arg2:T49	
+R93	SRLINK_location Arg1:T16 Arg2:T52	
+R94	SRLINK_agent Arg1:T17 Arg2:T49	
+R95	SRLINK_theme Arg1:T17 Arg2:T18	
+R96	SLINK_intensional Arg1:T17 Arg2:T18	
+R98	SRLINK_agent Arg1:T19 Arg2:T49	
+R99	SRLINK_theme Arg1:T19 Arg2:T20	
+R100	SLINK_evidential Arg1:T19 Arg2:T20	
+R101	SRLINK_pivot Arg1:T20 Arg2:T49	
+R104	SRLINK_theme Arg1:T21 Arg2:T17	
+R105	SLINK_evidential Arg1:T21 Arg2:T17	
+R108	SRLINK_theme Arg1:T23 Arg2:T56	
+R109	SRLINK_theme Arg1:T24 Arg2:T57	
+R110	SRLINK_theme Arg1:T25 Arg2:T31	
+R113	SRLINK_agent Arg1:T26 Arg2:T60	
+R114	SRLINK_agent Arg1:T26 Arg2:T61	
+R116	SLINK_intensional Arg1:T26 Arg2:T27	
+R117	SRLINK_theme Arg1:T26 Arg2:T27	
+R119	SRLINK_theme Arg1:T27 Arg2:T63	
+R122	SRLINK_pivot Arg1:T30 Arg2:T65	
+#3	AnnotatorNotes T34	constituinte completo: as famílias das vítimas do atentado que aconteceu hoje na cidade de Trier, na Alemanha
+T69	Event 209 212	que
+R125	TLINK_identity Arg1:T69 Arg2:T4	
+R67	TLINK_identity Arg1:T69 Arg2:T5	
+T36	Participant 229 246	a cidade de Trier
+A173	Lexical_Head T36 Noun
+A174	Individuation_Domain T36 Individual
+A175	Participant_Type_Domain T36 Loc
+A176	Involvement T36 1
+T70	Participant 249 259	a Alemanha
+A305	Lexical_Head T70 Noun
+A306	Individuation_Domain T70 Individual
+A307	Participant_Type_Domain T70 Loc
+A308	Involvement T70 1
+R3	SRLINK_location Arg1:T5 Arg2:T36	
+R32	SRLINK_location Arg1:T5 Arg2:T70	
+R68	OLINK_partOf Arg1:T36 Arg2:T70	
+R126	SRLINK_agent Arg1:T7 Arg2:T32	
+T38	Participant 282 288	o povo
+A181	Lexical_Head T38 Noun
+A182	Individuation_Domain T38 Set
+A183	Participant_Type_Domain T38 Per
+A184	Involvement T38 1
+R33	SRLINK_beneficiary Arg1:T8 Arg2:T38	
+T45	Participant 448 470	o sudoeste da Alemanha
+A209	Lexical_Head T45 Noun
+A210	Individuation_Domain T45 Individual
+A211	Participant_Type_Domain T45 Loc
+A212	Involvement T45 1
+T44	Participant 428 445	a cidade de Trier
+A205	Lexical_Head T44 Noun
+A206	Individuation_Domain T44 Individual
+A207	Participant_Type_Domain T44 Loc
+A208	Involvement T44 1
+R34	SRLINK_location Arg1:T12 Arg2:T44	
+R15	SRLINK_location Arg1:T12 Arg2:T45	
+R35	OLINK_partOf Arg1:T43 Arg2:T44	
+R36	OLINK_partOf Arg1:T44 Arg2:T45	
+T47	Participant 512 579	a página oficial do Twitter do Ministério dos Negócios Estrangeiros
+A217	Lexical_Head T47 Noun
+A218	Individuation_Domain T47 Individual
+A219	Participant_Type_Domain T47 Obj
+A220	Involvement T47 1
+T48	Participant 541 579	o Ministério dos Negócios Estrangeiros
+A221	Lexical_Head T48 Noun
+A222	Individuation_Domain T48 Individual
+A223	Participant_Type_Domain T48 Org
+A224	Involvement T48 1
+R37	OLINK_partOf Arg1:T48 Arg2:T32	
+R38	SRLINK_medium Arg1:T13 Arg2:T47	
+T51	Participant 651 661	as vítimas
+A233	Individuation_Domain T51 Individual
+A234	Participant_Type_Domain T51 Per
+A235	Involvement T51 All
+R40	OLINK_memberOf Arg1:T51 Arg2:T50	
+R42	OLINK_partOf Arg1:T40 Arg2:T51	
+R44	OLINK_partOf Arg1:T41 Arg2:T51	
+R48	SRLINK_patient Arg1:T15 Arg2:T51	
+T71	Event 675 678	que
+R50	TLINK_identity Arg1:T71 Arg2:T15	
+R55	SRLINK_theme Arg1:T71 Arg2:T16	
+R73	OLINK_objIdentity Arg1:T52 Arg2:T44	
+T53	Participant 744 754	os feridos
+A236	Lexical_Head T53 Noun
+A241	Individuation_Domain T53 Individual
+A242	Participant_Type_Domain T53 Per
+A243	Involvement T53 All
+R49	SRLINK_patient Arg1:T18 Arg2:T53	
+R79	OLINK_objIdentity Arg1:T53 Arg2:T41	
+T54	Participant 777 783	o povo
+A244	Individuation_Domain T54 Set
+A245	Participant_Type_Domain T54 Per
+A246	Involvement T54 1
+R57	SRLINK_beneficiary Arg1:T20 Arg2:T54	
+R80	OLINK_objIdentity Arg1:T54 Arg2:T38	
+T55	Participant 786 809	autoridades da Alemanha
+A247	Lexical_Head T55 Noun
+A248	Individuation_Domain T55 Individual
+A249	Participant_Type_Domain T55 Org
+A250	Involvement T55 >1
+R51	SRLINK_beneficiary Arg1:T20 Arg2:T55	
+R52	OLINK_objIdentity Arg1:T55 Arg2:T39	
+T58	Participant 920 938	a polícia de Trier
+A251	Lexical_Head T58 Noun
+A252	Individuation_Domain T58 Individual
+A261	Participant_Type_Domain T58 Org
+A262	Involvement T58 1
+R54	SRLINK_agent Arg1:T58 Arg2:T25	
+R56	OLINK_objIdentity Arg1:T58 Arg2:T46	
+T59	Participant 940 959	a mesma rede social
+A263	Lexical_Head T59 Noun
+A264	Individuation_Domain T59 Individual
+A265	Participant_Type_Domain T59 Obj
+A266	Involvement T59 1
+R83	SRLINK_location Arg1:T25 Arg2:T59	
+T68	Participant 530 539	o Twitter
+A267	Lexical_Head T68 Noun
+A268	Individuation_Domain T68 Individual
+A301	Participant_Type_Domain T68 Org
+A302	Involvement T68 1
+R84	OLINK_objIdentity Arg1:T68 Arg2:T59	
+R86	OLINK_objIdentity Arg1:T60 Arg2:T58	
+T62	Participant 1003 1013	às pessoas
+A277	Lexical_Head T62 Noun
+A278	Individuation_Domain T62 Individual
+A279	Participant_Type_Domain T62 Per
+A280	Involvement T62 >1
+R91	SRLINK_goal Arg1:T26 Arg2:T62	
+R92	SRLINK_agent Arg1:T27 Arg2:T62	
+T64	Participant 1071 1104	mais pormenores sobre o incidente
+A285	Lexical_Head T64 Noun
+A286	Individuation_Domain T64 Individual
+A287	Participant_Type_Domain T64 Other
+A288	Involvement T64 >1
+T66	Participant 1119 1164	cerca de 200 quilómetros a oeste de Frankfurt
+A293	Lexical_Head T66 Noun
+A294	Individuation_Domain T66 Individual
+A295	Participant_Type_Domain T66 Other
+A296	Involvement T66 >1
+R59	SRLINK_location Arg1:T30 Arg2:T66	
+T67	Participant 1173 1201	a fronteira com o Luxemburgo
+A297	Lexical_Head T67 Noun
+A298	Individuation_Domain T67 Individual
+A299	Participant_Type_Domain T67 Loc
+A300	Involvement T67 1
+R60	SRLINK_location Arg1:T30 Arg2:T67	
+R97	OLINK_objIdentity Arg1:T65 Arg2:T52	
+R102	SRLINK_theme Arg1:T28 Arg2:T64	
+T35	Participant 186 196	as vítimas
+A169	Lexical_Head T35 Noun
+A170	Individuation_Domain T35 Individual
+A171	Participant_Type_Domain T35 Per
+A172	Involvement T35 All
+R31	OLINK_memberOf Arg1:T35 Arg2:T34	
+R43	SRLINK_patient Arg1:T4 Arg2:T35	
+R47	OLINK_subSet Arg1:T40 Arg2:T35	
+R66	OLINK_subSet Arg1:T41 Arg2:T35	

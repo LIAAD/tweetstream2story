@@ -1,0 +1,246 @@
+T1	Event 151 159	anunciou
+A1	Class T1 Reporting
+A2	Event_Type T1 Transition
+A3	Pos T1 Verb
+A4	Tense T1 Past
+A5	Aspect T1 Perfective
+A6	Polarity T1 Pos
+T2	Time 160 164	hoje
+A7	Time_Type T2 Date
+A8	TemporalFunction T2 Publication_Time
+#1	AnnotatorNotes T2	value=2020-10-13
+T3	Event 169 178	encerrado
+A9	Class T3 Occurrence
+A10	Event_Type T3 Transition
+A11	Pos T3 Verb
+A12	Tense T3 Past
+A13	Aspect T3 Perfective
+A14	VForm T3 Infinitive
+A15	Polarity T3 Pos
+T4	Event 227 233	reunia
+A16	Class T4 State
+A17	Event_Type T4 State
+A18	Pos T4 Verb
+A19	Tense T4 Past
+A20	Aspect T4 Progressive
+A21	Polarity T4 Pos
+T5	Event 321 330	detetaram
+A22	Class T5 Perception
+A23	Event_Type T5 Transition
+A24	Pos T5 Verb
+A25	Tense T5 Past
+A26	Aspect T5 Perfective
+A27	Polarity T5 Pos
+T6	Event 362 371	funcionar
+A28	Tense T6 Past
+A29	Aspect T6 Progressive
+A30	Polarity T6 Pos
+T7	Event 398 405	ocorreu
+A31	Class T7 Occurrence
+A32	Event_Type T7 Transition
+A33	Pos T7 Verb
+A34	Tense T7 Past
+A35	Aspect T7 Perfective
+A36	Polarity T7 Pos
+T8	Event 427 431	ação
+A37	Class T8 Occurrence
+A38	Event_Type T8 Process
+A39	Pos T8 Noun
+A40	Polarity T8 Pos
+T9	Event 435 447	fiscalização
+A41	Class T9 Occurrence
+A42	Event_Type T9 Process
+A43	Pos T9 Noun
+A44	Polarity T9 Pos
+T10	Event 461 472	cumprimento
+A45	Class T10 Occurrence
+A46	Event_Type T10 Transition
+A47	Pos T10 Noun
+A48	Polarity T10 Pos
+T11	Event 484 494	referentes
+A49	Class T11 State
+A50	Event_Type T11 State
+A51	Pos T11 Verb
+A52	VForm T11 Participle
+A53	Polarity T11 Pos
+T12	Event 528 538	comunicado
+A54	Class T12 Reporting
+A55	Event_Type T12 Transition
+A56	Pos T12 Noun
+A57	Polarity T12 Pos
+T13	Event 586 598	identificada
+A58	Class T13 Occurrence
+A59	Event_Type T13 Transition
+A60	Pos T13 Verb
+A61	Tense T13 Past
+A62	Aspect T13 Perfective
+A63	Polarity T13 Pos
+T14	Event 611 615	dada
+A64	Class T14 Occurrence
+A65	Event_Type T14 Transition
+A66	Pos T14 Verb
+A67	Tense T14 Past
+A68	Aspect T14 Perfective
+A69	VForm T14 Gerundive
+A70	Polarity T14 Pos
+T15	Event 627 635	terminar
+A71	Class T15 Aspectual
+A72	Event_Type T15 Transition
+A73	Pos T15 Verb
+A74	VForm T15 Infinitive
+A75	Polarity T15 Pos
+T16	Event 646 656	resultando
+A76	Class T16 Aspectual
+A77	Event_Type T16 Transition
+A78	VForm T16 Gerundive
+A79	Polarity T16 Pos
+T17	Event 660 670	elaboração
+A80	Class T17 Occurrence
+A81	Event_Type T17 Transition
+A82	Pos T17 Noun
+A83	Polarity T17 Pos
+T18	Event 677 681	auto
+A85	Event_Type T18 Transition
+A86	Pos T18 Noun
+A87	Polarity T18 Pos
+T19	Event 685 700	contraordenação
+A88	Class T19 Occurrence
+A89	Event_Type T19 Transition
+A90	Polarity T19 Pos
+A91	Pos T19 Noun
+R1	TLINK_isIncluded Arg1:T1 Arg2:T2	
+R2	TLINK_before Arg1:T3 Arg2:T1	
+R3	TLINK_includes Arg1:T4 Arg2:T3	
+R4	TLINK_isIncluded Arg1:T5 Arg2:T4	
+R5	TLINK_includes Arg1:T6 Arg2:T5	
+R6	TLINK_simultaneous Arg1:T6 Arg2:T4	
+A84	Class T6 State
+A92	Event_Type T6 State
+A93	Pos T6 Verb
+R7	TLINK_identity Arg1:T7 Arg2:T5	
+R8	TLINK_identity Arg1:T9 Arg2:T8	
+R9	TLINK_during Arg1:T7 Arg2:T8	
+T20	Event 477 483	normas
+A94	Class T20 State
+A95	Event_Type T20 State
+A96	Pos T20 Noun
+A97	Polarity T20 Pos
+R10	TLINK_identity Arg1:T11 Arg2:T20	
+R11	TLINK_includes Arg1:T20 Arg2:T10	
+R12	TLINK_isIncluded Arg1:T10 Arg2:T9	
+T21	Event 497 514	pandemia covid-19
+A98	Class T21 State
+A99	Event_Type T21 State
+A100	Pos T21 Noun
+A101	Polarity T21 Pos
+R13	TLINK_simultaneous Arg1:T21 Arg2:T11	
+R14	TLINK_isIncluded Arg1:T12 Arg2:T21	
+R15	TLINK_after Arg1:T12 Arg2:T9	
+R16	TLINK_before Arg1:T13 Arg2:T12	
+R17	TLINK_simultaneous Arg1:T14 Arg2:T13	
+T22	Event 616 621	ordem
+A102	Class T22 I_Action
+A103	Event_Type T22 Transition
+A104	Pos T22 Noun
+A105	Polarity T22 Pos
+T23	Event 638 644	evento
+A106	Class T23 Occurrence
+A107	Event_Type T23 Process
+A108	Pos T23 Noun
+A109	Polarity T23 Pos
+R18	TLINK_identity Arg1:T22 Arg2:T14	
+R19	TLINK_after Arg1:T15 Arg2:T22	
+R20	TLINK_includes Arg1:T23 Arg2:T15	
+R21	TLINK_identity Arg1:T17 Arg2:T16	
+R22	TLINK_after Arg1:T16 Arg2:T13	
+R23	TLINK_identity Arg1:T18 Arg2:T17	
+R24	TLINK_before Arg1:T19 Arg2:T18	
+T24	Participant 132 150	A GNR de Freamunde
+A110	Lexical_Head T24 Noun
+A111	Individuation_Domain T24 Individual
+A112	Participant_Type_Domain T24 Org
+A113	Involvement T24 1
+T26	Participant 179 222	um estabelecimento de restauração e bebidas
+A118	Lexical_Head T26 Noun
+A119	Individuation_Domain T26 Individual
+A120	Participant_Type_Domain T26 Org
+A121	Involvement T26 1
+T27	Participant 243 253	50 pessoas
+A122	Lexical_Head T27 Noun
+A123	Individuation_Domain T27 Individual
+A124	Participant_Type_Domain T27 Per
+A125	Involvement T27 >1
+T28	Participant 255 273	naquela localidade
+A126	Lexical_Head T28 Noun
+A127	Individuation_Domain T28 Individual
+A128	Participant_Type_Domain T28 Loc
+A129	Involvement T28 1
+T29	Participant 277 306	concelho de Paços de Ferreira
+A130	Lexical_Head T29 Noun
+A131	Individuation_Domain T29 Individual
+A132	Participant_Type_Domain T29 Loc
+A133	Involvement T29 1
+T30	Participant 308 320	Os militares
+A134	Lexical_Head T30 Noun
+A135	Individuation_Domain T30 Individual
+A136	Participant_Type_Domain T30 Per
+A137	Involvement T30 >1
+T31	Participant 335 352	o estabelecimento
+A138	Lexical_Head T31 Noun
+A139	Individuation_Domain T31 Individual
+A140	Participant_Type_Domain T31 Org
+A141	Involvement T31 1
+T32	Participant 376 390	música ao vivo
+A142	Lexical_Head T32 Noun
+A143	Individuation_Domain T32 Mass
+A144	Participant_Type_Domain T32 Other
+A145	Involvement T32 Und
+T33	Participant 542 552	autoridade
+A146	Lexical_Head T33 Noun
+A147	Individuation_Domain T33 Individual
+A148	Participant_Type_Domain T33 Org
+A149	Involvement T33 1
+T34	Participant 554 580	A proprietária, de 48 anos
+A150	Lexical_Head T34 Noun
+A151	Individuation_Domain T34 Individual
+A152	Participant_Type_Domain T34 Per
+A153	Involvement T34 1
+R26	OLINK_partOf Arg1:T28 Arg2:T29	
+R28	OLINK_partOf Arg1:T30 Arg2:T24	
+R29	OLINK_objIdentity Arg1:T31 Arg2:T26	
+R30	OLINK_objIdentity Arg1:T33 Arg2:T24	
+R31	SRLINK_agent Arg1:T1 Arg2:T24	
+R32	SLINK_evidential Arg1:T1 Arg2:T3	
+R33	SRLINK_theme Arg1:T1 Arg2:T3	
+T25	Participant 141 150	Freamunde
+A114	Lexical_Head T25 Noun
+A115	Individuation_Domain T25 Individual
+A116	Participant_Type_Domain T25 Loc
+A117	Involvement T25 1
+R25	OLINK_objIdentity Arg1:T28 Arg2:T25	
+R27	SRLINK_theme Arg1:T3 Arg2:T26	
+R34	SRLINK_pivot Arg1:T4 Arg2:T26	
+R35	SRLINK_theme Arg1:T4 Arg2:T27	
+R36	SRLINK_location Arg1:T4 Arg2:T28	
+R37	SRLINK_agent Arg1:T5 Arg2:T30	
+R38	SRLINK_theme Arg1:T5 Arg2:T6	
+R39	SLINK_evidential Arg1:T5 Arg2:T6	
+R40	SRLINK_pivot Arg1:T6 Arg2:T31	
+R41	SRLINK_manner Arg1:T6 Arg2:T32	
+R42	TLINK_identity Arg1:T7 Arg2:T5	
+R43	SRLINK_setting Arg1:T7 Arg2:T8	
+R44	SRLINK_theme Arg1:T8 Arg2:T9	
+R45	SRLINK_purpose Arg1:T9 Arg2:T10	
+R46	SRLINK_theme Arg1:T10 Arg2:T20	
+R47	SRLINK_pivot Arg1:T11 Arg2:T20	
+R48	SRLINK_theme Arg1:T11 Arg2:T21	
+R49	SRLINK_agent Arg1:T12 Arg2:T33	
+R50	SRLINK_patient Arg1:T13 Arg2:T34	
+R51	SRLINK_theme Arg1:T14 Arg2:T22	
+R52	SLINK_intensional Arg1:T22 Arg2:T15	
+R53	SRLINK_theme Arg1:T22 Arg2:T15	
+R54	SRLINK_theme Arg1:T15 Arg2:T23	
+R55	SRLINK_result Arg1:T16 Arg2:T17	
+R56	SRLINK_theme Arg1:T17 Arg2:T18	
+R57	SRLINK_reason Arg1:T18 Arg2:T19	
+A154	Class T18 Occurrence

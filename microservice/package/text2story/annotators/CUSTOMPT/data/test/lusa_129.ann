@@ -1,0 +1,328 @@
+T1	Event 126 135	apreendeu
+A1	Class T1 Occurrence
+A2	Event_Type T1 Transition
+A3	Pos T1 Verb
+A4	Tense T1 Past
+A5	Aspect T1 Perfective
+A6	Polarity T1 Pos
+T2	Event 207 214	decurso
+A7	Class T2 Occurrence
+A8	Event_Type T2 Process
+A9	Pos T2 Noun
+A10	Polarity T2 Pos
+T3	Event 222 240	busca domiciliária
+A11	Class T3 Occurrence
+A12	Event_Type T3 Process
+A13	Pos T3 Noun
+A14	Polarity T3 Pos
+T4	Event 296 304	denúncia
+A15	Class T4 Reporting
+A16	Event_Type T4 Transition
+A17	Pos T4 Noun
+A18	Polarity T4 Pos
+T5	Event 308 327	violência doméstica
+A19	Class T5 State
+A20	Event_Type T5 State
+A21	Pos T5 Noun
+A22	Polarity T5 Pos
+T6	Time 333 337	hoje
+A23	Time_Type T6 Date
+A24	TemporalFunction T6 Publication_Time
+T7	Event 338 347	anunciado
+A25	Class T7 Reporting
+A26	Event_Type T7 Transition
+A27	Pos T7 Verb
+A28	Tense T7 Past
+A29	Aspect T7 Perfective
+A30	Polarity T7 Pos
+T8	Event 352 362	comunicado
+A31	Class T8 Reporting
+A32	Event_Type T8 Transition
+A33	Pos T8 Noun
+A34	Polarity T8 Pos
+T9	Event 373 381	explicou
+A35	Class T9 Reporting
+A36	Event_Type T9 Process
+A37	Pos T9 Verb
+A38	Tense T9 Past
+A39	Aspect T9 Perfective
+A40	Polarity T9 Pos
+T10	Event 395 403	denúncia
+A41	Class T10 Reporting
+A42	Event_Type T10 Transition
+A43	Pos T10 Noun
+A44	Polarity T10 Pos
+T11	Event 404 415	relacionada
+A45	Class T11 State
+A46	Event_Type T11 State
+A47	VForm T11 Participle
+A48	Polarity T11 Pos
+T12	Event 432 451	violência doméstica
+A49	Class T12 State
+A50	Event_Type T12 State
+A51	Pos T12 Noun
+A52	Polarity T12 Pos
+A53	Tense T11 Past
+A54	Aspect T11 Imperfective
+T13	Event 423 428	crime
+A55	Pos T13 Noun
+A56	Polarity T13 Pos
+A57	Class T13 State
+A58	Event_Type T13 State
+T14	Event 467 472	foram
+A59	Class T14 Occurrence
+A60	Event_Type T14 Transition
+A61	Pos T14 Verb
+A62	Tense T14 Past
+A63	Aspect T14 Perfective
+A64	Polarity T14 Pos
+T15	Event 533 551	coação psicológica
+A65	Class T15 State
+A66	Event_Type T15 State
+A67	Pos T15 Noun
+A68	Polarity T15 Pos
+T16	Event 525 529	alvo
+A69	Class T16 Occurrence
+A70	Event_Type T16 Transition
+A71	Pos T16 Noun
+A72	Polarity T16 Pos
+T17	Event 614 632	busca domiciliária
+A73	Class T17 Occurrence
+A74	Event_Type T17 Process
+A75	Pos T17 Noun
+A76	Polarity T17 Pos
+T18	Event 633 640	operada
+A77	Class T18 Occurrence
+A78	Event_Type T18 Process
+A79	Pos T18 Verb
+A80	Tense T18 Past
+A82	VForm T18 Participle
+A83	Polarity T18 Pos
+T19	Time 644 657	segunda-feira
+A84	Time_Type T19 Date
+A85	TemporalFunction T19 None
+#1	AnnotatorNotes T19	value=2020-10-19 anchorTime=Publication_Time
+#2	AnnotatorNotes T6	value=2020-10-21
+T20	Time 19 30	21 out 2020
+A86	Time_Type T20 Date
+A87	TemporalFunction T20 Publication_Time
+#3	AnnotatorNotes T20	value=2020-10-21
+T21	Event 662 672	apreendida
+A88	Class T21 Occurrence
+A89	Event_Type T21 Transition
+A90	Pos T21 Verb
+A91	Tense T21 Past
+A92	Aspect T21 Perfective
+A93	Polarity T21 Pos
+T22	Event 787 795	descreve
+A94	Class T22 Reporting
+A95	Event_Type T22 Transition
+A96	Pos T22 Verb
+A97	Tense T22 Present
+A98	Aspect T22 Imperfective
+A99	Polarity T22 Pos
+T23	Event 798 814	nota de imprensa
+A100	Class T23 Reporting
+A101	Event_Type T23 State
+A102	Pos T23 Noun
+A103	Polarity T23 Pos
+T24	Event 853 862	remetidos
+A104	Class T24 Occurrence
+A105	Event_Type T24 Transition
+A106	Pos T24 Verb
+A107	Tense T24 Past
+A108	Aspect T24 Perfective
+A109	Polarity T24 Pos
+R1	TLINK_during Arg1:T1 Arg2:T2	
+R2	TLINK_identity Arg1:T3 Arg2:T2	
+R3	TLINK_includes Arg1:T5 Arg2:T4	
+R4	TLINK_before Arg1:T4 Arg2:T3	
+R5	SLINK_evidential Arg1:T7 Arg2:T1	
+R6	TLINK_after Arg1:T7 Arg2:T3	
+R7	TLINK_simultaneous Arg1:T8 Arg2:T7	
+R8	TLINK_isIncluded Arg1:T9 Arg2:T8	
+R9	TLINK_before Arg1:T10 Arg2:T9	
+R10	TLINK_isIncluded Arg1:T11 Arg2:T10	
+R11	TLINK_isIncluded Arg1:T13 Arg2:T11	
+R12	TLINK_identity Arg1:T12 Arg2:T13	
+R13	TLINK_identity Arg1:T15 Arg2:T16	
+R14	SLINK_evidential Arg1:T9 Arg2:T14	
+R15	TLINK_after Arg1:T14 Arg2:T10	
+R16	TLINK_before Arg1:T16 Arg2:T14	
+R17	TLINK_identity Arg1:T17 Arg2:T3	
+R18	TLINK_after Arg1:T17 Arg2:T15	
+R19	TLINK_identity Arg1:T18 Arg2:T17	
+R20	TLINK_isIncluded Arg1:T18 Arg2:T19	
+R21	TLINK_isIncluded Arg1:T7 Arg2:T6	
+R22	TLINK_during Arg1:T21 Arg2:T18	
+R23	TLINK_after Arg1:T22 Arg2:T21	
+R24	TLINK_identity Arg1:T23 Arg2:T22	
+T25	Participant 120 125	A GNR
+A110	Lexical_Head T25 Noun
+A111	Individuation_Domain T25 Individual
+A112	Participant_Type_Domain T25 Org
+A113	Involvement T25 1
+T26	Participant 136 149	uma caçadeira
+A114	Lexical_Head T26 Noun
+A115	Individuation_Domain T26 Individual
+A116	Participant_Type_Domain T26 Obj
+A117	Involvement T26 1
+T27	Participant 151 162	uma pistola
+A118	Lexical_Head T27 Noun
+A119	Individuation_Domain T27 Individual
+A120	Participant_Type_Domain T27 Obj
+A121	Involvement T27 1
+T28	Participant 164 191	duas armas de ar comprimido
+A122	Lexical_Head T28 Noun
+A123	Individuation_Domain T28 Individual
+A124	Participant_Type_Domain T28 Obj
+A125	Involvement T28 >1
+T29	Participant 194 203	um coldre
+A126	Lexical_Head T29 Noun
+A127	Individuation_Domain T29 Individual
+A128	Participant_Type_Domain T29 Obj
+A129	Involvement T29 1
+T30	Participant 245 255	Felgueiras
+A130	Lexical_Head T30 Noun
+A131	Individuation_Domain T30 Individual
+A132	Participant_Type_Domain T30 Loc
+A133	Involvement T30 1
+T31	Participant 260 277	distrito do Porto
+A134	Lexical_Head T31 Noun
+A135	Individuation_Domain T31 Individual
+A136	Participant_Type_Domain T31 Loc
+A137	Involvement T31 1
+R26	OLINK_partOf Arg1:T30 Arg2:T31	
+T32	Participant 364 372	a Guarda
+A138	Lexical_Head T32 Noun
+A139	Individuation_Domain T32 Individual
+A140	Participant_Type_Domain T32 Org
+A141	Involvement T32 1
+R27	OLINK_objIdentity Arg1:T32 Arg2:T25	
+T33	Participant 453 465	os militares
+A142	Lexical_Head T33 Noun
+A143	Individuation_Domain T33 Individual
+A144	Participant_Type_Domain T33 Per
+A145	Involvement T33 >1
+R28	OLINK_partOf Arg1:T33 Arg2:T32	
+T34	Participant 476 481	local
+A146	Lexical_Head T34 Noun
+A147	Individuation_Domain T34 Individual
+A148	Participant_Type_Domain T34 Loc
+A149	Involvement T34 1
+R29	OLINK_objIdentity Arg1:T34 Arg2:T30	
+T35	Participant 483 487	onde
+A150	Lexical_Head T35 Pronoun
+A151	Individuation_Domain T35 Individual
+A152	Participant_Type_Domain T35 Loc
+A153	Involvement T35 1
+R30	OLINK_objIdentity Arg1:T35 Arg2:T34	
+T36	Participant 488 496	a vítima
+A154	Lexical_Head T36 Noun
+A155	Individuation_Domain T36 Individual
+A156	Participant_Type_Domain T36 Per
+A157	Involvement T36 1
+T37	Participant 498 519	uma mulher de 25 anos
+A158	Lexical_Head T37 Noun
+A159	Individuation_Domain T37 Individual
+A160	Participant_Type_Domain T37 Per
+A161	Involvement T37 1
+R31	OLINK_objIdentity Arg1:T37 Arg2:T36	
+T38	Participant 565 576	companheiro
+A162	Lexical_Head T38 Noun
+A163	Individuation_Domain T38 Individual
+A164	Participant_Type_Domain T38 Per
+A165	Involvement T38 1
+T39	Participant 578 598	um homem com 33 anos
+A166	Lexical_Head T39 Noun
+A167	Individuation_Domain T39 Individual
+A168	Participant_Type_Domain T39 Per
+A169	Involvement T39 1
+R32	OLINK_objIdentity Arg1:T39 Arg2:T38	
+T40	Participant 673 700	uma caçadeira de calibre 12
+A170	Lexical_Head T40 Noun
+A171	Individuation_Domain T40 Individual
+A172	Participant_Type_Domain T40 Obj
+A173	Involvement T40 1
+T41	Participant 702 731	uma pistola de calibre 6,35mm
+A174	Lexical_Head T41 Noun
+A175	Individuation_Domain T41 Individual
+A176	Participant_Type_Domain T41 Obj
+A177	Involvement T41 1
+T42	Participant 733 760	duas armas de ar comprimido
+A178	Lexical_Head T42 Noun
+A179	Individuation_Domain T42 Individual
+A180	Participant_Type_Domain T42 Obj
+A181	Involvement T42 >1
+T43	Participant 762 773	64 munições
+A182	Lexical_Head T43 Noun
+A183	Individuation_Domain T43 Individual
+A184	Participant_Type_Domain T43 Obj
+A185	Involvement T43 >1
+T44	Participant 776 785	um coldre
+A186	Lexical_Head T44 Noun
+A187	Individuation_Domain T44 Individual
+A188	Participant_Type_Domain T44 Obj
+A189	Involvement T44 1
+T45	Participant 830 835	a GNR
+A190	Lexical_Head T45 Noun
+A191	Individuation_Domain T45 Individual
+A192	Participant_Type_Domain T45 Org
+A193	Involvement T45 1
+T46	Participant 866 897	Tribunal Judicial de Felgueiras
+A194	Lexical_Head T46 Noun
+A195	Individuation_Domain T46 Individual
+A196	Participant_Type_Domain T46 Org
+A197	Involvement T46 1
+T47	Event 840 846	factos
+A198	Class T47 State
+A199	Event_Type T47 State
+A200	Pos T47 Noun
+A201	Polarity T47 Pos
+R33	TLINK_after Arg1:T24 Arg2:T47	
+R25	TLINK_before Arg1:T47 Arg2:T23	
+R34	OLINK_objIdentity Arg1:T40 Arg2:T26	
+R35	OLINK_objIdentity Arg1:T41 Arg2:T27	
+R36	OLINK_objIdentity Arg1:T42 Arg2:T28	
+R37	OLINK_objIdentity Arg1:T44 Arg2:T29	
+R38	OLINK_objIdentity Arg1:T45 Arg2:T32	
+R39	SRLINK_agent Arg1:T1 Arg2:T25	
+R40	SRLINK_patient Arg1:T1 Arg2:T26	
+R41	SRLINK_patient Arg1:T1 Arg2:T27	
+R42	SRLINK_patient Arg1:T1 Arg2:T28	
+R43	SRLINK_patient Arg1:T1 Arg2:T29	
+R44	SRLINK_setting Arg1:T1 Arg2:T3	
+R45	SRLINK_theme Arg1:T2 Arg2:T3	
+R46	SRLINK_location Arg1:T1 Arg2:T30	
+R47	SRLINK_location Arg1:T1 Arg2:T31	
+R48	SLINK_evidential Arg1:T4 Arg2:T5	
+R49	SRLINK_theme Arg1:T4 Arg2:T5	
+R50	SRLINK_reason Arg1:T3 Arg2:T4	
+R51	SRLINK_theme Arg1:T7 Arg2:T1	
+R52	SRLINK_medium Arg1:T9 Arg2:T8	
+R53	SRLINK_agent Arg1:T9 Arg2:T32	
+R54	SRLINK_theme Arg1:T9 Arg2:T14	
+R55	SRLINK_pivot Arg1:T11 Arg2:T10	
+R56	SRLINK_theme Arg1:T11 Arg2:T13	
+R57	SRLINK_theme Arg1:T13 Arg2:T12	
+R58	SRLINK_agent Arg1:T14 Arg2:T33	
+R59	SRLINK_finalLocation Arg1:T14 Arg2:T34	
+R60	SRLINK_reason Arg1:T14 Arg2:T10	
+R61	SRLINK_theme Arg1:T16 Arg2:T37	
+R62	SRLINK_theme Arg1:T16 Arg2:T15	
+R63	SRLINK_agent Arg1:T15 Arg2:T38	
+R64	SRLINK_goal Arg1:T15 Arg2:T37	
+R65	SRLINK_theme Arg1:T18 Arg2:T17	
+R66	SRLINK_agent Arg1:T18 Arg2:T33	
+R67	SRLINK_theme Arg1:T21 Arg2:T40	
+R68	SRLINK_theme Arg1:T21 Arg2:T41	
+R69	SRLINK_theme Arg1:T21 Arg2:T42	
+R70	SRLINK_theme Arg1:T21 Arg2:T43	
+R71	SRLINK_theme Arg1:T21 Arg2:T44	
+R72	SRLINK_agent Arg1:T21 Arg2:T33	
+R73	SLINK_evidential Arg1:T22 Arg2:T21	
+R74	SRLINK_theme Arg1:T22 Arg2:T21	
+R75	SRLINK_source Arg1:T22 Arg2:T23	
+R76	SRLINK_finalLocation Arg1:T24 Arg2:T46	
+R77	SRLINK_initialLocation Arg1:T24 Arg2:T45	
+R78	SRLINK_patient Arg1:T24 Arg2:T47	

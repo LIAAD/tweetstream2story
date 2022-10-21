@@ -1,0 +1,217 @@
+T1	Event 139 143	está
+A1	Class T1 State
+A2	Event_Type T1 State
+A3	Pos T1 Verb
+A4	Aspect T1 Progressive
+A5	Polarity T1 Pos
+T2	Event 164 197	isolamento profilático preventivo
+A6	Class T2 State
+A7	Event_Type T2 State
+A8	Pos T2 Noun
+A9	Polarity T2 Pos
+T3	Event 213 219	estado
+A10	Class T3 State
+A11	Event_Type T3 State
+A12	Pos T3 Verb
+A13	Tense T3 Past
+A14	Aspect T3 Perfective
+A15	VForm T3 Infinitive
+A16	Polarity T3 Pos
+T4	Time 220 235	na quarta-feira
+A17	Time_Type T4 Date
+#1	AnnotatorNotes T4	value=2020-12-16 anchorTime=Publication_Time
+T5	Event 294 309	testou positivo
+A18	Class T5 Occurrence
+A19	Event_Type T5 Transition
+A20	Pos T5 Verb
+A21	Tense T5 Past
+A22	Aspect T5 Perfective
+A23	Polarity T5 Pos
+T6	Event 346 357	confirmação
+A24	Class T6 Occurrence
+A25	Event_Type T6 Transition
+A26	Pos T6 Noun
+A27	Polarity T6 Pos
+T7	Event 424 430	esteve
+A28	Class T7 State
+A29	Event_Type T7 State
+A30	Pos T7 Verb
+A31	Tense T7 Past
+A32	Aspect T7 Perfective
+A33	Polarity T7 Pos
+T8	Time 431 436	ontem
+A34	Time_Type T8 Date
+A35	TemporalFunction T8 None
+#2	AnnotatorNotes T8	value=2020-12-16 anchorTime=Publication_Time
+T9	Event 935 942	decidiu
+A36	Class T9 I_Action
+A37	Event_Type T9 Transition
+A38	Pos T9 Verb
+A39	Tense T9 Past
+A40	Aspect T9 Perfective
+A41	Polarity T9 Pos
+T10	Event 943 951	cancelar
+A42	Class T10 Occurrence
+A43	Event_Type T10 Transition
+A44	Pos T10 Verb
+A45	VForm T10 Infinitive
+A46	Polarity T10 Pos
+T11	Event 957 967	deslocação
+A47	Class T11 Occurrence
+A48	Event_Type T11 Process
+A49	Pos T11 Noun
+A50	Polarity T11 Pos
+T12	Time 156 160	hoje
+A51	Time_Type T12 Date
+A52	TemporalFunction T12 Publication_Time
+#3	AnnotatorNotes T12	value=2020-12-17 
+T13	Event 361 375	teste positivo
+A53	Class T13 Occurrence
+A54	Event_Type T13 Transition
+A55	Pos T13 Noun
+A56	Polarity T13 Pos
+R1	TLINK_identity Arg1:T13 Arg2:T5	
+T14	Event 494 527	isolamento profilático preventivo
+A57	Class T14 State
+A58	Event_Type T14 State
+A59	Pos T14 Verb
+A60	Tense T14 Present
+A61	Aspect T14 Progressive
+A62	Polarity T14 Pos
+T15	Event 532 541	avaliação
+A63	Class T15 Perception
+A64	Event_Type T15 Transition
+A65	Pos T15 Noun
+A66	Polarity T15 Pos
+T16	Event 545 558	grau de risco
+A67	Class T16 State
+A68	Event_Type T16 State
+A69	Pos T16 Noun
+A70	Polarity T16 Pos
+T17	Event 596 601	lê-se
+A71	Class T17 Perception
+A72	Pos T17 Verb
+A73	Tense T17 Present
+A74	Aspect T17 Imperfective
+A75	Polarity T17 Pos
+T18	Event 605 615	comunicado
+A76	Class T18 Reporting
+A77	Event_Type T18 Transition
+A78	Pos T18 Noun
+A79	Polarity T18 Pos
+T19	Event 616 623	emitido
+A80	Class T19 Reporting
+A81	Event_Type T19 Transition
+A82	Pos T19 Verb
+A83	Tense T19 Past
+A84	Aspect T19 Perfective
+A85	VForm T19 Participle
+A86	Polarity T19 Pos
+T20	Event 691 705	tinha referido
+A87	Class T20 Reporting
+A88	Event_Type T20 Transition
+A89	Pos T20 Verb
+A90	Tense T20 Past
+A91	Aspect T20 Perfective
+A92	Polarity T20 Pos
+T21	Event 1004 1012	implique
+A93	Class T21 State
+A94	Event_Type T21 State
+A95	Pos T21 Verb
+A96	Tense T21 Present
+A97	Aspect T21 Imperfective
+A98	Mood T21 Subjunctive
+A99	Polarity T21 Pos
+T22	Event 1019 1034	presença física
+A100	Class T22 State
+A101	Event_Type T22 State
+A102	Pos T22 Noun
+A103	Polarity T22 Pos
+T23	Event 1036 1042	Mantém
+A104	Class T23 State
+A105	Event_Type T23 State
+A106	Pos T23 Verb
+A107	Tense T23 Present
+A108	Aspect T23 Progressive
+A109	Polarity T23 Pos
+T24	Event 1050 1069	atividade executiva
+A110	Class T24 State
+A111	Event_Type T24 State
+A112	Pos T24 Noun
+A113	Polarity T24 Pos
+T25	Event 1074 1092	agenda de trabalho
+A114	Class T25 State
+A115	Event_Type T25 State
+A116	Pos T25 Noun
+A117	Polarity T25 Pos
+T26	Event 1098 1107	realizará
+A118	Class T26 Occurrence
+A119	Event_Type T26 Process
+A120	Pos T26 Verb
+A121	Tense T26 Future
+A122	Aspect T26 Imperfective
+A123	Mood T26 Future
+A124	Polarity T26 Pos
+T27	Event 1141 1154	não apresenta
+A125	Class T27 I_State
+A126	Pos T27 Verb
+A127	Tense T27 Present
+A128	Aspect T27 Imperfective
+A129	Polarity T27 Neg
+T28	Event 1165 1173	sintomas
+A130	Class T28 State
+A131	Event_Type T28 State
+A132	Pos T28 Noun
+A133	Polarity T28 Pos
+T29	Event 1176 1189	acrescenta-se
+A134	Class T29 Reporting
+A135	Event_Type T29 Transition
+A136	Pos T29 Verb
+A137	Tense T29 Present
+A138	Aspect T29 Imperfective
+A139	Polarity T29 Pos
+T30	Event 1199 1209	comunicado
+A140	Class T30 Reporting
+A141	Event_Type T30 Transition
+A142	Pos T30 Noun
+A143	Polarity T30 Pos
+T31	Event 707 717	adianta-se
+A144	Class T31 Reporting
+A145	Event_Type T31 Transition
+A146	Pos T31 Verb
+A147	Tense T31 Present
+A148	Aspect T31 Imperfective
+A149	Polarity T31 Pos
+T32	Event 737 747	preparação
+A150	Class T32 Occurrence
+A151	Event_Type T32 Process
+A152	Pos T32 Noun
+A153	Polarity T32 Pos
+T33	Event 751 761	deslocação
+A154	Class T33 Occurrence
+A155	Event_Type T33 Transition
+A156	Pos T33 Noun
+A157	Polarity T33 Pos
+T34	Event 800 808	prevista
+A158	Class T34 State
+A159	Event_Type T34 State
+A160	Pos T34 Verb
+A161	Aspect T34 Imperfective
+A162	VForm T34 Participle
+A163	Polarity T34 Pos
+T35	Time 864 877	hoje de manhã
+A164	Time_Type T35 Time
+A165	TemporalFunction T35 None
+#4	AnnotatorNotes T35	value=2020-12-17TM anchorTime=Publication_Time
+T36	Event 855 863	realizou
+A166	Class T36 I_Action
+A167	Event_Type T36 Transition
+A168	Pos T36 Verb
+A169	Tense T36 Past
+A170	Aspect T36 Perfective
+A171	Polarity T36 Pos
+T37	Event 985 999	agenda pública
+A172	Class T37 State
+A173	Event_Type T37 State
+A174	Pos T37 Noun
+A175	Polarity T37 Pos

@@ -1,0 +1,455 @@
+T1	Event 165 173	anunciou
+A1	Event_Type T1 Transition
+A2	Pos T1 Verb
+A3	Tense T1 Past
+A4	Aspect T1 Perfective
+A5	Polarity T1 Pos
+T2	Time 174 178	hoje
+A6	Time_Type T2 Date
+A7	TemporalFunction T2 Publication_Time
+#1	AnnotatorNotes T2	value=2020-11-20 anchorTime=Publication_time
+T3	Event 189 198	entregues
+A8	Class T3 Occurrence
+A9	Event_Type T3 Transition
+A10	Pos T3 Verb
+A11	Tense T3 Past
+A12	Aspect T3 Perfective
+A13	VForm T3 Participle
+A14	Polarity T3 Pos
+T4	Event 290 299	incluindo
+A15	Class T4 State
+A16	Event_Type T4 State
+A17	Pos T4 Verb
+A18	Tense T4 Present
+A19	Aspect T4 Imperfective
+A20	Polarity T4 Pos
+T5	Event 353 358	estão
+A21	Class T5 State
+A22	Event_Type T5 State
+A23	Pos T5 Verb
+A24	Tense T5 Present
+A25	Aspect T5 Progressive
+A26	Polarity T5 Pos
+T6	Event 514 521	situado
+A27	Class T6 State
+A28	Event_Type T6 State
+A31	VForm T6 Participle
+A32	Polarity T6 Pos
+T7	Event 590 597	entrega
+A33	Class T7 Occurrence
+A34	Event_Type T7 Transition
+A35	Pos T7 Noun
+A36	Polarity T7 Pos
+T8	Event 602 607	feita
+A37	Class T8 Occurrence
+A38	Pos T8 Verb
+A39	Tense T8 Past
+A40	Aspect T8 Perfective
+A41	VForm T8 Participle
+A42	Polarity T8 Pos
+T9	Event 782 793	financiados
+A43	Class T9 Occurrence
+A44	Event_Type T9 Process
+A45	Pos T9 Verb
+A46	Tense T9 Past
+A47	Aspect T9 Perfective
+A48	VForm T9 Participle
+A49	Polarity T9 Pos
+T10	Event 876 882	ficado
+A50	Class T10 State
+A51	Tense T10 Past
+A52	Aspect T10 Perfective
+A53	VForm T10 Gerundive
+A54	Polarity T10 Pos
+T11	Event 889 895	gestão
+A55	Class T11 Occurrence
+A56	Pos T11 Noun
+A57	Polarity T11 Pos
+T12	Event 960 967	referiu
+A58	Class T12 Reporting
+A59	Event_Type T12 Transition
+A60	Pos T12 Verb
+A61	Tense T12 Past
+A62	Aspect T12 Perfective
+A63	Polarity T12 Pos
+T13	Event 970 980	comunicado
+A64	Class T13 Reporting
+A65	Event_Type T13 Transition
+A66	Pos T13 Noun
+A67	Polarity T13 Pos
+T14	Event 1003 1010	entrega
+A68	Class T14 Occurrence
+A69	Event_Type T14 Transition
+A70	Pos T14 Noun
+A71	Polarity T14 Pos
+T15	Event 1055 1061	passam
+A72	Class T15 Aspectual
+A73	Event_Type T15 Transition
+A74	Pos T15 Verb
+A75	Tense T15 Present
+A76	Aspect T15 Imperfective
+A77	Polarity T15 Pos
+T16	Event 1064 1072	integrar
+A78	Class T16 Occurrence
+A79	Event_Type T16 Process
+A80	Pos T16 Verb
+A81	VForm T16 Infinitive
+A82	Polarity T16 Pos
+T17	Event 1109 1114	livre
+A83	Class T17 State
+A84	Event_Type T17 State
+A85	Pos T17 Adjective
+A86	Polarity T17 Pos
+T18	Event 1147 1155	adiantou
+A87	Class T18 Reporting
+A88	Event_Type T18 Transition
+A89	Pos T18 Verb
+A90	Tense T18 Past
+A91	Aspect T18 Perfective
+A92	Polarity T18 Pos
+T19	Event 1158 1162	nota
+A93	Class T19 Reporting
+A94	Event_Type T19 Transition
+A95	Pos T19 Noun
+A96	Polarity T19 Pos
+T20	Event 1170 1181	acrescentou
+A97	Class T20 Reporting
+A98	Event_Type T20 Transition
+A99	Pos T20 Verb
+A100	Tense T20 Past
+A101	Aspect T20 Perfective
+A102	Polarity T20 Pos
+T21	Event 1188 1197	atendendo
+A103	Class T21 State
+A104	Event_Type T21 State
+A105	Pos T21 Verb
+A106	Tense T21 Present
+A107	Aspect T21 Progressive
+A108	VForm T21 Gerundive
+A109	Polarity T21 Pos
+T22	Event 1252 1270	devem ser adotadas
+A110	Class T22 Occurrence
+A111	Event_Type T22 Transition
+A112	Tense T22 Present
+A113	Aspect T22 Imperfective
+A114	VForm T22 None
+A115	Mood T22 Future
+A116	Modality T22 Dever
+A117	Polarity T22 Pos
+T23	Event 1283 1291	garantam
+A118	Class T23 State
+A119	Event_Type T23 State
+A120	Pos T23 Verb
+A121	Tense T23 Present
+A122	Aspect T23 Imperfective
+A123	Polarity T23 Pos
+T24	Event 1305 1318	funcionamento
+A124	Class T24 Occurrence
+A125	Event_Type T24 Process
+A126	Pos T24 Noun
+A127	Polarity T24 Pos
+T25	Event 814 826	provenientes
+A128	Class T25 State
+A129	Event_Type T25 State
+A130	Pos T25 Verb
+A131	Tense T25 Past
+A132	Aspect T25 Perfective
+A133	VForm T25 Participle
+A134	Polarity T25 Pos
+T26	Event 1128 1132	ónus
+A135	Class T26 State
+A136	Event_Type T26 State
+A137	Pos T26 Noun
+A138	Polarity T26 Pos
+T27	Event 1136 1144	encargos
+A139	Class T27 State
+A140	Event_Type T27 State
+A141	Pos T27 Noun
+A142	Polarity T27 Pos
+T28	Event 1200 1217	utilidade pública
+A143	Class T28 State
+A144	Event_Type T28 State
+A145	Pos T28 Noun
+A146	Polarity T28 Pos
+R1	TLINK_isIncluded Arg1:T1 Arg2:T2	
+R2	TLINK_before Arg1:T3 Arg2:T1	
+R3	TLINK_isIncluded Arg1:T4 Arg2:T3	
+R4	TLINK_includes Arg1:T5 Arg2:T4	
+R5	TLINK_simultaneous Arg1:T6 Arg2:T5	
+R6	TLINK_identity Arg1:T8 Arg2:T7	
+R7	TLINK_isIncluded Arg1:T7 Arg2:T6	
+R8	TLINK_identity Arg1:T7 Arg2:T3	
+R9	TLINK_simultaneous Arg1:T25 Arg2:T9	
+A147	Event_Type T11 Process
+R10	TLINK_before Arg1:T9 Arg2:T8	
+R11	TLINK_after Arg1:T10 Arg2:T25	
+R12	TLINK_identity Arg1:T11 Arg2:T10	
+R13	TLINK_includes Arg1:T13 Arg2:T12	
+R14	TLINK_after Arg1:T12 Arg2:T9	
+R15	SLINK_evidential Arg1:T12 Arg2:T9	
+R16	TLINK_identity Arg1:T14 Arg2:T7	
+R18	TLINK_isIncluded Arg1:T17 Arg2:T16	
+R19	TLINK_simultaneous Arg1:T26 Arg2:T17	
+R20	TLINK_identity Arg1:T27 Arg2:T26	
+R21	TLINK_after Arg1:T15 Arg2:T14	
+R22	TLINK_after Arg1:T18 Arg2:T14	
+R23	TLINK_includes Arg1:T19 Arg2:T18	
+R24	TLINK_identity Arg1:T19 Arg2:T13	
+R25	TLINK_after Arg1:T20 Arg2:T18	
+R26	TLINK_includes Arg1:T28 Arg2:T21	
+R27	TLINK_isIncluded Arg1:T21 Arg2:T20	
+R28	TLINK_after Arg1:T22 Arg2:T21	
+R29	TLINK_simultaneous Arg1:T23 Arg2:T22	
+R30	TLINK_after Arg1:T24 Arg2:T23	
+T29	Time 8 19	20 nov 2020
+A148	Time_Type T29 Date
+A149	TemporalFunction T29 Publication_Time
+#2	AnnotatorNotes T29	value=2020-11-20
+T30	Participant 115 154	A Procuradoria-Geral da República (PGR)
+A150	Lexical_Head T30 Noun
+A151	Individuation_Domain T30 Individual
+A152	Participant_Type_Domain T30 Org
+A153	Involvement T30 1
+T31	Participant 158 164	Angola
+A154	Lexical_Head T31 Noun
+A155	Individuation_Domain T31 Individual
+A156	Participant_Type_Domain T31 Loc
+A157	Involvement T31 1
+R31	OLINK_partOf Arg1:T30 Arg2:T31	
+T32	Participant 200 243	o Serviço Nacional de Recuperação de Ativos
+A158	Lexical_Head T32 Noun
+A159	Individuation_Domain T32 Individual
+A160	Participant_Type_Domain T32 Org
+A161	Involvement T32 1
+T33	Participant 244 263	mais três edifícios
+A162	Lexical_Head T33 Noun
+A163	Participant_Type_Domain T33 Other
+T34	Participant 266 288	um projeto imobiliário
+A164	Lexical_Head T34 Noun
+A165	Individuation_Domain T34 Individual
+A166	Participant_Type_Domain T34 Other
+A167	Involvement T34 1
+T35	Participant 300 331	a clínica Luanda Medical Center
+A168	Lexical_Head T35 Noun
+A169	Individuation_Domain T35 Individual
+A170	Participant_Type_Domain T35 Org
+A171	Involvement T35 1
+T36	Participant 334 342	um hotel
+A172	Lexical_Head T36 Noun
+A173	Individuation_Domain T36 Individual
+A174	Participant_Type_Domain T36 Org
+A175	Involvement T36 1
+T37	Participant 359 387	os hotéis Monalisa Residence
+A176	Lexical_Head T37 Noun
+A177	Individuation_Domain T37 Individual
+A178	Participant_Type_Domain T37 Org
+A179	Involvement T37 >1
+T38	Participant 392 400	Talatona
+A180	Lexical_Head T38 Noun
+A181	Individuation_Domain T38 Individual
+A182	Participant_Type_Domain T38 Loc
+A183	Involvement T38 1
+R32	OLINK_partOf Arg1:T37 Arg2:T38	
+T39	Participant 402 441	o projeto imobiliário Torres Eucaliptos
+A184	Lexical_Head T39 Noun
+A185	Individuation_Domain T39 Individual
+A186	Participant_Type_Domain T39 Other
+A187	Involvement T39 1
+T40	Participant 443 471	o edifício Instituto Sapiens
+A188	Lexical_Head T40 Noun
+A189	Individuation_Domain T40 Individual
+A190	Participant_Type_Domain T40 Loc
+A191	Involvement T40 1
+T41	Participant 474 512	o edifício Luanda Medical Center (LMC)
+A192	Lexical_Head T41 Noun
+A193	Individuation_Domain T41 Individual
+A194	Participant_Type_Domain T41 Loc
+A195	Involvement T41 1
+T42	Participant 523 543	a Rua Amílcar Cabral
+A196	Lexical_Head T42 Noun
+A197	Individuation_Domain T42 Individual
+A198	Participant_Type_Domain T42 Loc
+A199	Involvement T42 1
+T43	Participant 546 569	o distrito da Ingombota
+A200	Lexical_Head T43 Noun
+A201	Individuation_Domain T43 Individual
+A202	Participant_Type_Domain T43 Loc
+A203	Involvement T43 1
+T44	Participant 571 576	todos
+A204	Lexical_Head T44 Pronoun
+A205	Individuation_Domain T44 Individual
+A206	Participant_Type_Domain T44 Loc
+A207	Involvement T44 All
+T45	Participant 580 586	Luanda
+A208	Lexical_Head T45 Noun
+A209	Individuation_Domain T45 Individual
+A210	Participant_Type_Domain T45 Loc
+A211	Involvement T45 1
+R33	OLINK_partOf Arg1:T42 Arg2:T43	
+R34	OLINK_partOf Arg1:T44 Arg2:T45	
+R35	OLINK_memberOf Arg1:T40 Arg2:T44	
+R36	OLINK_memberOf Arg1:T41 Arg2:T44	
+R37	OLINK_memberOf Arg1:T39 Arg2:T44	
+R38	OLINK_subSet Arg1:T37 Arg2:T44	
+A212	Individuation_Domain T33 Individual
+A213	Involvement T33 >1
+R39	OLINK_partOf Arg1:T35 Arg2:T33	
+R40	OLINK_partOf Arg1:T36 Arg2:T33	
+T46	Participant 611 635	os representantes legais
+A214	Lexical_Head T46 Noun
+A215	Individuation_Domain T46 Individual
+A216	Participant_Type_Domain T46 Per
+A217	Involvement T46 >1
+T47	Participant 637 681	as empresas Méssene – Investimentos Limitada
+A218	Lexical_Head T47 Noun
+A219	Individuation_Domain T47 Individual
+A220	Participant_Type_Domain T47 Org
+A221	Involvement T47 >1
+T49	Participant 683 719	Heavy Group – Investimentos Limitada
+A226	Lexical_Head T49 Noun
+A227	Individuation_Domain T49 Individual
+A228	Participant_Type_Domain T49 Org
+A229	Involvement T49 1
+T51	Participant 721 740	Universal Sabedoria
+A234	Lexical_Head T51 Noun
+A235	Individuation_Domain T51 Individual
+A236	Participant_Type_Domain T51 Org
+A237	Involvement T51 1
+T52	Participant 743 746	LMC
+A238	Lexical_Head T52 Noun
+A239	Individuation_Domain T52 Individual
+A240	Participant_Type_Domain T52 Org
+A241	Involvement T52 1
+R41	OLINK_partOf Arg1:T46 Arg2:T47	
+T53	Participant 748 775	Estes projetos imobiliários
+A242	Lexical_Head T53 Noun
+A243	Individuation_Domain T53 Individual
+A244	Participant_Type_Domain T53 Other
+A245	Involvement T53 >1
+T54	Participant 798 813	fundos públicos
+A246	Lexical_Head T54 Noun
+A247	Participant_Type_Domain T54 Obj
+A248	Involvement T54 >1
+T55	Participant 828 868	o Instituto Nacional de Segurança Social
+A249	Lexical_Head T55 Noun
+A250	Individuation_Domain T55 Individual
+A251	Participant_Type_Domain T55 Org
+A252	Involvement T55 1
+T56	Participant 899 916	empresas privadas
+A253	Lexical_Head T56 Noun
+A254	Individuation_Domain T56 Individual
+A255	Participant_Type_Domain T56 Org
+A256	Involvement T56 >1
+T57	Participant 918 944	sem qualquer contrapartida
+A257	Lexical_Head T57 Noun
+A258	Individuation_Domain T57 Individual
+A259	Participant_Type_Domain T57 Other
+A260	Involvement T57 0
+T58	Participant 950 958	o Estado
+A261	Lexical_Head T58 Noun
+A262	Individuation_Domain T58 Individual
+A263	Participant_Type_Domain T58 Org
+A264	Involvement T58 1
+T59	Participant 982 987	a PGR
+A265	Lexical_Head T59 Noun
+A266	Individuation_Domain T59 Individual
+A267	Participant_Type_Domain T59 Org
+A268	Involvement T59 1
+T60	Participant 1047 1054	os bens
+A269	Lexical_Head T60 Noun
+A270	Individuation_Domain T60 Individual
+A271	Participant_Type_Domain T60 Obj
+A272	Involvement T60 >1
+T61	Participant 1073 1097	o património imobiliário
+A273	Lexical_Head T61 Noun
+A274	Individuation_Domain T61 Individual
+A275	Participant_Type_Domain T61 Other
+A276	Involvement T61 1
+T62	Participant 1099 1107	o Estado
+A277	Lexical_Head T62 Noun
+A278	Individuation_Domain T62 Individual
+A279	Participant_Type_Domain T62 Org
+A280	Involvement T62 1
+R42	OLINK_partOf Arg1:T61 Arg2:T62	
+T63	Participant 1164 1169	A PGR
+A281	Lexical_Head T63 Noun
+A282	Individuation_Domain T63 Individual
+A283	Participant_Type_Domain T63 Org
+A284	Involvement T63 1
+T64	Participant 1219 1250	a clínica Luanda Medical Center
+A285	Lexical_Head T64 Noun
+A286	Individuation_Domain T64 Individual
+A287	Participant_Type_Domain T64 Org
+A288	Involvement T64 1
+T65	Participant 1271 1278	medidas
+A289	Lexical_Head T65 Noun
+A290	Individuation_Domain T65 Individual
+A291	Participant_Type_Domain T65 Other
+A292	Involvement T65 >1
+T66	Participant 1292 1297	o seu
+A293	Lexical_Head T66 Pronoun
+A294	Individuation_Domain T66 Individual
+A295	Participant_Type_Domain T66 Org
+A296	Involvement T66 1
+R43	OLINK_objIdentity Arg1:T66 Arg2:T64	
+A297	Individuation_Domain T54 Individual
+R46	OLINK_partOf Arg1:T51 Arg2:T47	
+R47	OLINK_partOf Arg1:T52 Arg2:T47	
+R48	OLINK_objIdentity Arg1:T59 Arg2:T30	
+R49	OLINK_objIdentity Arg1:T60 Arg2:T53	
+R50	OLINK_objIdentity Arg1:T62 Arg2:T58	
+R51	OLINK_objIdentity Arg1:T63 Arg2:T59	
+R52	OLINK_objIdentity Arg1:T64 Arg2:T52	
+R53	OLINK_objIdentity Arg1:T52 Arg2:T41	
+R54	SRLINK_agent Arg1:T1 Arg2:T30	
+A298	Class T1 Reporting
+R55	SLINK_evidential Arg1:T1 Arg2:T3	
+R56	SRLINK_theme Arg1:T1 Arg2:T3	
+R57	SRLINK_goal Arg1:T3 Arg2:T32	
+R58	SRLINK_patient Arg1:T3 Arg2:T33	
+R59	SRLINK_patient Arg1:T3 Arg2:T34	
+R60	SRLINK_theme Arg1:T4 Arg2:T35	
+R61	SRLINK_theme Arg1:T4 Arg2:T36	
+R62	SRLINK_pivot Arg1:T5 Arg2:T37	
+R63	SRLINK_location Arg1:T5 Arg2:T38	
+R64	SRLINK_pivot Arg1:T5 Arg2:T39	
+R65	SRLINK_pivot Arg1:T5 Arg2:T40	
+R66	SRLINK_pivot Arg1:T5 Arg2:T41	
+R67	SRLINK_pivot Arg1:T6 Arg2:T41	
+R68	SRLINK_location Arg1:T6 Arg2:T42	
+R71	SRLINK_theme Arg1:T8 Arg2:T7	
+R72	SRLINK_agent Arg1:T8 Arg2:T46	
+R73	SRLINK_theme Arg1:T9 Arg2:T53	
+R74	SRLINK_instrument Arg1:T9 Arg2:T54	
+R75	SRLINK_theme Arg1:T25 Arg2:T54	
+R76	SRLINK_source Arg1:T25 Arg2:T55	
+R77	SRLINK_theme Arg1:T10 Arg2:T53	
+R78	SRLINK_manner Arg1:T10 Arg2:T11	
+R79	SRLINK_agent Arg1:T11 Arg2:T56	
+R80	SRLINK_theme Arg1:T12 Arg2:T9	
+R81	SRLINK_source Arg1:T13 Arg2:T59	
+R82	SRLINK_theme Arg1:T12 Arg2:T13	
+R83	SRLINK_patient Arg1:T15 Arg2:T60	
+R17	ALINK_initiates Arg1:T15 Arg2:T16	
+R84	SRLINK_theme Arg1:T15 Arg2:T16	
+R85	SRLINK_theme Arg1:T16 Arg2:T61	
+R86	SRLINK_beneficiary Arg1:T16 Arg2:T62	
+R87	SRLINK_pivot Arg1:T17 Arg2:T61	
+R88	SRLINK_theme Arg1:T17 Arg2:T26	
+R89	SRLINK_theme Arg1:T17 Arg2:T27	
+R90	SLINK_evidential Arg1:T18 Arg2:T15	
+R91	SRLINK_theme Arg1:T18 Arg2:T15	
+R92	SRLINK_theme Arg1:T18 Arg2:T19	
+R93	SRLINK_agent Arg1:T20 Arg2:T63	
+R94	SRLINK_theme Arg1:T21 Arg2:T28	
+R95	SRLINK_reason Arg1:T20 Arg2:T21	
+R96	SRLINK_pivot Arg1:T28 Arg2:T64	
+R97	SRLINK_theme Arg1:T22 Arg2:T65	
+R98	SRLINK_theme Arg1:T23 Arg2:T65	
+R99	SRLINK_theme Arg1:T23 Arg2:T24	
+R100	SRLINK_theme Arg1:T24 Arg2:T66	
+R101	OLINK_partOf Arg1:T45 Arg2:T31	
+R44	OLINK_partOf Arg1:T46 Arg2:T49	
+R45	TLINK_identity Arg1:T2 Arg2:T29	
+A29	Pos T6 Verb
+R69	OLINK_partOf Arg1:T43 Arg2:T45	

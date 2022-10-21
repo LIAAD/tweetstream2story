@@ -1,0 +1,290 @@
+T1	Time 8 19	28 out 2020
+A1	Time_Type T1 Date
+A2	TemporalFunction T1 Publication_Time
+#1	AnnotatorNotes T1	value=2020-10-28
+T2	Event 181 188	começou
+A3	Class T2 Aspectual
+A4	Event_Type T2 Transition
+A5	Pos T2 Verb
+A6	Tense T2 Past
+A7	Aspect T2 Perfective
+A8	Polarity T2 Pos
+T3	Time 189 193	hoje
+A9	Time_Type T3 Date
+A10	TemporalFunction T3 Publication_Time
+#2	AnnotatorNotes T3	value=2020-10-28 anchorTime=Publication_Time
+T4	Event 246 254	ausência
+A11	Class T4 State
+A12	Event_Type T4 State
+A13	Pos T4 Noun
+A14	Polarity T4 Pos
+T5	Event 289 293	lido
+A15	Class T5 Occurrence
+A16	Event_Type T5 Process
+A17	Pos T5 Verb
+A18	Tense T5 Past
+A19	Aspect T5 Perfective
+A20	VForm T5 Participle
+A21	Polarity T5 Pos
+T6	Event 296 306	expediente
+A22	Class T6 Occurrence
+A23	Event_Type T6 Process
+A24	Pos T6 Noun
+A25	Polarity T6 Pos
+T7	Time 311 316	10:06
+A26	Time_Type T7 Time
+A27	TemporalFunction T7 None
+#3	AnnotatorNotes T7	value=2020-10-28T10:06 anchorTime=Publication_Time
+T8	Event 375 384	anunciava
+A28	Class T8 Reporting
+A29	Event_Type T8 Transition
+A30	Pos T8 Verb
+A31	Tense T8 Past
+A32	Aspect T8 Imperfective
+A33	Polarity T8 Pos
+T9	Event 389 393	iria
+A34	Class T9 Occurrence
+A35	Event_Type T9 Transition
+A36	Pos T9 Verb
+A37	Tense T9 Past
+A38	Aspect T9 Imperfective
+A39	Mood T9 Conditional
+A40	Polarity T9 Pos
+T10	Event 394 407	dar-se início
+A41	Class T10 Aspectual
+A42	Event_Type T10 Transition
+A43	Pos T10 Verb
+A44	VForm T10 Infinitive
+A45	Polarity T10 Pos
+T11	Event 411 417	debate
+A46	Class T11 Occurrence
+A47	Event_Type T11 Process
+A48	Pos T11 Noun
+A49	Polarity T11 Pos
+T12	Event 123 129	debate
+A50	Class T12 Occurrence
+A51	Event_Type T12 Process
+A52	Pos T12 Noun
+A53	Polarity T12 Pos
+T13	Event 419 428	não fosse
+A54	Class T13 State
+A55	Event_Type T13 State
+A56	Pos T13 Verb
+A57	Tense T13 Past
+A58	Aspect T13 Perfective
+A59	Mood T13 Subjunctive
+A60	Polarity T13 Neg
+T14	Event 453 474	não estarem presentes
+A61	Class T14 State
+A62	Event_Type T14 State
+A63	Pos T14 Verb
+A64	VForm T14 Infinitive
+A65	Polarity T14 Neg
+T15	Event 495 503	chegarem
+A66	Class T15 Occurrence
+A67	Event_Type T15 Transition
+A68	Pos T15 Verb
+A69	VForm T15 Infinitive
+A70	Polarity T15 Pos
+T16	Event 505 516	começaremos
+A71	Class T16 Aspectual
+A72	Event_Type T16 Transition
+A73	Pos T16 Verb
+A74	Tense T16 Future
+A75	Mood T16 Future
+A76	Polarity T16 Pos
+T17	Event 531 537	debate
+A77	Class T17 Occurrence
+A78	Event_Type T17 Process
+A79	Pos T17 Noun
+A80	Polarity T17 Pos
+T18	Event 540 545	disse
+A81	Class T18 Reporting
+A82	Event_Type T18 Transition
+A83	Pos T18 Verb
+A84	Tense T18 Past
+A85	Aspect T18 Perfective
+A86	Polarity T18 Pos
+T19	Event 547 558	Seguiram-se
+A87	Class T19 State
+A88	Event_Type T19 State
+A89	Pos T19 Verb
+A90	Tense T19 Past
+A91	Aspect T19 Perfective
+A92	Polarity T19 Pos
+T20	Event 576 582	espera
+A93	Class T20 State
+A94	Event_Type T20 State
+A95	Pos T20 Noun
+A96	Polarity T20 Pos
+T21	Event 613 619	debate
+A97	Class T21 Occurrence
+A98	Event_Type T21 Process
+A99	Pos T21 Noun
+A100	Polarity T21 Pos
+T22	Event 638 649	em conversa
+A101	Class T22 Occurrence
+A102	Event_Type T22 Process
+A103	Pos T22 Noun
+A104	Polarity T22 Pos
+T23	Event 653 662	hemiciclo
+A105	Event_Type T23 State
+A106	Pos T23 Noun
+A107	Polarity T23 Pos
+T24	Time 669 674	10:11
+A108	Time_Type T24 Time
+A109	TemporalFunction T24 None
+#4	AnnotatorNotes T24	value=2020-10-28T10:11 anchorTime=Publication_Time
+T25	Event 718 724	chegou
+A110	Class T25 Occurrence
+A111	Event_Type T25 Transition
+A112	Pos T25 Verb
+A113	Tense T25 Past
+A114	Aspect T25 Perfective
+A115	Polarity T25 Pos
+T26	Event 898 905	começou
+A116	Class T26 Aspectual
+A117	Event_Type T26 Transition
+A118	Pos T26 Verb
+A119	Tense T26 Past
+A120	Aspect T26 Perfective
+A121	Polarity T26 Pos
+T27	Event 908 917	discursar
+A122	Class T27 Occurrence
+A123	Event_Type T27 Process
+A124	Pos T27 Verb
+A125	Aspect T27 Progressive
+A126	VForm T27 Infinitive
+A127	Polarity T27 Pos
+T28	Event 748 759	rearrumarem
+A128	Class T28 Occurrence
+A129	Event_Type T28 Transition
+A130	Pos T28 Verb
+A131	Tense T28 Past
+A132	Aspect T28 Perfective
+A133	VForm T28 Infinitive
+A134	Polarity T28 Pos
+T29	Participant 151 180	Orçamento do Estado para 2021
+A135	Lexical_Head T29 Noun
+A136	Individuation_Domain T29 Individual
+A137	Participant_Type_Domain T29 Other
+A138	Involvement T29 1
+T30	Participant 197 207	parlamento
+A139	Lexical_Head T30 Noun
+A140	Individuation_Domain T30 Individual
+A141	Participant_Type_Domain T30 Loc
+A142	Involvement T30 1
+T31	Participant 259 266	membros
+A143	Lexical_Head T31 Noun
+A144	Individuation_Domain T31 Individual
+A145	Participant_Type_Domain T31 Per
+A146	Involvement T31 >1
+T32	Participant 270 277	Governo
+A147	Lexical_Head T32 Noun
+A148	Individuation_Domain T32 Individual
+A149	Participant_Type_Domain T32 Org
+A150	Involvement T32 1
+R1	OLINK_memberOf Arg1:T31 Arg2:T32	
+T33	Participant 317 356	o presidente da Assembleia da República
+A151	Lexical_Head T33 Noun
+A152	Individuation_Domain T33 Individual
+A153	Participant_Type_Domain T33 Per
+A154	Involvement T33 1
+T34	Participant 358 373	Ferro Rodrigues
+A155	Lexical_Head T34 Noun
+A156	Individuation_Domain T34 Individual
+A157	Participant_Type_Domain T34 Per
+A158	Involvement T34 1
+R2	OLINK_objIdentity Arg1:T34 Arg2:T33	
+T35	Participant 429 439	os membros
+A159	Lexical_Head T35 Noun
+A160	Individuation_Domain T35 Individual
+A161	Participant_Type_Domain T35 Per
+A162	Involvement T35 >1
+T36	Participant 443 452	executivo
+A163	Lexical_Head T36 Noun
+A164	Individuation_Domain T36 Set
+A165	Participant_Type_Domain T36 Per
+A166	Involvement T36 1
+R3	OLINK_memberOf Arg1:T35 Arg2:T36	
+R4	OLINK_objIdentity Arg1:T35 Arg2:T31	
+R5	OLINK_objIdentity Arg1:T36 Arg2:T32	
+T37	Participant 478 482	sala
+A167	Lexical_Head T37 Noun
+A168	Individuation_Domain T37 Individual
+A169	Participant_Type_Domain T37 Loc
+A170	Involvement T37 1
+R6	OLINK_objIdentity Arg1:T37 Arg2:T30	
+T38	Participant 625 637	os deputados
+A171	Lexical_Head T38 Noun
+A172	Individuation_Domain T38 Individual
+A173	Participant_Type_Domain T38 Per
+A174	Involvement T38 >1
+T39	Event 664 668	Eram
+A175	Class T39 State
+A176	Event_Type T39 State
+A177	Pos T39 Verb
+A178	Tense T39 Past
+A179	Aspect T39 Imperfective
+A180	Polarity T39 Pos
+T40	Participant 682 701	o primeiro-ministro
+A181	Lexical_Head T40 Noun
+A182	Individuation_Domain T40 Individual
+A183	Participant_Type_Domain T40 Per
+A184	Involvement T40 1
+T41	Participant 703 716	António Costa
+A185	Lexical_Head T41 Noun
+A186	Individuation_Domain T41 Individual
+A187	Participant_Type_Domain T41 Per
+A188	Involvement T41 1
+T42	Participant 735 747	os ministros
+A189	Lexical_Head T42 Noun
+A190	Individuation_Domain T42 Individual
+A191	Participant_Type_Domain T42 Per
+A192	Involvement T42 >1
+T43	Participant 760 771	as cadeiras
+A193	Lexical_Head T43 Noun
+A194	Individuation_Domain T43 Individual
+A195	Participant_Type_Domain T43 Obj
+A196	Involvement T43 >1
+T44	Participant 775 782	bancada
+A197	Lexical_Head T44 Noun
+A198	Individuation_Domain T44 Individual
+A199	Participant_Type_Domain T44 Loc
+A200	Involvement T44 1
+T45	Participant 786 793	Governo
+A201	Lexical_Head T45 Noun
+A202	Individuation_Domain T45 Individual
+A203	Participant_Type_Domain T45 Org
+A204	Involvement T45 1
+R7	OLINK_objIdentity Arg1:T45 Arg2:T36	
+T46	Participant 806 833	Ana Gomes Godinho, Trabalho
+A205	Lexical_Head T46 Noun
+A206	Individuation_Domain T46 Individual
+A207	Participant_Type_Domain T46 Per
+A208	Involvement T46 1
+NS // JPS
+OE2021: Deputados esperaram pelo Governo para começar segundo dia de debate
+O segundo dia de debate, na generalidade, do Orçamento do Estado para 2021 começou hoje no parlamento com cinco minutos de atraso, devido à ausência dos membros do Governo.
+Depois de lido o expediente, às 10:06 o presidente da Assembleia da República, Ferro Rodrigues, anunciava que iria dar-se início ao debate, não fosse os membros do executivo não estarem presentes na sala.
+“Assim que chegarem, começaremos de imediato o debate”, disse.
+Seguiram-se cinco minutos de espera, pouco habitual neste tipo de debate, com os deputados em conversa no hemiciclo.
+Eram 10:11 quando o primeiro-ministro, António Costa, chegou e, depois os minist
+T48	Participant 875 897	o titular das Finanças
+A213	Lexical_Head T48 Noun
+A214	Individuation_Domain T48 Individual
+A215	Participant_Type_Domain T48 Per
+A216	Involvement T48 1
+T47	Participant 837 873	João Pedro Matos Fernandes, Ambiente
+A209	Lexical_Head T47 Noun
+A210	Individuation_Domain T47 Individual
+A211	Participant_Type_Domain T47 Per
+A212	Involvement T47 1
+T49	Time 106 119	O segundo dia
+A217	Time_Type T49 Time
+A218	TemporalFunction T49 None
+T50	Event 229 235	atraso
+A219	Class T50 State
+A220	Event_Type T50 State
+A221	Pos T50 Noun
+A222	Polarity T50 Pos

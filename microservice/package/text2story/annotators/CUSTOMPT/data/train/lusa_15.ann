@@ -1,0 +1,326 @@
+T1	Time 8 19	16 dez 2020
+A1	Time_Type T1 Date
+A2	TemporalFunction T1 Publication_Time
+#1	AnnotatorNotes T1	value=2020-12-16
+T2	Event 155 163	frustrou
+A3	Class T2 Occurrence
+A4	Pos T2 Verb
+A5	Tense T2 Past
+A6	Aspect T2 Perfective
+A7	Polarity T2 Pos
+T3	Event 179 186	tráfico
+A8	Class T3 Occurrence
+A9	Event_Type T3 Process
+A10	Pos T3 Noun
+A11	Polarity T3 Pos
+T4	Event 304 314	informaram
+A12	Class T4 Reporting
+A13	Event_Type T4 Transition
+A14	Pos T4 Verb
+A15	Tense T4 Past
+A16	Aspect T4 Perfective
+A17	Polarity T4 Pos
+T5	Time 315 319	hoje
+A18	Time_Type T5 Date
+A19	TemporalFunction T5 Publication_Time
+#2	AnnotatorNotes T5	value=2020-12-16 anchorTime=Publication_Time
+T6	Event 459 466	levadas
+A20	Class T6 State
+A21	Event_Type T6 State
+A22	Pos T6 Verb
+A23	Tense T6 Past
+A24	Aspect T6 Imperfective_Progressive
+A25	VForm T6 Infinitive
+A26	Polarity T6 Pos
+T7	Event 502 512	pretendiam
+A27	Class T7 I_State
+A28	Event_Type T7 State
+A29	Pos T7 Verb
+A30	Tense T7 Past
+A31	Aspect T7 Imperfective
+A32	Polarity T7 Pos
+T8	Event 513 519	viajar
+A33	Class T8 Occurrence
+A34	Event_Type T8 Process
+A35	Pos T8 Verb
+A36	VForm T8 Infinitive
+A37	Polarity T8 Pos
+T9	Event 578 601	alegada comercialização
+A38	Class T9 Occurrence
+A39	Event_Type T9 Transition
+A40	Pos T9 Noun
+A41	Polarity T9 Pos
+T10	Event 624 630	citado
+A42	Class T10 State
+A43	Event_Type T10 State
+A44	Pos T10 Verb
+A45	Polarity T10 Pos
+T11	Event 671 676	disse
+A46	Class T11 Reporting
+A47	Event_Type T11 Transition
+A48	Pos T11 Verb
+A49	Tense T11 Past
+A50	Aspect T11 Perfective
+A51	Polarity T11 Pos
+T12	Event 697 704	detidos
+A52	Class T12 Occurrence
+A53	Pos T12 Verb
+A54	Tense T12 Past
+A55	Aspect T12 Perfective
+A56	Polarity T12 Pos
+T13	Event 717 725	operação
+A57	Class T13 Occurrence
+A58	Event_Type T13 Process
+A59	Pos T13 Noun
+A60	Polarity T13 Pos
+T14	Event 726 736	denominada
+A61	Class T14 State
+A62	Event_Type T14 State
+A63	Pos T14 Verb
+A64	Tense T14 Past
+A65	Aspect T14 Perfective
+A66	VForm T14 Participle
+A67	Polarity T14 Pos
+T15	Event 755 761	contou
+A68	Class T15 State
+A69	Event_Type T15 State
+A70	Pos T15 Verb
+A71	Tense T15 Past
+A72	Aspect T15 Perfective
+A73	Polarity T15 Pos
+T16	Event 768 779	colaboração
+A74	Class T16 Occurrence
+A75	Event_Type T16 Process
+A76	Pos T16 Noun
+A77	Polarity T16 Pos
+T17	Event 809 816	tráfico
+A78	Class T17 Occurrence
+A79	Event_Type T17 Process
+A80	Pos T17 Noun
+A81	Polarity T17 Pos
+T18	Event 845 854	registada
+A82	Class T18 Occurrence
+A83	Event_Type T18 Transition
+A84	Pos T18 Verb
+A85	Tense T18 Past
+A86	Aspect T18 Perfective
+A87	VForm T18 Participle
+A88	Polarity T18 Pos
+T19	Event 836 844	terceira
+A89	Class T19 I_Action
+A90	Pos T19 Noun
+A91	Polarity T19 Pos
+T20	Event 166 175	tentativa
+A92	Class T20 I_Action
+A93	Event_Type T20 Transition
+A94	Pos T20 Noun
+A95	Polarity T20 Pos
+T21	Event 796 805	tentativa
+A96	Class T21 I_Action
+A97	Event_Type T21 Transition
+A98	Pos T21 Noun
+A99	Polarity T21 Pos
+A100	Event_Type T19 Transition
+T22	Event 875 883	primeira
+A101	Class T22 I_Action
+A102	Event_Type T22 Transition
+A103	Pos T22 Noun
+A104	Polarity T22 Pos
+T23	Time 887 900	início do ano
+A105	Time_Type T23 Time
+A106	TemporalFunction T23 None
+T24	Event 905 912	segunda
+A107	Class T24 I_Action
+A108	Event_Type T24 Transition
+A109	Pos T24 Noun
+A110	Polarity T24 Pos
+T25	Time 916 921	julho
+A111	Time_Type T25 Time
+A112	TemporalFunction T25 None
+#3	AnnotatorNotes T25	value=2020-07-XX anchorTime=Publication_Time
+R1	TLINK_before Arg1:T20 Arg2:T2	
+R2	SLINK_intensional Arg1:T20 Arg2:T3	
+R3	TLINK_isIncluded Arg1:T3 Arg2:T20	
+R4	TLINK_isIncluded Arg1:T4 Arg2:T5	
+R5	TLINK_before Arg1:T4 Arg2:T3	
+R6	TLINK_before Arg1:T6 Arg2:T4	
+R7	TLINK_after Arg1:T7 Arg2:T6	
+R8	TLINK_isIncluded Arg1:T8 Arg2:T7	
+R9	SLINK_intensional Arg1:T7 Arg2:T8	
+R10	TLINK_after Arg1:T9 Arg2:T8	
+R11	TLINK_before Arg1:T11 Arg2:T10	
+R12	TLINK_before Arg1:T12 Arg2:T11	
+R13	TLINK_during Arg1:T12 Arg2:T13	
+R14	TLINK_simultaneous Arg1:T14 Arg2:T13	
+R15	TLINK_isIncluded Arg1:T15 Arg2:T14	
+R16	TLINK_simultaneous Arg1:T16 Arg2:T15	
+R17	SLINK_intensional Arg1:T21 Arg2:T17	
+R18	TLINK_after Arg1:T10 Arg2:T6	
+R19	TLINK_isIncluded Arg1:T17 Arg2:T21	
+R20	TLINK_identity Arg1:T19 Arg2:T21	
+R21	TLINK_simultaneous Arg1:T18 Arg2:T19	
+T26	Time 855 863	este ano
+A113	Time_Type T26 Time
+A114	TemporalFunction T26 None
+#4	AnnotatorNotes T26	value=2020-XX-XX anchorTime=Publication_Time
+R22	TLINK_isIncluded Arg1:T18 Arg2:T26	
+R23	TLINK_isIncluded Arg1:T22 Arg2:T23	
+R24	TLINK_isIncluded Arg1:T24 Arg2:T25	
+R25	TLINK_after Arg1:T22 Arg2:T18	
+R26	TLINK_after Arg1:T24 Arg2:T22	
+T27	Participant 114 154	O Serviço de investigação Criminal (SIC)
+A115	Lexical_Head T27 Noun
+A116	Individuation_Domain T27 Individual
+A117	Participant_Type_Domain T27 Org
+A118	Involvement T27 1
+T28	Participant 190 203	três crianças
+A119	Lexical_Head T28 Noun
+A120	Individuation_Domain T28 Individual
+A121	Participant_Type_Domain T28 Per
+A122	Involvement T28 >1
+T29	Participant 207 247	República Democrática do Congo (RDCongo)
+A123	Lexical_Head T29 Noun
+A124	Individuation_Domain T29 Individual
+A125	Participant_Type_Domain T29 Loc
+A126	Involvement T29 1
+T30	Participant 252 267	cidade do Dundo
+A127	Lexical_Head T30 Noun
+A128	Individuation_Domain T30 Individual
+A129	Participant_Type_Domain T30 Loc
+A130	Involvement T30 1
+T31	Participant 269 302	província angolana da Lunda Norte
+A131	Lexical_Head T31 Noun
+A132	Individuation_Domain T31 Individual
+A133	Participant_Type_Domain T31 Loc
+A134	Involvement T31 1
+R27	OLINK_partOf Arg1:T30 Arg2:T31	
+T32	Participant 320 344	as autoridades angolanas
+A135	Lexical_Head T32 Noun
+A136	Individuation_Domain T32 Individual
+A137	Participant_Type_Domain T32 Org
+A138	Involvement T32 >1
+T33	Participant 360 371	o porta-voz
+A139	Lexical_Head T33 Noun
+A140	Individuation_Domain T33 Individual
+A141	Participant_Type_Domain T33 Per
+A142	Involvement T33 1
+T34	Participant 375 378	SIC
+A143	Lexical_Head T34 Noun
+A144	Individuation_Domain T34 Individual
+A145	Participant_Type_Domain T34 Org
+A146	Involvement T34 1
+R28	OLINK_partOf Arg1:T33 Arg2:T34	
+R29	OLINK_objIdentity Arg1:T34 Arg2:T27	
+T35	Participant 382 393	Lunda Norte
+A147	Lexical_Head T35 Noun
+A148	Individuation_Domain T35 Individual
+A149	Participant_Type_Domain T35 Loc
+A150	Involvement T35 1
+R30	OLINK_objIdentity Arg1:T35 Arg2:T31	
+T36	Participant 395 414	Veríssimo Pandamari
+A151	Lexical_Head T36 Noun
+A152	Individuation_Domain T36 Individual
+A153	Participant_Type_Domain T36 Per
+A154	Involvement T36 1
+R31	OLINK_objIdentity Arg1:T36 Arg2:T33	
+T37	Participant 416 443	as crianças com 9 e 12 anos
+A155	Lexical_Head T37 Noun
+A156	Individuation_Domain T37 Individual
+A157	Participant_Type_Domain T37 Per
+A158	Involvement T37 >1
+R32	OLINK_objIdentity Arg1:T37 Arg2:T28	
+T38	Participant 471 496	dois supostos traficantes
+A159	Lexical_Head T38 Noun
+A160	Individuation_Domain T38 Individual
+A161	Participant_Type_Domain T38 Per
+A162	Involvement T38 >1
+T39	Participant 524 534	os menores
+A163	Lexical_Head T39 Noun
+A164	Individuation_Domain T39 Individual
+A165	Participant_Type_Domain T39 Per
+A166	Involvement T39 >1
+R33	OLINK_objIdentity Arg1:T39 Arg2:T37	
+T40	Participant 540 546	Luanda
+A167	Lexical_Head T40 Noun
+A168	Individuation_Domain T40 Individual
+A169	Participant_Type_Domain T40 Loc
+A170	Involvement T40 1
+T41	Participant 548 565	capital de Angola
+A171	Lexical_Head T41 Noun
+A172	Individuation_Domain T41 Individual
+A173	Participant_Type_Domain T41 Loc
+A174	Involvement T41 1
+R34	OLINK_objIdentity Arg1:T40 Arg2:T41	
+T42	Participant 603 622	Veríssimo Pandamari
+A175	Lexical_Head T42 Noun
+A176	Individuation_Domain T42 Individual
+A177	Participant_Type_Domain T42 Per
+A178	Involvement T42 1
+R35	OLINK_objIdentity Arg1:T42 Arg2:T36	
+T43	Participant 636 669	agência noticiosa angolana, Angop
+A179	Lexical_Head T43 Noun
+A180	Individuation_Domain T43 Individual
+A181	Participant_Type_Domain T43 Org
+A182	Involvement T43 1
+T44	Participant 681 690	os homens
+A183	Lexical_Head T44 Noun
+A184	Individuation_Domain T44 Individual
+A185	Participant_Type_Domain T44 Per
+A186	Involvement T44 >1
+R36	OLINK_objIdentity Arg1:T44 Arg2:T38	
+T45	Participant 738 748	Kudissanga
+A187	Lexical_Head T45 Noun
+A188	Individuation_Domain T45 Individual
+A189	Participant_Type_Domain T45 Other
+A190	Involvement T45 1
+T46	Participant 751 754	que
+A191	Lexical_Head T46 Pronoun
+A192	Individuation_Domain T46 Individual
+A193	Participant_Type_Domain T46 Other
+A194	Involvement T46 1
+R37	OLINK_objIdentity Arg1:T46 Arg2:T45	
+T47	Participant 783 792	populares
+A195	Lexical_Head T47 Noun
+A196	Individuation_Domain T47 Set
+A197	Participant_Type_Domain T47 Per
+A198	Involvement T47 Und
+T48	Participant 818 831	estes menores
+A199	Lexical_Head T48 Noun
+A200	Individuation_Domain T48 Individual
+A201	Participant_Type_Domain T48 Per
+A202	Involvement T48 >1
+R38	OLINK_objIdentity Arg1:T48 Arg2:T39	
+R39	SRLINK_agent Arg1:T2 Arg2:T27	
+R40	SRLINK_theme Arg1:T2 Arg2:T20	
+R41	SRLINK_theme Arg1:T20 Arg2:T3	
+R42	SRLINK_patient Arg1:T3 Arg2:T28	
+R43	OLINK_partOf Arg1:T28 Arg2:T29	
+R44	SRLINK_location Arg1:T2 Arg2:T30	
+R45	SRLINK_location Arg1:T2 Arg2:T31	
+R46	SRLINK_theme Arg1:T4 Arg2:T2	
+R47	SLINK_evidential Arg1:T4 Arg2:T2	
+R48	SRLINK_agent Arg1:T4 Arg2:T32	
+R49	SRLINK_patient Arg1:T6 Arg2:T37	
+R50	SRLINK_agent Arg1:T6 Arg2:T38	
+R51	SRLINK_pivot Arg1:T7 Arg2:T38	
+R52	SRLINK_theme Arg1:T7 Arg2:T8	
+R53	SRLINK_partner Arg1:T8 Arg2:T39	
+R54	SRLINK_agent Arg1:T8 Arg2:T38	
+R55	SRLINK_finalLocation Arg1:T8 Arg2:T40	
+R56	SRLINK_finalLocation Arg1:T8 Arg2:T41	
+R57	SRLINK_purpose Arg1:T8 Arg2:T9	
+R58	SRLINK_patient Arg1:T10 Arg2:T42	
+R59	SRLINK_agent Arg1:T10 Arg2:T43	
+R60	SRLINK_agent Arg1:T11 Arg2:T42	
+R61	SRLINK_theme Arg1:T11 Arg2:T12	
+R62	SLINK_evidential Arg1:T11 Arg2:T12	
+R63	SRLINK_patient Arg1:T12 Arg2:T44	
+R64	SRLINK_setting Arg1:T12 Arg2:T13	
+R65	SRLINK_pivot Arg1:T14 Arg2:T13	
+R66	SRLINK_theme Arg1:T14 Arg2:T45	
+R67	SRLINK_pivot Arg1:T15 Arg2:T46	
+R68	SRLINK_theme Arg1:T15 Arg2:T16	
+R69	SRLINK_agent Arg1:T16 Arg2:T47	
+R70	SRLINK_theme Arg1:T21 Arg2:T17	
+R71	SRLINK_patient Arg1:T17 Arg2:T48	
+R72	SRLINK_theme Arg1:T18 Arg2:T19	

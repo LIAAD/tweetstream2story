@@ -1,0 +1,400 @@
+T1	Event 144 154	realizaram
+A1	Class T1 Occurrence
+A2	Event_Type T1 Transition
+A3	Pos T1 Verb
+A4	Tense T1 Past
+A5	Aspect T1 Perfective
+A6	Polarity T1 Pos
+T2	Time 155 159	hoje
+A7	Time_Type T2 Date
+A8	TemporalFunction T2 Publication_Time
+#1	AnnotatorNotes T2	value=2020-12-15 anchorTime=Publication_Time
+T3	Time 14 25	15 dez 2020
+A9	Time_Type T3 Date
+A10	TemporalFunction T3 Publication_Time
+#2	AnnotatorNotes T3	value=2020-12-15 
+T4	Event 160 166	buscas
+A11	Class T4 Occurrence
+A12	Event_Type T4 Transition
+A13	Pos T4 Noun
+A14	Polarity T4 Pos
+T5	Event 250 262	investigação
+A15	Class T5 State
+A16	Event_Type T5 State
+A17	Pos T5 Noun
+A18	Polarity T5 Pos
+T6	Event 267 286	alegada negligência
+A19	Class T6 State
+A20	Event_Type T6 State
+A21	Pos T6 Noun
+A22	Polarity T6 Pos
+T7	Event 290 295	morte
+A23	Class T7 Occurrence
+A24	Event_Type T7 Transition
+A25	Pos T7 Noun
+A26	Polarity T7 Pos
+T8	Event 325 333	ocorrida
+A27	Class T8 Occurrence
+A28	Event_Type T8 Transition
+A29	Pos T8 Verb
+A30	Tense T8 Past
+A31	Aspect T8 Perfective
+A32	VForm T8 Participle
+A33	Polarity T8 Pos
+T9	Time 337 351	25 de novembro
+A34	Time_Type T9 Date
+A35	TemporalFunction T9 None
+#3	AnnotatorNotes T9	value=2020-11-25 anchorTime=Publication_Time
+T10	Event 356 366	comunicado
+A36	Class T10 Reporting
+A37	Event_Type T10 Transition
+A38	Pos T10 Noun
+A39	Polarity T10 Pos
+T11	Event 404 410	refere
+A40	Class T11 Reporting
+A41	Event_Type T11 Transition
+A42	Pos T11 Verb
+A43	Tense T11 Present
+A44	Aspect T11 Imperfective
+A45	Polarity T11 Pos
+T12	Event 418 424	buscas
+A46	Class T12 Occurrence
+A47	Event_Type T12 Transition
+A48	Pos T12 Noun
+A49	Polarity T12 Pos
+T13	Event 447 457	apreendido
+A50	Class T13 Occurrence
+A51	Event_Type T13 Transition
+A52	Pos T13 Verb
+A53	Tense T13 Past
+A54	Aspect T13 Perfective
+A55	Polarity T13 Pos
+T14	Event 490 499	ordenadas
+A56	Class T14 Occurrence
+A57	Event_Type T14 Transition
+A58	Pos T14 Verb
+A59	Tense T14 Past
+A60	Aspect T14 Perfective
+A61	Polarity T14 Pos
+T15	Event 510 515	saber
+A62	Class T15 I_State
+A63	Event_Type T15 State
+A64	Pos T15 Verb
+A65	VForm T15 Infinitive
+A66	Polarity T15 Pos
+T16	Event 537 542	junto
+A67	Class T16 State
+A68	Event_Type T16 State
+A69	Pos T16 Verb
+A70	Tense T16 Past
+A71	Aspect T16 Perfective
+A72	VForm T16 Participle
+A73	Polarity T16 Pos
+T17	Event 567 573	morreu
+A74	Class T17 Occurrence
+A75	Event_Type T17 Transition
+A76	Pos T17 Verb
+A77	Tense T17 Past
+A78	Aspect T17 Perfective
+A79	Polarity T17 Pos
+T18	Event 645 653	realizou
+A80	Class T18 Occurrence
+A81	Event_Type T18 Process
+A82	Pos T18 Verb
+A83	Tense T18 Past
+A84	Aspect T18 Perfective
+A85	Polarity T18 Pos
+T19	Event 654 662	perícias
+A86	Class T19 Occurrence
+A87	Event_Type T19 Process
+A88	Pos T19 Noun
+A89	Polarity T19 Pos
+T20	Event 721 731	participou
+A90	Class T20 Occurrence
+A91	Event_Type T20 Transition
+A92	Pos T20 Verb
+A93	Tense T20 Past
+A94	Aspect T20 Perfective
+A95	Polarity T20 Pos
+T21	Event 798 807	submetido
+A96	Class T21 Occurrence
+A97	Event_Type T21 Transition
+A98	Pos T21 Verb
+A99	Tense T21 Past
+A100	Aspect T21 Perfective
+A101	Polarity T21 Pos
+T22	Time 811 829	início de novembro
+A102	Time_Type T22 Time
+A103	TemporalFunction T22 None
+#4	AnnotatorNotes T22	value=2020-11-XX anchorTime=Publication_Time
+T23	Event 735 743	operação
+A104	Class T23 Occurrence
+A105	Event_Type T23 Transition
+A106	Pos T23 Noun
+A107	Polarity T23 Pos
+T24	Event 883 888	morte
+A108	Class T24 Occurrence
+A109	Event_Type T24 Transition
+A110	Pos T24 Noun
+A111	Polarity T24 Pos
+T25	Event 934 939	abriu
+A112	Class T25 Occurrence
+A113	Event_Type T25 Transition
+A114	Pos T25 Verb
+A115	Tense T25 Past
+A116	Aspect T25 Perfective
+A117	Polarity T25 Pos
+T26	Event 943 952	inquérito
+A118	Class T26 State
+A119	Event_Type T26 State
+A120	Pos T26 Noun
+A121	Polarity T26 Pos
+T27	Event 958 968	determinar
+A122	Class T27 I_Action
+A123	Event_Type T27 Transition
+A124	Pos T27 Verb
+A125	VForm T27 Infinitive
+A126	Polarity T27 Pos
+T28	Event 972 977	houve
+A127	Class T28 State
+A128	Event_Type T28 State
+A129	Pos T28 Verb
+A130	Tense T28 Past
+A131	Aspect T28 Perfective
+A132	Polarity T28 Pos
+T29	Event 978 996	negligência médica
+A133	Class T29 State
+A134	Event_Type T29 State
+A135	Pos T29 Noun
+A136	Polarity T29 Pos
+T30	Event 1000 1011	assistência
+A137	Class T30 Occurrence
+A138	Event_Type T30 Transition
+A139	Pos T30 Noun
+A140	Polarity T30 Pos
+R1	TLINK_identity Arg1:T4 Arg2:T1	
+R2	TLINK_before Arg1:T6 Arg2:T5	
+R3	TLINK_simultaneous Arg1:T7 Arg2:T6	
+R4	TLINK_includes Arg1:T5 Arg2:T4	
+R5	TLINK_identity Arg1:T8 Arg2:T7	
+R6	TLINK_after Arg1:T10 Arg2:T8	
+R7	TLINK_isIncluded Arg1:T11 Arg2:T10	
+R8	TLINK_before Arg1:T12 Arg2:T11	
+R9	TLINK_identity Arg1:T12 Arg2:T4	
+R10	TLINK_during Arg1:T13 Arg2:T12	
+R11	TLINK_before Arg1:T14 Arg2:T12	
+R12	TLINK_before Arg1:T15 Arg2:T14	
+R13	TLINK_before Arg1:T16 Arg2:T15	
+R14	TLINK_simultaneous Arg1:T17 Arg2:T16	
+R15	TLINK_identity Arg1:T19 Arg2:T18	
+R16	TLINK_after Arg1:T18 Arg2:T17	
+R17	TLINK_before Arg1:T20 Arg2:T19	
+R18	TLINK_simultaneous Arg1:T23 Arg2:T20	
+R19	TLINK_identity Arg1:T21 Arg2:T23	
+R20	TLINK_isIncluded Arg1:T21 Arg2:T22	
+R21	TLINK_after Arg1:T24 Arg2:T21	
+R22	TLINK_after Arg1:T25 Arg2:T24	
+R23	TLINK_identity Arg1:T26 Arg2:T25	
+R24	TLINK_isIncluded Arg1:T27 Arg2:T26	
+R25	TLINK_before Arg1:T28 Arg2:T27	
+R26	TLINK_identity Arg1:T29 Arg2:T28	
+R27	TLINK_simultaneous Arg1:T30 Arg2:T29	
+R28	TLINK_identity Arg1:T17 Arg2:T7	
+R29	TLINK_identity Arg1:T24 Arg2:T17	
+R30	SLINK_evidential Arg1:T11 Arg2:T14	
+R31	SLINK_intensional Arg1:T27 Arg2:T28	
+T31	Participant 108 143	As autoridades judiciais argentinas
+A141	Lexical_Head T31 Noun
+A142	Individuation_Domain T31 Individual
+A143	Participant_Type_Domain T31 Org
+A144	Involvement T31 >1
+T32	Participant 170 181	apartamento
+A145	Lexical_Head T32 Noun
+A146	Individuation_Domain T32 Individual
+A147	Participant_Type_Domain T32 Loc
+A148	Involvement T32 1
+T33	Participant 185 206	Maximiliano Trimarchi
+A149	Lexical_Head T33 Noun
+A150	Individuation_Domain T33 Individual
+A151	Participant_Type_Domain T33 Per
+A152	Involvement T33 1
+T34	Participant 208 217	motorista
+A153	Lexical_Head T34 Noun
+A154	Individuation_Domain T34 Individual
+A155	Participant_Type_Domain T34 Per
+A156	Involvement T34 1
+T35	Participant 221 235	Diego Maradona
+A157	Lexical_Head T35 Noun
+A158	Individuation_Domain T35 Individual
+A159	Participant_Type_Domain T35 Per
+A160	Involvement T35 1
+T36	Participant 299 323	ex-futebolista argentino
+A161	Lexical_Head T36 Noun
+A162	Individuation_Domain T36 Individual
+A163	Participant_Type_Domain T36 Per
+A164	Involvement T36 1
+R32	OLINK_partOf Arg1:T32 Arg2:T33	
+R33	OLINK_objIdentity Arg1:T34 Arg2:T33	
+R35	OLINK_objIdentity Arg1:T36 Arg2:T35	
+T37	Participant 368 402	a procuradoria-geral de San Isidro
+A165	Lexical_Head T37 Noun
+A166	Individuation_Domain T37 Individual
+A167	Participant_Type_Domain T37 Org
+A168	Involvement T37 1
+T38	Participant 458 469	o telemóvel
+A169	Lexical_Head T38 Noun
+A170	Individuation_Domain T38 Individual
+A171	Participant_Type_Domain T38 Obj
+A172	Involvement T38 1
+T39	Participant 473 482	motorista
+A173	Lexical_Head T39 Noun
+A174	Individuation_Domain T39 Individual
+A175	Participant_Type_Domain T39 Per
+A176	Involvement T39 1
+R34	OLINK_partOf Arg1:T38 Arg2:T39	
+R36	OLINK_objIdentity Arg1:T39 Arg2:T34	
+T40	Participant 520 529	Trimarchi
+A177	Lexical_Head T40 Noun
+A178	Individuation_Domain T40 Individual
+A179	Participant_Type_Domain T40 Per
+A180	Involvement T40 1
+R37	OLINK_objIdentity Arg1:T40 Arg2:T39	
+T41	Participant 546 554	Maradona
+A181	Lexical_Head T41 Noun
+A182	Individuation_Domain T41 Individual
+A183	Participant_Type_Domain T41 Per
+A184	Involvement T41 1
+R38	OLINK_objIdentity Arg1:T41 Arg2:T36	
+T42	Participant 578 581	sua
+A185	Lexical_Head T42 Pronoun
+A186	Individuation_Domain T42 Individual
+A187	Participant_Type_Domain T42 Per
+A188	Involvement T42 1
+R39	OLINK_objIdentity Arg1:T42 Arg2:T41	
+T43	Participant 582 586	casa
+A189	Lexical_Head T43 Noun
+A190	Individuation_Domain T43 Individual
+A191	Participant_Type_Domain T43 Loc
+A192	Involvement T43 1
+R40	OLINK_objIdentity Arg1:T43 Arg2:T32	
+R41	OLINK_partOf Arg1:T43 Arg2:T42	
+T44	Participant 591 600	San André
+A193	Lexical_Head T44 Noun
+A194	Individuation_Domain T44 Individual
+A195	Participant_Type_Domain T44 Loc
+A196	Involvement T44 1
+T45	Participant 605 630	província de Buenos Aires
+A197	Lexical_Head T45 Noun
+A198	Individuation_Domain T45 Individual
+A199	Participant_Type_Domain T45 Loc
+A200	Involvement T45 1
+R42	OLINK_partOf Arg1:T44 Arg2:T45	
+T46	Participant 632 641	A polícia
+A201	Lexical_Head T46 Noun
+A202	Individuation_Domain T46 Individual
+A203	Participant_Type_Domain T46 Org
+A204	Involvement T46 1
+R43	OLINK_objIdentity Arg1:T46 Arg2:T31	
+T47	Participant 667 677	telemóveis
+A205	Lexical_Head T47 Noun
+A206	Individuation_Domain T47 Individual
+A207	Participant_Type_Domain T47 Obj
+A208	Involvement T47 >1
+T48	Participant 681 695	Leopoldo Luque
+A209	Lexical_Head T48 Noun
+A210	Individuation_Domain T48 Individual
+A211	Participant_Type_Domain T48 Per
+A212	Involvement T48 1
+T49	Participant 697 703	médico
+A213	Lexical_Head T49 Noun
+A214	Individuation_Domain T49 Individual
+A215	Participant_Type_Domain T49 Per
+A216	Involvement T49 1
+R44	OLINK_objIdentity Arg1:T49 Arg2:T48	
+T50	Participant 746 766	um hematoma subdural
+A217	Lexical_Head T50 Noun
+A218	Individuation_Domain T50 Individual
+A219	Participant_Type_Domain T50 Other
+A220	Involvement T50 1
+T52	Participant 773 793	o antigo futebolista
+A225	Individuation_Domain T52 Individual
+A226	Participant_Type_Domain T52 Per
+A227	Involvement T52 1
+T53	Participant 836 864	psiquiatra Agustina Cosachov
+A228	Lexical_Head T53 Noun
+A229	Individuation_Domain T53 Individual
+A230	Participant_Type_Domain T53 Per
+A231	Involvement T53 1
+R45	OLINK_partOf Arg1:T47 Arg2:T48	
+R46	OLINK_partOf Arg1:T47 Arg2:T53	
+T54	Participant 892 912	Maradona, de 60 anos
+A232	Lexical_Head T54 Noun
+A233	Individuation_Domain T54 Individual
+A234	Participant_Type_Domain T54 Per
+A235	Involvement T54 1
+T55	Participant 914 933	a justiça argentina
+A236	Lexical_Head T55 Noun
+A237	Individuation_Domain T55 Individual
+A238	Participant_Type_Domain T55 Org
+A239	Involvement T55 1
+R47	OLINK_partOf Arg1:T31 Arg2:T55	
+T56	Participant 1015 1033	antigo futebolista
+A240	Lexical_Head T56 Noun
+A241	Individuation_Domain T56 Individual
+A242	Participant_Type_Domain T56 Per
+A243	Involvement T56 1
+R48	OLINK_objIdentity Arg1:T56 Arg2:T54	
+T57	Time 866 880	Dois dias após
+A244	Time_Type T57 Date
+A245	TemporalFunction T57 None
+#5	AnnotatorNotes T57	value=2020-11-27 anchorTime=2020-11-25
+T58	Participant 707 715	Maradona
+A246	Lexical_Head T58 Noun
+A247	Individuation_Domain T58 Individual
+A248	Participant_Type_Domain T58 Per
+A249	Involvement T58 1
+R49	OLINK_objIdentity Arg1:T58 Arg2:T41	
+A250	Lexical_Head T52 Noun
+R51	OLINK_objIdentity Arg1:T52 Arg2:T58	
+R52	OLINK_objIdentity Arg1:T54 Arg2:T52	
+R53	TLINK_isIncluded Arg1:T1 Arg2:T2	
+R54	TLINK_isIncluded Arg1:T8 Arg2:T9	
+R55	SRLINK_agent Arg1:T1 Arg2:T31	
+R56	SRLINK_theme Arg1:T1 Arg2:T4	
+R57	SRLINK_location Arg1:T1 Arg2:T32	
+R58	SRLINK_setting Arg1:T1 Arg2:T5	
+R59	SRLINK_reason Arg1:T5 Arg2:T6	
+R60	SRLINK_result Arg1:T6 Arg2:T7	
+R61	SRLINK_patient Arg1:T7 Arg2:T36	
+R62	SRLINK_medium Arg1:T11 Arg2:T10	
+R63	SRLINK_agent Arg1:T11 Arg2:T37	
+R64	SRLINK_theme Arg1:T11 Arg2:T14	
+R65	SRLINK_theme Arg1:T14 Arg2:T12	
+R66	SRLINK_theme Arg1:T13 Arg2:T38	
+R67	SRLINK_agent Arg1:T13 Arg2:T31	
+R68	SRLINK_reason Arg1:T14 Arg2:T15	
+R69	SLINK_intensional Arg1:T15 Arg2:T16	
+R70	SRLINK_theme Arg1:T15 Arg2:T16	
+R71	SRLINK_pivot Arg1:T16 Arg2:T40	
+R72	SRLINK_theme Arg1:T16 Arg2:T41	
+R73	SRLINK_patient Arg1:T17 Arg2:T41	
+R74	SRLINK_location Arg1:T17 Arg2:T43	
+R75	SRLINK_location Arg1:T17 Arg2:T44	
+R76	SRLINK_location Arg1:T17 Arg2:T45	
+R77	SRLINK_agent Arg1:T18 Arg2:T46	
+R78	SRLINK_theme Arg1:T18 Arg2:T19	
+R79	SRLINK_patient Arg1:T19 Arg2:T47	
+R80	SRLINK_agent Arg1:T20 Arg2:T48	
+R81	SRLINK_theme Arg1:T20 Arg2:T23	
+R82	SRLINK_goal Arg1:T23 Arg2:T50	
+R83	SRLINK_patient Arg1:T21 Arg2:T52	
+R84	SRLINK_theme Arg1:T21 Arg2:T23	
+R50	TLINK_before Arg1:T24 Arg2:T57	
+R85	SRLINK_theme Arg1:T24 Arg2:T54	
+R86	SRLINK_agent Arg1:T25 Arg2:T55	
+R87	SRLINK_theme Arg1:T25 Arg2:T26	
+R88	SRLINK_purpose Arg1:T25 Arg2:T27	
+R89	SRLINK_theme Arg1:T27 Arg2:T28	
+R90	SRLINK_theme Arg1:T28 Arg2:T29	
+R91	SRLINK_setting Arg1:T29 Arg2:T30	
+R92	SRLINK_goal Arg1:T30 Arg2:T56	

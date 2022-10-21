@@ -1,0 +1,392 @@
+T1	Event 59 68	resgatado
+A1	Class T1 Occurrence
+A2	Event_Type T1 Transition
+A3	Pos T1 Verb
+A4	VForm T1 Participle
+A5	Polarity T1 Pos
+T2	Event 74 78	cair
+A6	Class T2 Occurrence
+A7	Event_Type T2 Transition
+A8	Pos T2 Verb
+A9	VForm T2 Infinitive
+A10	Polarity T2 Pos
+T3	Event 155 159	caiu
+A11	Class T3 Occurrence
+A12	Event_Type T3 Transition
+A13	Pos T3 Verb
+A15	Polarity T3 Pos
+T4	Event 258 267	resgatado
+A16	Class T4 Occurrence
+A17	Event_Type T4 Transition
+A18	Pos T4 Verb
+A19	VForm T4 Participle
+A20	Polarity T4 Pos
+T5	Event 268 289	sem ferimentos graves
+A21	Class T5 State
+A22	Event_Type T5 State
+A23	Pos T5 Noun
+A25	Polarity T5 Pos
+T6	Event 291 296	disse
+A26	Class T6 Reporting
+A27	Event_Type T6 Transition
+A28	Pos T6 Verb
+A30	Polarity T6 Pos
+T7	Event 345 352	ocorreu
+A31	Class T7 Occurrence
+A32	Event_Type T7 Transition
+A33	Pos T7 Verb
+A35	Polarity T7 Pos
+T8	Event 339 344	queda
+A36	Class T8 Occurrence
+A37	Event_Type T8 Transition
+A38	Pos T8 Noun
+A40	Polarity T8 Pos
+T9	Event 389 396	situado
+A41	Class T9 State
+A42	Event_Type T9 State
+A43	Pos T9 Verb
+A44	VForm T9 Participle
+A45	Polarity T9 Pos
+T10	Event 434 441	partido
+A46	Class T10 Occurrence
+A47	Event_Type T10 Transition
+A48	Pos T10 Verb
+A49	VForm T10 Infinitive
+A50	Polarity T10 Pos
+T11	Event 457 463	estava
+A51	Class T11 State
+A52	Event_Type T11 State
+A53	Pos T11 Verb
+A55	Polarity T11 Pos
+T12	Event 473 481	acabando
+A56	Class T12 Occurrence
+A57	Event_Type T12 Transition
+A58	Pos T12 Verb
+A59	VForm T12 Gerundive
+A60	Polarity T12 Pos
+T13	Event 486 490	cair
+A61	Class T13 Occurrence
+A62	Event_Type T13 Transition
+A63	Pos T13 Verb
+A64	VForm T13 Infinitive
+A65	Polarity T13 Pos
+T14	Event 510 517	coberta
+A66	Class T14 State
+A67	Event_Type T14 State
+A68	Pos T14 Verb
+A69	VForm T14 Participle
+A70	Polarity T14 Pos
+T15	Event 529 540	acrescentou
+A71	Class T15 Reporting
+A72	Event_Type T15 Transition
+A73	Pos T15 Verb
+A75	Polarity T15 Pos
+T16	Event 550 560	Recorrendo
+A76	Class T16 Occurrence
+A77	Event_Type T16 Process
+A78	Pos T16 Verb
+A79	VForm T16 Gerundive
+A80	Polarity T16 Pos
+T17	Event 599 606	auxílio
+A81	Class T17 Occurrence
+A82	Event_Type T17 Process
+A83	Pos T17 Noun
+A85	Polarity T17 Pos
+T18	Event 631 641	resgataram
+A86	Class T18 Occurrence
+A87	Event_Type T18 Transition
+A88	Pos T18 Verb
+A90	Polarity T18 Pos
+T19	Event 682 694	estabilizado
+A91	Class T19 Occurrence
+A92	Event_Type T19 Transition
+A93	Pos T19 Verb
+A95	Polarity T19 Pos
+T20	Event 705 711	estava
+A96	Class T20 State
+A97	Event_Type T20 State
+A98	Pos T20 Verb
+A100	Polarity T20 Pos
+T21	Event 715 725	hipotermia
+A101	Class T21 State
+A102	Event_Type T21 State
+A103	Pos T21 Noun
+A105	Polarity T21 Pos
+T22	Event 733 741	recusado
+A106	Class T22 Occurrence
+A107	Event_Type T22 Transition
+A108	Pos T22 Verb
+A109	VForm T22 Gerundive
+A110	Polarity T22 Pos
+T23	Event 744 754	transporte
+A111	Class T23 Occurrence
+A112	Event_Type T23 Process
+A113	Pos T23 Noun
+A115	Polarity T23 Pos
+T24	Event 826 832	esteve
+A116	Class T24 State
+A117	Event_Type T24 State
+A118	Pos T24 Verb
+A120	Polarity T24 Pos
+T25	Event 851 876	tomou conta da ocorrência
+A121	Class T25 Occurrence
+A122	Event_Type T25 Transition
+A123	Pos T25 Verb
+A125	Polarity T25 Pos
+A14	Tense T3 Past
+A126	Aspect T3 Perfective
+T26	Time 160 164	hoje
+A127	Time_Type T26 Date
+A128	TemporalFunction T26 Publication_Time
+#1	AnnotatorNotes T26	value=2020-11-30 
+T27	Time 30 41	30 nov 2020
+A129	Time_Type T27 Date
+A130	TemporalFunction T27 Publication_Time
+#2	AnnotatorNotes T27	value=2020-11-30
+R1	TLINK_identity Arg1:T26 Arg2:T27	
+A131	Tense T4 Past
+A132	Aspect T4 Perfective
+A24	Tense T6 Past
+A29	Aspect T6 Perfective
+A34	Tense T7 Past
+A39	Aspect T7 Perfective
+A133	Tense T10 Past
+A134	Aspect T10 Perfective
+A54	Tense T11 Past
+A135	Aspect T11 Imperfective
+A74	Tense T15 Past
+A136	Aspect T15 Perfective
+A84	Tense T18 Past
+A89	Aspect T18 Perfective
+T28	Time 660 665	17:15
+A137	Time_Type T28 Time
+#3	AnnotatorNotes T28	value=2020-11-30T17:15
+A94	Tense T19 Past
+A138	Aspect T19 Perfective
+A99	Tense T20 Past
+A139	Aspect T20 Imperfective
+A104	Tense T22 Past
+A140	Aspect T22 Perfective
+A114	Tense T24 Past
+A119	Aspect T24 Perfective
+A124	Tense T25 Past
+A141	Aspect T25 Perfective
+R2	TLINK_identity Arg1:T3 Arg2:T2	
+R3	TLINK_isIncluded Arg1:T3 Arg2:T26	
+R4	TLINK_before Arg1:T2 Arg2:T1	
+R5	TLINK_after Arg1:T4 Arg2:T3	
+R6	TLINK_includes Arg1:T5 Arg2:T4	
+R7	TLINK_after Arg1:T6 Arg2:T5	
+R8	TLINK_identity Arg1:T8 Arg2:T3	
+R9	TLINK_identity Arg1:T7 Arg2:T8	
+R10	TLINK_before Arg1:T8 Arg2:T6	
+R11	TLINK_includes Arg1:T9 Arg2:T7	
+R12	TLINK_isIncluded Arg1:T10 Arg2:T9	
+R13	TLINK_simultaneous Arg1:T10 Arg2:T7	
+R14	TLINK_includes Arg1:T11 Arg2:T10	
+R15	TLINK_after Arg1:T12 Arg2:T11	
+R16	TLINK_identity Arg1:T13 Arg2:T12	
+R17	TLINK_includes Arg1:T14 Arg2:T13	
+R18	TLINK_isIncluded Arg1:T15 Arg2:T14	
+R19	TLINK_after Arg1:T15 Arg2:T13	
+R20	TLINK_before Arg1:T16 Arg2:T15	
+R21	TLINK_simultaneous Arg1:T17 Arg2:T16	
+R22	TLINK_simultaneous Arg1:T18 Arg2:T17	
+R23	TLINK_isIncluded Arg1:T18 Arg2:T28	
+R24	TLINK_after Arg1:T19 Arg2:T18	
+R25	TLINK_before Arg1:T20 Arg2:T19	
+R26	TLINK_identity Arg1:T21 Arg2:T20	
+R27	TLINK_identity Arg1:T23 Arg2:T22	
+R28	TLINK_after Arg1:T22 Arg2:T19	
+R29	TLINK_isIncluded Arg1:T25 Arg2:T24	
+R30	TLINK_simultaneous Arg1:T24 Arg2:T22	
+R31	SLINK_evidential Arg1:T6 Arg2:T3	
+R32	SRLINK_theme Arg1:T6 Arg2:T3	
+R33	SLINK_evidential Arg1:T15 Arg2:T7	
+R34	SRLINK_theme Arg1:T15 Arg2:T7	
+T29	Participant 53 58	Homem
+A142	Lexical_Head T29 Noun
+A143	Individuation_Domain T29 Individual
+A144	Participant_Type_Domain T29 Per
+A145	Involvement T29 1
+T30	Participant 80 100	um poço de 25 metros
+A146	Lexical_Head T30 Noun
+A147	Individuation_Domain T30 Individual
+A148	Participant_Type_Domain T30 Obj
+A149	Involvement T30 1
+T31	Participant 104 124	Santa Maria da Feira
+A150	Lexical_Head T31 Noun
+A151	Individuation_Domain T31 Individual
+A152	Participant_Type_Domain T31 Loc
+A153	Involvement T31 1
+T32	Participant 125 154	Um homem com cerca de 60 anos
+A154	Lexical_Head T32 Noun
+A155	Individuation_Domain T32 Individual
+A156	Participant_Type_Domain T32 Per
+A157	Involvement T32 1
+R35	OLINK_objIdentity Arg1:T32 Arg2:T29	
+T33	Participant 166 212	um poço com cerca de 25 metros de profundidade
+A158	Lexical_Head T33 Noun
+A159	Individuation_Domain T33 Individual
+A160	Participant_Type_Domain T33 Obj
+A161	Involvement T33 1
+R36	OLINK_objIdentity Arg1:T33 Arg2:T30	
+T34	Participant 216 223	Romariz
+A162	Lexical_Head T34 Noun
+A163	Individuation_Domain T34 Individual
+A164	Participant_Type_Domain T34 Loc
+A165	Involvement T34 1
+T35	Participant 225 245	Santa Maria da Feira
+A166	Lexical_Head T35 Noun
+A167	Individuation_Domain T35 Individual
+A168	Participant_Type_Domain T35 Loc
+A169	Involvement T35 1
+R37	OLINK_partOf Arg1:T34 Arg2:T35	
+R38	OLINK_partOf Arg1:T33 Arg2:T34	
+R39	OLINK_objIdentity Arg1:T35 Arg2:T31	
+T36	Participant 299 303	Lusa
+A170	Lexical_Head T36 Noun
+A171	Individuation_Domain T36 Individual
+A172	Participant_Type_Domain T36 Org
+A173	Involvement T36 1
+T37	Participant 304 309	fonte
+A174	Lexical_Head T37 Noun
+A175	Individuation_Domain T37 Individual
+A176	Participant_Type_Domain T37 Per
+A177	Involvement T37 1
+T38	Participant 311 335	os Bombeiros de Arrifana
+A178	Lexical_Head T38 Noun
+A179	Individuation_Domain T38 Individual
+A180	Participant_Type_Domain T38 Org
+A181	Involvement T38 1
+R40	OLINK_partOf Arg1:T37 Arg2:T38	
+T39	Participant 372 379	a tampa
+A182	Lexical_Head T39 Noun
+A183	Individuation_Domain T39 Individual
+A184	Participant_Type_Domain T39 Obj
+A185	Involvement T39 1
+T40	Participant 381 387	o poço
+A186	Lexical_Head T40 Noun
+A187	Individuation_Domain T40 Individual
+A188	Participant_Type_Domain T40 Obj
+A189	Involvement T40 1
+R41	OLINK_partOf Arg1:T39 Arg2:T40	
+R42	OLINK_objIdentity Arg1:T40 Arg2:T33	
+T41	Participant 398 411	a propriedade
+A190	Lexical_Head T41 Noun
+A191	Individuation_Domain T41 Individual
+A192	Participant_Type_Domain T41 Other
+A193	Involvement T41 1
+T42	Participant 415 425	um vizinho
+A194	Lexical_Head T42 Noun
+A195	Individuation_Domain T42 Individual
+A196	Participant_Type_Domain T42 Per
+A197	Involvement T42 1
+T43	Participant 449 456	o homem
+A198	Lexical_Head T43 Noun
+A199	Individuation_Domain T43 Individual
+A200	Participant_Type_Domain T43 Per
+A201	Involvement T43 1
+R43	OLINK_partOf Arg1:T41 Arg2:T42	
+R44	OLINK_objIdentity Arg1:T43 Arg2:T32	
+T44	Participant 464 471	em cima
+A202	Lexical_Head T44 Noun
+A203	Individuation_Domain T44 Individual
+A204	Participant_Type_Domain T44 Obj
+A205	Involvement T44 1
+R45	OLINK_objIdentity Arg1:T44 Arg2:T39	
+T45	Participant 497 509	profundidade
+A206	Lexical_Head T45 Noun
+A207	Individuation_Domain T45 Individual
+A208	Participant_Type_Domain T45 Other
+A209	Involvement T45 1
+T46	Participant 521 527	a água
+A210	Lexical_Head T46 Noun
+A211	Individuation_Domain T46 Mass
+A212	Participant_Type_Domain T46 Nat
+A213	Involvement T46 Und
+T47	Participant 541 548	a fonte
+A214	Lexical_Head T47 Noun
+A215	Individuation_Domain T47 Individual
+A216	Participant_Type_Domain T47 Per
+A217	Involvement T47 1
+R46	OLINK_objIdentity Arg1:T47 Arg2:T37	
+T48	Participant 563 590	uma equipa de grande ângulo
+A218	Lexical_Head T48 Noun
+A219	Individuation_Domain T48 Set
+A220	Participant_Type_Domain T48 Per
+A221	Involvement T48 1
+T49	Participant 610 616	cordas
+A222	Lexical_Head T49 Noun
+A223	Individuation_Domain T49 Individual
+A224	Participant_Type_Domain T49 Obj
+A225	Involvement T49 >1
+T50	Participant 618 630	os bombeiros
+A226	Lexical_Head T50 Noun
+A227	Individuation_Domain T50 Individual
+A228	Participant_Type_Domain T50 Per
+A229	Involvement T50 >1
+T51	Participant 642 649	o homem
+A230	Lexical_Head T51 Noun
+A231	Individuation_Domain T51 Individual
+A232	Participant_Type_Domain T51 Per
+A233	Involvement T51 1
+T52	Participant 760 794	o hospital de Santa Maria da Feira
+A234	Lexical_Head T52 Noun
+A235	Individuation_Domain T52 Individual
+A236	Participant_Type_Domain T52 Loc
+A237	Involvement T52 1
+T53	Participant 796 801	A GNR
+A238	Lexical_Head T53 Noun
+A239	Individuation_Domain T53 Individual
+A240	Participant_Type_Domain T53 Org
+A241	Involvement T53 1
+T54	Participant 805 825	Santa Maria da Feira
+A242	Lexical_Head T54 Noun
+A243	Individuation_Domain T54 Individual
+A244	Participant_Type_Domain T54 Loc
+A245	Involvement T54 1
+T55	Participant 841 848	o local
+A246	Lexical_Head T55 Noun
+A247	Individuation_Domain T55 Individual
+A248	Participant_Type_Domain T55 Loc
+A249	Involvement T55 1
+R47	OLINK_partOf Arg1:T53 Arg2:T54	
+R48	OLINK_objIdentity Arg1:T54 Arg2:T35	
+R49	OLINK_objIdentity Arg1:T55 Arg2:T34	
+R50	SRLINK_patient Arg1:T1 Arg2:T29	
+R51	SRLINK_patient Arg1:T2 Arg2:T29	
+R52	SRLINK_location Arg1:T2 Arg2:T30	
+R53	SRLINK_patient Arg1:T3 Arg2:T32	
+R54	SRLINK_location Arg1:T3 Arg2:T33	
+R55	SRLINK_patient Arg1:T4 Arg2:T32	
+R56	SRLINK_pivot Arg1:T5 Arg2:T32	
+R57	SRLINK_agent Arg1:T6 Arg2:T37	
+R58	SRLINK_goal Arg1:T6 Arg2:T36	
+R59	SRLINK_theme Arg1:T7 Arg2:T8	
+R60	SRLINK_reason Arg1:T7 Arg2:T10	
+R61	SRLINK_theme Arg1:T10 Arg2:T39	
+R62	SRLINK_pivot Arg1:T9 Arg2:T40	
+R63	SRLINK_location Arg1:T9 Arg2:T41	
+R64	SRLINK_pivot Arg1:T11 Arg2:T43	
+R65	SRLINK_location Arg1:T11 Arg2:T44	
+R66	SRLINK_patient Arg1:T12 Arg2:T43	
+R67	SRLINK_theme Arg1:T12 Arg2:T13	
+R68	SRLINK_location Arg1:T13 Arg2:T45	
+R69	SRLINK_pivot Arg1:T14 Arg2:T45	
+R70	SRLINK_theme Arg1:T14 Arg2:T46	
+R71	SRLINK_agent Arg1:T15 Arg2:T47	
+R72	SRLINK_theme Arg1:T16 Arg2:T48	
+R73	SRLINK_agent Arg1:T16 Arg2:T50	
+R74	SRLINK_theme Arg1:T17 Arg2:T49	
+R75	SRLINK_agent Arg1:T18 Arg2:T50	
+R76	SRLINK_patient Arg1:T18 Arg2:T51	
+R77	SRLINK_patient Arg1:T19 Arg2:T51	
+R78	SRLINK_pivot Arg1:T20 Arg2:T51	
+R79	SRLINK_manner Arg1:T20 Arg2:T21	
+R80	SRLINK_agent Arg1:T22 Arg2:T51	
+R81	SRLINK_theme Arg1:T22 Arg2:T23	
+R82	SRLINK_finalLocation Arg1:T23 Arg2:T52	
+R83	SRLINK_pivot Arg1:T24 Arg2:T53	
+R84	SRLINK_location Arg1:T24 Arg2:T55	
+R85	SRLINK_agent Arg1:T25 Arg2:T53	

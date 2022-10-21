@@ -1,0 +1,451 @@
+T1	Event 128 137	apreendeu
+A1	Class T1 Occurrence
+A2	Event_Type T1 Transition
+A3	Pos T1 Verb
+A4	Tense T1 Past
+A5	Aspect T1 Perfective
+A6	Polarity T1 Pos
+T2	Event 247 256	avaliados
+A7	Class T2 State
+A8	Event_Type T2 State
+A9	Pos T2 Verb
+A11	Aspect T2 Perfective
+A12	VForm T2 Participle
+A13	Polarity T2 Pos
+T3	Event 273 281	informou
+A14	Class T3 Reporting
+A15	Event_Type T3 Transition
+A16	Pos T3 Verb
+A17	Tense T3 Past
+A18	Aspect T3 Perfective
+A19	Polarity T3 Pos
+T4	Time 8 19	30 out 2020
+A20	Time_Type T4 Date
+A21	TemporalFunction T4 Publication_Time
+#1	AnnotatorNotes T4	value=2020-10-30
+T5	Time 282 286	hoje
+A22	Time_Type T5 Date
+A23	TemporalFunction T5 Publication_Time
+#2	AnnotatorNotes T5	value=2020-10-30 anchorTime=Publication_Time
+T6	Event 312 322	comunicado
+A24	Class T6 Reporting
+A25	Event_Type T6 Transition
+A26	Pos T6 Noun
+A27	Polarity T6 Pos
+T7	Event 330 339	esclarece
+A28	Class T7 Reporting
+A29	Event_Type T7 Transition
+A30	Pos T7 Verb
+A31	Tense T7 Present
+A32	Aspect T7 Imperfective
+A33	Polarity T7 Pos
+T8	Event 362 373	apreendidos
+A34	Class T8 Occurrence
+A35	Event_Type T8 Transition
+A36	Pos T8 Verb
+A37	Tense T8 Past
+A38	Aspect T8 Perfective
+A39	Polarity T8 Pos
+T9	Time 377 389	quinta-feira
+A40	Time_Type T9 Date
+A41	TemporalFunction T9 None
+#3	AnnotatorNotes T9	value=2020-10-29 anchorTime=Publication_Time
+T10	Event 396 400	ação
+A42	Class T10 Occurrence
+A43	Event_Type T10 Process
+A44	Pos T10 Noun
+A45	Polarity T10 Pos
+T11	Event 404 425	patrulhamento fluvial
+A46	Class T11 Occurrence
+A47	Event_Type T11 Process
+A48	Pos T11 Noun
+A49	Polarity T11 Pos
+T12	Event 426 439	levada a cabo
+A50	Class T12 Occurrence
+A51	Event_Type T12 Process
+A52	Pos T12 Verb
+A53	Tense T12 Past
+A54	Aspect T12 Perfective
+A55	Polarity T12 Pos
+T13	Event 458 467	controlar
+A56	Class T13 Occurrence
+A57	Event_Type T13 Process
+A58	Pos T13 Verb
+A59	VForm T13 Infinitive
+A60	Polarity T13 Pos
+T14	Event 481 488	captura
+A61	Class T14 Occurrence
+A62	Event_Type T14 Transition
+A63	Pos T14 Noun
+A64	Polarity T14 Pos
+T15	Event 502 520	segurança marítima
+A65	Class T15 Occurrence
+A66	Event_Type T15 Process
+A67	Pos T15 Noun
+A68	Polarity T15 Pos
+T16	Event 535 539	ação
+A69	Class T16 Occurrence
+A70	Event_Type T16 Process
+A71	Pos T16 Noun
+A72	Polarity T16 Pos
+T17	Event 564 573	detetaram
+A73	Class T17 Perception
+A74	Event_Type T17 Transition
+A75	Pos T17 Verb
+A76	Tense T17 Past
+A77	Aspect T17 Perfective
+A78	Polarity T17 Pos
+T18	Event 596 604	contendo
+A79	Class T18 State
+A80	Event_Type T18 State
+A81	Pos T18 Verb
+A82	Tense T18 Present
+A83	Aspect T18 Progressive
+A84	VForm T18 Gerundive
+A85	Polarity T18 Pos
+T19	Event 672 688	vias de extinção
+A86	Class T19 State
+A87	Event_Type T19 State
+A88	Pos T19 Noun
+A89	Polarity T19 Pos
+T20	Event 709 720	certificado
+A90	Event_Type T20 Transition
+A91	Pos T20 Noun
+A92	Polarity T20 Pos
+T21	Event 848 855	deteção
+A93	Class T21 Occurrence
+A94	Event_Type T21 Transition
+A95	Pos T21 Noun
+A96	Polarity T21 Pos
+T22	Event 863 873	instalação
+A97	Class T22 Occurrence
+A98	Event_Type T22 Transition
+A99	Pos T22 Noun
+A100	Polarity T22 Pos
+T23	Event 930 943	licenciamento
+A101	Event_Type T23 State
+A102	Pos T23 Noun
+A103	Polarity T23 Neg
+T24	Event 951 960	apreensão
+A104	Class T24 Occurrence
+A105	Event_Type T24 Transition
+A106	Pos T24 Noun
+A107	Polarity T24 Pos
+T25	Event 990 996	aberto
+A108	Class T25 Occurrence
+A109	Event_Type T25 Transition
+A110	Pos T25 Verb
+A111	Tense T25 Past
+A112	Aspect T25 Perfective
+A113	Polarity T25 Pos
+T26	Event 1000 1027	processo contraordenacional
+A114	Class T26 Occurrence
+A115	Event_Type T26 Process
+A116	Pos T26 Noun
+A117	Polarity T26 Pos
+T27	Event 1033 1043	apuramento
+A118	Class T27 I_Action
+A119	Event_Type T27 Transition
+A120	Pos T27 Noun
+A121	Polarity T27 Pos
+T28	Event 1047 1064	responsabilidades
+A122	Event_Type T28 State
+A123	Pos T28 Noun
+A124	Polarity T28 Pos
+T29	Event 1071 1080	infrações
+A125	Class T29 Occurrence
+A126	Event_Type T29 Transition
+A127	Pos T29 Noun
+A128	Polarity T29 Pos
+T30	Event 1097 1105	puníveis
+A129	Class T30 Occurrence
+A130	Event_Type T30 Transition
+A131	Pos T30 Verb
+A132	Tense T30 Future
+A133	Mood T30 Future
+A134	Modality T30 Poder
+A135	Polarity T30 Pos
+T31	Event 1160 1164	nota
+A136	Class T31 Reporting
+A137	Event_Type T31 State
+A138	Pos T31 Noun
+A139	Polarity T31 Pos
+T32	Event 1145 1151	refere
+A140	Class T32 Reporting
+A141	Event_Type T32 Transition
+A142	Pos T32 Verb
+A143	Tense T32 Present
+A144	Aspect T32 Imperfective
+A145	Polarity T32 Pos
+T33	Event 1223 1228	vivos
+A146	Class T33 State
+A147	Event_Type T33 State
+A148	Pos T33 Verb
+A149	Tense T33 Present
+A150	Aspect T33 Imperfective
+A151	VForm T33 Infinitive
+A152	Polarity T33 Pos
+T34	Event 1236 1246	devolvidos
+A153	Class T34 Occurrence
+A154	Event_Type T34 Transition
+A155	Pos T34 Verb
+A156	Tense T34 Past
+A157	Aspect T34 Perfective
+A158	Polarity T34 Pos
+R1	TLINK_after Arg1:T2 Arg2:T1	
+R2	TLINK_after Arg1:T3 Arg2:T2	
+R3	TLINK_isIncluded Arg1:T3 Arg2:T5	
+R4	TLINK_includes Arg1:T6 Arg2:T3	
+R5	TLINK_isIncluded Arg1:T7 Arg2:T6	
+R6	TLINK_before Arg1:T8 Arg2:T7	
+R7	TLINK_isIncluded Arg1:T8 Arg2:T9	
+R8	TLINK_during Arg1:T8 Arg2:T10	
+R9	TLINK_identity Arg1:T11 Arg2:T10	
+R10	TLINK_identity Arg1:T12 Arg2:T11	
+T35	Event 446 454	objetivo
+A159	Class T35 State
+A160	Event_Type T35 State
+A161	Pos T35 Noun
+A162	Polarity T35 Pos
+R11	TLINK_isIncluded Arg1:T35 Arg2:T12	
+R12	TLINK_includes Arg1:T14 Arg2:T13	
+R13	TLINK_simultaneous Arg1:T15 Arg2:T14	
+R14	TLINK_simultaneous Arg1:T13 Arg2:T35	
+R15	TLINK_identity Arg1:T16 Arg2:T10	
+R16	TLINK_during Arg1:T17 Arg2:T16	
+R17	TLINK_includes Arg1:T18 Arg2:T17	
+R18	TLINK_includes Arg1:T19 Arg2:T18	
+T36	Event 693 702	necessita
+A163	Class T36 I_State
+A164	Event_Type T36 State
+A165	Pos T36 Verb
+A166	Tense T36 Present
+A167	Aspect T36 Imperfective
+A168	Polarity T36 Pos
+R19	TLINK_simultaneous Arg1:T36 Arg2:T19	
+R20	TLINK_identity Arg1:T20 Arg2:T36	
+R21	SLINK_intensional Arg1:T36 Arg2:T20	
+R22	TLINK_after Arg1:T21 Arg2:T20	
+R23	TLINK_simultaneous Arg1:T23 Arg2:T22	
+R24	TLINK_after Arg1:T24 Arg2:T22	
+R25	TLINK_before Arg1:T22 Arg2:T18	
+R26	TLINK_after Arg1:T25 Arg2:T24	
+R27	TLINK_identity Arg1:T26 Arg2:T25	
+R28	TLINK_isIncluded Arg1:T27 Arg2:T26	
+R29	TLINK_identity Arg1:T28 Arg2:T27	
+R30	TLINK_after Arg1:T30 Arg2:T29	
+R31	TLINK_isIncluded Arg1:T32 Arg2:T30	
+R32	TLINK_includes Arg1:T31 Arg2:T32	
+R33	TLINK_isIncluded Arg1:T34 Arg2:T33	
+R34	TLINK_before Arg1:T33 Arg2:T31	
+R35	TLINK_before Arg1:T29 Arg2:T28	
+T37	Participant 84 120	A Unidade de Controlo Costeiro (UCC)
+A169	Lexical_Head T37 Noun
+A170	Individuation_Domain T37 Individual
+A171	Participant_Type_Domain T37 Org
+A172	Involvement T37 1
+T38	Participant 124 127	GNR
+A173	Lexical_Head T38 Noun
+A174	Individuation_Domain T38 Individual
+A175	Participant_Type_Domain T38 Org
+A176	Involvement T38 1
+R36	OLINK_partOf Arg1:T37 Arg2:T38	
+T39	Participant 141 154	ria de Aveiro
+A177	Lexical_Head T39 Noun
+A178	Individuation_Domain T39 Individual
+A179	Participant_Type_Domain T39 Loc
+A180	Involvement T39 1
+T40	Participant 155 176	nove viveiros ilegais
+A181	Lexical_Head T40 Noun
+A182	Individuation_Domain T40 Individual
+A183	Participant_Type_Domain T40 Nat
+A184	Involvement T40 >1
+T41	Participant 190 214	205 quilos de crustáceos
+A185	Lexical_Head T41 Noun
+A186	Individuation_Domain T41 Individual
+A187	Participant_Type_Domain T41 Nat
+A188	Involvement T41 >1
+T42	Participant 217 245	20 quilos de enguia-europeia
+A189	Lexical_Head T42 Noun
+A190	Individuation_Domain T42 Individual
+A191	Participant_Type_Domain T42 Nat
+A192	Involvement T42 >1
+T43	Participant 260 271	2.765 euros
+A193	Lexical_Head T43 Noun
+A194	Individuation_Domain T43 Individual
+A195	Participant_Type_Domain T43 Obj
+A196	Involvement T43 >1
+T44	Participant 287 307	aquela força militar
+A197	Lexical_Head T44 Noun
+A198	Individuation_Domain T44 Individual
+A199	Participant_Type_Domain T44 Org
+A200	Involvement T44 1
+R37	OLINK_partOf Arg1:T41 Arg2:T40	
+R38	OLINK_partOf Arg1:T42 Arg2:T40	
+R39	OLINK_objIdentity Arg1:T44 Arg2:T38	
+T45	Participant 324 329	a GNR
+A201	Lexical_Head T45 Noun
+A202	Individuation_Domain T45 Individual
+A203	Participant_Type_Domain T45 Org
+A204	Involvement T45 1
+T46	Participant 344 355	os viveiros
+A205	Lexical_Head T46 Noun
+A206	Individuation_Domain T46 Individual
+A207	Participant_Type_Domain T46 Nat
+A208	Involvement T46 >1
+R40	OLINK_objIdentity Arg1:T46 Arg2:T40	
+R41	OLINK_objIdentity Arg1:T45 Arg2:T44	
+T47	Participant 468 477	as regras
+A209	Lexical_Head T47 Noun
+A210	Individuation_Domain T47 Individual
+A211	Participant_Type_Domain T47 Other
+A212	Involvement T47 >1
+T48	Participant 492 499	pescado
+A213	Lexical_Head T48 Noun
+A214	Individuation_Domain T48 Mass
+A215	Participant_Type_Domain T48 Nat
+A216	Involvement T48 Und
+T49	Participant 541 553	os militares
+A217	Lexical_Head T49 Noun
+A218	Individuation_Domain T49 Individual
+A219	Participant_Type_Domain T49 Per
+A220	Involvement T49 >1
+T50	Participant 557 563	Guarda
+A221	Lexical_Head T50 Noun
+A222	Individuation_Domain T50 Individual
+A223	Participant_Type_Domain T50 Org
+A224	Involvement T50 1
+R42	OLINK_partOf Arg1:T49 Arg2:T50	
+R43	OLINK_objIdentity Arg1:T50 Arg2:T45	
+T51	Participant 574 595	nove viveiros ilegais
+A225	Lexical_Head T51 Noun
+A226	Individuation_Domain T51 Individual
+A227	Participant_Type_Domain T51 Nat
+A228	Involvement T51 >1
+R44	OLINK_objIdentity Arg1:T51 Arg2:T46	
+T52	Participant 605 624	diversos crustáceos
+A229	Lexical_Head T52 Noun
+A230	Individuation_Domain T52 Set
+A231	Participant_Type_Domain T52 Nat
+A232	Involvement T52 >1
+T53	Participant 627 655	20 quilos de enguia-europeia
+A233	Lexical_Head T53 Noun
+A234	Individuation_Domain T53 Individual
+A235	Participant_Type_Domain T53 Nat
+A236	Involvement T53 >1
+T54	Participant 657 668	uma espécie
+A237	Lexical_Head T54 Noun
+A238	Individuation_Domain T54 Set
+A239	Participant_Type_Domain T54 Nat
+A240	Involvement T54 1
+R45	OLINK_objIdentity Arg1:T54 Arg2:T53	
+T55	Participant 689 692	que
+A241	Lexical_Head T55 Pronoun
+A242	Individuation_Domain T55 Set
+A243	Participant_Type_Domain T55 Nat
+A244	Involvement T55 1
+R46	OLINK_objIdentity Arg1:T55 Arg2:T54	
+T56	Participant 724 838	Convenção sobre o Comércio Internacional das Espécies da Fauna e da Flora Silvestres Ameaçadas de Extinção (CITES)
+A245	Lexical_Head T56 Noun
+A246	Individuation_Domain T56 Individual
+A247	Participant_Type_Domain T56 Org
+A248	Involvement T56 1
+T57	Participant 844 847	sua
+A249	Lexical_Head T57 Pronoun
+A250	Individuation_Domain T57 Set
+A251	Participant_Type_Domain T57 Nat
+A252	Involvement T57 1
+R47	OLINK_objIdentity Arg1:T57 Arg2:T55	
+T58	Participant 880 896	tipo de culturas
+A253	Lexical_Head T58 Noun
+A254	Individuation_Domain T58 Individual
+A255	Participant_Type_Domain T58 Nat
+A256	Involvement T58 1
+T59	Participant 900 916	águas interiores
+A257	Lexical_Head T59 Noun
+A258	Individuation_Domain T59 Individual
+A259	Participant_Type_Domain T59 Nat
+A260	Involvement T59 >1
+T60	Participant 965 984	respetivos viveiros
+A261	Lexical_Head T60 Noun
+A262	Individuation_Domain T60 Individual
+A263	Participant_Type_Domain T60 Nat
+A264	Involvement T60 >1
+R48	OLINK_objIdentity Arg1:T60 Arg2:T51	
+T61	Participant 1110 1142	uma coima máxima de 60 mil euros
+A265	Lexical_Head T61 Noun
+A266	Individuation_Domain T61 Individual
+A267	Participant_Type_Domain T61 Other
+A268	Involvement T61 1
+T62	Participant 1166 1179	Os crustáceos
+A269	Lexical_Head T62 Noun
+A270	Individuation_Domain T62 Set
+A271	Participant_Type_Domain T62 Nat
+A272	Involvement T62 >1
+T63	Participant 1182 1202	as enguias-europeias
+A273	Lexical_Head T63 Noun
+A274	Individuation_Domain T63 Individual
+A275	Participant_Type_Domain T63 Nat
+A276	Involvement T63 >1
+T64	Participant 1250 1262	meio natural
+A277	Lexical_Head T64 Noun
+A278	Individuation_Domain T64 Individual
+A279	Participant_Type_Domain T64 Nat
+A280	Involvement T64 1
+R49	OLINK_objIdentity Arg1:T62 Arg2:T52	
+R50	OLINK_objIdentity Arg1:T63 Arg2:T53	
+R51	SRLINK_agent Arg1:T1 Arg2:T37	
+R52	SRLINK_location Arg1:T1 Arg2:T39	
+R53	SRLINK_theme Arg1:T1 Arg2:T40	
+R54	SRLINK_pivot Arg1:T2 Arg2:T42	
+R55	SRLINK_pivot Arg1:T2 Arg2:T41	
+R56	SRLINK_theme Arg1:T2 Arg2:T43	
+R57	SRLINK_agent Arg1:T3 Arg2:T44	
+R58	SLINK_evidential Arg1:T3 Arg2:T1	
+R59	SRLINK_theme Arg1:T3 Arg2:T1	
+R60	SRLINK_agent Arg1:T7 Arg2:T45	
+R61	SRLINK_medium Arg1:T7 Arg2:T6	
+R62	SLINK_evidential Arg1:T7 Arg2:T8	
+R63	SRLINK_theme Arg1:T7 Arg2:T8	
+R64	SRLINK_patient Arg1:T8 Arg2:T46	
+R65	SRLINK_setting Arg1:T8 Arg2:T10	
+R66	SRLINK_theme Arg1:T10 Arg2:T11	
+R67	SRLINK_patient Arg1:T12 Arg2:T10	
+R68	SRLINK_purpose Arg1:T12 Arg2:T13	
+R70	SRLINK_theme Arg1:T13 Arg2:T47	
+R71	SRLINK_theme Arg1:T14 Arg2:T47	
+R72	SRLINK_theme Arg1:T14 Arg2:T48	
+R69	SRLINK_purpose Arg1:T12 Arg2:T35	
+R73	SRLINK_theme Arg1:T15 Arg2:T47	
+R74	SRLINK_agent Arg1:T17 Arg2:T49	
+R75	SRLINK_setting Arg1:T17 Arg2:T16	
+R76	SRLINK_patient Arg1:T17 Arg2:T51	
+R77	SRLINK_pivot Arg1:T18 Arg2:T51	
+R78	SRLINK_theme Arg1:T18 Arg2:T52	
+R79	SRLINK_theme Arg1:T18 Arg2:T53	
+R80	SRLINK_pivot Arg1:T19 Arg2:T54	
+R81	SRLINK_pivot Arg1:T36 Arg2:T55	
+R82	SRLINK_theme Arg1:T36 Arg2:T20	
+R83	SRLINK_source Arg1:T20 Arg2:T56	
+R84	SRLINK_purpose Arg1:T20 Arg2:T21	
+R85	SRLINK_patient Arg1:T21 Arg2:T57	
+R86	SRLINK_theme Arg1:T22 Arg2:T58	
+R87	SRLINK_location Arg1:T22 Arg2:T59	
+R88	SRLINK_manner Arg1:T22 Arg2:T23	
+R89	SRLINK_patient Arg1:T24 Arg2:T60	
+R90	SRLINK_reason Arg1:T25 Arg2:T22	
+R91	SRLINK_reason Arg1:T25 Arg2:T24	
+R92	SRLINK_result Arg1:T25 Arg2:T26	
+R93	SRLINK_purpose Arg1:T26 Arg2:T27	
+R94	SRLINK_theme Arg1:T27 Arg2:T28	
+R95	SRLINK_theme Arg1:T28 Arg2:T29	
+R96	SRLINK_theme Arg1:T30 Arg2:T29	
+R97	SRLINK_manner Arg1:T30 Arg2:T61	
+R98	SRLINK_source Arg1:T32 Arg2:T31	
+R99	SLINK_evidential Arg1:T32 Arg2:T25	
+R100	SRLINK_theme Arg1:T32 Arg2:T25	
+R101	SRLINK_pivot Arg1:T33 Arg2:T63	
+R102	SRLINK_pivot Arg1:T33 Arg2:T62	
+R103	SRLINK_patient Arg1:T34 Arg2:T63	
+R104	SRLINK_patient Arg1:T34 Arg2:T62	
+R105	SRLINK_finalLocation Arg1:T34 Arg2:T64	

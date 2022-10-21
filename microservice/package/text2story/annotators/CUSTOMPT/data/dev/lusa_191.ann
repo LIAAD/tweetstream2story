@@ -1,0 +1,233 @@
+T1	Time 25 36	05 dez 2020
+A1	Time_Type T1 Date
+A2	TemporalFunction T1 Publication_Time
+#1	AnnotatorNotes T1	value=2020-12-05.
+T2	Event 53 70	gravemente ferido
+A3	Class T2 State
+A4	Event_Type T2 State
+A5	Pos T2 Verb
+A6	Tense T2 Past
+A7	Aspect T2 Perfective
+A8	Polarity T2 Pos
+T3	Event 90 102	eletrocutado
+A9	Class T3 Occurrence
+A10	Event_Type T3 Transition
+A11	Pos T3 Verb
+A12	Tense T3 Past
+A13	Aspect T3 Perfective
+A14	Polarity T3 Pos
+T4	Time 140 152	hoje à tarde
+A15	Time_Type T4 Time
+A16	TemporalFunction T4 Publication_Time
+#2	AnnotatorNotes T4	value=2020-12-05TAf
+T6	Event 153 170	gravemente ferido
+A23	Class T6 State
+A24	Event_Type T6 State
+A25	Pos T6 Verb
+A26	Tense T6 Past
+A27	Aspect T6 Perfective
+A28	Polarity T6 Pos
+T7	Event 190 202	eletrocutado
+A29	Class T7 Occurrence
+A30	Event_Type T7 Transition
+A31	Pos T7 Verb
+A32	Tense T7 Past
+A33	Aspect T7 Perfective
+A34	VForm T7 Participle
+A35	Polarity T7 Pos
+A36	VForm T3 Participle
+T8	Event 247 252	disse
+A37	Class T8 Reporting
+A38	Event_Type T8 Transition
+A39	Pos T8 Verb
+A40	Tense T8 Past
+A41	Aspect T8 Perfective
+A42	Polarity T8 Pos
+T9	Event 345 351	alerta
+A43	Class T9 Occurrence
+A44	Event_Type T9 Transition
+A45	Pos T9 Noun
+A46	Polarity T9 Pos
+T10	Event 356 360	dado
+A47	Class T10 Occurrence
+A48	Event_Type T10 Transition
+A49	Pos T10 Verb
+A50	Tense T10 Past
+A51	Aspect T10 Perfective
+A52	Polarity T10 Pos
+T11	Time 364 369	16:18
+A53	Time_Type T11 Time
+#3	AnnotatorNotes T11	value=2020-12-05T16:18
+T13	Event 391 403	transportada
+A59	Class T13 Occurrence
+A60	Event_Type T13 Transition
+A61	Pos T13 Verb
+A62	Tense T13 Past
+A63	Aspect T13 Perfective
+A64	VForm T13 Participle
+A65	Polarity T13 Pos
+T5	Event 480 489	indicação
+A17	Class T5 Occurrence
+A18	Event_Type T5 Transition
+A19	Pos T5 Noun
+A20	Polarity T5 Pos
+T12	Event 507 519	eletrocussão
+A21	Class T12 Occurrence
+A22	Event_Type T12 Transition
+A54	Pos T12 Noun
+A55	Polarity T12 Pos
+T14	Event 520 529	aconteceu
+A56	Class T14 Occurrence
+A57	Event_Type T14 Transition
+A58	Pos T14 Verb
+A66	Tense T14 Past
+A67	Aspect T14 Perfective
+A68	Polarity T14 Pos
+T15	Event 556 567	acrescentou
+A69	Class T15 Reporting
+A70	Event_Type T15 Transition
+A71	Pos T15 Verb
+A72	Tense T15 Past
+A73	Aspect T15 Perfective
+A74	Polarity T15 Pos
+T16	Event 569 582	Deslocaram-se
+A75	Class T16 Occurrence
+A76	Event_Type T16 Transition
+A77	Pos T16 Verb
+A78	Tense T16 Past
+A79	Aspect T16 Perfective
+A80	Polarity T16 Pos
+R1	TLINK_isIncluded Arg1:T4 Arg2:T1	
+R2	TLINK_isIncluded Arg1:T11 Arg2:T4	
+R3	TLINK_before Arg1:T3 Arg2:T2	
+R4	TLINK_isIncluded Arg1:T6 Arg2:T4	
+R5	TLINK_after Arg1:T6 Arg2:T3	
+R6	TLINK_before Arg1:T7 Arg2:T6	
+R7	TLINK_after Arg1:T8 Arg2:T7	
+R8	TLINK_before Arg1:T9 Arg2:T8	
+R9	TLINK_identity Arg1:T10 Arg2:T9	
+R10	TLINK_isIncluded Arg1:T10 Arg2:T11	
+R11	TLINK_after Arg1:T13 Arg2:T10	
+R12	TLINK_after Arg1:T5 Arg2:T13	
+R13	TLINK_before Arg1:T12 Arg2:T5	
+R14	TLINK_identity Arg1:T14 Arg2:T12	
+R15	TLINK_after Arg1:T15 Arg2:T14	
+R16	TLINK_before Arg1:T16 Arg2:T15	
+R17	SRLINK_theme Arg1:T8 Arg2:T6	
+R18	SLINK_evidential Arg1:T8 Arg2:T6	
+R19	SRLINK_theme Arg1:T15 Arg2:T14	
+R20	SLINK_evidential Arg1:T15 Arg2:T14	
+T17	Participant 47 52	Homem
+A81	Lexical_Head T17 Noun
+A82	Individuation_Domain T17 Individual
+A83	Participant_Type_Domain T17 Per
+A84	Involvement T17 1
+T18	Participant 103 113	em Oleiros
+A85	Lexical_Head T18 Noun
+A86	Individuation_Domain T18 Individual
+A87	Participant_Type_Domain T18 Loc
+A88	Involvement T18 1
+T19	Participant 114 133	Um homem de 66 anos
+A89	Lexical_Head T19 Noun
+A90	Individuation_Domain T19 Individual
+A91	Participant_Type_Domain T19 Per
+A92	Involvement T19 1
+T20	Participant 204 214	em Oleiros
+A93	Lexical_Head T20 Noun
+A94	Individuation_Domain T20 Individual
+A95	Participant_Type_Domain T20 Loc
+A96	Involvement T20 1
+T21	Participant 216 245	no distrito de Castelo Branco
+A97	Lexical_Head T21 Noun
+A98	Individuation_Domain T21 Individual
+A99	Participant_Type_Domain T21 Loc
+A100	Involvement T21 1
+T22	Participant 253 267	à agência Lusa
+A101	Lexical_Head T22 Noun
+A102	Individuation_Domain T22 Individual
+A103	Participant_Type_Domain T22 Org
+A104	Involvement T22 1
+T23	Participant 268 273	fonte
+A105	Lexical_Head T23 Noun
+A106	Individuation_Domain T23 Individual
+A107	Participant_Type_Domain T23 Per
+A108	Involvement T23 1
+T24	Participant 275 318	o Comando Distrital de Operações de Socorro
+A109	Lexical_Head T24 Noun
+A110	Individuation_Domain T24 Individual
+A111	Participant_Type_Domain T24 Org
+A112	Involvement T24 1
+T25	Participant 328 341	a mesma fonte
+A113	Lexical_Head T25 Noun
+A114	Individuation_Domain T25 Individual
+A115	Participant_Type_Domain T25 Per
+A116	Involvement T25 1
+T26	Participant 377 385	a vítima
+A117	Lexical_Head T26 Noun
+A118	Individuation_Domain T26 Individual
+A119	Participant_Type_Domain T26 Per
+A120	Involvement T26 1
+T27	Participant 421 467	o Centro Hospitalar e Universitário de Coimbra
+A121	Lexical_Head T27 Noun
+A122	Individuation_Domain T27 Individual
+A123	Participant_Type_Domain T27 Loc
+A124	Involvement T27 1
+T28	Participant 491 503	os bombeiros
+A125	Lexical_Head T28 Noun
+A126	Individuation_Domain T28 Individual
+A127	Participant_Type_Domain T28 Org
+A128	Involvement T28 1
+T29	Participant 530 536	dentro
+A129	Lexical_Head T29 Noun
+A130	Individuation_Domain T29 Individual
+A131	Participant_Type_Domain T29 Loc
+A132	Involvement T29 1
+T30	Participant 540 553	uma habitação
+A133	Lexical_Head T30 Noun
+A134	Individuation_Domain T30 Individual
+A135	Participant_Type_Domain T30 Loc
+A136	Involvement T30 1
+R21	OLINK_partOf Arg1:T29 Arg2:T30	
+T31	Participant 583 591	ao local
+A137	Lexical_Head T31 Noun
+A138	Individuation_Domain T31 Individual
+A139	Participant_Type_Domain T31 Loc
+A140	Involvement T31 1
+T32	Participant 592 611	quatro operacionais
+A141	Lexical_Head T32 Noun
+A142	Individuation_Domain T32 Individual
+A143	Participant_Type_Domain T32 Per
+A144	Involvement T32 >1
+T33	Participant 614 627	duas viaturas
+A145	Lexical_Head T33 Noun
+A146	Individuation_Domain T33 Individual
+A147	Participant_Type_Domain T33 Obj
+A148	Involvement T33 >1
+R22	OLINK_subSet Arg1:T32 Arg2:T28	
+R23	OLINK_partOf Arg1:T33 Arg2:T28	
+R24	OLINK_objIdentity Arg1:T19 Arg2:T17	
+R25	OLINK_objIdentity Arg1:T20 Arg2:T18	
+R26	OLINK_partOf Arg1:T20 Arg2:T21	
+R27	OLINK_partOf Arg1:T23 Arg2:T24	
+R28	OLINK_objIdentity Arg1:T25 Arg2:T23	
+R29	OLINK_objIdentity Arg1:T26 Arg2:T19	
+R30	OLINK_objIdentity Arg1:T31 Arg2:T20	
+R31	SRLINK_pivot Arg1:T2 Arg2:T17	
+R32	SRLINK_patient Arg1:T3 Arg2:T17	
+R33	SRLINK_location Arg1:T3 Arg2:T18	
+R34	SRLINK_pivot Arg1:T6 Arg2:T19	
+R35	SRLINK_patient Arg1:T7 Arg2:T19	
+R36	SRLINK_reason Arg1:T6 Arg2:T7	
+R37	SRLINK_location Arg1:T7 Arg2:T20	
+R38	SRLINK_goal Arg1:T8 Arg2:T22	
+R39	SRLINK_agent Arg1:T8 Arg2:T23	
+R40	SRLINK_theme Arg1:T10 Arg2:T9	
+R41	SRLINK_patient Arg1:T13 Arg2:T26	
+R42	SRLINK_finalLocation Arg1:T13 Arg2:T27	
+R43	SRLINK_agent Arg1:T5 Arg2:T28	
+R44	SRLINK_theme Arg1:T14 Arg2:T12	
+R45	SRLINK_location Arg1:T14 Arg2:T29	
+R46	SRLINK_agent Arg1:T15 Arg2:T25	
+R47	SRLINK_finalLocation Arg1:T16 Arg2:T31	
+R48	SRLINK_agent Arg1:T16 Arg2:T32	
+R49	SRLINK_patient Arg1:T16 Arg2:T33	

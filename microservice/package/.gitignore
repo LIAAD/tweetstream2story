@@ -1,0 +1,6 @@
+__pycache__/
+
+# Test files for ann -> drs automation pipeline
+core/main_test.py
+drs_files/
+test_files/

@@ -1,0 +1,400 @@
+T1	Time 8 19	03 nov 2020
+A1	Time_Type T1 Date
+A2	TemporalFunction T1 Publication_Time
+#1	AnnotatorNotes T1	value=2020-11-03
+T2	Event 97 104	invadiu
+A3	Class T2 Occurrence
+A4	Event_Type T2 Transition
+A5	Pos T2 Verb
+A6	Tense T2 Past
+A7	Aspect T2 Perfective
+A8	Polarity T2 Pos
+T3	Time 175 190	a tarde de hoje
+A9	Time_Type T3 Time
+A10	TemporalFunction T3 Publication_Time
+#2	AnnotatorNotes T3	value=2020-11-03TAf anchorTime=Publication_Time
+T4	Event 192 197	disse
+A11	Class T4 Reporting
+A12	Event_Type T4 Transition
+A13	Pos T4 Verb
+A14	Tense T4 Past
+A15	Aspect T4 Perfective
+A16	Polarity T4 Pos
+T5	Event 308 314	entrou
+A17	Class T5 Occurrence
+A18	Event_Type T5 Transition
+A19	Pos T5 Verb
+A20	Tense T5 Past
+A21	Aspect T5 Perfective
+A22	Polarity T5 Pos
+T6	Event 403 412	incidente
+A23	Class T6 Occurrence
+A24	Event_Type T6 Transition
+A25	Pos T6 Noun
+A26	Polarity T6 Pos
+T7	Event 413 420	ocorreu
+A27	Class T7 Occurrence
+A28	Event_Type T7 Transition
+A29	Pos T7 Verb
+A30	Tense T7 Past
+A31	Aspect T7 Perfective
+A32	Polarity T7 Pos
+T8	Time 427 432	15:00
+A33	Time_Type T8 Time
+A34	TemporalFunction T8 Publication_Time
+#3	AnnotatorNotes T8	value=2020-11-03T15:00 anchorTime=Publication_Time
+T9	Event 445 466	acabou por ser detido
+A35	Class T9 Occurrence
+A36	Event_Type T9 Transition
+A37	Pos T9 Verb
+A38	Tense T9 Past
+A39	Aspect T9 Perfective
+A40	VForm T9 Infinitive
+A41	Polarity T9 Pos
+T10	Event 478 486	explicou
+A42	Class T10 Reporting
+A43	Event_Type T10 Transition
+A44	Pos T10 Verb
+A45	Tense T10 Past
+A46	Aspect T10 Perfective
+A47	Polarity T10 Pos
+T11	Event 493 501	detenção
+A48	Class T11 Occurrence
+A49	Event_Type T11 Transition
+A50	Pos T11 Noun
+A51	Polarity T11 Pos
+T12	Event 502 530	poderá não estar relacionada
+A52	Class T12 State
+A53	Event_Type T12 State
+A54	Pos T12 Verb
+A55	Tense T12 Present
+A56	Aspect T12 Progressive
+A57	VForm T12 Infinitive
+A58	Mood T12 Future
+A59	Modality T12 Poder
+A60	Polarity T12 Neg
+T13	Event 540 548	infração
+A61	Class T13 Occurrence
+A62	Event_Type T13 Transition
+A63	Pos T13 Noun
+A64	Polarity T13 Pos
+T14	Event 550 562	sem adiantar
+A65	Class T14 Reporting
+A66	Event_Type T14 Transition
+A67	Pos T14 Verb
+A68	VForm T14 Infinitive
+A69	Polarity T14 Neg
+T15	Event 595 603	avançada
+A70	Class T15 Reporting
+A71	Event_Type T15 Transition
+A72	Pos T15 Verb
+A73	Tense T15 Past
+A74	Aspect T15 Perfective
+A75	Polarity T15 Pos
+T16	Event 631 639	dá conta
+A76	Class T16 Reporting
+A77	Event_Type T16 Transition
+A78	Pos T16 Verb
+A79	Tense T16 Present
+A80	Aspect T16 Imperfective
+A81	Polarity T16 Pos
+T17	Event 655 661	entrou
+A82	Class T17 Occurrence
+A83	Event_Type T17 Transition
+A84	Pos T17 Verb
+A85	Tense T17 Past
+A86	Aspect T17 Perfective
+A87	Polarity T17 Pos
+T18	Event 707 712	disse
+A88	Class T18 Reporting
+A89	Event_Type T18 Transition
+A90	Pos T18 Verb
+A91	Tense T18 Past
+A92	Aspect T18 Perfective
+A93	Polarity T18 Pos
+T19	Event 717 729	não dispunha
+A94	Class T19 State
+A95	Event_Type T19 State
+A96	Pos T19 Verb
+A97	Tense T19 Past
+A98	Aspect T19 Imperfective
+A99	Polarity T19 Neg
+T20	Event 749 761	confirmassem
+A100	Class T20 Reporting
+A101	Event_Type T20 Transition
+A102	Pos T20 Verb
+A103	Tense T20 Past
+A104	Mood T20 Subjunctive
+A105	Polarity T20 Pos
+T21	Event 771 777	chegou
+A106	Class T21 Occurrence
+A107	Event_Type T21 Transition
+A108	Pos T21 Verb
+A109	Tense T21 Past
+A110	Aspect T21 Perfective
+A111	Polarity T21 Pos
+T22	Event 846 853	remeteu
+A112	Class T22 Occurrence
+A113	Event_Type T22 Transition
+A114	Pos T22 Verb
+A115	Tense T22 Past
+A116	Aspect T22 Perfective
+A117	Polarity T22 Pos
+T23	Event 854 880	esclarecimentos adicionais
+A118	Class T23 Occurrence
+A119	Event_Type T23 Transition
+A120	Pos T23 Noun
+A121	Polarity T23 Pos
+T24	Event 889 897	detenção
+A122	Class T24 Occurrence
+A123	Event_Type T24 Transition
+A124	Pos T24 Noun
+A125	Polarity T24 Pos
+T25	Event 568 579	informações
+A126	Class T25 Reporting
+A127	Event_Type T25 Transition
+A128	Pos T25 Noun
+A129	Polarity T25 Pos
+T26	Event 733 744	informações
+A130	Class T26 Reporting
+A131	Event_Type T26 Transition
+A132	Polarity T26 Pos
+A133	Pos T26 Noun
+R1	TLINK_isIncluded Arg1:T2 Arg2:T3	
+R2	TLINK_after Arg1:T4 Arg2:T2	
+R3	TLINK_identity Arg1:T5 Arg2:T2	
+R4	TLINK_isIncluded Arg1:T3 Arg2:T1	
+R5	TLINK_before Arg1:T5 Arg2:T4	
+R6	TLINK_identity Arg1:T6 Arg2:T5	
+R7	TLINK_identity Arg1:T7 Arg2:T6	
+R8	TLINK_isIncluded Arg1:T7 Arg2:T8	
+R9	TLINK_after Arg1:T9 Arg2:T7	
+R10	TLINK_after Arg1:T10 Arg2:T9	
+R11	TLINK_before Arg1:T11 Arg2:T10	
+R12	TLINK_identity Arg1:T11 Arg2:T9	
+R13	TLINK_includes Arg1:T12 Arg2:T11	
+R14	TLINK_isIncluded Arg1:T13 Arg2:T12	
+R15	TLINK_identity Arg1:T13 Arg2:T7	
+R16	TLINK_simultaneous Arg1:T14 Arg2:T10	
+R17	TLINK_isIncluded Arg1:T25 Arg2:T14	
+R18	TLINK_includes Arg1:T16 Arg2:T15	
+R19	TLINK_before Arg1:T17 Arg2:T16	
+R20	TLINK_after Arg1:T18 Arg2:T17	
+R21	TLINK_isIncluded Arg1:T19 Arg2:T18	
+R22	TLINK_simultaneous Arg1:T26 Arg2:T19	
+R23	TLINK_simultaneous Arg1:T20 Arg2:T26	
+R24	TLINK_before Arg1:T21 Arg2:T20	
+R25	TLINK_after Arg1:T22 Arg2:T21	
+R26	TLINK_after Arg1:T23 Arg2:T22	
+R27	TLINK_before Arg1:T24 Arg2:T23	
+T27	Time 915 925	mais tarde
+A134	Time_Type T27 Time
+A135	TemporalFunction T27 None
+R28	TLINK_isIncluded Arg1:T23 Arg2:T27	
+R29	TLINK_after Arg1:T15 Arg2:T14	
+T28	Participant 88 96	Um homem
+A136	Lexical_Head T28 Noun
+A137	Individuation_Domain T28 Individual
+A138	Participant_Type_Domain T28 Per
+A139	Involvement T28 1
+T29	Participant 109 121	um automóvel
+A140	Lexical_Head T29 Noun
+A141	Individuation_Domain T29 Individual
+A142	Participant_Type_Domain T29 Obj
+A143	Involvement T29 1
+T30	Participant 122 154	as instalações do Estádio da Luz
+A144	Lexical_Head T30 Noun
+A145	Individuation_Domain T30 Individual
+A146	Participant_Type_Domain T30 Loc
+A147	Involvement T30 1
+T31	Participant 159 165	Lisboa
+A148	Lexical_Head T31 Noun
+A149	Individuation_Domain T31 Individual
+A150	Participant_Type_Domain T31 Loc
+A151	Involvement T31 1
+R30	OLINK_partOf Arg1:T30 Arg2:T31	
+T32	Participant 200 212	agência Lusa
+A152	Lexical_Head T32 Noun
+A153	Individuation_Domain T32 Individual
+A154	Participant_Type_Domain T32 Org
+A155	Involvement T32 1
+T33	Participant 213 218	fonte
+A156	Lexical_Head T33 Noun
+A157	Individuation_Domain T33 Individual
+A158	Participant_Type_Domain T33 Per
+A159	Involvement T33 1
+T34	Participant 222 264	Comando Metropolitano de Lisboa (Cometlis)
+A160	Lexical_Head T34 Noun
+A161	Individuation_Domain T34 Individual
+A162	Participant_Type_Domain T34 Org
+A163	Involvement T34 1
+T35	Participant 268 271	PSP
+A164	Lexical_Head T35 Noun
+A165	Individuation_Domain T35 Individual
+A166	Participant_Type_Domain T35 Org
+A167	Involvement T35 1
+R31	OLINK_partOf Arg1:T34 Arg2:T35	
+T36	Participant 287 296	a polícia
+A168	Lexical_Head T36 Noun
+A169	Individuation_Domain T36 Individual
+A170	Participant_Type_Domain T36 Org
+A171	Involvement T36 1
+R32	OLINK_objIdentity Arg1:T36 Arg2:T35	
+T37	Participant 299 307	um homem
+A172	Lexical_Head T37 Noun
+A173	Individuation_Domain T37 Individual
+A174	Participant_Type_Domain T37 Per
+A175	Involvement T37 1
+R33	OLINK_objIdentity Arg1:T37 Arg2:T28	
+T38	Participant 319 330	uma viatura
+A176	Lexical_Head T38 Noun
+A177	Individuation_Domain T38 Individual
+A178	Participant_Type_Domain T38 Obj
+A179	Involvement T38 1
+R34	OLINK_objIdentity Arg1:T38 Arg2:T29	
+T39	Participant 342 356	Estádio da Luz
+A180	Lexical_Head T39 Noun
+A181	Individuation_Domain T39 Individual
+A182	Participant_Type_Domain T39 Loc
+A183	Involvement T39 1
+R35	OLINK_objIdentity Arg1:T39 Arg2:T30	
+T40	Participant 361 397	freguesia de São Domingos de Benfica
+A184	Lexical_Head T40 Noun
+A185	Individuation_Domain T40 Individual
+A186	Participant_Type_Domain T40 Loc
+A187	Involvement T40 1
+R36	OLINK_partOf Arg1:T39 Arg2:T40	
+R37	OLINK_partOf Arg1:T40 Arg2:T31	
+T41	Participant 434 444	O condutor
+A188	Lexical_Head T41 Noun
+A189	Individuation_Domain T41 Individual
+A190	Participant_Type_Domain T41 Per
+A191	Involvement T41 1
+R38	OLINK_objIdentity Arg1:T41 Arg2:T37	
+T42	Participant 472 477	a PSP
+A192	Lexical_Head T42 Noun
+A193	Individuation_Domain T42 Individual
+A194	Participant_Type_Domain T42 Org
+A195	Involvement T42 1
+R39	OLINK_objIdentity Arg1:T42 Arg2:T36	
+T43	Participant 581 590	A notícia
+A196	Lexical_Head T43 Noun
+A197	Individuation_Domain T43 Individual
+A198	Participant_Type_Domain T43 Other
+A199	Involvement T43 1
+T44	Participant 609 625	Rádio Renascença
+A200	Lexical_Head T44 Noun
+A201	Individuation_Domain T44 Individual
+A202	Participant_Type_Domain T44 Org
+A203	Involvement T44 1
+T45	Participant 627 630	que
+A204	Lexical_Head T45 Pronoun
+A205	Individuation_Domain T45 Individual
+A206	Participant_Type_Domain T45 Org
+A207	Involvement T45 1
+R40	OLINK_objIdentity Arg1:T45 Arg2:T44	
+T46	Participant 647 654	o homem
+A208	Lexical_Head T46 Noun
+A209	Individuation_Domain T46 Individual
+A210	Participant_Type_Domain T46 Per
+A211	Involvement T46 1
+T47	Participant 666 677	o automóvel
+A212	Lexical_Head T47 Noun
+A213	Individuation_Domain T47 Individual
+A214	Participant_Type_Domain T47 Obj
+A215	Involvement T47 1
+T48	Participant 688 695	relvado
+A216	Lexical_Head T48 Noun
+A217	Individuation_Domain T48 Individual
+A218	Participant_Type_Domain T48 Other
+A219	Involvement T48 1
+R41	OLINK_objIdentity Arg1:T46 Arg2:T41	
+R42	OLINK_objIdentity Arg1:T47 Arg2:T38	
+R43	OLINK_partOf Arg1:T48 Arg2:T39	
+T49	Participant 697 706	A polícia
+A220	Lexical_Head T49 Noun
+A221	Individuation_Domain T49 Individual
+A222	Participant_Type_Domain T49 Org
+A223	Involvement T49 1
+R44	OLINK_objIdentity Arg1:T49 Arg2:T42	
+T50	Participant 766 770	onde
+A224	Lexical_Head T50 Pronoun
+A225	Individuation_Domain T50 Individual
+A226	Participant_Type_Domain T50 Loc
+A227	Involvement T50 1
+T51	Participant 778 788	o condutor
+A228	Lexical_Head T51 Noun
+A229	Individuation_Domain T51 Individual
+A230	Participant_Type_Domain T51 Per
+A231	Involvement T51 1
+R45	OLINK_objIdentity Arg1:T51 Arg2:T46	
+R46	OLINK_partOf Arg1:T50 Arg2:T48	
+T52	Participant 800 822	instalações do estádio
+A232	Lexical_Head T52 Noun
+A233	Individuation_Domain T52 Individual
+A234	Participant_Type_Domain T52 Loc
+A235	Involvement T52 1
+T53	Participant 826 833	Benfica
+A236	Lexical_Head T53 Noun
+A237	Individuation_Domain T53 Individual
+A238	Participant_Type_Domain T53 Org
+A239	Involvement T53 1
+R47	OLINK_partOf Arg1:T52 Arg2:T53	
+T54	Participant 835 845	O Cometlis
+A240	Lexical_Head T54 Noun
+A241	Individuation_Domain T54 Individual
+A242	Participant_Type_Domain T54 Org
+A243	Involvement T54 1
+T55	Participant 899 909	este homem
+A244	Lexical_Head T55 Noun
+A245	Individuation_Domain T55 Individual
+A246	Participant_Type_Domain T55 Per
+A247	Involvement T55 1
+R48	OLINK_partOf Arg1:T54 Arg2:T49	
+R49	OLINK_objIdentity Arg1:T52 Arg2:T39	
+R50	OLINK_objIdentity Arg1:T55 Arg2:T51	
+R51	SRLINK_agent Arg1:T2 Arg2:T28	
+R52	SRLINK_instrument Arg1:T2 Arg2:T29	
+R53	SRLINK_theme Arg1:T2 Arg2:T30	
+R54	SRLINK_location Arg1:T2 Arg2:T31	
+R55	SLINK_evidential Arg1:T4 Arg2:T2	
+R56	SRLINK_theme Arg1:T4 Arg2:T2	
+R57	SRLINK_goal Arg1:T4 Arg2:T32	
+R58	SRLINK_agent Arg1:T4 Arg2:T33	
+R59	SRLINK_agent Arg1:T5 Arg2:T37	
+R60	SRLINK_instrument Arg1:T5 Arg2:T38	
+R61	SRLINK_location Arg1:T5 Arg2:T39	
+R62	SRLINK_theme Arg1:T7 Arg2:T6	
+R63	SRLINK_patient Arg1:T9 Arg2:T41	
+R64	SRLINK_agent Arg1:T9 Arg2:T42	
+R65	SRLINK_agent Arg1:T10 Arg2:T42	
+R66	SLINK_evidential Arg1:T10 Arg2:T12	
+R67	SRLINK_theme Arg1:T10 Arg2:T12	
+R68	SRLINK_pivot Arg1:T12 Arg2:T11	
+R69	SRLINK_theme Arg1:T12 Arg2:T13	
+R70	SRLINK_agent Arg1:T14 Arg2:T42	
+R71	SRLINK_theme Arg1:T14 Arg2:T25	
+R72	SRLINK_theme Arg1:T15 Arg2:T43	
+R73	SRLINK_agent Arg1:T15 Arg2:T44	
+R74	SRLINK_agent Arg1:T16 Arg2:T45	
+R75	SLINK_evidential Arg1:T16 Arg2:T17	
+R76	SRLINK_theme Arg1:T16 Arg2:T17	
+R77	SRLINK_agent Arg1:T17 Arg2:T46	
+R78	SRLINK_instrument Arg1:T17 Arg2:T47	
+R79	SRLINK_finalLocation Arg1:T17 Arg2:T48	
+R80	SRLINK_agent Arg1:T18 Arg2:T49	
+R81	SLINK_evidential Arg1:T18 Arg2:T19	
+R82	SRLINK_theme Arg1:T18 Arg2:T19	
+R83	SRLINK_pivot Arg1:T19 Arg2:T49	
+R84	SRLINK_theme Arg1:T19 Arg2:T26	
+R85	SRLINK_theme Arg1:T20 Arg2:T26	
+R86	SRLINK_finalLocation Arg1:T21 Arg2:T50	
+R87	SRLINK_agent Arg1:T21 Arg2:T51	
+R88	SRLINK_theme Arg1:T20 Arg2:T50	
+R89	SRLINK_location Arg1:T21 Arg2:T52	
+R90	SRLINK_agent Arg1:T22 Arg2:T54	
+R91	SRLINK_theme Arg1:T22 Arg2:T23	
+R92	SRLINK_theme Arg1:T23 Arg2:T24	
+R93	SRLINK_patient Arg1:T24 Arg2:T55	
+R94	SRLINK_agent Arg1:T24 Arg2:T54	
+R95	SLINK_evidential Arg1:T20 Arg2:T21	

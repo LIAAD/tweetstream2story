@@ -1,0 +1,40 @@
+version: '3'
+
+services:
+  t2s:
+    build: ./microservice
+    networks:
+      - internal
+    ports:
+      - "65432:65432"
+
+  server:
+    build: ./server
+    volumes: ['./server:/app']
+    networks:
+      - internal
+    ports:
+      - "8000:8080"
+    restart: on-failure
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.17.3
+    environment:
+      - discovery.type=single-node
+      - "ES_JAVA_OPTS=-Xms128m -Xmx128m"
+      - ELASTIC_PASSWORD=${ES_PASSWORD}
+      - xpack.security.enabled=true
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    volumes:
+      - ./elasticsearch/data:/usr/share/elasticsearch/data
+    ports:
+      - "9200:9200"
+    networks:
+      - internal
+
+networks:
+  internal:
+    driver: bridge

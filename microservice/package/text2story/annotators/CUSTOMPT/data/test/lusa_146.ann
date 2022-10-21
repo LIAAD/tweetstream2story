@@ -1,0 +1,346 @@
+T1	Time 9 20	22 dez 2020
+A1	Time_Type T1 Date
+A2	TemporalFunction T1 Publication_Time
+#1	AnnotatorNotes T1	value=2020-12-22
+T2	Event 111 117	deteve
+A3	Class T2 Occurrence
+A4	Event_Type T2 Transition
+A5	Pos T2 Verb
+A6	Tense T2 Past
+A7	Aspect T2 Perfective
+A8	Polarity T2 Pos
+T3	Time 118 122	hoje
+A9	Time_Type T3 Date
+A10	TemporalFunction T3 Publication_Time
+#2	AnnotatorNotes T3	value=2020-12-22 anchorTime=Publication_Time
+T4	Event 150 160	envolvidos
+A11	Class T4 State
+A12	Event_Type T4 State
+A13	Pos T4 Verb
+A14	Tense T4 Past
+A15	Aspect T4 Perfective
+A16	VForm T4 Participle
+A17	Polarity T4 Pos
+T5	Event 161 169	assaltos
+A18	Class T5 Occurrence
+A19	Event_Type T5 Transition
+A20	Pos T5 Noun
+A21	Polarity T5 Pos
+T6	Event 204 210	furtos
+A22	Class T6 Occurrence
+A23	Event_Type T6 Transition
+A24	Pos T6 Noun
+A25	Polarity T6 Pos
+T7	Event 237 244	tráfico
+A26	Class T7 Occurrence
+A27	Event_Type T7 Process
+A28	Pos T7 Noun
+A29	Polarity T7 Pos
+T8	Event 270 278	anunciou
+A30	Class T8 Reporting
+A31	Event_Type T8 Transition
+A32	Pos T8 Verb
+A33	Tense T8 Past
+A34	Aspect T8 Perfective
+A35	Polarity T8 Pos
+T9	Event 391 413	antecedentes criminais
+A36	Class T9 State
+A37	Event_Type T9 State
+A38	Pos T9 Noun
+A39	Polarity T9 Pos
+T10	Event 421 428	detidos
+A40	Class T10 Occurrence
+A41	Event_Type T10 Transition
+A42	Pos T10 Verb
+A43	Tense T10 Past
+A44	Aspect T10 Perfective
+A45	Polarity T10 Pos
+T11	Event 446 458	investigação
+A46	Class T11 Occurrence
+A47	Event_Type T11 Process
+A48	Pos T11 Noun
+A49	Polarity T11 Pos
+T12	Event 459 471	desenvolvida
+A50	Class T12 Occurrence
+A51	Event_Type T12 Process
+A52	Pos T12 Verb
+A55	VForm T12 Participle
+A56	Polarity T12 Pos
+T13	Event 506 512	furtos
+A57	Class T13 Occurrence
+A58	Event_Type T13 Transition
+A59	Pos T13 Noun
+A60	Polarity T13 Pos
+T14	Event 638 653	Terão praticado
+A61	Class T14 Occurrence
+A62	Event_Type T14 Process
+A63	Pos T14 Verb
+A64	Tense T14 Future
+A65	Mood T14 Future
+A66	Modality T14 Dever
+A67	Polarity T14 Pos
+T15	Event 668 674	crimes
+A68	Class T15 State
+A69	Event_Type T15 State
+A70	Pos T15 Noun
+A71	Polarity T15 Pos
+T16	Event 717 725	operação
+A72	Class T16 Occurrence
+A73	Event_Type T16 Process
+A74	Pos T16 Noun
+A75	Polarity T16 Pos
+T17	Event 732 741	anunciada
+A76	Class T17 Reporting
+A77	Event_Type T17 Transition
+A78	Pos T17 Verb
+A79	VForm T17 Participle
+A80	Polarity T17 Pos
+T18	Event 742 749	incluiu
+A53	Class T18 State
+A54	Event_Type T18 State
+A81	Pos T18 Verb
+A82	Tense T18 Past
+A83	Aspect T18 Perfective
+A84	Polarity T18 Pos
+T19	Event 752 762	realização
+A85	Class T19 Occurrence
+A86	Event_Type T19 Process
+A87	Pos T19 Noun
+A88	Polarity T19 Pos
+T20	Event 763 783	buscas domiciliárias
+A89	Class T20 Occurrence
+A90	Event_Type T20 Process
+A91	Pos T20 Noun
+A92	Polarity T20 Pos
+T21	Event 788 798	resultaram
+A93	Class T21 Occurrence
+A94	Event_Type T21 Transition
+A95	Pos T21 Verb
+A96	Tense T21 Past
+A97	Aspect T21 Perfective
+A98	Polarity T21 Pos
+T22	Event 802 811	apreensão
+A99	Class T22 Occurrence
+A100	Event_Type T22 Transition
+A101	Pos T22 Noun
+A102	Polarity T22 Pos
+R1	TLINK_isIncluded Arg1:T2 Arg2:T3	
+R2	TLINK_simultaneous Arg1:T5 Arg2:T4	
+R3	TLINK_before Arg1:T4 Arg2:T2	
+R4	TLINK_simultaneous Arg1:T6 Arg2:T5	
+R5	TLINK_simultaneous Arg1:T7 Arg2:T6	
+R6	TLINK_after Arg1:T8 Arg2:T7	
+R7	TLINK_after Arg1:T8 Arg2:T2	
+R8	TLINK_includes Arg1:T9 Arg2:T8	
+R9	TLINK_isIncluded Arg1:T10 Arg2:T9	
+R10	TLINK_identity Arg1:T10 Arg2:T2	
+R11	TLINK_identity Arg1:T12 Arg2:T11	
+R12	TLINK_before Arg1:T13 Arg2:T12	
+R13	TLINK_during Arg1:T10 Arg2:T11	
+R14	TLINK_identity Arg1:T15 Arg2:T14	
+R15	TLINK_simultaneous Arg1:T14 Arg2:T13	
+R16	TLINK_after Arg1:T17 Arg2:T16	
+R17	TLINK_before Arg1:T18 Arg2:T17	
+R18	TLINK_isIncluded Arg1:T19 Arg2:T18	
+R19	TLINK_identity Arg1:T20 Arg2:T19	
+R20	TLINK_after Arg1:T21 Arg2:T20	
+R21	TLINK_identity Arg1:T22 Arg2:T21	
+R22	TLINK_identity Arg1:T16 Arg2:T11	
+R23	TLINK_after Arg1:T16 Arg2:T15	
+T23	Participant 105 110	A GNR
+A103	Lexical_Head T23 Noun
+A104	Individuation_Domain T23 Individual
+A105	Participant_Type_Domain T23 Org
+A106	Involvement T23 1
+T24	Participant 123 136	quatro homens
+A107	Lexical_Head T24 Noun
+A108	Individuation_Domain T24 Individual
+A109	Participant_Type_Domain T24 Per
+A110	Involvement T24 >1
+T25	Participant 172 183	residências
+A111	Lexical_Head T25 Noun
+A112	Individuation_Domain T25 Individual
+A113	Participant_Type_Domain T25 Loc
+A114	Involvement T25 >1
+T26	Participant 186 202	estabelecimentos
+A115	Lexical_Head T26 Noun
+A116	Individuation_Domain T26 Individual
+A117	Participant_Type_Domain T26 Org
+A118	Involvement T26 >1
+T27	Participant 214 222	interior
+A119	Lexical_Head T27 Noun
+A120	Individuation_Domain T27 Individual
+A121	Participant_Type_Domain T27 Loc
+A122	Involvement T27 1
+T28	Participant 226 234	veículos
+A123	Lexical_Head T28 Noun
+A124	Individuation_Domain T28 Individual
+A125	Participant_Type_Domain T28 Obj
+A126	Involvement T28 >1
+R24	OLINK_partOf Arg1:T27 Arg2:T28	
+T29	Participant 248 254	drogas
+A127	Lexical_Head T29 Noun
+A128	Individuation_Domain T29 Mass
+A129	Participant_Type_Domain T29 Obj
+A130	Involvement T29 Und
+T30	Participant 258 268	Alto Minho
+A131	Lexical_Head T30 Noun
+A132	Individuation_Domain T30 Individual
+A133	Participant_Type_Domain T30 Loc
+A134	Involvement T30 1
+T31	Participant 279 308	o comando de Viana do Castelo
+A135	Lexical_Head T31 Noun
+A136	Individuation_Domain T31 Individual
+A137	Participant_Type_Domain T31 Org
+A138	Involvement T31 1
+T32	Participant 310 331	aquela força policial
+A139	Lexical_Head T32 Noun
+A140	Individuation_Domain T32 Individual
+A141	Participant_Type_Domain T32 Org
+A142	Involvement T32 1
+R25	OLINK_partOf Arg1:T31 Arg2:T32	
+T33	Participant 333 379	Os suspeitos, com idades entre os 35 e 41 anos
+A143	Lexical_Head T33 Noun
+A144	Individuation_Domain T33 Individual
+A145	Participant_Type_Domain T33 Per
+A146	Involvement T33 >1
+T34	Participant 381 386	todos
+A147	Lexical_Head T34 Pronoun
+A148	Individuation_Domain T34 Individual
+A149	Participant_Type_Domain T34 Per
+A150	Involvement T34 All
+R26	OLINK_objIdentity Arg1:T34 Arg2:T33	
+T35	Time 472 492	ao longo de meio ano
+A151	Time_Type T35 Duration
+A152	TemporalFunction T35 None
+#3	AnnotatorNotes T35	value=P6M
+T36	Participant 530 547	Arcos de Valdevez
+A153	Lexical_Head T36 Noun
+A154	Individuation_Domain T36 Individual
+A155	Participant_Type_Domain T36 Loc
+A156	Involvement T36 1
+T37	Participant 549 565	Paredes de Coura
+A157	Lexical_Head T37 Noun
+A158	Individuation_Domain T37 Individual
+A159	Participant_Type_Domain T37 Loc
+A160	Involvement T37 1
+T38	Participant 567 581	Ponte da Barca
+A161	Lexical_Head T38 Noun
+A162	Individuation_Domain T38 Individual
+A163	Participant_Type_Domain T38 Loc
+A164	Involvement T38 1
+T39	Participant 584 597	Ponte de Lima
+A165	Lexical_Head T39 Noun
+A166	Individuation_Domain T39 Individual
+A167	Participant_Type_Domain T39 Loc
+A168	Involvement T39 1
+T40	Participant 599 604	todos
+A169	Lexical_Head T40 Pronoun
+A170	Individuation_Domain T40 Individual
+A171	Participant_Type_Domain T40 Loc
+A172	Involvement T40 All
+T41	Participant 608 636	distrito de Viana do Castelo
+A173	Lexical_Head T41 Noun
+A174	Individuation_Domain T41 Individual
+A175	Participant_Type_Domain T41 Loc
+A176	Involvement T41 1
+T42	Participant 517 526	concelhos
+A177	Lexical_Head T42 Noun
+A178	Individuation_Domain T42 Individual
+A179	Participant_Type_Domain T42 Loc
+A180	Involvement T42 >1
+T43	Participant 678 688	Vila Verde
+A181	Lexical_Head T43 Noun
+A182	Individuation_Domain T43 Individual
+A183	Participant_Type_Domain T43 Loc
+A184	Involvement T43 1
+T44	Participant 696 713	distrito de Braga
+A185	Lexical_Head T44 Noun
+A186	Individuation_Domain T44 Individual
+A187	Participant_Type_Domain T44 Loc
+A188	Involvement T44 1
+T45	Participant 812 833	heroína para 56 doses
+A189	Lexical_Head T45 Noun
+A190	Individuation_Domain T45 Set
+A191	Participant_Type_Domain T45 Obj
+A192	Involvement T45 >1
+T46	Participant 835 850	cocaína para 17
+A193	Lexical_Head T46 Noun
+A194	Individuation_Domain T46 Set
+A195	Participant_Type_Domain T46 Obj
+A196	Involvement T46 >1
+T47	Participant 853 869	haxixe para oito
+A197	Lexical_Head T47 Noun
+A198	Individuation_Domain T47 Set
+A199	Participant_Type_Domain T47 Obj
+A200	Involvement T47 >1
+T48	Participant 879 894	seis telemóveis
+A201	Lexical_Head T48 Noun
+A202	Individuation_Domain T48 Individual
+A203	Participant_Type_Domain T48 Obj
+A204	Involvement T48 >1
+T49	Participant 896 913	dois computadores
+A205	Lexical_Head T49 Noun
+A206	Individuation_Domain T49 Individual
+A207	Participant_Type_Domain T49 Obj
+A208	Involvement T49 >1
+T50	Participant 915 938	uma máquina fotográfica
+A209	Lexical_Head T50 Noun
+A210	Individuation_Domain T50 Individual
+A211	Participant_Type_Domain T50 Obj
+A212	Involvement T50 1
+T51	Participant 941 956	um aparelho GPS
+A213	Lexical_Head T51 Noun
+A214	Individuation_Domain T51 Individual
+A215	Participant_Type_Domain T51 Obj
+A216	Involvement T51 1
+R27	OLINK_objIdentity Arg1:T32 Arg2:T23	
+R28	OLINK_objIdentity Arg1:T33 Arg2:T24	
+R29	OLINK_partOf Arg1:T40 Arg2:T41	
+R30	OLINK_objIdentity Arg1:T40 Arg2:T42	
+R31	OLINK_memberOf Arg1:T36 Arg2:T42	
+R32	OLINK_memberOf Arg1:T37 Arg2:T42	
+R33	OLINK_memberOf Arg1:T38 Arg2:T42	
+R34	OLINK_memberOf Arg1:T39 Arg2:T42	
+R35	OLINK_partOf Arg1:T43 Arg2:T44	
+R36	SRLINK_agent Arg1:T2 Arg2:T23	
+R37	SRLINK_patient Arg1:T2 Arg2:T24	
+R38	SRLINK_pivot Arg1:T4 Arg2:T24	
+R39	SRLINK_setting Arg1:T4 Arg2:T5	
+R40	SRLINK_goal Arg1:T5 Arg2:T25	
+R41	SRLINK_goal Arg1:T5 Arg2:T26	
+R42	SRLINK_location Arg1:T6 Arg2:T27	
+R43	SRLINK_goal Arg1:T6 Arg2:T28	
+R44	SRLINK_agent Arg1:T5 Arg2:T24	
+R45	SRLINK_agent Arg1:T6 Arg2:T24	
+R46	SRLINK_agent Arg1:T7 Arg2:T24	
+R47	SRLINK_theme Arg1:T7 Arg2:T29	
+R48	SRLINK_location Arg1:T7 Arg2:T30	
+R49	SRLINK_agent Arg1:T8 Arg2:T31	
+R50	SRLINK_theme Arg1:T8 Arg2:T2	
+R51	SLINK_evidential Arg1:T8 Arg2:T2	
+R52	SRLINK_pivot Arg1:T9 Arg2:T34	
+R53	SRLINK_patient Arg1:T10 Arg2:T33	
+R54	SRLINK_setting Arg1:T10 Arg2:T11	
+R55	SRLINK_patient Arg1:T12 Arg2:T11	
+R56	TLINK_isIncluded Arg1:T12 Arg2:T35	
+R57	SRLINK_reason Arg1:T12 Arg2:T13	
+R58	SRLINK_location Arg1:T13 Arg2:T42	
+R59	SRLINK_location Arg1:T13 Arg2:T41	
+R60	SRLINK_agent Arg1:T14 Arg2:T33	
+R61	SRLINK_theme Arg1:T14 Arg2:T15	
+R62	SRLINK_location Arg1:T14 Arg2:T43	
+R63	SRLINK_location Arg1:T14 Arg2:T44	
+R64	SRLINK_patient Arg1:T17 Arg2:T16	
+R65	SRLINK_pivot Arg1:T18 Arg2:T16	
+R66	SRLINK_theme Arg1:T18 Arg2:T19	
+R67	SRLINK_theme Arg1:T19 Arg2:T20	
+R68	SRLINK_result Arg1:T21 Arg2:T20	
+R69	SRLINK_theme Arg1:T21 Arg2:T22	
+R70	SRLINK_patient Arg1:T22 Arg2:T45	
+R71	SRLINK_patient Arg1:T22 Arg2:T46	
+R72	SRLINK_patient Arg1:T22 Arg2:T47	
+R73	SRLINK_patient Arg1:T22 Arg2:T48	
+R74	SRLINK_patient Arg1:T22 Arg2:T49	
+R75	SRLINK_patient Arg1:T22 Arg2:T50	
+R76	SRLINK_patient Arg1:T22 Arg2:T51	

@@ -1,0 +1,187 @@
+T1	Event 38 47	socorrido
+A1	Class T1 Occurrence
+A2	Event_Type T1 Transition
+A3	Pos T1 Verb
+A4	Tense T1 Past
+A5	Aspect T1 Perfective
+A6	VForm T1 Participle
+A7	Polarity T1 Pos
+T2	Event 65 70	livre
+A8	Class T2 State
+A9	Event_Type T2 State
+A10	Pos T2 Verb
+A11	Tense T2 Present
+A12	Aspect T2 Imperfective
+A13	Polarity T2 Pos
+T3	Event 74 80	perigo
+A14	Class T3 State
+A15	Event_Type T3 State
+A16	Pos T3 Noun
+A17	Polarity T3 Pos
+T4	Event 101 105	caiu
+A18	Class T4 Occurrence
+A19	Event_Type T4 Transition
+A20	Pos T4 Verb
+A21	Tense T4 Past
+A22	Aspect T4 Perfective
+A23	Polarity T4 Pos
+T5	Time 106 110	hoje
+A24	Time_Type T5 Date
+A25	TemporalFunction T5 Publication_Time
+#1	AnnotatorNotes T5	value=2020-12-12 
+T6	Time 8 19	12 dez 2020
+A26	Time_Type T6 Date
+A27	TemporalFunction T6 Publication_Time
+#2	AnnotatorNotes T6	value=2020-12-12
+R1	TLINK_identity Arg1:T5 Arg2:T6	
+T7	Event 171 185	fora de perigo
+A28	Class T7 State
+A29	Event_Type T7 State
+A30	Pos T7 Verb
+A31	Tense T7 Present
+A32	Aspect T7 Imperfective
+A33	Polarity T7 Pos
+T8	Event 206 215	socorrido
+A34	Class T8 Occurrence
+A35	Event_Type T8 Transition
+A36	Pos T8 Verb
+A37	Tense T8 Past
+A38	Aspect T8 Perfective
+A39	VForm T8 Participle
+A40	Polarity T8 Pos
+T9	Event 238 250	transportado
+A41	Class T9 Occurrence
+A42	Event_Type T9 Transition
+A43	Pos T9 Verb
+A44	Tense T9 Past
+A45	Aspect T9 Perfective
+A46	Polarity T9 Pos
+T10	Event 314 322	adiantou
+A47	Class T10 Reporting
+A48	Event_Type T10 Transition
+A49	Pos T10 Verb
+A50	Tense T10 Past
+A51	Aspect T10 Perfective
+A52	Polarity T10 Pos
+T11	Event 336 346	ocorrência
+A53	Class T11 Occurrence
+A54	Event_Type T11 Transition
+A55	Pos T11 Noun
+A56	Polarity T11 Pos
+T12	Event 347 357	teve lugar
+A57	Class T12 Occurrence
+A58	Event_Type T12 Transition
+A59	Pos T12 Verb
+A60	Tense T12 Past
+A61	Aspect T12 Perfective
+A62	Polarity T12 Pos
+T13	Time 358 375	perto do meio-dia
+A63	Time_Type T13 Time
+#3	AnnotatorNotes T13	value=2020-12-12T12:00
+T14	Event 403 407	alvo
+A64	Class T14 State
+A65	Event_Type T14 State
+A66	Pos T14 Verb
+A67	VForm T14 Infinitive
+A68	Polarity T14 Pos
+T15	Event 390 396	chegou
+A69	Class T15 Occurrence
+A70	Event_Type T15 Transition
+A71	Pos T15 Verb
+A72	Tense T15 Past
+A73	Aspect T15 Perfective
+A74	Polarity T15 Pos
+T16	Event 412 442	reanimação cardiorrespiratória
+A75	Class T16 Occurrence
+A76	Event_Type T16 Transition
+A77	Pos T16 Noun
+A78	Polarity T16 Pos
+T17	Event 456 466	salvamento
+A79	Class T17 Occurrence
+A80	Event_Type T17 Transition
+A81	Pos T17 Noun
+A82	Polarity T17 Pos
+T18	Event 471 479	efetuado
+A83	Class T18 Occurrence
+A84	Event_Type T18 Transition
+A85	Pos T18 Verb
+A86	Tense T18 Past
+A87	Aspect T18 Perfective
+A88	Polarity T18 Pos
+T19	Event 505 512	passava
+A89	Class T19 Occurrence
+A90	Event_Type T19 Transition
+A91	Pos T19 Verb
+A92	Tense T19 Past
+A93	Aspect T19 Imperfective
+A94	Polarity T19 Pos
+T20	Event 533 539	atirou
+A95	Class T20 Occurrence
+A96	Event_Type T20 Transition
+A97	Pos T20 Verb
+A98	Tense T20 Past
+A99	Aspect T20 Perfective
+A100	Polarity T20 Pos
+T21	Event 554 557	viu
+A101	Class T21 Perception
+A102	Event_Type T21 Transition
+A103	Pos T21 Verb
+A104	Tense T21 Past
+A105	Aspect T21 Perfective
+A106	Polarity T21 Pos
+T22	Event 569 581	dificuldades
+A107	Class T22 State
+A108	Event_Type T22 State
+A109	Pos T22 Noun
+A110	Polarity T22 Pos
+T23	Event 614 620	levado
+A111	Class T23 Occurrence
+A112	Event_Type T23 Transition
+A113	Pos T23 Verb
+A114	Tense T23 Past
+A115	Aspect T23 Perfective
+A116	Polarity T23 Pos
+T24	Event 742 751	internado
+A117	Class T24 State
+A118	Event_Type T24 State
+A119	Pos T24 Verb
+A120	Tense T24 Present
+A121	Aspect T24 Imperfective
+A122	Polarity T24 Pos
+T25	Event 757 762	livre
+A123	Class T25 State
+A124	Event_Type T25 State
+A125	Pos T25 Verb
+A126	Tense T25 Present
+A127	Aspect T25 Imperfective
+A128	Polarity T25 Pos
+T26	Event 766 772	perigo
+A129	Class T26 State
+A130	Event_Type T26 State
+A131	Pos T26 Noun
+A132	Polarity T26 Pos
+R2	TLINK_isIncluded Arg1:T4 Arg2:T5	
+R3	TLINK_isIncluded Arg1:T12 Arg2:T13	
+R4	TLINK_identity Arg1:T8 Arg2:T1	
+R5	TLINK_identity Arg1:T7 Arg2:T2	
+R6	TLINK_after Arg1:T7 Arg2:T4	
+R7	TLINK_before Arg1:T8 Arg2:T7	
+R8	TLINK_after Arg1:T9 Arg2:T8	
+R9	TLINK_after Arg1:T10 Arg2:T9	
+R10	TLINK_before Arg1:T11 Arg2:T10	
+R11	TLINK_identity Arg1:T11 Arg2:T8	
+R12	TLINK_identity Arg1:T12 Arg2:T11	
+R13	TLINK_isIncluded Arg1:T15 Arg2:T12	
+R14	TLINK_identity Arg1:T14 Arg2:T15	
+R15	TLINK_simultaneous Arg1:T16 Arg2:T14	
+R16	TLINK_identity Arg1:T18 Arg2:T17	
+R17	TLINK_identity Arg1:T17 Arg2:T8	
+R18	TLINK_includes Arg1:T17 Arg2:T16	
+R19	TLINK_includes Arg1:T19 Arg2:T18	
+R20	TLINK_isIncluded Arg1:T20 Arg2:T19	
+R21	TLINK_before Arg1:T21 Arg2:T20	
+R22	TLINK_simultaneous Arg1:T22 Arg2:T21	
+R23	TLINK_after Arg1:T23 Arg2:T22	
+R24	TLINK_after Arg1:T24 Arg2:T23	
+R25	TLINK_simultaneous Arg1:T25 Arg2:T24	
+R26	TLINK_identity Arg1:T26 Arg2:T25	

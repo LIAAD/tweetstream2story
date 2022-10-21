@@ -1,0 +1,255 @@
+T1	Time 37 48	27 out 2020
+A1	Time_Type T1 Date
+A2	TemporalFunction T1 Publication_Time
+#1	AnnotatorNotes T1	value=2020-10-27
+T2	Event 150 156	morreu
+A3	Class T2 Occurrence
+A4	Event_Type T2 Transition
+A5	Pos T2 Verb
+A6	Tense T2 Past
+A7	Aspect T2 Perfective
+A8	Polarity T2 Pos
+T3	Time 157 161	hoje
+A9	Time_Type T3 Date
+A10	TemporalFunction T3 Publication_Time
+#2	AnnotatorNotes T3	value=2020-10-27 anchorTime=Publication_Time
+T4	Event 181 194	atropelamento
+A11	Class T4 Occurrence
+A12	Event_Type T4 Transition
+A13	Pos T4 Noun
+A14	Polarity T4 Pos
+T5	Event 271 276	disse
+A15	Class T5 Reporting
+A16	Event_Type T5 Transition
+A17	Pos T5 Verb
+A18	Tense T5 Past
+A19	Aspect T5 Perfective
+A20	Polarity T5 Pos
+T6	Event 372 377	óbito
+A21	Class T6 Occurrence
+A22	Event_Type T6 Transition
+A23	Pos T6 Noun
+A24	Polarity T6 Pos
+T7	Event 382 391	declarado
+A25	Class T7 Reporting
+A26	Event_Type T7 Transition
+A27	Pos T7 Verb
+A28	Tense T7 Past
+A29	Aspect T7 Perfective
+A30	Polarity T7 Pos
+T8	Event 468 476	acidente
+A31	Class T8 Occurrence
+A32	Event_Type T8 Transition
+A33	Pos T8 Noun
+A34	Polarity T8 Pos
+T9	Event 498 508	acontecido
+A35	Class T9 Occurrence
+A36	Event_Type T9 Transition
+A37	Pos T9 Verb
+A38	Tense T9 Past
+A39	Aspect T9 Perfective
+A40	Mood T9 Future
+A41	Polarity T9 Pos
+T10	Event 521 544	manobra de marcha-atrás
+A42	Class T10 Occurrence
+A43	Event_Type T10 Process
+A44	Pos T10 Noun
+A45	Polarity T10 Pos
+T11	Event 563 569	alerta
+A46	Class T11 Occurrence
+A47	Event_Type T11 Transition
+A48	Pos T11 Noun
+A49	Polarity T11 Pos
+T12	Event 577 590	atropelamento
+A50	Class T12 Occurrence
+A51	Event_Type T12 Transition
+A52	Pos T12 Noun
+A53	Polarity T12 Pos
+T13	Event 595 599	dado
+A54	Class T13 Occurrence
+A55	Event_Type T13 Transition
+A56	Pos T13 Verb
+A57	Tense T13 Past
+A58	Aspect T13 Perfective
+A59	Polarity T13 Pos
+T14	Time 603 608	11:29
+A60	Time_Type T14 Time
+A61	TemporalFunction T14 Publication_Time
+#3	AnnotatorNotes T14	value=2020-10-27T11:29 anchorTime=Publication_Time
+T15	Event 630 641	mobilizados
+A62	Class T15 Occurrence
+A63	Event_Type T15 Transition
+A64	Pos T15 Verb
+A65	Tense T15 Past
+A66	Aspect T15 Perfective
+A67	Polarity T15 Pos
+T16	Event 719 727	contaram
+A68	Class T16 State
+A69	Event_Type T16 State
+A70	Pos T16 Verb
+A71	Tense T16 Past
+A72	Aspect T16 Perfective
+A73	Polarity T16 Pos
+T17	Event 734 739	apoio
+A74	Class T17 State
+A75	Event_Type T17 State
+A76	Pos T17 Noun
+A77	Polarity T17 Pos
+R1	TLINK_isIncluded Arg1:T2 Arg2:T3	
+R2	TLINK_before Arg1:T4 Arg2:T2	
+R3	TLINK_after Arg1:T5 Arg2:T4	
+R4	TLINK_before Arg1:T6 Arg2:T5	
+R5	TLINK_simultaneous Arg1:T7 Arg2:T6	
+R6	TLINK_before Arg1:T8 Arg2:T7	
+R7	TLINK_identity Arg1:T9 Arg2:T8	
+R8	TLINK_during Arg1:T9 Arg2:T10	
+R9	TLINK_after Arg1:T11 Arg2:T10	
+R10	TLINK_before Arg1:T12 Arg2:T11	
+R11	TLINK_after Arg1:T13 Arg2:T12	
+R12	TLINK_isIncluded Arg1:T13 Arg2:T14	
+R13	TLINK_identity Arg1:T13 Arg2:T11	
+R14	TLINK_after Arg1:T15 Arg2:T13	
+R15	TLINK_after Arg1:T16 Arg2:T15	
+R16	TLINK_simultaneous Arg1:T17 Arg2:T16	
+T18	Participant 130 149	Um homem de 84 anos
+A78	Lexical_Head T18 Noun
+A79	Individuation_Domain T18 Individual
+A80	Participant_Type_Domain T18 Per
+A81	Involvement T18 1
+T19	Participant 198 208	Vila Maior
+A82	Lexical_Head T19 Noun
+A83	Individuation_Domain T19 Individual
+A84	Participant_Type_Domain T19 Loc
+A85	Involvement T19 1
+T20	Participant 210 246	concelho de Santa Marta de Penaguião
+A86	Lexical_Head T20 Noun
+A87	Individuation_Domain T20 Individual
+A88	Participant_Type_Domain T20 Loc
+A89	Involvement T20 1
+T21	Participant 248 269	distrito de Vila Real
+A90	Lexical_Head T21 Noun
+A91	Individuation_Domain T21 Individual
+A92	Participant_Type_Domain T21 Loc
+A93	Involvement T21 1
+R17	OLINK_partOf Arg1:T19 Arg2:T20	
+R18	OLINK_partOf Arg1:T20 Arg2:T21	
+T22	Participant 277 282	fonte
+A94	Lexical_Head T22 Noun
+A95	Individuation_Domain T22 Individual
+A96	Participant_Type_Domain T22 Per
+A97	Involvement T22 1
+T23	Participant 286 289	GNR
+A98	Lexical_Head T23 Noun
+A99	Individuation_Domain T23 Individual
+A100	Participant_Type_Domain T23 Org
+A101	Involvement T23 1
+R19	OLINK_partOf Arg1:T22 Arg2:T23	
+T24	Participant 299 311	o comandante
+A102	Lexical_Head T24 Noun
+A103	Individuation_Domain T24 Individual
+A104	Participant_Type_Domain T24 Per
+A105	Involvement T24 1
+T25	Participant 316 353	bombeiros de Santa Marta de Penaguião
+A106	Lexical_Head T25 Noun
+A107	Individuation_Domain T25 Individual
+A108	Participant_Type_Domain T25 Org
+A109	Involvement T25 1
+T26	Participant 355 368	Vasco Correia
+A110	Lexical_Head T26 Noun
+A111	Individuation_Domain T26 Individual
+A112	Participant_Type_Domain T26 Per
+A113	Involvement T26 1
+R20	OLINK_partOf Arg1:T24 Arg2:T25	
+R21	OLINK_objIdentity Arg1:T26 Arg2:T24	
+T27	Participant 395 400	local
+A114	Lexical_Head T27 Noun
+A115	Individuation_Domain T27 Individual
+A116	Participant_Type_Domain T27 Loc
+A117	Involvement T27 1
+T28	Participant 406 412	equipa
+A118	Lexical_Head T28 Noun
+A119	Individuation_Domain T28 Set
+A120	Participant_Type_Domain T28 Per
+A121	Involvement T28 1
+T29	Participant 416 464	Viatura Médica de Emergência e Reanimação (VMER)
+A122	Lexical_Head T29 Noun
+A123	Individuation_Domain T29 Individual
+A124	Participant_Type_Domain T29 Obj
+A125	Involvement T29 1
+T30	Participant 486 491	a GNR
+A126	Lexical_Head T30 Noun
+A127	Individuation_Domain T30 Individual
+A128	Participant_Type_Domain T30 Org
+A129	Involvement T30 1
+T31	Participant 548 559	uma carinha
+A130	Lexical_Head T31 Noun
+A131	Individuation_Domain T31 Individual
+A132	Participant_Type_Domain T31 Obj
+A133	Involvement T31 1
+T32	Participant 616 623	o local
+A134	Lexical_Head T32 Noun
+A135	Individuation_Domain T32 Individual
+A136	Participant_Type_Domain T32 Loc
+A137	Involvement T32 1
+T33	Participant 642 659	seis operacionais
+A138	Lexical_Head T33 Noun
+A139	Individuation_Domain T33 Individual
+A140	Participant_Type_Domain T33 Per
+A141	Involvement T33 >1
+T34	Participant 664 701	bombeiros de Santa Marta de Penaguião
+A142	Lexical_Head T34 Noun
+A143	Individuation_Domain T34 Individual
+A144	Participant_Type_Domain T34 Org
+A145	Involvement T34 1
+T35	Participant 703 706	GNR
+A146	Lexical_Head T35 Noun
+A147	Individuation_Domain T35 Individual
+A148	Participant_Type_Domain T35 Org
+A149	Involvement T35 1
+T36	Participant 709 713	INEM
+A150	Lexical_Head T36 Noun
+A151	Individuation_Domain T36 Individual
+A152	Participant_Type_Domain T36 Org
+A153	Involvement T36 1
+T37	Participant 743 756	três viaturas
+A154	Lexical_Head T37 Noun
+A155	Individuation_Domain T37 Individual
+A156	Participant_Type_Domain T37 Obj
+A157	Involvement T37 >1
+R22	OLINK_objIdentity Arg1:T27 Arg2:T19	
+R23	OLINK_partOf Arg1:T28 Arg2:T29	
+R24	OLINK_partOf Arg1:T29 Arg2:T36	
+R25	OLINK_objIdentity Arg1:T30 Arg2:T23	
+R26	OLINK_objIdentity Arg1:T32 Arg2:T27	
+R27	OLINK_partOf Arg1:T33 Arg2:T34	
+R28	OLINK_partOf Arg1:T33 Arg2:T35	
+R29	OLINK_partOf Arg1:T33 Arg2:T36	
+T38	Participant 715 718	que
+A158	Lexical_Head T38 Pronoun
+A159	Individuation_Domain T38 Individual
+A160	Participant_Type_Domain T38 Org
+A161	Involvement T38 >1
+R30	OLINK_objIdentity Arg1:T38 Arg2:T34	
+R31	OLINK_objIdentity Arg1:T38 Arg2:T35	
+R32	OLINK_objIdentity Arg1:T38 Arg2:T36	
+R33	SRLINK_patient Arg1:T2 Arg2:T18	
+R34	SRLINK_reason Arg1:T2 Arg2:T4	
+R35	SRLINK_location Arg1:T2 Arg2:T19	
+R36	SLINK_evidential Arg1:T5 Arg2:T2	
+R37	SRLINK_theme Arg1:T5 Arg2:T2	
+R38	SRLINK_agent Arg1:T5 Arg2:T22	
+R39	SRLINK_theme Arg1:T7 Arg2:T6	
+R40	SLINK_evidential Arg1:T7 Arg2:T6	
+R41	SRLINK_location Arg1:T7 Arg2:T27	
+R42	SRLINK_agent Arg1:T7 Arg2:T28	
+R43	SRLINK_theme Arg1:T9 Arg2:T8	
+R44	SRLINK_setting Arg1:T9 Arg2:T10	
+R45	SRLINK_theme Arg1:T10 Arg2:T31	
+R46	SRLINK_theme Arg1:T13 Arg2:T11	
+R47	SRLINK_theme Arg1:T11 Arg2:T12	
+R48	SRLINK_patient Arg1:T15 Arg2:T33	
+R49	SRLINK_finalLocation Arg1:T15 Arg2:T32	
+R50	SRLINK_pivot Arg1:T16 Arg2:T38	
+R51	SRLINK_theme Arg1:T16 Arg2:T17	
+R52	SRLINK_theme Arg1:T17 Arg2:T37	
+R53	TLINK_identity Arg1:T3 Arg2:T1	

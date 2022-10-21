@@ -1,0 +1,307 @@
+T1	Event 142 151	atropelou
+A1	Class T1 Occurrence
+A2	Event_Type T1 Transition
+A3	Pos T1 Verb
+A4	Tense T1 Past
+A5	Aspect T1 Perfective
+T2	Time 152 156	hoje
+A8	Time_Type T2 Date
+A9	TemporalFunction T2 Publication_Time
+#1	AnnotatorNotes T2	value=2020-12-11
+T3	Event 184 196	manifestação
+A10	Class T3 Occurrence
+A11	Event_Type T3 Process
+A12	Pos T3 Noun
+A17	Polarity T3 Pos
+T5	Event 333 350	não especificaram
+A26	Class T5 Reporting
+A27	Event_Type T5 Transition
+A28	Pos T5 Verb
+A29	Aspect T5 Perfective
+A32	Polarity T5 Neg
+T6	Event 361 369	acidente
+A33	Class T6 Occurrence
+A34	Event_Type T6 Transition
+A35	Pos T6 Noun
+A40	Polarity T6 Pos
+T7	Event 373 389	ação intencional
+A41	Class T7 Occurrence
+A42	Event_Type T7 Process
+A43	Pos T7 Noun
+A48	Polarity T7 Pos
+T8	Event 393 402	incidente
+A49	Class T8 Occurrence
+A50	Event_Type T8 Transition
+A51	Pos T8 Noun
+A56	Polarity T8 Pos
+T9	Event 403 411	provocou
+A57	Class T9 Occurrence
+A58	Event_Type T9 Transition
+A59	Pos T9 Verb
+A60	Tense T9 Past
+A63	Polarity T9 Pos
+T10	Event 445 473	tiveram se ser transportados
+A64	Class T10 Occurrence
+A65	Event_Type T10 Transition
+A66	Pos T10 Verb
+A67	Tense T10 Past
+A68	Aspect T10 Perfective
+A71	Modality T10 Ter_de
+A72	Polarity T10 Pos
+T11	Event 512 520	explicou
+A73	Class T11 Reporting
+A75	Pos T11 Verb
+A76	Tense T11 Past
+A77	Aspect T11 Perfective
+A80	Polarity T11 Pos
+T12	Event 612 618	detido
+A81	Class T12 Occurrence
+A82	Event_Type T12 Transition
+A83	Pos T12 Verb
+A84	Tense T12 Past
+A85	Aspect T12 Perfective
+A88	Polarity T12 Pos
+T13	Event 681 688	avançou
+A89	Class T13 Reporting
+A90	Event_Type T13 Transition
+A91	Pos T13 Verb
+A92	Tense T13 Past
+A93	Aspect T13 Perfective
+A96	Polarity T13 Pos
+T14	Event 695 704	incidente
+A97	Class T14 Occurrence
+A98	Event_Type T14 Transition
+A99	Pos T14 Noun
+A104	Polarity T14 Pos
+T15	Event 710 717	ocorreu
+A105	Class T15 Occurrence
+A106	Event_Type T15 Transition
+A107	Pos T15 Verb
+A108	Tense T15 Past
+A109	Aspect T15 Perfective
+A112	Polarity T15 Pos
+T16	Time 724 736	16:00 locais
+A113	Time_Type T16 Time
+#2	AnnotatorNotes T16	value=T2020-12-11T16:00
+T17	Time 738 743	21:00
+A115	Time_Type T17 Time
+#3	AnnotatorNotes T17	value=T2020-12-11T21:00
+T18	Event 755 767	não provocou
+A117	Class T18 Occurrence
+A118	Event_Type T18 Transition
+A119	Pos T18 Verb
+A120	Tense T18 Past
+A121	Aspect T18 Imperfective
+A124	Polarity T18 Neg
+T19	Event 832 837	estão
+A125	Class T19 State
+A126	Event_Type T19 State
+A127	Pos T19 Verb
+A128	Tense T19 Present
+A129	Aspect T19 Imperfective
+A132	Polarity T19 Pos
+T20	Event 354 357	foi
+A133	Event_Type T20 Transition
+A134	Pos T20 Verb
+A136	Aspect T20 Perfective
+A139	Polarity T20 Pos
+T21	Participant 125 141	Um automobilista
+A140	Lexical_Head T21 Noun
+A141	Individuation_Domain T21 Individual
+A142	Participant_Type_Domain T21 Per
+A143	Involvement T21 1
+T22	Participant 157 171	várias pessoas
+A144	Lexical_Head T22 Noun
+A145	Individuation_Domain T22 Individual
+A146	Participant_Type_Domain T22 Per
+A147	Involvement T22 >1
+T23	Participant 264 273	Manhattan
+A148	Lexical_Head T23 Noun
+A149	Individuation_Domain T23 Individual
+A150	Participant_Type_Domain T23 Loc
+A151	Involvement T23 1
+T24	Participant 275 286	Nova Iorque
+A152	Lexical_Head T24 Noun
+A153	Individuation_Domain T24 Individual
+A154	Participant_Type_Domain T24 Loc
+A155	Involvement T24 1
+T25	Participant 289 306	os Estados Unidos
+A156	Lexical_Head T25 Noun
+A157	Individuation_Domain T25 Individual
+A158	Participant_Type_Domain T25 Loc
+A159	Involvement T25 1
+R1	OLINK_partOf Arg1:T23 Arg2:T24	
+R2	OLINK_partOf Arg1:T24 Arg2:T25	
+T26	Participant 312 326	as autoridades
+A160	Lexical_Head T26 Noun
+A161	Individuation_Domain T26 Individual
+A162	Participant_Type_Domain T26 Org
+A163	Involvement T26 >1
+R3	TLINK_during Arg1:T1 Arg2:T3	
+R4	TLINK_after Arg1:T5 Arg2:T3	
+R5	TLINK_before Arg1:T20 Arg2:T5	
+R6	TLINK_identity Arg1:T8 Arg2:T1	
+R7	TLINK_identity Arg1:T9 Arg2:T8	
+R8	TLINK_after Arg1:T10 Arg2:T9	
+R9	TLINK_after Arg1:T11 Arg2:T10	
+R10	TLINK_before Arg1:T12 Arg2:T11	
+R11	TLINK_after Arg1:T13 Arg2:T12	
+R12	TLINK_identity Arg1:T13 Arg2:T11	
+R13	TLINK_identity Arg1:T14 Arg2:T8	
+R14	TLINK_before Arg1:T15 Arg2:T13	
+R15	TLINK_isIncluded Arg1:T18 Arg2:T15	
+R16	TLINK_includes Arg1:T19 Arg2:T18	
+T27	Participant 412 426	vários feridos
+A164	Lexical_Head T27 Noun
+A165	Individuation_Domain T27 Individual
+A166	Participant_Type_Domain T27 Per
+A167	Involvement T27 >1
+T28	Participant 428 434	alguns
+A168	Lexical_Head T28 Pronoun
+A169	Individuation_Domain T28 Individual
+A170	Participant_Type_Domain T28 Per
+A171	Involvement T28 >1
+T29	Participant 479 495	vários hospitais
+A172	Lexical_Head T29 Noun
+A173	Individuation_Domain T29 Individual
+A174	Participant_Type_Domain T29 Loc
+A175	Involvement T29 >1
+T30	Participant 497 510	a 'Big Apple'
+A176	Lexical_Head T30 Noun
+A177	Individuation_Domain T30 Individual
+A178	Participant_Type_Domain T30 Loc
+A179	Involvement T30 1
+R18	OLINK_objIdentity Arg1:T30 Arg2:T24	
+R19	OLINK_partOf Arg1:T29 Arg2:T30	
+T31	Participant 523 550	agência France-Presse (AFP)
+A180	Lexical_Head T31 Noun
+A181	Individuation_Domain T31 Individual
+A182	Participant_Type_Domain T31 Org
+A183	Involvement T31 1
+T32	Participant 551 582	a polícia de Nova Iorque (NYPD)
+A184	Lexical_Head T32 Noun
+A185	Individuation_Domain T32 Individual
+A186	Participant_Type_Domain T32 Org
+A187	Involvement T32 1
+T33	Participant 584 607	O condutor do automóvel
+A188	Lexical_Head T33 Noun
+A189	Individuation_Domain T33 Individual
+A190	Participant_Type_Domain T33 Per
+A191	Involvement T33 1
+T34	Participant 620 627	o local
+A192	Lexical_Head T34 Noun
+A193	Individuation_Domain T34 Individual
+A194	Participant_Type_Domain T34 Loc
+A195	Involvement T34 1
+T35	Participant 643 656	a mesma fonte
+A196	Lexical_Head T35 Noun
+A197	Individuation_Domain T35 Individual
+A198	Participant_Type_Domain T35 Org
+A199	Involvement T35 1
+T36	Participant 658 669	O porta-voz
+A200	Lexical_Head T36 Noun
+A201	Individuation_Domain T36 Individual
+A202	Participant_Type_Domain T36 Per
+A203	Involvement T36 1
+T37	Participant 671 680	a polícia
+A204	Lexical_Head T37 Noun
+A205	Individuation_Domain T37 Individual
+A206	Participant_Type_Domain T37 Org
+A207	Involvement T37 1
+T38	Participant 747 753	Lisboa
+A208	Lexical_Head T38 Noun
+A209	Individuation_Domain T38 Individual
+A210	Participant_Type_Domain T38 Loc
+A211	Involvement T38 1
+T39	Participant 768 774	mortos
+A212	Lexical_Head T39 Noun
+A213	Individuation_Domain T39 Individual
+A214	Participant_Type_Domain T39 Per
+A215	Involvement T39 0
+T40	Participant 786 817	Várias corporações de bombeiros
+A216	Lexical_Head T40 Noun
+A217	Individuation_Domain T40 Individual
+A218	Participant_Type_Domain T40 Org
+A219	Involvement T40 >1
+T41	Participant 820 831	ambulâncias
+A220	Lexical_Head T41 Noun
+A221	Individuation_Domain T41 Individual
+A222	Participant_Type_Domain T41 Obj
+A223	Involvement T41 >1
+T42	Participant 839 846	o local
+A224	Lexical_Head T42 Noun
+A225	Individuation_Domain T42 Individual
+A226	Participant_Type_Domain T42 Loc
+A227	Involvement T42 1
+R21	OLINK_objIdentity Arg1:T27 Arg2:T22	
+R22	OLINK_objIdentity Arg1:T32 Arg2:T26	
+R23	OLINK_objIdentity Arg1:T33 Arg2:T21	
+R20	OLINK_objIdentity Arg1:T34 Arg2:T23	
+R24	OLINK_objIdentity Arg1:T35 Arg2:T32	
+R25	OLINK_partOf Arg1:T36 Arg2:T37	
+R26	OLINK_objIdentity Arg1:T37 Arg2:T35	
+R27	OLINK_objIdentity Arg1:T42 Arg2:T34	
+R28	TLINK_isIncluded Arg1:T1 Arg2:T2	
+R29	TLINK_isIncluded Arg1:T15 Arg2:T16	
+R30	TLINK_identity Arg1:T17 Arg2:T16	
+R31	SRLINK_agent Arg1:T1 Arg2:T21	
+R32	SRLINK_patient Arg1:T1 Arg2:T22	
+R33	SRLINK_setting Arg1:T1 Arg2:T3	
+R35	SRLINK_location Arg1:T1 Arg2:T23	
+R36	SRLINK_location Arg1:T1 Arg2:T24	
+R37	SRLINK_location Arg1:T1 Arg2:T25	
+R38	SRLINK_agent Arg1:T5 Arg2:T26	
+R39	SRLINK_theme Arg1:T5 Arg2:T20	
+R40	SRLINK_theme Arg1:T20 Arg2:T6	
+R41	SRLINK_theme Arg1:T20 Arg2:T7	
+R42	SLINK_evidential Arg1:T20 Arg2:T5	
+R43	SRLINK_cause Arg1:T9 Arg2:T8	
+R44	SRLINK_theme Arg1:T9 Arg2:T27	
+R45	SRLINK_patient Arg1:T10 Arg2:T28	
+R46	SRLINK_finalLocation Arg1:T10 Arg2:T29	
+R47	SRLINK_goal Arg1:T11 Arg2:T31	
+R48	SRLINK_agent Arg1:T11 Arg2:T32	
+R49	SRLINK_theme Arg1:T11 Arg2:T9	
+R50	SLINK_evidential Arg1:T11 Arg2:T9	
+R51	SRLINK_patient Arg1:T12 Arg2:T33	
+R52	SRLINK_location Arg1:T12 Arg2:T34	
+R53	SRLINK_agent Arg1:T13 Arg2:T36	
+R54	SLINK_evidential Arg1:T13 Arg2:T14	
+R55	SRLINK_theme Arg1:T13 Arg2:T14	
+R56	TLINK_identity Arg1:T15 Arg2:T14	
+R57	SRLINK_theme Arg1:T15 Arg2:T14	
+R58	SRLINK_theme Arg1:T18 Arg2:T14	
+R59	SRLINK_theme Arg1:T18 Arg2:T39	
+T43	Time 775 784	até agora
+A228	TemporalFunction T43 None
+R60	TLINK_isIncluded Arg1:T18 Arg2:T43	
+R61	SRLINK_pivot Arg1:T19 Arg2:T40	
+R62	SRLINK_pivot Arg1:T19 Arg2:T41	
+R63	SRLINK_location Arg1:T19 Arg2:T42	
+A229	Time_Type T43 Duration
+T44	Participant 436 444	os quais
+A230	Lexical_Head T44 Pronoun
+A231	Individuation_Domain T44 Individual
+A232	Participant_Type_Domain T44 Per
+A233	Involvement T44 >1
+R64	OLINK_partOf Arg1:T28 Arg2:T44	
+R65	OLINK_objIdentity Arg1:T44 Arg2:T27	
+T45	Time 13 24	11 dez 2020
+A234	Time_Type T45 Date
+A235	TemporalFunction T45 Publication_Time
+#4	AnnotatorNotes T45	value=2020-12-11
+R17	TLINK_identity Arg1:T2 Arg2:T45	
+A6	Polarity T1 Pos
+A7	Aspect T9 Perfective
+T4	Participant 198 259	o movimento “Black Lives Matter” (“As Vidas Negras Importam”)
+A13	Lexical_Head T4 Noun
+A14	Individuation_Domain T4 Individual
+A15	Participant_Type_Domain T4 Org
+A16	Involvement T4 1
+R34	SRLINK_agent Arg1:T3 Arg2:T4	
+A18	Tense T5 Past
+A19	Class T20 Occurrence
+A20	Tense T20 Past
+A21	Event_Type T11 Transition
+R66	TLINK_identity Arg1:T2 Arg2:T45	
+#5	AnnotatorNotes T43	anchorTime=Publication_Time

@@ -1,0 +1,266 @@
+T2	Time 17 28	15 dez 2020
+A7	Time_Type T2 Date
+A8	TemporalFunction T2 Publication_Time
+#1	AnnotatorNotes T2	value=2020-12-15
+T1	Event 122 133	identificou
+A1	Class T1 Occurrence
+A2	Event_Type T1 Transition
+A3	Pos T1 Verb
+A4	Tense T1 Past
+A5	Aspect T1 Perfective
+A6	Polarity T1 Pos
+T3	Event 150 160	exploração
+A9	Class T3 I_Action
+A10	Event_Type T3 Process
+A11	Pos T3 Noun
+A12	Polarity T3 Pos
+T4	Event 164 175	jogo ilegal
+A13	Class T4 Occurrence
+A14	Event_Type T4 Process
+A15	Pos T4 Noun
+A16	Polarity T4 Pos
+T5	Event 177 186	apreendeu
+A17	Class T5 Occurrence
+A18	Event_Type T5 Transition
+A19	Pos T5 Verb
+A20	Tense T5 Past
+A21	Aspect T5 Perfective
+A22	Polarity T5 Pos
+T6	Event 213 221	elaborou
+A23	Class T6 I_Action
+A24	Event_Type T6 Transition
+A25	Pos T6 Verb
+A26	Tense T6 Past
+A27	Aspect T6 Perfective
+A28	Polarity T6 Pos
+T7	Event 234 249	contraordenação
+A29	Class T7 Occurrence
+A30	Event_Type T7 Transition
+A31	Pos T7 Noun
+A32	Polarity T7 Pos
+T8	Event 225 230	autos
+A33	Class T8 Occurrence
+A34	Event_Type T8 Transition
+A35	Pos T8 Noun
+A36	Polarity T8 Pos
+R1	TLINK_identity Arg1:T7 Arg2:T8	
+T9	Event 254 264	exploração
+A37	Event_Type T9 Process
+A38	Pos T9 Noun
+A39	Polarity T9 Pos
+A40	Class T9 I_Action
+T10	Event 329 337	anunciou
+A41	Class T10 Reporting
+A42	Event_Type T10 Transition
+A43	Pos T10 Verb
+A44	Tense T10 Past
+A45	Aspect T10 Perfective
+A46	Polarity T10 Pos
+T11	Event 357 367	comunicado
+A47	Class T11 Reporting
+A48	Event_Type T11 Transition
+A49	Pos T11 Noun
+A50	Polarity T11 Pos
+T12	Event 375 382	adianta
+A51	Class T12 Reporting
+A52	Event_Type T12 Transition
+A53	Pos T12 Verb
+A54	Tense T12 Present
+A55	Aspect T12 Imperfective
+A56	Polarity T12 Pos
+T13	Event 400 403	têm
+A57	Class T13 State
+A58	Event_Type T13 State
+A59	Pos T13 Verb
+A60	Tense T13 Present
+A61	Aspect T13 Imperfective
+A62	Polarity T13 Pos
+T14	Event 428 432	ação
+A63	Class T14 Occurrence
+A64	Event_Type T14 Process
+A65	Pos T14 Noun
+A66	Polarity T14 Pos
+T15	Event 433 441	decorreu
+A67	Class T15 Occurrence
+A68	Event_Type T15 Process
+A69	Pos T15 Verb
+A70	Tense T15 Past
+A71	Aspect T15 Perfective
+A72	Polarity T15 Pos
+T16	Event 459 471	fiscalização
+A73	Class T16 Occurrence
+A74	Event_Type T16 Process
+A75	Pos T16 Noun
+A76	Polarity T16 Pos
+T17	Event 554 564	apreendido
+A77	Class T17 Occurrence
+A78	Event_Type T17 Transition
+A79	Pos T17 Verb
+A80	Tense T17 Past
+A81	Aspect T17 Perfective
+A82	Polarity T17 Pos
+T18	Event 697 706	remetidos
+A83	Class T18 Occurrence
+A84	Event_Type T18 Transition
+A85	Pos T18 Verb
+A86	Tense T18 Past
+A87	Aspect T18 Perfective
+A88	Polarity T18 Pos
+T19	Event 684 690	factos
+A89	Class T19 State
+A90	Event_Type T19 State
+A91	Pos T19 Noun
+A92	Polarity T19 Pos
+R2	TLINK_before Arg1:T3 Arg2:T1	
+R3	TLINK_identity Arg1:T4 Arg2:T3	
+R4	TLINK_simultaneous Arg1:T5 Arg2:T1	
+R5	TLINK_simultaneous Arg1:T6 Arg2:T5	
+R6	TLINK_isIncluded Arg1:T8 Arg2:T6	
+R7	TLINK_simultaneous Arg1:T9 Arg2:T7	
+R8	TLINK_after Arg1:T10 Arg2:T6	
+R9	TLINK_after Arg1:T10 Arg2:T9	
+R10	TLINK_includes Arg1:T11 Arg2:T10	
+R11	TLINK_isIncluded Arg1:T12 Arg2:T11	
+R12	TLINK_includes Arg1:T13 Arg2:T12	
+R13	TLINK_isIncluded Arg1:T14 Arg2:T13	
+R14	TLINK_identity Arg1:T15 Arg2:T14	
+R15	TLINK_includes Arg1:T16 Arg2:T15	
+R16	TLINK_isIncluded Arg1:T17 Arg2:T16	
+R17	TLINK_after Arg1:T18 Arg2:T19	
+R18	TLINK_simultaneous Arg1:T19 Arg2:T17	
+T20	Participant 116 121	A GNR
+A93	Lexical_Head T20 Noun
+A94	Individuation_Domain T20 Individual
+A95	Participant_Type_Domain T20 Org
+A96	Involvement T20 1
+T21	Participant 134 145	dois homens
+A97	Lexical_Head T21 Noun
+A98	Individuation_Domain T21 Individual
+A99	Participant_Type_Domain T21 Per
+A100	Involvement T21 >1
+T22	Participant 187 210	quatro máquinas de jogo
+A101	Lexical_Head T22 Noun
+A102	Individuation_Domain T22 Individual
+A103	Participant_Type_Domain T22 Obj
+A104	Involvement T22 >1
+T23	Participant 269 285	máquinas ilegais
+A105	Lexical_Head T23 Noun
+A106	Individuation_Domain T23 Individual
+A107	Participant_Type_Domain T23 Obj
+A108	Involvement T23 >1
+T24	Participant 290 298	Vila Meã
+A109	Lexical_Head T24 Noun
+A110	Individuation_Domain T24 Individual
+A111	Participant_Type_Domain T24 Loc
+A112	Involvement T24 1
+T25	Participant 300 308	Amarante
+A113	Lexical_Head T25 Noun
+A114	Individuation_Domain T25 Individual
+A115	Participant_Type_Domain T25 Loc
+A116	Involvement T25 1
+T26	Participant 310 327	distrito do Porto
+A117	Lexical_Head T26 Noun
+A118	Individuation_Domain T26 Individual
+A119	Participant_Type_Domain T26 Loc
+A120	Involvement T26 1
+T27	Participant 338 352	fonte policial
+A121	Lexical_Head T27 Noun
+A122	Individuation_Domain T27 Individual
+A123	Participant_Type_Domain T27 Org
+A124	Involvement T27 1
+T28	Participant 369 374	a GNR
+A125	Lexical_Head T28 Noun
+A126	Individuation_Domain T28 Individual
+A127	Participant_Type_Domain T28 Org
+A128	Involvement T28 1
+T29	Participant 387 399	os suspeitos
+A129	Lexical_Head T29 Noun
+A130	Individuation_Domain T29 Individual
+A131	Participant_Type_Domain T29 Per
+A132	Involvement T29 >1
+T30	Participant 404 419	de 30 e 60 anos
+A133	Lexical_Head T30 Noun
+A134	Individuation_Domain T30 Individual
+A135	Participant_Type_Domain T30 Other
+A136	Involvement T30 >1
+T31	Participant 474 515	estabelecimentos de restauração e bebidas
+A137	Lexical_Head T31 Noun
+A138	Individuation_Domain T31 Individual
+A139	Participant_Type_Domain T31 Org
+A140	Involvement T31 >1
+T32	Participant 526 542	máquinas de jogo
+A141	Lexical_Head T32 Noun
+A142	Individuation_Domain T32 Individual
+A143	Participant_Type_Domain T32 Obj
+A144	Involvement T32 >1
+T33	Participant 565 577	um telemóvel
+A145	Lexical_Head T33 Noun
+A146	Individuation_Domain T33 Individual
+A147	Participant_Type_Domain T33 Obj
+A148	Involvement T33 1
+T34	Participant 579 588	um tablet
+A149	Lexical_Head T34 Noun
+A150	Individuation_Domain T34 Individual
+A151	Participant_Type_Domain T34 Obj
+A152	Involvement T34 1
+T35	Participant 590 618	um computador com impressora
+A153	Lexical_Head T35 Noun
+A154	Individuation_Domain T35 Individual
+A155	Participant_Type_Domain T35 Obj
+A156	Involvement T35 1
+T36	Participant 621 679	nove litros de bebidas espirituosas, sem estampilha fiscal
+A157	Lexical_Head T36 Noun
+A158	Participant_Type_Domain T36 Obj
+A159	Involvement T36 >1
+T37	Participant 710 739	Tribunal Judicial de Amarante
+A160	Lexical_Head T37 Noun
+A161	Individuation_Domain T37 Individual
+A162	Participant_Type_Domain T37 Loc
+A163	Involvement T37 1
+R19	OLINK_partOf Arg1:T24 Arg2:T25	
+R20	OLINK_partOf Arg1:T25 Arg2:T26	
+R21	OLINK_partOf Arg1:T27 Arg2:T20	
+R22	OLINK_objIdentity Arg1:T23 Arg2:T22	
+R23	OLINK_objIdentity Arg1:T28 Arg2:T20	
+R24	OLINK_objIdentity Arg1:T29 Arg2:T21	
+R25	OLINK_objIdentity Arg1:T32 Arg2:T23	
+R26	SRLINK_agent Arg1:T1 Arg2:T20	
+R27	SRLINK_patient Arg1:T1 Arg2:T21	
+R28	SRLINK_reason Arg1:T1 Arg2:T3	
+R29	SRLINK_theme Arg1:T3 Arg2:T4	
+R30	SRLINK_agent Arg1:T5 Arg2:T20	
+R31	SRLINK_patient Arg1:T5 Arg2:T22	
+R32	SRLINK_agent Arg1:T6 Arg2:T20	
+R33	SRLINK_result Arg1:T6 Arg2:T8	
+R34	SRLINK_theme Arg1:T8 Arg2:T7	
+R35	SRLINK_reason Arg1:T7 Arg2:T9	
+R36	SRLINK_theme Arg1:T9 Arg2:T23	
+R37	SRLINK_agent Arg1:T10 Arg2:T27	
+R38	SLINK_evidential Arg1:T10 Arg2:T1	
+R39	SRLINK_theme Arg1:T10 Arg2:T1	
+R40	SRLINK_medium Arg1:T12 Arg2:T11	
+R41	SRLINK_agent Arg1:T12 Arg2:T28	
+R42	SLINK_evidential Arg1:T12 Arg2:T13	
+R43	SRLINK_theme Arg1:T12 Arg2:T13	
+R44	SRLINK_pivot Arg1:T13 Arg2:T29	
+R45	SRLINK_theme Arg1:T13 Arg2:T30	
+R46	SRLINK_theme Arg1:T15 Arg2:T14	
+R47	SRLINK_setting Arg1:T15 Arg2:T16	
+R48	SRLINK_goal Arg1:T16 Arg2:T31	
+R49	SRLINK_agent Arg1:T16 Arg2:T28	
+R50	SRLINK_patient Arg1:T17 Arg2:T33	
+R51	SRLINK_patient Arg1:T17 Arg2:T32	
+R52	SRLINK_patient Arg1:T17 Arg2:T34	
+R53	SRLINK_patient Arg1:T17 Arg2:T35	
+R54	SRLINK_patient Arg1:T17 Arg2:T36	
+R55	SRLINK_patient Arg1:T18 Arg2:T19	
+R56	SRLINK_finalLocation Arg1:T18 Arg2:T37	
+R57	SRLINK_location Arg1:T6 Arg2:T24	
+R58	SRLINK_location Arg1:T6 Arg2:T25	
+R59	SRLINK_location Arg1:T6 Arg2:T26	
+R60	SRLINK_location Arg1:T5 Arg2:T24	
+R61	SRLINK_location Arg1:T5 Arg2:T25	
+R62	SRLINK_location Arg1:T5 Arg2:T26	
+R63	SRLINK_location Arg1:T1 Arg2:T24	
+R64	SRLINK_location Arg1:T1 Arg2:T25	
+R65	SRLINK_location Arg1:T1 Arg2:T26	

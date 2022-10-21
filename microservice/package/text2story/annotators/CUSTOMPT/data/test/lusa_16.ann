@@ -1,0 +1,366 @@
+T1	Time 18 29	14 out 2020
+A1	Time_Type T1 Date
+A2	TemporalFunction T1 Publication_Time
+#1	AnnotatorNotes T1	value=2020-10-14 
+T2	Event 108 115	desabou
+A3	Class T2 Occurrence
+A4	Event_Type T2 Transition
+A5	Pos T2 Verb
+A6	Tense T2 Past
+A7	Aspect T2 Perfective
+A8	Polarity T2 Pos
+T4	Event 191 208	graves inundações
+A13	Class T4 Occurrence
+A14	Event_Type T4 Transition
+A15	Pos T4 Noun
+A16	Polarity T4 Pos
+T5	Event 213 220	mataram
+A17	Class T5 Occurrence
+A18	Event_Type T5 Transition
+A19	Pos T5 Verb
+A20	Tense T5 Past
+A21	Aspect T5 Perfective
+A22	Polarity T5 Pos
+T6	Event 246 251	disse
+A23	Class T6 Reporting
+A24	Event_Type T6 Transition
+A25	Pos T6 Verb
+A26	Tense T6 Past
+A27	Aspect T6 Perfective
+A28	Polarity T6 Pos
+T7	Time 252 256	hoje
+A29	Time_Type T7 Date
+A30	TemporalFunction T7 Publication_Time
+#2	AnnotatorNotes T7	value=2020-10-14 anchorTime=Publication_Time
+T8	Event 319 333	hospitalizadas
+A31	Class T8 Occurrence
+A32	Event_Type T8 Transition
+A33	Pos T8 Verb
+A34	Tense T8 Past
+A35	Aspect T8 Perfective
+A36	Polarity T8 Pos
+T9	Event 356 361	caído
+A37	Class T9 Occurrence
+A38	Event_Type T9 Transition
+A39	Pos T9 Verb
+A40	Tense T9 Past
+A41	Aspect T9 Perfective
+A42	VForm T9 Infinitive
+A43	Polarity T9 Pos
+T10	Event 390 397	desabou
+A44	Class T10 Occurrence
+A45	Event_Type T10 Transition
+A46	Pos T10 Verb
+A47	Tense T10 Past
+A48	Aspect T10 Perfective
+A49	Polarity T10 Pos
+T11	Event 404 411	impacto
+A50	Class T11 State
+A51	Event_Type T11 State
+A52	Pos T11 Noun
+A53	Polarity T11 Pos
+T3	Participant 166 188	chuvas sem precedentes
+A9	Lexical_Head T3 Noun
+A10	Individuation_Domain T3 Mass
+A11	Participant_Type_Domain T3 Nat
+A12	Involvement T3 Und
+T12	Event 440 447	quebrou
+A54	Class T12 Occurrence
+A55	Event_Type T12 Transition
+A56	Pos T12 Verb
+A57	Tense T12 Past
+A58	Aspect T12 Perfective
+A59	Polarity T12 Pos
+T13	Event 459 471	estabelecido
+A60	Class T13 State
+A61	Event_Type T13 State
+A62	Pos T13 Verb
+A63	VForm T13 Participle
+A64	Polarity T13 Pos
+T14	Event 484 497	registando-se
+A65	Class T14 Occurrence
+A66	Event_Type T14 Transition
+A67	Pos T14 Verb
+A68	Tense T14 Present
+A69	Aspect T14 Imperfective
+A70	VForm T14 Gerundive
+A71	Polarity T14 Pos
+T15	Event 498 508	inundações
+A72	Class T15 Occurrence
+A73	Event_Type T15 Transition
+A74	Pos T15 Noun
+A75	Polarity T15 Pos
+T16	Event 556 562	usaram
+A76	Class T16 Occurrence
+A77	Event_Type T16 Transition
+A78	Pos T16 Verb
+A79	Tense T16 Past
+A80	Aspect T16 Perfective
+A81	Polarity T16 Pos
+T17	Event 575 582	retirar
+A82	Class T17 Occurrence
+A83	Event_Type T17 Transition
+A84	Pos T17 Verb
+A85	Tense T17 Past
+A86	Aspect T17 Perfective
+A87	Polarity T17 Pos
+T18	Event 651 659	afetadas
+A88	Class T18 Occurrence
+A89	Event_Type T18 Transition
+A90	Pos T18 Verb
+A91	Tense T18 Past
+A92	Aspect T18 Perfective
+A93	Polarity T18 Pos
+T19	Event 664 682	severas inundações
+A94	Class T19 Occurrence
+A95	Event_Type T19 Transition
+A96	Pos T19 Noun
+A97	Polarity T19 Pos
+T20	Event 714 722	morreram
+A98	Class T20 Occurrence
+A99	Event_Type T20 Transition
+A100	Pos T20 Verb
+A101	Tense T20 Past
+A102	Aspect T20 Perfective
+A103	Polarity T20 Pos
+T21	Event 776 786	deslocadas
+A104	Class T21 Occurrence
+A105	Event_Type T21 Transition
+A106	Pos T21 Verb
+A107	Tense T21 Past
+A108	Aspect T21 Perfective
+A109	Polarity T21 Pos
+T22	Event 815 824	enchentes
+A110	Class T22 Occurrence
+A111	Event_Type T22 Transition
+A112	Pos T22 Noun
+A113	Polarity T22 Pos
+T23	Event 825 834	começaram
+A114	Class T23 Aspectual
+A115	Event_Type T23 Transition
+A116	Pos T23 Verb
+A117	Tense T23 Past
+A118	Aspect T23 Perfective
+A119	Polarity T23 Pos
+R1	TLINK_before Arg1:T4 Arg2:T2	
+R2	TLINK_simultaneous Arg1:T5 Arg2:T4	
+R3	TLINK_after Arg1:T6 Arg2:T5	
+R4	TLINK_isIncluded Arg1:T6 Arg2:T7	
+R5	TLINK_before Arg1:T8 Arg2:T6	
+R6	TLINK_before Arg1:T9 Arg2:T8	
+R7	TLINK_after Arg1:T10 Arg2:T9	
+R8	TLINK_simultaneous Arg1:T11 Arg2:T10	
+R9	TLINK_before Arg1:T13 Arg2:T12	
+R10	TLINK_after Arg1:T14 Arg2:T13	
+T24	Time 472 482	há 20 anos
+A120	TemporalFunction T24 None
+#3	AnnotatorNotes T24	value=2000-XX-XX anchorTime=Publication_Time
+A121	Time_Type T24 Date
+R11	TLINK_isIncluded Arg1:T13 Arg2:T24	
+R12	TLINK_includes Arg1:T12 Arg2:T11	
+R13	TLINK_simultaneous Arg1:T15 Arg2:T14	
+R14	TLINK_after Arg1:T16 Arg2:T15	
+R15	TLINK_simultaneous Arg1:T17 Arg2:T16	
+R16	TLINK_includes Arg1:T18 Arg2:T17	
+R17	TLINK_simultaneous Arg1:T19 Arg2:T18	
+T25	Time 683 691	este ano
+A122	Time_Type T25 Date
+A123	TemporalFunction T25 None
+#4	AnnotatorNotes T25	value=2020-XX-XX anchorTime=Publication_Time
+R18	TLINK_isIncluded Arg1:T19 Arg2:T25	
+R19	TLINK_simultaneous Arg1:T21 Arg2:T20	
+R20	ALINK_initiates Arg1:T23 Arg2:T22	
+R21	TLINK_begins Arg1:T23 Arg2:T22	
+R22	TLINK_before Arg1:T22 Arg2:T21	
+R23	TLINK_isIncluded Arg1:T20 Arg2:T25	
+T26	Participant 99 107	Uma casa
+A124	Lexical_Head T26 Noun
+A125	Individuation_Domain T26 Individual
+A126	Participant_Type_Domain T26 Other
+A127	Involvement T26 1
+T27	Participant 119 138	cidade de Hyderabad
+A128	Lexical_Head T27 Noun
+A129	Individuation_Domain T27 Individual
+A130	Participant_Type_Domain T27 Loc
+A131	Involvement T27 1
+T28	Participant 143 155	sul da Índia
+A132	Lexical_Head T28 Noun
+A133	Individuation_Domain T28 Individual
+A134	Participant_Type_Domain T28 Loc
+A135	Involvement T28 1
+T29	Participant 221 244	pelo menos oito pessoas
+A136	Lexical_Head T29 Noun
+A137	Individuation_Domain T29 Individual
+A138	Participant_Type_Domain T29 Per
+A139	Involvement T29 >1
+T30	Participant 257 272	a polícia local
+A140	Lexical_Head T30 Noun
+A141	Individuation_Domain T30 Individual
+A142	Participant_Type_Domain T30 Org
+A143	Involvement T30 1
+T31	Participant 283 289	mortos
+A144	Lexical_Head T31 Noun
+A145	Individuation_Domain T31 Individual
+A146	Participant_Type_Domain T31 Per
+A147	Involvement T31 >1
+T32	Participant 291 312	outras quatro pessoas
+A148	Lexical_Head T32 Noun
+A149	Individuation_Domain T32 Individual
+A150	Participant_Type_Domain T32 Per
+A151	Involvement T32 >1
+T33	Participant 344 351	um muro
+A152	Lexical_Head T33 Noun
+A153	Individuation_Domain T33 Individual
+A154	Participant_Type_Domain T33 Other
+A155	Involvement T33 1
+T34	Participant 368 384	uma casa vizinha
+A156	Lexical_Head T34 Noun
+A157	Individuation_Domain T34 Individual
+A158	Participant_Type_Domain T34 Other
+A159	Involvement T34 1
+T35	Participant 413 426	A forte chuva
+A160	Lexical_Head T35 Noun
+A161	Individuation_Domain T35 Individual
+A162	Participant_Type_Domain T35 Nat
+A163	Involvement T35 Und
+T36	Participant 430 439	Hyderabad
+A164	Lexical_Head T36 Noun
+A165	Individuation_Domain T36 Individual
+A166	Participant_Type_Domain T36 Loc
+A167	Involvement T36 1
+T37	Participant 448 458	um recorde
+A168	Lexical_Head T37 Noun
+A169	Individuation_Domain T37 Individual
+A170	Participant_Type_Domain T37 Other
+A171	Involvement T37 1
+T38	Participant 512 524	áreas baixas
+A172	Lexical_Head T38 Noun
+A173	Individuation_Domain T38 Individual
+A174	Participant_Type_Domain T38 Loc
+A175	Involvement T38 >1
+T39	Participant 536 540	onde
+A176	Lexical_Head T39 Pronoun
+A177	Individuation_Domain T39 Individual
+A178	Participant_Type_Domain T39 Loc
+A179	Involvement T39 >1
+T40	Participant 541 555	as autoridades
+A180	Lexical_Head T40 Noun
+A181	Individuation_Domain T40 Individual
+A182	Participant_Type_Domain T40 Org
+A183	Involvement T40 >1
+T41	Participant 563 569	barcos
+A184	Lexical_Head T41 Noun
+A185	Individuation_Domain T41 Individual
+A186	Participant_Type_Domain T41 Obj
+A187	Involvement T41 >1
+T42	Participant 583 590	pessoas
+A188	Lexical_Head T42 Noun
+A189	Individuation_Domain T42 Individual
+A190	Participant_Type_Domain T42 Per
+A191	Involvement T42 Und
+T43	Participant 592 622	Mais de 9,6 milhões de pessoas
+A192	Lexical_Head T43 Noun
+A193	Individuation_Domain T43 Individual
+A194	Participant_Type_Domain T43 Per
+A195	Involvement T43 >1
+T44	Participant 626 644	todo o sul da Ásia
+A196	Lexical_Head T44 Noun
+A197	Individuation_Domain T44 Individual
+A198	Participant_Type_Domain T44 Loc
+A199	Involvement T44 All
+T45	Participant 693 713	Cerca de 550 pessoas
+A200	Lexical_Head T45 Noun
+A201	Individuation_Domain T45 Individual
+A202	Participant_Type_Domain T45 Per
+A203	Involvement T45 >1
+T46	Participant 726 731	Índia
+A204	Lexical_Head T46 Noun
+A205	Individuation_Domain T46 Individual
+A206	Participant_Type_Domain T46 Loc
+A207	Involvement T46 1
+T47	Participant 733 743	Bangladesh
+A208	Lexical_Head T47 Noun
+A209	Individuation_Domain T47 Individual
+A210	Participant_Type_Domain T47 Loc
+A211	Involvement T47 1
+T48	Participant 746 751	Nepal
+A212	Lexical_Head T48 Noun
+A213	Individuation_Domain T48 Individual
+A214	Participant_Type_Domain T48 Loc
+A215	Involvement T48 1
+T49	Participant 762 769	milhões
+A216	Lexical_Head T49 Pronoun
+A217	Individuation_Domain T49 Individual
+A218	Participant_Type_Domain T49 Per
+A219	Involvement T49 >1
+T50	Participant 791 795	suas
+A220	Lexical_Head T50 Pronoun
+A221	Individuation_Domain T50 Individual
+A222	Participant_Type_Domain T50 Per
+A223	Involvement T50 >1
+T51	Participant 796 801	casas
+A224	Lexical_Head T51 Noun
+A225	Individuation_Domain T51 Individual
+A226	Participant_Type_Domain T51 Other
+A227	Involvement T51 >1
+T52	Time 839 844	junho
+A228	Time_Type T52 Date
+A229	TemporalFunction T52 None
+#5	AnnotatorNotes T52	value=2020-06-XX anchorTime=Publication_Time
+R24	TLINK_isIncluded Arg1:T23 Arg2:T52	
+R25	OLINK_partOf Arg1:T27 Arg2:T28	
+R26	OLINK_objIdentity Arg1:T31 Arg2:T29	
+R27	OLINK_refDisjunct Arg1:T32 Arg2:T31	
+R28	OLINK_objIdentity Arg1:T35 Arg2:T3	
+R29	OLINK_objIdentity Arg1:T36 Arg2:T27	
+T53	Participant 528 534	cidade
+A230	Lexical_Head T53 Noun
+A231	Individuation_Domain T53 Individual
+A232	Participant_Type_Domain T53 Loc
+A233	Involvement T53 1
+R30	OLINK_partOf Arg1:T38 Arg2:T53	
+R31	OLINK_objIdentity Arg1:T53 Arg2:T36	
+R32	OLINK_objIdentity Arg1:T39 Arg2:T38	
+R33	OLINK_partOf Arg1:T30 Arg2:T40	
+R34	OLINK_partOf Arg1:T45 Arg2:T43	
+R35	OLINK_partOf Arg1:T49 Arg2:T43	
+R36	OLINK_objIdentity Arg1:T50 Arg2:T49	
+R37	OLINK_partOf Arg1:T51 Arg2:T50	
+R38	SRLINK_patient Arg1:T2 Arg2:T26	
+R39	SRLINK_location Arg1:T2 Arg2:T27	
+R40	SRLINK_reason Arg1:T2 Arg2:T3	
+R41	SRLINK_reason Arg1:T2 Arg2:T4	
+R42	SRLINK_cause Arg1:T5 Arg2:T4	
+R43	SRLINK_cause Arg1:T5 Arg2:T3	
+R44	SRLINK_patient Arg1:T5 Arg2:T29	
+R45	SLINK_evidential Arg1:T6 Arg2:T2	
+R46	SRLINK_theme Arg1:T6 Arg2:T2	
+R47	SRLINK_agent Arg1:T6 Arg2:T30	
+R48	SRLINK_patient Arg1:T8 Arg2:T32	
+R49	SRLINK_patient Arg1:T9 Arg2:T33	
+R50	SRLINK_beneficiary Arg1:T9 Arg2:T34	
+R51	SRLINK_patient Arg1:T10 Arg2:T34	
+R52	SRLINK_reason Arg1:T10 Arg2:T11	
+R53	SRLINK_cause Arg1:T12 Arg2:T35	
+R54	SRLINK_location Arg1:T12 Arg2:T36	
+R55	SRLINK_theme Arg1:T12 Arg2:T37	
+R56	SRLINK_pivot Arg1:T13 Arg2:T37	
+R57	SRLINK_theme Arg1:T14 Arg2:T15	
+R58	SRLINK_location Arg1:T14 Arg2:T38	
+R59	SRLINK_agent Arg1:T16 Arg2:T40	
+R60	SRLINK_instrument Arg1:T16 Arg2:T41	
+R61	SRLINK_location Arg1:T16 Arg2:T39	
+R62	SRLINK_purpose Arg1:T16 Arg2:T17	
+R63	SRLINK_patient Arg1:T17 Arg2:T42	
+R64	SRLINK_agent Arg1:T17 Arg2:T40	
+R65	SRLINK_patient Arg1:T18 Arg2:T43	
+R66	SRLINK_location Arg1:T18 Arg2:T44	
+R67	SRLINK_cause Arg1:T18 Arg2:T19	
+R68	SRLINK_patient Arg1:T20 Arg2:T45	
+R69	SRLINK_location Arg1:T20 Arg2:T46	
+R70	SRLINK_location Arg1:T20 Arg2:T47	
+R71	SRLINK_location Arg1:T20 Arg2:T48	
+R72	SRLINK_patient Arg1:T21 Arg2:T49	
+R73	SRLINK_initialLocation Arg1:T21 Arg2:T51	
+R74	SRLINK_reason Arg1:T21 Arg2:T22	
+R75	SRLINK_theme Arg1:T23 Arg2:T22	

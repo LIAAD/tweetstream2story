@@ -1,0 +1,301 @@
+T1	Event 37 43	acabou
+A1	Class T1 Occurrence
+A2	Event_Type T1 Transition
+A3	Pos T1 Verb
+A4	Tense T1 Past
+A5	Aspect T1 Perfective
+A8	Polarity T1 Pos
+T2	Time 47 53	sábado
+A9	Time_Type T2 Date
+#1	AnnotatorNotes T2	value=2020-10-10 anchorTIme=Publication_Time
+T3	Event 62 74	festa ilegal
+A11	Class T3 Occurrence
+A12	Event_Type T3 Process
+A13	Pos T3 Noun
+A18	Polarity T3 Pos
+T4	Event 134 140	reunia
+A19	Class T4 State
+A20	Event_Type T4 State
+A21	Pos T4 Verb
+A22	Tense T4 Past
+A23	Aspect T4 Progressive
+A26	Polarity T4 Pos
+T5	Time 166 170	hoje
+A27	Time_Type T5 Date
+A28	TemporalFunction T5 Publication_Time
+#2	AnnotatorNotes T5	value=2020-10-11
+T6	Event 171 180	anunciado
+A29	Class T6 Reporting
+A30	Event_Type T6 Transition
+A31	Pos T6 Verb
+A32	Tense T6 Past
+A33	Aspect T6 Perfective
+A34	VForm T6 Participle
+A36	Polarity T6 Pos
+T7	Event 234 241	adianta
+A37	Class T7 Reporting
+A38	Event_Type T7 Process
+A39	Pos T7 Verb
+A40	Tense T7 Present
+A41	Aspect T7 Imperfective
+A44	Polarity T7 Pos
+T8	Event 267 275	denúncia
+A45	Class T8 Reporting
+A46	Pos T8 Noun
+A51	Polarity T8 Pos
+T9	Event 276 286	a informar
+A52	Event_Type T9 Transition
+A53	Pos T9 Verb
+A54	Aspect T9 Progressive
+A55	VForm T9 Infinitive
+A56	Polarity T9 Pos
+T10	Event 295 305	existência
+A57	Class T10 State
+A58	Event_Type T10 State
+A59	Pos T10 Noun
+A64	Polarity T10 Pos
+T11	Event 314 319	festa
+A65	Class T11 Occurrence
+A66	Event_Type T11 Process
+A69	Polarity T11 Pos
+T12	Event 422 435	deslocaram-se
+A70	Class T12 Occurrence
+A71	Event_Type T12 Process
+A72	Pos T12 Verb
+A73	Tense T12 Past
+A74	Aspect T12 Perfective
+A77	Polarity T12 Pos
+T13	Event 450 460	fiscalizar
+A78	Class T13 Occurrence
+A79	Event_Type T13 Process
+A82	VForm T13 Infinitive
+A84	Polarity T13 Pos
+T14	Event 463 473	ocorrência
+A85	Class T14 Occurrence
+A86	Pos T14 Noun
+A91	Polarity T14 Pos
+T15	Event 488 502	desmobilizaram
+A92	Class T15 Occurrence
+A93	Event_Type T15 Transition
+A94	Pos T15 Verb
+A95	Tense T15 Past
+A96	Aspect T15 Perfective
+A99	Polarity T15 Pos
+T16	Event 520 531	cumprimento
+A100	Class T16 Occurrence
+A101	Event_Type T16 State
+A102	Pos T16 Noun
+A103	Tense T16 None
+A104	Aspect T16 None
+A105	VForm T16 None
+A106	Mood T16 None
+A107	Polarity T16 Pos
+T17	Event 556 576	pandemia de covid-19
+A108	Class T17 Occurrence
+A109	Event_Type T17 State
+A110	Pos T17 Noun
+A115	Polarity T17 Pos
+T18	Event 595 603	referido
+A116	Class T18 Reporting
+A117	Event_Type T18 Transition
+A118	Pos T18 Verb
+A119	Tense T18 Present
+A120	Aspect T18 Imperfective
+A123	Polarity T18 Pos
+T19	Event 627 639	identificado
+A124	Class T19 Occurrence
+A125	Event_Type T19 Transition
+A126	Pos T19 Verb
+A127	Tense T19 Past
+A130	Polarity T19 Pos
+T20	Event 646 655	elaborado
+A131	Class T20 Occurrence
+A132	Event_Type T20 Transition
+A133	Pos T20 Verb
+A134	Tense T20 Past
+A135	Aspect T20 Perfective
+A136	VForm T20 Participle
+A138	Polarity T20 Pos
+T21	Event 543 553	referentes
+A139	Class T21 State
+A143	Polarity T21 Pos
+R1	TLINK_isIncluded Arg1:T1 Arg2:T2	
+R2	TLINK_before Arg1:T4 Arg2:T1	
+R3	TLINK_isIncluded Arg1:T6 Arg2:T5	
+R4	TLINK_after Arg1:T6 Arg2:T4	
+R6	TLINK_identity Arg1:T9 Arg2:T8	
+R7	TLINK_before Arg1:T8 Arg2:T7	
+R8	TLINK_identity Arg1:T11 Arg2:T3	
+R9	TLINK_identity Arg1:T11 Arg2:T10	
+R10	SRLINK_reason Arg1:T12 Arg2:T8	
+R11	TLINK_isIncluded Arg1:T13 Arg2:T12	
+R12	TLINK_identity Arg1:T14 Arg2:T10	
+R13	TLINK_after Arg1:T15 Arg2:T12	
+R14	TLINK_identity Arg1:T16 Arg2:T15	
+R15	TLINK_after Arg1:T18 Arg2:T15	
+R16	TLINK_before Arg1:T19 Arg2:T18	
+R17	TLINK_simultaneous Arg1:T20 Arg2:T19	
+R18	TLINK_identity Arg1:T18 Arg2:T7	
+T24	Participant 31 36	A GNR
+A151	Lexical_Head T24 Noun
+A152	Individuation_Domain T24 Individual
+A153	Participant_Type_Domain T24 Org
+A154	Involvement T24 1
+T25	Participant 86 94	Corotelo
+A159	Lexical_Head T25 Noun
+A160	Individuation_Domain T25 Individual
+A161	Participant_Type_Domain T25 Loc
+A162	Involvement T25 1
+T23	Participant 96 128	concelho de São Brás de Alportel
+A163	Lexical_Head T23 Noun
+A164	Individuation_Domain T23 Individual
+A165	Participant_Type_Domain T23 Loc
+A166	Involvement T23 1
+R20	OLINK_partOf Arg1:T25 Arg2:T23	
+T27	Participant 141 160	cerca de 50 pessoas
+A167	Lexical_Head T27 Noun
+A168	Individuation_Domain T27 Individual
+A169	Participant_Type_Domain T27 Per
+A170	Involvement T27 >1
+T29	Participant 197 226	o Comando Territorial de Faro
+A174	Lexical_Head T29 Noun
+A175	Individuation_Domain T29 Individual
+A176	Participant_Type_Domain T29 Org
+A177	Involvement T29 1
+T30	Participant 230 233	GNR
+A178	Lexical_Head T30 Noun
+A179	Individuation_Domain T30 Individual
+A180	Participant_Type_Domain T30 Org
+A181	Involvement T30 1
+R21	OLINK_objIdentity Arg1:T30 Arg2:T24	
+R22	OLINK_partOf Arg1:T29 Arg2:T30	
+T31	Participant 324 338	música ao vivo
+A182	Lexical_Head T31 Noun
+A183	Individuation_Domain T31 Individual
+A184	Participant_Type_Domain T31 Other
+A185	Involvement T31 Und
+T32	Participant 340 369	um estabelecimento de bebidas
+A186	Lexical_Head T32 Noun
+A187	Individuation_Domain T32 Individual
+A188	Participant_Type_Domain T32 Loc
+A189	Involvement T32 1
+T33	Participant 372 381	militares
+A190	Lexical_Head T33 Noun
+A191	Individuation_Domain T33 Individual
+A192	Participant_Type_Domain T33 Per
+A193	Involvement T33 Und
+T34	Participant 383 421	o Posto Territorial de São de Alportel
+A194	Lexical_Head T34 Noun
+A195	Individuation_Domain T34 Individual
+A196	Participant_Type_Domain T34 Org
+A197	Involvement T34 1
+T35	Participant 437 444	o local
+A198	Lexical_Head T35 Noun
+A199	Individuation_Domain T35 Individual
+A200	Involvement T35 1
+R24	OLINK_objIdentity Arg1:T35 Arg2:T32	
+T36	Participant 475 487	Os militares
+A201	Lexical_Head T36 Noun
+A202	Individuation_Domain T36 Individual
+A203	Participant_Type_Domain T36 Per
+A204	Involvement T36 All
+R25	OLINK_objIdentity Arg1:T36 Arg2:T33	
+T37	Participant 503 513	as pessoas
+A205	Lexical_Head T37 Noun
+A206	Individuation_Domain T37 Individual
+A207	Participant_Type_Domain T37 Per
+A208	Involvement T37 All
+T38	Participant 536 542	normas
+A209	Lexical_Head T38 Noun
+A210	Individuation_Domain T38 Individual
+A211	Participant_Type_Domain T38 Other
+A212	Involvement T38 All
+R27	OLINK_objIdentity Arg1:T37 Arg2:T27	
+T40	Participant 608 622	o proprietário
+A217	Lexical_Head T40 Noun
+A218	Individuation_Domain T40 Individual
+A219	Participant_Type_Domain T40 Per
+A220	Involvement T40 1
+R28	SRLINK_agent Arg1:T1 Arg2:T24	
+R29	SRLINK_patient Arg1:T1 Arg2:T3	
+R32	SRLINK_location Arg1:T3 Arg2:T23	
+R33	SRLINK_pivot Arg1:T4 Arg2:T3	
+R34	SRLINK_theme Arg1:T4 Arg2:T27	
+R35	SRLINK_theme Arg1:T6 Arg2:T1	
+R37	SRLINK_agent Arg1:T7 Arg2:T29	
+R38	SRLINK_theme Arg1:T7 Arg2:T12	
+R39	SRLINK_cause Arg1:T9 Arg2:T8	
+R40	SRLINK_theme Arg1:T9 Arg2:T10	
+R41	SRLINK_theme Arg1:T10 Arg2:T11	
+R42	SRLINK_setting Arg1:T11 Arg2:T31	
+R44	SRLINK_agent Arg1:T12 Arg2:T33	
+R45	SRLINK_initialLocation Arg1:T12 Arg2:T34	
+R46	SRLINK_finalLocation Arg1:T12 Arg2:T35	
+R47	SRLINK_purpose Arg1:T12 Arg2:T13	
+R48	SRLINK_reason Arg1:T12 Arg2:T8	
+R49	SRLINK_theme Arg1:T13 Arg2:T14	
+R50	SRLINK_agent Arg1:T13 Arg2:T33	
+R51	SRLINK_agent Arg1:T15 Arg2:T36	
+R52	SRLINK_theme Arg1:T15 Arg2:T37	
+R53	SRLINK_purpose Arg1:T15 Arg2:T16	
+R54	SRLINK_theme Arg1:T16 Arg2:T38	
+A221	Event_Type T21 State
+R55	SRLINK_pivot Arg1:T21 Arg2:T38	
+R56	SRLINK_theme Arg1:T21 Arg2:T17	
+R58	SRLINK_theme Arg1:T18 Arg2:T19	
+R59	SRLINK_agent Arg1:T18 Arg2:T29	
+R60	SRLINK_patient Arg1:T19 Arg2:T40	
+A222	Pos T21 Adjective
+T42	Participant 76 82	um bar
+A147	Lexical_Head T42 Noun
+A148	Individuation_Domain T42 Individual
+A149	Participant_Type_Domain T42 Loc
+A228	Involvement T42 1
+R63	SRLINK_location Arg1:T3 Arg2:T42	
+R64	SRLINK_location Arg1:T3 Arg2:T25	
+T26	Event 130 133	que
+R19	TLINK_identity Arg1:T3 Arg2:T26	
+R23	SRLINK_cause Arg1:T4 Arg2:T26	
+R30	SRLINK_location Arg1:T11 Arg2:T32	
+R43	SRLINK_theme Arg1:T18 Arg2:T20	
+T28	Event 185 195	comunicado
+A155	Class T28 Reporting
+A156	Event_Type T28 Transition
+A157	Pos T28 Noun
+A158	Polarity T28 Pos
+R26	SRLINK_medium Arg1:T7 Arg2:T28	
+T39	Event 582 586	nota
+A171	Class T39 Reporting
+A172	Event_Type T39 State
+A173	Pos T39 Noun
+A213	Polarity T39 Pos
+R31	SRLINK_medium Arg1:T18 Arg2:T39	
+R36	TLINK_includes Arg1:T18 Arg2:T39	
+R61	TLINK_identity Arg1:T39 Arg2:T28	
+R62	TLINK_isIncluded Arg1:T7 Arg2:T28	
+R5	TLINK_includes Arg1:T28 Arg2:T6	
+T22	Event 660 664	auto
+A144	Class T22 Reporting
+A145	Event_Type T22 Transition
+A146	Pos T22 Noun
+A150	Polarity T22 Pos
+T41	Event 668 683	contraordenação
+A214	Class T41 State
+A215	Event_Type T41 State
+A216	Pos T41 Noun
+A223	Polarity T41 Pos
+R57	TLINK_before Arg1:T41 Arg2:T22	
+R65	TLINK_after Arg1:T22 Arg2:T20	
+R66	SRLINK_result Arg1:T20 Arg2:T22	
+R67	SRLINK_theme Arg1:T22 Arg2:T41	
+T43	Time 9 20	11 out 2020
+A224	Time_Type T43 Date
+A225	TemporalFunction T43 Publication_Time
+#3	AnnotatorNotes T43	value=2020-10-11
+R68	TLINK_identity Arg1:T5 Arg2:T43	
+A6	Event_Type T8 Transition
+A7	Class T9 Occurrence
+A10	Pos T11 Noun
+A14	Pos T13 Verb
+A15	Event_Type T14 Transition
+A16	Aspect T19 Perfective

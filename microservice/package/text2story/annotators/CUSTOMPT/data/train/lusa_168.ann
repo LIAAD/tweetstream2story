@@ -1,0 +1,313 @@
+T1	Time 117 128	09 nov 2020
+A1	Time_Type T1 Date
+A2	TemporalFunction T1 Publication_Time
+#1	AnnotatorNotes T1	value=2020-11-09
+T2	Time 163 167	hoje
+A3	Time_Type T2 Date
+A4	TemporalFunction T2 Publication_Time
+#2	AnnotatorNotes T2	value=2020-11-09 anchorTime=Publication_Time
+T3	Event 157 162;168 183	ficou em estado grave
+A5	Class T3 Occurrence
+A6	Event_Type T3 Transition
+A7	Pos T3 Verb
+A8	Tense T3 Past
+A9	Aspect T3 Perfective
+A10	Polarity T3 Pos
+T4	Event 193 198	caído
+A11	Class T4 Occurrence
+A12	Event_Type T4 Transition
+A13	Pos T4 Verb
+A14	Tense T4 Past
+A15	Aspect T4 Perfective
+A16	VForm T4 Infinitive
+A17	Polarity T4 Pos
+T5	Event 266 276	trabalhava
+A18	Class T5 Occurrence
+A19	Event_Type T5 Process
+A20	Pos T5 Verb
+A21	Tense T5 Past
+A22	Aspect T5 Imperfective
+A23	Polarity T5 Pos
+T6	Event 305 310	disse
+A24	Class T6 Reporting
+A25	Event_Type T6 Transition
+A26	Pos T6 Verb
+A27	Tense T6 Past
+A28	Aspect T6 Perfective
+A29	Polarity T6 Pos
+T7	Event 346 356	Contactado
+A30	Class T7 Occurrence
+A31	Event_Type T7 Transition
+A32	Pos T7 Verb
+A33	VForm T7 Participle
+A34	Polarity T7 Pos
+T8	Event 388 396	explicou
+A35	Class T8 Occurrence
+A36	Event_Type T8 Transition
+A37	Pos T8 Verb
+A38	Tense T8 Past
+A39	Aspect T8 Perfective
+A40	Polarity T8 Pos
+T9	Event 414 426	transportado
+A41	Class T9 Occurrence
+A42	Event_Type T9 Transition
+A43	Pos T9 Verb
+A44	Tense T9 Past
+A45	Aspect T9 Perfective
+A46	Polarity T9 Pos
+T10	Event 430 442	estado grave
+A47	Class T10 State
+A48	Event_Type T10 State
+A49	Pos T10 Noun
+A50	Polarity T10 Pos
+T11	Event 617 637	acidente de trabalho
+A51	Class T11 Occurrence
+A52	Event_Type T11 Transition
+A53	Pos T11 Noun
+A54	Polarity T11 Pos
+T12	Event 638 645	ocorreu
+A55	Class T12 Occurrence
+A56	Event_Type T12 Transition
+A57	Pos T12 Verb
+A58	Tense T12 Past
+A59	Aspect T12 Perfective
+A60	Polarity T12 Pos
+T13	Event 768 776	adiantou
+A61	Class T13 Reporting
+A62	Event_Type T13 Transition
+A63	Pos T13 Verb
+A64	Tense T13 Past
+A65	Aspect T13 Perfective
+A66	Polarity T13 Pos
+T14	Event 783 789	alerta
+A67	Class T14 Occurrence
+A68	Event_Type T14 Transition
+A69	Pos T14 Noun
+A70	Polarity T14 Pos
+T15	Event 794 798	dado
+A71	Class T15 Occurrence
+A72	Event_Type T15 Transition
+A73	Pos T15 Verb
+A74	Tense T15 Past
+A75	Aspect T15 Perfective
+A76	Polarity T15 Pos
+T16	Time 809 814	10:33
+A77	Time_Type T16 Time
+A78	TemporalFunction T16 Publication_Time
+#3	AnnotatorNotes T16	value=2020-11-09T10:33
+T17	Event 829 841	compareceram
+A79	Class T17 Occurrence
+A80	Event_Type T17 Transition
+A81	Pos T17 Verb
+A82	Tense T17 Past
+A83	Aspect T17 Perfective
+A84	Polarity T17 Pos
+R1	TLINK_identity Arg1:T2 Arg2:T1	
+R2	TLINK_isIncluded Arg1:T3 Arg2:T2	
+R3	TLINK_before Arg1:T4 Arg2:T3	
+R4	TLINK_simultaneous Arg1:T5 Arg2:T4	
+R5	TLINK_after Arg1:T6 Arg2:T5	
+R6	TLINK_after Arg1:T8 Arg2:T7	
+R7	TLINK_simultaneous Arg1:T7 Arg2:T6	
+R8	TLINK_before Arg1:T9 Arg2:T8	
+R9	TLINK_includes Arg1:T10 Arg2:T9	
+R10	TLINK_before Arg1:T11 Arg2:T10	
+R11	TLINK_identity Arg1:T12 Arg2:T11	
+T18	Event 659 675	construção civil
+A85	Class T18 State
+A86	Event_Type T18 State
+A87	Pos T18 Noun
+A88	Polarity T18 Pos
+R12	TLINK_includes Arg1:T18 Arg2:T12	
+R13	TLINK_isIncluded Arg1:T13 Arg2:T18	
+R14	TLINK_after Arg1:T13 Arg2:T12	
+R15	TLINK_before Arg1:T14 Arg2:T13	
+R16	TLINK_identity Arg1:T15 Arg2:T14	
+R17	TLINK_isIncluded Arg1:T15 Arg2:T16	
+R18	TLINK_after Arg1:T17 Arg2:T15	
+T19	Participant 137 156	Um homem de 60 anos
+A89	Lexical_Head T19 Noun
+A90	Individuation_Domain T19 Individual
+A91	Participant_Type_Domain T19 Per
+A92	Involvement T19 1
+T20	Participant 202 212	um andaime
+A93	Lexical_Head T20 Noun
+A94	Individuation_Domain T20 Individual
+A95	Participant_Type_Domain T20 Obj
+A96	Involvement T20 1
+T21	Participant 225 257	"três a quatro metros" de altura
+A97	Lexical_Head T21 Noun
+A98	Individuation_Domain T21 Individual
+A99	Participant_Type_Domain T21 Other
+A100	Involvement T21 1
+T22	Participant 282 286	obra
+A101	Lexical_Head T22 Noun
+A102	Individuation_Domain T22 Individual
+A103	Participant_Type_Domain T22 Other
+A104	Involvement T22 1
+T23	Participant 290 303	Ponte de Lima
+A105	Lexical_Head T23 Noun
+A106	Individuation_Domain T23 Individual
+A107	Participant_Type_Domain T23 Loc
+A108	Involvement T23 1
+T24	Participant 311 323	o comandante
+A109	Lexical_Head T24 Noun
+A110	Individuation_Domain T24 Individual
+A111	Participant_Type_Domain T24 Per
+A112	Involvement T24 1
+T25	Participant 328 344	bombeiros locais
+A113	Lexical_Head T25 Noun
+A114	Individuation_Domain T25 Individual
+A115	Participant_Type_Domain T25 Org
+A116	Involvement T25 1
+T26	Participant 362 374	agência Lusa
+A117	Lexical_Head T26 Noun
+A118	Individuation_Domain T26 Individual
+A119	Participant_Type_Domain T26 Org
+A120	Involvement T26 1
+T27	Participant 376 387	Carlos Lima
+A121	Lexical_Head T27 Noun
+A122	Individuation_Domain T27 Individual
+A123	Participant_Type_Domain T27 Per
+A124	Involvement T27 1
+T28	Participant 401 408	o homem
+A125	Lexical_Head T28 Noun
+A126	Individuation_Domain T28 Individual
+A127	Participant_Type_Domain T28 Per
+A128	Involvement T28 1
+T29	Participant 450 493	mbulância de Suporte Imediato de Vida (SIV)
+A129	Lexical_Head T29 Noun
+A130	Individuation_Domain T29 Individual
+A131	Participant_Type_Domain T29 Obj
+A132	Involvement T29 1
+T30	Participant 500 519	o hospital de Braga
+A133	Lexical_Head T30 Noun
+A134	Individuation_Domain T30 Individual
+A135	Participant_Type_Domain T30 Org
+A136	Involvement T30 1
+T31	Participant 536 548	o comandante
+A137	Lexical_Head T31 Noun
+A138	Individuation_Domain T31 Individual
+A139	Participant_Type_Domain T31 Per
+A140	Involvement T31 1
+T32	Participant 553 579	Bombeiros de Ponte de Lima
+A141	Lexical_Head T32 Noun
+A142	Individuation_Domain T32 Individual
+A143	Participant_Type_Domain T32 Org
+A144	Involvement T32 1
+T33	Participant 584 612	distrito de Viana do Castelo
+A145	Lexical_Head T33 Noun
+A146	Individuation_Domain T33 Individual
+A147	Participant_Type_Domain T33 Loc
+A148	Involvement T33 1
+T34	Participant 651 655	obra
+A149	Lexical_Head T34 Noun
+A150	Individuation_Domain T34 Individual
+A151	Participant_Type_Domain T34 Other
+A152	Involvement T34 1
+T35	Participant 679 699	freguesia de Ribeira
+A153	Lexical_Head T35 Noun
+A154	Individuation_Domain T35 Individual
+A155	Participant_Type_Domain T35 Loc
+A156	Involvement T35 1
+T36	Participant 704 708	Lusa
+A157	Lexical_Head T36 Noun
+A158	Individuation_Domain T36 Individual
+A159	Participant_Type_Domain T36 Org
+A160	Involvement T36 1
+T37	Participant 710 715	fonte
+A161	Lexical_Head T37 Noun
+A162	Individuation_Domain T37 Individual
+A163	Participant_Type_Domain T37 Per
+A164	Involvement T37 1
+T38	Participant 717 767	o Comando Distrital de Operações de Socorro (CDOS)
+A165	Lexical_Head T38 Noun
+A166	Individuation_Domain T38 Individual
+A167	Participant_Type_Domain T38 Org
+A168	Involvement T38 1
+T39	Participant 824 827	SIV
+A169	Lexical_Head T39 Noun
+A170	Individuation_Domain T39 Individual
+A171	Participant_Type_Domain T39 Obj
+A172	Involvement T39 1
+T40	Participant 843 850	o local
+A173	Lexical_Head T40 Noun
+A174	Individuation_Domain T40 Individual
+A175	Participant_Type_Domain T40 Loc
+A176	Involvement T40 1
+T41	Participant 851 868	dois operacionais
+A177	Lexical_Head T41 Noun
+A178	Individuation_Domain T41 Individual
+A179	Participant_Type_Domain T41 Per
+A180	Involvement T41 >1
+T42	Participant 871 882	uma viatura
+A181	Lexical_Head T42 Noun
+A182	Individuation_Domain T42 Individual
+A183	Participant_Type_Domain T42 Obj
+A184	Involvement T42 1
+T43	Participant 887 896	bombeiros
+A185	Lexical_Head T43 Noun
+A186	Individuation_Domain T43 Individual
+A187	Participant_Type_Domain T43 Org
+A188	Involvement T43 1
+T44	Participant 898 955	a Viatura de Emergência Médica (VMER) de Viana do Castelo
+A189	Lexical_Head T44 Noun
+A190	Individuation_Domain T44 Individual
+A191	Participant_Type_Domain T44 Obj
+A192	Involvement T44 1
+T45	Participant 960 963	GNR
+A193	Lexical_Head T45 Noun
+A194	Individuation_Domain T45 Individual
+A195	Participant_Type_Domain T45 Org
+A196	Involvement T45 1
+R19	OLINK_partOf Arg1:T24 Arg2:T25	
+R20	OLINK_objIdentity Arg1:T27 Arg2:T24	
+R21	OLINK_objIdentity Arg1:T28 Arg2:T19	
+R22	OLINK_partOf Arg1:T31 Arg2:T32	
+R23	OLINK_objIdentity Arg1:T31 Arg2:T27	
+R24	OLINK_objIdentity Arg1:T32 Arg2:T25	
+R25	OLINK_partOf Arg1:T32 Arg2:T33	
+R26	OLINK_partOf Arg1:T23 Arg2:T33	
+R27	OLINK_objIdentity Arg1:T34 Arg2:T22	
+R28	OLINK_partOf Arg1:T34 Arg2:T35	
+R29	OLINK_partOf Arg1:T35 Arg2:T33	
+R30	OLINK_objIdentity Arg1:T36 Arg2:T26	
+R31	OLINK_partOf Arg1:T37 Arg2:T38	
+R32	OLINK_objIdentity Arg1:T39 Arg2:T29	
+R33	OLINK_partOf Arg1:T41 Arg2:T43	
+R34	OLINK_partOf Arg1:T42 Arg2:T43	
+R35	OLINK_objIdentity Arg1:T44 Arg2:T42	
+R36	OLINK_objIdentity Arg1:T40 Arg2:T35	
+R37	SRLINK_patient Arg1:T3 Arg2:T19	
+R38	SRLINK_patient Arg1:T4 Arg2:T19	
+R39	SRLINK_initialLocation Arg1:T4 Arg2:T20	
+R40	SRLINK_amount Arg1:T4 Arg2:T21	
+R41	SRLINK_agent Arg1:T5 Arg2:T19	
+R42	SRLINK_location Arg1:T5 Arg2:T22	
+R43	OLINK_partOf Arg1:T22 Arg2:T23	
+R44	SLINK_evidential Arg1:T6 Arg2:T3	
+R45	SRLINK_theme Arg1:T6 Arg2:T3	
+R46	SRLINK_agent Arg1:T6 Arg2:T24	
+R47	SRLINK_goal Arg1:T7 Arg2:T27	
+R48	SRLINK_agent Arg1:T7 Arg2:T26	
+R49	SRLINK_agent Arg1:T8 Arg2:T27	
+R50	SLINK_evidential Arg1:T8 Arg2:T9	
+R51	SRLINK_theme Arg1:T8 Arg2:T9	
+R52	SRLINK_patient Arg1:T9 Arg2:T28	
+R53	SRLINK_manner Arg1:T9 Arg2:T10	
+R54	SRLINK_instrument Arg1:T9 Arg2:T29	
+R55	SRLINK_finalLocation Arg1:T9 Arg2:T30	
+R56	SRLINK_theme Arg1:T12 Arg2:T11	
+R57	SRLINK_location Arg1:T12 Arg2:T34	
+R58	SRLINK_theme Arg1:T18 Arg2:T34	
+R59	SRLINK_agent Arg1:T13 Arg2:T37	
+R60	SRLINK_goal Arg1:T13 Arg2:T36	
+R61	SLINK_evidential Arg1:T13 Arg2:T15	
+R62	SRLINK_theme Arg1:T13 Arg2:T15	
+R63	SRLINK_theme Arg1:T15 Arg2:T14	
+R64	SRLINK_agent Arg1:T9 Arg2:T25	
+R65	SRLINK_location Arg1:T17 Arg2:T40	
+R66	SRLINK_agent Arg1:T17 Arg2:T41	
+R67	SRLINK_theme Arg1:T17 Arg2:T42	
+R68	SRLINK_theme Arg1:T17 Arg2:T39	
+R69	SRLINK_partner Arg1:T17 Arg2:T45	

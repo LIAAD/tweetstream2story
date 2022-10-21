@@ -1,0 +1,281 @@
+T1	Time 167 171	hoje
+A1	Time_Type T1 Date
+A2	TemporalFunction T1 Publication_Time
+#1	AnnotatorNotes T1	value=2020-11-15
+T2	Event 163 166;172 182	foi encontrado
+A3	Class T2 Occurrence
+A4	Event_Type T2 Transition
+A5	Pos T2 Verb
+A6	Tense T2 Past
+A7	Aspect T2 Perfective
+A8	Polarity T2 Pos
+T3	Event 185 190	boiar
+A9	Class T3 State
+A10	Event_Type T3 State
+A11	Pos T3 Verb
+A12	Aspect T3 Progressive
+A13	VForm T3 Infinitive
+A14	Polarity T3 Pos
+T4	Event 233 246	sido retirado
+A15	Class T4 Occurrence
+A16	Event_Type T4 Transition
+A17	Pos T4 Verb
+A18	Tense T4 Past
+A19	Aspect T4 Perfective
+A20	VForm T4 Gerundive
+A21	Polarity T4 Pos
+T5	Event 278 287	confirmou
+A22	Class T5 Reporting
+A23	Event_Type T5 Transition
+A24	Pos T5 Verb
+A25	Tense T5 Past
+A26	Aspect T5 Perfective
+A27	Polarity T5 Pos
+T6	Event 385 393	alertada
+A28	Class T6 Occurrence
+A29	Event_Type T6 Transition
+A30	Pos T6 Verb
+A31	Tense T6 Past
+A32	Aspect T6 Perfective
+A33	Polarity T6 Pos
+T7	Event 413 418	viram
+A34	Class T7 Perception
+A35	Event_Type T7 Transition
+A36	Pos T7 Verb
+A37	Tense T7 Past
+A38	Aspect T7 Perfective
+A39	Polarity T7 Pos
+T8	Event 442 447	boiar
+A40	Class T8 State
+A41	Event_Type T8 State
+A42	Pos T8 Verb
+A43	Aspect T8 Progressive
+A44	VForm T8 Infinitive
+A45	Polarity T8 Pos
+T9	Time 523 528	17:20
+A46	Time_Type T9 Time
+#2	AnnotatorNotes T9	value=2020-11-15T17:20 anchorTime=Publication_Time
+T10	Event 549 556	removeu
+A47	Class T10 Occurrence
+A48	Event_Type T10 Transition
+A49	Pos T10 Verb
+A50	Tense T10 Past
+A51	Aspect T10 Perfective
+A52	Polarity T10 Pos
+T11	Event 582 589	ficando
+A53	Class T11 State
+A54	Event_Type T11 State
+A55	Pos T11 Verb
+A56	Aspect T11 Progressive
+A57	VForm T11 Gerundive
+A58	Polarity T11 Pos
+T12	Event 599 607	aguardar
+A59	Class T12 Occurrence
+A60	Event_Type T12 Process
+A61	Pos T12 Verb
+A62	Aspect T12 Progressive
+A63	VForm T12 Infinitive
+A64	Polarity T12 Pos
+T13	Event 613 620	chegada
+A65	Class T13 Occurrence
+A66	Event_Type T13 Transition
+A67	Pos T13 Noun
+A68	Polarity T13 Pos
+T14	Event 654 663	iniciadas
+A69	Event_Type T14 Transition
+A70	Pos T14 Verb
+A71	VForm T14 Infinitive
+A72	Polarity T14 Pos
+T15	Event 667 679	averiguações
+A73	Class T15 Occurrence
+A74	Event_Type T15 Process
+A75	Pos T15 Noun
+A76	Polarity T15 Pos
+T16	Event 690 699	estiveram
+A77	Class T16 State
+A78	Event_Type T16 State
+A79	Pos T16 Verb
+A80	Tense T16 Past
+A81	Aspect T16 Perfective
+A82	Polarity T16 Pos
+R1	TLINK_isIncluded Arg1:T2 Arg2:T1	
+R2	TLINK_includes Arg1:T3 Arg2:T2	
+R3	TLINK_after Arg1:T4 Arg2:T2	
+R4	TLINK_after Arg1:T5 Arg2:T4	
+R5	TLINK_before Arg1:T6 Arg2:T5	
+R6	TLINK_before Arg1:T7 Arg2:T6	
+R7	TLINK_includes Arg1:T8 Arg2:T7	
+R8	TLINK_after Arg1:T10 Arg2:T7	
+R9	TLINK_after Arg1:T11 Arg2:T10	
+R10	TLINK_simultaneous Arg1:T12 Arg2:T11	
+R11	TLINK_isIncluded Arg1:T13 Arg2:T12	
+R12	TLINK_after Arg1:T14 Arg2:T13	
+R13	TLINK_identity Arg1:T15 Arg2:T14	
+R14	TLINK_simultaneous Arg1:T16 Arg2:T15	
+T17	Participant 120 129	O cadáver
+A83	Lexical_Head T17 Noun
+A84	Individuation_Domain T17 Individual
+A85	Participant_Type_Domain T17 Other
+A86	Involvement T17 1
+T18	Participant 133 162	um homem com cerca de 60 anos
+A87	Lexical_Head T18 Noun
+A88	Individuation_Domain T18 Individual
+A89	Participant_Type_Domain T18 Per
+A90	Involvement T18 1
+T19	Participant 192 203	o rio Douro
+A91	Lexical_Head T19 Noun
+A92	Individuation_Domain T19 Individual
+A93	Participant_Type_Domain T19 Nat
+A94	Involvement T19 1
+T20	Participant 208 225	Vila Nova de Gaia
+A95	Lexical_Head T20 Noun
+A96	Individuation_Domain T20 Individual
+A97	Participant_Type_Domain T20 Loc
+A98	Involvement T20 1
+R15	OLINK_partOf Arg1:T19 Arg2:T20	
+T21	Participant 248 254	a água
+A99	Lexical_Head T21 Noun
+A100	Individuation_Domain T21 Individual
+A101	Participant_Type_Domain T21 Nat
+A102	Involvement T21 1
+R16	OLINK_objIdentity Arg1:T21 Arg2:T19	
+R17	OLINK_partOf Arg1:T17 Arg2:T18	
+T22	Participant 260 276	Polícia Marítima
+A103	Lexical_Head T22 Noun
+A104	Individuation_Domain T22 Individual
+A105	Participant_Type_Domain T22 Org
+A106	Involvement T22 1
+T23	Participant 290 294	Lusa
+A107	Lexical_Head T23 Noun
+A108	Individuation_Domain T23 Individual
+A109	Participant_Type_Domain T23 Org
+A110	Involvement T23 1
+T24	Participant 295 307	o comandante
+A111	Lexical_Head T24 Noun
+A112	Individuation_Domain T24 Individual
+A113	Participant_Type_Domain T24 Per
+A114	Involvement T24 1
+T25	Participant 311 329	capitania do Porto
+A115	Lexical_Head T25 Noun
+A116	Individuation_Domain T25 Individual
+A117	Participant_Type_Domain T25 Org
+A118	Involvement T25 1
+T26	Participant 339 356	Rui Santos Amaral
+A119	Lexical_Head T26 Noun
+A120	Individuation_Domain T26 Individual
+A121	Participant_Type_Domain T26 Per
+A122	Involvement T26 1
+R18	OLINK_objIdentity Arg1:T26 Arg2:T24	
+T27	Participant 358 379	a autoridade marítima
+A123	Lexical_Head T27 Noun
+A124	Individuation_Domain T27 Individual
+A125	Participant_Type_Domain T27 Org
+A126	Involvement T27 1
+T28	Participant 398 407	populares
+A127	Lexical_Head T28 Noun
+A128	Individuation_Domain T28 Individual
+A129	Participant_Type_Domain T28 Per
+A130	Involvement T28 >1
+R19	OLINK_objIdentity Arg1:T27 Arg2:T22	
+T29	Participant 409 412	que
+A131	Lexical_Head T29 Pronoun
+A132	Individuation_Domain T29 Individual
+A133	Participant_Type_Domain T29 Per
+A134	Involvement T29 >1
+T30	Participant 419 427	o “corpo
+A135	Lexical_Head T30 Noun
+A136	Individuation_Domain T30 Individual
+A137	Participant_Type_Domain T30 Other
+A138	Involvement T30 1
+T31	Participant 431 439	um homem
+A139	Lexical_Head T31 Noun
+A140	Individuation_Domain T31 Individual
+A141	Participant_Type_Domain T31 Per
+A142	Involvement T31 1
+T32	Participant 455 488	o cais flutuante de Santa Marinha
+A143	Lexical_Head T32 Noun
+A144	Individuation_Domain T32 Individual
+A145	Participant_Type_Domain T32 Loc
+A146	Involvement T32 1
+T33	Participant 494 511	Vila Nova de Gaia
+A147	Lexical_Head T33 Noun
+A148	Individuation_Domain T33 Individual
+A149	Participant_Type_Domain T33 Loc
+A150	Involvement T33 1
+T34	Participant 530 548	A Polícia Marítima
+A151	Lexical_Head T34 Noun
+A152	Individuation_Domain T34 Individual
+A153	Participant_Type_Domain T34 Org
+A154	Involvement T34 1
+T35	Participant 563 572	o cadáver
+A155	Lexical_Head T35 Noun
+A156	Individuation_Domain T35 Individual
+A157	Participant_Type_Domain T35 Other
+A158	Involvement T35 1
+T36	Participant 574 580	a água
+A159	Lexical_Head T36 Noun
+A160	Individuation_Domain T36 Individual
+A161	Participant_Type_Domain T36 Nat
+A162	Involvement T36 1
+T37	Participant 624 642	Polícia Judiciária
+A163	Lexical_Head T37 Noun
+A164	Individuation_Domain T37 Individual
+A165	Participant_Type_Domain T37 Org
+A166	Involvement T37 1
+T38	Participant 682 689	o local
+A167	Lexical_Head T38 Noun
+A168	Individuation_Domain T38 Individual
+A169	Participant_Type_Domain T38 Loc
+A170	Involvement T38 1
+T39	Participant 707 740	os Sapadores de Vila Nova de Gaia
+A171	Lexical_Head T39 Noun
+A172	Individuation_Domain T39 Individual
+A173	Participant_Type_Domain T39 Org
+A174	Involvement T39 1
+T40	Participant 743 768	os Bombeiros de Coimbrões
+A175	Lexical_Head T40 Noun
+A176	Individuation_Domain T40 Individual
+A177	Participant_Type_Domain T40 Org
+A178	Involvement T40 1
+R20	OLINK_partOf Arg1:T24 Arg2:T25	
+R21	OLINK_objIdentity Arg1:T29 Arg2:T28	
+R22	OLINK_objIdentity Arg1:T30 Arg2:T17	
+R23	OLINK_partOf Arg1:T30 Arg2:T31	
+R24	OLINK_objIdentity Arg1:T31 Arg2:T18	
+R25	OLINK_partOf Arg1:T32 Arg2:T33	
+R26	OLINK_objIdentity Arg1:T33 Arg2:T20	
+R27	OLINK_objIdentity Arg1:T34 Arg2:T27	
+R28	OLINK_objIdentity Arg1:T35 Arg2:T30	
+R29	OLINK_objIdentity Arg1:T36 Arg2:T21	
+R30	OLINK_objIdentity Arg1:T38 Arg2:T32	
+R31	SRLINK_patient Arg1:T2 Arg2:T17	
+R32	SRLINK_manner Arg1:T2 Arg2:T3	
+R33	SRLINK_pivot Arg1:T3 Arg2:T17	
+R35	SRLINK_patient Arg1:T4 Arg2:T17	
+R36	SRLINK_initialLocation Arg1:T4 Arg2:T21	
+R37	SRLINK_agent Arg1:T4 Arg2:T22	
+R38	SRLINK_goal Arg1:T5 Arg2:T23	
+R39	SRLINK_agent Arg1:T5 Arg2:T24	
+R40	SLINK_evidential Arg1:T5 Arg2:T2	
+R41	SRLINK_theme Arg1:T5 Arg2:T2	
+R42	SRLINK_patient Arg1:T6 Arg2:T27	
+R43	SRLINK_agent Arg1:T6 Arg2:T28	
+R44	SRLINK_agent Arg1:T7 Arg2:T29	
+R45	SRLINK_theme Arg1:T7 Arg2:T30	
+R46	SRLINK_pivot Arg1:T8 Arg2:T30	
+R47	SRLINK_location Arg1:T8 Arg2:T32	
+R48	TLINK_isIncluded Arg1:T7 Arg2:T9	
+R49	SRLINK_agent Arg1:T10 Arg2:T34	
+R50	SRLINK_theme Arg1:T10 Arg2:T35	
+R51	SRLINK_initialLocation Arg1:T10 Arg2:T36	
+R52	SRLINK_pivot Arg1:T11 Arg2:T34	
+R53	SRLINK_theme Arg1:T11 Arg2:T12	
+R54	SRLINK_theme Arg1:T12 Arg2:T13	
+R55	SRLINK_agent Arg1:T13 Arg2:T37	
+R56	SRLINK_purpose Arg1:T12 Arg2:T14	
+R57	SRLINK_theme Arg1:T14 Arg2:T15	
+R58	SRLINK_agent Arg1:T14 Arg2:T37	
+R59	SRLINK_location Arg1:T16 Arg2:T38	
+R60	SRLINK_pivot Arg1:T16 Arg2:T39	
+R61	SRLINK_pivot Arg1:T16 Arg2:T40	
+R34	SRLINK_location Arg1:T3 Arg2:T19	

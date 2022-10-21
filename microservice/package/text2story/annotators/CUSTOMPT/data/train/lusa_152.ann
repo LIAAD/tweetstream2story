@@ -1,0 +1,453 @@
+T1	Time 9 20	30 dez 2020
+A1	Time_Type T1 Date
+A2	TemporalFunction T1 Publication_Time
+#1	AnnotatorNotes T1	value=2020-12-30
+T2	Event 110 120	ilegalizou
+A3	Class T2 Occurrence
+A4	Event_Type T2 Transition
+A5	Pos T2 Verb
+A6	Tense T2 Past
+A7	Aspect T2 Perfective
+A8	Polarity T2 Pos
+T3	Time 121 125	hoje
+A9	Time_Type T3 Date
+A10	TemporalFunction T3 None
+#2	AnnotatorNotes T3	value=2020-12-30 anchorTime=Publication_Time
+T4	Event 145 156	responsável
+A11	Class T4 State
+A12	Event_Type T4 State
+A14	Polarity T4 Pos
+T5	Event 161 179	atos de vandalismo
+A15	Class T5 Occurrence
+A16	Event_Type T5 Process
+A17	Pos T5 Noun
+A18	Polarity T5 Pos
+T6	Event 221 226	culto
+A19	Class T6 Occurrence
+A20	Event_Type T6 Process
+A21	Pos T6 Noun
+A22	Polarity T6 Pos
+T7	Event 284 289	disse
+A23	Class T7 Reporting
+A24	Event_Type T7 Transition
+A25	Pos T7 Verb
+A26	Tense T7 Past
+A27	Aspect T7 Perfective
+A28	Polarity T7 Pos
+T8	Event 357 364	manteve
+A29	Class T8 State
+A30	Event_Type T8 State
+A31	Pos T8 Verb
+A32	Tense T8 Past
+A33	Aspect T8 Perfective
+A34	Polarity T8 Pos
+T9	Event 365 375	atividades
+A35	Class T9 Occurrence
+A36	Event_Type T9 Process
+A37	Pos T9 Noun
+A38	Polarity T9 Pos
+T10	Event 387 393	ordens
+A39	Class T10 I_Action
+A40	Event_Type T10 Process
+A41	Pos T10 Noun
+A42	Polarity T10 Pos
+T11	Event 401 411	dissolução
+A43	Class T11 Occurrence
+A44	Event_Type T11 Transition
+A45	Pos T11 Noun
+A46	Polarity T11 Pos
+T12	Event 449 456	proibiu
+A47	Class T12 I_Action
+A48	Event_Type T12 Transition
+A49	Pos T12 Verb
+A50	Aspect T12 Perfective
+A51	Polarity T12 Pos
+T13	Event 470 473	uso
+A52	Class T13 Occurrence
+A53	Event_Type T13 Process
+A54	Pos T13 Noun
+A55	Polarity T13 Pos
+T14	Event 516 520	quer
+A56	Class T14 I_State
+A57	Event_Type T14 State
+A58	Pos T14 Verb
+A59	Tense T14 Present
+A61	Polarity T14 Pos
+T15	Event 521 524	ver
+A62	Class T15 Perception
+A63	Event_Type T15 Transition
+A64	Pos T15 Verb
+A65	VForm T15 Infinitive
+A66	Polarity T15 Pos
+T16	Event 525 537	implementada
+A67	Class T16 Occurrence
+A68	Event_Type T16 Transition
+A69	Pos T16 Verb
+A70	VForm T16 Participle
+A71	Polarity T16 Pos
+T17	Event 612 615;616 631	tem vindo a alargar
+A72	Class T17 Occurrence
+A73	Event_Type T17 Process
+A74	Pos T17 Verb
+A75	Tense T17 Present
+A76	Aspect T17 Progressive
+A77	VForm T17 None
+A78	Polarity T17 Pos
+T18	Event 634 644	influência
+A79	Class T18 Occurrence
+A80	Event_Type T18 Process
+A81	Pos T18 Noun
+A82	Polarity T18 Pos
+T19	Event 694 728	missões humanitárias e de caridade
+A83	Class T19 Occurrence
+A84	Event_Type T19 Process
+A85	Pos T19 Noun
+A86	Polarity T19 Pos
+T20	Event 736 745	organizou
+A87	Class T20 I_Action
+A88	Pos T20 Verb
+A89	Tense T20 Past
+A90	Aspect T20 Perfective
+A91	Polarity T20 Pos
+T21	Event 746 763	grandes protestos
+A92	Class T21 Occurrence
+A93	Event_Type T21 Process
+A94	Pos T21 Noun
+A95	Polarity T21 Pos
+T22	Time 767 771	2016
+A96	Time_Type T22 Date
+A97	TemporalFunction T22 None
+#3	AnnotatorNotes T22	value=2016-XX-XX
+T23	Time 774 778	2017
+A98	Time_Type T23 Date
+A99	TemporalFunction T23 None
+#4	AnnotatorNotes T23	value=2017-XX-XX
+T24	Event 858 869	entregou-se
+A100	Class T24 Occurrence
+A101	Event_Type T24 Transition
+A102	Pos T24 Verb
+A103	Tense T24 Past
+A104	Aspect T24 Perfective
+A105	Polarity T24 Pos
+T25	Time 888 913	início do mês de dezembro
+A107	TemporalFunction T25 None
+#5	AnnotatorNotes T25	value=2020-12-XX anchorTime=Publication_Time
+T26	Event 933 940	acusado
+A108	Event_Type T26 Transition
+A109	Pos T26 Verb
+A110	Tense T26 Past
+A111	Aspect T26 Perfective
+A113	Polarity T26 Pos
+T27	Event 944 951	incitar
+A114	Class T27 I_Action
+A115	Event_Type T27 Process
+A116	Pos T27 Noun
+A117	Polarity T27 Pos
+A118	Class T26 I_Action
+A119	VForm T27 Infinitive
+T28	Event 966 972	violar
+A120	Class T28 Occurrence
+A121	Event_Type T28 Process
+A122	Pos T28 Verb
+T29	Event 987 996	restrição
+A123	Class T29 Occurrence
+A124	Event_Type T29 Transition
+A125	Pos T29 Noun
+A126	Polarity T29 Pos
+T30	Event 997 1005	impostas
+A127	Class T30 Occurrence
+A128	Event_Type T30 Transition
+A129	Pos T30 Verb
+A130	Tense T30 Past
+A131	Aspect T30 Perfective
+A132	VForm T30 Participle
+A133	Polarity T30 Pos
+T31	Event 1024 1030	travar
+A135	Event_Type T31 Transition
+A136	Pos T31 Verb
+A137	VForm T31 Infinitive
+A138	Polarity T31 Pos
+T33	Event 1063 1074	organizando
+A143	Class T33 I_Action
+A144	Event_Type T33 Process
+A145	Pos T33 Verb
+A146	VForm T33 Gerundive
+A147	Polarity T33 Pos
+T34	Event 1075 1096	grandes manifestações
+A148	Class T34 Occurrence
+A149	Event_Type T34 Process
+A150	Pos T34 Noun
+A151	Polarity T34 Pos
+A152	Event_Type T20 Process
+R1	TLINK_isIncluded Arg1:T2 Arg2:T3	
+A13	Pos T4 Adjective
+R2	TLINK_simultaneous Arg1:T5 Arg2:T4	
+R3	TLINK_simultaneous Arg1:T6 Arg2:T5	
+R4	TLINK_includes Arg1:T4 Arg2:T2	
+R5	TLINK_after Arg1:T7 Arg2:T2	
+R6	TLINK_before Arg1:T8 Arg2:T7	
+R7	TLINK_simultaneous Arg1:T9 Arg2:T8	
+R8	TLINK_before Arg1:T10 Arg2:T9	
+R9	TLINK_after Arg1:T11 Arg2:T10	
+R10	TLINK_after Arg1:T13 Arg2:T12	
+R11	TLINK_simultaneous Arg1:T12 Arg2:T10	
+R12	TLINK_before Arg1:T17 Arg2:T16	
+R13	TLINK_simultaneous Arg1:T18 Arg2:T17	
+R14	TLINK_simultaneous Arg1:T19 Arg2:T18	
+R15	TLINK_after Arg1:T21 Arg2:T20	
+R18	TLINK_isIncluded Arg1:T24 Arg2:T25	
+R19	TLINK_before Arg1:T26 Arg2:T24	
+R20	TLINK_before Arg1:T27 Arg2:T26	
+R21	TLINK_after Arg1:T28 Arg2:T27	
+R22	TLINK_before Arg1:T29 Arg2:T28	
+R23	TLINK_identity Arg1:T30 Arg2:T29	
+R24	TLINK_after Arg1:T31 Arg2:T30	
+R27	TLINK_after Arg1:T34 Arg2:T33	
+R28	TLINK_after Arg1:T15 Arg2:T14	
+R29	TLINK_simultaneous Arg1:T16 Arg2:T15	
+T35	Time 669 681	últimos anos
+A153	Time_Type T35 Duration
+A154	TemporalFunction T35 None
+#6	AnnotatorNotes T35	value=PXY anchorTime=Publication_Time
+R30	TLINK_simultaneous Arg1:T17 Arg2:T35	
+R32	TLINK_isIncluded Arg1:T20 Arg2:T19	
+R33	TLINK_includes Arg1:T14 Arg2:T12	
+T36	Participant 98 109	A Indonésia
+A155	Lexical_Head T36 Noun
+A156	Individuation_Domain T36 Individual
+A157	Participant_Type_Domain T36 Loc
+A158	Involvement T36 1
+T37	Participant 126 144	um grupo muçulmano
+A159	Lexical_Head T37 Noun
+A160	Individuation_Domain T37 Set
+A161	Participant_Type_Domain T37 Per
+A162	Involvement T37 1
+T38	Participant 187 208	embaixadas ocidentais
+A163	Lexical_Head T38 Noun
+A164	Individuation_Domain T38 Individual
+A165	Participant_Type_Domain T38 Org
+A166	Involvement T38 Und
+T39	Participant 211 217;227 240	locais não islâmicos
+A167	Lexical_Head T39 Noun
+A168	Individuation_Domain T39 Individual
+A169	Participant_Type_Domain T39 Loc
+A170	Involvement T39 Und
+T40	Participant 242 265	O ministro da Segurança
+A171	Lexical_Head T40 Noun
+A172	Individuation_Domain T40 Individual
+A173	Participant_Type_Domain T40 Per
+A174	Involvement T40 1
+T41	Participant 267 282	Mohammad Mahfud
+A175	Lexical_Head T41 Noun
+A176	Individuation_Domain T41 Individual
+A177	Participant_Type_Domain T41 Per
+A178	Involvement T41 1
+T42	Participant 294 305	jornalistas
+A179	Lexical_Head T42 Noun
+A180	Individuation_Domain T42 Individual
+A181	Participant_Type_Domain T42 Per
+A182	Involvement T42 >1
+T43	Participant 310 356	a Frente de Defesa Islâmica (FPI em indonésio)
+A183	Lexical_Head T43 Noun
+A184	Individuation_Domain T43 Individual
+A185	Participant_Type_Domain T43 Org
+A186	Involvement T43 1
+T44	Participant 415 426	organização
+A187	Lexical_Head T44 Noun
+A188	Individuation_Domain T44 Individual
+A189	Participant_Type_Domain T44 Org
+A190	Involvement T44 1
+T45	Participant 428 448	O governo de Jacarta
+A191	Lexical_Head T45 Noun
+A192	Individuation_Domain T45 Individual
+A193	Participant_Type_Domain T45 Org
+A194	Involvement T45 1
+T46	Participant 478 486	símbolos
+A195	Lexical_Head T46 Noun
+A196	Individuation_Domain T46 Individual
+A197	Participant_Type_Domain T46 Other
+A198	Involvement T46 >1
+T47	Participant 490 493	FPI
+A199	Lexical_Head T47 Noun
+A200	Individuation_Domain T47 Individual
+A201	Participant_Type_Domain T47 Org
+A202	Involvement T47 1
+R34	OLINK_partOf Arg1:T46 Arg2:T47	
+T48	Participant 495 510	O grupo radical
+A203	Lexical_Head T48 Noun
+A204	Individuation_Domain T48 Set
+A205	Participant_Type_Domain T48 Per
+A206	Involvement T48 1
+T49	Participant 512 515	que
+A207	Lexical_Head T49 Noun
+A208	Individuation_Domain T49 Set
+A209	Participant_Type_Domain T49 Per
+A210	Involvement T49 1
+R35	OLINK_objIdentity Arg1:T49 Arg2:T48	
+T50	Participant 540 561	lei islâmica (sharia)
+A211	Lexical_Head T50 Noun
+A212	Individuation_Domain T50 Individual
+A213	Participant_Type_Domain T50 Other
+A214	Involvement T50 1
+T51	Participant 565 574	Indonésia
+A215	Lexical_Head T51 Noun
+A216	Individuation_Domain T51 Individual
+A217	Participant_Type_Domain T51 Loc
+A218	Involvement T51 1
+T52	Participant 576 580	país
+A219	Lexical_Head T52 Noun
+A220	Individuation_Domain T52 Individual
+A221	Participant_Type_Domain T52 Loc
+A222	Involvement T52 1
+T53	Participant 585 610	230 milhões de muçulmanos
+A223	Lexical_Head T53 Noun
+A224	Individuation_Domain T53 Individual
+A225	Participant_Type_Domain T53 Per
+A226	Involvement T53 >1
+T54	Participant 654 663	população
+A227	Lexical_Head T54 Noun
+A228	Individuation_Domain T54 Set
+A229	Participant_Type_Domain T54 Per
+A230	Involvement T54 1
+T55	Participant 730 735	A FPI
+A231	Lexical_Head T55 Noun
+A232	Individuation_Domain T55 Individual
+A233	Participant_Type_Domain T55 Org
+A234	Involvement T55 1
+T56	Participant 786 806	o governador cristão
+A235	Lexical_Head T56 Noun
+A236	Individuation_Domain T56 Individual
+A237	Participant_Type_Domain T56 Per
+A238	Involvement T56 1
+T57	Participant 810 817	Jacarta
+A239	Lexical_Head T57 Noun
+A240	Individuation_Domain T57 Individual
+A241	Participant_Type_Domain T57 Loc
+A242	Involvement T57 1
+T58	Participant 819 826	O líder
+A243	Lexical_Head T58 Noun
+A244	Individuation_Domain T58 Individual
+A245	Participant_Type_Domain T58 Per
+A246	Involvement T58 1
+T59	Participant 830 841	organização
+A247	Lexical_Head T59 Noun
+A248	Individuation_Domain T59 Individual
+A249	Participant_Type_Domain T59 Org
+A250	Involvement T59 1
+T60	Participant 843 856	Rizieg Shihab
+A251	Lexical_Head T60 Noun
+A252	Individuation_Domain T60 Individual
+A253	Participant_Type_Domain T60 Per
+A254	Involvement T60 1
+T61	Participant 870 884	às autoridades
+A255	Lexical_Head T61 Noun
+A256	Individuation_Domain T61 Individual
+A257	Participant_Type_Domain T61 Org
+A258	Involvement T61 >1
+T62	Participant 954 963	população
+A259	Lexical_Head T62 Noun
+A260	Individuation_Domain T62 Set
+A261	Participant_Type_Domain T62 Per
+A262	Involvement T62 1
+T63	Participant 973 983	as medidas
+A263	Lexical_Head T63 Noun
+A264	Individuation_Domain T63 Individual
+A265	Participant_Type_Domain T63 Other
+A266	Involvement T63 >1
+T64	Participant 1011 1018	Governo
+A267	Lexical_Head T64 Noun
+A268	Individuation_Domain T64 Individual
+A269	Participant_Type_Domain T64 Org
+A270	Involvement T64 1
+T65	Participant 1031 1044;1045 1053	a pandemia de covid-19
+A271	Lexical_Head T65 Noun
+A272	Individuation_Domain T65 Individual
+A273	Participant_Type_Domain T65 Nat
+A274	Involvement T65 1
+T66	Participant 1057 1061	país
+A275	Lexical_Head T66 Noun
+A276	Individuation_Domain T66 Individual
+A277	Participant_Type_Domain T66 Loc
+A278	Involvement T66 1
+R36	OLINK_objIdentity Arg1:T41 Arg2:T40	
+R37	OLINK_objIdentity Arg1:T44 Arg2:T43	
+R38	OLINK_objIdentity Arg1:T43 Arg2:T37	
+R39	OLINK_objIdentity Arg1:T47 Arg2:T44	
+R40	OLINK_partOf Arg1:T41 Arg2:T45	
+R41	OLINK_objIdentity Arg1:T48 Arg2:T47	
+R42	OLINK_partOf Arg1:T45 Arg2:T36	
+R43	OLINK_objIdentity Arg1:T51 Arg2:T36	
+R44	OLINK_objIdentity Arg1:T52 Arg2:T51	
+R45	OLINK_objIdentity Arg1:T54 Arg2:T53	
+R46	OLINK_objIdentity Arg1:T55 Arg2:T49	
+R47	OLINK_partOf Arg1:T56 Arg2:T57	
+R48	OLINK_partOf Arg1:T57 Arg2:T52	
+R49	OLINK_partOf Arg1:T58 Arg2:T59	
+R50	OLINK_objIdentity Arg1:T60 Arg2:T58	
+R51	OLINK_objIdentity Arg1:T59 Arg2:T55	
+R52	OLINK_objIdentity Arg1:T62 Arg2:T54	
+R53	OLINK_objIdentity Arg1:T64 Arg2:T45	
+R54	OLINK_objIdentity Arg1:T66 Arg2:T52	
+R55	SRLINK_agent Arg1:T2 Arg2:T36	
+R56	SRLINK_patient Arg1:T2 Arg2:T37	
+R57	SRLINK_pivot Arg1:T4 Arg2:T37	
+R59	SRLINK_beneficiary Arg1:T5 Arg2:T38	
+R60	SRLINK_beneficiary Arg1:T5 Arg2:T39	
+R61	SRLINK_location Arg1:T6 Arg2:T39	
+R62	SRLINK_agent Arg1:T7 Arg2:T41	
+R63	SRLINK_goal Arg1:T7 Arg2:T42	
+R64	SLINK_evidential Arg1:T7 Arg2:T8	
+R65	SRLINK_theme Arg1:T7 Arg2:T8	
+R66	SRLINK_pivot Arg1:T8 Arg2:T43	
+R67	SRLINK_theme Arg1:T8 Arg2:T9	
+R68	SLINK_intensional Arg1:T10 Arg2:T11	
+R69	SRLINK_theme Arg1:T10 Arg2:T11	
+R70	SRLINK_patient Arg1:T11 Arg2:T44	
+R71	SRLINK_setting Arg1:T9 Arg2:T10	
+R72	SRLINK_agent Arg1:T12 Arg2:T45	
+R73	SRLINK_theme Arg1:T12 Arg2:T13	
+R74	SLINK_intensional Arg1:T12 Arg2:T13	
+R75	SRLINK_theme Arg1:T13 Arg2:T46	
+R76	SRLINK_pivot Arg1:T14 Arg2:T49	
+R77	SLINK_intensional Arg1:T14 Arg2:T15	
+R78	SRLINK_theme Arg1:T14 Arg2:T15	
+R79	SLINK_evidential Arg1:T15 Arg2:T16	
+R80	SRLINK_theme Arg1:T15 Arg2:T16	
+R81	SRLINK_theme Arg1:T16 Arg2:T50	
+R82	SRLINK_location Arg1:T16 Arg2:T51	
+R83	OLINK_partOf Arg1:T53 Arg2:T52	
+R84	SRLINK_agent Arg1:T17 Arg2:T52	
+R85	SRLINK_theme Arg1:T17 Arg2:T18	
+R86	SRLINK_goal Arg1:T18 Arg2:T54	
+R87	SRLINK_manner Arg1:T18 Arg2:T19	
+R88	SRLINK_agent Arg1:T20 Arg2:T55	
+R89	SRLINK_theme Arg1:T20 Arg2:T21	
+R90	SLINK_intensional Arg1:T20 Arg2:T21	
+R91	SRLINK_beneficiary Arg1:T21 Arg2:T56	
+R92	SRLINK_agent Arg1:T24 Arg2:T60	
+R93	SRLINK_beneficiary Arg1:T24 Arg2:T61	
+R94	SRLINK_reason Arg1:T24 Arg2:T26	
+R95	SRLINK_pivot Arg1:T26 Arg2:T60	
+R96	SLINK_intensional Arg1:T26 Arg2:T27	
+R97	SRLINK_theme Arg1:T26 Arg2:T27	
+R98	SLINK_intensional Arg1:T27 Arg2:T28	
+R99	SRLINK_theme Arg1:T27 Arg2:T28	
+R100	SRLINK_agent Arg1:T27 Arg2:T60	
+R101	SRLINK_goal Arg1:T27 Arg2:T62	
+R102	SRLINK_theme Arg1:T28 Arg2:T63	
+R103	SRLINK_theme Arg1:T29 Arg2:T63	
+R104	SRLINK_theme Arg1:T30 Arg2:T63	
+R105	SRLINK_agent Arg1:T30 Arg2:T64	
+R106	SRLINK_purpose Arg1:T30 Arg2:T31	
+R109	SRLINK_location Arg1:T31 Arg2:T66	
+R110	SRLINK_theme Arg1:T33 Arg2:T34	
+R111	SLINK_intensional Arg1:T33 Arg2:T34	
+R112	SRLINK_agent Arg1:T33 Arg2:T60	
+R58	TLINK_after Arg1:T24 Arg2:T21	
+A60	Time_Type T25 Date
+A106	VForm T28 Infinitive
+R114	SLINK_intensional Arg1:T30 Arg2:T31	
+R25	TLINK_simultaneous Arg1:T33 Arg2:T27	
+R16	TLINK_isIncluded Arg1:T20 Arg2:T22	
+R17	TLINK_isIncluded Arg1:T20 Arg2:T23	
+A112	Aspect T33 Progressive

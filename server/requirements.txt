@@ -1,0 +1,8 @@
+demoji
+elasticsearch==7.17.3
+Flask
+Flask-Cors
+python-dotenv
+schedule
+scikit-learn==1.0.2
+TwitterAPI

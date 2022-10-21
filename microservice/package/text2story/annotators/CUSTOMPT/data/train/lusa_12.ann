@@ -1,0 +1,353 @@
+T1	Event 153 159	buscas
+A2	Event_Type T1 Process
+A3	Pos T1 Noun
+T2	Time 148 152	hoje
+A7	Time_Type T2 Date
+A8	TemporalFunction T2 Publication_Time
+#1	AnnotatorNotes T2	value=2020-12-13
+T3	Event 144 147	fez
+A9	Class T3 I_Action
+A10	Event_Type T3 Process
+A11	Pos T3 Verb
+A12	Tense T3 Past
+A13	Aspect T3 Perfective
+A14	Polarity T3 Pos
+T4	Event 215 221	alerta
+A1	Class T4 Occurrence
+A4	Event_Type T4 Transition
+A5	Pos T4 Noun
+A6	Polarity T4 Pos
+T5	Event 225 240	desaparecimento
+A15	Class T5 Occurrence
+A16	Event_Type T5 Transition
+A17	Pos T5 Noun
+A18	Polarity T5 Pos
+T6	Event 323 333	comunicado
+A19	Class T6 Reporting
+A20	Event_Type T6 Transition
+A21	Pos T6 Noun
+A22	Polarity T6 Pos
+T7	Event 348 354	refere
+A23	Class T7 Reporting
+A24	Event_Type T7 Transition
+A25	Pos T7 Verb
+A26	Tense T7 Present
+A27	Aspect T7 Imperfective
+A28	Polarity T7 Pos
+T8	Event 410 420	encontrado
+A29	Class T8 State
+A30	Event_Type T8 State
+A31	Pos T8 Verb
+A32	Tense T8 Past
+A33	Aspect T8 Perfective
+A34	VForm T8 Participle
+A35	Polarity T8 Neg
+T9	Event 422 433	desapareceu
+A36	Class T9 Occurrence
+A37	Event_Type T9 Transition
+A38	Pos T9 Verb
+A39	Tense T9 Past
+A40	Aspect T9 Perfective
+A41	Polarity T9 Pos
+T10	Time 444 449	tarde
+A42	Time_Type T10 Duration
+A43	TemporalFunction T10 None
+#2	AnnotatorNotes T10	value=2020-12-13TA
+T11	Event 465 472	entrado
+A44	Class T11 Occurrence
+A45	Event_Type T11 Transition
+A46	Pos T11 Verb
+A47	Tense T11 Past
+A48	Aspect T11 Perfective
+A49	VForm T11 Infinitive
+A50	Polarity T11 Pos
+T12	Event 505 513	avistado
+A51	Class T12 Perception
+A52	Event_Type T12 Transition
+A53	Pos T12 Verb
+A54	Tense T12 Past
+A55	Aspect T12 Perfective
+A56	VForm T12 Infinitive
+A57	Polarity T12 Pos
+T13	Event 490 497	deixado
+A58	Class T13 State
+A59	Event_Type T13 State
+A60	Pos T13 Verb
+A61	Tense T13 Past
+A62	Aspect T13 Perfective
+A63	VForm T13 Infinitive
+A64	Polarity T13 Pos
+T14	Event 540 552	acompanhavam
+A65	Class T14 State
+A66	Event_Type T14 State
+A67	Pos T14 Verb
+A68	Tense T14 Past
+A69	Aspect T14 Progressive
+A70	Polarity T14 Pos
+T15	Event 603 609	ativou
+A71	Class T15 Occurrence
+A72	Event_Type T15 Transition
+A73	Pos T15 Verb
+A74	Tense T15 Past
+A75	Aspect T15 Perfective
+A76	Polarity T15 Pos
+T16	Event 739 746	receber
+A77	Class T16 Perception
+A78	Event_Type T16 Transition
+A79	Pos T16 Verb
+A80	VForm T16 Infinitive
+A81	Polarity T16 Pos
+T17	Event 749 755	alerta
+A82	Class T17 Occurrence
+A83	Event_Type T17 Transition
+A84	Pos T17 Noun
+A85	Polarity T17 Pos
+T18	Time 759 764	16:05
+A86	Time_Type T18 Time
+A87	TemporalFunction T18 None
+#3	AnnotatorNotes T18	value=2020-12-13T16:05
+T19	Event 843 849	buscas
+A88	Class T19 Occurrence
+A89	Event_Type T19 Process
+A90	Pos T19 Noun
+A91	Polarity T19 Pos
+A92	Class T1 Occurrence
+A93	Polarity T1 Pos
+R1	TLINK_identity Arg1:T19 Arg2:T1	
+T20	Event 856 869	interrompidas
+A94	Class T20 Occurrence
+A95	Event_Type T20 Transition
+A96	Pos T20 Verb
+A97	Tense T20 Past
+A98	Aspect T20 Perfective
+A99	VForm T20 Participle
+A100	Polarity T20 Pos
+T21	Event 896 905	retomadas
+A101	Class T21 Occurrence
+A102	Event_Type T21 Transition
+A103	Pos T21 Verb
+A104	Tense T21 Future
+A105	Aspect T21 Imperfective
+A106	VForm T21 Participle
+A107	Mood T21 Future
+A108	Polarity T21 Pos
+T22	Time 909 922	segunda-feira
+A109	Time_Type T22 Date
+A110	TemporalFunction T22 None
+#4	AnnotatorNotes T22	value=2020-12-14 anchorTime=Publication_time
+T23	Event 924 932	adiantou
+A111	Class T23 Reporting
+A112	Event_Type T23 Transition
+A113	Pos T23 Verb
+A114	Tense T23 Past
+A115	Aspect T23 Perfective
+A116	Polarity T23 Pos
+T24	Event 175 180	êxito
+A117	Class T24 State
+A118	Event_Type T24 State
+A119	Pos T24 Noun
+A120	Polarity T24 Neg
+R2	TLINK_isIncluded Arg1:T3 Arg2:T2	
+R3	TLINK_identity Arg1:T1 Arg2:T3	
+R4	TLINK_identity Arg1:T24 Arg2:T1	
+R5	TLINK_before Arg1:T4 Arg2:T1	
+R6	TLINK_before Arg1:T5 Arg2:T4	
+R7	TLINK_isIncluded Arg1:T7 Arg2:T6	
+R8	TLINK_includes Arg1:T8 Arg2:T7	
+R9	TLINK_before Arg1:T9 Arg2:T7	
+R10	TLINK_isIncluded Arg1:T9 Arg2:T10	
+R11	TLINK_before Arg1:T11 Arg2:T9	
+R12	TLINK_after Arg1:T6 Arg2:T3	
+R13	TLINK_after Arg1:T13 Arg2:T11	
+R14	TLINK_identity Arg1:T12 Arg2:T13	
+R15	TLINK_includes Arg1:T14 Arg2:T12	
+R16	TLINK_isIncluded Arg1:T15 Arg2:T14	
+R17	TLINK_after Arg1:T15 Arg2:T9	
+R18	TLINK_before Arg1:T16 Arg2:T15	
+R19	TLINK_simultaneous Arg1:T17 Arg2:T16	
+R20	TLINK_isIncluded Arg1:T16 Arg2:T18	
+R21	TLINK_after Arg1:T21 Arg2:T20	
+R22	TLINK_isIncluded Arg1:T21 Arg2:T22	
+R23	TLINK_before Arg1:T23 Arg2:T21	
+R24	TLINK_ends Arg1:T20 Arg2:T19	
+R25	TLINK_after Arg1:T19 Arg2:T17	
+R26	SLINK_evidential Arg1:T3 Arg2:T1	
+R27	SLINK_evidential Arg1:T7 Arg2:T9	
+R28	SLINK_evidential Arg1:T16 Arg2:T17	
+R29	SLINK_evidential Arg1:T23 Arg2:T20	
+T25	Participant 113 143	A Autoridade Marítima Nacional
+A121	Lexical_Head T25 Noun
+A122	Individuation_Domain T25 Individual
+A123	Participant_Type_Domain T25 Org
+A124	Involvement T25 1
+T26	Participant 185 197	rio Guadiana
+A125	Lexical_Head T26 Noun
+A126	Individuation_Domain T26 Individual
+A127	Participant_Type_Domain T26 Nat
+A128	Involvement T26 1
+T27	Participant 244 264	um homem, de 48 anos
+A129	Lexical_Head T27 Noun
+A130	Individuation_Domain T27 Individual
+A131	Participant_Type_Domain T27 Per
+A132	Involvement T27 1
+T28	Participant 274 289	Foz de Odeleite
+A133	Lexical_Head T28 Noun
+A134	Individuation_Domain T28 Individual
+A135	Participant_Type_Domain T28 Loc
+A136	Involvement T28 1
+T29	Participant 294 318	concelho de Castro Marim
+A137	Lexical_Head T29 Noun
+A138	Individuation_Domain T29 Individual
+A139	Participant_Type_Domain T29 Loc
+A140	Involvement T29 1
+R30	OLINK_partOf Arg1:T28 Arg2:T29	
+R31	OLINK_partOf Arg1:T28 Arg2:T26	
+T30	Participant 335 347	a autoridade
+A141	Lexical_Head T30 Noun
+A142	Individuation_Domain T30 Individual
+A143	Participant_Type_Domain T30 Org
+A144	Involvement T30 1
+R32	OLINK_objIdentity Arg1:T30 Arg2:T25	
+T31	Participant 359 390	o homem de nacionalidade romena
+A145	Lexical_Head T31 Noun
+A146	Individuation_Domain T31 Individual
+A147	Participant_Type_Domain T31 Per
+A148	Involvement T31 1
+R33	OLINK_objIdentity Arg1:T31 Arg2:T27	
+T32	Participant 392 395	que
+A149	Lexical_Head T32 Pronoun
+A150	Individuation_Domain T32 Individual
+A151	Participant_Type_Domain T32 Per
+A152	Involvement T32 1
+R34	OLINK_objIdentity Arg1:T32 Arg2:T31	
+T33	Participant 476 480	água
+A153	Lexical_Head T33 Noun
+A154	Individuation_Domain T33 Individual
+A155	Participant_Type_Domain T33 Nat
+A156	Involvement T33 Und
+R35	OLINK_objIdentity Arg1:T33 Arg2:T26	
+T34	Participant 518 533	dois pescadores
+A157	Lexical_Head T34 Noun
+A158	Individuation_Domain T34 Individual
+A159	Participant_Type_Domain T34 Per
+A160	Involvement T34 >1
+T35	Participant 534 537	que
+A161	Lexical_Head T35 Pronoun
+A162	Individuation_Domain T35 Individual
+A163	Participant_Type_Domain T35 Per
+A164	Involvement T35 >1
+R36	OLINK_objIdentity Arg1:T35 Arg2:T34	
+T36	Participant 554 563	O Capitão
+A165	Lexical_Head T36 Noun
+A166	Individuation_Domain T36 Individual
+A167	Participant_Type_Domain T36 Per
+A168	Involvement T36 1
+T37	Participant 567 602	Porto de Vila Real de Santo António
+A169	Lexical_Head T37 Noun
+A170	Individuation_Domain T37 Individual
+A171	Participant_Type_Domain T37 Loc
+A172	Involvement T37 1
+R38	OLINK_partOf Arg1:T36 Arg2:T37	
+T39	Participant 615 622	o local
+A177	Lexical_Head T39 Noun
+A178	Individuation_Domain T39 Individual
+A179	Participant_Type_Domain T39 Loc
+A180	Involvement T39 1
+R39	OLINK_objIdentity Arg1:T39 Arg2:T28	
+T40	Participant 623 637	uma embarcação
+A181	Lexical_Head T40 Noun
+A182	Individuation_Domain T40 Individual
+A183	Participant_Type_Domain T40 Obj
+A184	Involvement T40 1
+T41	Participant 641 657	Polícia Marítima
+A185	Lexical_Head T41 Noun
+A186	Individuation_Domain T41 Individual
+A187	Participant_Type_Domain T41 Org
+A188	Involvement T41 1
+R40	OLINK_partOf Arg1:T40 Arg2:T41	
+T42	Participant 660 674	uma embarcação
+A189	Lexical_Head T42 Noun
+A190	Individuation_Domain T42 Individual
+A191	Participant_Type_Domain T42 Obj
+A192	Involvement T42 1
+T43	Participant 678 727	Estação Salva-vidas de Vila Real de Santo António
+A193	Lexical_Head T43 Noun
+A194	Individuation_Domain T43 Individual
+A195	Participant_Type_Domain T43 Org
+A196	Involvement T43 1
+R41	OLINK_partOf Arg1:T42 Arg2:T43	
+T45	Participant 0 838	Castro Marim, 13 dez 2020
+MICA // ANP
+Autoridades fazem buscas para encontrar homem desaparecido no rio Guadiana
+A Autoridade Marítima Nacional fez hoje buscas, até agora sem êxito, no rio Guadiana, na sequência do alerta do desaparecimento de um homem, de 48 anos, junto à Foz de Odeleite, no concelho de Castro Marim.
+Em comunicado, a autoridade refere que o homem de nacionalidade romena, que ainda não foi encontrado, desapareceu durante a tarde, depois de ter entrado na água e de ter deixado de ser avistado por dois pescadores que o acompanhavam.
+O Capitão do Porto de Vila Real de Santo António ativou para o local uma embarcação da Polícia Marítima e uma embarcação da Estação Salva-vidas de Vila Real de Santo António, depois de receber o alerta às 16:05 através do Centro de Coordenação de Busca e Salvamento Marítimo de Lisboa
+A201	Lexical_Head T45 Noun
+A202	Individuation_Domain T45 Individual
+A203	Participant_Type_Domain T45 Org
+A204	Involvement T45 1
+T47	Time 882 887	tarde
+A209	Time_Type T47 Time
+A210	TemporalFunction T47 None
+#5	AnnotatorNotes T47	value=2020-12-13TA
+R45	TLINK_isIncluded Arg1:T20 Arg2:T47	
+T48	Participant 946 950	Lusa
+A211	Lexical_Head T48 Noun
+A212	Individuation_Domain T48 Individual
+A213	Participant_Type_Domain T48 Org
+A214	Involvement T48 1
+T49	Participant 951 956	fonte
+A215	Lexical_Head T49 Noun
+A216	Individuation_Domain T49 Individual
+A217	Participant_Type_Domain T49 Per
+A218	Involvement T49 1
+T50	Participant 960 988	Autoridade Marítima Nacional
+A219	Lexical_Head T50 Noun
+A220	Individuation_Domain T50 Individual
+A221	Participant_Type_Domain T50 Org
+A222	Involvement T50 1
+R46	OLINK_partOf Arg1:T49 Arg2:T50	
+R47	OLINK_objIdentity Arg1:T50 Arg2:T25	
+T51	Time 14 25	13 dez 2020
+A223	Time_Type T51 Date
+A224	TemporalFunction T51 Publication_Time
+#6	AnnotatorNotes T51	value=2020-12-13
+R48	SRLINK_agent Arg1:T3 Arg2:T25	
+R49	SRLINK_theme Arg1:T3 Arg2:T1	
+R50	SRLINK_manner Arg1:T3 Arg2:T24	
+R51	SRLINK_location Arg1:T3 Arg2:T26	
+R52	SRLINK_theme Arg1:T4 Arg2:T5	
+R53	SRLINK_reason Arg1:T3 Arg2:T4	
+R54	SRLINK_patient Arg1:T5 Arg2:T27	
+R55	SRLINK_location Arg1:T3 Arg2:T28	
+R56	SRLINK_location Arg1:T3 Arg2:T29	
+R57	SRLINK_agent Arg1:T7 Arg2:T30	
+R58	SRLINK_theme Arg1:T7 Arg2:T9	
+R59	SRLINK_means Arg1:T7 Arg2:T6	
+R60	SRLINK_pivot Arg1:T8 Arg2:T32	
+R61	SRLINK_patient Arg1:T9 Arg2:T32	
+R62	SRLINK_agent Arg1:T11 Arg2:T32	
+R63	SRLINK_location Arg1:T11 Arg2:T33	
+R64	SRLINK_pivot Arg1:T13 Arg2:T32	
+R65	SRLINK_patient Arg1:T12 Arg2:T32	
+R66	SRLINK_agent Arg1:T12 Arg2:T34	
+R67	SRLINK_pivot Arg1:T14 Arg2:T35	
+T52	Participant 538 539	o
+A225	Lexical_Head T52 Pronoun
+A226	Individuation_Domain T52 Individual
+A227	Participant_Type_Domain T52 Per
+A228	Involvement T52 1
+R68	OLINK_objIdentity Arg1:T52 Arg2:T31	
+R69	SRLINK_theme Arg1:T14 Arg2:T52	
+R70	SRLINK_agent Arg1:T15 Arg2:T36	
+R71	SRLINK_goal Arg1:T15 Arg2:T39	
+R72	SRLINK_theme Arg1:T15 Arg2:T40	
+R73	SRLINK_theme Arg1:T15 Arg2:T42	
+R74	SRLINK_beneficiary Arg1:T16 Arg2:T36	
+R75	SRLINK_theme Arg1:T16 Arg2:T17	
+R76	SRLINK_source Arg1:T16 Arg2:T45	
+R77	SRLINK_patient Arg1:T20 Arg2:T19	
+R78	SRLINK_patient Arg1:T21 Arg2:T19	
+R79	SRLINK_theme Arg1:T23 Arg2:T20	
+R80	SRLINK_goal Arg1:T23 Arg2:T48	
+R81	SRLINK_agent Arg1:T23 Arg2:T49	

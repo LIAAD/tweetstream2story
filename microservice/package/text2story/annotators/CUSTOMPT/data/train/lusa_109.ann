@@ -1,0 +1,533 @@
+T1	Event 144 150	detido
+A1	Class T1 Occurrence
+A2	Event_Type T1 Transition
+A3	Pos T1 Verb
+A4	Tense T1 Past
+A5	Aspect T1 Perfective
+A8	Polarity T1 Pos
+T2	Event 152 159	acusado
+A9	Class T2 State
+A10	Event_Type T2 State
+A11	Pos T2 Verb
+A12	Tense T2 Past
+A13	Aspect T2 Perfective
+A14	VForm T2 Participle
+A15	Polarity T2 Pos
+T3	Event 163 168	matar
+A16	Class T3 Occurrence
+A17	Event_Type T3 Transition
+A18	Pos T3 Verb
+A21	VForm T3 Infinitive
+T4	Event 191 200	discussão
+A22	Class T4 Occurrence
+A23	Event_Type T4 Process
+A24	Pos T4 Noun
+A28	Polarity T4 Pos
+T5	Event 247 252	disse
+A29	Class T5 Reporting
+A30	Event_Type T5 Transition
+A31	Pos T5 Verb
+A32	Tense T5 Past
+A33	Aspect T5 Perfective
+A36	Polarity T5 Pos
+T6	Time 253 257	hoje
+A37	Time_Type T6 Date
+A38	TemporalFunction T6 Publication_Time
+#1	AnnotatorNotes T6	value=2020-12-22 AnchorTime=Publication_Time
+T7	Time 8 19	22 dez 2020
+A39	Time_Type T7 Date
+A40	TemporalFunction T7 Publication_Time
+#2	AnnotatorNotes T7	value=2020-12-22
+T8	Event 302 310	discutir
+A41	Class T8 Occurrence
+A42	Event_Type T8 Process
+A43	Pos T8 Verb
+A44	Tense T8 Past
+A45	Aspect T8 Imperfective_Progressive
+A48	Polarity T8 Pos
+T9	Event 334 347	desconhecidos
+A49	Class T9 State
+A50	Event_Type T9 State
+A51	Pos T9 Adjective
+A56	Polarity T9 Pos
+T10	Event 380 388	disparou
+A57	Class T10 Occurrence
+A58	Event_Type T10 Transition
+A59	Pos T10 Verb
+A60	Tense T10 Past
+A61	Aspect T10 Perfective
+A64	Polarity T10 Pos
+T11	Event 405 414;417 428	alvejando mortalmente
+A65	Class T11 Occurrence
+A66	Pos T11 Verb
+A67	Tense T11 Past
+A68	Aspect T11 Imperfective
+A69	VForm T11 Gerundive
+A71	Polarity T11 Pos
+T12	Participant 415 416	o
+A72	Lexical_Head T12 Pronoun
+A73	Individuation_Domain T12 Individual
+A74	Participant_Type_Domain T12 Per
+A75	Involvement T12 1
+T13	Event 431 436	disse
+A76	Class T13 Reporting
+A77	Event_Type T13 Transition
+A78	Pos T13 Verb
+A79	Tense T13 Past
+A80	Aspect T13 Perfective
+A83	Polarity T13 Pos
+T14	Event 533 545	Tratam-se de
+A84	Class T14 State
+A85	Event_Type T14 State
+A86	Pos T14 Verb
+A87	Tense T14 Present
+A88	Aspect T14 Progressive
+A91	Polarity T14 Pos
+T15	Event 561 567	afetos
+A92	Class T15 State
+A93	Event_Type T15 State
+A94	Pos T15 Adjective
+A99	Polarity T15 Pos
+T16	Event 713 720	ocorreu
+A100	Class T16 Occurrence
+A101	Event_Type T16 Transition
+A102	Pos T16 Verb
+A103	Tense T16 Past
+A104	Aspect T16 Perfective
+A107	Polarity T16 Pos
+T17	Time 748 773	madrugada de quinta-feira
+A108	Time_Type T17 Time
+#3	AnnotatorNotes T17	value=2020-12-17TMo anchorTime=Publication_Time
+T18	Event 798 809	regressavam
+A110	Class T18 Occurrence
+A111	Event_Type T18 Transition
+A112	Pos T18 Verb
+A113	Tense T18 Past
+A114	Aspect T18 Progressive
+A117	Polarity T18 Pos
+T19	Event 817 826	atividade
+A118	Class T19 Occurrence
+A119	Event_Type T19 Process
+A120	Pos T19 Noun
+A125	Polarity T19 Pos
+T20	Event 830 838	patrulha
+A126	Class T20 Occurrence
+A127	Event_Type T20 Process
+A128	Pos T20 Noun
+A133	Polarity T20 Pos
+T21	Event 882 887	ouvir
+A134	Class T21 Perception
+A135	Pos T21 Verb
+A138	VForm T21 Infinitive
+A140	Polarity T21 Pos
+T22	Event 890 894	tiro
+A141	Class T22 Occurrence
+A142	Event_Type T22 Transition
+A143	Pos T22 Noun
+A148	Polarity T22 Pos
+T23	Event 914 922	correram
+A149	Class T23 Occurrence
+A150	Event_Type T23 Process
+A151	Pos T23 Verb
+A152	Tense T23 Past
+A153	Aspect T23 Perfective
+A156	Polarity T23 Pos
+T24	Event 928 931	ver
+A157	Class T24 Perception
+A158	Event_Type T24 Process
+A159	Pos T24 Verb
+A164	Polarity T24 Pos
+T25	Event 932 954	o que se tinha passado
+A165	Class T25 Occurrence
+A166	Event_Type T25 Transition
+A167	Pos T25 Verb
+A168	Tense T25 Past
+A169	Aspect T25 Perfective
+A170	VForm T25 Participle
+A172	Polarity T25 Pos
+T26	Event 990 996	detido
+A173	Class T26 Occurrence
+A174	Event_Type T26 Transition
+A175	Pos T26 Verb
+A176	Tense T26 Past
+A177	Aspect T26 Perfective
+A180	Polarity T26 Pos
+T27	Event 999 1007	explicou
+A181	Class T27 Reporting
+A182	Event_Type T27 Transition
+A183	Pos T27 Verb
+A184	Tense T27 Past
+A185	Aspect T27 Perfective
+A188	Polarity T27 Pos
+T28	Event 1064 1071	abertos
+A189	Class T28 Occurrence
+A190	Event_Type T28 Transition
+A191	Pos T28 Verb
+A192	Tense T28 Past
+A193	Aspect T28 Perfective
+A196	Polarity T28 Pos
+T29	Event 1072 1086	dois processos
+A198	Event_Type T29 State
+A199	Pos T29 Noun
+A204	Polarity T29 Pos
+T30	Event 1113 1124	disciplinar
+A197	Class T30 State
+A205	Event_Type T30 State
+A206	Pos T30 Adjective
+A207	Tense T30 Present
+A208	Aspect T30 Progressive
+A209	VForm T30 Gerundive
+A211	Polarity T30 Pos
+T31	Event 1133 1141	criminal
+A212	Class T31 State
+A213	Event_Type T31 State
+A214	Pos T31 Adjective
+A215	Tense T31 Present
+A216	Aspect T31 Progressive
+A217	VForm T31 Gerundive
+A219	Polarity T31 Pos
+T32	Event 1154 1186	acompanhará com todo o interesse
+A210	Event_Type T32 Process
+A220	Pos T32 Verb
+A221	Tense T32 Future
+A224	Mood T32 Future
+A225	Polarity T32 Pos
+T33	Event 1189 1197	desfecho
+A226	Class T33 Occurrence
+A227	Event_Type T33 Transition
+A228	Pos T33 Noun
+A233	Polarity T33 Pos
+T34	Event 1202 1211	processos
+A234	Class T34 State
+A235	Event_Type T34 State
+A236	Pos T34 Noun
+A241	Polarity T34 Pos
+T35	Event 1214 1222	concluiu
+A242	Class T35 Reporting
+A243	Event_Type T35 Transition
+A244	Pos T35 Verb
+A245	Tense T35 Past
+A246	Aspect T35 Perfective
+A249	Polarity T35 Pos
+A251	Polarity T3 Pos
+R1	TLINK_isIncluded Arg1:T5 Arg2:T6	
+R2	TLINK_before Arg1:T3 Arg2:T2	
+R3	TLINK_during Arg1:T3 Arg2:T4	
+R4	TLINK_includes Arg1:T2 Arg2:T1	
+R5	TLINK_after Arg1:T5 Arg2:T1	
+R6	TLINK_identity Arg1:T8 Arg2:T4	
+T36	Participant 316 323	motivos
+A252	Lexical_Head T36 Noun
+A253	Individuation_Domain T36 Individual
+A254	Participant_Type_Domain T36 Other
+A255	Involvement T36 Und
+R7	TLINK_includes Arg1:T9 Arg2:T8	
+R8	TLINK_simultaneous Arg1:T10 Arg2:T8	
+R9	TLINK_identity Arg1:T11 Arg2:T10	
+R11	SLINK_evidential Arg1:T13 Arg2:T10	
+R12	TLINK_includes Arg1:T14 Arg2:T13	
+R13	TLINK_after Arg1:T13 Arg2:T11	
+R14	TLINK_simultaneous Arg1:T15 Arg2:T14	
+T37	Event 703 712	incidente
+A256	Class T37 Occurrence
+A257	Event_Type T37 Transition
+A258	Pos T37 Noun
+A263	Polarity T37 Pos
+R15	TLINK_identity Arg1:T37 Arg2:T10	
+R16	TLINK_identity Arg1:T16 Arg2:T37	
+R17	TLINK_isIncluded Arg1:T16 Arg2:T17	
+R18	TLINK_identity Arg1:T20 Arg2:T19	
+R19	TLINK_simultaneous Arg1:T18 Arg2:T16	
+R20	TLINK_before Arg1:T19 Arg2:T18	
+R21	TLINK_simultaneous Arg1:T22 Arg2:T21	
+R22	TLINK_after Arg1:T23 Arg2:T21	
+R23	TLINK_after Arg1:T24 Arg2:T23	
+R24	TLINK_before Arg1:T25 Arg2:T24	
+R25	TLINK_after Arg1:T26 Arg2:T73	
+R26	TLINK_simultaneous Arg1:T21 Arg2:T18	
+R27	TLINK_after Arg1:T27 Arg2:T26	
+R10	TLINK_isIncluded Arg1:T27 Arg2:T13	
+R28	TLINK_after Arg1:T28 Arg2:T26	
+R29	TLINK_isIncluded Arg1:T30 Arg2:T29	
+R30	TLINK_isIncluded Arg1:T31 Arg2:T29	
+R31	TLINK_isIncluded Arg1:T29 Arg2:T28	
+R32	TLINK_identity Arg1:T34 Arg2:T29	
+R33	TLINK_after Arg1:T32 Arg2:T28	
+R34	TLINK_isIncluded Arg1:T33 Arg2:T32	
+R35	TLINK_endedBy Arg1:T34 Arg2:T33	
+R36	SLINK_evidential Arg1:T35 Arg2:T32	
+R37	TLINK_after Arg1:T35 Arg2:T27	
+T38	Participant 107 116	Um agente
+A267	Involvement T38 1
+T39	Participant 118 139	a polícia moçambicana
+A268	Lexical_Head T39 Noun
+A269	Individuation_Domain T39 Individual
+A270	Participant_Type_Domain T39 Org
+A271	Involvement T39 1
+R38	OLINK_partOf Arg1:T38 Arg2:T39	
+T40	Participant 169 178	um colega
+A272	Lexical_Head T40 Noun
+A273	Individuation_Domain T40 Individual
+A274	Participant_Type_Domain T40 Per
+A275	Involvement T40 1
+T41	Participant 202 223	a província de Maputo
+A276	Lexical_Head T41 Noun
+A277	Individuation_Domain T41 Individual
+A278	Participant_Type_Domain T41 Loc
+A279	Involvement T41 1
+T42	Participant 226 245	o sul de Moçambique
+A280	Lexical_Head T42 Noun
+A281	Individuation_Domain T42 Individual
+A282	Participant_Type_Domain T42 Loc
+A283	Involvement T42 1
+R39	OLINK_partOf Arg1:T41 Arg2:T42	
+T43	Participant 260 264	Lusa
+A284	Lexical_Head T43 Noun
+A285	Individuation_Domain T43 Individual
+A286	Participant_Type_Domain T43 Org
+A287	Involvement T43 1
+T44	Participant 265 270	fonte
+A288	Lexical_Head T44 Noun
+A289	Individuation_Domain T44 Individual
+A290	Participant_Type_Domain T44 Per
+A291	Involvement T44 1
+T45	Participant 272 284	a corporação
+A292	Lexical_Head T45 Noun
+A293	Individuation_Domain T45 Individual
+A294	Participant_Type_Domain T45 Org
+A295	Involvement T45 1
+T46	Participant 287 291	Eles
+A296	Lexical_Head T46 Pronoun
+A297	Individuation_Domain T46 Individual
+A298	Participant_Type_Domain T46 Per
+A299	Involvement T46 >1
+R40	OLINK_objIdentity Arg1:T45 Arg2:T39	
+R41	OLINK_partOf Arg1:T44 Arg2:T45	
+R42	OLINK_partOf Arg1:T40 Arg2:T39	
+R43	OLINK_partOf Arg1:T38 Arg2:T46	
+R44	OLINK_partOf Arg1:T40 Arg2:T46	
+T47	Participant 365 367	um
+A300	Lexical_Head T47 Pronoun
+A301	Individuation_Domain T47 Individual
+A302	Participant_Type_Domain T47 Per
+A303	Involvement T47 1
+T48	Participant 369 379	os membros
+A304	Lexical_Head T48 Noun
+A305	Individuation_Domain T48 Individual
+A306	Participant_Type_Domain T48 Per
+A307	Involvement T48 >1
+R45	OLINK_partOf Arg1:T47 Arg2:T48	
+R46	OLINK_objIdentity Arg1:T48 Arg2:T46	
+T49	Participant 396 403	o outro
+A308	Lexical_Head T49 Pronoun
+A309	Individuation_Domain T49 Individual
+A310	Participant_Type_Domain T49 Per
+A311	Involvement T49 1
+R47	OLINK_partOf Arg1:T49 Arg2:T48	
+R48	OLINK_objIdentity Arg1:T47 Arg2:T38	
+R49	OLINK_objIdentity Arg1:T49 Arg2:T40	
+T50	Participant 437 448	o porta-voz
+A312	Lexical_Head T50 Noun
+A313	Individuation_Domain T50 Individual
+A314	Participant_Type_Domain T50 Per
+A315	Involvement T50 1
+T51	Participant 450 492	a Polícia da República de Moçambique (PRM)
+A316	Lexical_Head T51 Noun
+A317	Individuation_Domain T51 Individual
+A318	Participant_Type_Domain T51 Org
+A319	Involvement T51 1
+T52	Participant 494 515	a província de Maputo
+A320	Lexical_Head T52 Noun
+A321	Individuation_Domain T52 Individual
+A322	Participant_Type_Domain T52 Loc
+A323	Involvement T52 1
+T53	Participant 517 531	Juarce Martins
+A324	Lexical_Head T53 Noun
+A325	Individuation_Domain T53 Individual
+A326	Participant_Type_Domain T53 Per
+A327	Involvement T53 1
+R50	OLINK_objIdentity Arg1:T53 Arg2:T50	
+R51	OLINK_partOf Arg1:T50 Arg2:T51	
+R52	OLINK_objIdentity Arg1:T52 Arg2:T41	
+T54	Participant 546 553	agentes
+A328	Lexical_Head T54 Noun
+A329	Individuation_Domain T54 Individual
+A330	Participant_Type_Domain T54 Per
+A331	Involvement T54 >1
+T55	Participant 555 560	a PRM
+A332	Lexical_Head T55 Noun
+A333	Individuation_Domain T55 Individual
+A334	Participant_Type_Domain T55 Org
+A335	Involvement T55 1
+R53	OLINK_partOf Arg1:T54 Arg2:T55	
+R54	OLINK_objIdentity Arg1:T55 Arg2:T51	
+T56	Participant 569 633	o Departamento de Proteção dos Recursos Naturais e Meio Ambiente
+A336	Lexical_Head T56 Noun
+A337	Individuation_Domain T56 Individual
+A338	Participant_Type_Domain T56 Org
+A339	Involvement T56 1
+T57	Participant 636 656	o distrito de Magude
+A340	Lexical_Head T57 Noun
+A341	Individuation_Domain T57 Individual
+A342	Participant_Type_Domain T57 Loc
+A343	Involvement T57 1
+T58	Participant 659 680	a província de Maputo
+A344	Lexical_Head T58 Noun
+A345	Individuation_Domain T58 Individual
+A346	Participant_Type_Domain T58 Loc
+A347	Involvement T58 1
+R55	OLINK_objIdentity Arg1:T57 Arg2:T58	
+R56	OLINK_objIdentity Arg1:T58 Arg2:T52	
+T59	Participant 690 699	a polícia
+A348	Lexical_Head T59 Noun
+A349	Individuation_Domain T59 Individual
+A350	Participant_Type_Domain T59 Org
+A351	Involvement T59 1
+R57	OLINK_objIdentity Arg1:T59 Arg2:T55	
+T60	Participant 721 743	próximo ao acampamento
+A352	Lexical_Head T60 Noun
+A353	Individuation_Domain T60 Individual
+A354	Participant_Type_Domain T60 Loc
+A355	Involvement T60 1
+T61	Participant 782 797	os dois agentes
+A356	Lexical_Head T61 Noun
+A357	Individuation_Domain T61 Individual
+A358	Participant_Type_Domain T61 Per
+A359	Involvement T61 >1
+T62	Participant 844 858	zona protegida
+A360	Lexical_Head T62 Noun
+A361	Individuation_Domain T62 Individual
+A362	Participant_Type_Domain T62 Loc
+A363	Involvement T62 1
+T63	Participant 859 876	naquela província
+A364	Lexical_Head T63 Noun
+A365	Individuation_Domain T63 Individual
+A366	Participant_Type_Domain T63 Loc
+A367	Involvement T63 1
+R58	OLINK_partOf Arg1:T62 Arg2:T63	
+R59	OLINK_objIdentity Arg1:T63 Arg2:T58	
+R60	OLINK_partOf Arg1:T60 Arg2:T58	
+R61	OLINK_objIdentity Arg1:T61 Arg2:T54	
+R62	OLINK_objIdentity Arg1:T62 Arg2:T60	
+T64	Participant 896 913	os outros colegas
+A368	Lexical_Head T64 Noun
+A369	Individuation_Domain T64 Individual
+A370	Participant_Type_Domain T64 Per
+A371	Involvement T64 >1
+T65	Participant 969 976	o autor
+A372	Lexical_Head T65 Noun
+A373	Individuation_Domain T65 Individual
+A374	Participant_Type_Domain T65 Per
+A375	Involvement T65 1
+R63	OLINK_objIdentity Arg1:T65 Arg2:T47	
+T66	Participant 1008 1019	o porta-voz
+A376	Lexical_Head T66 Noun
+A377	Individuation_Domain T66 Individual
+A378	Participant_Type_Domain T66 Per
+A379	Involvement T66 1
+T67	Participant 1021 1026	a PRM
+A380	Lexical_Head T67 Noun
+A381	Individuation_Domain T67 Individual
+A382	Participant_Type_Domain T67 Org
+A383	Involvement T67 1
+R64	OLINK_partOf Arg1:T66 Arg2:T67	
+R65	OLINK_objIdentity Arg1:T66 Arg2:T53	
+R66	OLINK_objIdentity Arg1:T67 Arg2:T59	
+T68	Participant 1042 1056	Juarce Martins
+A384	Lexical_Head T68 Noun
+A385	Individuation_Domain T68 Individual
+A386	Participant_Type_Domain T68 Per
+A387	Involvement T68 1
+R67	OLINK_objIdentity Arg1:T68 Arg2:T66	
+T69	Participant 1094 1102	o agente
+A388	Lexical_Head T69 Noun
+A389	Individuation_Domain T69 Individual
+A390	Participant_Type_Domain T69 Per
+A391	Involvement T69 1
+R68	OLINK_objIdentity Arg1:T69 Arg2:T65	
+T70	Participant 1110 1112	um
+A392	Lexical_Head T70 Pronoun
+A393	Individuation_Domain T70 Individual
+A394	Participant_Type_Domain T70 Other
+A395	Involvement T70 1
+T71	Participant 1127 1132	outro
+A396	Lexical_Head T71 Noun
+A397	Individuation_Domain T71 Individual
+A398	Participant_Type_Domain T71 Other
+A399	Involvement T71 1
+R69	OLINK_refDisjunct Arg1:T71 Arg2:T70	
+T72	Participant 1144 1153	O comando
+A400	Lexical_Head T72 Noun
+A401	Individuation_Domain T72 Individual
+A402	Participant_Type_Domain T72 Org
+A403	Involvement T72 1
+R70	OLINK_objIdentity Arg1:T72 Arg2:T45	
+R71	SRLINK_patient Arg1:T1 Arg2:T38	
+R72	SRLINK_reason Arg1:T1 Arg2:T2	
+R73	SRLINK_theme Arg1:T2 Arg2:T3	
+R74	SLINK_intensional Arg1:T2 Arg2:T3	
+R75	SRLINK_patient Arg1:T3 Arg2:T40	
+R76	SRLINK_agent Arg1:T3 Arg2:T38	
+R77	SRLINK_setting Arg1:T3 Arg2:T4	
+R78	SRLINK_location Arg1:T3 Arg2:T41	
+R79	SRLINK_location Arg1:T3 Arg2:T42	
+R80	SRLINK_goal Arg1:T5 Arg2:T43	
+R81	SRLINK_agent Arg1:T5 Arg2:T44	
+R82	SLINK_evidential Arg1:T5 Arg2:T1	
+R83	SRLINK_theme Arg1:T5 Arg2:T1	
+R84	SRLINK_agent Arg1:T8 Arg2:T46	
+R85	SRLINK_reason Arg1:T8 Arg2:T36	
+R86	SRLINK_agent Arg1:T10 Arg2:T47	
+R87	SRLINK_goal Arg1:T10 Arg2:T49	
+R88	SRLINK_agent Arg1:T11 Arg2:T47	
+R89	OLINK_objIdentity Arg1:T12 Arg2:T49	
+R90	SRLINK_patient Arg1:T11 Arg2:T12	
+R91	SRLINK_agent Arg1:T13 Arg2:T50	
+R92	SLINK_evidential Arg1:T13 Arg2:T8	
+R93	SRLINK_theme Arg1:T13 Arg2:T8	
+R94	SRLINK_pivot Arg1:T14 Arg2:T54	
+R95	SRLINK_pivot Arg1:T15 Arg2:T54	
+R96	SRLINK_theme Arg1:T15 Arg2:T56	
+R97	SRLINK_theme Arg1:T16 Arg2:T37	
+R98	SRLINK_location Arg1:T16 Arg2:T60	
+R99	SRLINK_setting Arg1:T16 Arg2:T18	
+R100	SRLINK_agent Arg1:T18 Arg2:T61	
+R101	SRLINK_initialLocation Arg1:T18 Arg2:T19	
+R102	SRLINK_theme Arg1:T19 Arg2:T20	
+R103	SRLINK_location Arg1:T19 Arg2:T62	
+R104	SRLINK_location Arg1:T19 Arg2:T63	
+R105	SRLINK_pivot Arg1:T64 Arg2:T21	
+A404	Event_Type T21 Transition
+R106	SRLINK_theme Arg1:T21 Arg2:T22	
+R107	SRLINK_agent Arg1:T64 Arg2:T23	
+R108	SRLINK_purpose Arg1:T23 Arg2:T24	
+R109	SRLINK_theme Arg1:T24 Arg2:T25	
+R110	SRLINK_patient Arg1:T26 Arg2:T65	
+R111	TLINK_identity Arg1:T26 Arg2:T1	
+R112	SRLINK_agent Arg1:T27 Arg2:T66	
+R113	SLINK_evidential Arg1:T27 Arg2:T21	
+R114	SRLINK_theme Arg1:T27 Arg2:T21	
+R115	SRLINK_theme Arg1:T28 Arg2:T29	
+R116	SRLINK_beneficiary Arg1:T28 Arg2:T69	
+R117	SRLINK_attribute Arg1:T70 Arg2:T30	
+R118	SRLINK_attribute Arg1:T31 Arg2:T71	
+R119	SRLINK_agent Arg1:T32 Arg2:T72	
+R120	SRLINK_theme Arg1:T32 Arg2:T33	
+R121	SRLINK_theme Arg1:T33 Arg2:T34	
+R122	SRLINK_theme Arg1:T35 Arg2:T32	
+R123	SLINK_evidential Arg1:T35 Arg2:T32	
+R124	SRLINK_agent Arg1:T35 Arg2:T68	
+A264	Lexical_Head T38 Noun
+A265	Individuation_Domain T38 Individual
+A266	Participant_Type_Domain T38 Per
+T73	Event 980 985	crime
+A405	Class T73 Occurrence
+A406	Event_Type T73 Transition
+A407	Pos T73 Noun
+A408	Polarity T73 Pos
+R125	SRLINK_agent Arg1:T73 Arg2:T65	
+R126	TLINK_identity Arg1:T73 Arg2:T25	
+A6	Event_Type T11 Transition
+A7	Class T29 State
+A19	Class T32 Occurrence
+R127	TLINK_identity Arg1:T6 Arg2:T7	

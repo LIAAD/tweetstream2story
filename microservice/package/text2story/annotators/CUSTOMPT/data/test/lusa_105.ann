@@ -1,0 +1,351 @@
+T1	Event 138 146	morreram
+A1	Class T1 Occurrence
+A2	Event_Type T1 Process
+A3	Pos T1 Verb
+A4	Tense T1 Past
+A5	Aspect T1 Perfective
+A8	Polarity T1 Pos
+T2	Event 219 225	ataque
+A9	Class T2 Occurrence
+A10	Event_Type T2 Transition
+A15	Polarity T2 Pos
+T3	Event 244 252	noticiou
+A16	Class T3 Reporting
+A17	Event_Type T3 Transition
+A18	Pos T3 Verb
+A19	Aspect T3 Perfective
+A22	Polarity T3 Pos
+T4	Time 253 257	hoje
+A23	Time_Type T4 Date
+A24	TemporalFunction T4 Publication_Time
+#1	AnnotatorNotes T4	value=2020-11-03
+T5	Event 277 286	incidente
+A25	Class T5 Occurrence
+A26	Event_Type T5 Transition
+A27	Pos T5 Noun
+A32	Polarity T5 Pos
+T6	Event 287 298	registou-se
+A33	Class T6 Occurrence
+A34	Event_Type T6 Transition
+A35	Pos T6 Verb
+A36	Tense T6 Past
+A37	Aspect T6 Perfective
+A40	Polarity T6 Pos
+T7	Event 313 322	travessia
+A41	Class T7 Occurrence
+A42	Event_Type T7 Process
+A43	Pos T7 Noun
+A48	Polarity T7 Pos
+T8	Event 395 401	sofreu
+A49	Class T8 Perception
+A50	Event_Type T8 State
+A51	Pos T8 Verb
+A52	Tense T8 Past
+A53	Aspect T8 Perfective
+A56	Polarity T8 Pos
+T9	Event 404 410	ataque
+A57	Class T9 Occurrence
+A58	Event_Type T9 Transition
+A59	Pos T9 Noun
+A64	Polarity T9 Pos
+T10	Event 461 467	ataque
+A65	Class T10 Occurrence
+A66	Event_Type T10 Transition
+A67	Pos T10 Noun
+A72	Polarity T10 Pos
+T11	Event 468 474	deu-se
+A73	Class T11 Occurrence
+A74	Event_Type T11 Transition
+A75	Pos T11 Verb
+A76	Tense T11 Past
+A77	Aspect T11 Perfective
+A80	Polarity T11 Pos
+T12	Event 530 535	saíam
+A81	Class T12 Occurrence
+A82	Event_Type T12 Transition
+A83	Pos T12 Verb
+A84	Tense T12 Past
+A85	Aspect T12 Progressive
+A87	Polarity T12 Pos
+T13	Event 540 546	lavras
+A88	Class T13 Occurrence
+A89	Event_Type T13 Process
+A90	Pos T13 Noun
+A95	Polarity T13 Pos
+T14	Event 548 559	salientando
+A96	Class T14 Reporting
+A97	Event_Type T14 Transition
+A98	Pos T14 Verb
+A99	Tense T14 Past
+A100	Aspect T14 Progressive
+A101	VForm T14 Gerundive
+A103	Polarity T14 Pos
+T15	Event 580 591	encontra-se
+A104	Class T15 State
+A105	Event_Type T15 State
+A106	Pos T15 Verb
+A107	Tense T15 Present
+A108	Aspect T15 Imperfective
+A111	Polarity T15 Pos
+T16	Event 627 639	desaparecido
+A112	Class T16 State
+A113	Event_Type T16 State
+A114	Pos T16 Verb
+A116	Aspect T16 Imperfective
+A119	Polarity T16 Pos
+T17	Event 695 700	disse
+A120	Class T17 Reporting
+A121	Event_Type T17 Transition
+A122	Pos T17 Verb
+A123	Tense T17 Past
+A124	Aspect T17 Perfective
+A127	Polarity T17 Pos
+T18	Event 707 716	incidente
+A128	Class T18 Occurrence
+A129	Event_Type T18 Transition
+A130	Pos T18 Noun
+A135	Polarity T18 Pos
+T19	Event 717 736	foi dado a conhecer
+A136	Class T19 Occurrence
+A137	Event_Type T19 Transition
+A138	Pos T19 Verb
+A139	Tense T19 Past
+A140	Aspect T19 Perfective
+A143	Polarity T19 Pos
+T20	Event 765 773	frisando
+A144	Class T20 Reporting
+A145	Event_Type T20 Transition
+A146	Pos T20 Verb
+A147	Tense T20 Present
+A149	VForm T20 Gerundive
+A151	Polarity T20 Pos
+T21	Event 801 811	necessário
+A152	Class T21 State
+A153	Event_Type T21 State
+A154	Pos T21 Adjective
+A159	Polarity T21 Pos
+T22	Event 816 827	se construa
+A160	Class T22 Occurrence
+A161	Event_Type T22 Process
+A162	Pos T22 Verb
+A163	Tense T22 Past
+A164	Aspect T22 Imperfective
+A168	Polarity T22 Pos
+T23	Event 845 854	travessia
+A169	Class T23 Occurrence
+A170	Event_Type T23 Process
+A171	Pos T23 Noun
+A176	Polarity T23 Pos
+T24	Time 475 507	ao princípio da noite de domingo
+A177	Time_Type T24 Time
+A178	TemporalFunction T24 None
+#2	AnnotatorNotes T24	value=2020-11-01
+R1	TLINK_identity Arg1:T18 Arg2:T5	
+R2	TLINK_identity Arg1:T23 Arg2:T7	
+R3	TLINK_isIncluded Arg1:T3 Arg2:T4	
+R4	TLINK_isIncluded Arg1:T11 Arg2:T24	
+R5	TLINK_before Arg1:T2 Arg2:T1	
+R6	TLINK_after Arg1:T3 Arg2:T2	
+R7	TLINK_identity Arg1:T6 Arg2:T5	
+R8	TLINK_simultaneous Arg1:T7 Arg2:T6	
+R9	TLINK_during Arg1:T8 Arg2:T7	
+R10	TLINK_identity Arg1:T9 Arg2:T2	
+R11	TLINK_identity Arg1:T10 Arg2:T9	
+R12	TLINK_identity Arg1:T11 Arg2:T10	
+R13	TLINK_includes Arg1:T12 Arg2:T11	
+R14	TLINK_after Arg1:T14 Arg2:T11	
+R15	TLINK_includes Arg1:T15 Arg2:T14	
+R16	TLINK_identity Arg1:T16 Arg2:T15	
+R17	TLINK_isIncluded Arg1:T17 Arg2:T16	
+R18	TLINK_identity Arg1:T5 Arg2:T1	
+R19	TLINK_before Arg1:T19 Arg2:T17	
+R20	TLINK_isIncluded Arg1:T20 Arg2:T17	
+R21	TLINK_includes Arg1:T21 Arg2:T20	
+R22	TLINK_isIncluded Arg1:T22 Arg2:T21	
+T25	Participant 125 137	Três pessoas
+A179	Lexical_Head T25 Noun
+A180	Individuation_Domain T25 Individual
+A181	Participant_Type_Domain T25 Per
+A182	Involvement T25 >1
+T26	Participant 148 171	o município de Camacupa
+A183	Lexical_Head T26 Noun
+A184	Individuation_Domain T26 Individual
+A185	Participant_Type_Domain T26 Loc
+A186	Involvement T26 1
+T27	Participant 173 198	província angolana do Bié
+A187	Lexical_Head T27 Noun
+A188	Individuation_Domain T27 Individual
+A189	Participant_Type_Domain T27 Loc
+A190	Involvement T27 1
+R23	OLINK_partOf Arg1:T26 Arg2:T27	
+T28	Participant 229 242	um hipopótamo
+A191	Lexical_Head T28 Noun
+A192	Individuation_Domain T28 Individual
+A193	Participant_Type_Domain T28 Nat
+A194	Involvement T28 1
+T29	Participant 258 273	a rádio pública
+A195	Lexical_Head T29 Noun
+A196	Individuation_Domain T29 Individual
+A197	Participant_Type_Domain T29 Org
+A198	Involvement T29 1
+T30	Participant 324 336	o rio Kwanza
+A199	Lexical_Head T30 Noun
+A200	Individuation_Domain T30 Individual
+A201	Participant_Type_Domain T30 Nat
+A202	Involvement T30 1
+R24	OLINK_partOf Arg1:T30 Arg2:T26	
+T31	Participant 345 367	a embarcação artesanal
+A203	Lexical_Head T31 Noun
+A204	Individuation_Domain T31 Individual
+A205	Participant_Type_Domain T31 Obj
+A206	Involvement T31 1
+T32	Participant 373 385	oito pessoas
+A207	Lexical_Head T32 Noun
+A208	Individuation_Domain T32 Individual
+A209	Participant_Type_Domain T32 Per
+A210	Involvement T32 >1
+T33	Participant 412 427	aquele mamífero
+A211	Lexical_Head T33 Noun
+A212	Individuation_Domain T33 Individual
+A213	Participant_Type_Domain T33 Nat
+A214	Involvement T33 1
+R25	OLINK_objIdentity Arg1:T33 Arg2:T28	
+R26	OLINK_partOf Arg1:T25 Arg2:T32	
+T34	Participant 437 439	um
+A215	Lexical_Head T34 Noun
+A216	Individuation_Domain T34 Individual
+A217	Participant_Type_Domain T34 Per
+A218	Involvement T34 1
+T35	Participant 441 457	os sobreviventes
+A219	Lexical_Head T35 Noun
+A220	Individuation_Domain T35 Individual
+A221	Participant_Type_Domain T35 Per
+A222	Involvement T35 >1
+R27	OLINK_partOf Arg1:T34 Arg2:T35	
+R28	OLINK_partOf Arg1:T35 Arg2:T32	
+T36	Participant 516 529	os camponeses
+A223	Lexical_Head T36 Noun
+A224	Individuation_Domain T36 Individual
+A225	Participant_Type_Domain T36 Per
+A226	Involvement T36 >1
+R29	OLINK_objIdentity Arg1:T36 Arg2:T32	
+T37	Participant 570 579	os mortos
+A227	Lexical_Head T37 Noun
+A228	Participant_Type_Domain T37 Per
+A229	Involvement T37 >1
+R30	OLINK_partOf Arg1:T37 Arg2:T32	
+A230	Individuation_Domain T37 Individual
+R31	OLINK_objIdentity Arg1:T37 Arg2:T25	
+T38	Participant 592 603	uma criança
+A231	Lexical_Head T38 Noun
+A232	Individuation_Domain T38 Individual
+A233	Participant_Type_Domain T38 Per
+A234	Involvement T38 1
+T39	Participant 604 608	cujo
+A235	Lexical_Head T39 Pronoun
+A236	Individuation_Domain T39 Individual
+A237	Participant_Type_Domain T39 Per
+A238	Involvement T39 1
+R32	OLINK_objIdentity Arg1:T39 Arg2:T38	
+T40	Participant 609 614	corpo
+A239	Lexical_Head T40 Noun
+A240	Individuation_Domain T40 Individual
+A241	Participant_Type_Domain T40 Other
+A242	Involvement T40 1
+R33	OLINK_partOf Arg1:T40 Arg2:T38	
+T41	Participant 641 664	O administrador comunal
+A243	Lexical_Head T41 Noun
+A244	Individuation_Domain T41 Individual
+A245	Participant_Type_Domain T41 Per
+A246	Involvement T41 1
+T42	Participant 676 693	Baptista Sambango
+A247	Lexical_Head T42 Noun
+A248	Individuation_Domain T42 Individual
+A249	Participant_Type_Domain T42 Per
+A250	Involvement T42 1
+R34	OLINK_objIdentity Arg1:T42 Arg2:T41	
+T43	Participant 738 763	o administrador municipal
+A251	Lexical_Head T43 Noun
+A252	Individuation_Domain T43 Individual
+A253	Participant_Type_Domain T43 Per
+A254	Involvement T43 1
+T44	Participant 783 791	dimensão
+A255	Lexical_Head T44 Noun
+A256	Individuation_Domain T44 Individual
+A257	Participant_Type_Domain T44 Other
+A258	Involvement T44 1
+T45	Participant 793 798	o rio
+A259	Lexical_Head T45 Noun
+A260	Individuation_Domain T45 Individual
+A261	Participant_Type_Domain T45 Nat
+A262	Involvement T45 1
+R35	OLINK_partOf Arg1:T44 Arg2:T45	
+T46	Participant 828 837	uma ponte
+A263	Lexical_Head T46 Noun
+A264	Individuation_Domain T46 Individual
+A265	Participant_Type_Domain T46 Other
+A266	Involvement T46 1
+T47	Participant 856 867	a população
+A267	Lexical_Head T47 Noun
+A268	Individuation_Domain T47 Individual
+A269	Participant_Type_Domain T47 Per
+A270	Involvement T47 1
+R36	OLINK_subSet Arg1:T36 Arg2:T47	
+R37	SRLINK_patient Arg1:T1 Arg2:T25	
+R38	SRLINK_location Arg1:T1 Arg2:T26	
+R39	SRLINK_location Arg1:T1 Arg2:T27	
+R40	SRLINK_cause Arg1:T1 Arg2:T2	
+R41	SRLINK_agent Arg1:T2 Arg2:T28	
+R42	SRLINK_agent Arg1:T3 Arg2:T29	
+R43	SRLINK_theme Arg1:T3 Arg2:T1	
+R44	SLINK_evidential Arg1:T3 Arg2:T1	
+R45	SRLINK_theme Arg1:T6 Arg2:T5	
+R46	SRLINK_setting Arg1:T6 Arg2:T7	
+R47	SRLINK_theme Arg1:T7 Arg2:T30	
+R48	SRLINK_patient Arg1:T8 Arg2:T31	
+R49	SRLINK_theme Arg1:T8 Arg2:T9	
+R50	SRLINK_source Arg1:T9 Arg2:T33	
+R51	SRLINK_instrument Arg1:T7 Arg2:T31	
+R52	SRLINK_theme Arg1:T11 Arg2:T10	
+R53	SRLINK_agent Arg1:T12 Arg2:T36	
+R54	SRLINK_initialLocation Arg1:T12 Arg2:T13	
+R55	SRLINK_setting Arg1:T11 Arg2:T12	
+R56	SRLINK_agent Arg1:T14 Arg2:T34	
+R57	SRLINK_theme Arg1:T14 Arg2:T15	
+R58	SRLINK_source Arg1:T15 Arg2:T37	
+R59	SRLINK_pivot Arg1:T15 Arg2:T38	
+R60	SRLINK_pivot Arg1:T16 Arg2:T40	
+R61	SRLINK_agent Arg1:T17 Arg2:T42	
+R62	SRLINK_theme Arg1:T17 Arg2:T19	
+R63	SRLINK_theme Arg1:T19 Arg2:T18	
+R64	SRLINK_goal Arg1:T19 Arg2:T43	
+R65	SRLINK_agent Arg1:T20 Arg2:T42	
+R66	SRLINK_theme Arg1:T20 Arg2:T21	
+R67	SLINK_evidential Arg1:T20 Arg2:T21	
+R68	SRLINK_reason Arg1:T21 Arg2:T44	
+R69	SRLINK_theme Arg1:T21 Arg2:T22	
+R70	SRLINK_theme Arg1:T22 Arg2:T46	
+R71	SRLINK_purpose Arg1:T22 Arg2:T23	
+R72	SRLINK_theme Arg1:T23 Arg2:T47	
+T48	Event 388 393	bordo
+A271	Class T48 State
+A272	Event_Type T48 State
+A273	Pos T48 Noun
+A274	Polarity T48 Pos
+R73	SRLINK_pivot Arg1:T48 Arg2:T32	
+T49	Participant 666 674	a Muinha
+A275	Lexical_Head T49 Noun
+A276	Individuation_Domain T49 Individual
+A277	Participant_Type_Domain T49 Loc
+A278	Involvement T49 1
+R74	OLINK_partOf Arg1:T41 Arg2:T49	
+T50	Time 13 24	03 nov 2020
+A279	Time_Type T50 Date
+A280	TemporalFunction T50 Publication_Time
+#3	AnnotatorNotes T50	value=2020-11-03 
+R75	TLINK_identity Arg1:T4 Arg2:T50	
+A6	Pos T2 Noun
+A7	Tense T3 Past
+R76	SLINK_evidential Arg1:T8 Arg2:T9	
+A11	Tense T16 Present
+A12	Mood T22 Subjunctive

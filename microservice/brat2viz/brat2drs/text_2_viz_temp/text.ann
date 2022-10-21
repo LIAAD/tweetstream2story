@@ -1,0 +1,117 @@
+T1	Participant 18 25	Janeiro
+A1	Lexical_Head T1 Noun
+A2	Individuation_Domain T1 Individual
+A3	Participant_Type_Domain T1 Loc
+A4	Involvement T1 1
+T2	Participant 127 136	Fevereiro
+A5	Lexical_Head T2 Noun
+A6	Individuation_Domain T2 Individual
+A7	Participant_Type_Domain T2 Loc
+A8	Involvement T2 1
+T3	Participant 140 159	Turismo de Portugal
+A9	Lexical_Head T3 Noun
+A10	Individuation_Domain T3 Individual
+A11	Participant_Type_Domain T3 Org
+A12	Involvement T3 1
+T4	Participant 246 284	Fundo de Garantia de Viagens e Turismo
+A13	Lexical_Head T4 Noun
+A14	Individuation_Domain T4 Individual
+A15	Participant_Type_Domain T4 Org
+A16	Involvement T4 1
+T5	Participant 286 290	FGVT
+A17	Lexical_Head T5 Noun
+A18	Individuation_Domain T5 Individual
+A19	Participant_Type_Domain T5 Org
+A20	Involvement T5 1
+T6	Participant 333 352	Turismo de Portugal
+A21	Lexical_Head T6 Noun
+A22	Individuation_Domain T6 Individual
+A23	Participant_Type_Domain T6 Org
+A24	Involvement T6 1
+T7	Participant 468 475	Xtravel
+A25	Lexical_Head T7 Noun
+A26	Individuation_Domain T7 Individual
+A27	Participant_Type_Domain T7 Per
+A28	Involvement T7 1
+T8	Participant 484 496	Orgulhojovem
+A29	Lexical_Head T8 Noun
+A30	Individuation_Domain T8 Individual
+A31	Participant_Type_Domain T8 Loc
+A32	Involvement T8 1
+T9	Participant 504 513	Sporjovem
+A33	Lexical_Head T9 Noun
+A34	Individuation_Domain T9 Individual
+A35	Participant_Type_Domain T9 Loc
+A36	Involvement T9 1
+T10	Participant 524 531	SlideIn
+A37	Lexical_Head T10 Noun
+A38	Individuation_Domain T10 Individual
+A39	Participant_Type_Domain T10 Org
+A40	Involvement T10 1
+T17	Participant 0 17	Desde o dia 14 de
+A41	Lexical_Head T17 Noun
+A42	Individuation_Domain T17 Individual
+A43	Participant_Type_Domain T17 Other
+A44	Involvement T17 1
+T18	Participant 294 301	Destes,
+A45	Lexical_Head T18 Noun
+A46	Individuation_Domain T18 Individual
+A47	Participant_Type_Domain T18 Other
+A48	Involvement T18 1
+T19	Participant 302 329	de acordo com fonte oficial
+A49	Lexical_Head T19 Noun
+A50	Individuation_Domain T19 Individual
+A51	Participant_Type_Domain T19 Other
+A52	Involvement T19 1
+T20	Participant 358 383	recebe os requerimentos e
+A53	Lexical_Head T20 Noun
+A54	Individuation_Domain T20 Individual
+A55	Participant_Type_Domain T20 Other
+A56	Involvement T20 1
+T21	Participant 583 623	quais 21 ligados a viagens de finalistas
+A57	Lexical_Head T21 Noun
+A58	Individuation_Domain T21 Individual
+A59	Participant_Type_Domain T21 Other
+A60	Involvement T21 1
+T11	Time 6 14	o dia 14
+A61	TemporalFunction T11 Publication_Time
+T12	Time 18 25	Janeiro
+A62	TemporalFunction T12 Publication_Time
+T13	Time 114 136	ao dia 22 de Fevereiro
+A63	TemporalFunction T13 Publication_Time
+T14	Time 168 172	2245
+A64	TemporalFunction T14 Publication_Time
+T15	Time 405 409	2085
+A65	TemporalFunction T15 Publication_Time
+T16	Time 460 464	1804
+A66	TemporalFunction T16 Publication_Time
+T22	Event 18 85	Janeiro viagens
+E1	EVENT:T22
+A67	Class E1 Occurrence
+A68	Tense E1 Pres
+A69	Polarity E1 Pos
+A70	Factuality E1 Factual
+T23	Event 221 245	decide o accionamento do
+E2	EVENT:T23
+A71	Class E2 Occurrence
+A72	Tense E2 Pres
+A73	Polarity E2 Pos
+A74	Factuality E2 Factual
+T24	Event 330 332	do
+E3	EVENT:T24
+A75	Class E3 Occurrence
+A76	Tense E3 Pres
+A77	Polarity E3 Pos
+A78	Factuality E3 Factual
+T25	Event 384 453	preside à comissão dos
+E4	EVENT:T25
+A79	Class E4 Occurrence
+A80	Tense E4 Pres
+A81	Polarity E4 Pos
+A82	Factuality E4 Factual
+T26	Event 579 582	dos
+E5	EVENT:T26
+A83	Class E5 Occurrence
+A84	Tense E5 Pres
+A85	Polarity E5 Pos
+A86	Factuality E5 Factual

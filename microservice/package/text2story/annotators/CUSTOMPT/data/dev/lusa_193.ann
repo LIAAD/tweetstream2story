@@ -1,0 +1,518 @@
+T1	Time 18 29	09 dez 2020
+A1	Time_Type T1 Date
+A2	TemporalFunction T1 Publication_Time
+#1	AnnotatorNotes T1	value=2020-12-09
+T2	Time 167 171	hoje
+A3	Time_Type T2 Date
+A4	TemporalFunction T2 Publication_Time
+#2	AnnotatorNotes T2	value=2020-12-09 
+R1	TLINK_identity Arg1:T2 Arg2:T1	
+T3	Time 255 259	2013
+A5	Time_Type T3 Date
+#3	AnnotatorNotes T3	value=2013-XX-XX
+T4	Event 70 77	condena
+A6	Class T4 Occurrence
+A7	Event_Type T4 Transition
+A8	Pos T4 Verb
+A9	Tense T4 Present
+A10	Aspect T4 Imperfective
+A11	Polarity T4 Pos
+T5	Event 88 93	matou
+A12	Class T5 Occurrence
+A13	Event_Type T5 Transition
+A14	Pos T5 Verb
+A15	Tense T5 Past
+A16	Aspect T5 Perfective
+A17	Polarity T5 Pos
+T6	Event 158 166	condenou
+A18	Class T6 Occurrence
+A19	Event_Type T6 Transition
+A20	Pos T6 Verb
+A21	Tense T6 Past
+A22	Aspect T6 Perfective
+A23	Polarity T6 Pos
+R2	TLINK_identity Arg1:T6 Arg2:T4	
+T7	Event 220 226	matado
+A24	Class T7 Occurrence
+A25	Event_Type T7 Transition
+A26	Pos T7 Verb
+A27	Tense T7 Past
+A28	Aspect T7 Perfective
+A29	VForm T7 Infinitive
+A30	Polarity T7 Pos
+T8	Event 235 239	tiro
+A31	Class T8 State
+A32	Event_Type T8 State
+A33	Pos T8 Noun
+A34	Polarity T8 Pos
+T9	Event 276 283	acusado
+A35	Class T9 State
+A36	Event_Type T9 State
+A37	Pos T9 Verb
+A38	Tense T9 Past
+A39	Aspect T9 Imperfective
+A40	Polarity T9 Pos
+T10	Event 287 308	homicídio qualificado
+A41	Class T10 Occurrence
+A42	Event_Type T10 Transition
+A43	Pos T10 Noun
+A44	Polarity T10 Pos
+T11	Event 314 324	acabou por
+A45	Class T11 Occurrence
+A46	Event_Type T11 Transition
+A47	Pos T11 Verb
+A48	Tense T11 Past
+A49	Aspect T11 Perfective
+A50	Polarity T11 Pos
+T12	Event 329 338	condenado
+A51	Class T12 Occurrence
+A52	Event_Type T12 Transition
+A53	Pos T12 Verb
+A54	Tense T12 Past
+A55	Aspect T12 Perfective
+A56	VForm T12 Infinitive
+A57	Polarity T12 Pos
+T13	Event 343 360	homicídio simples
+A58	Class T13 Occurrence
+A59	Event_Type T13 Transition
+A60	Pos T13 Noun
+A61	Polarity T13 Pos
+T14	Event 379 389	encontrada
+A62	Class T14 Occurrence
+A63	Event_Type T14 Transition
+A64	Pos T14 Verb
+A65	Tense T14 Past
+A66	Aspect T14 Perfective
+A67	VForm T14 Infinitive
+A68	Polarity T14 Neg
+T15	Event 417 424	leitura
+A69	Class T15 Occurrence
+A70	Event_Type T15 Transition
+A71	Pos T15 Noun
+A72	Polarity T15 Pos
+T16	Event 467 475	adiantou
+A73	Class T16 Reporting
+A74	Event_Type T16 Transition
+A75	Pos T16 Verb
+A76	Tense T16 Past
+A77	Aspect T16 Perfective
+A78	Polarity T16 Pos
+T17	Event 510 527	prisão preventiva
+A79	Class T17 State
+A80	Event_Type T17 State
+A81	Pos T17 Verb
+A82	Tense T17 Present
+A83	Aspect T17 Imperfective
+A84	Polarity T17 Pos
+T18	Event 546 550	fuga
+A85	Class T18 State
+A86	Event_Type T18 State
+A87	Pos T18 Noun
+A88	Polarity T18 Pos
+T19	Time 533 542	sete anos
+A89	Time_Type T19 Duration
+#4	AnnotatorNotes T19	value=P7Y
+T20	Event 569 577	presente
+A90	Class T20 State
+A91	Event_Type T20 State
+A92	Pos T20 Verb
+A93	Tense T20 Past
+A94	Aspect T20 Perfective
+A95	Polarity T20 Neg
+T21	Event 605 614	absolvido
+A96	Class T21 Occurrence
+A97	Event_Type T21 Transition
+A98	Pos T21 Verb
+A99	Tense T21 Past
+A100	Aspect T21 Perfective
+A101	Polarity T21 Pos
+T22	Event 618 636	outros dois crimes
+A102	Class T22 Occurrence
+A103	Event_Type T22 Transition
+A104	Pos T22 Noun
+A105	Polarity T22 Pos
+T23	Event 644 657	vinha acusado
+A106	Class T23 State
+A107	Event_Type T23 State
+A108	Pos T23 Verb
+A109	Tense T23 Past
+A110	Aspect T23 Imperfective
+A111	Polarity T23 Pos
+T24	Event 677 682	crime
+A112	Class T24 Occurrence
+A113	Event_Type T24 Transition
+A114	Pos T24 Noun
+A115	Polarity T24 Pos
+T25	Event 686 725	ofensa à integridade física qualificada
+A116	Class T25 Occurrence
+A117	Event_Type T25 Transition
+A118	Pos T25 Noun
+A119	Polarity T25 Pos
+T26	Event 730 735	outro
+A120	Class T26 Occurrence
+A121	Event_Type T26 Transition
+A122	Pos T26 Noun
+A123	Polarity T26 Pos
+T27	Event 739 764	detenção de arma proibida
+A124	Class T27 State
+A125	Event_Type T27 State
+A126	Pos T27 Noun
+A127	Polarity T27 Pos
+T28	Event 779 787	explicou
+A128	Class T28 Reporting
+A129	Event_Type T28 Transition
+A130	Pos T28 Verb
+A131	Tense T28 Past
+A132	Aspect T28 Perfective
+A133	Polarity T28 Pos
+T29	Event 819 829	condenação
+A134	Class T29 Occurrence
+A135	Event_Type T29 Transition
+A136	Pos T29 Noun
+A137	Polarity T29 Pos
+T30	Event 839 850	dois crimes
+A138	Class T30 Occurrence
+A139	Event_Type T30 Transition
+A140	Pos T30 Noun
+A141	Polarity T30 Pos
+T31	Event 886 895	produzida
+A142	Class T31 Occurrence
+A143	Event_Type T31 Transition
+A144	Pos T31 Verb
+A145	Tense T31 Past
+A146	Aspect T31 Perfective
+A147	Polarity T31 Pos
+T32	Event 906 916	julgamento
+A148	Class T32 State
+A149	Event_Type T32 State
+A150	Pos T32 Noun
+A151	Polarity T32 Pos
+T33	Event 927 933	início
+A152	Class T33 Occurrence
+A153	Event_Type T33 Transition
+A154	Pos T33 Verb
+A155	Tense T33 Past
+A156	Aspect T33 Perfective
+A157	Polarity T33 Pos
+T34	Time 937 944	outubro
+A158	Time_Type T34 Date
+#5	AnnotatorNotes T34	vslue=2020-10-XX
+T35	Event 961 967	julgou
+A159	Class T35 Occurrence
+A160	Event_Type T35 Transition
+A161	Pos T35 Verb
+A162	Tense T35 Past
+A163	Aspect T35 Perfective
+A164	Polarity T35 Pos
+T36	Event 970 974	caso
+A165	Class T36 State
+A166	Event_Type T36 State
+A167	Pos T36 Noun
+A168	Polarity T36 Pos
+T37	Event 975 982	decidiu
+A169	Class T37 I_Action
+A170	Event_Type T37 Transition
+A171	Pos T37 Verb
+A172	Tense T37 Past
+A173	Aspect T37 Perfective
+A174	Polarity T37 Pos
+T38	Event 989 997	condenar
+A175	Class T38 Occurrence
+A176	Event_Type T38 Transition
+A177	Pos T38 Verb
+A178	VForm T38 Infinitive
+A179	Polarity T38 Pos
+T39	Event 1008 1013	pagar
+A180	Class T39 Occurrence
+A181	Event_Type T39 Transition
+A182	Pos T39 Verb
+A183	VForm T39 Infinitive
+A184	Polarity T39 Pos
+T40	Event 1018 1030	indemnização
+A185	Class T40 State
+A186	Event_Type T40 State
+A187	Pos T40 Noun
+A188	Polarity T40 Pos
+T41	Time 109 116	12 anos
+A189	Time_Type T41 Duration
+#6	AnnotatorNotes T41	value=P12Y
+T42	Event 120 126	prisão
+A190	Class T42 State
+A191	Event_Type T42 State
+A192	Pos T42 Noun
+A193	Polarity T42 Pos
+T43	Event 102 106	tiro
+A194	Class T43 Occurrence
+A195	Event_Type T43 Transition
+A196	Pos T43 Noun
+A197	Polarity T43 Pos
+T44	Time 174 181	12 anos
+A198	Time_Type T44 Duration
+#7	AnnotatorNotes T44	value=P12Y
+T45	Event 185 191	prisão
+A199	Class T45 State
+A200	Event_Type T45 State
+A201	Pos T45 Noun
+A202	Polarity T45 Pos
+R3	TLINK_identity Arg1:T44 Arg2:T41	
+R4	TLINK_identity Arg1:T45 Arg2:T42	
+R5	TLINK_before Arg1:T5 Arg2:T4	
+R6	TLINK_simultaneous Arg1:T43 Arg2:T5	
+R7	TLINK_after Arg1:T42 Arg2:T43	
+R8	TLINK_isIncluded Arg1:T6 Arg2:T2	
+R9	TLINK_after Arg1:T45 Arg2:T6	
+R10	TLINK_during Arg1:T45 Arg2:T44	
+R11	TLINK_during Arg1:T42 Arg2:T41	
+R12	TLINK_before Arg1:T7 Arg2:T45	
+R13	TLINK_simultaneous Arg1:T8 Arg2:T7	
+R14	TLINK_isIncluded Arg1:T8 Arg2:T3	
+R15	TLINK_identity Arg1:T8 Arg2:T43	
+R16	TLINK_after Arg1:T9 Arg2:T8	
+R17	TLINK_before Arg1:T10 Arg2:T9	
+R18	TLINK_after Arg1:T11 Arg2:T10	
+R19	TLINK_identity Arg1:T12 Arg2:T11	
+R20	TLINK_before Arg1:T13 Arg2:T12	
+R21	TLINK_after Arg1:T14 Arg2:T13	
+R22	TLINK_after Arg1:T15 Arg2:T14	
+R23	TLINK_during Arg1:T16 Arg2:T15	
+R24	TLINK_includes Arg1:T17 Arg2:T16	
+R25	TLINK_during Arg1:T18 Arg2:T19	
+R26	TLINK_before Arg1:T18 Arg2:T17	
+R27	TLINK_after Arg1:T20 Arg2:T18	
+R28	TLINK_simultaneous Arg1:T21 Arg2:T20	
+R29	TLINK_before Arg1:T22 Arg2:T21	
+T46	Event 640 643	que
+R30	TLINK_identity Arg1:T46 Arg2:T22	
+R31	TLINK_after Arg1:T23 Arg2:T46	
+R32	TLINK_before Arg1:T24 Arg2:T23	
+R33	TLINK_identity Arg1:T25 Arg2:T24	
+R34	TLINK_identity Arg1:T27 Arg2:T26	
+R35	TLINK_before Arg1:T26 Arg2:T23	
+R36	TLINK_after Arg1:T28 Arg2:T27	
+T47	Event 801 811	suficiente
+A203	Class T47 State
+A204	Event_Type T47 State
+A205	Pos T47 Verb
+A206	Tense T47 Past
+A207	Aspect T47 Perfective
+A208	VForm T47 Infinitive
+A209	Polarity T47 Neg
+R37	TLINK_before Arg1:T47 Arg2:T28	
+R38	TLINK_after Arg1:T29 Arg2:T47	
+R39	TLINK_identity Arg1:T30 Arg2:T22	
+R40	TLINK_before Arg1:T30 Arg2:T29	
+R41	TLINK_after Arg1:T31 Arg2:T30	
+R42	TLINK_during Arg1:T31 Arg2:T32	
+R43	TLINK_isIncluded Arg1:T33 Arg2:T69	
+R44	TLINK_isIncluded Arg1:T33 Arg2:T34	
+R45	TLINK_includes Arg1:T35 Arg2:T33	
+R46	TLINK_before Arg1:T36 Arg2:T35	
+R47	TLINK_after Arg1:T38 Arg2:T37	
+R48	TLINK_after Arg1:T39 Arg2:T38	
+R49	TLINK_identity Arg1:T40 Arg2:T39	
+R50	TLINK_after Arg1:T37 Arg2:T36	
+T48	Participant 41 69	Tribunal de Viana do Castelo
+A210	Lexical_Head T48 Noun
+A211	Individuation_Domain T48 Individual
+A212	Participant_Type_Domain T48 Org
+A213	Involvement T48 1
+T49	Participant 127 157	O Tribunal de Viana do Castelo
+A214	Lexical_Head T49 Noun
+A215	Individuation_Domain T49 Individual
+A216	Participant_Type_Domain T49 Org
+A217	Involvement T49 1
+T50	Participant 78 83	homem
+A218	Lexical_Head T50 Noun
+A219	Individuation_Domain T50 Individual
+A220	Participant_Type_Domain T50 Per
+A221	Involvement T50 1
+T51	Participant 84 87	que
+A222	Lexical_Head T51 Pronoun
+A223	Individuation_Domain T51 Individual
+A224	Participant_Type_Domain T51 Per
+A225	Involvement T51 1
+T52	Participant 94 99	outro
+A226	Lexical_Head T52 Pronoun
+A227	Individuation_Domain T52 Individual
+A228	Participant_Type_Domain T52 Per
+A229	Involvement T52 1
+T53	Participant 192 211	um homem de 36 anos
+A230	Lexical_Head T53 Noun
+A231	Individuation_Domain T53 Individual
+A232	Participant_Type_Domain T53 Per
+A233	Involvement T53 1
+T54	Participant 227 232	outro
+A234	Lexical_Head T54 Pronoun
+A235	Individuation_Domain T54 Individual
+A236	Participant_Type_Domain T54 Per
+A237	Involvement T54 1
+T55	Participant 261 268	O homem
+A238	Lexical_Head T55 Noun
+A239	Individuation_Domain T55 Individual
+A240	Participant_Type_Domain T55 Per
+A241	Involvement T55 1
+T56	Participant 437 454	a juiz presidente
+A242	Lexical_Head T56 Noun
+A243	Individuation_Domain T56 Individual
+A244	Participant_Type_Domain T56 Per
+A245	Involvement T56 1
+T57	Participant 480 489	o arguido
+A246	Lexical_Head T57 Noun
+A247	Individuation_Domain T57 Individual
+A248	Participant_Type_Domain T57 Per
+A249	Involvement T57 1
+T58	Participant 491 494	que
+A250	Lexical_Head T58 Pronoun
+A251	Individuation_Domain T58 Individual
+A252	Participant_Type_Domain T58 Per
+A253	Involvement T58 1
+T59	Participant 554 557	que
+A254	Lexical_Head T59 Pronoun
+A255	Individuation_Domain T59 Individual
+A256	Participant_Type_Domain T59 Per
+A257	Involvement T59 1
+T60	Participant 766 778	A magistrada
+A258	Lexical_Head T60 Noun
+A259	Individuation_Domain T60 Individual
+A260	Participant_Type_Domain T60 Per
+A261	Involvement T60 1
+T61	Participant 998 1005	o homem
+A262	Lexical_Head T61 Noun
+A263	Individuation_Domain T61 Individual
+A264	Participant_Type_Domain T61 Per
+A265	Involvement T61 1
+T62	Participant 1031 1036	à mãe
+A266	Lexical_Head T62 Noun
+A267	Individuation_Domain T62 Individual
+A268	Participant_Type_Domain T62 Per
+A269	Involvement T62 1
+T63	Participant 1037 1053	da vítima mortal
+A270	Lexical_Head T63 Noun
+A271	Individuation_Domain T63 Individual
+A272	Participant_Type_Domain T63 Per
+A273	Involvement T63 1
+T64	Participant 390 405	a arma do crime
+A274	Lexical_Head T64 Noun
+A275	Individuation_Domain T64 Individual
+A276	Participant_Type_Domain T64 Obj
+A277	Involvement T64 1
+T65	Participant 425 435	do acórdão
+A278	Lexical_Head T65 Noun
+A279	Individuation_Domain T65 Individual
+A280	Participant_Type_Domain T65 Obj
+A281	Involvement T65 1
+T66	Participant 455 466	do coletivo
+A282	Lexical_Head T66 Noun
+A283	Individuation_Domain T66 Set
+A284	Participant_Type_Domain T66 Per
+A285	Involvement T66 1
+T67	Participant 578 599	na sala de audiências
+A286	Lexical_Head T67 Noun
+A287	Individuation_Domain T67 Individual
+A288	Participant_Type_Domain T67 Loc
+A289	Involvement T67 1
+T68	Participant 852 884	a prova documental e testemunhal
+A290	Lexical_Head T68 Noun
+A291	Individuation_Domain T68 Individual
+A292	Participant_Type_Domain T68 Other
+A293	Involvement T68 1
+T69	Event 918 921	que
+R51	TLINK_identity Arg1:T69 Arg2:T32	
+T70	Participant 946 956	O coletivo
+A294	Lexical_Head T70 Noun
+A295	Individuation_Domain T70 Set
+A296	Participant_Type_Domain T70 Per
+A297	Involvement T70 1
+T71	Participant 957 960	que
+A298	Lexical_Head T71 Noun
+A299	Individuation_Domain T71 Set
+A300	Participant_Type_Domain T71 Per
+A301	Involvement T71 1
+T72	Participant 1054 1068	no valor total
+A302	Lexical_Head T72 Noun
+A303	Individuation_Domain T72 Individual
+A304	Participant_Type_Domain T72 Other
+A305	Involvement T72 1
+T73	Participant 1069 1085	de 141 mil euros
+A306	Lexical_Head T73 Noun
+A307	Individuation_Domain T73 Individual
+A308	Participant_Type_Domain T73 Obj
+A309	Involvement T73 >1
+R52	OLINK_objIdentity Arg1:T73 Arg2:T72	
+R53	OLINK_objIdentity Arg1:T51 Arg2:T50	
+R54	OLINK_refDisjunct Arg1:T52 Arg2:T50	
+R55	OLINK_objIdentity Arg1:T49 Arg2:T48	
+R56	OLINK_objIdentity Arg1:T53 Arg2:T50	
+R57	OLINK_objIdentity Arg1:T54 Arg2:T52	
+R58	OLINK_refDisjunct Arg1:T54 Arg2:T53	
+T74	Participant 241 250	na cidade
+A310	Lexical_Head T74 Noun
+A311	Individuation_Domain T74 Individual
+A312	Participant_Type_Domain T74 Loc
+A313	Involvement T74 1
+R59	OLINK_objIdentity Arg1:T55 Arg2:T53	
+R60	OLINK_partOf Arg1:T56 Arg2:T66	
+R61	OLINK_objIdentity Arg1:T57 Arg2:T55	
+R62	OLINK_objIdentity Arg1:T58 Arg2:T57	
+R63	OLINK_objIdentity Arg1:T59 Arg2:T58	
+R64	OLINK_partOf Arg1:T67 Arg2:T49	
+R65	OLINK_objIdentity Arg1:T60 Arg2:T56	
+R66	OLINK_objIdentity Arg1:T71 Arg2:T70	
+R67	OLINK_objIdentity Arg1:T70 Arg2:T66	
+R68	OLINK_objIdentity Arg1:T61 Arg2:T59	
+R69	OLINK_partOf Arg1:T62 Arg2:T63	
+R70	OLINK_objIdentity Arg1:T63 Arg2:T54	
+R71	SRLINK_agent Arg1:T4 Arg2:T48	
+R72	SRLINK_beneficiary Arg1:T4 Arg2:T50	
+R73	SRLINK_agent Arg1:T5 Arg2:T51	
+R74	SRLINK_beneficiary Arg1:T5 Arg2:T52	
+R75	SRLINK_manner Arg1:T5 Arg2:T43	
+R76	SRLINK_theme Arg1:T4 Arg2:T42	
+R77	SRLINK_agent Arg1:T6 Arg2:T49	
+R78	SRLINK_theme Arg1:T6 Arg2:T45	
+R79	SRLINK_beneficiary Arg1:T6 Arg2:T53	
+R80	SRLINK_reason Arg1:T6 Arg2:T7	
+R81	SRLINK_agent Arg1:T7 Arg2:T53	
+R82	SRLINK_beneficiary Arg1:T7 Arg2:T54	
+R83	SRLINK_manner Arg1:T7 Arg2:T8	
+R84	SRLINK_location Arg1:T7 Arg2:T74	
+R85	SRLINK_pivot Arg1:T9 Arg2:T55	
+R86	SRLINK_theme Arg1:T9 Arg2:T10	
+R87	SRLINK_patient Arg1:T11 Arg2:T55	
+R88	SRLINK_theme Arg1:T11 Arg2:T12	
+R89	SRLINK_theme Arg1:T12 Arg2:T13	
+R90	SRLINK_reason Arg1:T12 Arg2:T14	
+R91	SRLINK_theme Arg1:T14 Arg2:T64	
+R92	SRLINK_theme Arg1:T15 Arg2:T65	
+R93	SRLINK_agent Arg1:T16 Arg2:T56	
+R94	SRLINK_theme Arg1:T16 Arg2:T21	
+R95	SLINK_evidential Arg1:T16 Arg2:T21	
+R96	SRLINK_pivot Arg1:T17 Arg2:T58	
+R97	SRLINK_agent Arg1:T18 Arg2:T58	
+R98	SRLINK_pivot Arg1:T20 Arg2:T59	
+R99	SRLINK_location Arg1:T20 Arg2:T67	
+R100	SRLINK_theme Arg1:T21 Arg2:T22	
+R101	SRLINK_theme Arg1:T23 Arg2:T46	
+R102	SRLINK_pivot Arg1:T23 Arg2:T59	
+R103	SRLINK_theme Arg1:T24 Arg2:T25	
+R104	SRLINK_theme Arg1:T26 Arg2:T27	
+R105	SRLINK_agent Arg1:T28 Arg2:T60	
+R106	SRLINK_theme Arg1:T28 Arg2:T47	
+R107	SLINK_evidential Arg1:T28 Arg2:T47	
+R108	SRLINK_purpose Arg1:T47 Arg2:T29	
+R109	SRLINK_theme Arg1:T29 Arg2:T30	
+R110	SRLINK_theme Arg1:T47 Arg2:T68	
+R111	SRLINK_theme Arg1:T31 Arg2:T68	
+R112	SRLINK_setting Arg1:T31 Arg2:T32	
+R113	SRLINK_theme Arg1:T33 Arg2:T69	
+R114	SRLINK_agent Arg1:T35 Arg2:T71	
+R115	SRLINK_theme Arg1:T35 Arg2:T36	
+R116	SRLINK_agent Arg1:T37 Arg2:T71	
+R117	SRLINK_theme Arg1:T37 Arg2:T38	
+R118	SLINK_intensional Arg1:T37 Arg2:T38	
+R119	SRLINK_beneficiary Arg1:T38 Arg2:T61	
+R120	SRLINK_theme Arg1:T38 Arg2:T39	
+R121	SRLINK_agent Arg1:T39 Arg2:T61	
+R122	SRLINK_theme Arg1:T39 Arg2:T40	
+R123	SRLINK_beneficiary Arg1:T39 Arg2:T62	
+R124	SRLINK_amount Arg1:T40 Arg2:T72	

@@ -1,0 +1,429 @@
+T1	Event 118 129	reivindicou
+A1	Event_Type T1 Transition
+A2	Pos T1 Verb
+A3	Tense T1 Past
+A4	Aspect T1 Perfective
+A5	Polarity T1 Pos
+T2	Time 130 134	hoje
+A6	Time_Type T2 Date
+A7	TemporalFunction T2 Publication_Time
+#1	AnnotatorNotes T2	value=2020-11-03 anchorTime=Publication_Time
+T3	Event 137 150	ataque armado
+A8	Class T3 Occurrence
+A9	Event_Type T3 Transition
+A10	Pos T3 Noun
+A11	Polarity T3 Pos
+T4	Event 151 159	ocorrido
+A12	Event_Type T4 Transition
+A13	Pos T4 Verb
+A14	Tense T4 Past
+A15	Aspect T4 Perfective
+A16	Polarity T4 Pos
+T5	Time 163 176	segunda-feira
+A17	Time_Type T5 Date
+A18	TemporalFunction T5 None
+#2	AnnotatorNotes T5	value=2020-11-02 anchorTime=Publication_Time
+T6	Event 192 200	provocou
+A19	Class T6 Occurrence
+A20	Event_Type T6 Transition
+A21	Pos T6 Verb
+A22	Tense T6 Past
+A23	Aspect T6 Perfective
+A24	Polarity T6 Pos
+T7	Event 242 252	comunicado
+A25	Class T7 Reporting
+A26	Event_Type T7 Transition
+A27	Pos T7 Noun
+A28	Polarity T7 Pos
+T8	Event 253 262	publicado
+A29	Event_Type T8 Transition
+A30	Pos T8 Verb
+A31	Tense T8 Past
+A32	Aspect T8 Perfective
+A33	VForm T8 Participle
+A34	Polarity T8 Pos
+T9	Event 290 300	comunicado
+A35	Class T9 Reporting
+A36	Event_Type T9 Transition
+A37	Pos T9 Noun
+A38	Polarity T9 Pos
+R1	TLINK_identity Arg1:T9 Arg2:T7	
+T10	Event 307 314	atribui
+A39	Class T10 I_Action
+A40	Event_Type T10 Transition
+A41	Pos T10 Verb
+A42	Tense T10 Present
+A43	Aspect T10 Imperfective
+A44	Polarity T10 Pos
+T11	Event 345 353	disparos
+A45	Event_Type T11 Process
+A46	Pos T11 Noun
+A47	Polarity T11 Pos
+T12	Event 354 364	registados
+A48	Class T12 Occurrence
+A49	Event_Type T12 Transition
+A50	Pos T12 Verb
+A51	Tense T12 Past
+A52	Aspect T12 Perfective
+A53	VForm T12 Participle
+A54	Polarity T12 Pos
+T13	Event 409 417	separado
+A55	Class T13 State
+A56	Event_Type T13 State
+A57	Pos T13 Verb
+A58	VForm T13 Participle
+A59	Polarity T13 Pos
+T14	Event 419 430	acompanhado
+A60	Class T14 State
+A61	Event_Type T14 State
+A62	Pos T14 Verb
+A63	Tense T14 Past
+A64	Aspect T14 Perfective
+A65	VForm T14 Participle
+A66	Polarity T14 Pos
+T15	Event 458 464	armado
+A67	Class T15 State
+A68	Event_Type T15 State
+A69	Pos T15 Verb
+A70	Tense T15 Past
+A71	Aspect T15 Perfective
+A72	VForm T15 Participle
+A73	Polarity T15 Pos
+T16	Event 495 500	evoca
+A74	Class T16 Reporting
+A75	Event_Type T16 Transition
+A76	Pos T16 Verb
+A77	Tense T16 Present
+A78	Aspect T16 Imperfective
+A79	Polarity T16 Pos
+T17	Event 505 511	ataque
+A80	Class T17 Occurrence
+A81	Event_Type T17 Transition
+A82	Pos T17 Noun
+A83	Polarity T17 Pos
+T18	Event 530 538	efetuado
+A84	Class T18 Occurrence
+A85	Event_Type T18 Transition
+A86	Pos T18 Verb
+A87	Tense T18 Past
+A88	Aspect T18 Perfective
+A89	VForm T18 Participle
+A90	Polarity T18 Pos
+T19	Time 539 544	ontem
+A91	Time_Type T19 Date
+#3	AnnotatorNotes T19	value=2020-11-02 anchorTime=Publication_Time
+T20	Time 546 559	segunda-feira
+A93	Time_Type T20 Date
+#4	AnnotatorNotes T20	value=2020-11-02 anchorTime=Publication_Time
+R2	TLINK_identity Arg1:T20 Arg2:T19	
+T21	Event 630 638	atentado
+A95	Class T21 Occurrence
+A96	Event_Type T21 Transition
+A97	Pos T21 Noun
+A98	Polarity T21 Pos
+T22	Event 656 663	abatido
+A99	Class T22 Occurrence
+A100	Event_Type T22 Transition
+A101	Pos T22 Verb
+A102	Tense T22 Past
+A103	Aspect T22 Perfective
+A104	VForm T22 Participle
+A105	Polarity T22 Pos
+T23	Time 664 689	na noite de segunda-feira
+A106	Time_Type T23 Time
+#5	AnnotatorNotes T23	value=2020-11-02TNi anchorTime=Publication_Time
+T24	Event 731 736	tinha
+A108	Class T24 State
+A109	Pos T24 Verb
+A110	Tense T24 Past
+A111	Aspect T24 Imperfective
+A112	VForm T24 None
+A113	Polarity T24 Pos
+A114	Event_Type T24 State
+T25	Event 795 829	foi posto em liberdade condicional
+A115	Class T25 Occurrence
+A116	Event_Type T25 Transition
+A117	Tense T25 Past
+A118	Aspect T25 Perfective
+A119	VForm T25 Participle
+A120	Polarity T25 Pos
+T26	Time 833 849	dezembro passado
+A121	Time_Type T26 Time
+#6	AnnotatorNotes T26	value=2019-12-XX anchorTime=Publication_Time
+T27	Event 855 862	cumprir
+A123	Class T27 Occurrence
+A124	Event_Type T27 Process
+A125	Pos T27 Verb
+A126	VForm T27 Infinitive
+A127	Polarity T27 Pos
+T28	Time 884 892	22 meses
+A128	Time_Type T28 Duration
+#7	AnnotatorNotes T28	value=P22M
+T29	Event 896 902	prisão
+A130	Class T29 State
+A131	Event_Type T29 State
+A132	Pos T29 Noun
+A133	Polarity T29 Pos
+T30	Event 911 918	tentado
+A134	Event_Type T30 Process
+A135	Pos T30 Verb
+A136	Tense T30 Past
+A137	Aspect T30 Perfective
+A138	VForm T30 Infinitive
+A139	Polarity T30 Pos
+T31	Event 919 925	viajar
+A140	Class T31 Occurrence
+A141	Event_Type T31 Transition
+A142	Pos T31 Verb
+A143	VForm T31 Infinitive
+A144	Polarity T31 Pos
+T32	Event 941 950	juntar-se
+A145	Class T32 Occurrence
+A146	Event_Type T32 Process
+A147	VForm T32 Infinitive
+A148	Polarity T32 Pos
+R3	TLINK_isIncluded Arg1:T1 Arg2:T2	
+R4	TLINK_before Arg1:T3 Arg2:T1	
+R5	TLINK_identity Arg1:T4 Arg2:T3	
+R6	TLINK_isIncluded Arg1:T4 Arg2:T5	
+R7	TLINK_after Arg1:T6 Arg2:T4	
+R8	TLINK_identity Arg1:T8 Arg2:T7	
+R9	TLINK_identity Arg1:T7 Arg2:T1	
+R10	TLINK_after Arg1:T7 Arg2:T6	
+R11	TLINK_isIncluded Arg1:T10 Arg2:T9	
+A149	Class T11 Occurrence
+R12	TLINK_identity Arg1:T12 Arg2:T11	
+R13	TLINK_before Arg1:T11 Arg2:T10	
+R14	TLINK_simultaneous Arg1:T14 Arg2:T13	
+R15	TLINK_before Arg1:T15 Arg2:T14	
+R16	TLINK_isIncluded Arg1:T16 Arg2:T13	
+R17	TLINK_identity Arg1:T18 Arg2:T17	
+R18	TLINK_before Arg1:T17 Arg2:T16	
+R19	TLINK_isIncluded Arg1:T18 Arg2:T19	
+R20	TLINK_identity Arg1:T21 Arg2:T17	
+R21	TLINK_after Arg1:T22 Arg2:T21	
+R22	TLINK_isIncluded Arg1:T22 Arg2:T23	
+R23	TLINK_includes Arg1:T24 Arg2:T22	
+R24	TLINK_isIncluded Arg1:T25 Arg2:T24	
+R25	TLINK_isIncluded Arg1:T25 Arg2:T26	
+R26	TLINK_before Arg1:T27 Arg2:T25	
+R27	TLINK_during Arg1:T29 Arg2:T28	
+R28	TLINK_before Arg1:T30 Arg2:T27	
+R29	TLINK_isIncluded Arg1:T31 Arg2:T30	
+R30	TLINK_after Arg1:T32 Arg2:T31	
+R31	SLINK_intensional Arg1:T30 Arg2:T31	
+R32	SLINK_intensional Arg1:T30 Arg2:T32	
+A150	Class T1 I_Action
+R33	SLINK_factive Arg1:T1 Arg2:T3	
+R34	SLINK_evidential Arg1:T16 Arg2:T17	
+T33	Participant 77 117	O grupo ‘jihadista’ Estado Islâmico (EI)
+A151	Lexical_Head T33 Noun
+A152	Individuation_Domain T33 Individual
+A153	Participant_Type_Domain T33 Org
+A154	Involvement T33 1
+T34	Participant 180 185	Viena
+A155	Lexical_Head T34 Noun
+A156	Individuation_Domain T34 Individual
+A157	Participant_Type_Domain T34 Loc
+A158	Involvement T34 1
+T35	Participant 201 223	quatro vítimas mortais
+A159	Lexical_Head T35 Noun
+A160	Individuation_Domain T35 Individual
+A161	Participant_Type_Domain T35 Per
+A162	Involvement T35 >1
+T36	Participant 226 236	22 feridos
+A163	Lexical_Head T36 Noun
+A164	Individuation_Domain T36 Individual
+A165	Participant_Type_Domain T36 Per
+A166	Involvement T36 >1
+T37	Participant 264 271	as suas
+A167	Lexical_Head T37 Pronoun
+A168	Individuation_Domain T37 Individual
+A169	Participant_Type_Domain T37 Org
+A170	Involvement T37 1
+T38	Participant 302 306	o EI
+A171	Lexical_Head T38 Noun
+A172	Individuation_Domain T38 Individual
+A173	Participant_Type_Domain T38 Org
+A174	Involvement T38 1
+R35	OLINK_objIdentity Arg1:T38 Arg2:T33	
+T39	Participant 317 341	um “soldado do califado”
+A175	Lexical_Head T39 Noun
+A176	Individuation_Domain T39 Individual
+A177	Participant_Type_Domain T39 Per
+A178	Involvement T39 1
+T40	Participant 374 386	uma sinagoga
+A179	Lexical_Head T40 Noun
+A180	Individuation_Domain T40 Individual
+A181	Participant_Type_Domain T40 Loc
+A182	Involvement T40 1
+T41	Participant 390 397	a ópera
+A183	Lexical_Head T41 Noun
+A184	Individuation_Domain T41 Individual
+A185	Participant_Type_Domain T41 Loc
+A186	Involvement T41 1
+T42	Participant 400 408	um texto
+A187	Lexical_Head T42 Noun
+A188	Individuation_Domain T42 Individual
+A189	Participant_Type_Domain T42 Other
+A190	Involvement T42 1
+T43	Participant 435 443	uma foto
+A191	Lexical_Head T43 Noun
+A192	Individuation_Domain T43 Individual
+A193	Participant_Type_Domain T43 Obj
+A194	Involvement T43 1
+T44	Participant 445 457	o assaltante
+A195	Lexical_Head T44 Noun
+A196	Individuation_Domain T44 Individual
+A197	Participant_Type_Domain T44 Per
+A198	Involvement T44 1
+R36	OLINK_partOf Arg1:T43 Arg2:T44	
+T45	Participant 466 494	a agência de propaganda Amaq
+A199	Lexical_Head T45 Noun
+A200	Individuation_Domain T45 Individual
+A201	Participant_Type_Domain T45 Org
+A202	Involvement T45 1
+T46	Participant 516 529	armas de fogo
+A203	Lexical_Head T46 Noun
+A204	Individuation_Domain T46 Individual
+A205	Participant_Type_Domain T46 Obj
+A206	Involvement T46 >1
+T47	Participant 565 578	um combatente
+A207	Lexical_Head T47 Noun
+A208	Individuation_Domain T47 Individual
+A209	Participant_Type_Domain T47 Per
+A210	Involvement T47 1
+T48	Participant 580 597	o Estado Islâmico
+A211	Lexical_Head T48 Noun
+A212	Individuation_Domain T48 Individual
+A213	Participant_Type_Domain T48 Org
+A214	Involvement T48 1
+T49	Participant 599 616	a cidade de Viena
+A215	Lexical_Head T49 Noun
+A216	Individuation_Domain T49 Individual
+A217	Participant_Type_Domain T49 Loc
+A218	Involvement T49 1
+R37	OLINK_partOf Arg1:T40 Arg2:T34	
+R38	OLINK_partOf Arg1:T41 Arg2:T34	
+R39	OLINK_objIdentity Arg1:T44 Arg2:T39	
+R40	OLINK_objIdentity Arg1:T47 Arg2:T44	
+R41	OLINK_objIdentity Arg1:T48 Arg2:T38	
+R42	OLINK_objIdentity Arg1:T49 Arg2:T34	
+T50	Participant 619 626	O autor
+A219	Lexical_Head T50 Noun
+A220	Individuation_Domain T50 Individual
+A221	Participant_Type_Domain T50 Per
+A222	Involvement T50 1
+T51	Participant 695 702	polícia
+A223	Lexical_Head T51 Noun
+A224	Individuation_Domain T51 Individual
+A225	Participant_Type_Domain T51 Org
+A226	Involvement T51 1
+T52	Participant 704 712	o centro
+A227	Lexical_Head T52 Noun
+A228	Individuation_Domain T52 Individual
+A229	Participant_Type_Domain T52 Loc
+A230	Involvement T52 1
+T53	Participant 723 730	O jovem
+A231	Lexical_Head T53 Noun
+A232	Individuation_Domain T53 Individual
+A233	Participant_Type_Domain T53 Per
+A234	Involvement T53 1
+T54	Participant 737 791	dupla nacionalidade, austríaca e da Macedónia do Norte
+A235	Lexical_Head T54 Noun
+A236	Individuation_Domain T54 Individual
+A237	Participant_Type_Domain T54 Other
+A238	Involvement T54 >1
+T55	Participant 872 880	uma pena
+A239	Lexical_Head T55 Noun
+A240	Individuation_Domain T55 Individual
+A241	Participant_Type_Domain T55 Other
+A242	Involvement T55 1
+T56	Participant 931 938	a Síria
+A243	Lexical_Head T56 Noun
+A244	Individuation_Domain T56 Individual
+A245	Participant_Type_Domain T56 Loc
+A246	Involvement T56 1
+T57	Participant 954 962	fileiras
+A247	Lexical_Head T57 Noun
+A248	Individuation_Domain T57 Individual
+A249	Participant_Type_Domain T57 Per
+A250	Involvement T57 >1
+T58	Participant 964 968	o EI
+A251	Lexical_Head T58 Noun
+A252	Individuation_Domain T58 Individual
+A253	Participant_Type_Domain T58 Org
+A254	Involvement T58 1
+R44	OLINK_partOf Arg1:T57 Arg2:T58	
+R45	OLINK_objIdentity Arg1:T58 Arg2:T48	
+R46	SRLINK_agent Arg1:T1 Arg2:T33	
+R47	SRLINK_theme Arg1:T1 Arg2:T3	
+R48	SRLINK_theme Arg1:T4 Arg2:T3	
+R49	SRLINK_location Arg1:T4 Arg2:T34	
+R50	SRLINK_cause Arg1:T6 Arg2:T3	
+R51	SRLINK_theme Arg1:T6 Arg2:T35	
+R52	SRLINK_theme Arg1:T6 Arg2:T36	
+R53	SRLINK_manner Arg1:T1 Arg2:T7	
+R54	SRLINK_theme Arg1:T8 Arg2:T7	
+R55	SRLINK_location Arg1:T8 Arg2:T59	
+R56	SRLINK_agent Arg1:T8 Arg2:T33	
+R57	SRLINK_agent Arg1:T10 Arg2:T9	
+R58	SRLINK_goal Arg1:T10 Arg2:T39	
+R59	SRLINK_theme Arg1:T10 Arg2:T11	
+R60	SRLINK_source Arg1:T9 Arg2:T38	
+R61	SRLINK_theme Arg1:T12 Arg2:T11	
+R62	SRLINK_location Arg1:T12 Arg2:T40	
+R63	SRLINK_location Arg1:T12 Arg2:T41	
+R64	SRLINK_theme Arg1:T13 Arg2:T42	
+R65	SRLINK_pivot Arg1:T14 Arg2:T42	
+R66	SRLINK_theme Arg1:T14 Arg2:T43	
+R67	SRLINK_pivot Arg1:T15 Arg2:T44	
+R68	SRLINK_agent Arg1:T16 Arg2:T45	
+R69	SRLINK_theme Arg1:T16 Arg2:T17	
+R70	SRLINK_source Arg1:T16 Arg2:T42	
+R71	SRLINK_manner Arg1:T17 Arg2:T46	
+R72	SRLINK_theme Arg1:T18 Arg2:T17	
+R73	SRLINK_agent Arg1:T18 Arg2:T47	
+R74	OLINK_partOf Arg1:T47 Arg2:T48	
+R75	SRLINK_location Arg1:T18 Arg2:T49	
+R76	SRLINK_agent Arg1:T21 Arg2:T50	
+R77	SRLINK_patient Arg1:T22 Arg2:T50	
+R78	SRLINK_agent Arg1:T22 Arg2:T51	
+R79	SRLINK_location Arg1:T22 Arg2:T52	
+R80	SRLINK_pivot Arg1:T24 Arg2:T53	
+R81	SRLINK_theme Arg1:T24 Arg2:T54	
+R82	SRLINK_patient Arg1:T25 Arg2:T53	
+R83	SRLINK_agent Arg1:T27 Arg2:T53	
+R84	SRLINK_theme Arg1:T27 Arg2:T55	
+R85	SRLINK_theme Arg1:T29 Arg2:T55	
+R86	SRLINK_reason Arg1:T27 Arg2:T30	
+R87	SRLINK_theme Arg1:T30 Arg2:T31	
+R88	SRLINK_finalLocation Arg1:T31 Arg2:T56	
+R89	SRLINK_theme Arg1:T30 Arg2:T32	
+R90	SRLINK_theme Arg1:T32 Arg2:T57	
+R91	SRLINK_agent Arg1:T32 Arg2:T53	
+T59	Participant 272 286	redes Telegram
+A255	Lexical_Head T59 Noun
+A256	Individuation_Domain T59 Individual
+A257	Participant_Type_Domain T59 Other
+A258	Involvement T59 >1
+R92	OLINK_partOf Arg1:T59 Arg2:T37	
+R93	OLINK_objIdentity Arg1:T37 Arg2:T33	
+T60	Participant 863 868	parte
+A259	Lexical_Head T60 Pronoun
+A260	Individuation_Domain T60 Individual
+A261	Participant_Type_Domain T60 Other
+A262	Involvement T60 1
+R94	OLINK_partOf Arg1:T60 Arg2:T55	
+T61	Time 9 20	03 nov 2020
+A263	Time_Type T61 Date
+A264	TemporalFunction T61 Publication_Time
+#8	AnnotatorNotes T61	value=2020-11-03 
+R95	TLINK_identity Arg1:T2 Arg2:T61	
+T62	Participant 716 721	Viena
+A265	Lexical_Head T62 Noun
+A266	Individuation_Domain T62 Individual
+A267	Participant_Type_Domain T62 Loc
+A268	Involvement T62 1
+R43	OLINK_partOf Arg1:T52 Arg2:T62	
+R96	OLINK_objIdentity Arg1:T62 Arg2:T49	

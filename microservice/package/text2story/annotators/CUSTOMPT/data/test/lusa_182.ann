@@ -1,0 +1,566 @@
+T1	Event 120 126	morreu
+A1	Class T1 Occurrence
+A2	Event_Type T1 Transition
+A3	Pos T1 Verb
+A4	Tense T1 Past
+A5	Aspect T1 Perfective
+A6	Polarity T1 Pos
+T2	Event 141 148	atacado
+A7	Class T2 Occurrence
+A8	Event_Type T2 Transition
+A9	Pos T2 Verb
+A10	Tense T2 Past
+A11	Aspect T2 Perfective
+A12	VForm T2 Infinitive
+A13	Polarity T2 Pos
+T3	Event 171 177	nadava
+A14	Class T3 Occurrence
+A15	Event_Type T3 Process
+A16	Pos T3 Verb
+A17	Tense T3 Past
+A18	Aspect T3 Imperfective
+A19	Polarity T3 Pos
+T4	Event 234 235	é
+A20	Class T4 State
+A21	Event_Type T4 State
+A22	Pos T4 Verb
+A23	Tense T4 Present
+A24	Aspect T4 Progressive
+A25	Polarity T4 Pos
+T5	Event 238 250	oitava morte
+A26	Class T5 Occurrence
+A27	Event_Type T5 Transition
+A28	Pos T5 Noun
+A29	Polarity T5 Pos
+T6	Event 279 287	noticiam
+A30	Class T6 Reporting
+A31	Event_Type T6 Transition
+A32	Pos T6 Verb
+A33	Tense T6 Present
+A34	Aspect T6 Imperfective
+A35	Polarity T6 Pos
+T16	Time 127 131	hoje
+A87	Time_Type T16 Date
+A88	TemporalFunction T16 Publication_Time
+#1	AnnotatorNotes T16	value=2020-11-20 anchorTime=Publication_Time
+T17	Time 19 30	22 nov 2020
+A89	Time_Type T17 Date
+A90	TemporalFunction T17 Publication_Time
+#2	AnnotatorNotes T17	value=2020-11-20 
+R1	TLINK_identity Arg1:T16 Arg2:T17	
+R2	TLINK_isIncluded Arg1:T1 Arg2:T16	
+R3	TLINK_before Arg1:T2 Arg2:T1	
+R4	TLINK_simultaneous Arg1:T3 Arg2:T2	
+R5	TLINK_includes Arg1:T4 Arg2:T3	
+R6	TLINK_identity Arg1:T5 Arg2:T4	
+R7	TLINK_isIncluded Arg1:T6 Arg2:T5	
+R8	SLINK_evidential Arg1:T6 Arg2:T1	
+T7	Participant 111 119	Um homem
+A36	Lexical_Head T7 Noun
+A37	Individuation_Domain T7 Individual
+A38	Participant_Type_Domain T7 Per
+A39	Involvement T7 1
+T8	Participant 153 163	um tubarão
+A40	Lexical_Head T8 Noun
+A41	Individuation_Domain T8 Individual
+A42	Participant_Type_Domain T8 Nat
+A43	Involvement T8 1
+T9	Participant 179 188	uma praia
+A44	Lexical_Head T9 Noun
+A45	Individuation_Domain T9 Individual
+A46	Participant_Type_Domain T9 Loc
+A47	Involvement T9 1
+T10	Participant 190 207	a costa ocidental
+A48	Lexical_Head T10 Noun
+A49	Individuation_Domain T10 Individual
+A50	Participant_Type_Domain T10 Loc
+A51	Involvement T10 1
+T11	Participant 209 220	a Austrália
+A52	Lexical_Head T11 Noun
+A53	Individuation_Domain T11 Individual
+A54	Participant_Type_Domain T11 Loc
+A55	Involvement T11 1
+T12	Participant 262 268	o país
+A56	Lexical_Head T12 Noun
+A57	Individuation_Domain T12 Individual
+A58	Participant_Type_Domain T12 Loc
+A59	Involvement T12 1
+T13	Time 269 277	este ano
+A60	Time_Type T13 Date
+#3	AnnotatorNotes T13	value=2020-XX-XX anchorTime=Publication_Time
+T14	Participant 288 314	as agências internacionais
+A61	Lexical_Head T14 Noun
+A62	Individuation_Domain T14 Individual
+A63	Participant_Type_Domain T14 Org
+A64	Involvement T14 >1
+R10	OLINK_partOf Arg1:T9 Arg2:T10	
+R11	OLINK_partOf Arg1:T10 Arg2:T11	
+R12	OLINK_objIdentity Arg1:T12 Arg2:T11	
+R14	SRLINK_agent Arg1:T2 Arg2:T8	
+R15	SRLINK_reason Arg1:T1 Arg2:T2	
+R16	SRLINK_agent Arg1:T3 Arg2:T7	
+R17	SRLINK_location Arg1:T3 Arg2:T9	
+R18	SRLINK_theme Arg1:T4 Arg2:T5	
+R19	SRLINK_location Arg1:T5 Arg2:T12	
+R20	SRLINK_agent Arg1:T6 Arg2:T14	
+R21	SRLINK_theme Arg1:T6 Arg2:T1	
+R22	SRLINK_patient Arg1:T2 Arg2:T7	
+T15	Event 344 351	sozinho
+A65	Class T15 State
+A66	Event_Type T15 State
+A67	Pos T15 Verb
+A68	Tense T15 Past
+A69	Aspect T15 Imperfective
+A70	Polarity T15 Pos
+T18	Event 452 458	atacou
+A71	Class T18 Occurrence
+A72	Event_Type T18 Transition
+A73	Pos T18 Verb
+A74	Tense T18 Past
+A75	Aspect T18 Perfective
+A76	Polarity T18 Pos
+T19	Event 473 479	mordeu
+A77	Class T19 Occurrence
+A78	Event_Type T19 Transition
+A79	Pos T19 Verb
+A80	Tense T19 Past
+A81	Aspect T19 Perfective
+A82	Polarity T19 Pos
+T20	Event 500 508	retirada
+A83	Class T20 Occurrence
+A84	Event_Type T20 Transition
+A85	Pos T20 Verb
+A86	Tense T20 Past
+A91	Aspect T20 Perfective
+A92	Polarity T20 Pos
+T21	Event 521 538	ferimentos graves
+A93	Class T21 State
+A94	Event_Type T21 State
+A95	Pos T21 Noun
+A96	Polarity T21 Pos
+T22	Event 541 550	assistida
+A97	Class T22 Occurrence
+A98	Event_Type T22 Transition
+A99	Pos T22 Verb
+A100	Tense T22 Past
+A101	Aspect T22 Perfective
+A102	Polarity T22 Pos
+T23	Event 651 656	matou
+A103	Class T23 Occurrence
+A104	Event_Type T23 Transition
+A105	Pos T23 Verb
+A106	Tense T23 Past
+A107	Aspect T23 Perfective
+A108	Polarity T23 Pos
+T24	Event 682 689	manteve
+A109	Class T24 State
+A110	Event_Type T24 State
+A111	Pos T24 Verb
+A112	Tense T24 Past
+A113	Aspect T24 Perfective
+A114	Polarity T24 Pos
+T25	Event 725 731	ataque
+A115	Class T25 Occurrence
+A116	Event_Type T25 Transition
+A117	Pos T25 Noun
+A118	Polarity T25 Pos
+T26	Event 735 741	fechou
+A119	Class T26 Occurrence
+A120	Event_Type T26 Transition
+A121	Pos T26 Verb
+A122	Tense T26 Past
+A123	Aspect T26 Perfective
+A124	Polarity T26 Pos
+T27	Event 751 757	famosa
+A125	Class T27 State
+A126	Event_Type T27 State
+A127	Pos T27 Adjective
+A128	Polarity T27 Pos
+T28	Event 813 819	mortes
+A129	Class T28 Occurrence
+A130	Event_Type T28 Transition
+A131	Pos T28 Noun
+A132	Polarity T28 Pos
+T29	Event 823 830	ataques
+A133	Class T29 Occurrence
+A134	Event_Type T29 Transition
+A135	Pos T29 Noun
+A136	Polarity T29 Pos
+T30	Event 873 874	é
+A137	Class T30 State
+A138	Event_Type T30 State
+A139	Pos T30 Verb
+A140	Tense T30 Present
+A141	Aspect T30 Imperfective
+A142	Polarity T30 Pos
+T31	Event 909 917	morreram
+A143	Class T31 Occurrence
+A144	Event_Type T31 Transition
+A145	Pos T31 Verb
+A146	Tense T31 Past
+A147	Aspect T31 Perfective
+A148	Polarity T31 Pos
+T32	Event 941 958	contabilizaram-se
+A149	Class T32 Occurrence
+A150	Event_Type T32 Transition
+A151	Pos T32 Verb
+A152	Tense T32 Past
+A153	Aspect T32 Perfective
+A154	Polarity T32 Pos
+T33	Event 962 969	ataques
+A155	Class T33 Occurrence
+A156	Event_Type T33 Transition
+A157	Pos T33 Noun
+A158	Polarity T33 Pos
+T34	Event 995 1001	morreu
+A159	Class T34 Occurrence
+A160	Event_Type T34 Transition
+A161	Pos T34 Verb
+A162	Tense T34 Past
+A163	Aspect T34 Perfective
+A164	Polarity T34 Neg
+T35	Event 1090 1093	tem
+A165	Class T35 State
+A166	Event_Type T35 State
+A167	Pos T35 Verb
+A168	Tense T35 Present
+A169	Aspect T35 Imperfective
+A170	Polarity T35 Pos
+T36	Event 1149 1161	considerados
+A171	Class T36 State
+A172	Event_Type T36 State
+A173	Pos T36 Verb
+A174	VForm T36 Participle
+A175	Polarity T36 Pos
+T37	Event 1162 1179	os mais perigosos
+A176	Class T37 State
+A177	Event_Type T37 State
+A178	Pos T37 Adjective
+A179	Polarity T37 Pos
+T38	Event 875 889	o mais elevado
+A180	Class T38 State
+A181	Event_Type T38 State
+A182	Pos T38 Adjective
+A183	Polarity T38 Pos
+R23	TLINK_before Arg1:T15 Arg2:T6	
+R24	TLINK_isIncluded Arg1:T18 Arg2:T15	
+R25	TLINK_simultaneous Arg1:T19 Arg2:T18	
+R26	TLINK_after Arg1:T20 Arg2:T19	
+R27	TLINK_includes Arg1:T21 Arg2:T20	
+R28	TLINK_after Arg1:T22 Arg2:T20	
+T39	Event 604 612	possível
+A184	Class T39 I_State
+A185	Event_Type T39 State
+A186	Pos T39 Verb
+A187	Tense T39 Past
+A188	Aspect T39 Perfective
+A189	Polarity T39 Neg
+T40	Event 613 618	salvá
+A190	Class T40 Occurrence
+A191	Event_Type T40 Transition
+A192	Pos T40 Verb
+A193	VForm T40 Infinitive
+A194	Polarity T40 Pos
+R29	SLINK_intensional Arg1:T39 Arg2:T40	
+T41	Event 624 630	morreu
+A195	Class T41 Occurrence
+A196	Event_Type T41 Transition
+A197	Pos T41 Verb
+A198	Tense T41 Past
+A199	Aspect T41 Perfective
+A200	Polarity T41 Pos
+R30	TLINK_identity Arg1:T40 Arg2:T39	
+R31	TLINK_includes Arg1:T39 Arg2:T22	
+R32	TLINK_after Arg1:T41 Arg2:T22	
+R33	TLINK_isIncluded Arg1:T41 Arg2:T40	
+R34	TLINK_after Arg1:T23 Arg2:T41	
+R35	TLINK_before Arg1:T25 Arg2:T24	
+R36	TLINK_includes Arg1:T24 Arg2:T23	
+R37	TLINK_includes Arg1:T27 Arg2:T26	
+R38	TLINK_after Arg1:T26 Arg2:T25	
+R39	TLINK_before Arg1:T31 Arg2:T30	
+R40	TLINK_identity Arg1:T29 Arg2:T28	
+R41	TLINK_includes Arg1:T30 Arg2:T29	
+R42	TLINK_after Arg1:T32 Arg2:T31	
+R43	TLINK_identity Arg1:T33 Arg2:T32	
+R44	TLINK_isIncluded Arg1:T34 Arg2:T33	
+T42	Event 1011 1018	estudos
+A201	Class T42 Occurrence
+A202	Event_Type T42 Process
+A203	Pos T42 Noun
+A204	Polarity T42 Pos
+R45	TLINK_includes Arg1:T42 Arg2:T34	
+R46	TLINK_includes Arg1:T35 Arg2:T42	
+R47	TLINK_simultaneous Arg1:T36 Arg2:T35	
+R48	TLINK_identity Arg1:T37 Arg2:T36	
+R49	TLINK_identity Arg1:T38 Arg2:T30	
+R50	TLINK_isIncluded Arg1:T28 Arg2:T27	
+T43	Participant 316 335	O homem, de 55 anos
+A205	Lexical_Head T43 Noun
+A206	Individuation_Domain T43 Individual
+A207	Participant_Type_Domain T43 Per
+A208	Involvement T43 1
+T44	Participant 353 359	a água
+A209	Lexical_Head T44 Noun
+A210	Individuation_Domain T44 Mass
+A211	Participant_Type_Domain T44 Nat
+A212	Involvement T44 Und
+T45	Participant 361 387	a turística praia de Cable
+A213	Lexical_Head T45 Noun
+A214	Individuation_Domain T45 Individual
+A215	Participant_Type_Domain T45 Loc
+A216	Involvement T45 1
+T46	Participant 390 413	o noroeste da Austrália
+A217	Lexical_Head T46 Noun
+A218	Individuation_Domain T46 Individual
+A219	Participant_Type_Domain T46 Loc
+A220	Involvement T46 1
+T47	Participant 416 431	o oceano Índico
+A221	Lexical_Head T47 Noun
+A222	Individuation_Domain T47 Individual
+A223	Participant_Type_Domain T47 Nat
+A224	Involvement T47 1
+T48	Participant 440 449	o tubarão
+A225	Lexical_Head T48 Noun
+A226	Individuation_Domain T48 Individual
+A227	Participant_Type_Domain T48 Nat
+A228	Involvement T48 1
+T49	Participant 450 451	o
+A229	Lexical_Head T49 Pronoun
+A230	Individuation_Domain T49 Individual
+A231	Participant_Type_Domain T49 Per
+A232	Involvement T49 1
+T50	Participant 460 466	a coxa
+A233	Lexical_Head T50 Noun
+A234	Individuation_Domain T50 Individual
+A235	Participant_Type_Domain T50 Other
+A236	Involvement T50 1
+T51	Participant 469 472	lhe
+A237	Lexical_Head T51 Pronoun
+A238	Individuation_Domain T51 Individual
+A239	Participant_Type_Domain T51 Per
+A240	Involvement T51 1
+T52	Participant 480 485	a mão
+A241	Lexical_Head T52 Noun
+A242	Individuation_Domain T52 Individual
+A243	Participant_Type_Domain T52 Other
+A244	Involvement T52 1
+T53	Participant 487 495	A vítima
+A245	Lexical_Head T53 Noun
+A246	Individuation_Domain T53 Individual
+A247	Participant_Type_Domain T53 Per
+A248	Involvement T53 1
+T54	Participant 510 516	a água
+A249	Lexical_Head T54 Noun
+A250	Individuation_Domain T54 Mass
+A251	Participant_Type_Domain T54 Nat
+A252	Involvement T54 Und
+T55	Participant 554 563	a polícia
+A253	Lexical_Head T55 Noun
+A254	Individuation_Domain T55 Individual
+A255	Participant_Type_Domain T55 Org
+A256	Involvement T55 1
+T56	Participant 576 590	os paramédicos
+A257	Lexical_Head T56 Noun
+A258	Individuation_Domain T56 Individual
+A259	Participant_Type_Domain T56 Per
+A260	Involvement T56 >1
+T57	Participant 632 639	o local
+A261	Lexical_Head T57 Noun
+A262	Individuation_Domain T57 Individual
+A263	Participant_Type_Domain T57 Loc
+A264	Involvement T57 1
+T58	Participant 641 650	A polícia
+A265	Lexical_Head T58 Noun
+A266	Individuation_Domain T58 Individual
+A267	Participant_Type_Domain T58 Org
+A268	Involvement T58 1
+T59	Participant 664 673	o tubarão
+A269	Lexical_Head T59 Noun
+A270	Individuation_Domain T59 Individual
+A271	Participant_Type_Domain T59 Nat
+A272	Involvement T59 1
+T60	Participant 675 678	que
+A273	Lexical_Head T60 Pronoun
+A274	Individuation_Domain T60 Individual
+A275	Participant_Type_Domain T60 Nat
+A276	Involvement T60 1
+T61	Participant 679 681	se
+A277	Lexical_Head T61 Pronoun
+A278	Individuation_Domain T61 Individual
+A279	Participant_Type_Domain T61 Nat
+A280	Involvement T61 1
+T62	Participant 691 697	a zona
+A281	Lexical_Head T62 Noun
+A282	Individuation_Domain T62 Individual
+A283	Participant_Type_Domain T62 Loc
+A284	Involvement T62 1
+T63	Time 702 717	quase meia hora
+A285	Time_Type T63 Duration
+#4	AnnotatorNotes T63	value=P30Mi anchorTime=Publication_Time
+T64	Participant 742 749	a praia
+A286	Lexical_Head T64 Noun
+A287	Individuation_Domain T64 Individual
+A288	Participant_Type_Domain T64 Loc
+A289	Involvement T64 1
+T65	Participant 764 768	seus
+A290	Lexical_Head T65 Pronoun
+A291	Individuation_Domain T65 Individual
+A292	Participant_Type_Domain T65 Loc
+A293	Involvement T65 1
+T66	Participant 769 799	22 quilómetros de areia branca
+A294	Lexical_Head T66 Noun
+A295	Individuation_Domain T66 Individual
+A296	Participant_Type_Domain T66 Nat
+A297	Involvement T66 >1
+T67	Participant 801 809	O número
+A298	Lexical_Head T67 Noun
+A299	Individuation_Domain T67 Individual
+A300	Participant_Type_Domain T67 Other
+A301	Involvement T67 1
+T68	Participant 834 841	tubarão
+A302	Lexical_Head T68 Noun
+A303	Individuation_Domain T68 Mass
+A304	Participant_Type_Domain T68 Nat
+A305	Involvement T68 Und
+T69	Time 842 850	este ano
+A306	Time_Type T69 Date
+#5	AnnotatorNotes T69	value=2020-XX-XX anchorTime=Publication_Time
+T70	Participant 852 863	a Austrália
+A307	Lexical_Head T70 Noun
+A308	Individuation_Domain T70 Individual
+A309	Participant_Type_Domain T70 Loc
+A310	Involvement T70 1
+T71	Participant 866 870	oito
+A311	Lexical_Head T71 Noun
+A312	Individuation_Domain T71 Individual
+A313	Participant_Type_Domain T71 Other
+A314	Involvement T71 >1
+T72	Time 890 900	desde 1929
+A315	Time_Type T72 Duration
+#6	AnnotatorNotes T72	value=P91Y beginPoint=1929 endPoint=2020
+T73	Participant 918 930	nove pessoas
+A316	Lexical_Head T73 Noun
+A317	Individuation_Domain T73 Individual
+A318	Participant_Type_Domain T73 Per
+A319	Involvement T73 >1
+T74	Time 932 939	Em 2019
+A320	Time_Type T74 Date
+#7	AnnotatorNotes T74	value=2019-XX-XX anchorTime=Publication_Time
+T75	Participant 973 981	tubarões
+A321	Lexical_Head T75 Noun
+A322	Individuation_Domain T75 Individual
+A323	Participant_Type_Domain T75 Nat
+A324	Involvement T75 >1
+T76	Participant 987 994	ninguém
+A325	Lexical_Head T76 Noun
+A326	Individuation_Domain T76 Individual
+A327	Participant_Type_Domain T76 Per
+A328	Involvement T76 0
+T77	Participant 1020 1060	a agência científica governamental CSIRO
+A329	Lexical_Head T77 Noun
+A330	Individuation_Domain T77 Individual
+A331	Participant_Type_Domain T77 Org
+A332	Involvement T77 1
+T78	Event 1062 1068	datada
+A333	Class T78 State
+A334	Event_Type T78 State
+A335	Pos T78 Verb
+A336	VForm T78 Participle
+A337	Polarity T78 Pos
+T79	Time 1072 1076	2018
+A338	Time_Type T79 Date
+#8	AnnotatorNotes T79	value=2018-XX-XX anchorTime=Publication_Time
+T80	Participant 1078 1089	a Austrália
+A339	Lexical_Head T80 Noun
+A340	Individuation_Domain T80 Individual
+A341	Participant_Type_Domain T80 Loc
+A342	Involvement T80 1
+T81	Participant 1103 1147	2.210 exemplares adultos de tubarões brancos
+A343	Lexical_Head T81 Noun
+A344	Individuation_Domain T81 Individual
+A345	Participant_Type_Domain T81 Nat
+A346	Involvement T81 >1
+R51	OLINK_objIdentity Arg1:T43 Arg2:T7	
+R52	OLINK_objIdentity Arg1:T45 Arg2:T9	
+R53	OLINK_partOf Arg1:T45 Arg2:T46	
+R54	OLINK_partOf Arg1:T46 Arg2:T47	
+R55	OLINK_partOf Arg1:T44 Arg2:T45	
+R56	OLINK_objIdentity Arg1:T48 Arg2:T8	
+R57	OLINK_objIdentity Arg1:T49 Arg2:T43	
+R58	OLINK_partOf Arg1:T50 Arg2:T49	
+R59	OLINK_objIdentity Arg1:T51 Arg2:T43	
+R60	OLINK_partOf Arg1:T52 Arg2:T51	
+R61	OLINK_objIdentity Arg1:T53 Arg2:T51	
+R62	OLINK_objIdentity Arg1:T54 Arg2:T44	
+R63	OLINK_objIdentity Arg1:T57 Arg2:T45	
+R64	OLINK_objIdentity Arg1:T58 Arg2:T55	
+R65	OLINK_objIdentity Arg1:T59 Arg2:T48	
+R66	OLINK_objIdentity Arg1:T60 Arg2:T59	
+R67	OLINK_objIdentity Arg1:T61 Arg2:T60	
+R68	OLINK_objIdentity Arg1:T62 Arg2:T57	
+R69	OLINK_objIdentity Arg1:T64 Arg2:T62	
+R70	OLINK_objIdentity Arg1:T65 Arg2:T64	
+R71	OLINK_partOf Arg1:T66 Arg2:T65	
+R72	OLINK_objIdentity Arg1:T70 Arg2:T12	
+R73	OLINK_objIdentity Arg1:T71 Arg2:T67	
+R74	OLINK_objIdentity Arg1:T75 Arg2:T68	
+R75	OLINK_objIdentity Arg1:T80 Arg2:T70	
+R76	OLINK_partOf Arg1:T81 Arg2:T75	
+R9	TLINK_isIncluded Arg1:T5 Arg2:T13	
+R77	TLINK_during Arg1:T24 Arg2:T63	
+R78	TLINK_isIncluded Arg1:T29 Arg2:T69	
+R79	TLINK_during Arg1:T30 Arg2:T72	
+R80	TLINK_isIncluded Arg1:T31 Arg2:T72	
+R81	TLINK_isIncluded Arg1:T32 Arg2:T74	
+R82	TLINK_isIncluded Arg1:T78 Arg2:T79	
+R13	SRLINK_patient Arg1:T1 Arg2:T7	
+R83	SRLINK_pivot Arg1:T15 Arg2:T43	
+R84	SRLINK_location Arg1:T15 Arg2:T44	
+R85	SRLINK_agent Arg1:T18 Arg2:T48	
+R86	SRLINK_patient Arg1:T18 Arg2:T49	
+R87	SRLINK_theme Arg1:T18 Arg2:T50	
+R88	SRLINK_patient Arg1:T19 Arg2:T51	
+R89	SRLINK_theme Arg1:T19 Arg2:T52	
+R90	SRLINK_agent Arg1:T19 Arg2:T48	
+R91	SRLINK_patient Arg1:T20 Arg2:T53	
+R92	SRLINK_initialLocation Arg1:T20 Arg2:T54	
+R93	SRLINK_manner Arg1:T20 Arg2:T21	
+R94	SRLINK_pivot Arg1:T21 Arg2:T53	
+R95	SRLINK_patient Arg1:T22 Arg2:T53	
+R96	SRLINK_agent Arg1:T22 Arg2:T55	
+R97	SRLINK_agent Arg1:T22 Arg2:T56	
+R98	SRLINK_theme Arg1:T39 Arg2:T40	
+R99	SRLINK_patient Arg1:T41 Arg2:T53	
+R100	SRLINK_location Arg1:T41 Arg2:T57	
+R101	SRLINK_agent Arg1:T23 Arg2:T58	
+R102	SRLINK_patient Arg1:T23 Arg2:T59	
+R103	SRLINK_pivot Arg1:T24 Arg2:T61	
+R104	SRLINK_location Arg1:T24 Arg2:T62	
+R105	SRLINK_agent Arg1:T25 Arg2:T59	
+R106	SRLINK_agent Arg1:T26 Arg2:T58	
+R107	SRLINK_patient Arg1:T26 Arg2:T64	
+R108	SRLINK_pivot Arg1:T27 Arg2:T64	
+R109	SRLINK_theme Arg1:T27 Arg2:T66	
+R110	SRLINK_setting Arg1:T28 Arg2:T29	
+R111	SRLINK_theme Arg1:T28 Arg2:T67	
+R112	SRLINK_agent Arg1:T29 Arg2:T68	
+R113	SRLINK_location Arg1:T28 Arg2:T70	
+R114	SRLINK_theme Arg1:T30 Arg2:T67	
+R115	SRLINK_attribute Arg1:T30 Arg2:T38	
+R116	SRLINK_patient Arg1:T31 Arg2:T73	
+T82	Participant 959 961	27
+A347	Lexical_Head T82 Noun
+A348	Individuation_Domain T82 Individual
+A349	Participant_Type_Domain T82 Other
+A350	Involvement T82 >1
+R117	SRLINK_theme Arg1:T32 Arg2:T33	
+R118	SRLINK_amount Arg1:T33 Arg2:T82	
+R119	SRLINK_agent Arg1:T33 Arg2:T75	
+R120	SRLINK_theme Arg1:T34 Arg2:T76	
+R121	SRLINK_agent Arg1:T42 Arg2:T77	
+R122	SRLINK_pivot Arg1:T78 Arg2:T77	
+R123	SRLINK_pivot Arg1:T35 Arg2:T80	
+R124	SRLINK_theme Arg1:T35 Arg2:T81	
+R125	SRLINK_pivot Arg1:T36 Arg2:T81	
+R126	SRLINK_theme Arg1:T36 Arg2:T37	

@@ -1,0 +1,372 @@
+T1	Event 50 60	encontrado
+A1	Class T1 Occurrence
+A2	Event_Type T1 Transition
+A3	Pos T1 Verb
+A4	Tense T1 Past
+A5	Aspect T1 Perfective
+A6	VForm T1 Participle
+A7	Polarity T1 Pos
+T2	Event 61 66	morto
+A8	Class T2 State
+A9	Event_Type T2 State
+A10	Pos T2 Verb
+A11	VForm T2 Participle
+A12	Polarity T2 Pos
+T3	Event 123 133	encontrado
+A13	Class T3 Occurrence
+A14	Event_Type T3 Transition
+A15	Pos T3 Verb
+A16	Tense T3 Past
+A17	Aspect T3 Perfective
+A18	Polarity T3 Pos
+A19	VForm T3 Participle
+T4	Event 134 139	morto
+A20	Class T4 State
+A21	Event_Type T4 State
+A22	Pos T4 Verb
+A25	VForm T4 Participle
+A26	Polarity T4 Pos
+T5	Event 254 260	pescar
+A27	Class T5 Occurrence
+A28	Event_Type T5 Process
+A29	Pos T5 Verb
+A32	VForm T5 Participle
+A33	Polarity T5 Pos
+T6	Event 262 270	informou
+A34	Class T6 Reporting
+A35	Event_Type T6 Transition
+A36	Pos T6 Verb
+A37	Tense T6 Past
+A38	Aspect T6 Perfective
+A40	Polarity T6 Pos
+T7	Event 292 302	informação
+A41	Class T7 Reporting
+A42	Event_Type T7 Transition
+A43	Pos T7 Noun
+A47	Polarity T7 Pos
+T8	Event 303 318	disponibilizada
+A48	Class T8 Occurrence
+A49	Event_Type T8 Transition
+A50	Pos T8 Verb
+A53	VForm T8 Participle
+A54	Polarity T8 Pos
+T9	Event 370 375	saído
+A55	Class T9 Occurrence
+A56	Event_Type T9 Transition
+A57	Pos T9 Verb
+A58	Tense T9 Past
+A60	VForm T9 Participle
+A61	Polarity T9 Pos
+T10	Event 409 419	ir à pesca
+A62	Class T10 Occurrence
+A63	Event_Type T10 Process
+A64	Pos T10 Verb
+A67	VForm T10 Infinitive
+A68	Polarity T10 Pos
+T11	Event 463 472	alertadas
+A69	Class T11 Occurrence
+A70	Event_Type T11 Transition
+A71	Pos T11 Verb
+A72	Tense T11 Past
+A73	Aspect T11 Perfective
+A75	Polarity T11 Pos
+T12	Event 480 495	desaparecimento
+A76	Class T12 Occurrence
+A77	Event_Type T12 Transition
+A78	Pos T12 Noun
+A82	Polarity T12 Pos
+T13	Event 498 507	iniciaram
+A83	Class T13 Occurrence
+A84	Event_Type T13 Transition
+A85	Pos T13 Verb
+A86	Tense T13 Past
+A87	Aspect T13 Perfective
+A89	Polarity T13 Pos
+T14	Event 508 514	buscas
+A90	Class T14 Occurrence
+A91	Event_Type T14 Process
+A92	Pos T14 Noun
+A96	Polarity T14 Pos
+T15	Event 537 547	encontrado
+A97	Class T15 Occurrence
+A98	Event_Type T15 Transition
+A99	Pos T15 Verb
+A100	Tense T15 Past
+A101	Aspect T15 Perfective
+A103	Polarity T15 Pos
+T16	Event 571 579	retirado
+A104	Class T16 Occurrence
+A105	Event_Type T16 Transition
+A106	Pos T16 Verb
+A107	Tense T16 Past
+A108	Aspect T16 Perfective
+A110	Polarity T16 Pos
+T17	Event 633 644	encontraram
+A111	Class T17 Occurrence
+A112	Event_Type T17 Transition
+A113	Pos T17 Verb
+A114	Tense T17 Past
+A115	Aspect T17 Perfective
+A117	Polarity T17 Pos
+T18	Event 703 711	entregue
+A118	Class T18 Occurrence
+A119	Event_Type T18 Transition
+A120	Pos T18 Verb
+A121	Tense T18 Past
+A122	Aspect T18 Perfective
+A124	Polarity T18 Pos
+T19	Event 744 752	apuradas
+A125	Class T19 Occurrence
+A126	Event_Type T19 Transition
+A127	Pos T19 Verb
+A130	VForm T19 Infinitive
+A131	Polarity T19 Pos
+T20	Event 774 779	morte
+A132	Class T20 Occurrence
+A133	Event_Type T20 Transition
+A134	Pos T20 Noun
+A138	Polarity T20 Pos
+T21	Event 756 770	circunstâncias
+A139	Class T21 State
+A140	Event_Type T21 State
+A141	Pos T21 Noun
+A145	Polarity T21 Pos
+A23	Modality T5 Dever
+A24	Tense T5 Past
+A30	Modality T9 Dever
+A31	Aspect T9 Perfective
+T22	Participant 44 49	Homem
+A39	Lexical_Head T22 Noun
+A44	Individuation_Domain T22 Individual
+A45	Participant_Type_Domain T22 Per
+A46	Involvement T22 1
+T23	Participant 99 118	Um homem de 32 anos
+A51	Lexical_Head T23 Noun
+A52	Individuation_Domain T23 Individual
+A59	Participant_Type_Domain T23 Per
+A65	Involvement T23 1
+T24	Participant 357 364	o homem
+A66	Lexical_Head T24 Noun
+A74	Individuation_Domain T24 Individual
+A79	Participant_Type_Domain T24 Per
+A80	Involvement T24 1
+T25	Participant 525 532	O corpo
+A81	Lexical_Head T25 Noun
+A88	Individuation_Domain T25 Individual
+A102	Participant_Type_Domain T25 Per
+A109	Involvement T25 1
+T26	Participant 657 667	o pescador
+A116	Lexical_Head T26 Noun
+A123	Individuation_Domain T26 Individual
+A128	Participant_Type_Domain T26 Per
+A129	Involvement T26 1
+T27	Participant 683 690	a fonte
+A135	Lexical_Head T27 Noun
+A136	Individuation_Domain T27 Individual
+A137	Participant_Type_Domain T27 Org
+A142	Involvement T27 1
+T28	Participant 68 77	o rio Tua
+A143	Lexical_Head T28 Noun
+A144	Individuation_Domain T28 Individual
+A146	Participant_Type_Domain T28 Nat
+A147	Involvement T28 1
+T29	Participant 79 98	a zona de Mirandela
+A148	Lexical_Head T29 Noun
+A149	Individuation_Domain T29 Individual
+A150	Participant_Type_Domain T29 Loc
+A151	Involvement T29 1
+T30	Participant 184 213	a zona de Valverde da Gestosa
+A152	Lexical_Head T30 Noun
+A153	Individuation_Domain T30 Individual
+A154	Participant_Type_Domain T30 Loc
+A155	Involvement T30 1
+T31	Participant 215 227	em Mirandela
+A156	Lexical_Head T31 Noun
+A157	Individuation_Domain T31 Individual
+A158	Participant_Type_Domain T31 Loc
+A159	Involvement T31 1
+T32	Participant 229 234	local
+A160	Lexical_Head T32 Noun
+A161	Individuation_Domain T32 Individual
+A162	Participant_Type_Domain T32 Loc
+A163	Involvement T32 1
+T33	Participant 240 244	onde
+A164	Lexical_Head T33 Pronoun
+A165	Individuation_Domain T33 Individual
+A166	Participant_Type_Domain T33 Loc
+A167	Involvement T33 1
+T34	Participant 516 523	o local
+A168	Lexical_Head T34 Noun
+A169	Individuation_Domain T34 Individual
+A170	Participant_Type_Domain T34 Loc
+A171	Involvement T34 1
+T35	Participant 588 612	as proximidades do local
+A172	Lexical_Head T35 Noun
+A173	Individuation_Domain T35 Individual
+A174	Participant_Type_Domain T35 Loc
+A175	Involvement T35 1
+T36	Participant 172 181	o rio Tua
+A176	Lexical_Head T36 Noun
+A177	Individuation_Domain T36 Individual
+A178	Participant_Type_Domain T36 Nat
+A179	Involvement T36 1
+T37	Participant 581 586	o rio
+A180	Lexical_Head T37 Noun
+A181	Individuation_Domain T37 Individual
+A182	Participant_Type_Domain T37 Nat
+A183	Involvement T37 1
+T38	Participant 613 617	onde
+A184	Lexical_Head T38 Pronoun
+A185	Individuation_Domain T38 Individual
+A186	Participant_Type_Domain T38 Loc
+A187	Involvement T38 1
+T39	Participant 271 276	a GNR
+A188	Lexical_Head T39 Noun
+A189	Individuation_Domain T39 Individual
+A190	Participant_Type_Domain T39 Org
+A191	Involvement T39 1
+T40	Participant 321 325	Lusa
+A192	Lexical_Head T40 Noun
+A193	Individuation_Domain T40 Individual
+A194	Participant_Type_Domain T40 Org
+A195	Involvement T40 1
+T41	Participant 330 355	aquela força de segurança
+A196	Lexical_Head T41 Noun
+A197	Individuation_Domain T41 Individual
+A198	Participant_Type_Domain T41 Org
+A199	Involvement T41 1
+T42	Participant 442 456	as autoridades
+A200	Lexical_Head T42 Noun
+A201	Individuation_Domain T42 Individual
+A202	Participant_Type_Domain T42 Org
+A203	Involvement T42 >1
+T43	Participant 618 632	as autoridades
+A204	Lexical_Head T43 Noun
+A205	Individuation_Domain T43 Individual
+A206	Participant_Type_Domain T43 Org
+A207	Involvement T43 >1
+T44	Participant 714 732	Polícia Judiciária
+A208	Lexical_Head T44 Noun
+A209	Individuation_Domain T44 Individual
+A210	Participant_Type_Domain T44 Org
+A211	Involvement T44 1
+T45	Time 143 162	início da madrugada
+A212	Time_Type T45 Time
+A213	TemporalFunction T45 None
+#1	AnnotatorNotes T45	value=2020-11-30TDawn
+T46	Time 166 170	hoje
+A214	Time_Type T46 Date
+A215	TemporalFunction T46 Publication_Time
+#2	AnnotatorNotes T46	value=2020-11-30
+T47	Time 21 32	30 nov 2020
+A216	Time_Type T47 Date
+A217	TemporalFunction T47 Publication_Time
+#3	AnnotatorNotes T47	value=2020-11-30
+T48	Time 435 440	19:30
+A218	Time_Type T48 Time
+#4	AnnotatorNotes T48	value=2020-11-30T19:30
+T49	Event 694 698	caso
+A219	Class T49 Occurrence
+A220	Event_Type T49 Transition
+A221	Pos T49 Noun
+A222	Polarity T49 Pos
+R1	TLINK_includes Arg1:T2 Arg2:T1	
+R2	TLINK_identity Arg1:T3 Arg2:T1	
+R3	TLINK_identity Arg1:T4 Arg2:T2	
+R4	TLINK_includes Arg1:T4 Arg2:T3	
+R5	TLINK_before Arg1:T5 Arg2:T4	
+R6	TLINK_after Arg1:T6 Arg2:T5	
+R7	TLINK_identity Arg1:T7 Arg2:T6	
+R8	TLINK_identity Arg1:T8 Arg2:T7	
+R9	TLINK_before Arg1:T9 Arg2:T8	
+R10	TLINK_after Arg1:T10 Arg2:T9	
+R12	TLINK_after Arg1:T11 Arg2:T10	
+R13	TLINK_before Arg1:T12 Arg2:T11	
+R14	TLINK_after Arg1:T13 Arg2:T12	
+R15	TLINK_identity Arg1:T14 Arg2:T13	
+R16	TLINK_isIncluded Arg1:T15 Arg2:T14	
+R17	TLINK_after Arg1:T16 Arg2:T15	
+T50	Participant 645 655	os haveres
+A93	Lexical_Head T50 Noun
+A94	Individuation_Domain T50 Individual
+A95	Participant_Type_Domain T50 Obj
+A223	Involvement T50 >1
+R18	TLINK_before Arg1:T17 Arg2:T16	
+R19	TLINK_identity Arg1:T49 Arg2:T15	
+R20	TLINK_after Arg1:T19 Arg2:T18	
+R21	TLINK_before Arg1:T21 Arg2:T19	
+R22	TLINK_simultaneous Arg1:T20 Arg2:T21	
+R23	TLINK_after Arg1:T18 Arg2:T49	
+R24	OLINK_partOf Arg1:T28 Arg2:T29	
+R25	OLINK_objIdentity Arg1:T23 Arg2:T22	
+R26	OLINK_objIdentity Arg1:T36 Arg2:T28	
+R27	OLINK_partOf Arg1:T36 Arg2:T30	
+R28	OLINK_objIdentity Arg1:T30 Arg2:T31	
+R29	OLINK_objIdentity Arg1:T31 Arg2:T29	
+R30	OLINK_objIdentity Arg1:T32 Arg2:T36	
+R31	OLINK_objIdentity Arg1:T33 Arg2:T32	
+R32	OLINK_objIdentity Arg1:T41 Arg2:T39	
+R33	OLINK_objIdentity Arg1:T24 Arg2:T23	
+R34	OLINK_partOf Arg1:T41 Arg2:T42	
+R35	OLINK_objIdentity Arg1:T34 Arg2:T33	
+R36	OLINK_partOf Arg1:T25 Arg2:T24	
+T51	Participant 379 383	casa
+A224	Lexical_Head T51 Noun
+A225	Individuation_Domain T51 Individual
+A226	Participant_Type_Domain T51 Loc
+A227	Involvement T51 1
+R37	OLINK_objIdentity Arg1:T37 Arg2:T34	
+R38	OLINK_objIdentity Arg1:T38 Arg2:T35	
+R39	OLINK_objIdentity Arg1:T43 Arg2:T42	
+R40	OLINK_objIdentity Arg1:T27 Arg2:T39	
+R41	OLINK_refDisjunct Arg1:T44 Arg2:T27	
+R42	OLINK_objIdentity Arg1:T26 Arg2:T24	
+R43	OLINK_partOf Arg1:T50 Arg2:T26	
+R44	OLINK_partOf Arg1:T51 Arg2:T24	
+R45	SRLINK_patient Arg1:T1 Arg2:T22	
+R46	SRLINK_pivot Arg1:T2 Arg2:T22	
+R47	SRLINK_theme Arg1:T1 Arg2:T2	
+R48	SRLINK_location Arg1:T1 Arg2:T28	
+R49	SRLINK_patient Arg1:T3 Arg2:T23	
+R50	SRLINK_theme Arg1:T3 Arg2:T4	
+R51	SRLINK_pivot Arg1:T4 Arg2:T23	
+R52	TLINK_isIncluded Arg1:T45 Arg2:T46	
+R53	TLINK_identity Arg1:T46 Arg2:T47	
+R54	SRLINK_location Arg1:T3 Arg2:T36	
+R55	SRLINK_location Arg1:T5 Arg2:T33	
+R56	SRLINK_theme Arg1:T6 Arg2:T3	
+R57	SLINK_evidential Arg1:T6 Arg2:T3	
+R58	SRLINK_agent Arg1:T6 Arg2:T39	
+R59	SRLINK_theme Arg1:T8 Arg2:T7	
+R60	SRLINK_beneficiary Arg1:T8 Arg2:T40	
+R61	SRLINK_agent Arg1:T8 Arg2:T41	
+R62	SRLINK_agent Arg1:T9 Arg2:T24	
+R63	SRLINK_initialLocation Arg1:T9 Arg2:T51	
+T52	Time 387 403	manhã de domingo
+A228	Time_Type T52 Time
+#5	AnnotatorNotes T52	value=2020-11-29TMo
+R64	TLINK_isIncluded Arg1:T9 Arg2:T52	
+R65	SRLINK_purpose Arg1:T9 Arg2:T10	
+R66	SRLINK_agent Arg1:T10 Arg2:T24	
+R11	TLINK_isIncluded Arg1:T11 Arg2:T48	
+R67	SRLINK_theme Arg1:T11 Arg2:T12	
+R68	SRLINK_agent Arg1:T13 Arg2:T42	
+R69	SRLINK_theme Arg1:T13 Arg2:T14	
+R70	SRLINK_location Arg1:T14 Arg2:T34	
+R71	ALINK_initiates Arg1:T13 Arg2:T14	
+R72	SRLINK_theme Arg1:T15 Arg2:T25	
+T53	Time 548 568	depois da meia-noite
+A229	Time_Type T53 Time
+#6	AnnotatorNotes T53	value=2020-11-30T00:00
+R73	SRLINK_patient Arg1:T16 Arg2:T25	
+R74	SRLINK_initialLocation Arg1:T16 Arg2:T37	
+R75	SRLINK_location Arg1:T16 Arg2:T35	
+R76	SRLINK_location Arg1:T15 Arg2:T35	
+R77	SRLINK_agent Arg1:T17 Arg2:T43	
+R78	SRLINK_theme Arg1:T17 Arg2:T50	
+R79	SRLINK_theme Arg1:T18 Arg2:T49	
+R80	SRLINK_goal Arg1:T18 Arg2:T44	
+R81	SRLINK_purpose Arg1:T18 Arg2:T19	
+R82	SRLINK_theme Arg1:T19 Arg2:T21	
+R83	SRLINK_agent Arg1:T19 Arg2:T44	
+R84	SRLINK_theme Arg1:T21 Arg2:T20	

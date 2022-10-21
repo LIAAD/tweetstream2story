@@ -1,0 +1,299 @@
+T1	Event 141 162	em estado muito grave
+A1	Class T1 State
+A2	Event_Type T1 State
+A3	Pos T1 Verb
+A4	Tense T1 Past
+A5	Aspect T1 Perfective
+T2	Event 182 189	baleado
+A6	Class T2 Occurrence
+A7	Event_Type T2 Transition
+A8	Pos T2 Verb
+A9	Tense T2 Past
+A10	Aspect T2 Perfective
+A11	VForm T2 Participle
+A12	Polarity T2 Pos
+T3	Time 199 216	hoje de madrugada
+A13	Time_Type T3 Time
+A14	TemporalFunction T3 None
+#1	AnnotatorNotes T3	value=2020-12-22TM anchorTime=Publication_Time
+T4	Event 277 282	disse
+A15	Class T4 Reporting
+A16	Event_Type T4 Transition
+A17	Tense T4 Past
+A18	Aspect T4 Perfective
+A19	Polarity T4 Pos
+T5	Event 381 387	alerta
+A20	Class T5 Occurrence
+A21	Event_Type T5 Transition
+A22	Pos T5 Noun
+A23	Polarity T5 Pos
+T6	Event 395 405	ocorrência
+A24	Class T6 Occurrence
+A25	Event_Type T6 Transition
+A26	Pos T6 Noun
+A27	Polarity T6 Pos
+T7	Event 410 414	dado
+A28	Class T7 Occurrence
+A29	Event_Type T7 Transition
+A30	Pos T7 Verb
+A31	Tense T7 Past
+A32	Aspect T7 Perfective
+A33	Polarity T7 Pos
+T8	Time 418 423	00:53
+A34	Time_Type T8 Time
+A35	TemporalFunction T8 None
+#2	AnnotatorNotes T8	value=2020-12-22T00:53
+T9	Event 450 457	baleado
+A36	Event_Type T9 Transition
+A37	Pos T9 Verb
+A38	Tense T9 Past
+A39	Aspect T9 Perfective
+A40	Polarity T9 Pos
+T10	Event 486 492	ferido
+A41	Class T10 Occurrence
+A42	Event_Type T10 Transition
+A43	Pos T10 Verb
+A44	Tense T10 Past
+A45	Aspect T10 Perfective
+A46	Polarity T10 Pos
+T11	Event 496 514	estado muito grave
+A47	Class T11 State
+A48	Event_Type T11 State
+A49	Pos T11 Noun
+A50	Polarity T11 Pos
+T12	Event 521 533	transportado
+A51	Event_Type T12 Transition
+A52	Pos T12 Verb
+A53	Tense T12 Past
+A54	Aspect T12 Perfective
+A55	Polarity T12 Pos
+T13	Event 603 610	referiu
+A56	Event_Type T13 Transition
+A57	Pos T13 Verb
+A58	Tense T13 Past
+A59	Aspect T13 Perfective
+A60	Polarity T13 Pos
+T14	Event 631 639	adiantou
+A61	Class T14 Reporting
+A62	Event_Type T14 Transition
+A63	Pos T14 Verb
+A64	Tense T14 Past
+A65	Aspect T14 Perfective
+A66	Polarity T14 Pos
+T15	Event 647 653	causas
+A67	Class T15 State
+A68	Event_Type T15 State
+A69	Pos T15 Noun
+A70	Polarity T15 Pos
+T16	Event 661 670	incidente
+A71	Class T16 Occurrence
+A72	Event_Type T16 Transition
+A73	Pos T16 Noun
+A74	Polarity T16 Pos
+T17	Event 675 688	desconhecidas
+A75	Class T17 State
+A76	Event_Type T17 State
+A77	Pos T17 Verb
+A78	Tense T17 Present
+A79	Aspect T17 Imperfective
+A80	Polarity T17 Pos
+T18	Event 711 724	identificados
+A81	Event_Type T18 Transition
+A82	Pos T18 Verb
+A83	Tense T18 Past
+A84	Aspect T18 Perfective
+A85	Polarity T18 Neg
+A86	Class T18 Occurrence
+T19	Event 728 735	detidos
+A87	Class T19 Occurrence
+A88	Tense T19 Past
+A89	Aspect T19 Perfective
+A90	Polarity T19 Neg
+T20	Event 761 770	se tratar
+A91	Class T20 State
+A92	Event_Type T20 State
+A93	Pos T20 Verb
+A94	VForm T20 Infinitive
+A95	Polarity T20 Pos
+T21	Event 777 782	crime
+A96	Class T21 State
+A97	Event_Type T21 State
+A98	Pos T21 Noun
+A99	Polarity T21 Pos
+T22	Event 786 790	caso
+A100	Class T22 Occurrence
+A101	Event_Type T22 Transition
+A102	Pos T22 Noun
+A103	Polarity T22 Pos
+T23	Event 795 803	entregue
+A104	Class T23 Occurrence
+A105	Event_Type T23 Transition
+A106	Pos T23 Verb
+A107	Tense T23 Past
+A108	Aspect T23 Perfective
+A109	Polarity T23 Pos
+T24	Event 835 847	investigação
+A110	Class T24 Occurrence
+A111	Event_Type T24 Process
+A112	Pos T24 Noun
+A113	Polarity T24 Pos
+A114	Class T9 Occurrence
+R1	SLINK_evidential Arg1:T14 Arg2:T17	
+R2	SRLINK_theme Arg1:T14 Arg2:T17	
+R3	SLINK_evidential Arg1:T13 Arg2:T10	
+R4	SRLINK_theme Arg1:T13 Arg2:T10	
+R5	SLINK_evidential Arg1:T4 Arg2:T1	
+R6	SRLINK_theme Arg1:T4 Arg2:T1	
+R7	TLINK_before Arg1:T2 Arg2:T1	
+R8	TLINK_isIncluded Arg1:T2 Arg2:T3	
+R9	TLINK_after Arg1:T4 Arg2:T2	
+R10	TLINK_before Arg1:T6 Arg2:T5	
+R11	TLINK_after Arg1:T7 Arg2:T6	
+R12	TLINK_isIncluded Arg1:T7 Arg2:T8	
+R13	TLINK_identity Arg1:T7 Arg2:T5	
+R14	TLINK_before Arg1:T5 Arg2:T4	
+R15	TLINK_identity Arg1:T9 Arg2:T2	
+R16	TLINK_after Arg1:T10 Arg2:T9	
+R17	TLINK_simultaneous Arg1:T11 Arg2:T10	
+R18	TLINK_after Arg1:T12 Arg2:T10	
+R19	TLINK_after Arg1:T13 Arg2:T12	
+R20	TLINK_identity Arg1:T13 Arg2:T4	
+R21	TLINK_before Arg1:T9 Arg2:T7	
+R22	TLINK_isIncluded Arg1:T14 Arg2:T13	
+R23	TLINK_identity Arg1:T16 Arg2:T9	
+R24	TLINK_includes Arg1:T17 Arg2:T14	
+R25	TLINK_simultaneous Arg1:T18 Arg2:T17	
+R26	TLINK_simultaneous Arg1:T19 Arg2:T18	
+R27	TLINK_identity Arg1:T22 Arg2:T16	
+R28	TLINK_isIncluded Arg1:T24 Arg2:T23	
+R29	TLINK_before Arg1:T16 Arg2:T14	
+R30	TLINK_identity Arg1:T21 Arg2:T20	
+R31	TLINK_identity Arg1:T22 Arg2:T21	
+R32	TLINK_simultaneous Arg1:T20 Arg2:T19	
+T25	Participant 115 134	Um jovem de 17 anos
+A115	Lexical_Head T25 Noun
+A116	Individuation_Domain T25 Individual
+A117	Participant_Type_Domain T25 Per
+A118	Involvement T25 1
+T26	Participant 193 198	peito
+A119	Lexical_Head T26 Noun
+A120	Individuation_Domain T26 Individual
+A121	Participant_Type_Domain T26 Other
+A122	Involvement T26 1
+R33	OLINK_partOf Arg1:T26 Arg2:T25	
+T27	Participant 220 240	bairro Casal da Mira
+A123	Lexical_Head T27 Noun
+A124	Individuation_Domain T27 Individual
+A125	Participant_Type_Domain T27 Loc
+A126	Involvement T27 1
+T28	Participant 245 252	Amadora
+A127	Lexical_Head T28 Noun
+A128	Individuation_Domain T28 Individual
+A129	Participant_Type_Domain T28 Loc
+A130	Involvement T28 1
+T29	Participant 257 275	distrito de Lisboa
+A131	Lexical_Head T29 Noun
+A132	Individuation_Domain T29 Individual
+A133	Participant_Type_Domain T29 Loc
+A134	Involvement T29 1
+R34	OLINK_partOf Arg1:T27 Arg2:T28	
+R35	OLINK_partOf Arg1:T28 Arg2:T29	
+T30	Participant 285 297	agência Lusa
+A135	Lexical_Head T30 Noun
+A136	Individuation_Domain T30 Individual
+A137	Participant_Type_Domain T30 Org
+A138	Involvement T30 1
+T31	Participant 298 303	fonte
+A139	Lexical_Head T31 Noun
+A140	Individuation_Domain T31 Individual
+A141	Participant_Type_Domain T31 Per
+A142	Involvement T31 1
+T32	Participant 307 310	PSP
+A143	Lexical_Head T32 Noun
+A144	Individuation_Domain T32 Individual
+A145	Participant_Type_Domain T32 Org
+A146	Involvement T32 1
+R36	OLINK_partOf Arg1:T31 Arg2:T32	
+T33	Participant 326 331	fonte
+A147	Lexical_Head T33 Noun
+A148	Individuation_Domain T33 Individual
+A149	Participant_Type_Domain T33 Per
+A150	Involvement T33 1
+T34	Participant 335 377	Comando Metropolitano de Lisboa (Cometlis)
+A151	Lexical_Head T34 Noun
+A152	Individuation_Domain T34 Individual
+A153	Participant_Type_Domain T34 Org
+A154	Involvement T34 1
+R37	OLINK_partOf Arg1:T33 Arg2:T34	
+R38	OLINK_objIdentity Arg1:T33 Arg2:T31	
+R39	OLINK_partOf Arg1:T34 Arg2:T32	
+T35	Participant 426 445	Um jovem de 17 anos
+A155	Lexical_Head T35 Noun
+A156	Individuation_Domain T35 Individual
+A157	Participant_Type_Domain T35 Per
+A158	Involvement T35 1
+R40	OLINK_objIdentity Arg1:T35 Arg2:T25	
+T36	Participant 462 478	uma arma de fogo
+A159	Lexical_Head T36 Noun
+A160	Individuation_Domain T36 Individual
+A161	Participant_Type_Domain T36 Obj
+A162	Involvement T36 1
+T37	Participant 539 600	o Hospital Professor Doutor Fernando Fonseca [Amadora-Sintra]
+A163	Lexical_Head T37 Noun
+A164	Individuation_Domain T37 Individual
+A165	Participant_Type_Domain T37 Loc
+A166	Involvement T37 1
+T38	Participant 614 618	Lusa
+A167	Lexical_Head T38 Noun
+A168	Individuation_Domain T38 Individual
+A169	Participant_Type_Domain T38 Org
+A170	Involvement T38 1
+R41	OLINK_objIdentity Arg1:T38 Arg2:T30	
+T39	Participant 620 630	o Cometlis
+A171	Lexical_Head T39 Noun
+A172	Individuation_Domain T39 Individual
+A173	Participant_Type_Domain T39 Org
+A174	Involvement T39 1
+R42	OLINK_objIdentity Arg1:T39 Arg2:T34	
+T40	Participant 736 755	quaisquer suspeitos
+A175	Lexical_Head T40 Noun
+A176	Individuation_Domain T40 Individual
+A177	Participant_Type_Domain T40 Per
+A178	Involvement T40 0
+T41	Participant 806 829	Polícia Judiciária (PJ)
+A179	Lexical_Head T41 Noun
+A180	Individuation_Domain T41 Individual
+A181	Participant_Type_Domain T41 Org
+A182	Involvement T41 1
+R43	OLINK_refDisjunct Arg1:T41 Arg2:T39	
+R44	SRLINK_pivot Arg1:T1 Arg2:T25	
+R45	SRLINK_reason Arg1:T1 Arg2:T2	
+R46	SRLINK_patient Arg1:T2 Arg2:T25	
+R47	SRLINK_location Arg1:T2 Arg2:T26	
+R48	SRLINK_location Arg1:T2 Arg2:T27	
+R49	SRLINK_location Arg1:T2 Arg2:T28	
+R50	SRLINK_location Arg1:T2 Arg2:T29	
+R51	SRLINK_goal Arg1:T4 Arg2:T30	
+R52	SRLINK_agent Arg1:T4 Arg2:T31	
+R53	SRLINK_theme Arg1:T5 Arg2:T6	
+R54	SRLINK_theme Arg1:T7 Arg2:T5	
+R55	SRLINK_patient Arg1:T9 Arg2:T35	
+R56	SRLINK_instrument Arg1:T9 Arg2:T36	
+R57	SRLINK_patient Arg1:T10 Arg2:T35	
+R58	SRLINK_manner Arg1:T10 Arg2:T11	
+R59	SRLINK_patient Arg1:T12 Arg2:T35	
+R60	SRLINK_finalLocation Arg1:T12 Arg2:T37	
+R61	SRLINK_agent Arg1:T13 Arg2:T33	
+R62	SRLINK_goal Arg1:T14 Arg2:T38	
+R63	SRLINK_agent Arg1:T14 Arg2:T39	
+R64	SRLINK_theme Arg1:T17 Arg2:T15	
+R65	SRLINK_theme Arg1:T15 Arg2:T16	
+R66	SRLINK_agent Arg1:T18 Arg2:T39	
+R67	SRLINK_theme Arg1:T18 Arg2:T40	
+R68	SRLINK_theme Arg1:T19 Arg2:T40	
+R69	SRLINK_agent Arg1:T19 Arg2:T39	
+R70	SRLINK_reason Arg1:T22 Arg2:T20	
+R71	SRLINK_theme Arg1:T20 Arg2:T21	
+R72	SRLINK_theme Arg1:T23 Arg2:T22	
+R73	SRLINK_goal Arg1:T23 Arg2:T41	
+R74	SRLINK_purpose Arg1:T23 Arg2:T24	

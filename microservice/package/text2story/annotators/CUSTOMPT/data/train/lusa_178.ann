@@ -1,0 +1,261 @@
+T1	Event 130 136	morreu
+A1	Class T1 Occurrence
+A2	Event_Type T1 Transition
+A3	Pos T1 Verb
+A4	Tense T1 Past
+A5	Aspect T1 Perfective
+A6	Polarity T1 Pos
+T2	Time 17 28	17 nov 2020
+A7	Time_Type T2 Date
+A8	TemporalFunction T2 Publication_Time
+#1	AnnotatorNotes T2	value=2020-11-17 
+T3	Time 137 141	hoje
+A9	Time_Type T3 Date
+A10	TemporalFunction T3 Publication_Time
+#2	AnnotatorNotes T3	value=2020-11-17 
+R1	TLINK_identity Arg1:T3 Arg2:T2	
+T4	Event 180 188	atingido
+A11	Class T4 Occurrence
+A12	Event_Type T4 Transition
+A13	Pos T4 Verb
+A14	VForm T4 Participle
+A15	Polarity T4 Pos
+T5	Event 221 226	disse
+A16	Class T5 Reporting
+A17	Event_Type T5 Transition
+A18	Pos T5 Verb
+A19	Tense T5 Past
+A20	Aspect T5 Perfective
+A21	Polarity T5 Pos
+T6	Event 311 329	não estão apuradas
+A22	Class T6 State
+A23	Event_Type T6 State
+A24	Pos T6 Verb
+A25	Tense T6 Present
+A26	Aspect T6 Imperfective
+A27	Polarity T6 Neg
+T7	Event 333 347	circunstâncias
+A28	Class T7 State
+A29	Event_Type T7 State
+A30	Pos T7 Noun
+A31	Polarity T7 Pos
+T8	Event 351 359	acidente
+A32	Class T8 Occurrence
+A33	Event_Type T8 Transition
+A34	Pos T8 Noun
+A35	Polarity T8 Pos
+T9	Event 368 389	primeiras informações
+A36	Class T9 Reporting
+A37	Event_Type T9 Transition
+A38	Pos T9 Noun
+A39	Polarity T9 Pos
+T10	Event 390 397	apontam
+A40	Class T10 Occurrence
+A41	Event_Type T10 Transition
+A42	Pos T10 Verb
+A43	Tense T10 Present
+A44	Aspect T10 Imperfective
+A45	Polarity T10 Pos
+T11	Event 406 426	acidente de trabalho
+A46	Class T11 Occurrence
+A47	Event_Type T11 Transition
+A48	Pos T11 Noun
+A49	Polarity T11 Pos
+T13	Event 440 461	primeiras informações
+A54	Class T13 Reporting
+A55	Event_Type T13 Transition
+A56	Pos T13 Noun
+T14	Event 481 487	cortar
+A57	Class T14 Occurrence
+A58	Event_Type T14 Process
+A59	Pos T14 Verb
+A60	Aspect T14 Imperfective_Progressive
+A61	Mood T14 Conditional
+A62	Polarity T14 Pos
+T15	Event 509 517	atingido
+A63	Class T15 Occurrence
+A64	Event_Type T15 Transition
+A65	Pos T15 Verb
+A66	Tense T15 Past
+A67	Aspect T15 Perfective
+A68	VForm T15 Participle
+A69	Mood T15 Future
+A70	Polarity T15 Pos
+T16	Event 531 538	referiu
+A71	Class T16 Reporting
+A72	Event_Type T16 Transition
+A73	Pos T16 Verb
+A74	Tense T16 Past
+A75	Aspect T16 Perfective
+A76	Polarity T16 Pos
+T17	Event 542 548	alerta
+A77	Class T17 Occurrence
+A78	Event_Type T17 Transition
+A79	Pos T17 Noun
+A80	Polarity T17 Pos
+T18	Event 553 557	dado
+A81	Class T18 Occurrence
+A82	Event_Type T18 Transition
+A83	Pos T18 Verb
+A84	Tense T18 Past
+A85	Aspect T18 Perfective
+A86	Polarity T18 Pos
+T19	Time 564 569	11:50
+A87	Time_Type T19 Time
+#3	AnnotatorNotes T19	value=2020-11-17T11:50 anchorTime=Publication_Time
+T20	Event 582 593	mobilizados
+A88	Class T20 Occurrence
+A89	Event_Type T20 Transition
+A90	Pos T20 Verb
+A91	Tense T20 Past
+A92	Aspect T20 Perfective
+A93	VForm T20 Gerundive
+A94	Polarity T20 Pos
+T21	Event 698 703	óbito
+A95	Class T21 Occurrence
+A96	Event_Type T21 Transition
+A97	Pos T21 Noun
+A98	Polarity T21 Pos
+T22	Event 708 717	declarado
+A99	Class T22 Occurrence
+A100	Event_Type T22 Transition
+A101	Pos T22 Verb
+A102	Tense T22 Past
+A103	Aspect T22 Perfective
+A104	Polarity T22 Pos
+T23	Event 734 759	tomou conta da ocorrência
+A105	Class T23 Occurrence
+A106	Event_Type T23 Transition
+A107	Pos T23 Verb
+A108	Tense T23 Past
+A109	Aspect T23 Perfective
+A110	Polarity T23 Pos
+R2	TLINK_isIncluded Arg1:T1 Arg2:T3	
+R3	TLINK_before Arg1:T4 Arg2:T1	
+R4	TLINK_after Arg1:T5 Arg2:T4	
+R5	TLINK_includes Arg1:T6 Arg2:T5	
+R6	TLINK_before Arg1:T7 Arg2:T6	
+R7	TLINK_simultaneous Arg1:T8 Arg2:T7	
+R8	TLINK_after Arg1:T9 Arg2:T8	
+R9	TLINK_simultaneous Arg1:T10 Arg2:T9	
+R10	TLINK_before Arg1:T11 Arg2:T10	
+R11	TLINK_identity Arg1:T13 Arg2:T9	
+R12	TLINK_after Arg1:T13 Arg2:T11	
+R13	TLINK_before Arg1:T14 Arg2:T13	
+R14	TLINK_simultaneous Arg1:T15 Arg2:T14	
+R15	TLINK_after Arg1:T16 Arg2:T15	
+R16	TLINK_before Arg1:T17 Arg2:T16	
+R17	TLINK_identity Arg1:T18 Arg2:T17	
+R18	TLINK_isIncluded Arg1:T18 Arg2:T19	
+R19	TLINK_after Arg1:T20 Arg2:T18	
+R20	TLINK_before Arg1:T21 Arg2:T20	
+R21	TLINK_after Arg1:T22 Arg2:T21	
+R22	TLINK_includes Arg1:T23 Arg2:T22	
+T12	Participant 100 129	Um homem com cerca de 50 anos
+A50	Lexical_Head T12 Noun
+A51	Individuation_Domain T12 Individual
+A52	Participant_Type_Domain T12 Per
+A53	Involvement T12 1
+T24	Participant 145 153	Milhazes
+A111	Lexical_Head T24 Noun
+A112	Individuation_Domain T24 Individual
+A113	Participant_Type_Domain T24 Loc
+A114	Involvement T24 1
+T25	Participant 156 178	o concelho de Barcelos
+A115	Lexical_Head T25 Noun
+A116	Individuation_Domain T25 Individual
+A117	Participant_Type_Domain T25 Loc
+A118	Involvement T25 1
+T26	Participant 193 219	uma árvore de grande porte
+A119	Lexical_Head T26 Noun
+A120	Individuation_Domain T26 Individual
+A121	Participant_Type_Domain T26 Nat
+A122	Involvement T26 1
+T27	Participant 227 232	fonte
+A123	Lexical_Head T27 Noun
+A124	Individuation_Domain T27 Individual
+A125	Participant_Type_Domain T27 Per
+A126	Involvement T27 1
+T28	Participant 234 286	o Comando Distrital de Operações de Socorro de Braga
+A127	Lexical_Head T28 Noun
+A128	Individuation_Domain T28 Individual
+A129	Participant_Type_Domain T28 Org
+A130	Involvement T28 1
+T29	Participant 296 303	a fonte
+A131	Lexical_Head T29 Noun
+A132	Individuation_Domain T29 Individual
+A133	Participant_Type_Domain T29 Per
+A134	Involvement T29 1
+T30	Participant 463 470	o homem
+A135	Lexical_Head T30 Noun
+A136	Individuation_Domain T30 Individual
+A137	Participant_Type_Domain T30 Per
+A138	Involvement T30 1
+T31	Participant 488 496	a árvore
+A139	Lexical_Head T31 Noun
+A140	Individuation_Domain T31 Individual
+A141	Participant_Type_Domain T31 Nat
+A142	Involvement T31 1
+T32	Participant 521 528	a mesma
+A143	Lexical_Head T32 Pronoun
+A144	Individuation_Domain T32 Individual
+A145	Participant_Type_Domain T32 Nat
+A146	Involvement T32 1
+T33	Participant 599 606	o local
+A147	Lexical_Head T33 Noun
+A148	Individuation_Domain T33 Individual
+A149	Participant_Type_Domain T33 Loc
+A150	Involvement T33 1
+T34	Participant 607 646	os Bombeiros Voluntários de Barcelinhos
+A151	Lexical_Head T34 Noun
+A152	Individuation_Domain T34 Individual
+A153	Participant_Type_Domain T34 Org
+A154	Involvement T34 1
+T35	Participant 649 694	uma viatura médica de emergência e reanimação
+A155	Lexical_Head T35 Noun
+A156	Individuation_Domain T35 Individual
+A157	Participant_Type_Domain T35 Obj
+A158	Involvement T35 1
+T36	Participant 719 726	o local
+A159	Lexical_Head T36 Noun
+A160	Individuation_Domain T36 Individual
+A161	Participant_Type_Domain T36 Loc
+A162	Involvement T36 1
+T37	Participant 728 733	A GNR
+A163	Lexical_Head T37 Noun
+A164	Individuation_Domain T37 Individual
+A165	Participant_Type_Domain T37 Org
+A166	Involvement T37 1
+R23	OLINK_partOf Arg1:T24 Arg2:T25	
+R24	OLINK_partOf Arg1:T27 Arg2:T28	
+R25	OLINK_objIdentity Arg1:T29 Arg2:T27	
+R26	OLINK_objIdentity Arg1:T30 Arg2:T12	
+R27	OLINK_objIdentity Arg1:T31 Arg2:T26	
+R28	OLINK_objIdentity Arg1:T32 Arg2:T31	
+R29	OLINK_objIdentity Arg1:T33 Arg2:T24	
+R30	OLINK_objIdentity Arg1:T36 Arg2:T33	
+R31	SRLINK_patient Arg1:T1 Arg2:T12	
+R32	SRLINK_location Arg1:T1 Arg2:T24	
+R33	SRLINK_manner Arg1:T1 Arg2:T4	
+R34	SRLINK_patient Arg1:T4 Arg2:T12	
+R35	SRLINK_cause Arg1:T4 Arg2:T26	
+R36	SRLINK_agent Arg1:T5 Arg2:T27	
+R37	SLINK_evidential Arg1:T5 Arg2:T1	
+R38	SRLINK_theme Arg1:T5 Arg2:T1	
+R39	SRLINK_theme Arg1:T6 Arg2:T7	
+R41	SRLINK_cause Arg1:T10 Arg2:T9	
+R42	SRLINK_theme Arg1:T10 Arg2:T11	
+R40	SRLINK_setting Arg1:T7 Arg2:T8	
+R43	SRLINK_agent Arg1:T14 Arg2:T30	
+R44	SRLINK_theme Arg1:T14 Arg2:T31	
+R45	SRLINK_patient Arg1:T15 Arg2:T30	
+R46	SRLINK_agent Arg1:T15 Arg2:T32	
+R47	SLINK_evidential Arg1:T16 Arg2:T14	
+R48	SRLINK_theme Arg1:T16 Arg2:T14	
+R49	SRLINK_theme Arg1:T18 Arg2:T17	
+R50	SRLINK_finalLocation Arg1:T20 Arg2:T33	
+R51	SRLINK_patient Arg1:T20 Arg2:T34	
+R52	SRLINK_patient Arg1:T20 Arg2:T35	
+R53	SRLINK_theme Arg1:T22 Arg2:T21	
+R54	SRLINK_location Arg1:T22 Arg2:T36	
+R55	SRLINK_agent Arg1:T23 Arg2:T37	

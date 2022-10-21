@@ -1,0 +1,388 @@
+T1	Event 172 178	deteve
+A1	Class T1 Occurrence
+A2	Event_Type T1 Transition
+A3	Pos T1 Verb
+A4	Tense T1 Past
+A5	Aspect T1 Perfective
+A6	Polarity T1 Pos
+T2	Event 188 196	suspeito
+A7	Class T2 State
+A8	Event_Type T2 State
+A9	Pos T2 Verb
+A10	Tense T2 Past
+A11	Aspect T2 Perfective
+A12	VForm T2 Participle
+A13	Polarity T2 Pos
+T3	Event 200 210	falsificar
+A14	Class T3 Occurrence
+A15	Event_Type T3 Process
+A16	Pos T3 Verb
+A17	Tense T3 Past
+A18	Aspect T3 Perfective
+A19	VForm T3 Infinitive
+A20	Polarity T3 Pos
+T4	Event 221 229	covid-19
+A21	Class T4 State
+A22	Event_Type T4 State
+A23	Pos T4 Noun
+A24	Polarity T4 Pos
+T5	Event 256 264	anunciou
+A25	Class T5 Reporting
+A26	Event_Type T5 Transition
+A27	Pos T5 Verb
+A28	Tense T5 Past
+A29	Aspect T5 Perfective
+A30	Polarity T5 Pos
+T6	Time 265 269	hoje
+A31	Time_Type T6 Date
+A32	TemporalFunction T6 Publication_Time
+T7	Event 318 329	conseguimos
+A33	Class T7 I_Action
+A34	Event_Type T7 Process
+A35	Pos T7 Verb
+A36	Tense T7 Past
+A37	Aspect T7 Perfective
+A38	Polarity T7 Pos
+T8	Event 330 337	prender
+A39	Class T8 Occurrence
+A40	Event_Type T8 Transition
+A41	Pos T8 Verb
+A42	VForm T8 Infinitive
+A43	Polarity T8 Pos
+T9	Event 355 364	apreender
+A44	Class T9 Occurrence
+A45	Event_Type T9 Transition
+A46	Pos T9 Verb
+A47	VForm T9 Infinitive
+A48	Polarity T9 Pos
+T10	Event 398 406	enviados
+A49	Class T10 Occurrence
+A50	Event_Type T10 Transition
+A51	Pos T10 Verb
+A52	Tense T10 Past
+A53	Mood T10 Conditional
+A54	Polarity T10 Pos
+T11	Event 434 444	solicitado
+A55	Class T11 Occurrence
+A56	Event_Type T11 Transition
+A57	Pos T11 Verb
+A58	Tense T11 Past
+A59	Mood T11 Conditional
+A60	Polarity T11 Pos
+T12	Event 450 464	fins de viagem
+A61	Class T12 Occurrence
+A62	Event_Type T12 Transition
+A63	Pos T12 Noun
+A64	Polarity T12 Pos
+T13	Event 467 475	declarou
+A65	Class T13 Reporting
+A66	Event_Type T13 Transition
+A67	Pos T13 Verb
+A68	Tense T13 Past
+A69	Aspect T13 Perfective
+A70	Polarity T13 Pos
+T14	Event 563 572	confessou
+A71	Class T14 Reporting
+A72	Event_Type T14 Transition
+A73	Pos T14 Verb
+A74	Tense T14 Past
+A75	Aspect T14 Perfective
+A76	Polarity T14 Pos
+T15	Event 575 580	crime
+A77	Class T15 State
+A78	Event_Type T15 State
+A79	Pos T15 Noun
+A80	Polarity T15 Pos
+T16	Event 582 592	trabalhava
+A81	Class T16 Occurrence
+A82	Event_Type T16 Process
+A83	Pos T16 Verb
+A84	Tense T16 Past
+A85	Aspect T16 Imperfective
+A86	Polarity T16 Pos
+T17	Event 636 644	foragido
+A87	Class T17 State
+A88	Event_Type T17 State
+A89	Pos T17 Verb
+A90	Tense T17 Present
+A91	Aspect T17 Progressive
+A92	Polarity T17 Pos
+T18	Event 681 690	trabalhar
+A93	Class T18 State
+A94	Event_Type T18 State
+A95	Pos T18 Verb
+A96	Tense T18 Present
+A97	Aspect T18 Progressive
+A98	VForm T18 Infinitive
+A99	Polarity T18 Pos
+T19	Event 698 709	localização
+A100	Class T19 Occurrence
+A101	Event_Type T19 Transition
+A102	Pos T19 Noun
+A103	Polarity T19 Pos
+T20	Event 728 735	afirmou
+A104	Class T20 Reporting
+A105	Event_Type T20 Transition
+A106	Pos T20 Verb
+A107	Tense T20 Past
+A108	Aspect T20 Perfective
+A109	Polarity T20 Pos
+T21	Event 780 788	covid-19
+A110	Class T21 State
+A111	Event_Type T21 State
+A112	Pos T21 Noun
+A113	Polarity T21 Pos
+T22	Event 791 802	obrigatório
+A114	Class T22 State
+A115	Event_Type T22 State
+A116	Pos T22 Verb
+A117	Tense T22 Present
+A118	Aspect T22 Progressive
+A119	Polarity T22 Pos
+T23	Event 813 817	quer
+A120	Class T23 I_State
+A121	Event_Type T23 State
+A122	Pos T23 Verb
+A123	VForm T23 Infinitive
+A124	Polarity T23 Pos
+T24	Event 818 822	sair
+A125	Class T24 Occurrence
+A126	Event_Type T24 Transition
+A127	Pos T24 Verb
+A128	VForm T24 Infinitive
+A129	Polarity T24 Pos
+T25	Event 826 832	entrar
+A130	Class T25 Occurrence
+A131	Event_Type T25 Transition
+A132	Pos T25 Verb
+A133	VForm T25 Infinitive
+A134	Polarity T25 Pos
+T26	Event 862 871	reforçado
+A135	Class T26 Occurrence
+A136	Event_Type T26 Transition
+A137	Pos T26 Verb
+A138	Tense T26 Past
+A139	Aspect T26 Imperfective
+A140	Polarity T26 Pos
+T27	Event 874 886	fiscalização
+A141	Class T27 Occurrence
+A142	Event_Type T27 Process
+A143	Pos T27 Noun
+A144	Polarity T27 Pos
+T28	Event 945 953	anunciou
+A145	Class T28 Reporting
+A146	Event_Type T28 Transition
+A147	Pos T28 Verb
+A148	Tense T28 Past
+A149	Aspect T28 Perfective
+A150	Polarity T28 Pos
+T29	Time 958 971	29 de outubro
+A151	Time_Type T29 Date
+#1	AnnotatorNotes T29	value=2020-10-29 anchorTime=Publication_Time
+T30	Event 975 981	retoma
+A152	Class T30 Occurrence
+A153	Event_Type T30 Transition
+A154	Pos T30 Noun
+A155	Polarity T30 Pos
+T31	Event 985 992	emissão
+A156	Class T31 Occurrence
+A157	Event_Type T31 Transition
+A158	Pos T31 Noun
+A159	Polarity T31 Pos
+T32	Event 1040 1050	quarentena
+A160	Class T32 Occurrence
+A161	Event_Type T32 Process
+A162	Pos T32 Noun
+A163	Polarity T32 Pos
+T33	Event 1061 1066	chega
+A164	Class T33 Occurrence
+A165	Event_Type T33 Transition
+A166	Pos T33 Verb
+A167	Tense T33 Present
+A168	Aspect T33 Imperfective
+A169	Polarity T33 Pos
+T34	Event 1106 1117	contabiliza
+A170	Class T34 State
+A171	Event_Type T34 State
+A172	Pos T34 Verb
+A173	Tense T34 Present
+A174	Polarity T34 Pos
+T35	Event 1198 1220	dadas como recuperadas
+A175	Class T35 State
+A176	Event_Type T35 State
+A177	Pos T35 Verb
+A178	Tense T35 Past
+A179	Aspect T35 Perfective
+A180	Polarity T35 Pos
+T36	Event 1025 1036	necessidade
+A181	Class T36 State
+A182	Event_Type T36 State
+A183	Pos T36 Noun
+A184	Polarity T36 Pos
+T37	Event 1018 1021	fim
+A185	Class T37 State
+A186	Event_Type T37 State
+A187	Pos T37 Noun
+A188	Polarity T37 Pos
+T38	Event 1006 1013	turismo
+A189	Class T38 State
+A190	Event_Type T38 State
+A191	Pos T38 Noun
+A192	Polarity T38 Pos
+T39	Event 211 217	testes
+A193	Class T39 State
+A194	Event_Type T39 State
+A195	Pos T39 Noun
+A196	Polarity T39 Pos
+T40	Event 234 254	resultados negativos
+A197	Class T40 Occurrence
+A198	Event_Type T40 Transition
+A199	Pos T40 Noun
+A200	Polarity T40 Pos
+T41	Event 372 385	testes falsos
+A201	Class T41 State
+A202	Event_Type T41 State
+A203	Pos T41 Noun
+A204	Polarity T41 Pos
+T42	Event 762 776	teste negativo
+A205	Class T42 State
+A206	Event_Type T42 State
+A207	Pos T42 Noun
+A208	Polarity T42 Pos
+T43	Event 1071 1085	teste negativo
+A209	Class T43 State
+A210	Event_Type T43 State
+A211	Pos T43 Noun
+A212	Polarity T43 Pos
+T44	Event 1121 1131	cumulativo
+A213	Class T44 State
+A214	Event_Type T44 State
+A215	Pos T44 Adjective
+A216	Polarity T44 Pos
+T45	Event 1142 1147	casos
+A217	Class T45 State
+A218	Event_Type T45 State
+A219	Pos T45 Noun
+A220	Polarity T45 Pos
+T46	Event 1165 1171	óbitos
+A221	Class T46 Occurrence
+A222	Event_Type T46 Transition
+A223	Pos T46 Noun
+A224	Polarity T46 Pos
+R1	TLINK_includes Arg1:T2 Arg2:T1	
+R2	TLINK_before Arg1:T3 Arg2:T2	
+R3	TLINK_identity Arg1:T39 Arg2:T3	
+R4	TLINK_identity Arg1:T4 Arg2:T39	
+R5	TLINK_after Arg1:T40 Arg2:T39	
+R6	TLINK_isIncluded Arg1:T5 Arg2:T6	
+R7	TLINK_after Arg1:T5 Arg2:T40	
+T47	Event 304 312	processo
+A225	Class T47 Occurrence
+A226	Event_Type T47 Process
+A227	Pos T47 Noun
+A228	Polarity T47 Pos
+R8	TLINK_before Arg1:T47 Arg2:T5	
+R9	TLINK_identity Arg1:T8 Arg2:T7	
+R10	TLINK_isIncluded Arg1:T7 Arg2:T47	
+R11	TLINK_simultaneous Arg1:T9 Arg2:T8	
+R12	TLINK_before Arg1:T41 Arg2:T9	
+R13	TLINK_after Arg1:T10 Arg2:T41	
+R14	TLINK_before Arg1:T11 Arg2:T10	
+R15	TLINK_after Arg1:T12 Arg2:T11	
+R16	TLINK_before Arg1:T15 Arg2:T14	
+R17	TLINK_before Arg1:T14 Arg2:T13	
+R18	TLINK_after Arg1:T13 Arg2:T12	
+R19	TLINK_simultaneous Arg1:T16 Arg2:T15	
+R20	TLINK_includes Arg1:T17 Arg2:T16	
+R21	TLINK_simultaneous Arg1:T18 Arg2:T17	
+R22	TLINK_isIncluded Arg1:T19 Arg2:T18	
+R23	TLINK_before Arg1:T20 Arg2:T19	
+R24	TLINK_identity Arg1:T21 Arg2:T42	
+R25	TLINK_includes Arg1:T42 Arg2:T20	
+R26	TLINK_simultaneous Arg1:T22 Arg2:T21	
+R27	TLINK_identity Arg1:T24 Arg2:T23	
+R28	TLINK_simultaneous Arg1:T23 Arg2:T22	
+R29	TLINK_identity Arg1:T25 Arg2:T23	
+R30	TLINK_includes Arg1:T26 Arg2:T25	
+R31	TLINK_identity Arg1:T27 Arg2:T26	
+R32	TLINK_before Arg1:T28 Arg2:T27	
+R33	TLINK_isIncluded Arg1:T28 Arg2:T29	
+R34	TLINK_after Arg1:T30 Arg2:T28	
+R35	TLINK_identity Arg1:T31 Arg2:T30	
+R36	TLINK_includes Arg1:T38 Arg2:T31	
+R37	TLINK_identity Arg1:T36 Arg2:T37	
+R38	TLINK_simultaneous Arg1:T37 Arg2:T30	
+R39	TLINK_identity Arg1:T32 Arg2:T36	
+R40	TLINK_before Arg1:T33 Arg2:T32	
+R41	TLINK_simultaneous Arg1:T43 Arg2:T33	
+R42	TLINK_includes Arg1:T34 Arg2:T43	
+R43	TLINK_simultaneous Arg1:T44 Arg2:T34	
+R44	TLINK_identity Arg1:T45 Arg2:T44	
+R45	TLINK_simultaneous Arg1:T46 Arg2:T45	
+R46	TLINK_simultaneous Arg1:T35 Arg2:T46	
+T48	Time 107 118	20 nov 2020
+A229	Time_Type T48 Date
+#2	AnnotatorNotes T48	value=2020-11-20 anchorTime=Publication_Time
+T49	Participant 129 171	A Polícia da República de Moçambique (PRM)
+A230	Lexical_Head T49 Noun
+A231	Individuation_Domain T49 Individual
+A232	Participant_Type_Domain T49 Org
+A233	Involvement T49 1
+T50	Participant 179 187	um homem
+A234	Lexical_Head T50 Noun
+A235	Individuation_Domain T50 Individual
+A236	Participant_Type_Domain T50 Per
+A237	Involvement T50 1
+T51	Participant 270 281	o porta-voz
+A238	Lexical_Head T51 Noun
+A239	Individuation_Domain T51 Individual
+A240	Participant_Type_Domain T51 Per
+A241	Involvement T51 1
+T52	Participant 283 295	a corporação
+A242	Lexical_Head T52 Noun
+A243	Individuation_Domain T52 Individual
+A244	Participant_Type_Domain T52 Org
+A245	Involvement T52 1
+R47	OLINK_partOf Arg1:T51 Arg2:T52	
+R48	OLINK_objIdentity Arg1:T52 Arg2:T49	
+T53	Participant 314 317	nós
+A246	Lexical_Head T53 Pronoun
+A247	Individuation_Domain T53 Individual
+A248	Participant_Type_Domain T53 Per
+A249	Involvement T53 >1
+R49	OLINK_partOf Arg1:T53 Arg2:T52	
+R50	OLINK_memberOf Arg1:T51 Arg2:T53	
+T54	Participant 338 352	este indivíduo
+A250	Lexical_Head T54 Noun
+A251	Individuation_Domain T54 Individual
+A252	Participant_Type_Domain T54 Per
+A253	Involvement T54 1
+R51	OLINK_objIdentity Arg1:T54 Arg2:T50	
+T55	Participant 412 419	pessoas
+A254	Lexical_Head T55 Noun
+A255	Individuation_Domain T55 Individual
+A256	Participant_Type_Domain T55 Per
+A257	Involvement T55 >1
+T56	Participant 476 490	Leonel Muchine
+A258	Lexical_Head T56 Noun
+A259	Individuation_Domain T56 Individual
+A260	Participant_Type_Domain T56 Per
+A261	Involvement T56 1
+T57	Participant 492 501	porta-voz
+A262	Lexical_Head T57 Noun
+A263	Individuation_Domain T57 Individual
+A264	Participant_Type_Domain T57 Per
+A265	Involvement T57 1
+T58	Participant 503 524	a polícia moçambicana
+A266	Lexical_Head T58 Noun
+A267	Individuation_Domain T58 Individual
+A268	Participant_Type_Domain T58 Org
+A269	Involvement T58 1
+T59	Participant 526 544	a cidade de Maputo
+A270	Lexical_Head T59 Noun
+A271	Individuation_Domain T59 Individual
+A272	Participant_Type_Domain T59 Loc
+A273	Involvement T59 1
+R52	OLINK_partOf Arg1:T58 Arg2:T59	
+R53	OLINK_objIdentity Arg1:T57 Arg2:T56	
+R54	OLINK_objIdentity Arg1:T58 Arg2:T52	

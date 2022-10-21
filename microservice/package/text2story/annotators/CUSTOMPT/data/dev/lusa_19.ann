@@ -1,0 +1,355 @@
+T1	Event 88 96	consumiu
+A1	Class T1 Occurrence
+A2	Event_Type T1 Transition
+A3	Pos T1 Verb
+A4	Tense T1 Past
+A5	Aspect T1 Perfective
+A6	Polarity T1 Pos
+T2	Event 49 57	Suspeita
+A7	Class T2 State
+A8	Event_Type T2 State
+A9	Pos T2 Noun
+A10	Polarity T2 Pos
+T3	Event 61 71	fogo posto
+A11	Class T3 Occurrence
+A12	Event_Type T3 Transition
+A13	Pos T3 Verb
+A14	Polarity T3 Pos
+T4	Event 227 247	danificou totalmente
+A15	Class T4 Occurrence
+A16	Event_Type T4 Transition
+A17	Pos T4 Verb
+A18	Tense T4 Past
+A19	Aspect T4 Perfective
+A20	Polarity T4 Pos
+T5	Event 261 278	havendo suspeitas
+A21	Class T5 State
+A22	Event_Type T5 State
+A23	Pos T5 Verb
+A24	Tense T5 Present
+A25	Aspect T5 Progressive
+A26	VForm T5 Gerundive
+A27	Polarity T5 Pos
+T6	Event 282 292	fogo posto
+A28	Class T6 State
+A29	Event_Type T6 State
+A30	Pos T6 Noun
+A31	Polarity T6 Pos
+T7	Event 294 299	disse
+A32	Class T7 Reporting
+A33	Event_Type T7 Transition
+A34	Pos T7 Verb
+A35	Tense T7 Past
+A36	Aspect T7 Perfective
+A37	Polarity T7 Pos
+T8	Event 326 329	Era
+A38	Class T8 State
+A39	Event_Type T8 State
+A40	Pos T8 Verb
+A41	Tense T8 Past
+A42	Aspect T8 Imperfective
+A43	Polarity T8 Pos
+T9	Event 354 362	habitada
+A44	Class T9 State
+A45	Event_Type T9 State
+A46	Pos T9 Verb
+A47	Tense T9 Past
+A48	Aspect T9 Imperfective
+A49	Polarity T9 Neg
+T10	Event 365 367	há
+A50	Class T10 State
+A51	Event_Type T10 State
+A52	Pos T10 Verb
+A53	Tense T10 Present
+A54	Aspect T10 Imperfective
+A55	Polarity T10 Pos
+T11	Event 368 376	suspeita
+A56	Class T11 State
+A57	Event_Type T11 State
+A58	Pos T11 Noun
+A59	Polarity T11 Pos
+T12	Event 380 390	fogo posto
+A60	Class T12 State
+A61	Event_Type T12 State
+A62	Pos T12 Noun
+A63	Polarity T12 Pos
+T13	Event 393 400	afirmou
+A64	Class T13 Reporting
+A65	Event_Type T13 Transition
+A66	Pos T13 Verb
+A67	Tense T13 Past
+A68	Aspect T13 Perfective
+A69	Polarity T13 Pos
+T14	Event 494 503	mencionou
+A70	Class T14 Reporting
+A71	Event_Type T14 Transition
+A72	Pos T14 Verb
+A73	Tense T14 Past
+A74	Aspect T14 Perfective
+A75	Polarity T14 Pos
+T15	Event 531 541	manutenção
+A76	Class T15 State
+A77	Event_Type T15 State
+A78	Pos T15 Verb
+A79	Tense T15 Past
+A80	Aspect T15 Imperfective
+A81	Polarity T15 Neg
+T16	Event 550 571	totalmente inabitável
+A82	Class T16 Occurrence
+A83	Event_Type T16 Transition
+A84	Pos T16 Verb
+A85	Tense T16 Past
+A86	Aspect T16 Perfective
+A87	Polarity T16 Pos
+T17	Event 574 588	complementando
+A88	Class T17 Reporting
+A89	Event_Type T17 Transition
+A90	Pos T17 Verb
+A91	Tense T17 Past
+A93	Polarity T17 Pos
+A94	VForm T17 Gerundive
+T18	Event 597 602	danos
+A92	Class T18 State
+A95	Event_Type T18 State
+A96	Pos T18 Noun
+A97	Polarity T18 Pos
+T19	Event 603 613	provocados
+A98	Class T19 Occurrence
+A99	Event_Type T19 Transition
+A100	Pos T19 Verb
+A101	Tense T19 Past
+A102	Aspect T19 Perfective
+A103	Polarity T19 Pos
+T20	Event 624 627	são
+A104	Class T20 State
+A105	Event_Type T20 State
+A106	Pos T20 Verb
+A107	Tense T20 Present
+A108	Aspect T20 Imperfective
+A109	Polarity T20 Pos
+T21	Event 679 688	efetuaram
+A110	Class T21 I_Action
+A111	Event_Type T21 Transition
+A112	Pos T21 Verb
+A113	Tense T21 Past
+A114	Aspect T21 Perfective
+A115	Polarity T21 Pos
+T22	Event 691 698	combate
+A116	Class T22 Occurrence
+A117	Event_Type T22 Process
+A118	Pos T22 Noun
+A119	Polarity T22 Pos
+T23	Event 702 710	incêndio
+A120	Class T23 Occurrence
+A121	Event_Type T23 Transition
+A122	Pos T23 Noun
+A123	Polarity T23 Pos
+T24	Event 135 143	incêndio
+A124	Class T24 Occurrence
+A125	Event_Type T24 Transition
+A126	Pos T24 Noun
+A127	Polarity T24 Pos
+T25	Event 619 623	fogo
+A128	Class T25 Occurrence
+A129	Event_Type T25 Transition
+A130	Pos T25 Noun
+A131	Polarity T25 Pos
+T26	Event 75 83	incêndio
+A132	Class T26 Occurrence
+A133	Event_Type T26 Transition
+A134	Pos T26 Noun
+A135	Polarity T26 Pos
+T27	Event 102 112	desabitada
+A136	Class T27 State
+A137	Event_Type T27 State
+A138	Pos T27 Adjective
+A139	Polarity T27 Pos
+T28	Event 154 164	desabitada
+A140	Class T28 State
+A141	Event_Type T28 State
+A142	Pos T28 Adjective
+A143	Polarity T28 Pos
+R1	TLINK_before Arg1:T3 Arg2:T2	
+R2	TLINK_identity Arg1:T26 Arg2:T3	
+R3	TLINK_includes Arg1:T27 Arg2:T1	
+R5	TLINK_identity Arg1:T24 Arg2:T26	
+R6	TLINK_identity Arg1:T28 Arg2:T27	
+R7	TLINK_includes Arg1:T28 Arg2:T24	
+R8	TLINK_after Arg1:T4 Arg2:T28	
+R9	TLINK_after Arg1:T5 Arg2:T4	
+R10	TLINK_before Arg1:T6 Arg2:T5	
+R11	TLINK_after Arg1:T7 Arg2:T6	
+T29	Time 26 37	01 nov 2020
+A144	Time_Type T29 Date
+A145	TemporalFunction T29 Publication_Time
+#1	AnnotatorNotes T29	value=2020-11-01
+T30	Time 300 304	hoje
+A146	Time_Type T30 Date
+A147	TemporalFunction T30 Publication_Time
+#2	AnnotatorNotes T30	value=2020-11-01
+R12	TLINK_identity Arg1:T30 Arg2:T29	
+R13	TLINK_isIncluded Arg1:T7 Arg2:T30	
+R14	TLINK_includes Arg1:T9 Arg2:T8	
+R15	TLINK_before Arg1:T8 Arg2:T7	
+R16	TLINK_includes Arg1:T10 Arg2:T9	
+R17	TLINK_identity Arg1:T11 Arg2:T10	
+R18	TLINK_before Arg1:T12 Arg2:T11	
+R19	TLINK_after Arg1:T13 Arg2:T12	
+R20	TLINK_after Arg1:T14 Arg2:T13	
+R21	TLINK_isIncluded Arg1:T17 Arg2:T14	
+R22	TLINK_before Arg1:T15 Arg2:T14	
+R23	TLINK_after Arg1:T16 Arg2:T15	
+R24	TLINK_after Arg1:T17 Arg2:T16	
+R25	TLINK_identity Arg1:T19 Arg2:T18	
+R26	TLINK_before Arg1:T18 Arg2:T17	
+R27	TLINK_before Arg1:T25 Arg2:T19	
+T31	Event 635 644	materiais
+A148	Class T31 State
+A149	Event_Type T31 State
+A150	Pos T31 Adjective
+A151	Polarity T31 Pos
+R28	TLINK_identity Arg1:T31 Arg2:T20	
+R29	TLINK_after Arg1:T20 Arg2:T25	
+R30	TLINK_identity Arg1:T22 Arg2:T21	
+R31	TLINK_simultaneous Arg1:T23 Arg2:T22	
+R32	TLINK_before Arg1:T21 Arg2:T31	
+T32	Participant 97 101	casa
+A152	Lexical_Head T32 Noun
+A153	Individuation_Domain T32 Individual
+A154	Participant_Type_Domain T32 Other
+A155	Involvement T32 1
+T33	Participant 116 131	Câmara de Lobos
+A156	Lexical_Head T33 Noun
+A157	Individuation_Domain T33 Individual
+A158	Participant_Type_Domain T33 Loc
+A159	Involvement T33 1
+T34	Participant 145 153	uma casa
+A160	Lexical_Head T34 Noun
+A161	Individuation_Domain T34 Individual
+A162	Participant_Type_Domain T34 Loc
+A163	Involvement T34 1
+T35	Participant 166 193	a freguesia Jardim da Serra
+A164	Lexical_Head T35 Noun
+A165	Individuation_Domain T35 Individual
+A166	Participant_Type_Domain T35 Loc
+A167	Involvement T35 1
+T36	Participant 196 225	o concelho de Câmara de Lobos
+A168	Lexical_Head T36 Noun
+A169	Individuation_Domain T36 Individual
+A170	Participant_Type_Domain T36 Loc
+A171	Involvement T36 1
+T37	Participant 248 259	a habitação
+A172	Lexical_Head T37 Noun
+A173	Individuation_Domain T37 Individual
+A174	Participant_Type_Domain T37 Other
+A175	Involvement T37 1
+T38	Participant 305 310	fonte
+A176	Lexical_Head T38 Noun
+A177	Individuation_Domain T38 Individual
+A178	Participant_Type_Domain T38 Per
+A179	Involvement T38 1
+T39	Participant 312 323	a autarquia
+A180	Lexical_Head T39 Noun
+A181	Individuation_Domain T39 Individual
+A182	Participant_Type_Domain T39 Org
+A183	Involvement T39 1
+T40	Participant 330 338	uma casa
+A184	Lexical_Head T40 Noun
+A185	Individuation_Domain T40 Individual
+A186	Participant_Type_Domain T40 Other
+A187	Involvement T40 1
+T41	Participant 339 342	que
+A188	Lexical_Head T41 Pronoun
+A189	Individuation_Domain T41 Individual
+A190	Participant_Type_Domain T41 Other
+A191	Involvement T41 1
+R33	OLINK_objIdentity Arg1:T41 Arg2:T40	
+T42	Participant 401 411	o vereador
+A192	Lexical_Head T42 Noun
+A193	Individuation_Domain T42 Individual
+A194	Participant_Type_Domain T42 Per
+A195	Involvement T42 1
+T43	Participant 413 443	a autarquia de Câmara de Lobos
+A196	Lexical_Head T43 Noun
+A197	Individuation_Domain T43 Individual
+A198	Participant_Type_Domain T43 Org
+A199	Involvement T43 1
+T44	Participant 444 467	Leonel Correia da Silva
+A200	Lexical_Head T44 Noun
+A201	Individuation_Domain T44 Individual
+A202	Participant_Type_Domain T44 Per
+A203	Involvement T44 1
+T45	Participant 470 482	agência Lusa
+A204	Lexical_Head T45 Noun
+A205	Individuation_Domain T45 Individual
+A206	Participant_Type_Domain T45 Org
+A207	Involvement T45 1
+T46	Participant 484 493	O autarca
+A208	Lexical_Head T46 Noun
+A209	Individuation_Domain T46 Individual
+A210	Participant_Type_Domain T46 Per
+A211	Involvement T46 1
+T47	Participant 508 519	a habitação
+A212	Lexical_Head T47 Noun
+A213	Individuation_Domain T47 Individual
+A214	Participant_Type_Domain T47 Other
+A215	Involvement T47 1
+T48	Participant 647 678	Os Bombeiros de Câmara de Lobos
+A216	Lexical_Head T48 Noun
+A217	Individuation_Domain T48 Individual
+A218	Participant_Type_Domain T48 Org
+A219	Involvement T48 1
+R34	OLINK_objIdentity Arg1:T34 Arg2:T32	
+R35	OLINK_partOf Arg1:T35 Arg2:T36	
+R36	OLINK_objIdentity Arg1:T36 Arg2:T33	
+R37	OLINK_objIdentity Arg1:T37 Arg2:T34	
+R38	OLINK_partOf Arg1:T38 Arg2:T39	
+R39	OLINK_objIdentity Arg1:T40 Arg2:T37	
+R40	OLINK_objIdentity Arg1:T42 Arg2:T38	
+R41	OLINK_partOf Arg1:T42 Arg2:T43	
+R42	OLINK_objIdentity Arg1:T43 Arg2:T39	
+R43	OLINK_objIdentity Arg1:T44 Arg2:T42	
+R44	OLINK_objIdentity Arg1:T46 Arg2:T44	
+R45	OLINK_objIdentity Arg1:T47 Arg2:T41	
+R46	SRLINK_theme Arg1:T2 Arg2:T3	
+R47	SRLINK_setting Arg1:T3 Arg2:T26	
+T49	Event 84 87	que
+R48	TLINK_identity Arg1:T49 Arg2:T26	
+R4	TLINK_identity Arg1:T1 Arg2:T49	
+R49	SRLINK_cause Arg1:T1 Arg2:T49	
+R50	SRLINK_patient Arg1:T1 Arg2:T32	
+R51	SRLINK_pivot Arg1:T27 Arg2:T32	
+R52	SRLINK_location Arg1:T1 Arg2:T33	
+R53	SRLINK_location Arg1:T24 Arg2:T34	
+R54	SRLINK_pivot Arg1:T28 Arg2:T34	
+R55	SRLINK_location Arg1:T24 Arg2:T35	
+R56	SRLINK_cause Arg1:T4 Arg2:T24	
+R57	SRLINK_patient Arg1:T4 Arg2:T37	
+R58	SRLINK_theme Arg1:T5 Arg2:T6	
+R59	SRLINK_theme Arg1:T7 Arg2:T4	
+R60	SLINK_evidential Arg1:T7 Arg2:T4	
+R61	SRLINK_agent Arg1:T7 Arg2:T38	
+R62	SRLINK_theme Arg1:T8 Arg2:T40	
+R63	SRLINK_pivot Arg1:T9 Arg2:T41	
+R64	SRLINK_theme Arg1:T10 Arg2:T11	
+R65	SRLINK_theme Arg1:T11 Arg2:T12	
+R66	SLINK_evidential Arg1:T13 Arg2:T8	
+R67	SRLINK_theme Arg1:T13 Arg2:T8	
+R68	SRLINK_agent Arg1:T13 Arg2:T42	
+R69	SRLINK_goal Arg1:T13 Arg2:T45	
+R70	SRLINK_agent Arg1:T14 Arg2:T46	
+R71	SLINK_evidential Arg1:T14 Arg2:T15	
+R72	SRLINK_theme Arg1:T14 Arg2:T15	
+R73	SRLINK_pivot Arg1:T15 Arg2:T47	
+R74	SRLINK_patient Arg1:T16 Arg2:T47	
+R75	SRLINK_agent Arg1:T17 Arg2:T46	
+R76	SLINK_evidential Arg1:T17 Arg2:T20	
+R77	SRLINK_theme Arg1:T17 Arg2:T20	
+R78	SRLINK_theme Arg1:T19 Arg2:T18	
+R79	SRLINK_cause Arg1:T19 Arg2:T25	
+R80	SRLINK_pivot Arg1:T20 Arg2:T18	
+R81	SRLINK_theme Arg1:T20 Arg2:T31	
+R82	SRLINK_agent Arg1:T21 Arg2:T48	
+R83	SRLINK_theme Arg1:T21 Arg2:T22	
+R84	SRLINK_theme Arg1:T22 Arg2:T23	
+R85	SLINK_intensional Arg1:T21 Arg2:T22	

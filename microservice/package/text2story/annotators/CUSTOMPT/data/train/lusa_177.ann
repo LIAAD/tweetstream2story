@@ -1,0 +1,289 @@
+T1	Time 9 20	16 nov 2020
+A1	Time_Type T1 Date
+A2	TemporalFunction T1 Publication_Time
+#1	AnnotatorNotes T1	value=2020-11-16
+T2	Time 141 145	hoje
+A3	Time_Type T2 Date
+A4	TemporalFunction T2 Publication_Time
+#2	AnnotatorNotes T2	value=2020-11-16 
+T3	Event 134 140	morreu
+A5	Class T3 Occurrence
+A6	Event_Type T3 Transition
+A7	Pos T3 Verb
+A8	Tense T3 Past
+A9	Aspect T3 Perfective
+A10	Polarity T3 Pos
+T4	Event 168 176	conduzia
+A11	Class T4 Occurrence
+A12	Event_Type T4 Process
+A13	Pos T4 Verb
+A14	Tense T4 Past
+A15	Aspect T4 Imperfective
+A16	Polarity T4 Pos
+T5	Event 181 193	sido colhido
+A17	Class T5 Occurrence
+A18	Event_Type T5 Transition
+A19	Pos T5 Verb
+A20	Tense T5 Past
+A21	Aspect T5 Perfective
+A22	VForm T5 Infinitive
+A23	Polarity T5 Pos
+T6	Event 275 283	disseram
+A24	Class T6 Reporting
+A25	Event_Type T6 Transition
+A26	Pos T6 Verb
+A27	Tense T6 Past
+A28	Aspect T6 Perfective
+A29	Polarity T6 Pos
+T7	Event 385 392	indicou
+A30	Class T7 Reporting
+A31	Event_Type T7 Transition
+A32	Pos T7 Verb
+A33	Tense T7 Past
+A34	Aspect T7 Perfective
+A35	Polarity T7 Pos
+T8	Event 414 419	óbito
+A36	Class T8 Occurrence
+A37	Event_Type T8 Transition
+A38	Pos T8 Noun
+A39	Polarity T8 Pos
+T9	Event 433 442	declarado
+A40	Class T9 Occurrence
+A41	Event_Type T9 Transition
+A42	Pos T9 Verb
+A43	Tense T9 Past
+A44	Aspect T9 Perfective
+A45	Polarity T9 Pos
+T10	Event 453 458;467 483	tendo sido encaminhado
+A46	Class T10 Occurrence
+A47	Event_Type T10 Transition
+A48	Pos T10 Verb
+A49	Tense T10 Past
+A50	Aspect T10 Perfective
+A51	VForm T10 Gerundive
+A52	Polarity T10 Pos
+T11	Event 560 566	alerta
+A53	Class T11 Occurrence
+A54	Event_Type T11 Transition
+A55	Pos T11 Noun
+A56	Polarity T11 Pos
+T12	Event 594 598	dado
+A57	Class T12 Occurrence
+A58	Event_Type T12 Transition
+A59	Pos T12 Verb
+A60	Tense T12 Past
+A61	Aspect T12 Perfective
+A62	Polarity T12 Pos
+T13	Time 602 607	06:55
+A63	Time_Type T13 Time
+#3	AnnotatorNotes T13	value=2020-11-16T06:55 anchorTime=Publication_Time
+T14	Event 615 631	sido mobilizados
+A64	Class T14 Occurrence
+A65	Event_Type T14 Transition
+A66	Pos T14 Verb
+A67	Tense T14 Past
+A68	Aspect T14 Perfective
+A69	VForm T14 Gerundive
+A70	Polarity T14 Pos
+T15	Event 799 807	apoiados
+A71	Class T15 State
+A72	Event_Type T15 State
+A73	Pos T15 Verb
+A74	VForm T15 Participle
+A75	Polarity T15 Pos
+R1	TLINK_isIncluded Arg1:T3 Arg2:T2	
+R2	TLINK_before Arg1:T4 Arg2:T3	
+R3	TLINK_simultaneous Arg1:T5 Arg2:T4	
+R4	TLINK_after Arg1:T6 Arg2:T5	
+R5	TLINK_before Arg1:T8 Arg2:T7	
+R6	TLINK_after Arg1:T9 Arg2:T8	
+R7	TLINK_after Arg1:T10 Arg2:T9	
+R8	TLINK_before Arg1:T11 Arg2:T10	
+R9	TLINK_isIncluded Arg1:T12 Arg2:T13	
+R10	TLINK_identity Arg1:T12 Arg2:T11	
+R11	TLINK_after Arg1:T14 Arg2:T12	
+R12	TLINK_includes Arg1:T15 Arg2:T14	
+R13	TLINK_isIncluded Arg1:T7 Arg2:T6	
+T16	Participant 114 133	Um homem de 34 anos
+A76	Lexical_Head T16 Noun
+A77	Individuation_Domain T16 Individual
+A78	Participant_Type_Domain T16 Per
+A79	Involvement T16 1
+T17	Participant 151 163	o ciclomotor
+A80	Lexical_Head T17 Noun
+A81	Individuation_Domain T17 Individual
+A82	Participant_Type_Domain T17 Obj
+A83	Involvement T17 1
+T18	Participant 198 216	um veículo ligeiro
+A84	Lexical_Head T18 Noun
+A85	Individuation_Domain T18 Individual
+A86	Participant_Type_Domain T18 Obj
+A87	Involvement T18 1
+T19	Participant 220 241	Estrada Nacional 10-8
+A88	Lexical_Head T19 Noun
+A89	Individuation_Domain T19 Individual
+A90	Participant_Type_Domain T19 Loc
+A91	Involvement T19 1
+T20	Participant 254 261	Mitrena
+A92	Lexical_Head T20 Noun
+A93	Individuation_Domain T20 Individual
+A94	Participant_Type_Domain T20 Loc
+A95	Involvement T20 1
+T21	Participant 266 273	Setúbal
+A96	Lexical_Head T21 Noun
+A97	Individuation_Domain T21 Individual
+A98	Participant_Type_Domain T21 Loc
+A99	Involvement T21 1
+T22	Participant 316 321	Fonte
+A100	Lexical_Head T22 Noun
+A101	Individuation_Domain T22 Individual
+A102	Participant_Type_Domain T22 Per
+A103	Involvement T22 1
+T23	Participant 323 384	o Comando Distrital de Operações de Socorro (CDOS) de Setúbal
+A104	Lexical_Head T23 Noun
+A105	Individuation_Domain T23 Individual
+A106	Participant_Type_Domain T23 Org
+A107	Involvement T23 1
+T24	Participant 284 290	fontes
+A108	Lexical_Head T24 Noun
+A109	Individuation_Domain T24 Individual
+A110	Participant_Type_Domain T24 Per
+A111	Involvement T24 >1
+T25	Participant 292 297	a PSP
+A112	Lexical_Head T25 Noun
+A113	Individuation_Domain T25 Individual
+A114	Participant_Type_Domain T25 Org
+A115	Involvement T25 1
+T26	Participant 300 314	Proteção Civil
+A116	Lexical_Head T26 Noun
+A117	Individuation_Domain T26 Individual
+A118	Participant_Type_Domain T26 Org
+A119	Involvement T26 1
+T27	Participant 395 407	agência Lusa
+A120	Lexical_Head T27 Noun
+A121	Individuation_Domain T27 Individual
+A122	Participant_Type_Domain T27 Org
+A123	Involvement T27 1
+T28	Participant 421 428	o homem
+A124	Lexical_Head T28 Noun
+A125	Individuation_Domain T28 Individual
+A126	Participant_Type_Domain T28 Per
+A127	Involvement T28 1
+T29	Participant 444 451	o local
+A128	Lexical_Head T29 Noun
+A129	Individuation_Domain T29 Individual
+A130	Participant_Type_Domain T29 Loc
+A131	Involvement T29 1
+T30	Participant 459 466	o corpo
+A132	Lexical_Head T30 Noun
+A133	Individuation_Domain T30 Individual
+A134	Participant_Type_Domain T30 Other
+A135	Involvement T30 1
+T31	Participant 489 516	o serviço de Medicina legal
+A136	Lexical_Head T31 Noun
+A137	Individuation_Domain T31 Individual
+A138	Participant_Type_Domain T31 Org
+A139	Involvement T31 1
+T32	Participant 518 544	o Hospital de São Bernardo
+A140	Lexical_Head T32 Noun
+A141	Individuation_Domain T32 Individual
+A142	Participant_Type_Domain T32 Org
+A143	Involvement T32 1
+T33	Participant 549 556	Setúbal
+A144	Lexical_Head T33 Noun
+A145	Individuation_Domain T33 Individual
+A146	Participant_Type_Domain T33 Loc
+A147	Involvement T33 1
+T34	Participant 582 588	o CDOS
+A148	Lexical_Head T34 Noun
+A149	Individuation_Domain T34 Individual
+A150	Participant_Type_Domain T34 Org
+A151	Involvement T34 1
+T35	Participant 632 641	bombeiros
+A152	Lexical_Head T35 Noun
+A153	Individuation_Domain T35 Individual
+A154	Participant_Type_Domain T35 Per
+A155	Involvement T35 >1
+T36	Participant 644 652	veículos
+A156	Lexical_Head T36 Noun
+A157	Individuation_Domain T36 Individual
+A158	Participant_Type_Domain T36 Obj
+A159	Involvement T36 >1
+T37	Participant 654 679	as corporações de Palmela
+A160	Lexical_Head T37 Noun
+A161	Individuation_Domain T37 Individual
+A162	Participant_Type_Domain T37 Org
+A163	Involvement T37 >1
+T38	Participant 682 702	Sapadores de Setúbal
+A164	Lexical_Head T38 Noun
+A165	Individuation_Domain T38 Individual
+A166	Participant_Type_Domain T38 Org
+A167	Involvement T38 1
+T39	Participant 705 757	uma viatura médica de emergência e reanimação (VMER)
+A168	Lexical_Head T39 Noun
+A169	Individuation_Domain T39 Individual
+A170	Participant_Type_Domain T39 Obj
+A171	Involvement T39 1
+T40	Participant 765 770	a PSP
+A172	Lexical_Head T40 Noun
+A173	Individuation_Domain T40 Individual
+A174	Participant_Type_Domain T40 Obj
+A175	Involvement T40 1
+T41	Participant 773 797	um total de 16 elementos
+A176	Lexical_Head T41 Noun
+A177	Individuation_Domain T41 Individual
+A178	Participant_Type_Domain T41 Per
+A179	Involvement T41 >1
+T42	Participant 812 826	cinco veículos
+A180	Lexical_Head T42 Noun
+A181	Individuation_Domain T42 Individual
+A182	Participant_Type_Domain T42 Obj
+A183	Involvement T42 >1
+R14	OLINK_partOf Arg1:T19 Arg2:T20	
+R15	OLINK_partOf Arg1:T20 Arg2:T21	
+R16	OLINK_partOf Arg1:T24 Arg2:T25	
+R17	OLINK_partOf Arg1:T24 Arg2:T26	
+R18	OLINK_partOf Arg1:T22 Arg2:T23	
+R19	OLINK_objIdentity Arg1:T28 Arg2:T16	
+R20	OLINK_objIdentity Arg1:T29 Arg2:T19	
+R21	OLINK_partOf Arg1:T30 Arg2:T28	
+R22	OLINK_partOf Arg1:T31 Arg2:T32	
+R23	OLINK_partOf Arg1:T32 Arg2:T33	
+R24	OLINK_objIdentity Arg1:T33 Arg2:T21	
+R25	OLINK_objIdentity Arg1:T34 Arg2:T23	
+R26	OLINK_partOf Arg1:T23 Arg2:T26	
+R27	OLINK_partOf Arg1:T36 Arg2:T37	
+R28	OLINK_partOf Arg1:T36 Arg2:T38	
+R29	OLINK_partOf Arg1:T35 Arg2:T37	
+R30	OLINK_partOf Arg1:T35 Arg2:T38	
+R31	OLINK_objIdentity Arg1:T41 Arg2:T35	
+R32	OLINK_objIdentity Arg1:T42 Arg2:T36	
+R33	SRLINK_patient Arg1:T3 Arg2:T16	
+R34	SRLINK_theme Arg1:T4 Arg2:T17	
+R35	SRLINK_agent Arg1:T4 Arg2:T16	
+R36	SRLINK_patient Arg1:T5 Arg2:T17	
+R37	SRLINK_agent Arg1:T5 Arg2:T18	
+R38	SRLINK_location Arg1:T5 Arg2:T19	
+R39	SRLINK_agent Arg1:T6 Arg2:T24	
+R40	SLINK_evidential Arg1:T6 Arg2:T3	
+R41	SRLINK_theme Arg1:T6 Arg2:T3	
+R42	SRLINK_agent Arg1:T7 Arg2:T22	
+R43	SRLINK_goal Arg1:T7 Arg2:T27	
+R44	SLINK_evidential Arg1:T7 Arg2:T9	
+R45	SRLINK_theme Arg1:T7 Arg2:T9	
+R46	SRLINK_pivot Arg1:T8 Arg2:T28	
+R47	SRLINK_theme Arg1:T9 Arg2:T8	
+R48	SRLINK_location Arg1:T9 Arg2:T29	
+R49	SRLINK_agent Arg1:T9 Arg2:T23	
+R50	SRLINK_patient Arg1:T10 Arg2:T30	
+R51	SRLINK_finalLocation Arg1:T10 Arg2:T31	
+R52	SRLINK_agent Arg1:T10 Arg2:T23	
+R53	SRLINK_theme Arg1:T12 Arg2:T11	
+R54	SRLINK_agent Arg1:T14 Arg2:T34	
+R55	SRLINK_patient Arg1:T14 Arg2:T35	
+R56	SRLINK_patient Arg1:T14 Arg2:T36	
+R57	SRLINK_patient Arg1:T14 Arg2:T39	
+R58	SRLINK_patient Arg1:T14 Arg2:T40	
+R59	SRLINK_theme Arg1:T15 Arg2:T41	
+R60	SRLINK_pivot Arg1:T15 Arg2:T42	
+R61	TLINK_identity Arg1:T2 Arg2:T1	

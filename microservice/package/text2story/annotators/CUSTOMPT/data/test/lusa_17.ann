@@ -1,0 +1,303 @@
+T1	Time 26 37	18 out 2020
+A1	Time_Type T1 Date
+A2	TemporalFunction T1 Publication_Time
+#1	AnnotatorNotes T1	value=2020-10-18
+T2	Time 162 166	hoje
+A3	Time_Type T2 Date
+A4	TemporalFunction T2 Publication_Time
+#2	AnnotatorNotes T2	value=2020-10-18 anchorTime=Publication_Time
+R1	TLINK_identity Arg1:T2 Arg2:T1	
+T3	Event 155 161	sofreu
+A5	Class T3 Perception
+A6	Event_Type T3 Transition
+A7	Pos T3 Verb
+A8	Tense T3 Past
+A9	Aspect T3 Perfective
+A10	Polarity T3 Pos
+T4	Event 167 195	queimaduras do terceiro grau
+A11	Class T4 Occurrence
+A12	Pos T4 Noun
+A13	Polarity T4 Pos
+T5	Event 251 259	incêndio
+A14	Class T5 Occurrence
+A15	Event_Type T5 Transition
+A16	Pos T5 Noun
+A17	Polarity T5 Pos
+T6	Event 305 310	disse
+A18	Class T6 Reporting
+A19	Event_Type T6 Transition
+A20	Pos T6 Verb
+A21	Tense T6 Past
+A22	Aspect T6 Perfective
+A23	Polarity T6 Pos
+T7	Event 348 354	alerta
+A24	Class T7 Occurrence
+A25	Event_Type T7 Transition
+A26	Pos T7 Noun
+A27	Polarity T7 Pos
+T8	Event 359 363	dado
+A28	Class T8 Occurrence
+A29	Event_Type T8 Transition
+A30	Pos T8 Verb
+A31	Tense T8 Past
+A32	Aspect T8 Perfective
+A33	Polarity T8 Pos
+T9	Time 370 375	08:37
+A34	Time_Type T9 Time
+A35	TemporalFunction T9 None
+#3	AnnotatorNotes T9	value=2020-10-18T08:37 anchorTime=Publication_Time
+T10	Event 381 388	combate
+A36	Class T10 Occurrence
+A37	Event_Type T10 Process
+A38	Pos T10 Noun
+A39	Polarity T10 Pos
+T11	Event 403 412	começaram
+A40	Class T11 Aspectual
+A41	Event_Type T11 Transition
+A42	Pos T11 Verb
+A43	Tense T11 Past
+A44	Aspect T11 Perfective
+A45	Polarity T11 Pos
+T12	Event 433 442	estiveram
+A46	Class T12 State
+A47	Event_Type T12 State
+A48	Pos T12 Verb
+A49	Tense T12 Past
+A50	Aspect T12 Perfective
+A51	Polarity T12 Pos
+T13	Event 502 513	acrescentou
+A52	Class T13 Reporting
+A53	Event_Type T13 Transition
+A54	Pos T13 Verb
+A55	Tense T13 Past
+A56	Aspect T13 Perfective
+A57	Polarity T13 Pos
+T14	Event 523 532	Assistido
+A58	Class T14 Occurrence
+A59	Event_Type T14 Transition
+A60	Pos T14 Verb
+A61	VForm T14 Participle
+A62	Polarity T14 Pos
+T15	Event 562 571	conduzido
+A63	Class T15 Occurrence
+A64	Event_Type T15 Transition
+A65	Pos T15 Verb
+A66	Tense T15 Past
+A67	Aspect T15 Perfective
+T16	Event 623 628	disse
+A68	Class T16 Reporting
+A69	Event_Type T16 Transition
+A70	Pos T16 Verb
+A71	Tense T16 Past
+A72	Aspect T16 Perfective
+A73	Polarity T16 Pos
+T17	Event 638 646	incêndio
+A74	Class T17 Occurrence
+A75	Event_Type T17 Transition
+A76	Pos T17 Noun
+A77	Polarity T17 Pos
+T18	Event 651 672	consumiu parcialmente
+A78	Class T18 Occurrence
+A79	Event_Type T18 Transition
+A80	Pos T18 Verb
+A81	Tense T18 Past
+A82	Aspect T18 Perfective
+A83	Polarity T18 Pos
+T19	Event 689 693	dado
+A84	Class T19 Occurrence
+A85	Event_Type T19 Transition
+A86	Pos T19 Verb
+A87	Tense T19 Past
+A88	Aspect T19 Perfective
+A89	Polarity T19 Pos
+T20	Event 698 705	extinto
+A90	Class T20 State
+A91	Event_Type T20 State
+A92	Pos T20 Adjective
+A93	Polarity T20 Pos
+T21	Time 709 713	8:51
+A94	Time_Type T21 Time
+A95	TemporalFunction T21 None
+#4	AnnotatorNotes T21	value=2020-10-18T08:51 anchorTime=Publication_Time
+T22	Event 715 723	informou
+A96	Class T22 Reporting
+A97	Event_Type T22 Transition
+A98	Pos T22 Verb
+A99	Tense T22 Past
+A100	Aspect T22 Perfective
+A101	Polarity T22 Pos
+R2	TLINK_isIncluded Arg1:T3 Arg2:T2	
+R3	TLINK_identity Arg1:T4 Arg2:T3	
+R4	TLINK_after Arg1:T6 Arg2:T5	
+R5	TLINK_identity Arg1:T8 Arg2:T7	
+R6	TLINK_before Arg1:T7 Arg2:T6	
+R7	TLINK_isIncluded Arg1:T8 Arg2:T9	
+R8	TLINK_after Arg1:T10 Arg2:T8	
+R9	TLINK_before Arg1:T11 Arg2:T10	
+R10	TLINK_after Arg1:T12 Arg2:T11	
+R11	TLINK_simultaneous Arg1:T12 Arg2:T10	
+R12	TLINK_after Arg1:T13 Arg2:T12	
+R13	TLINK_after Arg1:T13 Arg2:T6	
+R14	TLINK_before Arg1:T14 Arg2:T13	
+R15	TLINK_after Arg1:T15 Arg2:T14	
+R16	TLINK_after Arg1:T16 Arg2:T15	
+R17	TLINK_identity Arg1:T17 Arg2:T5	
+R18	TLINK_simultaneous Arg1:T18 Arg2:T17	
+R19	TLINK_after Arg1:T19 Arg2:T18	
+R20	TLINK_identity Arg1:T20 Arg2:T19	
+R21	TLINK_isIncluded Arg1:T20 Arg2:T21	
+R22	TLINK_after Arg1:T22 Arg2:T20	
+R23	TLINK_after Arg1:T16 Arg2:T13	
+R24	TLINK_during Arg1:T4 Arg2:T5	
+T23	Participant 135 154	Um homem de 25 anos
+A102	Lexical_Head T23 Noun
+A103	Individuation_Domain T23 Individual
+A104	Participant_Type_Domain T23 Per
+A105	Involvement T23 1
+T24	Participant 200 231	membros superiores e inferiores
+A106	Lexical_Head T24 Noun
+A107	Individuation_Domain T24 Individual
+A108	Participant_Type_Domain T24 Other
+A109	Involvement T24 >1
+T25	Participant 263 266	sua
+A110	Lexical_Head T25 Pronoun
+A111	Individuation_Domain T25 Individual
+A112	Participant_Type_Domain T25 Per
+A113	Involvement T25 1
+T26	Participant 267 271	casa
+A114	Lexical_Head T26 Noun
+A115	Individuation_Domain T26 Individual
+A116	Participant_Type_Domain T26 Loc
+A117	Involvement T26 1
+T27	Participant 276 284	Arcozelo
+A118	Lexical_Head T27 Noun
+A119	Individuation_Domain T27 Individual
+A120	Participant_Type_Domain T27 Loc
+A121	Involvement T27 1
+T28	Participant 286 303	Vila Nova de Gaia
+A122	Lexical_Head T28 Noun
+A123	Individuation_Domain T28 Individual
+A124	Participant_Type_Domain T28 Loc
+A125	Involvement T28 1
+T29	Participant 313 317	Lusa
+A126	Lexical_Head T29 Noun
+A127	Individuation_Domain T29 Individual
+A128	Participant_Type_Domain T29 Org
+A129	Involvement T29 1
+T30	Participant 318 323	fonte
+A130	Lexical_Head T30 Noun
+A131	Individuation_Domain T30 Individual
+A132	Participant_Type_Domain T30 Per
+A133	Involvement T30 1
+T31	Participant 328 344	Sapadores locais
+A134	Lexical_Head T31 Noun
+A135	Individuation_Domain T31 Individual
+A136	Participant_Type_Domain T31 Org
+A137	Involvement T31 1
+T32	Participant 392 398	chamas
+A138	Lexical_Head T32 Noun
+A139	Individuation_Domain T32 Individual
+A140	Participant_Type_Domain T32 Nat
+A141	Involvement T32 >1
+T33	Participant 399 402	que
+A142	Lexical_Head T33 Pronoun
+A143	Individuation_Domain T33 Individual
+A144	Participant_Type_Domain T33 Nat
+A145	Involvement T33 >1
+R25	OLINK_objIdentity Arg1:T33 Arg2:T32	
+T34	Participant 416 423	cozinha
+A146	Lexical_Head T34 Noun
+A147	Individuation_Domain T34 Individual
+A148	Participant_Type_Domain T34 Loc
+A149	Involvement T34 1
+T35	Participant 427 431	casa
+A150	Lexical_Head T35 Noun
+A151	Individuation_Domain T35 Individual
+A152	Participant_Type_Domain T35 Loc
+A153	Involvement T35 1
+T36	Participant 443 476	os Sapadores de Vila Nova de Gaia
+A154	Lexical_Head T36 Noun
+A155	Individuation_Domain T36 Individual
+A156	Participant_Type_Domain T36 Org
+A157	Involvement T36 1
+T37	Participant 479 500	os Bombeiros da Aguda
+A158	Lexical_Head T37 Noun
+A159	Individuation_Domain T37 Individual
+A160	Participant_Type_Domain T37 Org
+A161	Involvement T37 1
+T38	Participant 514 521	a fonte
+A162	Lexical_Head T38 Noun
+A163	Individuation_Domain T38 Individual
+A164	Participant_Type_Domain T38 Per
+A165	Involvement T38 1
+T39	Participant 534 541	o local
+A166	Lexical_Head T39 Noun
+A167	Individuation_Domain T39 Individual
+A168	Participant_Type_Domain T39 Loc
+A169	Involvement T39 1
+T40	Participant 543 550	o homem
+A170	Lexical_Head T40 Noun
+A171	Individuation_Domain T40 Individual
+A172	Participant_Type_Domain T40 Per
+A173	Involvement T40 1
+T41	Participant 575 621	Centro Hospitalar de Vila Nova de Gaia/Espinho
+A174	Lexical_Head T41 Noun
+A175	Individuation_Domain T41 Individual
+A176	Participant_Type_Domain T41 Org
+A177	Involvement T41 1
+T42	Participant 673 684	a habitação
+A178	Lexical_Head T42 Noun
+A179	Individuation_Domain T42 Individual
+A180	Participant_Type_Domain T42 Loc
+A181	Involvement T42 1
+T43	Participant 724 740	a Proteção Civil
+A182	Lexical_Head T43 Noun
+A183	Individuation_Domain T43 Individual
+A184	Participant_Type_Domain T43 Org
+A185	Involvement T43 1
+R26	OLINK_partOf Arg1:T24 Arg2:T23	
+R27	OLINK_objIdentity Arg1:T25 Arg2:T23	
+R28	OLINK_partOf Arg1:T26 Arg2:T27	
+R29	OLINK_partOf Arg1:T27 Arg2:T28	
+R30	OLINK_partOf Arg1:T30 Arg2:T31	
+R31	OLINK_partOf Arg1:T34 Arg2:T35	
+R32	OLINK_objIdentity Arg1:T35 Arg2:T26	
+R33	OLINK_objIdentity Arg1:T36 Arg2:T31	
+R34	OLINK_objIdentity Arg1:T38 Arg2:T30	
+R35	OLINK_objIdentity Arg1:T39 Arg2:T35	
+R36	OLINK_objIdentity Arg1:T40 Arg2:T25	
+R37	OLINK_objIdentity Arg1:T42 Arg2:T39	
+R38	SRLINK_patient Arg1:T3 Arg2:T23	
+R39	SRLINK_theme Arg1:T3 Arg2:T4	
+R40	SRLINK_location Arg1:T4 Arg2:T24	
+R41	SRLINK_cause Arg1:T3 Arg2:T5	
+R42	SRLINK_location Arg1:T5 Arg2:T26	
+R43	SLINK_evidential Arg1:T6 Arg2:T3	
+R44	SRLINK_theme Arg1:T6 Arg2:T3	
+R45	SRLINK_agent Arg1:T6 Arg2:T30	
+R46	SRLINK_goal Arg1:T6 Arg2:T29	
+R47	SRLINK_theme Arg1:T8 Arg2:T7	
+R48	SRLINK_theme Arg1:T10 Arg2:T32	
+R49	SRLINK_theme Arg1:T11 Arg2:T33	
+R50	SRLINK_location Arg1:T11 Arg2:T34	
+R51	SRLINK_setting Arg1:T12 Arg2:T10	
+R52	SRLINK_pivot Arg1:T12 Arg2:T36	
+R53	SRLINK_pivot Arg1:T12 Arg2:T37	
+R54	SRLINK_agent Arg1:T13 Arg2:T38	
+R55	SLINK_evidential Arg1:T13 Arg2:T8	
+R56	SRLINK_theme Arg1:T13 Arg2:T8	
+R57	SRLINK_patient Arg1:T14 Arg2:T40	
+R58	SRLINK_location Arg1:T14 Arg2:T39	
+R59	SRLINK_agent Arg1:T14 Arg2:T37	
+R60	SRLINK_patient Arg1:T15 Arg2:T40	
+R61	SRLINK_finalLocation Arg1:T15 Arg2:T41	
+R62	SRLINK_agent Arg1:T16 Arg2:T38	
+R63	SLINK_evidential Arg1:T16 Arg2:T15	
+R64	SRLINK_theme Arg1:T16 Arg2:T15	
+R65	SRLINK_cause Arg1:T18 Arg2:T17	
+R66	SRLINK_theme Arg1:T18 Arg2:T42	
+R67	SRLINK_patient Arg1:T19 Arg2:T17	
+R68	SRLINK_theme Arg1:T19 Arg2:T20	
+R69	SRLINK_agent Arg1:T22 Arg2:T43	
+R70	SLINK_evidential Arg1:T22 Arg2:T19	
+R71	SRLINK_theme Arg1:T22 Arg2:T19	

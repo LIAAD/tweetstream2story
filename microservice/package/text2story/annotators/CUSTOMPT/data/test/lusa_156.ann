@@ -1,0 +1,475 @@
+T1	Time 18 29	16 out 2020
+A1	Time_Type T1 Date
+A2	TemporalFunction T1 Publication_Time
+#1	AnnotatorNotes T1	value=2020-10-16 
+T2	Event 146 158	proprietário
+A3	Class T2 State
+A4	Event_Type T2 State
+A5	Pos T2 Adjective
+A6	Polarity T2 Pos
+T3	Time 229 233	hoje
+A7	Time_Type T3 Date
+A8	TemporalFunction T3 Publication_Time
+#2	AnnotatorNotes T3	value=2020-10-16 anchorTime=Publication_Time
+T4	Event 234 254	ferido com gravidade
+A9	Class T4 Occurrence
+A10	Event_Type T4 Transition
+A11	Pos T4 Verb
+A12	Tense T4 Past
+A13	Aspect T4 Perfective
+A14	Polarity T4 Pos
+T5	Event 270 278	agredido
+A15	Class T5 Occurrence
+A16	Event_Type T5 Transition
+A17	Pos T5 Verb
+A18	Tense T5 Past
+A19	Aspect T5 Perfective
+A20	VForm T5 Participle
+A21	Polarity T5 Pos
+T6	Event 320 325	disse
+A22	Class T6 Reporting
+A23	Event_Type T6 Transition
+A24	Pos T6 Verb
+A25	Tense T6 Past
+A26	Aspect T6 Perfective
+A27	Polarity T6 Pos
+T7	Event 354 361	indicou
+A28	Class T7 Reporting
+A29	Event_Type T7 Transition
+A30	Pos T7 Verb
+A31	Tense T7 Past
+A32	Aspect T7 Perfective
+A33	Polarity T7 Pos
+T8	Event 394 406	transportada
+A34	Class T8 Occurrence
+A35	Event_Type T8 Transition
+A36	Pos T8 Verb
+A37	Tense T8 Past
+A38	Aspect T8 Perfective
+A39	Polarity T8 Pos
+T9	Event 411 425	estado de coma
+A40	Class T9 State
+A41	Event_Type T9 State
+A42	Pos T9 Noun
+A43	Polarity T9 Pos
+T10	Event 498 506	agressão
+A44	Class T10 Occurrence
+A45	Event_Type T10 Transition
+A46	Pos T10 Noun
+A47	Polarity T10 Pos
+T11	Event 511 519	efetuada
+A48	Class T11 Occurrence
+A49	Event_Type T11 Transition
+A50	Pos T11 Verb
+A51	Tense T11 Past
+A52	Aspect T11 Perfective
+A53	Polarity T11 Pos
+T12	Time 520 532	hoje à tarde
+A54	Time_Type T12 Time
+A55	TemporalFunction T12 Publication_Time
+#3	AnnotatorNotes T12	value=2020-10-16TAf
+T13	Event 564 574	embriagada
+A56	Class T13 State
+A57	Event_Type T13 State
+A58	Pos T13 Adjective
+A59	Polarity T13 Pos
+T14	Event 581 595	se pôs em fuga
+A60	Class T14 Occurrence
+A61	Event_Type T14 Transition
+A62	Pos T14 Verb
+A63	Tense T14 Past
+A64	Aspect T14 Perfective
+A65	Polarity T14 Pos
+T15	Event 596 606	conduzindo
+A66	Class T15 Occurrence
+A67	Event_Type T15 Process
+A68	Pos T15 Verb
+A71	VForm T15 Gerundive
+A72	Polarity T15 Pos
+T16	Event 623 631	agressão
+A69	Class T16 Occurrence
+A70	Event_Type T16 Transition
+A73	Pos T16 Noun
+A74	Polarity T16 Pos
+T17	Event 661 669	motivada
+A75	Class T17 Occurrence
+A76	Event_Type T17 Transition
+A77	Pos T17 Verb
+A78	Tense T17 Past
+A79	Aspect T17 Perfective
+A80	Polarity T17 Pos
+T18	Event 715 725	não querer
+A81	Class T18 I_State
+A82	Event_Type T18 State
+A83	Pos T18 Verb
+A84	VForm T18 Infinitive
+A85	Polarity T18 Neg
+T19	Event 751 759	consumir
+A86	Class T19 Occurrence
+A87	Event_Type T19 Process
+A88	Pos T19 Verb
+A89	Tense T19 Past
+A90	Aspect T19 Progressive
+A91	Mood T19 Subjunctive
+A92	Polarity T19 Pos
+T20	Event 819 827	proibido
+A93	Class T20 I_State
+A94	Event_Type T20 State
+A95	Pos T20 Verb
+A96	VForm T20 Infinitive
+A97	Polarity T20 Pos
+T21	Event 830 837	consumo
+A98	Event_Type T21 Process
+A99	Pos T21 Noun
+A100	Polarity T21 Pos
+T22	Event 969 979	envolvidas
+A101	Class T22 State
+A102	Event_Type T22 State
+A103	Pos T22 Verb
+A104	VForm T22 Participle
+A105	Polarity T22 Pos
+T23	Event 986 996	ocorrência
+A106	Class T23 Occurrence
+A107	Event_Type T23 Transition
+A108	Pos T23 Noun
+A109	Polarity T23 Pos
+T24	Event 997 1005	sofreram
+A110	Class T24 Perception
+A111	Event_Type T24 Transition
+A112	Pos T24 Verb
+A113	Tense T24 Past
+A114	Aspect T24 Perfective
+A115	Polarity T24 Pos
+T25	Event 1006 1025	ferimentos ligeiros
+A116	Class T25 Occurrence
+A117	Event_Type T25 Transition
+A118	Pos T25 Noun
+A119	Polarity T25 Pos
+T26	Event 1044 1057	transportadas
+A120	Class T26 Occurrence
+A121	Event_Type T26 Transition
+A122	Pos T26 Verb
+A123	Tense T26 Past
+A124	Aspect T26 Perfective
+A125	VForm T26 Participle
+A126	Polarity T26 Pos
+T27	Event 1166 1177	mobilizados
+A127	Class T27 Occurrence
+A128	Event_Type T27 Transition
+A129	Pos T27 Verb
+A130	Tense T27 Past
+A131	Aspect T27 Perfective
+A132	Polarity T27 Pos
+R1	TLINK_isIncluded Arg1:T4 Arg2:T3	
+R2	TLINK_isIncluded Arg1:T4 Arg2:T2	
+R3	TLINK_before Arg1:T5 Arg2:T4	
+R4	TLINK_after Arg1:T6 Arg2:T5	
+R5	TLINK_simultaneous Arg1:T7 Arg2:T6	
+R6	TLINK_before Arg1:T8 Arg2:T7	
+R7	TLINK_simultaneous Arg1:T9 Arg2:T8	
+R8	TLINK_before Arg1:T10 Arg2:T9	
+R9	TLINK_identity Arg1:T11 Arg2:T10	
+R10	TLINK_isIncluded Arg1:T11 Arg2:T12	
+R11	TLINK_includes Arg1:T13 Arg2:T11	
+R12	TLINK_isIncluded Arg1:T14 Arg2:T13	
+R13	TLINK_simultaneous Arg1:T15 Arg2:T14	
+R14	TLINK_after Arg1:T14 Arg2:T11	
+R15	TLINK_before Arg1:T17 Arg2:T16	
+R16	TLINK_includes Arg1:T18 Arg2:T17	
+R17	TLINK_simultaneous Arg1:T19 Arg2:T18	
+R19	TLINK_includes Arg1:T20 Arg2:T19	
+R20	TLINK_isIncluded Arg1:T21 Arg2:T20	
+R21	TLINK_simultaneous Arg1:T23 Arg2:T22	
+R22	TLINK_after Arg1:T24 Arg2:T23	
+R23	TLINK_identity Arg1:T25 Arg2:T24	
+R24	TLINK_after Arg1:T26 Arg2:T25	
+R25	TLINK_before Arg1:T27 Arg2:T26	
+R26	TLINK_isIncluded Arg1:T22 Arg2:T21	
+R27	TLINK_identity Arg1:T10 Arg2:T5	
+R28	TLINK_identity Arg1:T16 Arg2:T10	
+R29	TLINK_identity Arg1:T23 Arg2:T16	
+T28	Participant 125 144	Um homem de 69 anos
+A133	Lexical_Head T28 Noun
+A134	Individuation_Domain T28 Individual
+A135	Participant_Type_Domain T28 Per
+A136	Involvement T28 1
+T29	Participant 162 176	um restaurante
+A137	Lexical_Head T29 Noun
+A138	Individuation_Domain T29 Individual
+A139	Participant_Type_Domain T29 Other
+A140	Involvement T29 1
+T30	Participant 180 187	Cajados
+A141	Lexical_Head T30 Noun
+A142	Individuation_Domain T30 Individual
+A143	Participant_Type_Domain T30 Loc
+A144	Involvement T30 1
+T31	Participant 192 211	concelho de Palmela
+A145	Lexical_Head T31 Noun
+A146	Individuation_Domain T31 Individual
+A147	Participant_Type_Domain T31 Loc
+A148	Involvement T31 1
+T32	Participant 282 285	seu
+A149	Lexical_Head T32 Pronoun
+A150	Individuation_Domain T32 Individual
+A151	Participant_Type_Domain T32 Per
+A152	Involvement T32 1
+T33	Participant 286 301	estabelecimento
+A153	Lexical_Head T33 Noun
+A154	Individuation_Domain T33 Individual
+A155	Participant_Type_Domain T33 Loc
+A156	Involvement T33 1
+T34	Participant 307 318	uma garrafa
+A157	Lexical_Head T34 Noun
+A158	Individuation_Domain T34 Individual
+A159	Participant_Type_Domain T34 Obj
+A160	Involvement T34 1
+T35	Participant 326 331	fonte
+A161	Lexical_Head T35 Noun
+A162	Individuation_Domain T35 Individual
+A163	Participant_Type_Domain T35 Per
+A164	Involvement T35 1
+T36	Participant 335 338	GNR
+A165	Lexical_Head T36 Noun
+A166	Individuation_Domain T36 Individual
+A167	Participant_Type_Domain T36 Org
+A168	Involvement T36 1
+T37	Participant 340 353	A mesma fonte
+A169	Lexical_Head T37 Noun
+A170	Individuation_Domain T37 Individual
+A171	Participant_Type_Domain T37 Per
+A172	Involvement T37 1
+T38	Participant 364 376	agência Lusa
+A173	Lexical_Head T38 Noun
+A174	Individuation_Domain T38 Individual
+A175	Participant_Type_Domain T38 Org
+A176	Involvement T38 1
+T39	Participant 381 389	a vítima
+A177	Lexical_Head T39 Noun
+A178	Individuation_Domain T39 Individual
+A179	Participant_Type_Domain T39 Per
+A180	Involvement T39 1
+T40	Participant 432 458	o hospital de São Bernardo
+A181	Lexical_Head T40 Noun
+A182	Individuation_Domain T40 Individual
+A183	Participant_Type_Domain T40 Loc
+A184	Involvement T40 1
+T41	Participant 463 470	Setúbal
+A185	Lexical_Head T41 Noun
+A186	Individuation_Domain T41 Individual
+A187	Participant_Type_Domain T41 Loc
+A188	Involvement T41 1
+R30	OLINK_partOf Arg1:T40 Arg2:T41	
+T42	Participant 480 487	a fonte
+A189	Lexical_Head T42 Noun
+A190	Individuation_Domain T42 Individual
+A191	Participant_Type_Domain T42 Per
+A192	Involvement T42 1
+T43	Participant 491 494	GNR
+A193	Lexical_Head T43 Noun
+A194	Individuation_Domain T43 Individual
+A195	Participant_Type_Domain T43 Org
+A196	Involvement T43 1
+T44	Participant 537 547	uma mulher
+A197	Lexical_Head T44 Noun
+A198	Individuation_Domain T44 Individual
+A199	Participant_Type_Domain T44 Per
+A200	Involvement T44 1
+T45	Participant 607 619	um automóvel
+A201	Lexical_Head T45 Noun
+A202	Individuation_Domain T45 Individual
+A203	Participant_Type_Domain T45 Obj
+A204	Involvement T45 1
+T46	Participant 647 655	a guarda
+A205	Lexical_Head T46 Noun
+A206	Individuation_Domain T46 Individual
+A207	Participant_Type_Domain T46 Org
+A208	Involvement T46 1
+T47	Participant 685 699	o proprietário
+A209	Lexical_Head T47 Noun
+A210	Individuation_Domain T47 Individual
+A211	Participant_Type_Domain T47 Per
+A212	Involvement T47 1
+T48	Participant 730 738	a mulher
+A213	Lexical_Head T48 Noun
+A214	Individuation_Domain T48 Individual
+A215	Participant_Type_Domain T48 Per
+A216	Involvement T48 1
+T49	Participant 760 778	bebidas alcoólicas
+A217	Lexical_Head T49 Noun
+A218	Individuation_Domain T49 Individual
+A219	Participant_Type_Domain T49 Other
+A220	Involvement T49 Und
+T50	Participant 788 791	seu
+A221	Lexical_Head T50 Noun
+A222	Individuation_Domain T50 Individual
+A223	Participant_Type_Domain T50 Per
+A224	Involvement T50 1
+T51	Participant 792 807	estabelecimento
+A225	Lexical_Head T51 Noun
+A226	Individuation_Domain T51 Individual
+A227	Participant_Type_Domain T51 Loc
+A228	Involvement T51 1
+T52	Participant 841 847	álcool
+A229	Lexical_Head T52 Noun
+A230	Individuation_Domain T52 Mass
+A231	Participant_Type_Domain T52 Other
+A232	Involvement T52 Und
+T53	Participant 851 862	via pública
+A233	Lexical_Head T53 Noun
+A234	Individuation_Domain T53 Individual
+A235	Participant_Type_Domain T53 Loc
+A236	Involvement T53 1
+T54	Participant 879 884	fonte
+A237	Lexical_Head T54 Noun
+A238	Individuation_Domain T54 Individual
+A239	Participant_Type_Domain T54 Per
+A240	Involvement T54 1
+T55	Participant 888 947	Comando Distrital de Operações de Socorro (CDOS) de Setúbal
+A241	Lexical_Head T55 Noun
+A242	Individuation_Domain T55 Individual
+A243	Participant_Type_Domain T55 Org
+A244	Involvement T55 1
+T57	Participant 949 968	outras duas pessoas
+A249	Lexical_Head T57 Noun
+A250	Individuation_Domain T57 Individual
+A251	Participant_Type_Domain T57 Per
+A252	Involvement T57 >1
+T58	Participant 1070 1096	o hospital de São Bernardo
+A253	Lexical_Head T58 Noun
+A254	Individuation_Domain T58 Individual
+A255	Participant_Type_Domain T58 Loc
+A256	Involvement T58 1
+T59	Participant 1098 1101	uma
+A257	Lexical_Head T59 Pronoun
+A258	Individuation_Domain T59 Individual
+A259	Participant_Type_Domain T59 Per
+A260	Involvement T59 1
+T60	Participant 1118 1123	outra
+A261	Lexical_Head T60 Pronoun
+A262	Individuation_Domain T60 Individual
+A263	Participant_Type_Domain T60 Per
+A264	Involvement T60 1
+T61	Participant 1105 1115	ambulância
+A265	Lexical_Head T61 Noun
+A266	Individuation_Domain T61 Individual
+A267	Participant_Type_Domain T61 Obj
+A268	Involvement T61 1
+T62	Participant 1128 1142	meios próprios
+A269	Lexical_Head T62 Noun
+A270	Participant_Type_Domain T62 Other
+A271	Involvement T62 Und
+T63	Participant 1152 1158	o CDOS
+A272	Lexical_Head T63 Noun
+A273	Individuation_Domain T63 Individual
+A274	Participant_Type_Domain T63 Org
+A275	Involvement T63 1
+T64	Participant 1183 1190	o local
+A276	Lexical_Head T64 Noun
+A277	Individuation_Domain T64 Individual
+A278	Participant_Type_Domain T64 Loc
+A279	Involvement T64 1
+T65	Participant 1191 1200	bombeiros
+A280	Lexical_Head T65 Noun
+A281	Individuation_Domain T65 Individual
+A282	Participant_Type_Domain T65 Per
+A283	Involvement T65 >1
+T66	Participant 1204 1232	corporação de Águas de Moura
+A284	Lexical_Head T66 Noun
+A285	Individuation_Domain T66 Individual
+A286	Participant_Type_Domain T66 Org
+A287	Involvement T66 1
+R31	OLINK_partOf Arg1:T30 Arg2:T31	
+R32	OLINK_objIdentity Arg1:T32 Arg2:T28	
+R33	OLINK_objIdentity Arg1:T33 Arg2:T29	
+R34	OLINK_partOf Arg1:T35 Arg2:T36	
+R35	OLINK_objIdentity Arg1:T37 Arg2:T35	
+R36	OLINK_objIdentity Arg1:T39 Arg2:T32	
+T67	Participant 212 221	(Setúbal)
+A288	Lexical_Head T67 Noun
+A289	Individuation_Domain T67 Individual
+A290	Participant_Type_Domain T67 Loc
+A291	Involvement T67 1
+R37	OLINK_partOf Arg1:T31 Arg2:T67	
+R38	OLINK_objIdentity Arg1:T41 Arg2:T67	
+R39	OLINK_partOf Arg1:T42 Arg2:T43	
+R40	OLINK_objIdentity Arg1:T42 Arg2:T37	
+R41	OLINK_objIdentity Arg1:T46 Arg2:T43	
+R43	OLINK_objIdentity Arg1:T47 Arg2:T39	
+R42	OLINK_objIdentity Arg1:T48 Arg2:T44	
+R44	OLINK_partOf Arg1:T51 Arg2:T50	
+R45	OLINK_objIdentity Arg1:T50 Arg2:T47	
+T68	Participant 703 714	restaurante
+A292	Lexical_Head T68 Noun
+A293	Individuation_Domain T68 Individual
+A294	Participant_Type_Domain T68 Other
+A295	Involvement T68 1
+R46	OLINK_partOf Arg1:T47 Arg2:T68	
+R47	OLINK_objIdentity Arg1:T51 Arg2:T68	
+R48	OLINK_objIdentity Arg1:T68 Arg2:T33	
+R49	OLINK_partOf Arg1:T49 Arg2:T52	
+R50	OLINK_partOf Arg1:T54 Arg2:T55	
+R51	OLINK_partOf Arg1:T55 Arg2:T46	
+R52	OLINK_refDisjunct Arg1:T57 Arg2:T47	
+T56	Participant 1033 1038	ambas
+A245	Lexical_Head T56 Pronoun
+A246	Individuation_Domain T56 Set
+A247	Participant_Type_Domain T56 Per
+A248	Involvement T56 All
+R53	OLINK_objIdentity Arg1:T56 Arg2:T57	
+R54	OLINK_objIdentity Arg1:T58 Arg2:T40	
+R55	OLINK_memberOf Arg1:T59 Arg2:T56	
+R56	OLINK_memberOf Arg1:T60 Arg2:T56	
+R57	OLINK_objIdentity Arg1:T63 Arg2:T55	
+R58	OLINK_objIdentity Arg1:T64 Arg2:T51	
+R59	OLINK_partOf Arg1:T65 Arg2:T66	
+R60	SRLINK_pivot Arg1:T2 Arg2:T28	
+R61	SRLINK_theme Arg1:T2 Arg2:T29	
+R62	OLINK_partOf Arg1:T29 Arg2:T30	
+R63	SRLINK_patient Arg1:T4 Arg2:T28	
+R64	SRLINK_reason Arg1:T4 Arg2:T5	
+R65	SRLINK_location Arg1:T5 Arg2:T33	
+R66	SRLINK_instrument Arg1:T5 Arg2:T34	
+R67	SLINK_evidential Arg1:T6 Arg2:T4	
+R68	SRLINK_theme Arg1:T6 Arg2:T4	
+R69	SRLINK_agent Arg1:T6 Arg2:T35	
+R70	SRLINK_agent Arg1:T7 Arg2:T37	
+R71	SLINK_evidential Arg1:T7 Arg2:T8	
+R72	SRLINK_theme Arg1:T7 Arg2:T8	
+R73	SRLINK_goal Arg1:T7 Arg2:T38	
+R74	SRLINK_patient Arg1:T8 Arg2:T39	
+R75	SRLINK_manner Arg1:T8 Arg2:T9	
+R76	SRLINK_finalLocation Arg1:T8 Arg2:T40	
+R77	SRLINK_pivot Arg1:T9 Arg2:T39	
+R78	SRLINK_theme Arg1:T11 Arg2:T10	
+R79	SRLINK_agent Arg1:T11 Arg2:T44	
+R80	SRLINK_pivot Arg1:T13 Arg2:T44	
+R81	SRLINK_agent Arg1:T14 Arg2:T44	
+R82	SRLINK_manner Arg1:T14 Arg2:T15	
+R83	SRLINK_theme Arg1:T15 Arg2:T45	
+R84	SRLINK_agent Arg1:T15 Arg2:T44	
+R85	SRLINK_theme Arg1:T17 Arg2:T16	
+R86	SRLINK_reason Arg1:T17 Arg2:T18	
+R87	SRLINK_pivot Arg1:T18 Arg2:T47	
+R18	SLINK_intensional Arg1:T18 Arg2:T19	
+R88	SRLINK_theme Arg1:T18 Arg2:T19	
+R89	SRLINK_agent Arg1:T19 Arg2:T48	
+R90	SRLINK_theme Arg1:T19 Arg2:T49	
+R91	SRLINK_location Arg1:T19 Arg2:T51	
+R92	SRLINK_reason Arg1:T18 Arg2:T20	
+R93	SRLINK_theme Arg1:T20 Arg2:T21	
+R94	SLINK_intensional Arg1:T20 Arg2:T21	
+R95	SRLINK_theme Arg1:T21 Arg2:T52	
+R96	SRLINK_location Arg1:T21 Arg2:T53	
+R97	SRLINK_pivot Arg1:T22 Arg2:T57	
+R98	SRLINK_setting Arg1:T22 Arg2:T23	
+R99	SRLINK_patient Arg1:T24 Arg2:T57	
+R100	SRLINK_theme Arg1:T24 Arg2:T25	
+R101	SRLINK_patient Arg1:T26 Arg2:T56	
+R102	SRLINK_finalLocation Arg1:T26 Arg2:T58	
+R103	SRLINK_patient Arg1:T26 Arg2:T59	
+R104	SRLINK_patient Arg1:T26 Arg2:T60	
+R105	SRLINK_instrument Arg1:T26 Arg2:T61	
+R106	SRLINK_instrument Arg1:T26 Arg2:T62	
+R107	SRLINK_finalLocation Arg1:T27 Arg2:T64	
+R108	SRLINK_agent Arg1:T27 Arg2:T63	
+R109	SRLINK_patient Arg1:T27 Arg2:T65	

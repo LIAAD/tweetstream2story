@@ -1,0 +1,299 @@
+T1	Time 31 42	31 out 2020
+A1	Time_Type T1 Date
+A2	TemporalFunction T1 Publication_Time
+#1	AnnotatorNotes T1	value=2020-10-31 
+T2	Time 133 137	hoje
+A3	Time_Type T2 Date
+A4	TemporalFunction T2 Publication_Time
+#2	AnnotatorNotes T2	value=2020-10-31 anchorTime=Publication_Time
+R1	TLINK_identity Arg1:T2 Arg2:T1	
+T3	Event 126 132	sofreu
+A5	Class T3 Perception
+A6	Event_Type T3 Transition
+A7	Pos T3 Verb
+A8	Tense T3 Past
+A9	Aspect T3 Perfective
+A10	Polarity T3 Pos
+T4	Event 138 149	queimaduras
+A11	Class T4 Occurrence
+A12	Event_Type T4 Transition
+A13	Pos T4 Noun
+A14	Polarity T4 Pos
+T5	Event 194 203	manuseava
+A15	Class T5 Occurrence
+A16	Event_Type T5 Process
+A17	Pos T5 Verb
+A18	Tense T5 Past
+A19	Aspect T5 Imperfective
+A20	Polarity T5 Pos
+T6	Event 263 284	teve se ser conduzido
+A21	Class T6 Occurrence
+A22	Event_Type T6 Transition
+A23	Pos T6 Verb
+A24	Tense T6 Past
+A25	Aspect T6 Perfective
+A26	Modality T6 Ter_de
+A27	Polarity T6 Pos
+T7	Event 317 324	indicou
+A28	Class T7 Reporting
+A29	Event_Type T7 Transition
+A30	Pos T7 Verb
+A31	Tense T7 Past
+A32	Aspect T7 Perfective
+A33	Polarity T7 Pos
+T8	Event 372 378	sofreu
+A34	Class T8 Perception
+A35	Event_Type T8 Transition
+A36	Pos T8 Verb
+A37	Tense T8 Past
+A38	Aspect T8 Perfective
+A39	Polarity T8 Pos
+T9	Event 379 418	queimaduras de segundo e terceiro graus
+A40	Class T9 Occurrence
+A41	Event_Type T9 Transition
+A42	Pos T9 Noun
+A43	Polarity T9 Pos
+T10	Event 423 429	alerta
+A44	Class T10 Occurrence
+A45	Event_Type T10 Transition
+A46	Pos T10 Noun
+A47	Polarity T10 Pos
+T11	Event 434 438	dado
+A48	Class T11 Occurrence
+A49	Event_Type T11 Transition
+A50	Pos T11 Verb
+A51	Tense T11 Past
+A52	Aspect T11 Perfective
+A53	Polarity T11 Pos
+T12	Time 442 447	13:41
+A54	Time_Type T12 Time
+A55	TemporalFunction T12 Publication_Time
+#3	AnnotatorNotes T12	value=2020-10-31T13:41 anchorTime=Publication_Time
+T13	Event 494 499	disse
+A56	Class T13 Reporting
+A57	Event_Type T13 Transition
+A58	Pos T13 Verb
+A59	Tense T13 Past
+A60	Aspect T13 Perfective
+A61	Polarity T13 Pos
+T14	Event 525 531	levada
+A62	Class T14 Occurrence
+A63	Event_Type T14 Transition
+A64	Pos T14 Verb
+A65	Tense T14 Past
+A66	Aspect T14 Perfective
+A67	Polarity T14 Pos
+T15	Event 574 587	se desconhece
+A68	Class T15 State
+A69	Event_Type T15 State
+A70	Pos T15 Verb
+A71	Tense T15 Present
+A72	Aspect T15 Imperfective
+A73	Polarity T15 Pos
+T16	Event 599 607	acidente
+A74	Class T16 Occurrence
+A75	Event_Type T16 Transition
+A76	Pos T16 Noun
+A77	Polarity T16 Pos
+T17	Event 610 620	sabendo-se
+A78	Class T17 State
+A79	Event_Type T17 State
+A80	Pos T17 Verb
+A81	Tense T17 Present
+A82	Aspect T17 Progressive
+A83	VForm T17 Gerundive
+A84	Polarity T17 Pos
+T18	Event 633 649	está relacionado
+A85	Class T18 State
+A86	Event_Type T18 State
+A87	Pos T18 Verb
+A88	Tense T18 Present
+A89	Aspect T18 Progressive
+A90	Polarity T18 Pos
+T19	Event 656 668	manuseamento
+A91	Class T19 Occurrence
+A92	Event_Type T19 Process
+A93	Pos T19 Noun
+A94	Polarity T19 Pos
+T20	Event 685 695	transporte
+A95	Class T20 Occurrence
+A96	Event_Type T20 Transition
+A97	Pos T20 Noun
+A98	Polarity T20 Pos
+T21	Event 700 705	feito
+A99	Class T21 Occurrence
+A100	Event_Type T21 Transition
+A101	Pos T21 Verb
+A102	Tense T21 Past
+A103	Aspect T21 Perfective
+A104	Polarity T21 Pos
+T22	Event 590 595	causa
+A105	Class T22 Occurrence
+A106	Event_Type T22 Transition
+A107	Pos T22 Noun
+A108	Polarity T22 Pos
+R2	TLINK_isIncluded Arg1:T3 Arg2:T2	
+R3	TLINK_identity Arg1:T4 Arg2:T3	
+R4	TLINK_simultaneous Arg1:T5 Arg2:T4	
+R5	TLINK_after Arg1:T6 Arg2:T5	
+R6	TLINK_after Arg1:T7 Arg2:T6	
+R7	TLINK_before Arg1:T8 Arg2:T7	
+R8	TLINK_identity Arg1:T9 Arg2:T8	
+R9	TLINK_after Arg1:T10 Arg2:T9	
+R10	TLINK_identity Arg1:T11 Arg2:T10	
+R11	TLINK_isIncluded Arg1:T11 Arg2:T12	
+R12	TLINK_after Arg1:T13 Arg2:T11	
+R13	TLINK_before Arg1:T14 Arg2:T13	
+R14	TLINK_includes Arg1:T15 Arg2:T14	
+R15	TLINK_isIncluded Arg1:T22 Arg2:T15	
+R16	TLINK_simultaneous Arg1:T16 Arg2:T22	
+R17	TLINK_includes Arg1:T17 Arg2:T16	
+R18	TLINK_simultaneous Arg1:T17 Arg2:T15	
+R19	TLINK_simultaneous Arg1:T18 Arg2:T17	
+R20	TLINK_isIncluded Arg1:T19 Arg2:T18	
+R21	TLINK_after Arg1:T20 Arg2:T19	
+R22	TLINK_identity Arg1:T21 Arg2:T20	
+T23	Participant 117 125	Um homem
+A109	Lexical_Head T23 Noun
+A110	Individuation_Domain T23 Individual
+A111	Participant_Type_Domain T23 Per
+A112	Involvement T23 1
+T24	Participant 152 158	a face
+A113	Lexical_Head T24 Noun
+A114	Individuation_Domain T24 Individual
+A115	Participant_Type_Domain T24 Other
+A116	Involvement T24 1
+T25	Participant 162 183	os membros superiores
+A117	Lexical_Head T25 Noun
+A118	Individuation_Domain T25 Individual
+A119	Participant_Type_Domain T25 Other
+A120	Involvement T25 >1
+T26	Participant 204 212	gasolina
+A121	Lexical_Head T26 Noun
+A122	Individuation_Domain T26 Mass
+A123	Participant_Type_Domain T26 Obj
+A124	Involvement T26 Und
+T27	Participant 216 235	Vale de S. Martinho
+A125	Lexical_Head T27 Noun
+A126	Individuation_Domain T27 Individual
+A127	Participant_Type_Domain T27 Loc
+A128	Involvement T27 1
+T28	Participant 237 259	Vila Nova de Famalicão
+A129	Lexical_Head T28 Noun
+A130	Individuation_Domain T28 Individual
+A131	Participant_Type_Domain T28 Loc
+A132	Involvement T28 1
+T29	Participant 288 308	Hospital de São João
+A133	Lexical_Head T29 Noun
+A134	Individuation_Domain T29 Individual
+A135	Participant_Type_Domain T29 Loc
+A136	Involvement T29 1
+T30	Participant 310 315	Porto
+A137	Lexical_Head T30 Noun
+A138	Individuation_Domain T30 Individual
+A139	Participant_Type_Domain T30 Loc
+A140	Involvement T30 1
+T31	Participant 325 330	fonte
+A141	Lexical_Head T31 Noun
+A142	Individuation_Domain T31 Individual
+A143	Participant_Type_Domain T31 Per
+A144	Involvement T31 1
+T32	Participant 335 351	bombeiros locais
+A145	Lexical_Head T32 Noun
+A146	Individuation_Domain T32 Individual
+A147	Participant_Type_Domain T32 Org
+A148	Involvement T32 1
+T33	Participant 353 371	O homem de 58 anos
+A149	Lexical_Head T33 Noun
+A150	Individuation_Domain T33 Individual
+A151	Participant_Type_Domain T33 Per
+A152	Involvement T33 1
+T34	Participant 449 454	Fonte
+A153	Lexical_Head T34 Noun
+A154	Individuation_Domain T34 Individual
+A155	Participant_Type_Domain T34 Per
+A156	Involvement T34 1
+T35	Participant 459 493	Bombeiros Voluntários Famalicenses
+A157	Lexical_Head T35 Noun
+A158	Individuation_Domain T35 Individual
+A159	Participant_Type_Domain T35 Org
+A160	Involvement T35 1
+T36	Participant 502 506	Lusa
+A161	Lexical_Head T36 Noun
+A162	Individuation_Domain T36 Individual
+A163	Participant_Type_Domain T36 Org
+A164	Involvement T36 1
+T37	Participant 512 520	a vítima
+A165	Lexical_Head T37 Noun
+A166	Individuation_Domain T37 Individual
+A167	Participant_Type_Domain T37 Per
+A168	Involvement T37 1
+T38	Participant 537 559	o Hospital de São João
+A169	Lexical_Head T38 Noun
+A170	Individuation_Domain T38 Individual
+A171	Participant_Type_Domain T38 Loc
+A172	Involvement T38 1
+T39	Participant 672 680	gasolina
+A173	Lexical_Head T39 Noun
+A174	Individuation_Domain T39 Mass
+A175	Participant_Type_Domain T39 Obj
+A176	Involvement T39 Und
+T40	Participant 711 759	Viatura Médica de Emergência e Reanimação (VMER)
+A177	Lexical_Head T40 Noun
+A178	Individuation_Domain T40 Individual
+A179	Participant_Type_Domain T40 Obj
+A180	Involvement T40 1
+T41	Participant 763 784	Hospital de Famalicão
+A181	Lexical_Head T41 Noun
+A182	Individuation_Domain T41 Individual
+A183	Participant_Type_Domain T41 Org
+A184	Involvement T41 1
+T42	Participant 789 806	distrito de Braga
+A185	Lexical_Head T42 Noun
+A186	Individuation_Domain T42 Individual
+A187	Participant_Type_Domain T42 Loc
+A188	Involvement T42 1
+R23	OLINK_partOf Arg1:T24 Arg2:T23	
+R24	OLINK_partOf Arg1:T25 Arg2:T23	
+R25	OLINK_partOf Arg1:T27 Arg2:T28	
+R26	OLINK_partOf Arg1:T29 Arg2:T30	
+R27	OLINK_partOf Arg1:T31 Arg2:T32	
+R28	OLINK_objIdentity Arg1:T33 Arg2:T23	
+R29	OLINK_partOf Arg1:T34 Arg2:T35	
+R30	OLINK_objIdentity Arg1:T34 Arg2:T31	
+R31	OLINK_objIdentity Arg1:T35 Arg2:T32	
+R32	OLINK_objIdentity Arg1:T37 Arg2:T33	
+R33	OLINK_objIdentity Arg1:T38 Arg2:T29	
+R34	OLINK_objIdentity Arg1:T39 Arg2:T26	
+R35	OLINK_partOf Arg1:T40 Arg2:T41	
+R36	OLINK_partOf Arg1:T41 Arg2:T42	
+R37	SRLINK_patient Arg1:T3 Arg2:T23	
+R38	SRLINK_theme Arg1:T3 Arg2:T4	
+R39	SLINK_evidential Arg1:T3 Arg2:T4	
+R40	SRLINK_location Arg1:T4 Arg2:T24	
+R41	SRLINK_location Arg1:T4 Arg2:T25	
+R42	SRLINK_agent Arg1:T5 Arg2:T23	
+R43	SRLINK_theme Arg1:T5 Arg2:T26	
+R44	SRLINK_location Arg1:T3 Arg2:T27	
+R45	SRLINK_patient Arg1:T6 Arg2:T23	
+R46	SRLINK_finalLocation Arg1:T6 Arg2:T29	
+R47	SRLINK_agent Arg1:T7 Arg2:T31	
+R48	SRLINK_theme Arg1:T7 Arg2:T3	
+R49	SLINK_evidential Arg1:T7 Arg2:T3	
+R50	SRLINK_patient Arg1:T8 Arg2:T33	
+R51	SRLINK_theme Arg1:T8 Arg2:T9	
+R52	SRLINK_theme Arg1:T11 Arg2:T10	
+R53	SRLINK_agent Arg1:T13 Arg2:T34	
+R54	SRLINK_goal Arg1:T13 Arg2:T36	
+R55	SLINK_evidential Arg1:T13 Arg2:T14	
+R56	SRLINK_theme Arg1:T13 Arg2:T14	
+R57	SRLINK_patient Arg1:T14 Arg2:T37	
+R58	SRLINK_finalLocation Arg1:T14 Arg2:T38	
+R59	SRLINK_theme Arg1:T15 Arg2:T22	
+R60	SRLINK_theme Arg1:T16 Arg2:T22	
+R61	SRLINK_theme Arg1:T17 Arg2:T18	
+R62	SRLINK_pivot Arg1:T18 Arg2:T16	
+R63	SRLINK_cause Arg1:T18 Arg2:T19	
+R64	SRLINK_theme Arg1:T19 Arg2:T39	
+R65	SRLINK_theme Arg1:T21 Arg2:T20	
+R66	SRLINK_agent Arg1:T21 Arg2:T40	

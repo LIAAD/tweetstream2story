@@ -1,0 +1,444 @@
+T1	Event 420 431	encontrados
+A1	Event_Type T1 Transition
+A2	Pos T1 Verb
+A3	Tense T1 Past
+A4	Aspect T1 Perfective
+A5	VForm T1 Participle
+A6	Polarity T1 Pos
+T2	Event 516 524	informou
+A7	Class T2 Reporting
+A8	Event_Type T2 Process
+A9	Pos T2 Verb
+A10	Tense T2 Past
+A11	Aspect T2 Perfective
+A12	Polarity T2 Pos
+T3	Event 557 567	comunicado
+A13	Class T3 Reporting
+A14	Event_Type T3 Transition
+A15	Pos T3 Noun
+A16	Polarity T3 Pos
+T4	Event 617 625	precisou
+A17	Class T4 Reporting
+A18	Event_Type T4 Transition
+A19	Pos T4 Verb
+A20	Tense T4 Past
+A21	Aspect T4 Perfective
+A22	Polarity T4 Pos
+T5	Event 670 682	apresentavam
+A23	Class T5 State
+A24	Event_Type T5 State
+A25	Pos T5 Verb
+A26	Tense T5 Past
+A27	Aspect T5 Imperfective
+A28	Polarity T5 Pos
+T6	Event 694 704	ferimentos
+A29	Class T6 State
+A30	Event_Type T6 State
+A31	Pos T6 Noun
+A32	Polarity T6 Pos
+T7	Event 775 787	desmembrados
+A33	Class T7 State
+A34	Event_Type T7 State
+A35	Pos T7 Verb
+A36	Tense T7 Past
+A37	Aspect T7 Imperfective
+A38	Polarity T7 Pos
+T8	Event 833 845	desconhecida
+A39	Pos T8 Verb
+A40	Tense T8 Present
+A41	Aspect T8 Imperfective
+A42	VForm T8 Participle
+A43	Polarity T8 Pos
+T9	Event 870 880	considerar
+A44	Class T9 State
+A45	Event_Type T9 State
+A46	Pos T9 Verb
+A47	Tense T9 Present
+A48	Aspect T9 Progressive
+A49	Polarity T9 Pos
+T10	Event 916 923	admitem
+A50	Class T10 Reporting
+A51	Event_Type T10 Transition
+A52	Pos T10 Verb
+A53	Tense T10 Present
+A54	Aspect T10 Imperfective
+A55	Polarity T10 Pos
+T11	Event 926 939	possibilidade
+A56	Class T11 State
+A57	Event_Type T11 State
+A58	Pos T11 Noun
+A59	Polarity T11 Pos
+T12	Event 946 955	incidente
+A60	Class T12 Occurrence
+A61	Event_Type T12 Transition
+A62	Pos T12 Noun
+A63	Polarity T12 Pos
+T13	Event 962 973	relacionado
+A64	Class T13 State
+A65	Event_Type T13 State
+A66	Pos T13 Verb
+A67	Tense T13 Past
+A68	Aspect T13 Imperfective
+A69	VForm T13 Participle
+T14	Event 980 992	narcotráfico
+A70	Class T14 Occurrence
+A71	Event_Type T14 Process
+A72	Pos T14 Noun
+A73	Polarity T14 Pos
+T15	Event 1011 1019	vingança
+A74	Class T15 State
+A75	Event_Type T15 State
+A76	Pos T15 Noun
+A77	Polarity T15 Pos
+T16	Event 1044 1053	violência
+A78	Class T16 State
+A79	Event_Type T16 State
+A80	Pos T16 Noun
+A81	Polarity T16 Pos
+T17	Event 1058 1066	ligações
+A82	Class T17 Occurrence
+A83	Event_Type T17 Process
+A84	Pos T17 Noun
+A85	Polarity T17 Pos
+T18	Event 1070 1086	crime organizado
+A86	Class T18 State
+A87	Event_Type T18 State
+A88	Pos T18 Noun
+A89	Polarity T18 Pos
+T19	Event 1087 1088	é
+A90	Class T19 State
+A91	Event_Type T19 State
+A92	Pos T19 Verb
+A93	Tense T19 Present
+A94	Aspect T19 Imperfective
+A95	Polarity T19 Pos
+T20	Event 1130 1141	responsável
+A96	Class T20 State
+A97	Event_Type T20 State
+A98	Pos T20 Verb
+A99	Tense T20 Present
+A100	Aspect T20 Progressive
+A101	VForm T20 Gerundive
+A102	Polarity T20 Pos
+T21	Event 1165 1175	homicídios
+A103	Class T21 Occurrence
+A104	Event_Type T21 Transition
+A105	Pos T21 Noun
+A106	Polarity T21 Pos
+T22	Time 1180 1183	ano
+A107	Time_Type T22 Duration
+#1	AnnotatorNotes T22	value=P1Y
+A109	Class T1 Occurrence
+T23	Event 578 594	nota informativa
+A110	Class T23 Reporting
+A111	Event_Type T23 Transition
+A112	Pos T23 Noun
+A113	Polarity T23 Pos
+T24	Event 714 738	sinais graves de tortura
+A114	Class T24 Occurrence
+A115	Event_Type T24 Process
+A116	Pos T24 Noun
+A117	Polarity T24 Pos
+T25	Event 791 801	identidade
+A118	Class T25 State
+A119	Event_Type T25 State
+A120	Pos T25 Noun
+A121	Polarity T25 Pos
+T26	Event 898 910	investigação
+A122	Class T26 Occurrence
+A123	Event_Type T26 Process
+A124	Pos T26 Noun
+A125	Polarity T26 Pos
+T27	Event 181 189	ligações
+A126	Class T27 Occurrence
+A127	Event_Type T27 Process
+A128	Pos T27 Noun
+A129	Polarity T27 Pos
+T28	Event 193 205	narcotráfico
+A130	Class T28 Occurrence
+A131	Event_Type T28 Process
+A132	Pos T28 Noun
+A133	Polarity T28 Pos
+T29	Event 206 213	mataram
+A134	Class T29 Occurrence
+A135	Event_Type T29 Transition
+A136	Pos T29 Verb
+A137	Tense T29 Past
+A138	Aspect T29 Perfective
+A139	Polarity T29 Pos
+T30	Event 267 277	informaram
+A140	Class T30 Reporting
+A141	Event_Type T30 Transition
+A142	Pos T30 Verb
+A143	Tense T30 Past
+A144	Aspect T30 Perfective
+A145	Polarity T30 Pos
+T31	Event 140 151	contratados
+A146	Pos T31 Verb
+A147	Tense T31 Past
+A148	Aspect T31 Perfective
+A149	Polarity T31 Pos
+T32	Time 281 293	quarta-feira
+A150	Time_Type T32 Date
+#2	AnnotatorNotes T32	value=2020-10-28 anchorTime=Publication_Time
+T33	Event 317 327	precisando
+A152	Class T33 Reporting
+A153	Pos T33 Verb
+A154	Tense T33 Present
+A155	Aspect T33 Progressive
+A156	VForm T33 Gerundive
+A157	Polarity T33 Pos
+T34	Event 360 371	abandonados
+A158	Class T34 Occurrence
+A159	Pos T34 Verb
+A160	Tense T34 Past
+A161	Aspect T34 Perfective
+A162	VForm T34 Participle
+A163	Polarity T34 Pos
+R1	TLINK_includes Arg1:T27 Arg2:T31	
+R2	TLINK_includes Arg1:T28 Arg2:T27	
+R3	TLINK_after Arg1:T30 Arg2:T29	
+R4	TLINK_isIncluded Arg1:T30 Arg2:T32	
+R5	TLINK_during Arg1:T33 Arg2:T30	
+R6	TLINK_before Arg1:T34 Arg2:T33	
+R7	TLINK_after Arg1:T1 Arg2:T34	
+R8	TLINK_after Arg1:T2 Arg2:T1	
+R9	TLINK_includes Arg1:T3 Arg2:T2	
+R10	TLINK_identity Arg1:T23 Arg2:T3	
+R11	TLINK_isIncluded Arg1:T4 Arg2:T23	
+R12	TLINK_before Arg1:T5 Arg2:T4	
+R13	TLINK_isIncluded Arg1:T6 Arg2:T5	
+R14	TLINK_simultaneous Arg1:T24 Arg2:T6	
+R15	TLINK_simultaneous Arg1:T7 Arg2:T5	
+R16	TLINK_includes Arg1:T8 Arg2:T7	
+R17	TLINK_simultaneous Arg1:T9 Arg2:T8	
+R18	TLINK_isIncluded Arg1:T26 Arg2:T9	
+R19	TLINK_simultaneous Arg1:T10 Arg2:T9	
+R20	TLINK_isIncluded Arg1:T13 Arg2:T10	
+R21	TLINK_includes Arg1:T14 Arg2:T13	
+R22	TLINK_simultaneous Arg1:T15 Arg2:T14	
+R23	TLINK_during Arg1:T21 Arg2:T22	
+R24	TLINK_before Arg1:T12 Arg2:T10	
+R25	TLINK_isIncluded Arg1:T13 Arg2:T12	
+R26	TLINK_isIncluded Arg1:T17 Arg2:T16	
+R27	TLINK_includes Arg1:T18 Arg2:T17	
+T35	Event 1104 1112	flagelos
+A164	Class T35 Occurrence
+A165	Event_Type T35 Transition
+A166	Pos T35 Noun
+A167	Polarity T35 Pos
+R28	TLINK_identity Arg1:T19 Arg2:T16	
+R29	TLINK_isIncluded Arg1:T20 Arg2:T19	
+R30	TLINK_isIncluded Arg1:T21 Arg2:T20	
+T36	Participant 129 139	Assassinos
+A168	Lexical_Head T36 Noun
+A169	Individuation_Domain T36 Individual
+A170	Participant_Type_Domain T36 Per
+A171	Involvement T36 >1
+T37	Participant 153 161	sicários
+A172	Lexical_Head T37 Noun
+A173	Individuation_Domain T37 Individual
+A174	Participant_Type_Domain T37 Per
+A175	Involvement T37 >1
+T38	Event 216 220	tiro
+A176	Class T38 Occurrence
+A177	Event_Type T38 Transition
+A178	Pos T38 Noun
+A179	Polarity T38 Pos
+R31	TLINK_simultaneous Arg1:T38 Arg2:T29	
+T39	Participant 221 233	sete pessoas
+A180	Lexical_Head T39 Noun
+A181	Individuation_Domain T39 Individual
+A182	Participant_Type_Domain T39 Per
+A183	Involvement T39 >1
+T40	Participant 235 265	o estado mexicano de Michoacán
+A184	Lexical_Head T40 Noun
+A185	Individuation_Domain T40 Individual
+A186	Participant_Type_Domain T40 Loc
+A187	Involvement T40 1
+T41	Participant 294 315	as autoridades locais
+A188	Lexical_Head T41 Noun
+A189	Individuation_Domain T41 Individual
+A190	Participant_Type_Domain T41 Org
+A191	Involvement T41 >1
+T42	Participant 332 341	os corpos
+A192	Lexical_Head T42 Noun
+A193	Participant_Type_Domain T42 Other
+T43	Participant 343 353	as vítimas
+A194	Lexical_Head T43 Noun
+A195	Individuation_Domain T43 Individual
+A196	Participant_Type_Domain T43 Per
+A197	Involvement T43 >1
+R32	OLINK_partOf Arg1:T42 Arg2:T43	
+R33	OLINK_objIdentity Arg1:T43 Arg2:T39	
+T44	Participant 373 390	uma estrada rural
+A198	Lexical_Head T44 Noun
+A199	Individuation_Domain T44 Individual
+A200	Participant_Type_Domain T44 Loc
+A201	Involvement T44 1
+T45	Participant 392 401	Os corpos
+A202	Lexical_Head T45 Noun
+A203	Individuation_Domain T45 Individual
+A204	Participant_Type_Domain T45 Other
+A205	Involvement T45 >1
+A206	Individuation_Domain T42 Individual
+A207	Involvement T42 >1
+T46	Participant 403 413	as vítimas
+A208	Lexical_Head T46 Noun
+A209	Individuation_Domain T46 Individual
+A210	Participant_Type_Domain T46 Per
+A211	Involvement T46 >1
+R34	OLINK_partOf Arg1:T45 Arg2:T46	
+T47	Participant 436 471	um grupo de trabalhadores agrícolas
+A212	Lexical_Head T47 Noun
+A213	Individuation_Domain T47 Individual
+A214	Participant_Type_Domain T47 Per
+A215	Involvement T47 >1
+T48	Participant 473 484	uma estrada
+A216	Lexical_Head T48 Noun
+A217	Individuation_Domain T48 Individual
+A218	Participant_Type_Domain T48 Loc
+A219	Involvement T48 1
+T49	Participant 486 514	o município de Tangamandapio
+A220	Lexical_Head T49 Noun
+A221	Individuation_Domain T49 Individual
+A222	Participant_Type_Domain T49 Loc
+A223	Involvement T49 1
+T50	Participant 525 551	o Ministério Público local
+A224	Lexical_Head T50 Noun
+A225	Individuation_Domain T50 Individual
+A226	Participant_Type_Domain T50 Org
+A227	Involvement T50 1
+T51	Participant 596 616	o Ministério Público
+A228	Lexical_Head T51 Noun
+A229	Individuation_Domain T51 Individual
+A230	Participant_Type_Domain T51 Org
+A231	Involvement T51 1
+T52	Participant 630 640	as vítimas
+A232	Lexical_Head T52 Noun
+A233	Individuation_Domain T52 Individual
+A234	Participant_Type_Domain T52 Per
+A235	Involvement T52 >1
+T53	Participant 643 654	seis homens
+A236	Lexical_Head T53 Noun
+A237	Individuation_Domain T53 Individual
+A238	Participant_Type_Domain T53 Per
+A239	Involvement T53 >1
+T54	Participant 657 667	uma mulher
+A240	Lexical_Head T54 Noun
+A241	Individuation_Domain T54 Individual
+A242	Participant_Type_Domain T54 Per
+A243	Involvement T54 1
+T55	Participant 708 712	bala
+A244	Lexical_Head T55 Noun
+A245	Individuation_Domain T55 Individual
+A246	Participant_Type_Domain T55 Obj
+A247	Involvement T55 1
+T56	Participant 740 755	Pelo menos três
+A248	Lexical_Head T56 Noun
+A249	Individuation_Domain T56 Individual
+A250	Participant_Type_Domain T56 Other
+A251	Involvement T56 >1
+T57	Participant 757 766	os corpos
+A252	Lexical_Head T57 Noun
+A253	Individuation_Domain T57 Individual
+A254	Participant_Type_Domain T57 Other
+A255	Involvement T57 >1
+R35	OLINK_partOf Arg1:T56 Arg2:T57	
+T58	Participant 803 813	as vítimas
+A256	Lexical_Head T58 Noun
+A257	Individuation_Domain T58 Individual
+A258	Participant_Type_Domain T58 Per
+A259	Involvement T58 >1
+T59	Participant 847 861	As autoridades
+A260	Lexical_Head T59 Noun
+A261	Individuation_Domain T59 Individual
+A262	Participant_Type_Domain T59 Org
+A263	Involvement T59 >1
+T60	Participant 1026 1040	cartéis rivais
+A264	Lexical_Head T60 Noun
+A265	Individuation_Domain T60 Set
+A266	Participant_Type_Domain T60 Org
+A267	Involvement T60 >1
+T61	Participant 1114 1122	o México
+A268	Lexical_Head T61 Noun
+A269	Individuation_Domain T61 Individual
+A270	Participant_Type_Domain T61 Loc
+A271	Involvement T61 1
+T62	Participant 1185 1196	aquele país
+A272	Lexical_Head T62 Noun
+A273	Individuation_Domain T62 Individual
+A274	Participant_Type_Domain T62 Loc
+A275	Involvement T62 1
+R36	OLINK_objIdentity Arg1:T62 Arg2:T61	
+R37	OLINK_objIdentity Arg1:T37 Arg2:T36	
+R38	OLINK_objIdentity Arg1:T43 Arg2:T39	
+R39	OLINK_partOf Arg1:T44 Arg2:T40	
+R40	OLINK_objIdentity Arg1:T45 Arg2:T42	
+R41	OLINK_objIdentity Arg1:T46 Arg2:T43	
+R42	OLINK_objIdentity Arg1:T48 Arg2:T44	
+R43	OLINK_partOf Arg1:T48 Arg2:T49	
+R44	OLINK_objIdentity Arg1:T51 Arg2:T50	
+R45	OLINK_objIdentity Arg1:T52 Arg2:T46	
+R46	OLINK_partOf Arg1:T53 Arg2:T52	
+R47	OLINK_partOf Arg1:T54 Arg2:T52	
+R48	OLINK_objIdentity Arg1:T57 Arg2:T45	
+R49	OLINK_objIdentity Arg1:T58 Arg2:T52	
+R50	OLINK_objIdentity Arg1:T59 Arg2:T41	
+R51	OLINK_partOf Arg1:T40 Arg2:T61	
+R52	SRLINK_pivot Arg1:T31 Arg2:T36	
+R53	SRLINK_theme Arg1:T27 Arg2:T28	
+R54	SRLINK_agent Arg1:T29 Arg2:T36	
+R55	SRLINK_manner Arg1:T29 Arg2:T38	
+R56	SRLINK_patient Arg1:T29 Arg2:T39	
+R57	SRLINK_location Arg1:T29 Arg2:T40	
+R58	SRLINK_agent Arg1:T27 Arg2:T36	
+R59	SRLINK_agent Arg1:T30 Arg2:T41	
+R60	SRLINK_agent Arg1:T33 Arg2:T41	
+R61	SLINK_evidential Arg1:T33 Arg2:T34	
+R62	SRLINK_theme Arg1:T33 Arg2:T34	
+R63	SRLINK_theme Arg1:T30 Arg2:T29	
+R64	SLINK_evidential Arg1:T30 Arg2:T29	
+R65	SRLINK_patient Arg1:T34 Arg2:T42	
+R66	SRLINK_location Arg1:T34 Arg2:T44	
+R67	SRLINK_patient Arg1:T1 Arg2:T45	
+R68	SRLINK_agent Arg1:T1 Arg2:T47	
+R69	SRLINK_location Arg1:T1 Arg2:T48	
+R71	SRLINK_agent Arg1:T2 Arg2:T50	
+R72	SRLINK_theme Arg1:T2 Arg2:T1	
+R73	SLINK_evidential Arg1:T2 Arg2:T1	
+R74	SRLINK_manner Arg1:T2 Arg2:T3	
+R75	SRLINK_agent Arg1:T4 Arg2:T51	
+R76	SLINK_evidential Arg1:T4 Arg2:T5	
+R77	SRLINK_theme Arg1:T4 Arg2:T5	
+R78	SRLINK_manner Arg1:T4 Arg2:T23	
+R79	SRLINK_pivot Arg1:T5 Arg2:T52	
+R80	SRLINK_theme Arg1:T5 Arg2:T6	
+R81	SRLINK_cause Arg1:T6 Arg2:T55	
+R82	SRLINK_theme Arg1:T5 Arg2:T24	
+R83	SRLINK_pivot Arg1:T7 Arg2:T56	
+R84	SRLINK_theme Arg1:T25 Arg2:T58	
+R85	SRLINK_theme Arg1:T8 Arg2:T25	
+R86	SRLINK_theme Arg1:T9 Arg2:T26	
+R87	SRLINK_pivot Arg1:T9 Arg2:T59	
+R88	SRLINK_agent Arg1:T10 Arg2:T59	
+R89	SRLINK_theme Arg1:T10 Arg2:T11	
+R90	SRLINK_theme Arg1:T11 Arg2:T12	
+R91	SRLINK_theme Arg1:T10 Arg2:T13	
+R92	SLINK_evidential Arg1:T10 Arg2:T13	
+R93	SRLINK_pivot Arg1:T13 Arg2:T12	
+R94	SRLINK_theme Arg1:T13 Arg2:T14	
+R95	SRLINK_theme Arg1:T13 Arg2:T15	
+R96	SRLINK_pivot Arg1:T15 Arg2:T60	
+R97	SRLINK_pivot Arg1:T19 Arg2:T16	
+R98	SRLINK_theme Arg1:T19 Arg2:T35	
+R99	SRLINK_location Arg1:T19 Arg2:T61	
+R100	SRLINK_pivot Arg1:T20 Arg2:T16	
+R101	SRLINK_theme Arg1:T20 Arg2:T21	
+R102	SRLINK_location Arg1:T21 Arg2:T62	
+R103	SRLINK_goal Arg1:T17 Arg2:T18	
+R104	SRLINK_source Arg1:T17 Arg2:T16	
+T63	Time 17 28	29 out 2020
+A276	Time_Type T63 Date
+A277	TemporalFunction T63 Publication_Time
+#3	AnnotatorNotes T63	value=2020-10-29 anchorTime=Publication_Time

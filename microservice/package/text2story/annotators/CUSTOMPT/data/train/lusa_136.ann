@@ -1,0 +1,334 @@
+T1	Time 34 45	19 nov 2020
+A1	Time_Type T1 Date
+A2	TemporalFunction T1 Publication_Time
+#1	AnnotatorNotes T1	value=2020-11-19
+T2	Time 165 169	hoje
+A3	Time_Type T2 Date
+A4	TemporalFunction T2 Publication_Time
+#2	AnnotatorNotes T2	value=2020-11-19 anchorTime=Publication_Time
+T3	Time 173 182	madrugada
+A5	Time_Type T3 Time
+A6	TemporalFunction T3 None
+#3	AnnotatorNotes T3	value=2020-11-19TMo
+R1	TLINK_isIncluded Arg1:T3 Arg2:T2	
+T4	Event 155 164	apreendeu
+A7	Class T4 Occurrence
+A8	Pos T4 Verb
+A9	Tense T4 Past
+A10	Aspect T4 Perfective
+A11	Polarity T4 Pos
+T5	Event 282 290	informou
+A12	Class T5 Reporting
+A13	Event_Type T5 Transition
+A14	Pos T5 Verb
+A15	Tense T5 Past
+A16	Aspect T5 Perfective
+A17	Polarity T5 Pos
+T6	Event 301 311	comunicado
+A18	Class T6 Reporting
+A19	Event_Type T6 Transition
+A20	Pos T6 Noun
+A21	Polarity T6 Pos
+T7	Event 319 326	adianta
+A22	Class T7 Reporting
+A23	Event_Type T7 Transition
+A24	Pos T7 Verb
+A25	Tense T7 Present
+A26	Aspect T7 Imperfective
+A27	Polarity T7 Pos
+T8	Event 337 348	apreendidos
+A28	Class T8 Occurrence
+A29	Event_Type T8 Transition
+A30	Pos T8 Verb
+A31	Tense T8 Past
+A32	Aspect T8 Perfective
+A33	Polarity T8 Pos
+T9	Event 424 432	detetada
+A34	Class T9 Perception
+A35	Event_Type T9 Transition
+A36	Pos T9 Verb
+A37	Tense T9 Past
+A38	Aspect T9 Perfective
+A39	VForm T9 Participle
+A40	Polarity T9 Pos
+T10	Event 470 492	comportamento suspeito
+A41	Class T10 State
+A42	Event_Type T10 State
+A43	Pos T10 Noun
+A44	Polarity T10 Pos
+T12	Event 495 506	intercetada
+A49	Class T12 Occurrence
+A50	Event_Type T12 Transition
+A51	Pos T12 Verb
+A52	Tense T12 Past
+A53	Aspect T12 Perfective
+A54	VForm T12 Participle
+A55	Polarity T12 Pos
+T13	Event 559 574	não conseguiram
+A56	Class T13 I_Action
+A57	Event_Type T13 Process
+A58	Pos T13 Verb
+A59	Tense T13 Past
+A60	Polarity T13 Neg
+T14	Event 575 585	intercetar
+A61	Class T14 Occurrence
+A62	Event_Type T14 Transition
+A63	Pos T14 Verb
+A64	VForm T14 Infinitive
+A65	Polarity T14 Pos
+A66	Aspect T13 Perfective
+T15	Event 605 614	encetaram
+A67	Class T15 Aspectual
+A68	Event_Type T15 Transition
+A69	Pos T15 Verb
+A70	Tense T15 Past
+A71	Aspect T15 Perfective
+A72	Polarity T15 Pos
+T16	Event 615 619	fuga
+A73	Class T16 Occurrence
+A74	Event_Type T16 Process
+A75	Pos T16 Noun
+A76	Polarity T16 Pos
+T17	Event 657 667	informadas
+A77	Class T17 Reporting
+A78	Event_Type T17 Transition
+A79	Pos T17 Verb
+A80	Tense T17 Past
+A81	Aspect T17 Perfective
+A82	Polarity T17 Pos
+A83	VForm T17 Participle
+T18	Event 706 711	lê-se
+A84	Event_Type T18 State
+A85	Pos T18 Verb
+A86	Tense T18 Present
+A87	Aspect T18 Imperfective
+A88	Polarity T18 Pos
+A89	Class T18 Perception
+T19	Event 721 725	nota
+A90	Class T19 Reporting
+A91	Event_Type T19 State
+A92	Pos T19 Noun
+A93	Polarity T19 Pos
+R3	TLINK_simultaneous Arg1:T19 Arg2:T18	
+T20	Event 759 767	detetada
+A94	Class T20 Perception
+A95	Event_Type T20 Transition
+A96	Pos T20 Verb
+A97	Tense T20 Past
+A98	Aspect T20 Perfective
+A99	Polarity T20 Pos
+T21	Event 774 779	ajuda
+A100	Class T21 Occurrence
+A101	Event_Type T21 Transition
+A102	Pos T21 Noun
+A103	Polarity T21 Pos
+T22	Event 862 866	ação
+A104	Class T22 Occurrence
+A105	Event_Type T22 Process
+A106	Pos T22 Noun
+A107	Polarity T22 Pos
+T23	Event 870 880	vigilância
+A108	Class T23 Occurrence
+A109	Event_Type T23 Process
+A110	Pos T23 Noun
+A111	Polarity T23 Pos
+T24	Event 883 896	patrulhamento
+A112	Class T24 Occurrence
+A113	Event_Type T24 Process
+A114	Pos T24 Noun
+A115	Polarity T24 Pos
+T25	Event 923 932	remetidos
+A116	Class T25 Occurrence
+A117	Event_Type T25 Transition
+A118	Pos T25 Verb
+A119	Tense T25 Past
+A120	Aspect T25 Perfective
+A121	Polarity T25 Pos
+R2	SLINK_intensional Arg1:T13 Arg2:T14	
+R4	ALINK_initiates Arg1:T15 Arg2:T16	
+R5	TLINK_isIncluded Arg1:T4 Arg2:T2	
+R6	TLINK_after Arg1:T5 Arg2:T4	
+R7	TLINK_includes Arg1:T6 Arg2:T5	
+R8	TLINK_isIncluded Arg1:T7 Arg2:T6	
+R9	TLINK_before Arg1:T8 Arg2:T7	
+R10	TLINK_before Arg1:T9 Arg2:T8	
+R11	TLINK_includes Arg1:T10 Arg2:T9	
+R12	TLINK_after Arg1:T12 Arg2:T9	
+R13	TLINK_simultaneous Arg1:T13 Arg2:T12	
+R14	TLINK_isIncluded Arg1:T14 Arg2:T13	
+R15	TLINK_identity Arg1:T16 Arg2:T15	
+R16	TLINK_after Arg1:T17 Arg2:T16	
+R17	TLINK_after Arg1:T18 Arg2:T17	
+R18	TLINK_simultaneous Arg1:T21 Arg2:T20	
+R19	TLINK_during Arg1:T20 Arg2:T22	
+R20	TLINK_identity Arg1:T23 Arg2:T22	
+R21	TLINK_simultaneous Arg1:T24 Arg2:T23	
+R22	TLINK_after Arg1:T25 Arg2:T46	
+R23	TLINK_after Arg1:T15 Arg2:T12	
+R24	TLINK_before Arg1:T20 Arg2:T19	
+T11	Participant 124 154	A Unidade de Controlo Costeiro
+A45	Lexical_Head T11 Noun
+A46	Individuation_Domain T11 Individual
+A47	Participant_Type_Domain T11 Org
+A48	Involvement T11 1
+T26	Participant 186 198	rio Guadiana
+A122	Lexical_Head T26 Noun
+A123	Individuation_Domain T26 Individual
+A124	Participant_Type_Domain T26 Nat
+A125	Involvement T26 1
+T27	Participant 203 210	Algarve
+A126	Lexical_Head T27 Noun
+A127	Individuation_Domain T27 Individual
+A128	Participant_Type_Domain T27 Loc
+A129	Involvement T27 1
+R25	OLINK_partOf Arg1:T26 Arg2:T27	
+T28	Participant 218 244	quatro toneladas de haxixe
+A130	Lexical_Head T28 Noun
+A131	Individuation_Domain T28 Individual
+A132	Participant_Type_Domain T28 Obj
+A133	Involvement T28 >1
+T29	Participant 247 280	uma embarcação de alta velocidade
+A134	Lexical_Head T29 Noun
+A135	Individuation_Domain T29 Individual
+A136	Participant_Type_Domain T29 Obj
+A137	Involvement T29 1
+T30	Participant 291 296	a GNR
+A138	Lexical_Head T30 Noun
+A139	Individuation_Domain T30 Individual
+A140	Participant_Type_Domain T30 Org
+A141	Involvement T30 1
+T31	Participant 313 318	a GNR
+A142	Lexical_Head T31 Noun
+A143	Individuation_Domain T31 Individual
+A144	Participant_Type_Domain T31 Org
+A145	Involvement T31 1
+R26	OLINK_partOf Arg1:T11 Arg2:T30	
+T32	Participant 349 386	115 fardos de haxixe com 3.785 quilos
+A146	Lexical_Head T32 Noun
+A147	Individuation_Domain T32 Set
+A148	Participant_Type_Domain T32 Obj
+A149	Involvement T32 >1
+T33	Participant 389 422	uma embarcação de alta velocidade
+A150	Lexical_Head T33 Noun
+A151	Individuation_Domain T33 Individual
+A152	Participant_Type_Domain T33 Obj
+A153	Involvement T33 1
+R27	OLINK_objIdentity Arg1:T32 Arg2:T28	
+R28	OLINK_objIdentity Arg1:T33 Arg2:T29	
+T34	Participant 442 461	foz do rio Guadiana
+A154	Lexical_Head T34 Noun
+A155	Individuation_Domain T34 Individual
+A156	Participant_Type_Domain T34 Loc
+A157	Involvement T34 1
+R29	OLINK_objIdentity Arg1:T34 Arg2:T26	
+T35	Participant 514 537	junto à Foz de Odeleite
+A158	Lexical_Head T35 Noun
+A159	Individuation_Domain T35 Individual
+A160	Participant_Type_Domain T35 Loc
+A161	Involvement T35 1
+T36	Participant 539 551	Os militares
+A162	Individuation_Domain T36 Individual
+A163	Participant_Type_Domain T36 Per
+A164	Involvement T36 >1
+T37	Participant 555 558	GNR
+A165	Lexical_Head T37 Noun
+A166	Individuation_Domain T37 Individual
+A167	Participant_Type_Domain T37 Org
+A168	Involvement T37 1
+R30	OLINK_partOf Arg1:T36 Arg2:T37	
+T38	Participant 586 598	os suspeitos
+A169	Lexical_Head T38 Noun
+A170	Individuation_Domain T38 Individual
+A171	Participant_Type_Domain T38 Per
+A172	Involvement T38 >1
+R31	OLINK_objIdentity Arg1:T37 Arg2:T31	
+T39	Participant 625 644	território espanhol
+A173	Lexical_Head T39 Noun
+A174	Individuation_Domain T39 Individual
+A175	Participant_Type_Domain T39 Loc
+A176	Involvement T39 1
+T40	Participant 668 703	as autoridades policiais espanholas
+A177	Lexical_Head T40 Noun
+A178	Individuation_Domain T40 Individual
+A179	Participant_Type_Domain T40 Org
+A180	Involvement T40 Und
+T41	Participant 735 740	a GNR
+A181	Lexical_Head T41 Noun
+A182	Individuation_Domain T41 Individual
+A183	Participant_Type_Domain T41 Org
+A184	Involvement T41 1
+R32	OLINK_objIdentity Arg1:T41 Arg2:T37	
+T42	Participant 742 754	a embarcação
+A185	Lexical_Head T42 Noun
+A186	Individuation_Domain T42 Individual
+A187	Participant_Type_Domain T42 Obj
+A188	Involvement T42 1
+R33	OLINK_objIdentity Arg1:T42 Arg2:T33	
+T43	Participant 783 843	Sistema Integrado de Vigilância, Comando e Controlo (SIVICC)
+A189	Lexical_Head T43 Noun
+A190	Individuation_Domain T43 Individual
+A191	Participant_Type_Domain T43 Org
+A192	Involvement T43 1
+R34	OLINK_partOf Arg1:T43 Arg2:T41	
+T44	Participant 900 905	costa
+A193	Lexical_Head T44 Noun
+A194	Individuation_Domain T44 Individual
+A195	Participant_Type_Domain T44 Nat
+A196	Involvement T44 Und
+T45	Participant 935 958	Polícia Judiciária (PJ)
+A197	Lexical_Head T45 Noun
+A198	Individuation_Domain T45 Individual
+A199	Participant_Type_Domain T45 Org
+A200	Involvement T45 1
+T46	Event 910 916	factos
+A201	Class T46 State
+A202	Event_Type T46 State
+A203	Pos T46 Noun
+A204	Polarity T46 Pos
+R35	TLINK_after Arg1:T46 Arg2:T24	
+R36	TLINK_identity Arg1:T46 Arg2:T4	
+R37	SRLINK_agent Arg1:T4 Arg2:T11	
+R38	SRLINK_location Arg1:T4 Arg2:T26	
+R39	SRLINK_location Arg1:T4 Arg2:T27	
+R40	SRLINK_patient Arg1:T4 Arg2:T28	
+R41	SRLINK_patient Arg1:T4 Arg2:T29	
+R42	SLINK_evidential Arg1:T5 Arg2:T4	
+R43	SRLINK_theme Arg1:T5 Arg2:T4	
+R44	SRLINK_agent Arg1:T5 Arg2:T30	
+R45	SRLINK_agent Arg1:T7 Arg2:T31	
+R46	SRLINK_medium Arg1:T7 Arg2:T6	
+R47	SRLINK_theme Arg1:T7 Arg2:T8	
+R48	SLINK_evidential Arg1:T7 Arg2:T8	
+R49	SRLINK_patient Arg1:T8 Arg2:T32	
+R50	SRLINK_agent Arg1:T8 Arg2:T31	
+R51	SRLINK_patient Arg1:T8 Arg2:T33	
+R52	SRLINK_patient Arg1:T9 Arg2:T33	
+R53	SRLINK_location Arg1:T9 Arg2:T34	
+R54	SRLINK_reason Arg1:T9 Arg2:T10	
+R55	SRLINK_agent Arg1:T9 Arg2:T31	
+R56	SRLINK_agent Arg1:T12 Arg2:T31	
+R57	SRLINK_patient Arg1:T12 Arg2:T33	
+R58	SRLINK_location Arg1:T12 Arg2:T35	
+R59	SRLINK_agent Arg1:T13 Arg2:T36	
+R60	SRLINK_theme Arg1:T13 Arg2:T14	
+R61	SRLINK_patient Arg1:T14 Arg2:T38	
+R62	SRLINK_agent Arg1:T15 Arg2:T38	
+R63	SRLINK_theme Arg1:T15 Arg2:T16	
+R64	SRLINK_finalLocation Arg1:T16 Arg2:T39	
+R65	SRLINK_patient Arg1:T17 Arg2:T40	
+R66	SRLINK_agent Arg1:T17 Arg2:T37	
+R67	SLINK_evidential Arg1:T17 Arg2:T15	
+R68	SRLINK_theme Arg1:T17 Arg2:T15	
+R69	SLINK_evidential Arg1:T18 Arg2:T13	
+R70	SRLINK_theme Arg1:T18 Arg2:T13	
+R71	SRLINK_location Arg1:T18 Arg2:T19	
+R72	SRLINK_patient Arg1:T20 Arg2:T42	
+R73	SRLINK_manner Arg1:T20 Arg2:T21	
+R74	SRLINK_agent Arg1:T21 Arg2:T43	
+R75	SRLINK_setting Arg1:T20 Arg2:T22	
+R76	SRLINK_purpose Arg1:T22 Arg2:T23	
+R77	SRLINK_purpose Arg1:T22 Arg2:T24	
+R78	SRLINK_patient Arg1:T24 Arg2:T44	
+R79	SRLINK_patient Arg1:T23 Arg2:T44	
+R80	SRLINK_patient Arg1:T25 Arg2:T46	
+R81	SRLINK_goal Arg1:T25 Arg2:T45	

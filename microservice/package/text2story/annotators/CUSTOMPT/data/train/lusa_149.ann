@@ -1,0 +1,428 @@
+T1	Time 6 17	04 nov 2020
+A1	Time_Type T1 Date
+A2	TemporalFunction T1 Publication_Time
+#1	AnnotatorNotes T1	value=2020-11-04
+T2	Time 139 150	terça-feira
+A3	Time_Type T2 Date
+#2	AnnotatorNotes T2	value=2020-11-03 anchorTime=Publication_Time
+A4	TemporalFunction T2 None
+T3	Event 128 135	aprovou
+A5	Class T3 Occurrence
+A6	Event_Type T3 Transition
+A7	Tense T3 Past
+A8	Aspect T3 Perfective
+A9	Polarity T3 Pos
+T4	Event 154 171	plano de salvação
+A10	Class T4 State
+A11	Event_Type T4 State
+A12	Pos T4 Noun
+A13	Polarity T4 Pos
+T5	Event 277 285	aceitado
+A14	Class T5 Occurrence
+A15	Event_Type T5 Transition
+A16	Pos T5 Verb
+A17	Tense T5 Past
+A18	Aspect T5 Perfective
+A19	VForm T5 Infinitive
+A20	Polarity T5 Pos
+T6	Event 290 297	redução
+A21	Class T6 Occurrence
+A22	Event_Type T6 Transition
+A23	Pos T6 Noun
+A24	Polarity T6 Pos
+T7	Time 310 328	durante cinco anos
+A25	Time_Type T7 Duration
+A26	TemporalFunction T7 None
+#3	AnnotatorNotes T7	vaue=P5Y~anchorTime=Publication_Time
+T8	Event 377 386	congelado
+A27	Class T8 Occurrence
+A28	Pos T8 Verb
+A29	Tense T8 Past
+A30	Aspect T8 Imperfective
+A31	Polarity T8 Pos
+T9	Event 389 394	ajuda
+A32	Class T9 State
+A33	Event_Type T9 State
+A34	Pos T9 Noun
+A35	Polarity T9 Pos
+T10	Event 470 476	recusa
+A36	Class T10 I_Action
+A37	Event_Type T10 Transition
+A38	Pos T10 Noun
+A39	Polarity T10 Pos
+T11	Event 509 516	aceitar
+A40	Class T11 Occurrence
+A41	Event_Type T11 Transition
+A42	Pos T11 Verb
+A43	VForm T11 Infinitive
+A44	Polarity T11 Pos
+T12	Event 519 535	redução salarial
+A45	Class T12 Occurrence
+A46	Event_Type T12 Transition
+A47	Pos T12 Noun
+A48	Polarity T12 Pos
+T13	Event 547 555	anunciou
+A49	Class T13 Reporting
+A50	Event_Type T13 Transition
+A51	Pos T13 Verb
+A52	Tense T13 Past
+A53	Aspect T13 Perfective
+A54	Polarity T13 Pos
+T14	Event 589 595	cedido
+A55	Class T14 Occurrence
+A56	Event_Type T14 Transition
+A57	Pos T14 Verb
+A58	Tense T14 Past
+A59	Aspect T14 Imperfective
+A60	Polarity T14 Pos
+T15	Event 603 608	levou
+A61	Class T15 I_Action
+A62	Event_Type T15 Transition
+A63	Pos T15 Verb
+A64	Tense T15 Past
+A65	Aspect T15 Perfective
+A66	Polarity T15 Pos
+T16	Event 619 626	a dizer
+A67	Class T16 Reporting
+A68	Event_Type T16 Transition
+A69	Pos T16 Verb
+A70	Aspect T16 Progressive
+A71	VForm T16 Infinitive
+A72	Polarity T16 Pos
+T17	Event 638 644	pronto
+A73	Class T17 State
+A74	Event_Type T17 State
+A75	Pos T17 Verb
+A76	Tense T17 Past
+A77	Aspect T17 Imperfective
+A78	Polarity T17 Pos
+T18	Event 650 659	emprestar
+A79	Class T18 Occurrence
+A80	Event_Type T18 Transition
+A81	Pos T18 Verb
+A82	VForm T18 Infinitive
+A83	Polarity T18 Pos
+T19	Event 686 692	revela
+A84	Class T19 Reporting
+A85	Event_Type T19 Transition
+A86	Pos T19 Verb
+A87	Tense T19 Present
+A88	Aspect T19 Imperfective
+A89	Polarity T19 Pos
+T20	Event 742 747	prevê
+A90	Class T20 I_State
+A91	Event_Type T20 State
+A92	Pos T20 Verb
+A93	Aspect T20 Imperfective
+A94	Polarity T20 Pos
+T21	Event 748 755	reduzir
+A95	Class T21 Occurrence
+A96	Event_Type T21 Transition
+A97	Pos T21 Verb
+A98	VForm T21 Infinitive
+A99	Polarity T21 Pos
+T22	Event 774 782	suprimir
+A100	Class T22 Occurrence
+A101	Event_Type T22 Transition
+A102	Pos T22 Verb
+A103	VForm T22 Infinitive
+T23	Event 865 873	afetados
+A104	Class T23 State
+A105	Event_Type T23 State
+A106	Pos T23 Verb
+A108	Mood T23 Future
+A109	Modality T23 Dever
+A110	Polarity T23 Pos
+A107	Tense T23 Future
+T24	Event 883 888	plano
+A111	Class T24 State
+A112	Event_Type T24 State
+A113	Pos T24 Noun
+A114	Polarity T24 Pos
+T25	Event 894 910	baixas salariais
+A115	Class T25 Occurrence
+A116	Event_Type T25 Transition
+A117	Pos T25 Noun
+A118	Polarity T25 Pos
+T26	Event 976 982	perdeu
+A119	Class T26 Occurrence
+A120	Event_Type T26 Transition
+A121	Pos T26 Verb
+A122	Tense T26 Past
+A123	Aspect T26 Perfective
+A124	Polarity T26 Pos
+T27	Event 1037 1044	compara
+A125	Class T27 Occurrence
+A126	Event_Type T27 Process
+A127	Pos T27 Verb
+A128	Tense T27 Present
+A129	Aspect T27 Imperfective
+A130	Polarity T27 Pos
+T28	Event 1052 1057	lucro
+A131	Class T28 Occurrence
+A132	Event_Type T28 Process
+A133	Pos T28 Noun
+A134	Polarity T28 Pos
+T29	Event 411 422	empréstimos
+A136	Pos T29 Noun
+A137	Polarity T29 Pos
+A135	Event_Type T29 Transition
+A138	Class T29 Occurrence
+T30	Time 1011 1029	terceiro trimestre
+A139	Time_Type T30 Time
+A140	TemporalFunction T30 None
+#4	AnnotatorNotes T30	value=T3M beginPoint=2020-07-XX endPoint=2020-09-XX anchorTime=Publication_Time
+T31	Time 1076 1106	mesmo trimestre do ano passado
+A141	Time_Type T31 Time
+A142	TemporalFunction T31 None
+#5	AnnotatorNotes T31	value=T3M beginPoint=2019-07-XX endPoint=2019-09-XX anchorTime=Publication_Time
+R1	TLINK_isIncluded Arg1:T3 Arg2:T2	
+R2	TLINK_after Arg1:T4 Arg2:T3	
+R4	TLINK_after Arg1:T6 Arg2:T5	
+R5	TLINK_during Arg1:T6 Arg2:T7	
+R6	TLINK_before Arg1:T5 Arg2:T3	
+R3	TLINK_includes Arg1:T9 Arg2:T8	
+R7	TLINK_identity Arg1:T29 Arg2:T9	
+R8	TLINK_before Arg1:T8 Arg2:T5	
+R9	TLINK_before Arg1:T10 Arg2:T8	
+R10	TLINK_after Arg1:T12 Arg2:T11	
+R11	TLINK_isIncluded Arg1:T11 Arg2:T10	
+R12	TLINK_after Arg1:T13 Arg2:T12	
+R13	TLINK_before Arg1:T14 Arg2:T13	
+R14	TLINK_after Arg1:T15 Arg2:T14	
+R15	TLINK_isIncluded Arg1:T16 Arg2:T15	
+R16	TLINK_simultaneous Arg1:T17 Arg2:T16	
+R17	TLINK_after Arg1:T18 Arg2:T17	
+R18	TLINK_after Arg1:T19 Arg2:T18	
+R19	TLINK_after Arg1:T21 Arg2:T20	
+R20	TLINK_includes Arg1:T20 Arg2:T19	
+R21	TLINK_simultaneous Arg1:T22 Arg2:T21	
+R22	TLINK_simultaneous Arg1:T23 Arg2:T22	
+R23	TLINK_includes Arg1:T24 Arg2:T23	
+R24	TLINK_simultaneous Arg1:T25 Arg2:T24	
+T32	Event 915 923	podem ir
+A143	Class T32 Occurrence
+A144	Event_Type T32 Transition
+A145	Pos T32 Verb
+A146	Tense T32 Future
+A147	VForm T32 Infinitive
+A148	Mood T32 Future
+A149	Modality T32 Poder
+A150	Polarity T32 Pos
+R25	TLINK_simultaneous Arg1:T32 Arg2:T25	
+R26	TLINK_before Arg1:T26 Arg2:T32	
+R27	TLINK_isIncluded Arg1:T26 Arg2:T30	
+R28	TLINK_isIncluded Arg1:T28 Arg2:T31	
+R29	TLINK_includes Arg1:T27 Arg2:T26	
+R30	TLINK_before Arg1:T28 Arg2:T27	
+T33	Participant 109 127	O governo holandês
+A151	Lexical_Head T33 Noun
+A152	Individuation_Domain T33 Individual
+A153	Participant_Type_Domain T33 Org
+A154	Involvement T33 1
+T34	Participant 175 199	transportadora aérea KLM
+A155	Lexical_Head T34 Noun
+A156	Individuation_Domain T34 Individual
+A157	Participant_Type_Domain T34 Org
+A158	Involvement T34 1
+T35	Participant 213 248	vários milhares de milhões de euros
+A159	Lexical_Head T35 Noun
+A160	Individuation_Domain T35 Individual
+A161	Participant_Type_Domain T35 Obj
+A162	Involvement T35 >1
+T36	Participant 260 270	os pilotos
+A163	Lexical_Head T36 Noun
+A164	Individuation_Domain T36 Individual
+A165	Participant_Type_Domain T36 Per
+A166	Involvement T36 >1
+T37	Participant 301 309	salários
+A167	Lexical_Head T37 Noun
+A168	Participant_Type_Domain T37 Other
+A169	Involvement T37 >1
+T38	Participant 330 353	O ministro das Finanças
+A170	Lexical_Head T38 Noun
+A171	Individuation_Domain T38 Individual
+A172	Participant_Type_Domain T38 Per
+A173	Involvement T38 1
+T39	Participant 355 369	Wopke Hoekstra
+A174	Lexical_Head T39 Noun
+A175	Individuation_Domain T39 Individual
+A176	Participant_Type_Domain T39 Per
+A177	Involvement T39 1
+R31	OLINK_objIdentity Arg1:T39 Arg2:T38	
+T40	Participant 427 440	ramo holandês
+A178	Lexical_Head T40 Noun
+A179	Individuation_Domain T40 Individual
+A180	Participant_Type_Domain T40 Org
+A181	Involvement T40 1
+T41	Participant 444 458	Air France-KLM
+A182	Lexical_Head T41 Noun
+A183	Individuation_Domain T41 Individual
+A184	Participant_Type_Domain T41 Org
+A185	Involvement T41 1
+R32	OLINK_partOf Arg1:T40 Arg2:T41	
+T42	Participant 480 489	sindicato
+A186	Lexical_Head T42 Noun
+A187	Individuation_Domain T42 Individual
+A188	Participant_Type_Domain T42 Org
+A189	Involvement T42 1
+T43	Participant 494 505	pilotos VNV
+A190	Lexical_Head T43 Noun
+A191	Individuation_Domain T43 Individual
+A192	Participant_Type_Domain T43 Per
+A193	Involvement T43 >1
+T44	Participant 541 546	a KLM
+A194	Lexical_Head T44 Noun
+A195	Individuation_Domain T44 Individual
+A196	Participant_Type_Domain T44 Org
+A197	Involvement T44 1
+T45	Participant 571 582	o sindicato
+A198	Lexical_Head T45 Noun
+A199	Individuation_Domain T45 Individual
+A200	Participant_Type_Domain T45 Org
+A201	Involvement T45 1
+T46	Participant 609 618	o governo
+A202	Lexical_Head T46 Noun
+A203	Individuation_Domain T46 Individual
+A204	Participant_Type_Domain T46 Org
+A205	Involvement T46 1
+T47	Participant 660 684	3,4 mil milhões de euros
+A206	Lexical_Head T47 Noun
+A207	Individuation_Domain T47 Individual
+A208	Participant_Type_Domain T47 Obj
+A209	Involvement T47 >1
+T48	Participant 693 734	a agência de notícias France-Presse (AFP)
+A210	Lexical_Head T48 Noun
+A211	Individuation_Domain T48 Individual
+A212	Participant_Type_Domain T48 Org
+A213	Involvement T48 1
+T49	Participant 736 741	A KLM
+A214	Lexical_Head T49 Noun
+A215	Individuation_Domain T49 Individual
+A216	Participant_Type_Domain T49 Org
+A217	Involvement T49 1
+T50	Participant 756 764	despesas
+A218	Lexical_Head T50 Noun
+A219	Individuation_Domain T50 Individual
+A220	Participant_Type_Domain T50 Other
+A221	Involvement T50 >1
+T51	Participant 768 771	15%
+A222	Lexical_Head T51 Noun
+A223	Individuation_Domain T51 Individual
+A224	Participant_Type_Domain T51 Other
+A225	Involvement T51 >1
+RN // JLS
+Governo holandês aprova ajuda à KLM depois de pilotos aceitarem reduzir salários
+O governo holandês aprovou na terça-feira um plano de salvação da transportadora aérea KLM, na ordem de vários milhares de milhões de euros, depois de os pilotos terem aceitado uma redução de salários durante cinco anos.
+O ministro das Finanças, Wopke Hoekstra, tinha congelado a ajuda, sob a forma de empréstimos, ao ramo holandês da Air France-KLM, perante a recusa do sindicato dos pilotos VNV em aceitar a redução salarial.
+Mas a KLM anunciou entretanto que o sindicato tinha cedido, o que levou o governo a dizer que estava pronto para emprestar 3,4 mil milhões de euros, revela a agência de notícias France-Presse (AFP).
+A KLM prevê reduzir despesas em 15% e suprimir
+T52	Event 793 811	postos de trabalho
+A226	Class T52 State
+A227	Event_Type T52 State
+A228	Pos T52 Noun
+A229	Polarity T52 Pos
+T53	Participant 783 792	cinco mil
+A230	Lexical_Head T53 Noun
+A231	Individuation_Domain T53 Individual
+A232	Participant_Type_Domain T53 Other
+A233	Involvement T53 >1
+T54	Participant 822 838	três mil pilotos
+A234	Lexical_Head T54 Noun
+A235	Individuation_Domain T54 Individual
+A236	Participant_Type_Domain T54 Per
+A237	Involvement T54 >1
+T55	Participant 928 931	20%
+A238	Lexical_Head T55 Noun
+A239	Individuation_Domain T55 Individual
+A240	Participant_Type_Domain T55 Other
+A241	Involvement T55 >1
+T56	Participant 941 949	os meios
+A242	Lexical_Head T56 Noun
+A243	Individuation_Domain T56 Set
+A244	Participant_Type_Domain T56 Org
+A245	Involvement T56 >1
+T57	Participant 953 957	país
+A246	Lexical_Head T57 Noun
+A247	Individuation_Domain T57 Individual
+A248	Participant_Type_Domain T57 Loc
+A249	Involvement T57 1
+R33	OLINK_partOf Arg1:T56 Arg2:T57	
+T58	Participant 959 975	A Air France-KLM
+A250	Lexical_Head T58 Noun
+A251	Individuation_Domain T58 Individual
+A252	Participant_Type_Domain T58 Org
+A253	Involvement T58 1
+T59	Participant 983 1007	1,6 mil milhões de euros
+A254	Lexical_Head T59 Noun
+A255	Individuation_Domain T59 Individual
+A256	Participant_Type_Domain T59 Obj
+A257	Involvement T59 >1
+T60	Participant 1061 1072	363 milhões
+A258	Lexical_Head T60 Noun
+A259	Individuation_Domain T60 Individual
+A260	Participant_Type_Domain T60 Obj
+A261	Involvement T60 >1
+R34	OLINK_partOf Arg1:T36 Arg2:T34	
+R35	OLINK_objIdentity Arg1:T58 Arg2:T49	
+R36	OLINK_objIdentity Arg1:T49 Arg2:T44	
+R37	OLINK_objIdentity Arg1:T44 Arg2:T41	
+R38	OLINK_objIdentity Arg1:T41 Arg2:T34	
+R39	OLINK_objIdentity Arg1:T45 Arg2:T42	
+R40	OLINK_partOf Arg1:T51 Arg2:T50	
+R41	OLINK_objIdentity Arg1:T46 Arg2:T33	
+R42	OLINK_partOf Arg1:T38 Arg2:T33	
+R43	SRLINK_agent Arg1:T3 Arg2:T33	
+R44	SRLINK_theme Arg1:T3 Arg2:T4	
+R45	SRLINK_beneficiary Arg1:T4 Arg2:T34	
+R46	SRLINK_instrument Arg1:T4 Arg2:T35	
+R47	SRLINK_agent Arg1:T5 Arg2:T36	
+R48	SRLINK_theme Arg1:T5 Arg2:T6	
+R49	SRLINK_theme Arg1:T6 Arg2:T37	
+R50	SRLINK_agent Arg1:T8 Arg2:T39	
+R51	SRLINK_theme Arg1:T8 Arg2:T9	
+R52	SRLINK_manner Arg1:T9 Arg2:T29	
+R53	SRLINK_goal Arg1:T9 Arg2:T40	
+R54	SRLINK_reason Arg1:T8 Arg2:T10	
+R55	SRLINK_agent Arg1:T10 Arg2:T42	
+R56	SLINK_intensional Arg1:T10 Arg2:T11	
+R57	SRLINK_theme Arg1:T10 Arg2:T11	
+R58	SRLINK_theme Arg1:T11 Arg2:T12	
+R59	SRLINK_agent Arg1:T13 Arg2:T44	
+R60	SLINK_evidential Arg1:T13 Arg2:T14	
+R61	SRLINK_theme Arg1:T13 Arg2:T14	
+R62	SRLINK_agent Arg1:T14 Arg2:T45	
+R63	SRLINK_reason Arg1:T15 Arg2:T14	
+R64	SRLINK_agent Arg1:T15 Arg2:T46	
+R65	SLINK_intensional Arg1:T15 Arg2:T16	
+R66	SRLINK_theme Arg1:T15 Arg2:T16	
+R67	SLINK_evidential Arg1:T16 Arg2:T17	
+R68	SRLINK_theme Arg1:T16 Arg2:T17	
+R69	SRLINK_agent Arg1:T16 Arg2:T46	
+R70	SRLINK_purpose Arg1:T17 Arg2:T18	
+R71	SRLINK_pivot Arg1:T17 Arg2:T46	
+R72	SRLINK_theme Arg1:T18 Arg2:T47	
+R73	SRLINK_agent Arg1:T18 Arg2:T46	
+R74	SRLINK_agent Arg1:T19 Arg2:T48	
+R75	SLINK_evidential Arg1:T19 Arg2:T14	
+R76	SRLINK_theme Arg1:T19 Arg2:T14	
+R77	SRLINK_pivot Arg1:T20 Arg2:T49	
+R78	SLINK_intensional Arg1:T20 Arg2:T21	
+R79	SRLINK_theme Arg1:T21 Arg2:T50	
+R80	SRLINK_agent Arg1:T21 Arg2:T49	
+R81	SRLINK_amount Arg1:T21 Arg2:T51	
+R82	SRLINK_agent Arg1:T22 Arg2:T49	
+R83	SRLINK_amount Arg1:T22 Arg2:T53	
+R84	SRLINK_theme Arg1:T22 Arg2:T52	
+R85	SLINK_intensional Arg1:T20 Arg2:T22	
+R86	SRLINK_theme Arg1:T20 Arg2:T22	
+R87	SRLINK_pivot Arg1:T23 Arg2:T54	
+R88	SRLINK_cause Arg1:T23 Arg2:T24	
+R89	SRLINK_theme Arg1:T24 Arg2:T25	
+R90	SRLINK_theme Arg1:T25 Arg2:T32	
+R91	SRLINK_amount Arg1:T32 Arg2:T55	
+R92	SRLINK_patient Arg1:T26 Arg2:T58	
+R93	SRLINK_theme Arg1:T26 Arg2:T59	
+R94	SRLINK_amount Arg1:T28 Arg2:T60	
+R95	SRLINK_theme Arg1:T27 Arg2:T28	
+R96	SRLINK_theme Arg1:T27 Arg2:T26	

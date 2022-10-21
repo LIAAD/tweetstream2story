@@ -1,0 +1,314 @@
+T1	Time 7 18	27 nov 2020
+A1	Time_Type T1 Date
+A2	TemporalFunction T1 Publication_Time
+#1	AnnotatorNotes T1	value=2020-11-27
+T2	Time 139 143	hoje
+A3	Time_Type T2 Date
+A4	TemporalFunction T2 Publication_Time
+#2	AnnotatorNotes T2	value=2020-11-27 anchorTime=Publication_Time
+T3	Event 132 138	detido
+A5	Class T3 Occurrence
+A6	Event_Type T3 Transition
+A7	Pos T3 Verb
+A8	Tense T3 Past
+A9	Aspect T3 Perfective
+A10	Polarity T3 Pos
+T4	Event 148 183	maltratar física e psicologicamente
+A11	Class T4 Occurrence
+A12	Event_Type T4 Process
+A13	Pos T4 Verb
+A14	VForm T4 Infinitive
+A15	Polarity T4 Pos
+T5	Event 237 244	referiu
+A16	Class T5 Reporting
+A17	Event_Type T5 Transition
+A18	Pos T5 Verb
+A19	Tense T5 Past
+A20	Aspect T5 Perfective
+A21	Polarity T5 Pos
+T6	Event 272 280	denúncia
+A22	Class T6 Reporting
+A23	Event_Type T6 Transition
+A24	Pos T6 Noun
+A25	Polarity T6 Pos
+T7	Event 298 305	ocorrer
+A26	Class T7 Occurrence
+A27	Event_Type T7 Transition
+A28	Pos T7 Verb
+A29	Tense T7 Past
+A30	Aspect T7 Progressive
+A31	VForm T7 Infinitive
+A32	Mood T7 Conditional
+A33	Polarity T7 Pos
+T8	Event 309 314	crime
+A34	Class T8 State
+A35	Event_Type T8 State
+A36	Pos T8 Noun
+A37	Polarity T8 Pos
+T9	Event 318 337	violência doméstica
+A38	Class T9 State
+A39	Event_Type T9 State
+A40	Pos T9 Noun
+A41	Polarity T9 Pos
+T10	Event 352 365	deslocaram-se
+A42	Class T10 Occurrence
+A43	Event_Type T10 Transition
+A44	Pos T10 Verb
+A45	Tense T10 Past
+A46	Aspect T10 Perfective
+A47	Polarity T10 Pos
+T11	Event 377 385	apuraram
+A48	Class T11 Perception
+A49	Event_Type T11 Transition
+A50	Pos T11 Verb
+A51	Tense T11 Past
+A52	Aspect T11 Perfective
+A53	Polarity T11 Pos
+T12	Event 411 419	infligir
+A54	Class T12 Occurrence
+A55	Event_Type T12 Process
+A56	Pos T12 Verb
+A57	Tense T12 Past
+A58	Aspect T12 Progressive
+A59	VForm T12 Infinitive
+A60	Mood T12 Conditional
+A61	Polarity T12 Pos
+T13	Event 420 454	maus-tratos físicos e psicológicos
+A62	Class T13 State
+A63	Event_Type T13 State
+A64	Pos T13 Noun
+A65	Polarity T13 Pos
+T14	Event 465 481	ameaças de morte
+A66	Class T14 Occurrence
+A67	Event_Type T14 Transition
+A68	Pos T14 Verb
+A69	Polarity T14 Pos
+T15	Event 486 493	recurso
+A70	Class T15 State
+A71	Event_Type T15 State
+A72	Pos T15 Noun
+A73	Polarity T15 Pos
+T16	Event 517 526	sublinhou
+A74	Class T16 Reporting
+A75	Event_Type T16 Transition
+A76	Pos T16 Verb
+A77	Tense T16 Past
+A78	Aspect T16 Perfective
+A79	Polarity T16 Pos
+T17	Event 551 561	comunicado
+A80	Class T17 Reporting
+A81	Event_Type T17 Transition
+A82	Pos T17 Noun
+A83	Polarity T17 Pos
+T18	Event 570 580	realização
+A84	Class T18 Occurrence
+A85	Event_Type T18 Process
+A86	Pos T18 Noun
+A87	Polarity T18 Pos
+T19	Event 588 606	busca domiciliária
+A88	Class T19 Occurrence
+A89	Event_Type T19 Process
+A90	Pos T19 Noun
+A91	Polarity T19 Pos
+T20	Event 614 623	apreendeu
+A92	Class T20 Occurrence
+A93	Event_Type T20 Transition
+A94	Pos T20 Verb
+A95	Tense T20 Past
+A96	Aspect T20 Perfective
+A97	Polarity T20 Pos
+T21	Event 644 650	frisou
+A98	Class T21 Reporting
+A99	Event_Type T21 Transition
+A100	Pos T21 Verb
+A101	Tense T21 Past
+A102	Aspect T21 Perfective
+A103	Polarity T21 Pos
+T22	Event 668 690	antecedentes criminais
+A104	Class T22 State
+A105	Event_Type T22 State
+A106	Pos T22 Noun
+A107	Polarity T22 Pos
+T23	Event 696 703	prática
+A108	Class T23 Occurrence
+A109	Event_Type T23 Process
+A110	Pos T23 Noun
+A111	Polarity T23 Pos
+T24	Event 715 721	crimes
+A112	Class T24 State
+A113	Event_Type T24 State
+A114	Pos T24 Noun
+A115	Polarity T24 Pos
+T25	Event 727 733	detido
+A116	Class T25 Occurrence
+A117	Event_Type T25 Transition
+A118	Pos T25 Verb
+A119	Tense T25 Past
+A120	Aspect T25 Perfective
+A121	Polarity T25 Pos
+T26	Event 736 752	vai ser presente
+A122	Class T26 Occurrence
+A123	Event_Type T26 Transition
+A124	Pos T26 Verb
+A125	Tense T26 Future
+A126	Mood T26 Future
+A127	Polarity T26 Pos
+T27	Event 755 778	primeiro interrogatório
+A128	Class T27 Occurrence
+A129	Event_Type T27 Transition
+A130	Pos T27 Noun
+A131	Polarity T27 Pos
+T28	Time 813 819	sábado
+A132	Time_Type T28 Date
+A133	TemporalFunction T28 None
+#3	AnnotatorNotes T28	value=2020-11-28 anchorTime=Publication_Time
+R1	TLINK_isIncluded Arg1:T3 Arg2:T2	
+R2	TLINK_before Arg1:T4 Arg2:T3	
+R3	TLINK_after Arg1:T5 Arg2:T3	
+R4	SLINK_evidential Arg1:T5 Arg2:T3	
+R5	TLINK_before Arg1:T6 Arg2:T5	
+R6	TLINK_includes Arg1:T7 Arg2:T6	
+R7	TLINK_identity Arg1:T9 Arg2:T8	
+R8	TLINK_identity Arg1:T8 Arg2:T7	
+R9	TLINK_after Arg1:T10 Arg2:T6	
+R10	TLINK_after Arg1:T11 Arg2:T10	
+R11	TLINK_includes Arg1:T12 Arg2:T11	
+R12	TLINK_identity Arg1:T13 Arg2:T12	
+R13	TLINK_simultaneous Arg1:T14 Arg2:T13	
+R14	TLINK_simultaneous Arg1:T15 Arg2:T12	
+R15	TLINK_after Arg1:T16 Arg2:T14	
+R16	TLINK_includes Arg1:T17 Arg2:T16	
+R17	SLINK_evidential Arg1:T16 Arg2:T10	
+R18	TLINK_identity Arg1:T19 Arg2:T18	
+R19	TLINK_after Arg1:T20 Arg2:T19	
+R20	TLINK_after Arg1:T21 Arg2:T20	
+R21	SLINK_evidential Arg1:T21 Arg2:T20	
+R22	TLINK_includes Arg1:T22 Arg2:T21	
+R23	TLINK_before Arg1:T23 Arg2:T22	
+R24	TLINK_identity Arg1:T24 Arg2:T23	
+R25	TLINK_before Arg1:T25 Arg2:T21	
+R26	TLINK_after Arg1:T26 Arg2:T25	
+R27	TLINK_identity Arg1:T27 Arg2:T26	
+R28	TLINK_isIncluded Arg1:T27 Arg2:T28	
+T29	Participant 108 127	Um homem de 50 anos
+A134	Lexical_Head T29 Noun
+A135	Individuation_Domain T29 Individual
+A136	Participant_Type_Domain T29 Per
+A137	Involvement T29 1
+T30	Participant 184 200	a mãe de 73 anos
+A138	Lexical_Head T30 Noun
+A139	Individuation_Domain T30 Individual
+A140	Participant_Type_Domain T30 Per
+A141	Involvement T30 1
+T31	Participant 205 213	Gondomar
+A142	Lexical_Head T31 Noun
+A143	Individuation_Domain T31 Individual
+A144	Participant_Type_Domain T31 Loc
+A145	Involvement T31 1
+T32	Participant 218 235	distrito do Porto
+A146	Lexical_Head T32 Noun
+A147	Individuation_Domain T32 Individual
+A148	Participant_Type_Domain T32 Loc
+A149	Involvement T32 1
+R29	OLINK_partOf Arg1:T31 Arg2:T32	
+T33	Participant 245 250	a GNR
+A150	Lexical_Head T33 Noun
+A151	Individuation_Domain T33 Individual
+A152	Participant_Type_Domain T33 Org
+A153	Involvement T33 1
+T34	Participant 339 351	os militares
+A154	Lexical_Head T34 Noun
+A155	Individuation_Domain T34 Individual
+A156	Participant_Type_Domain T34 Per
+A157	Involvement T34 >1
+R30	OLINK_partOf Arg1:T34 Arg2:T33	
+T35	Participant 369 374	local
+A158	Lexical_Head T35 Noun
+A159	Individuation_Domain T35 Individual
+A160	Participant_Type_Domain T35 Loc
+A161	Involvement T35 1
+R31	OLINK_objIdentity Arg1:T35 Arg2:T31	
+T36	Participant 390 400	o suspeito
+A162	Lexical_Head T36 Noun
+A163	Individuation_Domain T36 Individual
+A164	Participant_Type_Domain T36 Per
+A165	Involvement T36 1
+R32	OLINK_objIdentity Arg1:T36 Arg2:T29	
+T37	Participant 496 509	armas brancas
+A166	Lexical_Head T37 Noun
+A167	Individuation_Domain T37 Individual
+A168	Participant_Type_Domain T37 Obj
+A169	Involvement T37 >1
+T38	Participant 512 515	mãe
+A170	Lexical_Head T38 Noun
+A171	Individuation_Domain T38 Individual
+A172	Participant_Type_Domain T38 Per
+A173	Involvement T38 1
+R33	OLINK_objIdentity Arg1:T38 Arg2:T30	
+T39	Participant 527 546	esta força policial
+A174	Lexical_Head T39 Noun
+A175	Individuation_Domain T39 Individual
+A176	Participant_Type_Domain T39 Org
+A177	Involvement T39 1
+R34	OLINK_objIdentity Arg1:T39 Arg2:T33	
+T40	Participant 608 613	a GNR
+A178	Lexical_Head T40 Noun
+A179	Individuation_Domain T40 Individual
+A180	Participant_Type_Domain T40 Org
+A181	Involvement T40 1
+R35	OLINK_objIdentity Arg1:T40 Arg2:T39	
+T41	Participant 624 642	duas armas brancas
+A182	Lexical_Head T41 Noun
+A183	Individuation_Domain T41 Individual
+A184	Participant_Type_Domain T41 Obj
+A185	Involvement T41 >1
+T42	Participant 652 662	O suspeito
+A186	Lexical_Head T42 Noun
+A187	Individuation_Domain T42 Individual
+A188	Participant_Type_Domain T42 Per
+A189	Involvement T42 1
+T43	Participant 782 808	Tribunal Judicial do Porto
+A190	Lexical_Head T43 Noun
+A191	Individuation_Domain T43 Individual
+A192	Participant_Type_Domain T43 Org
+A193	Involvement T43 1
+R36	OLINK_objIdentity Arg1:T41 Arg2:T37	
+R37	OLINK_objIdentity Arg1:T42 Arg2:T36	
+R38	SRLINK_patient Arg1:T3 Arg2:T29	
+R39	SRLINK_reason Arg1:T3 Arg2:T4	
+R40	SRLINK_agent Arg1:T4 Arg2:T29	
+R41	SRLINK_beneficiary Arg1:T4 Arg2:T30	
+R42	SRLINK_location Arg1:T3 Arg2:T31	
+R43	SRLINK_location Arg1:T3 Arg2:T32	
+R44	SRLINK_theme Arg1:T5 Arg2:T3	
+R45	SRLINK_agent Arg1:T5 Arg2:T33	
+R46	SLINK_evidential Arg1:T6 Arg2:T7	
+R47	SRLINK_theme Arg1:T7 Arg2:T8	
+R48	SRLINK_theme Arg1:T8 Arg2:T9	
+R49	SRLINK_agent Arg1:T10 Arg2:T34	
+R50	SRLINK_finalLocation Arg1:T10 Arg2:T35	
+R51	SRLINK_agent Arg1:T11 Arg2:T34	
+R52	SRLINK_theme Arg1:T11 Arg2:T12	
+R53	SLINK_evidential Arg1:T11 Arg2:T12	
+R54	SRLINK_agent Arg1:T12 Arg2:T36	
+R55	SRLINK_theme Arg1:T12 Arg2:T13	
+R56	SRLINK_theme Arg1:T12 Arg2:T14	
+R57	SRLINK_reason Arg1:T10 Arg2:T6	
+R58	SRLINK_manner Arg1:T12 Arg2:T15	
+R59	SRLINK_theme Arg1:T15 Arg2:T37	
+R60	SRLINK_beneficiary Arg1:T12 Arg2:T38	
+R61	SRLINK_theme Arg1:T16 Arg2:T10	
+R62	SRLINK_agent Arg1:T16 Arg2:T39	
+R63	SRLINK_medium Arg1:T16 Arg2:T17	
+R64	SRLINK_agent Arg1:T18 Arg2:T40	
+R65	SRLINK_agent Arg1:T20 Arg2:T40	
+R66	SRLINK_patient Arg1:T20 Arg2:T41	
+R67	SRLINK_theme Arg1:T21 Arg2:T20	
+R68	SRLINK_pivot Arg1:T22 Arg2:T42	
+R69	SRLINK_agent Arg1:T23 Arg2:T42	
+R70	SRLINK_reason Arg1:T22 Arg2:T23	
+R71	SRLINK_theme Arg1:T23 Arg2:T24	
+R72	SRLINK_patient Arg1:T25 Arg2:T42	
+R73	SRLINK_patient Arg1:T26 Arg2:T42	
+R74	SRLINK_purpose Arg1:T26 Arg2:T27	
+R75	SRLINK_goal Arg1:T26 Arg2:T43	

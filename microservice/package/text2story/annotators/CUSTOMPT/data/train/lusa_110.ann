@@ -1,0 +1,394 @@
+T1	Event 137 139	lê
+A1	Class T1 Occurrence
+A2	Event_Type T1 Process
+A3	Pos T1 Verb
+A4	Tense T1 Present
+A5	Aspect T1 Imperfective
+A6	Polarity T1 Pos
+T2	Time 140 144	hoje
+A7	Time_Type T2 Date
+A8	TemporalFunction T2 Publication_Time
+#1	AnnotatorNotes T2	value=2020-10-20
+T3	Event 147 155	sentença
+A9	Event_Type T3 Transition
+A10	Pos T3 Noun
+A11	Polarity T3 Pos
+T4	Event 159 163	caso
+A12	Class T4 Occurrence
+A13	Event_Type T4 Process
+A14	Pos T4 Noun
+A15	Polarity T4 Pos
+T5	Event 167 173	desvio
+A16	Class T5 Occurrence
+A17	Event_Type T5 Process
+A18	Pos T5 Noun
+A19	Polarity T5 Pos
+T6	Event 279 288	respondem
+A20	Class T6 Occurrence
+A21	Event_Type T6 Process
+A22	Pos T6 Verb
+A23	Tense T6 Present
+A24	Aspect T6 Imperfective
+A25	Polarity T6 Pos
+T7	Event 295 301	crimes
+A26	Class T7 Occurrence
+A27	Event_Type T7 Process
+A28	Pos T7 Noun
+A29	Polarity T7 Pos
+T8	Event 305 313	peculato
+A30	Class T8 Occurrence
+A31	Event_Type T8 Process
+A32	Pos T8 Noun
+A33	Polarity T8 Pos
+T9	Event 315 328	branqueamento
+A34	Class T9 Occurrence
+A35	Event_Type T9 Process
+A36	Pos T9 Noun
+A37	Polarity T9 Pos
+T10	Event 342 354	falsificação
+A38	Class T10 Occurrence
+A39	Event_Type T10 Process
+A40	Pos T10 Noun
+A41	Polarity T10 Pos
+T11	Event 370 387	furto informático
+A42	Class T11 Occurrence
+A43	Event_Type T11 Process
+A44	Pos T11 Noun
+A45	Polarity T11 Pos
+T12	Event 390 453	fraude relativa a instrumentos e canais de pagamento eletrónico
+A46	Class T12 Occurrence
+A47	Event_Type T12 Process
+A48	Pos T12 Noun
+A49	Polarity T12 Pos
+T14	Event 455 458	São
+A54	Class T14 State
+A55	Event_Type T14 State
+A56	Pos T14 Verb
+A57	Tense T14 Present
+A58	Aspect T14 Progressive
+A59	Polarity T14 Pos
+T16	Event 505 514	foragidos
+A66	Class T16 State
+A67	Event_Type T16 State
+A68	Pos T16 Verb
+T17	Event 526 536	coordenado
+A70	Class T17 Occurrence
+A71	Event_Type T17 Process
+A72	Pos T17 Verb
+A73	Tense T17 Future
+A74	Aspect T17 Perfective
+A75	VForm T17 Participle
+A76	Polarity T17 Pos
+T18	Event 539 552	transferência
+A77	Class T18 Occurrence
+A78	Event_Type T18 Transition
+A79	Pos T18 Noun
+A80	Polarity T18 Pos
+T19	Event 555 573	apropriação ilegal
+A81	Class T19 Occurrence
+A82	Event_Type T19 Transition
+A83	Pos T19 Noun
+A84	Polarity T19 Pos
+T20	Event 732 740	tutelada
+A85	Class T20 State
+A86	Event_Type T20 State
+A87	Pos T20 Verb
+A88	Tense T20 Past
+A89	Aspect T20 Progressive
+A90	VForm T20 Participle
+A91	Polarity T20 Pos
+T21	Event 807 813	emitiu
+A92	Event_Type T21 Transition
+A93	Pos T21 Verb
+A94	Tense T21 Past
+A95	Aspect T21 Perfective
+A96	Polarity T21 Pos
+T22	Time 818 826	setembro
+A97	Time_Type T22 Time
+A98	TemporalFunction T22 None
+#2	AnnotatorNotes T22	value=2020-09-XX anchorTime=Publication_Time
+T23	Event 828 836	mandados
+A99	Class T23 State
+A100	Event_Type T23 State
+A101	Pos T23 Noun
+A102	Polarity T23 Pos
+T24	Event 840 861	captura internacional
+A103	Class T24 Occurrence
+A104	Event_Type T24 Transition
+A105	Pos T24 Noun
+A106	Polarity T24 Pos
+T25	Event 925 931	usadas
+A107	Event_Type T25 Process
+A108	Pos T25 Verb
+A109	Tense T25 Past
+A110	Aspect T25 Perfective
+A111	VForm T25 Participle
+A112	Polarity T25 Pos
+T26	Event 943 948	estão
+A113	Class T26 State
+A114	Event_Type T26 State
+A115	Pos T26 Verb
+A116	Tense T26 Present
+A117	Aspect T26 Progressive
+A118	Polarity T26 Pos
+T27	Event 964 971	detidas
+A119	Event_Type T27 State
+A121	Tense T27 Past
+A122	Aspect T27 Imperfective
+A120	Class T27 State
+A123	VForm T27 Participle
+T28	Event 1037 1043	tinham
+A124	Class T28 State
+A125	Event_Type T28 State
+A126	Pos T28 Verb
+A127	Tense T28 Past
+A129	Polarity T28 Pos
+T29	Event 1044 1063	relações comerciais
+A128	Class T29 Occurrence
+A130	Event_Type T29 Process
+A131	Pos T29 Noun
+A132	Polarity T29 Pos
+R1	TLINK_isIncluded Arg1:T1 Arg2:T2	
+A133	Class T3 Occurrence
+R2	TLINK_before Arg1:T4 Arg2:T3	
+R3	TLINK_identity Arg1:T5 Arg2:T4	
+R4	TLINK_before Arg1:T7 Arg2:T6	
+R5	TLINK_identity Arg1:T8 Arg2:T7	
+R6	TLINK_identity Arg1:T9 Arg2:T7	
+R7	TLINK_identity Arg1:T10 Arg2:T7	
+R8	TLINK_identity Arg1:T11 Arg2:T7	
+R9	TLINK_identity Arg1:T12 Arg2:T7	
+R10	TLINK_identity Arg1:T3 Arg2:T1	
+R11	TLINK_after Arg1:T6 Arg2:T5	
+R12	TLINK_includes Arg1:T14 Arg2:T6	
+A60	Tense T16 Present
+A61	Aspect T16 Progressive
+A62	VForm T16 Participle
+R13	TLINK_simultaneous Arg1:T16 Arg2:T14	
+R14	TLINK_before Arg1:T17 Arg2:T16	
+R15	TLINK_after Arg1:T19 Arg2:T18	
+R16	TLINK_isIncluded Arg1:T18 Arg2:T17	
+R17	TLINK_includes Arg1:T20 Arg2:T17	
+R18	TLINK_isIncluded Arg1:T21 Arg2:T20	
+R19	TLINK_isIncluded Arg1:T21 Arg2:T22	
+R20	TLINK_includes Arg1:T26 Arg2:T25	
+R21	TLINK_after Arg1:T24 Arg2:T23	
+R22	TLINK_includes Arg1:T27 Arg2:T26	
+R23	TLINK_identity Arg1:T29 Arg2:T28	
+R24	TLINK_isIncluded Arg1:T28 Arg2:T27	
+T15	Participant 97 116	O Tribunal Judicial
+T30	Participant 118 136	a Cidade de Maputo
+A63	Lexical_Head T30 Noun
+A64	Individuation_Domain T30 Individual
+A65	Participant_Type_Domain T30 Loc
+A69	Involvement T30 1
+A134	Lexical_Head T15 Noun
+A135	Individuation_Domain T15 Individual
+A136	Participant_Type_Domain T15 Org
+A137	Involvement T15 1
+T31	Participant 177 205	mais de 1,8 milhões de euros
+A138	Lexical_Head T31 Noun
+A139	Individuation_Domain T31 Individual
+A140	Participant_Type_Domain T31 Obj
+A141	Involvement T31 >1
+T32	Participant 207 222	uma instituição
+A142	Lexical_Head T32 Noun
+A143	Individuation_Domain T32 Individual
+A144	Participant_Type_Domain T32 Org
+A145	Involvement T32 1
+T33	Participant 224 265	o Ministério da Economia e Finanças (MEF)
+A146	Lexical_Head T33 Noun
+A147	Individuation_Domain T33 Individual
+A148	Participant_Type_Domain T33 Org
+A149	Involvement T33 1
+R25	OLINK_partOf Arg1:T32 Arg2:T33	
+R26	OLINK_partOf Arg1:T15 Arg2:T30	
+T34	Participant 267 278	Os arguidos
+A150	Lexical_Head T34 Noun
+A151	Individuation_Domain T34 Individual
+A152	Participant_Type_Domain T34 Per
+A153	Involvement T34 >1
+T35	Participant 332 340	capitais
+A154	Lexical_Head T35 Noun
+A155	Individuation_Domain T35 Individual
+A156	Participant_Type_Domain T35 Obj
+A157	Involvement T35 Und
+T36	Participant 358 368	documentos
+A158	Lexical_Head T36 Noun
+A159	Individuation_Domain T36 Individual
+A160	Participant_Type_Domain T36 Obj
+A161	Involvement T36 Und
+T13	Participant 468 482	cinco arguidos
+A50	Lexical_Head T13 Noun
+A51	Individuation_Domain T13 Individual
+A52	Participant_Type_Domain T13 Per
+A53	Involvement T13 >1
+T37	Participant 485 493	os quais
+A162	Lexical_Head T37 Pronoun
+A163	Individuation_Domain T37 Individual
+A164	Participant_Type_Domain T37 Per
+A165	Involvement T37 >1
+R27	OLINK_objIdentity Arg1:T13 Arg2:T37	
+T38	Participant 577 631	155 milhões de meticais (mais de 1,8 milhões de euros)
+A166	Lexical_Head T38 Noun
+A167	Individuation_Domain T38 Individual
+A168	Participant_Type_Domain T38 Obj
+A169	Involvement T38 >1
+T39	Participant 635 641	contas
+A170	Lexical_Head T39 Noun
+A171	Individuation_Domain T39 Individual
+A172	Participant_Type_Domain T39 Other
+A173	Involvement T39 Und
+T40	Participant 643 717	o Centro de Desenvolvimento de Sistemas de Informação de Finanças (Cedsif)
+A174	Lexical_Head T40 Noun
+A175	Individuation_Domain T40 Individual
+A176	Involvement T40 1
+T41	Participant 719 731	uma entidade
+A177	Lexical_Head T41 Noun
+A178	Individuation_Domain T41 Individual
+A179	Participant_Type_Domain T41 Org
+A180	Involvement T41 1
+T42	Participant 744 749	o MEF
+A181	Lexical_Head T42 Noun
+A182	Individuation_Domain T42 Individual
+A183	Participant_Type_Domain T42 Org
+A184	Involvement T42 1
+R28	OLINK_partOf Arg1:T38 Arg2:T39	
+R29	OLINK_partOf Arg1:T39 Arg2:T40	
+R30	OLINK_objIdentity Arg1:T41 Arg2:T40	
+R31	OLINK_objIdentity Arg1:T13 Arg2:T34	
+R32	OLINK_objIdentity Arg1:T42 Arg2:T33	
+T43	Participant 756 762	contas
+A185	Lexical_Head T43 Noun
+A186	Individuation_Domain T43 Individual
+A187	Participant_Type_Domain T43 Other
+A188	Involvement T43 Und
+T44	Participant 766 783	empresas privadas
+A189	Lexical_Head T44 Noun
+A190	Individuation_Domain T44 Individual
+A191	Participant_Type_Domain T44 Org
+A192	Involvement T44 >1
+R33	OLINK_partOf Arg1:T43 Arg2:T44	
+T45	Participant 785 806	A justiça moçambicana
+A193	Lexical_Head T45 Noun
+A194	Individuation_Domain T45 Individual
+A195	Participant_Type_Domain T45 Org
+A196	Involvement T45 1
+T46	Participant 869 886	os três foragidos
+A197	Lexical_Head T46 Noun
+A198	Individuation_Domain T46 Individual
+A199	Participant_Type_Domain T46 Per
+A200	Involvement T46 >1
+R34	OLINK_objIdentity Arg1:T46 Arg2:T37	
+T47	Participant 894 905	as empresas
+A201	Lexical_Head T47 Noun
+A202	Individuation_Domain T47 Individual
+A203	Participant_Type_Domain T47 Org
+A204	Involvement T47 >1
+T48	Participant 906 911	cujas
+A205	Lexical_Head T48 Pronoun
+A206	Individuation_Domain T48 Individual
+A207	Participant_Type_Domain T48 Org
+A208	Involvement T48 >1
+T49	Participant 912 918	contas
+A209	Lexical_Head T49 Noun
+A210	Individuation_Domain T49 Individual
+A211	Participant_Type_Domain T49 Other
+A212	Involvement T49 Und
+R35	OLINK_objIdentity Arg1:T48 Arg2:T47	
+R36	OLINK_partOf Arg1:T49 Arg2:T47	
+T51	Participant 949 963	algumas firmas
+A217	Lexical_Head T51 Noun
+A218	Individuation_Domain T51 Individual
+A219	Participant_Type_Domain T51 Org
+A220	Involvement T51 >1
+R37	OLINK_partOf Arg1:T51 Arg2:T47	
+T52	Participant 976 988	funcionários
+A221	Lexical_Head T52 Noun
+A222	Individuation_Domain T52 Individual
+A223	Participant_Type_Domain T52 Per
+A224	Involvement T52 >1
+T53	Participant 990 1018	a Autoridade Tributária (AT)
+A225	Lexical_Head T53 Noun
+A226	Individuation_Domain T53 Individual
+A227	Participant_Type_Domain T53 Org
+A228	Involvement T53 1
+T54	Participant 1022 1032	Moçambique
+A229	Lexical_Head T54 Noun
+A230	Individuation_Domain T54 Individual
+A231	Participant_Type_Domain T54 Loc
+A232	Involvement T54 1
+R38	OLINK_partOf Arg1:T52 Arg2:T53	
+R39	OLINK_partOf Arg1:T53 Arg2:T54	
+T55	Participant 1033 1036	que
+A233	Lexical_Head T55 Pronoun
+A234	Individuation_Domain T55 Individual
+A235	Participant_Type_Domain T55 Per
+A236	Involvement T55 >1
+R40	OLINK_objIdentity Arg1:T55 Arg2:T52	
+T56	Participant 1068 1076	o Cedsif
+A237	Lexical_Head T56 Noun
+A238	Individuation_Domain T56 Individual
+A239	Participant_Type_Domain T56 Org
+A240	Involvement T56 1
+R41	OLINK_objIdentity Arg1:T56 Arg2:T40	
+R42	SRLINK_agent Arg1:T1 Arg2:T15	
+R43	SRLINK_theme Arg1:T1 Arg2:T3	
+R44	SRLINK_theme Arg1:T3 Arg2:T4	
+R45	SRLINK_theme Arg1:T4 Arg2:T5	
+R46	SRLINK_theme Arg1:T5 Arg2:T31	
+R47	SRLINK_location Arg1:T5 Arg2:T32	
+R48	SRLINK_source Arg1:T5 Arg2:T33	
+R49	SRLINK_agent Arg1:T6 Arg2:T34	
+R50	SRLINK_reason Arg1:T6 Arg2:T7	
+R51	SRLINK_theme Arg1:T9 Arg2:T35	
+R52	SRLINK_theme Arg1:T10 Arg2:T36	
+R53	SRLINK_theme Arg1:T7 Arg2:T8	
+R54	SRLINK_theme Arg1:T7 Arg2:T9	
+R55	SRLINK_theme Arg1:T7 Arg2:T10	
+R56	SRLINK_theme Arg1:T7 Arg2:T11	
+R57	SRLINK_theme Arg1:T7 Arg2:T12	
+R58	SRLINK_pivot Arg1:T14 Arg2:T13	
+R59	SRLINK_pivot Arg1:T16 Arg2:T37	
+R60	SRLINK_agent Arg1:T17 Arg2:T37	
+R61	SRLINK_theme Arg1:T17 Arg2:T18	
+R62	SRLINK_theme Arg1:T17 Arg2:T19	
+R63	SRLINK_theme Arg1:T19 Arg2:T38	
+R64	SRLINK_patient Arg1:T18 Arg2:T38	
+R65	SRLINK_initialLocation Arg1:T18 Arg2:T39	
+R66	SRLINK_pivot Arg1:T20 Arg2:T41	
+R67	SRLINK_agent Arg1:T20 Arg2:T42	
+R68	SRLINK_finalLocation Arg1:T18 Arg2:T43	
+R69	SRLINK_source Arg1:T18 Arg2:T40	
+R70	SRLINK_goal Arg1:T18 Arg2:T44	
+R71	SRLINK_agent Arg1:T21 Arg2:T45	
+R72	SRLINK_theme Arg1:T21 Arg2:T23	
+R73	SRLINK_theme Arg1:T23 Arg2:T24	
+R74	SRLINK_goal Arg1:T23 Arg2:T46	
+A241	Class T25 Occurrence
+R75	SRLINK_theme Arg1:T25 Arg2:T49	
+R77	SRLINK_pivot Arg1:T26 Arg2:T47	
+R78	SRLINK_theme Arg1:T26 Arg2:T51	
+R79	SRLINK_pivot Arg1:T27 Arg2:T51	
+R80	SRLINK_agent Arg1:T27 Arg2:T52	
+R81	SRLINK_pivot Arg1:T28 Arg2:T55	
+R82	SRLINK_theme Arg1:T28 Arg2:T29	
+R83	SRLINK_partner Arg1:T28 Arg2:T56	
+T57	Time 8 19	20 out 2020
+A242	Time_Type T57 Date
+A243	TemporalFunction T57 Publication_Time
+#3	AnnotatorNotes T57	value=2020-10-20
+T58	Participant 494 498	três
+A244	Lexical_Head T58 Noun
+A245	Individuation_Domain T58 Individual
+A246	Participant_Type_Domain T58 Per
+A247	Involvement T58 >1
+R84	OLINK_objIdentity Arg1:T46 Arg2:T58	
+R85	OLINK_partOf Arg1:T58 Arg2:T37	
+T50	Event 935 942	esquema
+A213	Class T50 Occurrence
+A214	Event_Type T50 Process
+A215	Pos T50 Noun
+A216	Polarity T50 Pos
+R76	SRLINK_setting Arg1:T25 Arg2:T50	
+R86	TLINK_identity Arg1:T2 Arg2:T57	

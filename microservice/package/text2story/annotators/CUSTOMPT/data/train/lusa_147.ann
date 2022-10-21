@@ -1,0 +1,497 @@
+T1	Time 14 25	30 dez 2020
+A1	Time_Type T1 Date
+A2	TemporalFunction T1 Publication_Time
+#1	AnnotatorNotes T1	value=2020-12-30
+T2	Event 94 102	anunciou
+A3	Class T2 Reporting
+A4	Event_Type T2 Transition
+A5	Pos T2 Verb
+A6	Tense T2 Past
+A7	Aspect T2 Perfective
+A8	Polarity T2 Pos
+T3	Time 103 107	hoje
+A9	Time_Type T3 Date
+A10	TemporalFunction T3 Publication_Time
+#2	AnnotatorNotes T3	value=2020-12-30 anchorTime=Publication_Time
+T4	Event 112 120	resgatou
+A11	Class T4 Occurrence
+A12	Event_Type T4 Transition
+A13	Pos T4 Verb
+A14	Tense T4 Past
+A15	Aspect T4 Perfective
+A16	Polarity T4 Pos
+T5	Event 131 149	constituiu arguido
+A17	Class T5 Occurrence
+A18	Event_Type T5 Transition
+A19	Pos T5 Verb
+A20	Tense T5 Past
+A21	Aspect T5 Perfective
+A22	Polarity T5 Pos
+T6	Event 177 182	crime
+A23	Class T6 State
+A24	Event_Type T6 State
+A25	Pos T6 Noun
+A26	Polarity T6 Pos
+T7	Event 186 197	maus-tratos
+A27	Event_Type T7 Process
+A28	Pos T7 Noun
+A29	Polarity T7 Pos
+T8	Event 305 311	refere
+A30	Class T8 Reporting
+A31	Event_Type T8 Transition
+A32	Pos T8 Verb
+A33	Tense T8 Present
+A34	Aspect T8 Imperfective
+A35	Polarity T8 Pos
+T9	Event 315 325	comunicado
+A36	Class T9 Reporting
+A37	Event_Type T9 Transition
+A38	Pos T9 Noun
+A39	Polarity T9 Pos
+T10	Event 347 357	resgatados
+A40	Class T10 Occurrence
+A41	Event_Type T10 Transition
+A42	Pos T10 Verb
+A43	Tense T10 Past
+A44	Aspect T10 Perfective
+A45	Polarity T10 Pos
+T11	Event 370 374	ação
+A46	Class T11 Occurrence
+A47	Event_Type T11 Process
+A48	Pos T11 Noun
+A49	Polarity T11 Pos
+T12	Event 375 384	realizada
+A50	Class T12 Occurrence
+A51	Event_Type T12 Process
+A52	VForm T12 Participle
+A53	Polarity T12 Pos
+A54	Tense T12 Past
+A55	Aspect T12 Perfective
+T13	Time 388 399	terça-feira
+A56	Time_Type T13 Date
+A57	TemporalFunction T13 None
+#3	AnnotatorNotes T13	value=2020-12-29 anchorTime=Publication_Time
+T14	Event 553 565	investigação
+A58	Class T14 Occurrence
+A59	Event_Type T14 Process
+A60	Pos T14 Noun
+A61	Polarity T14 Pos
+T15	Event 570 581	maus-tratos
+A62	Class T15 Occurrence
+A63	Event_Type T15 Process
+A64	Pos T15 Noun
+A65	Polarity T15 Pos
+T16	Event 619 636	deram cumprimento
+A66	Class T16 Occurrence
+A67	Event_Type T16 Transition
+A68	Pos T16 Verb
+A69	Tense T16 Past
+A70	Aspect T16 Perfective
+A71	Polarity T16 Pos
+T17	Event 642 649	mandado
+A72	Class T17 Occurrence
+A73	Event_Type T17 Transition
+A74	Pos T17 Noun
+A75	Polarity T17 Pos
+T18	Event 653 671	busca domiciliária
+A76	Class T18 Occurrence
+A77	Event_Type T18 Process
+A78	Pos T18 Noun
+A79	Polarity T18 Pos
+T19	Event 680 689	depararam
+A80	Class T19 Perception
+A81	Event_Type T19 Transition
+A82	Pos T19 Verb
+A83	Tense T19 Past
+A84	Aspect T19 Perfective
+A85	Polarity T19 Pos
+T20	Event 708 722	sobrepopulação
+A86	Class T20 State
+A87	Event_Type T20 State
+A88	Pos T20 Noun
+A89	Polarity T20 Pos
+T21	Event 732 756	sem condições de higiene
+A90	Class T21 State
+A91	Event_Type T21 State
+A92	Pos T21 Noun
+A93	Polarity T21 Neg
+T22	Event 767 774	visível
+A94	Class T22 State
+A95	Event_Type T22 State
+A96	Pos T22 Verb
+A97	Tense T22 Past
+A98	Aspect T22 Progressive
+A99	Polarity T22 Pos
+T23	Event 777 791	falta de trato
+A100	Class T23 State
+A101	Event_Type T23 State
+A102	Pos T23 Noun
+A103	Polarity T23 Pos
+T24	Event 806 811	lê-se
+A104	Class T24 Occurrence
+A105	Event_Type T24 Process
+A106	Pos T24 Verb
+A107	Tense T24 Present
+A108	Aspect T24 Imperfective
+A109	Polarity T24 Pos
+T25	Event 815 819	nota
+A110	Class T25 Reporting
+A111	Event_Type T25 State
+A112	Pos T25 Noun
+A113	Polarity T25 Pos
+T26	Event 829 839	acrescenta
+A114	Class T26 Reporting
+A115	Event_Type T26 Transition
+A116	Pos T26 Verb
+A117	Tense T26 Present
+A118	Aspect T26 Imperfective
+A119	Polarity T26 Pos
+T27	Event 862 883	diligências policiais
+A120	Class T27 Occurrence
+A121	Event_Type T27 Process
+A122	Pos T27 Noun
+A123	Polarity T27 Pos
+T28	Event 892 902	resgatados
+A124	Class T28 Occurrence
+A125	Event_Type T28 Transition
+A126	Pos T28 Verb
+A127	Tense T28 Past
+A128	Aspect T28 Perfective
+A129	Polarity T28 Pos
+T29	Event 918 946	sem identificação eletrónica
+A130	Class T29 State
+A131	Event_Type T29 State
+A132	Pos T29 Noun
+A133	Polarity T29 Neg
+T30	Event 948 959	sem registo
+A134	Class T30 State
+A135	Event_Type T30 State
+A136	Pos T30 Noun
+A137	Polarity T30 Pos
+T31	Event 962 987	sem vacinação antirrábica
+A138	Class T31 State
+A139	Event_Type T31 State
+A140	Pos T31 Noun
+A141	Polarity T31 Pos
+T32	Event 1021 1028	acolhia
+A142	Class T32 Occurrence
+A143	Event_Type T32 Transition
+A144	Pos T32 Verb
+A145	Tense T32 Past
+A146	Aspect T32 Imperfective
+A147	Polarity T32 Pos
+T33	Event 1065 1074	entregues
+A148	Class T33 Occurrence
+A149	Event_Type T33 Transition
+A150	Pos T33 Verb
+A151	Tense T33 Past
+A152	Aspect T33 Perfective
+A153	Polarity T33 Pos
+T34	Event 1113 1122	colaborou
+A154	Class T34 Occurrence
+A155	Event_Type T34 Process
+A156	Pos T34 Verb
+A157	Tense T34 Past
+A158	Aspect T34 Perfective
+A159	Polarity T34 Pos
+T35	Event 1126 1130	ação
+A160	Class T35 Occurrence
+A161	Event_Type T35 Process
+A162	Pos T35 Noun
+A163	Polarity T35 Pos
+T36	Event 1155 1178	foi constituído arguido
+A164	Class T36 Occurrence
+A165	Event_Type T36 Transition
+A166	Pos T36 Verb
+A167	Tense T36 Past
+A168	Polarity T36 Pos
+T37	Event 1184 1190	factos
+A169	Class T37 State
+A170	Event_Type T37 State
+A171	Pos T37 Noun
+A172	Polarity T37 Pos
+T38	Event 1197 1206	remetidos
+A173	Class T38 Occurrence
+A174	Event_Type T38 Transition
+A175	Pos T38 Verb
+A176	Tense T38 Past
+A177	Aspect T38 Perfective
+A178	Polarity T38 Pos
+R1	TLINK_identity Arg1:T3 Arg2:T1	
+R2	TLINK_isIncluded Arg1:T2 Arg2:T3	
+R3	SLINK_evidential Arg1:T2 Arg2:T4	
+R4	TLINK_before Arg1:T4 Arg2:T2	
+R5	TLINK_simultaneous Arg1:T5 Arg2:T4	
+R6	TLINK_identity Arg1:T7 Arg2:T6	
+R7	TLINK_before Arg1:T6 Arg2:T5	
+R8	TLINK_isIncluded Arg1:T8 Arg2:T9	
+R9	TLINK_isIncluded Arg1:T8 Arg2:T7	
+R10	TLINK_before Arg1:T10 Arg2:T9	
+R11	TLINK_identity Arg1:T10 Arg2:T4	
+R12	TLINK_during Arg1:T10 Arg2:T11	
+R13	TLINK_identity Arg1:T12 Arg2:T11	
+R14	TLINK_isIncluded Arg1:T12 Arg2:T13	
+R15	TLINK_includes Arg1:T14 Arg2:T12	
+R16	TLINK_simultaneous Arg1:T15 Arg2:T14	
+R17	TLINK_during Arg1:T16 Arg2:T14	
+R18	TLINK_after Arg1:T18 Arg2:T17	
+R19	TLINK_before Arg1:T17 Arg2:T16	
+R20	TLINK_during Arg1:T19 Arg2:T18	
+R21	TLINK_includes Arg1:T20 Arg2:T19	
+R22	TLINK_simultaneous Arg1:T21 Arg2:T20	
+R23	TLINK_isIncluded Arg1:T23 Arg2:T22	
+R24	TLINK_simultaneous Arg1:T22 Arg2:T20	
+R25	TLINK_after Arg1:T24 Arg2:T23	
+R26	TLINK_includes Arg1:T25 Arg2:T24	
+R27	TLINK_isIncluded Arg1:T26 Arg2:T25	
+R28	TLINK_before Arg1:T27 Arg2:T26	
+R29	TLINK_after Arg1:T28 Arg2:T27	
+R30	TLINK_simultaneous Arg1:T29 Arg2:T28	
+R31	TLINK_simultaneous Arg1:T30 Arg2:T29	
+R32	TLINK_simultaneous Arg1:T31 Arg2:T30	
+R33	TLINK_before Arg1:T34 Arg2:T33	
+R34	TLINK_after Arg1:T36 Arg2:T35	
+R35	TLINK_before Arg1:T37 Arg2:T36	
+R36	TLINK_simultaneous Arg1:T38 Arg2:T36	
+R37	TLINK_after Arg1:T33 Arg2:T32	
+R38	TLINK_includes Arg1:T32 Arg2:T31	
+R39	TLINK_simultaneous Arg1:T35 Arg2:T34	
+R40	TLINK_identity Arg1:T35 Arg2:T11	
+T39	Participant 88 93	A GNR
+A179	Lexical_Head T39 Noun
+A180	Individuation_Domain T39 Individual
+A181	Participant_Type_Domain T39 Org
+A182	Involvement T39 1
+T40	Participant 121 128	25 cães
+A183	Lexical_Head T40 Noun
+A184	Individuation_Domain T40 Individual
+A185	Participant_Type_Domain T40 Nat
+A186	Involvement T40 >1
+T41	Participant 150 170	um homem, de 58 anos
+A187	Lexical_Head T41 Noun
+A188	Individuation_Domain T41 Individual
+A189	Participant_Type_Domain T41 Per
+A190	Involvement T41 1
+T42	Participant 200 220	animais de companhia
+A191	Lexical_Head T42 Noun
+A192	Individuation_Domain T42 Set
+A193	Participant_Type_Domain T42 Nat
+A194	Involvement T42 Und
+T43	Participant 225 241	concelho de Seia
+A195	Lexical_Head T43 Noun
+A196	Individuation_Domain T43 Individual
+A197	Participant_Type_Domain T43 Loc
+A198	Involvement T43 1
+T44	Participant 246 264	distrito da Guarda
+A199	Lexical_Head T44 Noun
+A200	Individuation_Domain T44 Individual
+A201	Participant_Type_Domain T44 Loc
+A202	Involvement T44 1
+R41	OLINK_partOf Arg1:T43 Arg2:T44	
+T45	Participant 330 340	os animais
+A203	Lexical_Head T45 Noun
+A204	Individuation_Domain T45 Individual
+A205	Participant_Type_Domain T45 Nat
+A206	Involvement T45 Und
+T46	Participant 411 482	Núcleo de Investigação de Crimes e Contraordenações Ambientais (NICCOA)
+A207	Lexical_Head T46 Noun
+A208	Individuation_Domain T46 Individual
+A209	Participant_Type_Domain T46 Org
+A210	Involvement T46 1
+T47	Participant 488 522	Núcleo de Proteção Ambiental (NPA)
+A211	Lexical_Head T47 Noun
+A212	Individuation_Domain T47 Individual
+A213	Participant_Type_Domain T47 Org
+A214	Involvement T47 1
+T48	Participant 526 533	Gouveia
+A215	Lexical_Head T48 Noun
+A216	Individuation_Domain T48 Set
+A217	Participant_Type_Domain T48 Loc
+A218	Involvement T48 1
+R42	OLINK_partOf Arg1:T47 Arg2:T48	
+R43	OLINK_partOf Arg1:T46 Arg2:T48	
+T49	Participant 266 304	O Comando Territorial da GNR da Guarda
+A219	Lexical_Head T49 Noun
+A220	Individuation_Domain T49 Individual
+A221	Participant_Type_Domain T49 Org
+A222	Involvement T49 1
+R44	OLINK_partOf Arg1:T49 Arg2:T39	
+T50	Participant 584 604	animais de companhia
+A223	Lexical_Head T50 Noun
+A224	Individuation_Domain T50 Set
+A225	Participant_Type_Domain T50 Nat
+A226	Involvement T50 >1
+T51	Participant 606 618	os militares
+A227	Lexical_Head T51 Noun
+A228	Individuation_Domain T51 Individual
+A229	Participant_Type_Domain T51 Per
+A230	Involvement T51 >1
+T52	Participant 677 679	se
+A231	Lexical_Head T52 Pronoun
+A232	Individuation_Domain T52 Individual
+A233	Participant_Type_Domain T52 Per
+A234	Involvement T52 >1
+R45	OLINK_objIdentity Arg1:T52 Arg2:T51	
+T53	Participant 694 704	um cenário
+A235	Lexical_Head T53 Noun
+A236	Individuation_Domain T53 Individual
+A237	Participant_Type_Domain T53 Other
+A238	Involvement T53 1
+T54	Participant 726 730	cães
+A239	Lexical_Head T54 Noun
+A240	Individuation_Domain T54 Individual
+A241	Participant_Type_Domain T54 Nat
+A242	Involvement T54 Und
+T55	Participant 796 803	animais
+A243	Lexical_Head T55 Noun
+A244	Individuation_Domain T55 Individual
+A245	Participant_Type_Domain T55 Nat
+A246	Involvement T55 >1
+T56	Participant 821 828	A fonte
+A247	Lexical_Head T56 Noun
+A248	Individuation_Domain T56 Individual
+A249	Participant_Type_Domain T56 Org
+A250	Involvement T56 1
+T57	Participant 903 910	25 cães
+A251	Lexical_Head T57 Noun
+A252	Individuation_Domain T57 Individual
+A253	Participant_Type_Domain T57 Nat
+A254	Involvement T57 >1
+T58	Participant 912 917	todos
+A255	Lexical_Head T58 Pronoun
+A256	Individuation_Domain T58 Individual
+A257	Participant_Type_Domain T58 Nat
+A258	Involvement T58 All
+R46	OLINK_objIdentity Arg1:T58 Arg2:T57	
+T59	Participant 990 1000	Os animais
+A259	Lexical_Head T59 Noun
+A260	Individuation_Domain T59 Individual
+A261	Participant_Type_Domain T59 Nat
+A262	Involvement T59 >1
+R47	OLINK_objIdentity Arg1:T59 Arg2:T58	
+T60	Participant 1006 1020	o proprietário
+A263	Lexical_Head T60 Noun
+A264	Individuation_Domain T60 Individual
+A265	Participant_Type_Domain T60 Per
+A266	Involvement T60 1
+T61	Participant 1032 1040	interior
+A267	Lexical_Head T61 Noun
+A268	Individuation_Domain T61 Individual
+A269	Participant_Type_Domain T61 Loc
+A270	Involvement T61 1
+T62	Participant 1044 1047	sua
+A271	Lexical_Head T62 Pronoun
+A272	Individuation_Domain T62 Individual
+A273	Participant_Type_Domain T62 Per
+A274	Involvement T62 1
+R48	OLINK_objIdentity Arg1:T62 Arg2:T60	
+T63	Participant 1048 1057	habitação
+A275	Lexical_Head T63 Noun
+A276	Individuation_Domain T63 Individual
+A277	Participant_Type_Domain T63 Loc
+A278	Involvement T63 1
+R49	OLINK_partOf Arg1:T61 Arg2:T63	
+T64	Participant 1078 1107	Veterinário Municipal de Seia
+A279	Lexical_Head T64 Noun
+A280	Individuation_Domain T64 Individual
+A281	Participant_Type_Domain T64 Org
+A282	Involvement T64 1
+T65	Participant 1109 1112	que
+A283	Lexical_Head T65 Pronoun
+A284	Individuation_Domain T65 Individual
+A285	Participant_Type_Domain T65 Org
+A286	Involvement T65 1
+R50	OLINK_objIdentity Arg1:T65 Arg2:T64	
+T66	Participant 1140 1145	a GNR
+A287	Lexical_Head T66 Noun
+A288	Individuation_Domain T66 Individual
+A289	Participant_Type_Domain T66 Org
+A290	Involvement T66 1
+T67	Participant 1147 1154	O homem
+A291	Lexical_Head T67 Noun
+A292	Individuation_Domain T67 Individual
+A293	Participant_Type_Domain T67 Per
+A294	Involvement T67 1
+T68	Participant 1210 1235	Tribunal Judicial de Seia
+A295	Lexical_Head T68 Noun
+A296	Individuation_Domain T68 Individual
+A297	Participant_Type_Domain T68 Org
+A298	Involvement T68 1
+R51	OLINK_objIdentity Arg1:T45 Arg2:T40	
+R52	OLINK_partOf Arg1:T46 Arg2:T49	
+R53	OLINK_partOf Arg1:T47 Arg2:T49	
+R54	OLINK_partOf Arg1:T51 Arg2:T47	
+R55	OLINK_partOf Arg1:T51 Arg2:T46	
+R56	OLINK_objIdentity Arg1:T55 Arg2:T54	
+R57	OLINK_objIdentity Arg1:T54 Arg2:T45	
+R58	OLINK_objIdentity Arg1:T56 Arg2:T49	
+R59	OLINK_objIdentity Arg1:T57 Arg2:T55	
+R60	OLINK_objIdentity Arg1:T60 Arg2:T41	
+R61	OLINK_objIdentity Arg1:T66 Arg2:T39	
+R62	OLINK_objIdentity Arg1:T67 Arg2:T62	
+R63	SRLINK_agent Arg1:T2 Arg2:T39	
+R64	SRLINK_theme Arg1:T2 Arg2:T4	
+R65	SRLINK_agent Arg1:T4 Arg2:T39	
+R66	SRLINK_patient Arg1:T4 Arg2:T40	
+R67	SRLINK_agent Arg1:T5 Arg2:T39	
+R68	SRLINK_patient Arg1:T5 Arg2:T41	
+R69	SRLINK_reason Arg1:T5 Arg2:T6	
+R70	SRLINK_theme Arg1:T6 Arg2:T7	
+R71	SRLINK_goal Arg1:T7 Arg2:T42	
+R72	SRLINK_location Arg1:T5 Arg2:T43	
+R73	SRLINK_location Arg1:T5 Arg2:T44	
+R74	SRLINK_agent Arg1:T8 Arg2:T49	
+R75	SLINK_evidential Arg1:T8 Arg2:T10	
+R76	SRLINK_theme Arg1:T8 Arg2:T10	
+R77	SRLINK_medium Arg1:T8 Arg2:T9	
+R78	SRLINK_patient Arg1:T10 Arg2:T45	
+R79	SRLINK_agent Arg1:T10 Arg2:T49	
+R80	SRLINK_setting Arg1:T10 Arg2:T11	
+R81	SRLINK_theme Arg1:T12 Arg2:T11	
+R82	SRLINK_agent Arg1:T12 Arg2:T46	
+R83	SRLINK_agent Arg1:T12 Arg2:T47	
+R84	SRLINK_location Arg1:T12 Arg2:T48	
+R85	SRLINK_location Arg1:T4 Arg2:T43	
+R86	SRLINK_location Arg1:T4 Arg2:T44	
+R87	SRLINK_reason Arg1:T14 Arg2:T15	
+R88	SRLINK_goal Arg1:T15 Arg2:T50	
+R89	SRLINK_agent Arg1:T16 Arg2:T51	
+R90	SRLINK_theme Arg1:T16 Arg2:T17	
+R91	SRLINK_theme Arg1:T17 Arg2:T18	
+R92	SRLINK_setting Arg1:T19 Arg2:T18	
+R93	SRLINK_patient Arg1:T19 Arg2:T52	
+R94	SRLINK_theme Arg1:T19 Arg2:T53	
+R95	SRLINK_theme Arg1:T20 Arg2:T53	
+R96	SRLINK_pivot Arg1:T20 Arg2:T54	
+R97	SRLINK_pivot Arg1:T21 Arg2:T54	
+T69	Participant 758 762	onde
+A299	Lexical_Head T69 Pronoun
+A300	Individuation_Domain T69 Individual
+A301	Participant_Type_Domain T69 Other
+A302	Involvement T69 1
+R98	OLINK_objIdentity Arg1:T69 Arg2:T53	
+R99	SRLINK_location Arg1:T22 Arg2:T69	
+R100	SRLINK_theme Arg1:T22 Arg2:T23	
+R101	SRLINK_pivot Arg1:T23 Arg2:T55	
+R102	SRLINK_location Arg1:T24 Arg2:T25	
+R103	SLINK_evidential Arg1:T24 Arg2:T16	
+R104	SRLINK_theme Arg1:T24 Arg2:T16	
+R105	SRLINK_agent Arg1:T26 Arg2:T56	
+R106	SLINK_evidential Arg1:T26 Arg2:T28	
+R107	SRLINK_theme Arg1:T26 Arg2:T28	
+R108	SRLINK_setting Arg1:T28 Arg2:T27	
+R109	SRLINK_patient Arg1:T28 Arg2:T57	
+R110	SRLINK_pivot Arg1:T29 Arg2:T58	
+R111	SRLINK_pivot Arg1:T30 Arg2:T58	
+R112	SRLINK_pivot Arg1:T31 Arg2:T58	
+R113	SRLINK_agent Arg1:T32 Arg2:T60	
+R114	SRLINK_patient Arg1:T32 Arg2:T59	
+R115	SRLINK_location Arg1:T32 Arg2:T61	
+R116	SRLINK_location Arg1:T32 Arg2:T63	
+R117	SRLINK_patient Arg1:T33 Arg2:T59	
+R118	SRLINK_goal Arg1:T33 Arg2:T64	
+R119	SRLINK_agent Arg1:T34 Arg2:T65	
+R120	SRLINK_setting Arg1:T34 Arg2:T35	
+R121	SRLINK_patient Arg1:T36 Arg2:T67	
+R122	SRLINK_patient Arg1:T38 Arg2:T37	
+R123	SRLINK_goal Arg1:T38 Arg2:T68	

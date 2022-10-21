@@ -1,0 +1,474 @@
+T1	Event 172 181	apreendeu
+A1	Class T1 Occurrence
+A2	Event_Type T1 Transition
+A3	Pos T1 Verb
+A4	Tense T1 Past
+A5	Aspect T1 Perfective
+A6	Polarity T1 Pos
+T2	Event 259 284	capturado de forma ilegal
+A7	Class T2 Occurrence
+A8	Event_Type T2 Transition
+A9	Pos T2 Verb
+A10	Tense T2 Past
+A11	Aspect T2 Perfective
+A12	VForm T2 Participle
+A13	Polarity T2 Pos
+T3	Event 305 313	estimado
+A14	Class T3 State
+A15	Event_Type T3 State
+A16	Pos T3 Verb
+A17	Tense T3 Past
+A18	Aspect T3 Perfective
+A19	VForm T3 Participle
+A20	Polarity T3 Pos
+T4	Event 331 339	informou
+A21	Class T4 Reporting
+A22	Event_Type T4 Transition
+A23	Pos T4 Verb
+A24	Tense T4 Past
+A25	Aspect T4 Perfective
+A26	Polarity T4 Pos
+T5	Time 340 344	hoje
+A27	Time_Type T5 Date
+A28	TemporalFunction T5 Publication_Time
+#1	AnnotatorNotes T5	value=2020-10-23 anchorTime=Publication_Time
+T6	Event 371 381	comunicado
+A29	Class T6 Reporting
+A30	Event_Type T6 Transition
+A31	Pos T6 Noun
+A32	Polarity T6 Pos
+T7	Event 382 389	enviado
+A33	Class T7 Occurrence
+A34	Event_Type T7 Transition
+A35	Pos T7 Verb
+A36	Tense T7 Past
+A37	Aspect T7 Perfective
+A38	VForm T7 Participle
+A39	Polarity T7 Pos
+T8	Event 409 417	adiantou
+A40	Class T8 Reporting
+A41	Event_Type T8 Transition
+A42	Pos T8 Verb
+A43	Tense T8 Past
+A44	Aspect T8 Perfective
+A45	Polarity T8 Pos
+T9	Event 427 439	identificado
+A46	Class T9 Occurrence
+A47	Event_Type T9 Transition
+A48	Pos T9 Verb
+A49	Tense T9 Past
+A50	Aspect T9 Perfective
+A51	VForm T9 Participle
+A52	Polarity T9 Pos
+T10	Event 464 473	elaborado
+A53	Event_Type T10 Transition
+A54	Pos T10 Verb
+A55	Tense T10 Past
+A56	Aspect T10 Perfective
+A57	VForm T10 Participle
+A58	Polarity T10 Pos
+T11	Event 494 509	contraordenação
+A59	Class T11 Occurrence
+A60	Event_Type T11 Transition
+A61	Pos T11 Noun
+A62	Polarity T11 Pos
+T12	Event 486 490	auto
+A63	Class T12 Occurrence
+A64	Event_Type T12 Transition
+A65	Pos T12 Noun
+A66	Polarity T12 Pos
+T13	Event 514 524	transporte
+A67	Class T13 Occurrence
+A68	Event_Type T13 Process
+A69	Pos T13 Noun
+A70	Polarity T13 Pos
+T14	Event 549 563	estado imaturo
+A71	Class T14 State
+A72	Event_Type T14 State
+A73	Pos T14 Noun
+A74	Polarity T14 Pos
+T15	Event 565 570	sendo
+A75	Class T15 State
+A76	Event_Type T15 State
+A77	Pos T15 Verb
+A78	Tense T15 Present
+A79	Aspect T15 Imperfective
+A80	VForm T15 Gerundive
+A81	Polarity T15 Pos
+T16	Event 576 584	infração
+A82	Class T16 State
+A83	Event_Type T16 State
+A84	Pos T16 Noun
+A85	Polarity T16 Pos
+T17	Event 585 592	punível
+A86	Event_Type T17 Transition
+A87	Pos T17 Adjective
+A88	Polarity T17 Pos
+T18	Event 629 638	apreensão
+A89	Class T18 Occurrence
+A90	Event_Type T18 Transition
+A91	Pos T18 Noun
+A92	Polarity T18 Pos
+T19	Event 640 648	efetuada
+A93	Class T19 Occurrence
+A94	Event_Type T19 Transition
+A95	Pos T19 Verb
+A96	Tense T19 Past
+A97	Aspect T19 Perfective
+A98	VForm T19 Participle
+A99	Polarity T19 Pos
+T20	Event 704 711	ocorreu
+A100	Class T20 Occurrence
+A101	Event_Type T20 Transition
+A102	Pos T20 Verb
+A103	Tense T20 Past
+A104	Aspect T20 Perfective
+A105	Polarity T20 Pos
+T21	Time 715 727	quinta-feira
+A106	Time_Type T21 Date
+A107	TemporalFunction T21 None
+#2	AnnotatorNotes T21	value=2020-10-22 anchorTime=Publication_Time
+T22	Event 740 744	ação
+A108	Class T22 Occurrence
+A109	Event_Type T22 Process
+A110	Pos T22 Noun
+A111	Polarity T22 Pos
+T23	Event 748 771	fiscalização rodoviária
+A112	Class T23 Occurrence
+A113	Event_Type T23 Process
+A114	Pos T23 Noun
+A115	Polarity T23 Pos
+T24	Event 784 794	transporte
+A116	Class T24 Occurrence
+A117	Event_Type T24 Process
+A118	Pos T24 Noun
+A119	Polarity T24 Pos
+T25	Event 838 846	detetado
+A120	Class T25 Occurrence
+A121	Event_Type T25 Transition
+A122	Pos T25 Verb
+A123	Tense T25 Past
+A124	Aspect T25 Perfective
+A125	Polarity T25 Pos
+T26	Event 885 897	transportava
+A126	Class T26 Occurrence
+A127	Pos T26 Verb
+A128	Tense T26 Past
+A129	Aspect T26 Progressive
+A130	Polarity T26 Pos
+T27	Event 944 953	capturado
+A131	Class T27 Occurrence
+A132	Event_Type T27 Transition
+A133	Pos T27 Verb
+A134	Tense T27 Past
+A135	Aspect T27 Perfective
+A136	VForm T27 Infinitive
+A137	Polarity T27 Pos
+T28	Event 956 970	comercializado
+A138	Class T28 Occurrence
+A139	Event_Type T28 Transition
+A140	Pos T28 Verb
+A141	Tense T28 Past
+A142	Aspect T28 Perfective
+A143	VForm T28 Participle
+A144	Polarity T28 Pos
+T29	Event 1034 1043	apreendeu
+A145	Class T29 Occurrence
+A146	Event_Type T29 Transition
+A147	Pos T29 Verb
+A148	Tense T29 Past
+A149	Aspect T29 Perfective
+A150	Polarity T29 Pos
+T30	Event 1092 1101	conhecido
+A151	Class T30 State
+A152	Event_Type T30 State
+A153	Pos T30 Verb
+A154	Aspect T30 Imperfective
+A155	VForm T30 Participle
+A156	Polarity T30 Pos
+T31	Event 1178 1188	apreendida
+A157	Class T31 State
+A158	Event_Type T31 State
+A159	Tense T31 Past
+A160	VForm T31 Participle
+A161	Polarity T31 Pos
+T32	Event 1193 1202	devolvida
+A162	Class T32 Occurrence
+A163	Event_Type T32 Transition
+A164	Pos T32 Verb
+A165	Tense T32 Past
+A166	Aspect T32 Perfective
+A167	Polarity T32 Pos
+T33	Event 1251 1271	se encontrarem vivos
+A168	Class T33 State
+A169	Event_Type T33 State
+A170	Pos T33 Verb
+A171	VForm T33 Infinitive
+A172	Polarity T33 Pos
+R1	TLINK_before Arg1:T2 Arg2:T1	
+R2	TLINK_after Arg1:T3 Arg2:T2	
+R3	TLINK_after Arg1:T4 Arg2:T3	
+R4	TLINK_isIncluded Arg1:T4 Arg2:T5	
+R5	TLINK_after Arg1:T7 Arg2:T6	
+R6	TLINK_isIncluded Arg1:T8 Arg2:T6	
+R7	TLINK_before Arg1:T9 Arg2:T8	
+R8	TLINK_after Arg1:T10 Arg2:T9	
+R9	TLINK_identity Arg1:T12 Arg2:T10	
+R10	TLINK_before Arg1:T11 Arg2:T12	
+R11	TLINK_identity Arg1:T13 Arg2:T11	
+R12	TLINK_includes Arg1:T14 Arg2:T13	
+R13	TLINK_identity Arg1:T16 Arg2:T11	
+R14	TLINK_identity Arg1:T17 Arg2:T15	
+R15	TLINK_identity Arg1:T18 Arg2:T1	
+R16	TLINK_identity Arg1:T19 Arg2:T18	
+R17	TLINK_identity Arg1:T20 Arg2:T18	
+R18	TLINK_isIncluded Arg1:T20 Arg2:T21	
+R19	TLINK_during Arg1:T20 Arg2:T22	
+R20	TLINK_identity Arg1:T23 Arg2:T22	
+T34	Event 772 780	dirigida
+A173	Class T34 State
+A174	Event_Type T34 State
+A175	Pos T34 Verb
+A176	Tense T34 Past
+A177	Aspect T34 Perfective
+A178	VForm T34 Participle
+A179	Polarity T34 Pos
+R21	TLINK_simultaneous Arg1:T34 Arg2:T23	
+R22	TLINK_includes Arg1:T24 Arg2:T34	
+R23	TLINK_includes Arg1:T26 Arg2:T25	
+R24	TLINK_before Arg1:T27 Arg2:T26	
+R25	TLINK_after Arg1:T28 Arg2:T27	
+R26	TLINK_isIncluded Arg1:T29 Arg2:T26	
+R27	TLINK_includes Arg1:T30 Arg2:T29	
+R28	TLINK_identity Arg1:T31 Arg2:T29	
+R29	TLINK_after Arg1:T32 Arg2:T31	
+R30	TLINK_includes Arg1:T33 Arg2:T32	
+R31	TLINK_includes Arg1:T6 Arg2:T4	
+R32	TLINK_includes Arg1:T15 Arg2:T10	
+R33	TLINK_after Arg1:T18 Arg2:T10	
+R34	TLINK_during Arg1:T25 Arg2:T22	
+R35	TLINK_identity Arg1:T29 Arg2:T18	
+T35	Participant 134 164	A Unidade de Controlo Costeiro
+A180	Lexical_Head T35 Noun
+A181	Individuation_Domain T35 Individual
+A182	Participant_Type_Domain T35 Org
+A183	Involvement T35 1
+T36	Participant 168 171	GNR
+A184	Lexical_Head T36 Noun
+A185	Individuation_Domain T36 Individual
+A186	Participant_Type_Domain T36 Org
+A187	Involvement T36 1
+R36	OLINK_partOf Arg1:T35 Arg2:T36	
+T37	Participant 185 192	Valença
+A188	Lexical_Head T37 Noun
+A189	Individuation_Domain T37 Individual
+A190	Participant_Type_Domain T37 Loc
+A191	Involvement T37 1
+T38	Participant 194 222	distrito de Viana do Castelo
+A192	Lexical_Head T38 Noun
+A193	Individuation_Domain T38 Individual
+A194	Participant_Type_Domain T38 Loc
+A195	Involvement T38 1
+R37	OLINK_partOf Arg1:T37 Arg2:T38	
+T39	Participant 232 258	sete toneladas de berbigão
+A196	Lexical_Head T39 Noun
+A198	Participant_Type_Domain T39 Nat
+A197	Individuation_Domain T39 Individual
+A199	Involvement T39 >1
+T40	Participant 290 304	um valor total
+A200	Lexical_Head T40 Noun
+A201	Individuation_Domain T40 Individual
+A202	Participant_Type_Domain T40 Other
+A203	Involvement T40 1
+T41	Participant 317 329	37.400 euros
+A204	Lexical_Head T41 Noun
+A205	Individuation_Domain T41 Individual
+A206	Participant_Type_Domain T41 Obj
+A207	Involvement T41 >1
+T42	Participant 345 366	aquela força policial
+A208	Lexical_Head T42 Noun
+A209	Individuation_Domain T42 Individual
+A210	Participant_Type_Domain T42 Org
+A211	Involvement T42 1
+R38	OLINK_objIdentity Arg1:T41 Arg2:T40	
+R39	OLINK_objIdentity Arg1:T42 Arg2:T36	
+T43	Participant 393 401	redações
+A212	Lexical_Head T43 Noun
+A213	Individuation_Domain T43 Individual
+A214	Participant_Type_Domain T43 Org
+A215	Involvement T43 >1
+T44	Participant 403 408	a GNR
+A216	Lexical_Head T44 Noun
+A217	Individuation_Domain T44 Individual
+A218	Participant_Type_Domain T44 Org
+A219	Involvement T44 1
+T45	Participant 440 460	um homem, de 50 anos
+A220	Lexical_Head T45 Noun
+A221	Individuation_Domain T45 Individual
+A222	Participant_Type_Domain T45 Per
+A223	Involvement T45 1
+T46	Participant 528 545	espécies bivalves
+A224	Lexical_Head T46 Noun
+A225	Individuation_Domain T46 Set
+A226	Participant_Type_Domain T46 Nat
+A227	Involvement T46 >1
+T47	Participant 597 609	coima máxima
+A228	Lexical_Head T47 Noun
+A229	Individuation_Domain T47 Individual
+A230	Participant_Type_Domain T47 Other
+A231	Involvement T47 1
+T48	Participant 613 625	37.500 euros
+A232	Lexical_Head T48 Noun
+A233	Individuation_Domain T48 Individual
+A234	Participant_Type_Domain T48 Obj
+A235	Involvement T48 >1
+R40	OLINK_objIdentity Arg1:T48 Arg2:T47	
+T49	Participant 654 702	Unidade de Controlo Costeiro (UCC) de Matosinhos
+A236	Lexical_Head T49 Noun
+A237	Individuation_Domain T49 Individual
+A238	Participant_Type_Domain T49 Org
+A239	Involvement T49 1
+R41	OLINK_objIdentity Arg1:T49 Arg2:T35	
+T50	Participant 798 812	pescado fresco
+A240	Lexical_Head T50 Noun
+A241	Individuation_Domain T50 Mass
+A242	Participant_Type_Domain T50 Nat
+A243	Involvement T50 Und
+T51	Participant 815 832	moluscos bivalves
+A244	Lexical_Head T51 Noun
+A245	Individuation_Domain T51 Individual
+A246	Participant_Type_Domain T51 Nat
+A247	Involvement T51 Und
+T52	Participant 848 880	um veículo pesado de mercadorias
+A248	Lexical_Head T52 Noun
+A249	Individuation_Domain T52 Individual
+A250	Participant_Type_Domain T52 Obj
+A251	Involvement T52 1
+T53	Participant 898 914	berbigão imaturo
+A252	Lexical_Head T53 Noun
+A253	Individuation_Domain T53 Mass
+A254	Participant_Type_Domain T53 Nat
+A255	Involvement T53 Und
+T54	Participant 920 934	a medida legal
+A256	Lexical_Head T54 Noun
+A257	Individuation_Domain T54 Individual
+A258	Participant_Type_Domain T54 Other
+A259	Involvement T54 0
+T55	Participant 984 999	2,5 centímetros
+A260	Lexical_Head T55 Noun
+A261	Individuation_Domain T55 Individual
+A262	Participant_Type_Domain T55 Other
+A263	Involvement T55 >1
+R42	OLINK_objIdentity Arg1:T55 Arg2:T54	
+T56	Participant 1012 1033	aquela força policial
+A264	Lexical_Head T56 Noun
+A265	Individuation_Domain T56 Individual
+A266	Participant_Type_Domain T56 Org
+A267	Involvement T56 1
+R43	OLINK_objIdentity Arg1:T56 Arg2:T49	
+T57	Participant 1044 1083	7.400 quilogramas de cerastoderma edule
+A268	Lexical_Head T57 Noun
+A269	Individuation_Domain T57 Individual
+A270	Participant_Type_Domain T57 Nat
+A271	Involvement T57 >1
+T58	Participant 1107 1115	berbigão
+A272	Lexical_Head T58 Noun
+A273	Individuation_Domain T58 Mass
+A274	Participant_Type_Domain T58 Nat
+A275	Involvement T58 Und
+T59	Participant 1117 1163	uma espécie de molusco bivalve de água salgada
+A276	Lexical_Head T59 Noun
+A277	Individuation_Domain T59 Set
+A278	Participant_Type_Domain T59 Nat
+A279	Involvement T59 1
+R44	OLINK_objIdentity Arg1:T59 Arg2:T58	
+T60	Participant 1165 1177	A mercadoria
+A280	Lexical_Head T60 Noun
+A281	Individuation_Domain T60 Individual
+A282	Participant_Type_Domain T60 Obj
+A283	Involvement T60 1
+T61	Participant 1206 1209	seu
+A284	Lexical_Head T61 Pronoun
+A285	Individuation_Domain T61 Individual
+A286	Participant_Type_Domain T61 Obj
+R45	OLINK_objIdentity Arg1:T61 Arg2:T60	
+A287	Involvement T61 1
+T62	Participant 1210 1225	habitat natural
+A288	Lexical_Head T62 Noun
+A289	Individuation_Domain T62 Individual
+A290	Participant_Type_Domain T62 Loc
+A291	Involvement T62 1
+T63	Participant 1241 1250	espécimes
+A292	Lexical_Head T63 Noun
+A293	Individuation_Domain T63 Individual
+A294	Participant_Type_Domain T63 Nat
+A295	Involvement T63 >1
+R46	OLINK_partOf Arg1:T63 Arg2:T60	
+R47	OLINK_objIdentity Arg1:T44 Arg2:T36	
+R48	OLINK_partOf Arg1:T39 Arg2:T46	
+R49	OLINK_partOf Arg1:T51 Arg2:T46	
+R50	OLINK_objIdentity Arg1:T53 Arg2:T39	
+R51	OLINK_objIdentity Arg1:T57 Arg2:T53	
+R52	OLINK_objIdentity Arg1:T58 Arg2:T57	
+R53	OLINK_objIdentity Arg1:T60 Arg2:T57	
+R54	SRLINK_agent Arg1:T1 Arg2:T35	
+R55	SRLINK_location Arg1:T1 Arg2:T37	
+R56	SRLINK_location Arg1:T1 Arg2:T38	
+R57	SRLINK_patient Arg1:T1 Arg2:T39	
+R58	SRLINK_patient Arg1:T2 Arg2:T39	
+R59	SRLINK_theme Arg1:T3 Arg2:T40	
+R60	SRLINK_amount Arg1:T3 Arg2:T41	
+R61	SRLINK_attribute Arg1:T1 Arg2:T40	
+R62	SRLINK_agent Arg1:T4 Arg2:T42	
+R63	SRLINK_theme Arg1:T4 Arg2:T1	
+R64	SLINK_evidential Arg1:T4 Arg2:T1	
+R65	SRLINK_medium Arg1:T8 Arg2:T6	
+R66	SRLINK_agent Arg1:T8 Arg2:T44	
+R67	SRLINK_theme Arg1:T8 Arg2:T9	
+R68	SLINK_evidential Arg1:T8 Arg2:T9	
+R69	SRLINK_patient Arg1:T9 Arg2:T45	
+R70	SRLINK_agent Arg1:T9 Arg2:T44	
+R71	SRLINK_theme Arg1:T7 Arg2:T6	
+R72	SRLINK_goal Arg1:T7 Arg2:T43	
+R73	SRLINK_agent Arg1:T7 Arg2:T44	
+R74	SRLINK_agent Arg1:T10 Arg2:T44	
+R75	SRLINK_theme Arg1:T10 Arg2:T12	
+R76	SRLINK_theme Arg1:T12 Arg2:T11	
+R77	SRLINK_reason Arg1:T11 Arg2:T13	
+R78	SRLINK_patient Arg1:T13 Arg2:T46	
+R79	SRLINK_manner Arg1:T13 Arg2:T14	
+R80	SRLINK_attribute Arg1:T14 Arg2:T46	
+R81	SRLINK_pivot Arg1:T15 Arg2:T16	
+R82	SRLINK_attribute Arg1:T15 Arg2:T17	
+R83	SRLINK_manner Arg1:T17 Arg2:T47	
+R84	SRLINK_theme Arg1:T19 Arg2:T18	
+R85	SRLINK_agent Arg1:T19 Arg2:T49	
+R86	SRLINK_theme Arg1:T20 Arg2:T18	
+R87	SRLINK_setting Arg1:T20 Arg2:T22	
+R88	SRLINK_purpose Arg1:T22 Arg2:T23	
+R89	SRLINK_pivot Arg1:T34 Arg2:T23	
+R90	SRLINK_theme Arg1:T34 Arg2:T24	
+R91	SRLINK_patient Arg1:T24 Arg2:T50	
+R92	SRLINK_patient Arg1:T24 Arg2:T51	
+R93	SRLINK_patient Arg1:T25 Arg2:T52	
+R94	SRLINK_agent Arg1:T25 Arg2:T49	
+A296	Event_Type T26 Process
+R95	SRLINK_theme Arg1:T26 Arg2:T53	
+R96	SRLINK_instrument Arg1:T26 Arg2:T52	
+R97	SRLINK_manner Arg1:T27 Arg2:T54	
+R98	SRLINK_patient Arg1:T27 Arg2:T53	
+R99	SRLINK_patient Arg1:T28 Arg2:T53	
+R100	SRLINK_agent Arg1:T29 Arg2:T56	
+R101	SRLINK_patient Arg1:T29 Arg2:T57	
+R102	SRLINK_pivot Arg1:T30 Arg2:T57	
+R103	SRLINK_theme Arg1:T30 Arg2:T58	
+R104	SRLINK_pivot Arg1:T31 Arg2:T60	
+R105	SRLINK_patient Arg1:T32 Arg2:T60	
+A297	Pos T31 Verb
+R106	SRLINK_finalLocation Arg1:T32 Arg2:T62	
+R107	SRLINK_reason Arg1:T32 Arg2:T33	
+R108	SRLINK_pivot Arg1:T33 Arg2:T63	
+T64	Time 27 38	23 out 2020
+A298	Time_Type T64 Date
+A299	TemporalFunction T64 Publication_Time
+#3	AnnotatorNotes T64	value=2020-10-23

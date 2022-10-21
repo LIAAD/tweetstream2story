@@ -1,0 +1,295 @@
+T1	Event 163 173	substituir
+A1	Class T1 Occurrence
+A2	Pos T1 Verb
+A3	Tense T1 Future
+A4	Aspect T1 Imperfective
+A5	VForm T1 Infinitive
+A6	Mood T1 Future
+A7	Polarity T1 Pos
+T2	Event 235 242	mudança
+A8	Class T2 Occurrence
+A9	Event_Type T2 Transition
+A10	Pos T2 Noun
+A11	Polarity T2 Pos
+T3	Time 251 255	hoje
+A12	Time_Type T3 Date
+A13	TemporalFunction T3 Publication_Time
+#1	AnnotatorNotes T3	value=2020-11-06
+T5	Event 256 265	anunciada
+A20	Class T5 Occurrence
+A21	Event_Type T5 Transition
+A22	Pos T5 Verb
+A23	Tense T5 Past
+A24	Aspect T5 Perfective
+A25	VForm T5 Participle
+A26	Polarity T5 Pos
+T6	Event 286 295	divulgada
+A27	Class T6 State
+A28	Event_Type T6 State
+A29	Pos T6 Verb
+A30	Tense T6 Past
+A31	Aspect T6 Perfective
+A32	VForm T6 Participle
+A33	Polarity T6 Pos
+T7	Event 362 369	aceitou
+A34	Class T7 I_Action
+A35	Event_Type T7 Transition
+A36	Pos T7 Verb
+A37	Tense T7 Past
+A38	Aspect T7 Perfective
+A39	Polarity T7 Pos
+T8	Event 372 380	proposta
+A40	Class T8 Occurrence
+A41	Event_Type T8 Transition
+A42	Pos T8 Noun
+A43	Polarity T8 Pos
+T9	Event 405 415	exoneração
+A44	Class T9 Occurrence
+A45	Event_Type T9 Transition
+A46	Pos T9 Noun
+A47	Polarity T9 Pos
+T10	Event 423 429	pedido
+A48	Class T10 I_Action
+A49	Event_Type T10 Transition
+A50	Pos T10 Noun
+A51	Polarity T10 Pos
+T11	Event 509 517	nomeação
+A52	Class T11 I_Action
+A53	Event_Type T11 Transition
+A54	Pos T11 Noun
+A55	Polarity T11 Pos
+T12	Event 576 581	lê-se
+A56	Class T12 Occurrence
+A57	Event_Type T12 Process
+A58	Pos T12 Verb
+A59	Tense T12 Present
+A60	Aspect T12 Progressive
+A61	Polarity T12 Pos
+T13	Event 585 589	nota
+A62	Class T13 Reporting
+A63	Event_Type T13 Transition
+A64	Pos T13 Noun
+A65	Polarity T13 Pos
+T14	Event 281 285	nota
+A66	Class T14 Reporting
+A67	Event_Type T14 Transition
+A68	Pos T14 Noun
+A69	Polarity T14 Pos
+R1	TLINK_identity Arg1:T13 Arg2:T14	
+T15	Event 593 598	posse
+A70	Class T15 State
+A71	Event_Type T15 State
+A72	Pos T15 Noun
+A73	Polarity T15 Pos
+T16	Event 673 683	terá lugar
+A74	Class T16 Occurrence
+A75	Event_Type T16 Transition
+A76	Pos T16 Verb
+A77	Tense T16 Future
+A78	Aspect T16 Imperfective
+A79	Mood T16 Future
+A80	Polarity T16 Pos
+T17	Time 690 694	hoje
+A81	Time_Type T17 Date
+A82	TemporalFunction T17 Publication_Time
+#2	AnnotatorNotes T17	value=2020-11-06 anchorTime=Publication_Time
+T18	Time 702 707	20:30
+A83	Time_Type T18 Time
+#3	AnnotatorNotes T18	value=2020-11-06T20:30 anchorTime=Publication_Time
+T19	Event 834 840	eleito
+A85	Class T19 I_Action
+A86	Event_Type T19 Transition
+A87	Pos T19 Verb
+A88	Tense T19 Past
+A89	Aspect T19 Perfective
+A90	VForm T19 Participle
+A91	Polarity T19 Pos
+T20	Event 841 849	deputado
+A92	Class T20 State
+A93	Event_Type T20 State
+A94	Pos T20 Noun
+A95	Polarity T20 Pos
+T21	Event 751 761	presidente
+A96	Class T21 State
+A97	Event_Type T21 State
+A98	Pos T21 Adjective
+A99	Polarity T21 Pos
+T22	Event 189 194	cargo
+A100	Class T22 State
+A101	Event_Type T22 State
+A102	Pos T22 Noun
+A103	Polarity T22 Pos
+T23	Event 532 537	cargo
+A104	Class T23 State
+A105	Event_Type T23 State
+A106	Pos T23 Noun
+A107	Polarity T23 Pos
+R2	TLINK_identity Arg1:T2 Arg2:T1	
+R3	TLINK_isIncluded Arg1:T5 Arg2:T3	
+R4	TLINK_before Arg1:T5 Arg2:T2	
+R5	TLINK_includes Arg1:T14 Arg2:T5	
+R6	TLINK_identity Arg1:T6 Arg2:T5	
+R7	TLINK_before Arg1:T8 Arg2:T7	
+R8	TLINK_before Arg1:T7 Arg2:T6	
+R9	TLINK_identity Arg1:T23 Arg2:T22	
+R10	TLINK_after Arg1:T9 Arg2:T8	
+R11	TLINK_simultaneous Arg1:T11 Arg2:T9	
+R12	TLINK_after Arg1:T12 Arg2:T11	
+R13	TLINK_simultaneous Arg1:T13 Arg2:T12	
+R14	TLINK_before Arg1:T10 Arg2:T8	
+R15	TLINK_identity Arg1:T16 Arg2:T15	
+R16	TLINK_isIncluded Arg1:T16 Arg2:T17	
+R17	TLINK_isIncluded Arg1:T18 Arg2:T17	
+R18	TLINK_before Arg1:T21 Arg2:T16	
+R19	TLINK_before Arg1:T19 Arg2:T21	
+R20	TLINK_after Arg1:T15 Arg2:T13	
+R21	SLINK_evidential Arg1:T5 Arg2:T2	
+R22	SLINK_factive Arg1:T7 Arg2:T8	
+R23	SLINK_intensional Arg1:T10 Arg2:T9	
+R24	SLINK_evidential Arg1:T12 Arg2:T7	
+R25	SLINK_intensional Arg1:T19 Arg2:T20	
+T4	Participant 120 158	O deputado socialista Ricardo Pinheiro
+A14	Lexical_Head T4 Noun
+A15	Individuation_Domain T4 Individual
+A16	Participant_Type_Domain T4 Per
+A17	Involvement T4 1
+T24	Participant 174 185	José Mendes
+A18	Lexical_Head T24 Noun
+A19	Individuation_Domain T24 Individual
+A108	Participant_Type_Domain T24 Per
+A109	Involvement T24 1
+T25	Participant 198 233	secretário de Estado do Planeamento
+A110	Lexical_Head T25 Noun
+A111	Individuation_Domain T25 Individual
+A112	Participant_Type_Domain T25 Other
+A113	Involvement T25 1
+T26	Participant 297 333	o portal da Presidência da República
+A114	Lexical_Head T26 Noun
+A115	Individuation_Domain T26 Individual
+A116	Participant_Type_Domain T26 Other
+A117	Involvement T26 1
+T27	Participant 336 361	O Presidente da República
+A118	Lexical_Head T27 Noun
+A119	Individuation_Domain T27 Individual
+A120	Participant_Type_Domain T27 Per
+A121	Involvement T27 1
+T28	Participant 382 401	o primeiro-ministro
+A122	Lexical_Head T28 Noun
+A123	Individuation_Domain T28 Individual
+A124	Participant_Type_Domain T28 Per
+A125	Involvement T28 1
+T29	Participant 419 422	seu
+A126	Lexical_Head T29 Pronoun
+A127	Individuation_Domain T29 Individual
+A128	Participant_Type_Domain T29 Per
+A129	Involvement T29 1
+T30	Participant 434 461	José Fernandes Gomes Mendes
+A130	Lexical_Head T30 Noun
+A131	Individuation_Domain T30 Individual
+A132	Participant_Type_Domain T30 Per
+A133	Involvement T30 1
+R26	OLINK_objIdentity Arg1:T29 Arg2:T30	
+R27	OLINK_objIdentity Arg1:T30 Arg2:T24	
+T31	Participant 468 503	secretário de Estado do Planeamento
+A134	Lexical_Head T31 Noun
+A135	Individuation_Domain T31 Individual
+A136	Participant_Type_Domain T31 Per
+A137	Involvement T31 1
+R28	OLINK_objIdentity Arg1:T31 Arg2:T25	
+T32	Participant 542 573	Ricardo Miguel Furtado Pinheiro
+A138	Lexical_Head T32 Noun
+A139	Individuation_Domain T32 Individual
+A140	Participant_Type_Domain T32 Per
+A141	Involvement T32 1
+R29	OLINK_objIdentity Arg1:T32 Arg2:T4	
+T33	Participant 600 627	o novo secretário de Estado
+A142	Lexical_Head T33 Noun
+A143	Individuation_Domain T33 Individual
+A144	Participant_Type_Domain T33 Per
+A145	Involvement T33 1
+T34	Participant 629 654	o ministro do Planeamento
+A146	Lexical_Head T34 Noun
+A147	Individuation_Domain T34 Individual
+A148	Participant_Type_Domain T34 Per
+A149	Involvement T34 1
+T35	Participant 656 671	Nelson de Sousa
+A150	Lexical_Head T35 Noun
+A151	Individuation_Domain T35 Individual
+A152	Participant_Type_Domain T35 Per
+A153	Involvement T35 1
+R30	OLINK_objIdentity Arg1:T35 Arg2:T34	
+R31	OLINK_objIdentity Arg1:T33 Arg2:T32	
+R32	OLINK_partOf Arg1:T33 Arg2:T34	
+T36	Participant 710 729	o Palácio de Belém.
+A154	Lexical_Head T36 Noun
+A155	Individuation_Domain T36 Individual
+A156	Participant_Type_Domain T36 Loc
+A157	Involvement T36 1
+T37	Participant 730 746	Ricardo Pinheiro
+A158	Lexical_Head T37 Noun
+A159	Individuation_Domain T37 Individual
+A160	Participant_Type_Domain T37 Per
+A161	Involvement T37 1
+R33	OLINK_objIdentity Arg1:T37 Arg2:T33	
+T38	Participant 763 786	a Câmara de Campo Maior
+A162	Lexical_Head T38 Noun
+A163	Individuation_Domain T38 Individual
+A164	Participant_Type_Domain T38 Org
+A165	Involvement T38 1
+T40	Participant 788 810	distrito de Portalegre
+A170	Lexical_Head T40 Noun
+A171	Individuation_Domain T40 Individual
+A172	Participant_Type_Domain T40 Loc
+A173	Involvement T40 1
+T41	Participant 812 819	círculo
+A174	Lexical_Head T41 Noun
+A175	Individuation_Domain T41 Set
+A176	Participant_Type_Domain T41 Per
+T42	Participant 825 829	qual
+A178	Lexical_Head T42 Pronoun
+A179	Individuation_Domain T42 Set
+A180	Participant_Type_Domain T42 Per
+A181	Involvement T42 1
+A177	Involvement T41 1
+R36	OLINK_objIdentity Arg1:T42 Arg2:T41	
+T43	Event 862 883	eleições legislativas
+A182	Class T43 Occurrence
+A183	Event_Type T43 Transition
+A184	Pos T43 Noun
+R37	TLINK_isIncluded Arg1:T43 Arg2:T19	
+R38	SRLINK_agent Arg1:T1 Arg2:T4	
+A185	Event_Type T1 Process
+R39	SRLINK_patient Arg1:T1 Arg2:T24	
+R40	SRLINK_setting Arg1:T1 Arg2:T22	
+R41	SRLINK_theme Arg1:T22 Arg2:T25	
+R42	SRLINK_theme Arg1:T5 Arg2:T2	
+R43	SRLINK_manner Arg1:T5 Arg2:T14	
+R44	SRLINK_patient Arg1:T6 Arg2:T14	
+R45	SRLINK_location Arg1:T6 Arg2:T26	
+R46	SRLINK_agent Arg1:T7 Arg2:T27	
+R47	SRLINK_theme Arg1:T7 Arg2:T8	
+R48	SRLINK_source Arg1:T8 Arg2:T28	
+R49	SRLINK_theme Arg1:T8 Arg2:T9	
+R50	SRLINK_patient Arg1:T9 Arg2:T30	
+R51	SRLINK_theme Arg1:T9 Arg2:T31	
+R52	SRLINK_agent Arg1:T11 Arg2:T28	
+R53	SRLINK_purpose Arg1:T11 Arg2:T23	
+R54	SRLINK_patient Arg1:T11 Arg2:T32	
+R55	SRLINK_location Arg1:T12 Arg2:T13	
+R56	SRLINK_patient Arg1:T15 Arg2:T33	
+R57	SRLINK_theme Arg1:T16 Arg2:T15	
+R58	SRLINK_location Arg1:T16 Arg2:T36	
+R59	SRLINK_pivot Arg1:T21 Arg2:T37	
+R60	SRLINK_theme Arg1:T21 Arg2:T38	
+R62	SRLINK_location Arg1:T21 Arg2:T40	
+R63	OLINK_objIdentity Arg1:T41 Arg2:T40	
+R64	SRLINK_source Arg1:T19 Arg2:T41	
+R65	SRLINK_theme Arg1:T19 Arg2:T20	
+R66	SRLINK_patient Arg1:T19 Arg2:T37	
+R67	SRLINK_setting Arg1:T19 Arg2:T43	
+T44	Time 8 19	06 nov 2020
+A186	Time_Type T44 Date
+A187	TemporalFunction T44 Publication_Time
+#4	AnnotatorNotes T44	value=2020-11-06
+R68	TLINK_identity Arg1:T3 Arg2:T44	
+R34	OLINK_partOf Arg1:T38 Arg2:T40	

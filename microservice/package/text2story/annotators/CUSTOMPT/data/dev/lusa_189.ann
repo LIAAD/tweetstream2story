@@ -1,0 +1,404 @@
+T1	Time 21 32	30 nov 2020
+A1	Time_Type T1 Date
+A2	TemporalFunction T1 Publication_Time
+#1	AnnotatorNotes T1	value=2020-11-30 
+T2	Time 124 128	hoje
+A3	Time_Type T2 Date
+A4	TemporalFunction T2 Publication_Time
+#2	AnnotatorNotes T2	value=2020-11-30 
+R1	TLINK_identity Arg1:T2 Arg2:T1	
+T3	Time 708 716	17 horas
+A5	Time_Type T3 Time
+#3	AnnotatorNotes T3	value=2020-11-30T17:15
+R2	TLINK_isIncluded Arg1:T3 Arg2:T2	
+T4	Event 59 64	morre
+A6	Class T4 Occurrence
+A7	Event_Type T4 Transition
+A8	Pos T4 Verb
+A9	Tense T4 Present
+A10	Aspect T4 Imperfective
+A11	Polarity T4 Pos
+T5	Event 68 88	acidente de trabalho
+A12	Class T5 Occurrence
+A13	Event_Type T5 Transition
+A14	Pos T5 Noun
+A15	Polarity T5 Pos
+T6	Event 117 123	morreu
+A16	Class T6 Occurrence
+A17	Event_Type T6 Transition
+A18	Pos T6 Verb
+A19	Tense T6 Past
+A20	Aspect T6 Perfective
+A21	Polarity T6 Pos
+T7	Event 142 162	acidente de trabalho
+A22	Class T7 Occurrence
+A23	Event_Type T7 Transition
+A24	Pos T7 Noun
+A25	Polarity T7 Pos
+T8	Event 249 254	disse
+A26	Class T8 Reporting
+A27	Event_Type T8 Transition
+A28	Pos T8 Verb
+A29	Tense T8 Past
+A30	Aspect T8 Perfective
+A31	Polarity T8 Pos
+T9	Event 284 292	Trata-se
+A32	Class T9 State
+A33	Event_Type T9 State
+A34	Pos T9 Verb
+A35	Tense T9 Present
+A36	Aspect T9 Imperfective
+A37	Polarity T9 Pos
+T10	Event 299 307	acidente
+A38	Class T10 Occurrence
+A39	Event_Type T10 Transition
+A40	Pos T10 Noun
+A41	Polarity T10 Pos
+T11	Event 312 319	envolve
+A42	Class T11 State
+A43	Event_Type T11 State
+A44	Pos T11 Verb
+A45	Tense T11 Present
+A46	Aspect T11 Imperfective
+A47	Polarity T11 Pos
+T12	Event 324 339	queda em altura
+A48	Class T12 Occurrence
+A49	Event_Type T12 Transition
+A50	Pos T12 Noun
+A51	Polarity T12 Pos
+T13	Event 360 370	trabalhava
+A52	Class T13 Occurrence
+A53	Event_Type T13 Process
+A54	Pos T13 Verb
+A55	Tense T13 Past
+A56	Aspect T13 Imperfective
+A57	Polarity T13 Pos
+T14	Event 424 436	não resistir
+A58	Class T14 State
+A59	Event_Type T14 State
+A60	Pos T14 Verb
+A61	VForm T14 Infinitive
+A62	Polarity T14 Neg
+T15	Event 411 423	acabaria por
+A63	Class T15 State
+A64	Event_Type T15 State
+A65	Pos T15 Verb
+A66	Mood T15 Conditional
+A67	Polarity T15 Pos
+T16	Event 441 451	ferimentos
+A68	Class T16 State
+A69	Event_Type T16 State
+A70	Pos T16 Noun
+A71	Polarity T16 Pos
+T17	Event 453 465	acabando por
+A72	Class T17 State
+A73	Event_Type T17 State
+A74	Pos T17 Verb
+A75	VForm T17 Gerundive
+A76	Polarity T17 Pos
+T18	Event 466 473	falecer
+A77	Class T18 Occurrence
+A78	Event_Type T18 Transition
+A79	Pos T18 Verb
+A80	VForm T18 Infinitive
+A81	Polarity T18 Pos
+T19	Event 494 506	transportada
+A82	Class T19 State
+A83	Event_Type T19 State
+A84	Pos T19 Verb
+A85	Tense T19 Past
+A86	Aspect T19 Imperfective_Progressive
+A87	Polarity T19 Pos
+T20	Event 565 581	helitransportada
+A88	Class T20 Occurrence
+A89	Event_Type T20 Transition
+A90	Pos T20 Verb
+A91	Tense T20 Past
+A92	Polarity T20 Pos
+T21	Event 615 623	explicou
+A93	Class T21 Reporting
+A94	Event_Type T21 Transition
+A95	Pos T21 Verb
+A96	Tense T21 Past
+A97	Aspect T21 Perfective
+A98	Polarity T21 Pos
+T22	Event 682 688	alerta
+A99	Class T22 Occurrence
+A100	Event_Type T22 Transition
+A101	Pos T22 Noun
+A102	Polarity T22 Pos
+T23	Event 693 697	dado
+A103	Class T23 Occurrence
+A104	Event_Type T23 Transition
+A105	Pos T23 Verb
+A106	Tense T23 Past
+A107	Aspect T23 Perfective
+A108	Polarity T23 Pos
+T24	Event 753 762	envolvido
+A109	Class T24 Occurrence
+A110	Event_Type T24 Transition
+A111	Pos T24 Verb
+A112	Tense T24 Past
+A113	Aspect T24 Perfective
+A114	Polarity T24 Pos
+T25	Event 722 742	operações de socorro
+A115	Class T25 State
+A116	Event_Type T25 State
+A117	Pos T25 Noun
+A118	Polarity T25 Pos
+T26	Event 957 965	acionado
+A119	Class T26 Occurrence
+A120	Event_Type T26 Transition
+A121	Pos T26 Verb
+A122	Tense T26 Past
+A123	Aspect T26 Perfective
+A124	Polarity T26 Pos
+T27	Event 988 999	estacionado
+A125	Class T27 State
+A126	Event_Type T27 State
+A127	Polarity T27 Pos
+A128	Pos T27 Verb
+A129	VForm T27 Participle
+T28	Event 1043 1068	tomou conta da ocorrência
+A130	Class T28 Occurrence
+A131	Event_Type T28 Transition
+A132	Pos T28 Verb
+A133	Tense T28 Past
+A134	Aspect T28 Perfective
+A135	Polarity T28 Pos
+R3	TLINK_before Arg1:T5 Arg2:T4	
+R4	TLINK_isIncluded Arg1:T6 Arg2:T2	
+T30	Event 129 135	vítima
+A140	Class T30 State
+A141	Event_Type T30 State
+A142	Pos T30 Noun
+A143	Polarity T30 Pos
+R5	TLINK_identity Arg1:T30 Arg2:T6	
+R6	TLINK_before Arg1:T7 Arg2:T30	
+R7	TLINK_after Arg1:T8 Arg2:T7	
+R8	TLINK_identity Arg1:T10 Arg2:T9	
+R9	TLINK_before Arg1:T9 Arg2:T8	
+T31	Event 308 311	que
+R10	TLINK_identity Arg1:T31 Arg2:T10	
+R11	TLINK_simultaneous Arg1:T11 Arg2:T31	
+R12	TLINK_identity Arg1:T12 Arg2:T11	
+R13	TLINK_simultaneous Arg1:T13 Arg2:T12	
+T32	Event 376 380	obra
+A144	Class T32 Occurrence
+A145	Event_Type T32 Process
+A146	Pos T32 Noun
+A147	Polarity T32 Pos
+T33	Event 384 400	construção civil
+A148	Class T33 State
+A149	Event_Type T33 State
+A150	Pos T33 Noun
+A151	Polarity T33 Pos
+R14	TLINK_includes Arg1:T32 Arg2:T13	
+R15	TLINK_identity Arg1:T33 Arg2:T32	
+R16	TLINK_after Arg1:T15 Arg2:T33	
+R17	TLINK_identity Arg1:T14 Arg2:T15	
+R18	TLINK_before Arg1:T16 Arg2:T14	
+R19	TLINK_identity Arg1:T18 Arg2:T17	
+R20	TLINK_after Arg1:T17 Arg2:T16	
+R21	TLINK_simultaneous Arg1:T19 Arg2:T18	
+R22	TLINK_after Arg1:T20 Arg2:T19	
+R23	TLINK_after Arg1:T21 Arg2:T20	
+R24	TLINK_before Arg1:T22 Arg2:T21	
+R25	TLINK_identity Arg1:T23 Arg2:T22	
+R26	TLINK_isIncluded Arg1:T23 Arg2:T3	
+R27	TLINK_after Arg1:T25 Arg2:T23	
+R28	TLINK_simultaneous Arg1:T24 Arg2:T25	
+R29	TLINK_before Arg1:T26 Arg2:T24	
+R30	TLINK_before Arg1:T27 Arg2:T26	
+R31	TLINK_after Arg1:T28 Arg2:T27	
+T34	Participant 42 58	Homem de 48 anos
+A152	Lexical_Head T34 Noun
+A153	Individuation_Domain T34 Individual
+A154	Participant_Type_Domain T34 Per
+A155	Involvement T34 1
+T35	Participant 89 101	em Mogadouro
+A156	Lexical_Head T35 Noun
+A157	Individuation_Domain T35 Individual
+A158	Participant_Type_Domain T35 Loc
+A159	Involvement T35 1
+T36	Participant 164 202	a localidade de Vilarinhos dos Galegos
+A160	Lexical_Head T36 Noun
+A161	Individuation_Domain T36 Individual
+A162	Participant_Type_Domain T36 Loc
+A163	Involvement T36 1
+T37	Participant 204 225	Concelho de Mogadouro
+A164	Lexical_Head T37 Noun
+A165	Individuation_Domain T37 Individual
+A166	Participant_Type_Domain T37 Loc
+A167	Involvement T37 1
+T38	Participant 227 247	distrito de Bragança
+A168	Lexical_Head T38 Noun
+A169	Individuation_Domain T38 Individual
+A170	Participant_Type_Domain T38 Loc
+A171	Involvement T38 1
+T39	Participant 527 545	o campo de futebol
+A172	Lexical_Head T39 Noun
+A173	Individuation_Domain T39 Individual
+A174	Participant_Type_Domain T39 Loc
+A175	Involvement T39 1
+T40	Participant 547 551	onde
+A176	Lexical_Head T40 Pronoun
+A177	Individuation_Domain T40 Individual
+A178	Participant_Type_Domain T40 Loc
+A179	Involvement T40 1
+T41	Participant 587 612	um hospital de referência
+A180	Lexical_Head T41 Noun
+A181	Individuation_Domain T41 Individual
+A182	Participant_Type_Domain T41 Loc
+A183	Involvement T41 1
+T42	Participant 1000 1023	em Macedo de Cavaleiros
+A184	Lexical_Head T42 Noun
+A185	Individuation_Domain T42 Individual
+A186	Participant_Type_Domain T42 Loc
+A187	Involvement T42 1
+T43	Participant 102 116	Um homem de 48
+A188	Lexical_Head T43 Noun
+A189	Individuation_Domain T43 Individual
+A190	Participant_Type_Domain T43 Per
+A191	Involvement T43 1
+T44	Participant 262 267	fonte
+A192	Lexical_Head T44 Noun
+A193	Individuation_Domain T44 Individual
+A194	Participant_Type_Domain T44 Per
+A195	Involvement T44 1
+T45	Participant 341 359	O homem de 48 anos
+A196	Lexical_Head T45 Noun
+A197	Individuation_Domain T45 Individual
+A198	Participant_Type_Domain T45 Per
+A199	Involvement T45 1
+T46	Participant 402 410	A vítima
+A200	Lexical_Head T46 Noun
+A201	Individuation_Domain T46 Individual
+A202	Participant_Type_Domain T46 Per
+A203	Involvement T46 1
+T47	Participant 624 636	o comandante
+A204	Lexical_Head T47 Noun
+A205	Individuation_Domain T47 Individual
+A206	Participant_Type_Domain T47 Per
+A207	Involvement T47 1
+T48	Participant 665 678	José Carrasco
+A208	Lexical_Head T48 Noun
+A209	Individuation_Domain T48 Individual
+A210	Participant_Type_Domain T48 Per
+A211	Involvement T48 1
+T49	Participant 269 281	os bombeiros
+A212	Lexical_Head T49 Noun
+A213	Individuation_Domain T49 Individual
+A214	Participant_Type_Domain T49 Org
+A215	Involvement T49 1
+T50	Participant 638 663	os bombeiros de Mogadouro
+A216	Lexical_Head T50 Noun
+A217	Individuation_Domain T50 Individual
+A218	Participant_Type_Domain T50 Org
+A219	Involvement T50 1
+T51	Participant 770 795	os bombeiros de Mogadouro
+A220	Lexical_Head T51 Noun
+A221	Individuation_Domain T51 Individual
+A222	Participant_Type_Domain T51 Org
+A223	Involvement T51 1
+T52	Participant 898 945	o Instituto Nacional e Emergência Médica (INEM)
+A224	Lexical_Head T52 Noun
+A225	Individuation_Domain T52 Individual
+A226	Participant_Type_Domain T52 Org
+A227	Involvement T52 1
+T53	Participant 981 987	o INEM
+A228	Lexical_Head T53 Noun
+A229	Individuation_Domain T53 Individual
+A230	Participant_Type_Domain T53 Org
+A231	Involvement T53 1
+T54	Participant 1024 1042	A GNR de Mogadouro
+A232	Lexical_Head T54 Noun
+A233	Individuation_Domain T54 Individual
+A234	Participant_Type_Domain T54 Org
+A235	Involvement T54 1
+T55	Participant 511 521	ambulância
+A236	Lexical_Head T55 Noun
+A237	Individuation_Domain T55 Individual
+A238	Participant_Type_Domain T55 Obj
+A239	Involvement T55 1
+T56	Participant 797 843	a ambulância de Suporte Imediato de Vida (SIV)
+A240	Lexical_Head T56 Noun
+A241	Individuation_Domain T56 Individual
+A242	Participant_Type_Domain T56 Obj
+A243	Involvement T56 1
+T57	Participant 846 896	a Viatura Medica de Emergência e Reanimação (VMER)
+A244	Lexical_Head T57 Noun
+A245	Individuation_Domain T57 Individual
+A246	Participant_Type_Domain T57 Obj
+A247	Involvement T57 1
+T58	Participant 966 979	o helicóptero
+A248	Lexical_Head T58 Noun
+A249	Individuation_Domain T58 Individual
+A250	Participant_Type_Domain T58 Obj
+A251	Involvement T58 1
+R33	OLINK_objIdentity Arg1:T43 Arg2:T34	
+R34	OLINK_partOf Arg1:T36 Arg2:T37	
+R35	OLINK_partOf Arg1:T37 Arg2:T38	
+T59	Participant 255 261	à Lusa
+A252	Lexical_Head T59 Noun
+A253	Individuation_Domain T59 Individual
+A254	Participant_Type_Domain T59 Org
+A255	Involvement T59 1
+R36	OLINK_partOf Arg1:T44 Arg2:T49	
+R37	OLINK_objIdentity Arg1:T45 Arg2:T43	
+R38	OLINK_objIdentity Arg1:T46 Arg2:T45	
+R39	OLINK_objIdentity Arg1:T40 Arg2:T39	
+R40	OLINK_partOf Arg1:T47 Arg2:T50	
+R41	OLINK_objIdentity Arg1:T48 Arg2:T47	
+R42	OLINK_objIdentity Arg1:T50 Arg2:T49	
+T60	Participant 763 768	meios
+A256	Lexical_Head T60 Noun
+A257	Individuation_Domain T60 Individual
+A258	Participant_Type_Domain T60 Other
+A259	Involvement T60 >1
+R43	OLINK_partOf Arg1:T60 Arg2:T51	
+R44	OLINK_objIdentity Arg1:T51 Arg2:T50	
+R45	OLINK_partOf Arg1:T57 Arg2:T52	
+R46	OLINK_partOf Arg1:T56 Arg2:T52	
+R47	OLINK_partOf Arg1:T58 Arg2:T53	
+R48	SRLINK_patient Arg1:T4 Arg2:T34	
+R49	SRLINK_setting Arg1:T4 Arg2:T5	
+R50	SRLINK_location Arg1:T4 Arg2:T35	
+R51	SRLINK_patient Arg1:T6 Arg2:T43	
+R52	SRLINK_manner Arg1:T6 Arg2:T30	
+R53	SRLINK_cause Arg1:T30 Arg2:T7	
+R54	SRLINK_location Arg1:T6 Arg2:T36	
+R55	SRLINK_theme Arg1:T8 Arg2:T6	
+R56	SLINK_evidential Arg1:T8 Arg2:T6	
+R57	SRLINK_goal Arg1:T8 Arg2:T59	
+R58	SRLINK_agent Arg1:T8 Arg2:T44	
+R59	SRLINK_theme Arg1:T9 Arg2:T10	
+R60	SRLINK_theme Arg1:T11 Arg2:T12	
+R61	SRLINK_cause Arg1:T11 Arg2:T31	
+R62	SRLINK_agent Arg1:T13 Arg2:T45	
+R63	SRLINK_setting Arg1:T13 Arg2:T32	
+R64	SRLINK_theme Arg1:T32 Arg2:T33	
+R65	SRLINK_patient Arg1:T15 Arg2:T46	
+R66	SRLINK_theme Arg1:T15 Arg2:T14	
+R67	SRLINK_theme Arg1:T14 Arg2:T16	
+R68	SRLINK_theme Arg1:T17 Arg2:T18	
+R69	SRLINK_patient Arg1:T17 Arg2:T46	
+R70	SRLINK_patient Arg1:T19 Arg2:T46	
+R71	SRLINK_setting Arg1:T18 Arg2:T19	
+R72	SRLINK_instrument Arg1:T19 Arg2:T55	
+R73	SRLINK_finalLocation Arg1:T19 Arg2:T39	
+R74	SRLINK_initialLocation Arg1:T20 Arg2:T40	
+R75	SRLINK_finalLocation Arg1:T20 Arg2:T41	
+R76	SRLINK_agent Arg1:T21 Arg2:T47	
+R77	SRLINK_theme Arg1:T21 Arg2:T15	
+R78	SLINK_evidential Arg1:T21 Arg2:T15	
+R79	SRLINK_theme Arg1:T23 Arg2:T22	
+R80	SRLINK_setting Arg1:T24 Arg2:T25	
+R81	SRLINK_theme Arg1:T24 Arg2:T60	
+R82	SRLINK_theme Arg1:T24 Arg2:T56	
+R83	SRLINK_theme Arg1:T24 Arg2:T57	
+R84	SRLINK_theme Arg1:T26 Arg2:T58	
+R85	SRLINK_pivot Arg1:T27 Arg2:T58	
+R86	SRLINK_location Arg1:T27 Arg2:T42	
+R87	SRLINK_agent Arg1:T28 Arg2:T54	
+R32	SRLINK_agent Arg1:T26 Arg2:T51	

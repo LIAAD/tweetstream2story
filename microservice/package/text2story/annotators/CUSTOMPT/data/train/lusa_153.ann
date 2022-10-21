@@ -1,0 +1,460 @@
+T1	Time 8 19	07 out 2020
+A1	Time_Type T1 Date
+A2	TemporalFunction T1 Publication_Time
+#1	AnnotatorNotes T1	value=2020-10-07
+T2	Event 159 167	lamentou
+A3	Class T2 Reporting
+A4	Event_Type T2 Transition
+A5	Pos T2 Verb
+A6	Tense T2 Past
+A7	Aspect T2 Perfective
+A8	Polarity T2 Pos
+T3	Event 170 175	morte
+A9	Class T3 Occurrence
+A10	Event_Type T3 Transition
+A11	Pos T3 Noun
+A12	Polarity T3 Pos
+T4	Event 209 217	incêndio
+A13	Class T4 Occurrence
+A15	Pos T4 Noun
+A16	Polarity T4 Pos
+T5	Event 218 227	registado
+A17	Class T5 Occurrence
+A18	Event_Type T5 Transition
+A19	Pos T5 Verb
+A20	Tense T5 Past
+A21	Aspect T5 Perfective
+A22	VForm T5 Participle
+A23	Polarity T5 Pos
+A14	Event_Type T4 Process
+T6	Event 274 278	nota
+A24	Class T6 Reporting
+A25	Event_Type T6 State
+A26	Pos T6 Noun
+A27	Polarity T6 Pos
+T7	Event 302 309	informa
+A28	Class T7 Reporting
+A29	Event_Type T7 Transition
+A30	Pos T7 Verb
+A31	Tense T7 Present
+A32	Aspect T7 Imperfective
+A33	Polarity T7 Pos
+T8	Event 332 343	se deslocou
+A34	Class T8 Occurrence
+A35	Event_Type T8 Transition
+A36	Pos T8 Verb
+A37	Tense T8 Past
+A38	Aspect T8 Perfective
+A39	Polarity T8 Pos
+T9	Time 344 355	terça-feira
+A40	Time_Type T9 Date
+A41	TemporalFunction T9 None
+#2	AnnotatorNotes T9	value=2020-10-06 anchorTime=Publication_Time
+T10	Event 396 405	constatar
+A42	Class T10 Perception
+A43	Event_Type T10 Transition
+A44	Pos T10 Verb
+A45	VForm T10 Infinitive
+A46	Polarity T10 Pos
+T11	Event 409 414	danos
+A47	Class T11 State
+A48	Event_Type T11 State
+A49	Polarity T11 Pos
+T12	Event 415 423	causados
+A50	Class T12 Occurrence
+A51	Event_Type T12 Transition
+A52	Pos T12 Verb
+A53	Tense T12 Past
+A54	Aspect T12 Perfective
+A55	Polarity T12 Pos
+T13	Event 429 437	incêndio
+A56	Class T13 Occurrence
+A57	Event_Type T13 Process
+A58	Pos T13 Noun
+A59	Polarity T13 Pos
+T14	Event 487 495	lamentou
+A60	Class T14 Reporting
+A61	Event_Type T14 Transition
+A62	Pos T14 Verb
+A63	Tense T14 Past
+A64	Aspect T14 Perfective
+A65	Polarity T14 Pos
+T15	Event 498 503	morte
+A66	Class T15 Occurrence
+A67	Event_Type T15 Transition
+A68	Pos T15 Noun
+A69	Polarity T15 Pos
+T16	Event 550 561	necessitava
+A70	Class T16 State
+A71	Event_Type T16 State
+A72	Pos T16 Verb
+A73	Tense T16 Past
+A74	Aspect T16 Imperfective
+A75	Polarity T16 Pos
+T17	Event 587 595	incêndio
+A76	Class T17 Occurrence
+A77	Event_Type T17 Process
+A78	Pos T17 Noun
+A79	Polarity T17 Pos
+T18	Event 596 605	registado
+A80	Class T18 Occurrence
+A81	Event_Type T18 Transition
+A82	Pos T18 Verb
+A83	Tense T18 Past
+A84	Aspect T18 Perfective
+A85	Polarity T18 Pos
+T19	Time 609 631	noite de segunda-feira
+A86	Time_Type T19 Time
+A87	TemporalFunction T19 None
+#3	AnnotatorNotes T19	value=2020-10-05TNi
+T20	Event 633 639	afetou
+A88	Class T20 State
+A89	Event_Type T20 State
+A90	Pos T20 Verb
+A91	Tense T20 Past
+A92	Aspect T20 Perfective
+A93	Polarity T20 Pos
+T21	Event 749 754	disse
+A94	Class T21 Reporting
+A95	Event_Type T21 Transition
+A96	Pos T21 Verb
+A97	Tense T21 Past
+A98	Aspect T21 Perfective
+A99	Polarity T21 Pos
+T22	Event 783 793	transferir
+A100	Class T22 Occurrence
+A101	Event_Type T22 Transition
+A102	Pos T22 Verb
+A103	VForm T22 Infinitive
+A104	Polarity T22 Pos
+T23	Event 850 861	salientando
+A105	Class T23 Reporting
+A106	Event_Type T23 Transition
+A107	Pos T23 Verb
+A108	Tense T23 Past
+A109	VForm T23 Gerundive
+A110	Polarity T23 Pos
+A111	Aspect T23 Progressive
+T24	Event 896 908	mobilizou-se
+A112	Class T24 Occurrence
+A113	Event_Type T24 Transition
+A114	Pos T24 Verb
+A115	Tense T24 Past
+A116	Aspect T24 Perfective
+A117	Polarity T24 Pos
+T25	Event 914 920	evitar
+A118	Class T25 State
+A119	Event_Type T25 State
+A120	Pos T25 Verb
+A121	VForm T25 Infinitive
+A122	Polarity T25 Pos
+T26	Event 976 988	transferidos
+A123	Class T26 Occurrence
+A124	Event_Type T26 Transition
+A125	Pos T26 Verb
+A126	Tense T26 Past
+A127	Aspect T26 Perfective
+A128	Polarity T26 Pos
+T27	Event 1023 1041	melhor atendimento
+A129	Class T27 Occurrence
+A130	Event_Type T27 Transition
+A131	Pos T27 Noun
+A132	Polarity T27 Pos
+T28	Event 1048 1057	colocados
+A133	Class T28 Occurrence
+A134	Event_Type T28 Transition
+A135	Pos T28 Verb
+A136	Tense T28 Future
+A137	Mood T28 Future
+A138	Polarity T28 Pos
+T29	Event 1102 1113	se encontra
+A139	Class T29 State
+A140	Event_Type T29 State
+A141	Pos T29 Verb
+A142	Tense T29 Present
+A143	Aspect T29 Progressive
+A144	Polarity T29 Pos
+T30	Event 1117 1137	fase final das obras
+A145	Class T30 Occurrence
+A146	Event_Type T30 Process
+A147	Pos T30 Noun
+A148	Polarity T30 Pos
+A153	Pos T11 Noun
+T32	Event 565 583	cuidados especiais
+A154	Class T32 Occurrence
+A155	Event_Type T32 Process
+A156	Pos T32 Noun
+A157	Polarity T32 Pos
+T33	Event 706 719	armazenamento
+A158	Event_Type T33 State
+A159	Pos T33 Noun
+A160	Polarity T33 Pos
+T34	Event 759 776	houve necessidade
+A161	Class T34 State
+A162	Event_Type T34 State
+A163	Pos T34 Verb
+A164	Tense T34 Past
+A165	Aspect T34 Perfective
+A166	Polarity T34 Pos
+R1	TLINK_before Arg1:T3 Arg2:T2	
+R2	TLINK_before Arg1:T4 Arg2:T3	
+R3	TLINK_identity Arg1:T5 Arg2:T4	
+R4	TLINK_after Arg1:T6 Arg2:T5	
+R5	TLINK_isIncluded Arg1:T7 Arg2:T6	
+R6	TLINK_before Arg1:T8 Arg2:T7	
+R7	TLINK_isIncluded Arg1:T8 Arg2:T9	
+R8	TLINK_before Arg1:T11 Arg2:T10	
+R9	TLINK_after Arg1:T10 Arg2:T8	
+R10	TLINK_identity Arg1:T12 Arg2:T11	
+R11	TLINK_simultaneous Arg1:T13 Arg2:T12	
+R12	TLINK_before Arg1:T15 Arg2:T14	
+R13	TLINK_after Arg1:T14 Arg2:T13	
+R14	TLINK_isIncluded Arg1:T32 Arg2:T16	
+R15	TLINK_before Arg1:T16 Arg2:T15	
+R16	TLINK_before Arg1:T17 Arg2:T32	
+R17	TLINK_identity Arg1:T18 Arg2:T17	
+R18	TLINK_isIncluded Arg1:T18 Arg2:T19	
+R19	TLINK_simultaneous Arg1:T20 Arg2:T18	
+R20	TLINK_includes Arg1:T33 Arg2:T20	
+R21	TLINK_isIncluded Arg1:T21 Arg2:T33	
+R22	TLINK_after Arg1:T21 Arg2:T20	
+R23	TLINK_before Arg1:T34 Arg2:T21	
+R24	TLINK_isIncluded Arg1:T22 Arg2:T34	
+R25	TLINK_after Arg1:T23 Arg2:T22	
+R26	TLINK_before Arg1:T24 Arg2:T23	
+R27	TLINK_isIncluded Arg1:T25 Arg2:T24	
+R28	TLINK_simultaneous Arg1:T23 Arg2:T21	
+R29	TLINK_identity Arg1:T26 Arg2:T22	
+R30	TLINK_after Arg1:T27 Arg2:T26	
+R31	TLINK_includes Arg1:T29 Arg2:T28	
+R34	TLINK_before Arg1:T28 Arg2:T27	
+T35	Participant 111 130	A ministra da Saúde
+A167	Lexical_Head T35 Noun
+A168	Individuation_Domain T35 Individual
+A169	Participant_Type_Domain T35 Per
+A170	Involvement T35 1
+T36	Participant 134 140	Angola
+A171	Lexical_Head T36 Noun
+A172	Individuation_Domain T36 Individual
+A173	Participant_Type_Domain T36 Loc
+A174	Involvement T36 1
+T37	Participant 142 157	Sílvia Lutucuta
+A175	Lexical_Head T37 Noun
+A176	Individuation_Domain T37 Individual
+A177	Participant_Type_Domain T37 Per
+A178	Involvement T37 1
+T38	Participant 179 191	duas pessoas
+A179	Lexical_Head T38 Noun
+A180	Individuation_Domain T38 Individual
+A181	Participant_Type_Domain T38 Per
+A182	Involvement T38 >1
+T39	Participant 231 245	Hospital Geral
+A183	Lexical_Head T39 Noun
+A184	Individuation_Domain T39 Individual
+A185	Participant_Type_Domain T39 Org
+A186	Involvement T39 1
+T40	Participant 282 301	Ministério da Saúde
+A187	Lexical_Head T40 Noun
+A188	Individuation_Domain T40 Individual
+A189	Participant_Type_Domain T40 Org
+A190	Involvement T40 1
+T41	Participant 314 326	a governante
+A191	Lexical_Head T41 Noun
+A192	Individuation_Domain T41 Individual
+A193	Participant_Type_Domain T41 Per
+A194	Involvement T41 1
+T42	Participant 328 331	que
+A195	Lexical_Head T42 Pronoun
+A196	Individuation_Domain T42 Individual
+A197	Participant_Type_Domain T42 Per
+A198	Involvement T42 1
+T43	Participant 356 372	àquela província
+A199	Lexical_Head T43 Noun
+A200	Individuation_Domain T43 Individual
+A201	Participant_Type_Domain T43 Loc
+A202	Involvement T43 1
+T44	Participant 376 389	sul de Angola
+A203	Lexical_Head T44 Noun
+A204	Individuation_Domain T44 Individual
+A205	Participant_Type_Domain T44 Loc
+A206	Involvement T44 1
+R35	OLINK_partOf Arg1:T43 Arg2:T44	
+T45	Participant 441 466	Hospital Geral de Ondjiva
+A207	Lexical_Head T45 Noun
+A208	Individuation_Domain T45 Individual
+A209	Participant_Type_Domain T45 Org
+A210	Involvement T45 1
+T46	Participant 468 485	capital do Cunene
+A211	Lexical_Head T46 Noun
+A212	Individuation_Domain T46 Individual
+A213	Participant_Type_Domain T46 Loc
+A214	Involvement T46 1
+T47	Participant 249 268	província do Cunene
+A215	Lexical_Head T47 Noun
+A216	Individuation_Domain T47 Individual
+A217	Participant_Type_Domain T47 Loc
+A218	Involvement T47 1
+R36	OLINK_partOf Arg1:T39 Arg2:T47	
+R37	OLINK_partOf Arg1:T45 Arg2:T46	
+T48	Participant 507 522	um doente grave
+A219	Lexical_Head T48 Noun
+A220	Individuation_Domain T48 Individual
+A221	Participant_Type_Domain T48 Per
+A222	Involvement T48 1
+T49	Participant 528 544	um recém-nascido
+A223	Lexical_Head T49 Noun
+A224	Individuation_Domain T49 Individual
+A225	Participant_Type_Domain T49 Per
+A226	Involvement T49 1
+T50	Participant 640 648	as áreas
+A227	Lexical_Head T50 Noun
+A228	Individuation_Domain T50 Individual
+A229	Participant_Type_Domain T50 Loc
+A230	Involvement T50 >1
+T51	Participant 652 668	bloco operatório
+A231	Lexical_Head T51 Noun
+A232	Individuation_Domain T51 Individual
+A233	Participant_Type_Domain T51 Loc
+A234	Involvement T51 1
+T52	Participant 670 692	enfermarias cirúrgicas
+A235	Lexical_Head T52 Noun
+A236	Individuation_Domain T52 Individual
+A237	Participant_Type_Domain T52 Loc
+A238	Involvement T52 >1
+T53	Participant 697 702	posto
+A239	Lexical_Head T53 Noun
+A240	Individuation_Domain T53 Individual
+A241	Participant_Type_Domain T53 Loc
+A242	Involvement T53 1
+T54	Participant 723 731	oxigênio
+A243	Lexical_Head T54 Noun
+A244	Individuation_Domain T54 Mass
+A245	Participant_Type_Domain T54 Other
+A246	Involvement T54 Und
+R38	OLINK_partOf Arg1:T51 Arg2:T50	
+R39	OLINK_partOf Arg1:T52 Arg2:T50	
+R40	OLINK_partOf Arg1:T53 Arg2:T50	
+T55	Participant 733 748	Sílvia Lutucuta
+A247	Lexical_Head T55 Noun
+A248	Individuation_Domain T55 Individual
+A249	Participant_Type_Domain T55 Per
+A250	Involvement T55 1
+T56	Participant 794 806	os pacientes
+A251	Lexical_Head T56 Noun
+A252	Individuation_Domain T56 Individual
+A253	Participant_Type_Domain T56 Per
+A254	Involvement T56 >1
+T57	Participant 812 840	outras unidades hospitalares
+A255	Lexical_Head T57 Noun
+A256	Individuation_Domain T57 Individual
+A257	Participant_Type_Domain T57 Org
+A258	Involvement T57 >1
+T58	Participant 844 848	zona
+A259	Lexical_Head T58 Noun
+A260	Individuation_Domain T58 Individual
+A261	Participant_Type_Domain T58 Loc
+A262	Involvement T58 1
+T59	Participant 866 895	uma equipa da linha da frente
+A263	Lexical_Head T59 Noun
+A264	Individuation_Domain T59 Set
+A265	Participant_Type_Domain T59 Per
+A266	Involvement T59 1
+T60	Participant 921 927	o pior
+A267	Lexical_Head T60 Noun
+A268	Individuation_Domain T60 Individual
+A269	Participant_Type_Domain T60 Other
+A270	Involvement T60 1
+T61	Participant 932 949	os demais doentes
+A271	Lexical_Head T61 Noun
+A272	Individuation_Domain T61 Individual
+A273	Participant_Type_Domain T61 Per
+A274	Involvement T61 >1
+T62	Participant 951 969	Todos os pacientes
+A275	Lexical_Head T62 Noun
+A276	Individuation_Domain T62 Individual
+A277	Participant_Type_Domain T62 Per
+A278	Involvement T62 All
+T63	Participant 992 1015	vários centros de saúde
+A279	Lexical_Head T63 Noun
+A280	Individuation_Domain T63 Individual
+A281	Participant_Type_Domain T63 Org
+A282	Involvement T63 >1
+T64	Participant 1061 1096	novo Hospital Municipal de Cuanhama
+A283	Lexical_Head T64 Noun
+A284	Individuation_Domain T64 Individual
+A285	Participant_Type_Domain T64 Org
+A286	Involvement T64 1
+R41	OLINK_partOf Arg1:T35 Arg2:T36	
+R42	OLINK_objIdentity Arg1:T37 Arg2:T35	
+R43	OLINK_partOf Arg1:T47 Arg2:T36	
+R44	OLINK_objIdentity Arg1:T41 Arg2:T37	
+R45	OLINK_partOf Arg1:T41 Arg2:T40	
+R46	OLINK_objIdentity Arg1:T42 Arg2:T41	
+R47	OLINK_objIdentity Arg1:T43 Arg2:T47	
+R48	OLINK_objIdentity Arg1:T45 Arg2:T39	
+R49	OLINK_partOf Arg1:T46 Arg2:T43	
+R50	OLINK_partOf Arg1:T48 Arg2:T38	
+R51	OLINK_partOf Arg1:T49 Arg2:T38	
+R52	OLINK_objIdentity Arg1:T55 Arg2:T42	
+R53	OLINK_refDisjunct Arg1:T57 Arg2:T45	
+R54	OLINK_partOf Arg1:T57 Arg2:T58	
+R55	OLINK_refDisjunct Arg1:T61 Arg2:T56	
+R56	OLINK_objIdentity Arg1:T63 Arg2:T57	
+R57	OLINK_objIdentity Arg1:T62 Arg2:T56	
+R58	SRLINK_agent Arg1:T2 Arg2:T37	
+R59	SRLINK_theme Arg1:T2 Arg2:T3	
+R60	SLINK_evidential Arg1:T2 Arg2:T3	
+R61	SRLINK_patient Arg1:T3 Arg2:T38	
+R62	SRLINK_reason Arg1:T3 Arg2:T4	
+R63	SRLINK_theme Arg1:T4 Arg2:T5	
+R64	SRLINK_location Arg1:T5 Arg2:T39	
+R65	SRLINK_source Arg1:T6 Arg2:T40	
+R66	SRLINK_agent Arg1:T7 Arg2:T40	
+R67	SLINK_evidential Arg1:T7 Arg2:T14	
+R68	SRLINK_theme Arg1:T7 Arg2:T14	
+R69	SRLINK_agent Arg1:T8 Arg2:T42	
+R70	SRLINK_finalLocation Arg1:T8 Arg2:T43	
+R71	SRLINK_purpose Arg1:T8 Arg2:T10	
+R72	SLINK_evidential Arg1:T10 Arg2:T11	
+R73	SRLINK_theme Arg1:T10 Arg2:T11	
+R74	SRLINK_theme Arg1:T12 Arg2:T11	
+R75	SRLINK_cause Arg1:T12 Arg2:T13	
+R76	SRLINK_location Arg1:T12 Arg2:T45	
+R77	SRLINK_agent Arg1:T14 Arg2:T42	
+R78	SLINK_evidential Arg1:T14 Arg2:T15	
+R79	SRLINK_theme Arg1:T14 Arg2:T15	
+R80	SRLINK_patient Arg1:T15 Arg2:T48	
+R81	SRLINK_patient Arg1:T15 Arg2:T49	
+T65	Participant 546 549	que
+A287	Lexical_Head T65 Pronoun
+A288	Individuation_Domain T65 Individual
+A289	Participant_Type_Domain T65 Per
+A290	Involvement T65 1
+R82	OLINK_objIdentity Arg1:T65 Arg2:T49	
+R83	SRLINK_pivot Arg1:T16 Arg2:T65	
+R84	SRLINK_theme Arg1:T16 Arg2:T32	
+R85	SRLINK_theme Arg1:T18 Arg2:T17	
+R86	SRLINK_cause Arg1:T20 Arg2:T17	
+R87	SRLINK_location Arg1:T20 Arg2:T50	
+R88	SRLINK_location Arg1:T33 Arg2:T53	
+R89	SRLINK_theme Arg1:T33 Arg2:T54	
+R90	SRLINK_agent Arg1:T21 Arg2:T55	
+R91	SLINK_evidential Arg1:T21 Arg2:T34	
+R92	SRLINK_theme Arg1:T21 Arg2:T34	
+R93	SRLINK_theme Arg1:T34 Arg2:T22	
+R94	SRLINK_patient Arg1:T22 Arg2:T56	
+R95	SRLINK_finalLocation Arg1:T22 Arg2:T57	
+R96	SRLINK_agent Arg1:T23 Arg2:T55	
+R97	SLINK_evidential Arg1:T23 Arg2:T24	
+R98	SRLINK_theme Arg1:T23 Arg2:T24	
+R99	SRLINK_agent Arg1:T24 Arg2:T59	
+R100	SRLINK_purpose Arg1:T24 Arg2:T25	
+R101	SRLINK_theme Arg1:T25 Arg2:T60	
+R102	SRLINK_goal Arg1:T25 Arg2:T61	
+R103	SRLINK_patient Arg1:T26 Arg2:T62	
+R104	SRLINK_finalLocation Arg1:T26 Arg2:T63	
+R105	SRLINK_patient Arg1:T28 Arg2:T62	
+R106	SRLINK_finalLocation Arg1:T28 Arg2:T64	
+R107	SRLINK_purpose Arg1:T28 Arg2:T27	
+R108	SRLINK_pivot Arg1:T29 Arg2:T64	
+R109	SRLINK_theme Arg1:T29 Arg2:T30	

@@ -1,0 +1,174 @@
+T1	Time 7 18	16 out 2020
+A1	Time_Type T1 Date
+A2	TemporalFunction T1 Publication_Time
+T2	Event 140 148	anunciou
+A3	Event_Type T2 Transition
+A4	Pos T2 Verb
+A5	Tense T2 Past
+A6	Aspect T2 Perfective
+A7	Polarity T2 Pos
+T3	Time 149 153	hoje
+A8	Time_Type T3 Date
+A9	TemporalFunction T3 Publication_Time
+T4	Event 162 169	chamada
+A10	Class T4 Occurrence
+A11	Event_Type T4 Transition
+A12	Pos T4 Verb
+A13	Tense T4 Past
+A14	Aspect T4 Perfective
+A15	Polarity T4 Pos
+T5	Event 198 208	decapitado
+A16	Class T5 Occurrence
+A17	Pos T5 Verb
+A18	Tense T5 Past
+A19	Aspect T5 Perfective
+A20	VForm T5 Infinitive
+A21	Polarity T5 Pos
+T6	Event 237 242;262 284	tendo sido gravemente ferido
+A22	Class T6 Occurrence
+A23	Event_Type T6 Transition
+A24	Pos T6 Verb
+A25	Tense T6 Past
+A26	Aspect T6 Perfective
+A27	VForm T6 Gerundive
+A28	Polarity T6 Pos
+T7	Event 311 323	investigação
+A29	Class T7 Occurrence
+A30	Event_Type T7 Process
+A31	Pos T7 Noun
+A32	Polarity T7 Pos
+T8	Event 335 343	continua
+A33	Class T8 Aspectual
+A34	Event_Type T8 Process
+A35	Pos T8 Verb
+A36	Tense T8 Present
+A37	Aspect T8 Imperfective
+A38	Polarity T8 Pos
+T9	Event 443 452	suspeitam
+A39	Class T9 State
+A40	Event_Type T9 State
+A41	Pos T9 Verb
+A42	Tense T9 Present
+A43	Aspect T9 Imperfective
+A44	Polarity T9 Pos
+T10	Event 457 467	assassínio
+A45	Class T10 Occurrence
+A46	Event_Type T10 Transition
+A47	Pos T10 Noun
+A48	Polarity T10 Pos
+T11	Event 471 478	conexão
+A49	Class T11 State
+A50	Event_Type T11 State
+A51	Pos T11 Noun
+A52	Polarity T11 Pos
+T12	Event 514 546	associação criminosa terrorista”
+A53	Class T12 State
+A54	Event_Type T12 State
+A55	Pos T12 Noun
+A56	Polarity T12 Pos
+R1	TLINK_isIncluded Arg1:T2 Arg2:T3	
+R2	TLINK_before Arg1:T4 Arg2:T2	
+R3	TLINK_before Arg1:T5 Arg2:T4	
+R4	TLINK_after Arg1:T6 Arg2:T5	
+T13	Event 330 334	caso
+A57	Class T13 Occurrence
+A58	Event_Type T13 Transition
+A59	Pos T13 Noun
+A60	Polarity T13 Pos
+R5	TLINK_before Arg1:T13 Arg2:T7	
+R7	ALINK_continues Arg1:T8 Arg2:T7	
+R8	TLINK_after Arg1:T8 Arg2:T13	
+R6	TLINK_simultaneous Arg1:T9 Arg2:T8	
+R9	TLINK_before Arg1:T10 Arg2:T9	
+R10	TLINK_simultaneous Arg1:T11 Arg2:T10	
+R11	TLINK_before Arg1:T12 Arg2:T9	
+T14	Participant 106 139	A brigada antiterrorista francesa
+A61	Lexical_Head T14 Noun
+A62	Individuation_Domain T14 Individual
+A63	Participant_Type_Domain T14 Org
+A64	Involvement T14 1
+T15	Participant 180 188	um homem
+A65	Lexical_Head T15 Noun
+A66	Individuation_Domain T15 Individual
+A67	Participant_Type_Domain T15 Per
+A68	Involvement T15 1
+T16	Participant 210 235	uma vila próxima de Paris
+A69	Lexical_Head T16 Noun
+A70	Individuation_Domain T16 Individual
+A71	Participant_Type_Domain T16 Loc
+A72	Involvement T16 1
+T17	Participant 243 261	o suposto agressor
+A73	Lexical_Head T17 Noun
+A74	Individuation_Domain T17 Individual
+A75	Participant_Type_Domain T17 Per
+A76	Involvement T17 1
+T18	Participant 289 296	um tiro
+A77	Lexical_Head T18 Noun
+A78	Individuation_Domain T18 Individual
+A79	Participant_Type_Domain T18 Other
+A80	Involvement T18 1
+T19	Participant 300 307	polícia
+A81	Lexical_Head T19 Noun
+A82	Individuation_Domain T19 Individual
+A83	Participant_Type_Domain T19 Org
+A84	Involvement T19 1
+T20	Participant 345 364	perto de uma escola
+A85	Lexical_Head T20 Noun
+A86	Individuation_Domain T20 Individual
+A87	Participant_Type_Domain T20 Loc
+A88	Involvement T20 1
+T21	Participant 368 398	vila de Conflan Saint-Honorine
+A89	Lexical_Head T21 Noun
+A90	Individuation_Domain T21 Individual
+A91	Participant_Type_Domain T21 Loc
+A92	Involvement T21 1
+R12	OLINK_partOf Arg1:T20 Arg2:T21	
+T22	Participant 404 422	arredores de Paris
+A93	Lexical_Head T22 Noun
+A94	Individuation_Domain T22 Individual
+A95	Participant_Type_Domain T22 Loc
+A96	Involvement T22 1
+T23	Participant 428 442	as autoridades
+A97	Lexical_Head T23 Noun
+A98	Individuation_Domain T23 Individual
+A99	Participant_Type_Domain T23 Org
+A100	Involvement T23 >1
+T24	Participant 483 509	uma organização terrorista
+A101	Lexical_Head T24 Noun
+A102	Individuation_Domain T24 Individual
+A103	Participant_Type_Domain T24 Org
+A104	Involvement T24 1
+T25	Participant 556 580	a brigada antiterrorista
+A105	Lexical_Head T25 Noun
+A106	Individuation_Domain T25 Individual
+A107	Participant_Type_Domain T25 Org
+A108	Involvement T25 1
+R13	OLINK_objIdentity Arg1:T25 Arg2:T14	
+R14	OLINK_partOf Arg1:T14 Arg2:T19	
+R15	OLINK_partOf Arg1:T20 Arg2:T16	
+R16	OLINK_objIdentity Arg1:T21 Arg2:T16	
+R17	OLINK_partOf Arg1:T21 Arg2:T22	
+R18	OLINK_partOf Arg1:T19 Arg2:T23	
+R19	OLINK_partOf Arg1:T25 Arg2:T23	
+R20	SRLINK_agent Arg1:T2 Arg2:T14	
+R21	SLINK_evidential Arg1:T2 Arg2:T4	
+R22	SRLINK_theme Arg1:T2 Arg2:T4	
+R23	SRLINK_patient Arg1:T5 Arg2:T15	
+R24	SRLINK_location Arg1:T5 Arg2:T16	
+R25	SRLINK_agent Arg1:T5 Arg2:T17	
+R26	SRLINK_patient Arg1:T6 Arg2:T17	
+R27	SRLINK_agent Arg1:T6 Arg2:T19	
+R28	SRLINK_instrument Arg1:T6 Arg2:T18	
+R29	SRLINK_theme Arg1:T8 Arg2:T7	
+R30	SRLINK_theme Arg1:T7 Arg2:T13	
+R31	SRLINK_location Arg1:T8 Arg2:T20	
+R32	SRLINK_location Arg1:T8 Arg2:T21	
+R33	SRLINK_location Arg1:T8 Arg2:T22	
+R34	SRLINK_pivot Arg1:T9 Arg2:T23	
+R35	SRLINK_theme Arg1:T9 Arg2:T10	
+R36	SRLINK_manner Arg1:T10 Arg2:T11	
+R37	SRLINK_partner Arg1:T11 Arg2:T24	
+R38	SRLINK_theme Arg1:T9 Arg2:T12	
+R39	TLINK_identity Arg1:T3 Arg2:T1	
+#1	AnnotatorNotes T1	value=2020-10-16
+#2	AnnotatorNotes T3	value=2020-10-16 anchorTime=Publication_Time

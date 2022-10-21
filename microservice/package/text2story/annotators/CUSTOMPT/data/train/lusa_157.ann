@@ -1,0 +1,526 @@
+T1	Time 9 20	21 out 2020
+A1	Time_Type T1 Date
+A2	TemporalFunction T1 Publication_Time
+#1	AnnotatorNotes T1	value=2020-10-21
+T2	Time 113 125	hoje à tarde
+A3	Time_Type T2 Time
+A4	TemporalFunction T2 Publication_Time
+#2	AnnotatorNotes T2	value=2020-10-21TAf anchorTime=Publication_Time
+T3	Event 109 112	fez
+A5	Class T3 Occurrence
+A6	Event_Type T3 Transition
+A7	Pos T3 Verb
+A8	Tense T3 Past
+A9	Aspect T3 Perfective
+A10	Polarity T3 Pos
+T4	Event 213 223	informaram
+A11	Class T4 Reporting
+A12	Event_Type T4 Transition
+A13	Pos T4 Verb
+A14	Tense T4 Past
+A15	Aspect T4 Perfective
+A16	Polarity T4 Pos
+T5	Event 305 317	não precisou
+A17	Class T5 Reporting
+A18	Event_Type T5 Transition
+A19	Pos T5 Verb
+A20	Tense T5 Past
+A21	Aspect T5 Perfective
+A22	Polarity T5 Pos
+T6	Event 357 363	feitas
+A23	Class T6 Occurrence
+A24	Event_Type T6 Transition
+A25	Pos T6 Verb
+A26	Tense T6 Past
+A27	Aspect T6 Perfective
+A28	Polarity T6 Pos
+T7	Event 388 398	localizado
+A29	Class T7 State
+A30	Event_Type T7 State
+A31	Pos T7 Verb
+A32	VForm T7 Participle
+A33	Polarity T7 Pos
+T8	Event 445 448	são
+A34	Class T8 State
+A35	Event_Type T8 State
+A36	Pos T8 Verb
+A37	Tense T8 Present
+A38	Aspect T8 Imperfective
+A39	Polarity T8 Pos
+T9	Event 452 462	exigências
+A40	Class T9 State
+A41	Event_Type T9 State
+A42	Pos T9 Noun
+A43	Polarity T9 Pos
+T10	Event 486 492	isolou
+A44	Class T10 Occurrence
+A45	Event_Type T10 Transition
+A46	Pos T10 Verb
+A47	Tense T10 Past
+A48	Aspect T10 Perfective
+A49	Polarity T10 Pos
+T11	Event 518 522	fica
+A50	Class T11 State
+A51	Event_Type T11 State
+A52	Pos T11 Verb
+A53	Tense T11 Present
+A54	Aspect T11 Progressive
+A55	Polarity T11 Pos
+T12	Event 545 551	montou
+A56	Class T12 Occurrence
+A57	Event_Type T12 Transition
+A58	Pos T12 Verb
+A59	Tense T12 Past
+A60	Aspect T12 Perfective
+A61	Polarity T12 Pos
+T13	Event 556 564	operação
+A62	Class T13 Occurrence
+A63	Event_Type T13 Process
+A64	Pos T13 Noun
+A65	Polarity T13 Pos
+T14	Event 571 582	neutralizar
+A66	Class T14 Occurrence
+A67	Event_Type T14 Transition
+A68	Pos T14 Verb
+A69	VForm T14 Infinitive
+A70	Polarity T14 Pos
+T15	Event 596 604	informou
+A71	Class T15 Reporting
+A72	Event_Type T15 Transition
+A73	Pos T15 Verb
+A74	Tense T15 Past
+A75	Aspect T15 Perfective
+A76	Polarity T15 Pos
+T16	Event 622 632	comunicado
+A77	Class T16 Reporting
+A78	Event_Type T16 Transition
+A79	Pos T16 Noun
+A80	Polarity T16 Pos
+T17	Event 680 688	noticiou
+A81	Class T17 Reporting
+A82	Event_Type T17 Transition
+A83	Pos T17 Verb
+A84	Tense T17 Past
+A85	Aspect T17 Perfective
+A86	Polarity T17 Pos
+T18	Event 713 719	armado
+A87	Class T18 State
+A88	Event_Type T18 State
+A89	Pos T18 Verb
+A90	Tense T18 Present
+A91	Aspect T18 Imperfective
+A92	Polarity T18 Pos
+T19	Event 745 750	exige
+A93	Class T19 State
+A94	Event_Type T19 State
+A95	Pos T19 Verb
+A96	Tense T19 Present
+A97	Aspect T19 Imperfective
+A98	Polarity T19 Pos
+T20	Event 818 827	conseguiu
+A99	Class T20 I_Action
+A100	Event_Type T20 Transition
+A101	Pos T20 Verb
+A102	Tense T20 Past
+A103	Aspect T20 Perfective
+A104	Polarity T20 Pos
+T21	Event 828 833	falar
+A105	Class T21 Reporting
+A106	Event_Type T21 Process
+A107	Pos T21 Verb
+A108	Polarity T21 Pos
+A109	VForm T21 Infinitive
+T22	Event 856 863	indicou
+A110	Class T22 Reporting
+A111	Event_Type T22 Transition
+A112	Pos T22 Verb
+A113	Tense T22 Past
+A114	Aspect T22 Perfective
+A115	Polarity T22 Pos
+T23	Event 879 885	mantém
+A116	Class T23 State
+A117	Event_Type T23 State
+A118	Pos T23 Verb
+A119	Tense T23 Present
+A120	Aspect T23 Progressive
+A121	Polarity T23 Pos
+T24	Event 959 967	divulgou
+A122	Class T24 Occurrence
+A123	Event_Type T24 Transition
+A124	Pos T24 Verb
+A125	Tense T24 Past
+A126	Aspect T24 Perfective
+A127	Polarity T24 Pos
+T25	Event 981 987	mostra
+A128	Class T25 Perception
+A129	Event_Type T25 State
+A130	Pos T25 Verb
+A131	Tense T25 Present
+A132	Aspect T25 Imperfective
+A133	Polarity T25 Pos
+T26	Event 1009 1017	sentadas
+A134	Class T26 State
+A135	Event_Type T26 State
+A136	Pos T26 Verb
+A137	VForm T26 Participle
+A138	Polarity T26 Pos
+T27	Event 1037 1044	vestido
+A139	Class T27 State
+A140	Event_Type T27 State
+A141	Pos T27 Verb
+A142	VForm T27 Participle
+A143	Polarity T27 Pos
+T28	Event 1079 1086	coberto
+A144	Class T28 State
+A145	Event_Type T28 State
+A146	Pos T28 Verb
+A147	VForm T28 Participle
+A148	Polarity T28 Pos
+T29	Event 1090 1096	armado
+A149	Class T29 State
+A150	Event_Type T29 State
+A151	Pos T29 Verb
+A152	VForm T29 Participle
+A153	Polarity T29 Pos
+R1	TLINK_isIncluded Arg1:T3 Arg2:T2	
+R2	TLINK_after Arg1:T4 Arg2:T3	
+R3	TLINK_includes Arg1:T5 Arg2:T4	
+R4	TLINK_before Arg1:T6 Arg2:T5	
+R5	TLINK_includes Arg1:T7 Arg2:T6	
+R6	TLINK_simultaneous Arg1:T8 Arg2:T7	
+R7	TLINK_isIncluded Arg1:T9 Arg2:T8	
+R8	TLINK_includes Arg1:T10 Arg2:T9	
+R9	TLINK_includes Arg1:T11 Arg2:T10	
+R10	TLINK_isIncluded Arg1:T12 Arg2:T11	
+R11	TLINK_simultaneous Arg1:T12 Arg2:T10	
+R12	TLINK_identity Arg1:T13 Arg2:T12	
+R13	TLINK_after Arg1:T14 Arg2:T13	
+R14	TLINK_after Arg1:T15 Arg2:T14	
+R15	TLINK_includes Arg1:T16 Arg2:T15	
+R16	TLINK_after Arg1:T17 Arg2:T16	
+R17	TLINK_includes Arg1:T18 Arg2:T17	
+R18	TLINK_simultaneous Arg1:T19 Arg2:T18	
+R21	TLINK_isIncluded Arg1:T20 Arg2:T19	
+R22	TLINK_identity Arg1:T21 Arg2:T20	
+R23	TLINK_isIncluded Arg1:T22 Arg2:T21	
+R24	TLINK_includes Arg1:T23 Arg2:T22	
+R25	TLINK_isIncluded Arg1:T24 Arg2:T23	
+R26	TLINK_includes Arg1:T25 Arg2:T24	
+R27	TLINK_isIncluded Arg1:T26 Arg2:T25	
+R28	TLINK_simultaneous Arg1:T27 Arg2:T26	
+R29	TLINK_simultaneous Arg1:T28 Arg2:T27	
+R30	TLINK_simultaneous Arg1:T29 Arg2:T28	
+T30	Participant 93 108	Um homem armado
+A154	Lexical_Head T30 Noun
+A155	Individuation_Domain T30 Individual
+A156	Participant_Type_Domain T30 Per
+A157	Involvement T30 1
+T31	Participant 126 139	vários reféns
+A158	Lexical_Head T31 Noun
+A159	Individuation_Domain T31 Individual
+A160	Participant_Type_Domain T31 Per
+A161	Involvement T31 >1
+T32	Participant 150 164	número incerto
+A162	Lexical_Head T32 Noun
+A163	Individuation_Domain T32 Individual
+A164	Participant_Type_Domain T32 Other
+A165	Involvement T32 Und
+T33	Participant 166 188	dentro das instalações
+A166	Lexical_Head T33 Noun
+A167	Individuation_Domain T33 Individual
+A168	Participant_Type_Domain T33 Loc
+A169	Involvement T33 1
+T34	Participant 204 211	Geórgia
+A170	Lexical_Head T34 Noun
+A171	Individuation_Domain T34 Individual
+A172	Participant_Type_Domain T34 Loc
+A173	Involvement T34 1
+R31	OLINK_partOf Arg1:T33 Arg2:T34	
+T35	Participant 224 238	as autoridades
+A174	Lexical_Head T35 Noun
+A175	Individuation_Domain T35 Individual
+A176	Participant_Type_Domain T35 Org
+A177	Involvement T35 >1
+T36	Participant 245 267	ex-república soviética
+A178	Lexical_Head T36 Noun
+A179	Individuation_Domain T36 Individual
+A180	Participant_Type_Domain T36 Loc
+A181	Involvement T36 1
+R32	OLINK_objIdentity Arg1:T36 Arg2:T34	
+R33	OLINK_partOf Arg1:T35 Arg2:T36	
+T37	Participant 269 293	O Ministério do Interior
+A182	Lexical_Head T37 Noun
+A183	Individuation_Domain T37 Individual
+A184	Participant_Type_Domain T37 Per
+A185	Involvement T37 1
+T38	Participant 297 304	Geórgia
+A186	Lexical_Head T38 Noun
+A187	Individuation_Domain T38 Individual
+A188	Participant_Type_Domain T38 Loc
+A189	Involvement T38 1
+R34	OLINK_partOf Arg1:T37 Arg2:T38	
+R35	OLINK_objIdentity Arg1:T38 Arg2:T34	
+T39	Participant 335 350	quantas pessoas
+A190	Lexical_Head T39 Noun
+A191	Individuation_Domain T39 Individual
+A192	Participant_Type_Domain T39 Per
+A193	Involvement T39 Und
+T40	Participant 364 370	reféns
+A194	Lexical_Head T40 Noun
+A195	Individuation_Domain T40 Individual
+A196	Participant_Type_Domain T40 Per
+A197	Involvement T40 Und
+T41	Participant 371 386	dentro do banco
+A198	Lexical_Head T41 Noun
+A199	Individuation_Domain T41 Individual
+A200	Participant_Type_Domain T41 Loc
+A201	Involvement T41 1
+R36	OLINK_objIdentity Arg1:T41 Arg2:T33	
+T42	Participant 402 434	cidade de Zugdidi (região oeste)
+A202	Lexical_Head T42 Noun
+A203	Individuation_Domain T42 Individual
+A204	Participant_Type_Domain T42 Loc
+A205	Involvement T42 1
+T43	Participant 439 444	quais
+A206	Lexical_Head T43 Pronoun
+A207	Individuation_Domain T43 Individual
+A208	Participant_Type_Domain T43 Per
+A209	Involvement T43 Und
+T44	Participant 466 474	agressor
+A210	Lexical_Head T44 Noun
+A211	Individuation_Domain T44 Individual
+A212	Participant_Type_Domain T44 Per
+A213	Involvement T44 1
+T45	Participant 476 485	A polícia
+A214	Lexical_Head T45 Noun
+A215	Individuation_Domain T45 Individual
+A216	Participant_Type_Domain T45 Org
+A217	Involvement T45 1
+T46	Participant 506 512	a zona
+A218	Lexical_Head T46 Noun
+A219	Individuation_Domain T46 Individual
+A220	Participant_Type_Domain T46 Loc
+A221	Involvement T46 1
+T47	Participant 513 517	onde
+A222	Lexical_Head T47 Pronoun
+A223	Individuation_Domain T47 Individual
+A224	Participant_Type_Domain T47 Loc
+A225	Involvement T47 1
+T48	Participant 523 542	a sucursal bancária
+A226	Lexical_Head T48 Noun
+A227	Individuation_Domain T48 Individual
+A228	Participant_Type_Domain T48 Org
+A229	Involvement T48 1
+T49	Participant 583 593	o agressor
+A230	Lexical_Head T49 Noun
+A231	Individuation_Domain T49 Individual
+A232	Participant_Type_Domain T49 Per
+A233	Involvement T49 1
+T50	Participant 605 617	o ministério
+A234	Lexical_Head T50 Noun
+A235	Individuation_Domain T50 Individual
+A236	Participant_Type_Domain T50 Org
+A237	Involvement T50 1
+T51	Participant 634 664	A televisão estatal da Geórgia
+A238	Lexical_Head T51 Noun
+A239	Individuation_Domain T51 Individual
+A240	Participant_Type_Domain T51 Org
+A241	Involvement T51 1
+T52	Participant 666 678	a Mtavari TV
+A242	Lexical_Head T52 Noun
+A243	Individuation_Domain T52 Individual
+A244	Participant_Type_Domain T52 Org
+A245	Involvement T52 1
+T53	Participant 693 707	o sequestrador
+A246	Lexical_Head T53 Noun
+A247	Individuation_Domain T53 Individual
+A248	Participant_Type_Domain T53 Per
+A249	Involvement T53 1
+T54	Participant 724 742	uma granada de mão
+A250	Lexical_Head T54 Noun
+A251	Individuation_Domain T54 Individual
+A252	Participant_Type_Domain T54 Obj
+A253	Involvement T54 1
+T55	Participant 751 791	500.000 dólares (cerca de 420.000 euros)
+A254	Lexical_Head T55 Noun
+A255	Individuation_Domain T55 Individual
+A256	Participant_Type_Domain T55 Obj
+A257	Involvement T55 >1
+T56	Participant 795 803	dinheiro
+A258	Lexical_Head T56 Noun
+A259	Individuation_Domain T56 Mass
+A260	Participant_Type_Domain T56 Obj
+A261	Involvement T56 Und
+T57	Participant 805 817	A Mtavari TV
+A262	Lexical_Head T57 Noun
+A263	Individuation_Domain T57 Individual
+A264	Participant_Type_Domain T57 Org
+A265	Involvement T57 1
+T58	Participant 838 840	um
+A266	Lexical_Head T58 Pronoun
+A267	Individuation_Domain T58 Individual
+A268	Participant_Type_Domain T58 Per
+A269	Involvement T58 1
+T59	Participant 845 851	reféns
+A270	Lexical_Head T59 Noun
+A271	Individuation_Domain T59 Individual
+A272	Participant_Type_Domain T59 Per
+A273	Involvement T59 >1
+T60	Participant 868 878	o agressor
+A274	Lexical_Head T60 Noun
+A275	Individuation_Domain T60 Individual
+A276	Participant_Type_Domain T60 Per
+A277	Involvement T60 1
+T61	Participant 886 896	19 pessoas
+A278	Lexical_Head T61 Noun
+A279	Individuation_Domain T61 Individual
+A280	Participant_Type_Domain T61 Per
+A281	Involvement T61 >1
+T62	Participant 897 929	dentro das instalações bancárias
+A282	Lexical_Head T62 Noun
+A283	Individuation_Domain T62 Individual
+A284	Participant_Type_Domain T62 Loc
+A285	Involvement T62 1
+T63	Participant 931 951	O canal de televisão
+A286	Lexical_Head T63 Noun
+A287	Individuation_Domain T63 Individual
+A288	Participant_Type_Domain T63 Org
+A289	Involvement T63 1
+T64	Participant 968 976	um vídeo
+A290	Lexical_Head T64 Noun
+A291	Individuation_Domain T64 Individual
+A292	Participant_Type_Domain T64 Other
+A293	Involvement T64 1
+T65	Participant 988 996	uma sala
+A294	Lexical_Head T65 Noun
+A295	Individuation_Domain T65 Individual
+A296	Participant_Type_Domain T65 Loc
+A297	Involvement T65 1
+T66	Participant 1001 1008	pessoas
+A298	Lexical_Head T66 Noun
+A299	Individuation_Domain T66 Individual
+A300	Participant_Type_Domain T66 Per
+A301	Involvement T66 Und
+T67	Participant 1021 1025	chão
+A302	Lexical_Head T67 Noun
+A303	Individuation_Domain T67 Individual
+A304	Participant_Type_Domain T67 Loc
+A305	Involvement T67 1
+T68	Participant 1028 1036	um homem
+A306	Lexical_Head T68 Noun
+A307	Individuation_Domain T68 Individual
+A308	Participant_Type_Domain T68 Per
+A309	Involvement T68 1
+T69	Participant 1049 1068	um uniforme militar
+A310	Lexical_Head T69 Noun
+A311	Individuation_Domain T69 Individual
+A312	Participant_Type_Domain T69 Other
+A313	Involvement T69 1
+T70	Participant 1073 1078	rosto
+A314	Lexical_Head T70 Noun
+A315	Individuation_Domain T70 Individual
+A316	Participant_Type_Domain T70 Other
+A317	Involvement T70 1
+T71	Participant 1101 1115	uma espingarda
+A318	Lexical_Head T71 Noun
+A319	Individuation_Domain T71 Individual
+A320	Participant_Type_Domain T71 Obj
+A321	Involvement T71 1
+R37	OLINK_objIdentity Arg1:T32 Arg2:T31	
+R38	OLINK_objIdentity Arg1:T39 Arg2:T31	
+R39	OLINK_objIdentity Arg1:T40 Arg2:T39	
+R40	OLINK_partOf Arg1:T42 Arg2:T38	
+R41	OLINK_objIdentity Arg1:T44 Arg2:T30	
+R42	OLINK_partOf Arg1:T45 Arg2:T35	
+R43	OLINK_objIdentity Arg1:T47 Arg2:T46	
+R44	OLINK_partOf Arg1:T46 Arg2:T42	
+R45	OLINK_objIdentity Arg1:T48 Arg2:T72	
+T72	Participant 192 200	um banco
+A322	Lexical_Head T72 Noun
+A323	Individuation_Domain T72 Individual
+A324	Participant_Type_Domain T72 Org
+A325	Involvement T72 1
+R46	OLINK_partOf Arg1:T33 Arg2:T72	
+R47	OLINK_objIdentity Arg1:T49 Arg2:T44	
+R48	OLINK_objIdentity Arg1:T50 Arg2:T37	
+R49	OLINK_objIdentity Arg1:T52 Arg2:T51	
+R50	OLINK_objIdentity Arg1:T53 Arg2:T49	
+R51	OLINK_objIdentity Arg1:T56 Arg2:T55	
+R52	OLINK_objIdentity Arg1:T57 Arg2:T52	
+R53	OLINK_partOf Arg1:T58 Arg2:T59	
+T73	Participant 852 855	que
+A326	Lexical_Head T73 Pronoun
+A327	Individuation_Domain T73 Individual
+A328	Participant_Type_Domain T73 Per
+A329	Involvement T73 1
+R54	OLINK_objIdentity Arg1:T73 Arg2:T58	
+R55	OLINK_objIdentity Arg1:T59 Arg2:T40	
+R56	OLINK_objIdentity Arg1:T60 Arg2:T53	
+R57	OLINK_objIdentity Arg1:T61 Arg2:T59	
+R58	OLINK_partOf Arg1:T62 Arg2:T48	
+R59	OLINK_objIdentity Arg1:T63 Arg2:T57	
+R60	OLINK_objIdentity Arg1:T66 Arg2:T61	
+R61	OLINK_partOf Arg1:T67 Arg2:T65	
+R62	OLINK_objIdentity Arg1:T68 Arg2:T60	
+R63	OLINK_partOf Arg1:T70 Arg2:T68	
+R64	SRLINK_agent Arg1:T3 Arg2:T30	
+R65	SRLINK_patient Arg1:T3 Arg2:T31	
+R66	SRLINK_amount Arg1:T3 Arg2:T32	
+R67	SRLINK_location Arg1:T3 Arg2:T33	
+R68	OLINK_partOf Arg1:T72 Arg2:T34	
+R69	SRLINK_agent Arg1:T4 Arg2:T35	
+R70	SRLINK_theme Arg1:T4 Arg2:T3	
+R71	SLINK_evidential Arg1:T4 Arg2:T3	
+R72	SRLINK_agent Arg1:T5 Arg2:T37	
+R73	SLINK_negEvidential Arg1:T5 Arg2:T6	
+R74	SRLINK_theme Arg1:T5 Arg2:T6	
+R75	SRLINK_patient Arg1:T6 Arg2:T39	
+R76	SRLINK_theme Arg1:T6 Arg2:T40	
+R77	SRLINK_location Arg1:T6 Arg2:T41	
+R78	SRLINK_pivot Arg1:T7 Arg2:T41	
+R79	SRLINK_location Arg1:T7 Arg2:T42	
+R80	SRLINK_pivot Arg1:T8 Arg2:T43	
+R81	SRLINK_theme Arg1:T8 Arg2:T9	
+R82	SRLINK_source Arg1:T9 Arg2:T44	
+R83	SRLINK_agent Arg1:T10 Arg2:T45	
+R84	SRLINK_location Arg1:T10 Arg2:T46	
+R85	SRLINK_location Arg1:T11 Arg2:T47	
+R86	SRLINK_pivot Arg1:T11 Arg2:T48	
+R87	SRLINK_agent Arg1:T12 Arg2:T45	
+R88	SRLINK_theme Arg1:T12 Arg2:T13	
+R89	SRLINK_purpose Arg1:T13 Arg2:T14	
+R90	SRLINK_patient Arg1:T14 Arg2:T49	
+R91	SRLINK_agent Arg1:T15 Arg2:T50	
+R92	SRLINK_medium Arg1:T15 Arg2:T16	
+R93	SLINK_evidential Arg1:T15 Arg2:T10	
+R94	SRLINK_theme Arg1:T15 Arg2:T10	
+R95	SRLINK_agent Arg1:T17 Arg2:T52	
+R96	SLINK_evidential Arg1:T17 Arg2:T18	
+R97	SRLINK_theme Arg1:T17 Arg2:T18	
+R98	SRLINK_pivot Arg1:T18 Arg2:T53	
+R99	SRLINK_instrument Arg1:T18 Arg2:T54	
+R100	SRLINK_pivot Arg1:T19 Arg2:T53	
+R101	SRLINK_theme Arg1:T19 Arg2:T56	
+R102	SRLINK_amount Arg1:T19 Arg2:T55	
+R103	SRLINK_agent Arg1:T20 Arg2:T57	
+R19	SLINK_intensional Arg1:T20 Arg2:T21	
+R20	SRLINK_theme Arg1:T20 Arg2:T21	
+R104	SRLINK_partner Arg1:T21 Arg2:T58	
+R105	SRLINK_agent Arg1:T22 Arg2:T73	
+R106	SRLINK_theme Arg1:T22 Arg2:T23	
+R107	SLINK_evidential Arg1:T22 Arg2:T23	
+R108	SRLINK_pivot Arg1:T23 Arg2:T60	
+R109	SRLINK_patient Arg1:T23 Arg2:T61	
+R110	SRLINK_location Arg1:T23 Arg2:T62	
+R111	SRLINK_agent Arg1:T24 Arg2:T63	
+R112	SRLINK_theme Arg1:T24 Arg2:T64	
+R113	SRLINK_pivot Arg1:T25 Arg2:T64	
+R114	SRLINK_theme Arg1:T25 Arg2:T65	
+R115	SRLINK_location Arg1:T26 Arg2:T67	
+R116	SRLINK_pivot Arg1:T26 Arg2:T66	
+R117	SRLINK_theme Arg1:T25 Arg2:T68	
+R118	SRLINK_pivot Arg1:T27 Arg2:T68	
+R119	SRLINK_theme Arg1:T27 Arg2:T69	
+R120	SRLINK_pivot Arg1:T28 Arg2:T70	
+R121	SRLINK_pivot Arg1:T29 Arg2:T68	
+R122	SRLINK_instrument Arg1:T29 Arg2:T71	

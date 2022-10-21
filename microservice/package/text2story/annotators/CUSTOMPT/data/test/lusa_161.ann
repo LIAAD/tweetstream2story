@@ -1,0 +1,365 @@
+T1	Time 7 18	26 out 2020
+A1	Time_Type T1 Date
+A2	TemporalFunction T1 Publication_Time
+#1	AnnotatorNotes T1	value=2020-10-26
+T2	Event 132 138	acusou
+A3	Class T2 Occurrence
+A4	Event_Type T2 Transition
+A5	Pos T2 Verb
+A6	Tense T2 Past
+A7	Aspect T2 Perfective
+A8	Polarity T2 Pos
+T3	Event 151 163;176 184	abuso sexual agravado
+A9	Class T3 Occurrence
+A10	Event_Type T3 Process
+A11	Pos T3 Noun
+A12	Polarity T3 Pos
+T4	Event 186 191	sendo
+A13	Class T4 State
+A14	Event_Type T4 State
+A15	Pos T4 Verb
+A16	Tense T4 Present
+A17	Aspect T4 Progressive
+A18	VForm T4 Gerundive
+A19	Polarity T4 Pos
+T5	Event 225 233	anunciou
+A20	Class T5 Reporting
+A21	Event_Type T5 Transition
+A22	Pos T5 Verb
+A23	Tense T5 Past
+A24	Aspect T5 Perfective
+A25	Polarity T5 Pos
+T6	Time 234 238	hoje
+A26	Time_Type T6 Date
+A27	TemporalFunction T6 Publication_Time
+#2	AnnotatorNotes T6	value=2020-10-26 anchorTime=Publication_Time
+T7	Event 283 287	nota
+A28	Class T7 Reporting
+A29	Event_Type T7 State
+A30	Pos T7 Noun
+A31	Polarity T7 Pos
+T8	Event 288 297	publicada
+A32	Class T8 Occurrence
+A33	Event_Type T8 Transition
+A34	Pos T8 Verb
+A35	Tense T8 Past
+A36	Aspect T8 Perfective
+A37	VForm T8 Participle
+T9	Event 333 339	refere
+A38	Class T9 Reporting
+A39	Event_Type T9 Transition
+A40	Pos T9 Verb
+A41	Tense T9 Present
+A42	Aspect T9 Imperfective
+A43	Polarity T9 Pos
+T10	Event 347 353	abusos
+A44	Class T10 Occurrence
+A45	Event_Type T10 Process
+A46	Pos T10 Noun
+A47	Polarity T10 Pos
+T11	Event 354 368	terão começado
+A48	Class T11 Aspectual
+A49	Event_Type T11 Transition
+A50	Pos T11 Verb
+A51	Tense T11 Past
+A52	Aspect T11 Perfective
+A53	Polarity T11 Pos
+T12	Time 372 376	2017
+A54	Time_Type T12 Date
+A55	TemporalFunction T12 None
+#3	AnnotatorNotes T12	value=2017-XX-XX anchorTime=Publication_Time
+T13	Event 406 411	tinha
+A56	Class T13 State
+A57	Event_Type T13 State
+A58	Pos T13 Verb
+A59	Tense T13 Past
+A60	Aspect T13 Imperfective
+A61	Polarity T13 Pos
+T14	Event 426 436	considerou
+A62	Class T14 Perception
+A63	Event_Type T14 Transition
+A64	Pos T14 Verb
+A65	Tense T14 Past
+A66	Aspect T14 Perfective
+A67	Polarity T14 Pos
+T15	Event 437 446	indiciado
+A68	Class T15 State
+A69	Event_Type T15 State
+A70	Pos T15 Verb
+A71	VForm T15 Participle
+A72	Polarity T15 Pos
+T16	Event 461 467	passou
+A73	Class T16 Aspectual
+A74	Event_Type T16 Transition
+A75	Pos T16 Verb
+A76	Tense T16 Past
+A77	Aspect T16 Perfective
+A78	Polarity T16 Pos
+T17	Event 470 475	viver
+A79	Class T17 State
+A80	Event_Type T17 State
+A81	Pos T17 Verb
+A82	Tense T17 Past
+A83	Aspect T17 Progressive
+A84	VForm T17 Infinitive
+A85	Polarity T17 Pos
+T18	Time 501 505	2016
+A86	Time_Type T18 Date
+A87	TemporalFunction T18 None
+#4	AnnotatorNotes T18	value=2016-XX-XX anchorTime=Publication_Time
+T19	Time 582 593	2017 e 2019
+A88	Time_Type T19 Duration
+#5	AnnotatorNotes T19	value=P2Y anchorTime=Publication_Time
+T21	Event 596 603	manteve
+A91	Class T21 State
+A92	Event_Type T21 State
+A93	Pos T21 Verb
+A94	Tense T21 Past
+A95	Aspect T21 Imperfective
+A96	Polarity T21 Pos
+T22	Event 604 615	trato sexua
+A97	Class T22 State
+A98	Event_Type T22 State
+A99	Pos T22 Noun
+A100	Polarity T22 Pos
+T23	Event 647 662	aproveitando-se
+A101	Class T23 Occurrence
+A102	Event_Type T23 Process
+A103	Pos T23 Verb
+A104	Tense T23 Past
+A105	Aspect T23 Progressive
+A106	VForm T23 Gerundive
+A107	Polarity T23 Pos
+T24	Event 680 687	passava
+A108	Class T24 State
+A109	Event_Type T24 State
+A110	Pos T24 Noun
+A111	Polarity T24 Pos
+T25	Event 688 693	a sós
+A112	Class T25 State
+A113	Event_Type T25 State
+A114	Pos T25 Noun
+A115	Polarity T25 Pos
+T26	Event 718 726	acusação
+A116	Class T26 Occurrence
+A117	Event_Type T26 Transition
+A118	Pos T26 Noun
+A119	Polarity T26 Pos
+T27	Event 732 738	datado
+A120	Class T27 State
+A121	Event_Type T27 State
+A122	Pos T27 Verb
+A123	VForm T27 Participle
+A124	Polarity T27 Pos
+T28	Time 742 755	05 de outubro
+A125	Time_Type T28 Date
+A126	TemporalFunction T28 None
+#7	AnnotatorNotes T28	value=2020-10-05 anchorTime=Publication_Time
+R1	TLINK_before Arg1:T3 Arg2:T2	
+R2	TLINK_simultaneous Arg1:T4 Arg2:T3	
+R3	TLINK_after Arg1:T5 Arg2:T4	
+R4	TLINK_isIncluded Arg1:T5 Arg2:T6	
+R5	TLINK_isIncluded Arg1:T8 Arg2:T7	
+R6	TLINK_includes Arg1:T7 Arg2:T5	
+R7	TLINK_before Arg1:T9 Arg2:T8	
+R8	TLINK_before Arg1:T10 Arg2:T9	
+R9	ALINK_initiates Arg1:T11 Arg2:T10	
+R10	TLINK_begins Arg1:T11 Arg2:T10	
+R11	TLINK_isIncluded Arg1:T11 Arg2:T12	
+R12	TLINK_simultaneous Arg1:T13 Arg2:T11	
+R13	TLINK_after Arg1:T14 Arg2:T13	
+R14	TLINK_includes Arg1:T15 Arg2:T14	
+R15	SLINK_evidential Arg1:T14 Arg2:T15	
+R16	ALINK_initiates Arg1:T16 Arg2:T17	
+R17	TLINK_identity Arg1:T17 Arg2:T16	
+R18	TLINK_before Arg1:T16 Arg2:T15	
+R19	TLINK_isIncluded Arg1:T17 Arg2:T18	
+A89	TemporalFunction T19 None
+R20	TLINK_during Arg1:T21 Arg2:T19	
+R21	TLINK_identity Arg1:T22 Arg2:T21	
+R22	TLINK_simultaneous Arg1:T23 Arg2:T22	
+R23	TLINK_isIncluded Arg1:T24 Arg2:T23	
+R24	TLINK_simultaneous Arg1:T25 Arg2:T24	
+R25	TLINK_includes Arg1:T27 Arg2:T26	
+R26	TLINK_isIncluded Arg1:T27 Arg2:T28	
+R27	TLINK_after Arg1:T26 Arg2:T25	
+T20	Participant 97 131	O Ministério Público (MP) de Braga
+A90	Lexical_Head T20 Noun
+A127	Individuation_Domain T20 Individual
+A128	Participant_Type_Domain T20 Org
+A129	Involvement T20 1
+T29	Participant 139 147	um homem
+A130	Lexical_Head T29 Noun
+A131	Individuation_Domain T29 Individual
+A132	Participant_Type_Domain T29 Per
+A133	Involvement T29 1
+T30	Participant 167 175	crianças
+A134	Lexical_Head T30 Noun
+A135	Individuation_Domain T30 Individual
+A136	Participant_Type_Domain T30 Per
+A137	Involvement T30 Und
+T31	Participant 192 200	a vítima
+A138	Lexical_Head T31 Noun
+A139	Individuation_Domain T31 Individual
+A140	Participant_Type_Domain T31 Per
+A141	Involvement T31 1
+T32	Participant 201 208	a filha
+A142	Lexical_Head T32 Noun
+A143	Individuation_Domain T32 Individual
+A144	Participant_Type_Domain T32 Per
+A145	Involvement T32 1
+T33	Participant 239 278	a Procuradoria-Geral Distrital do Porto
+A146	Lexical_Head T33 Noun
+A147	Individuation_Domain T33 Individual
+A148	Participant_Type_Domain T33 Org
+A149	Involvement T33 1
+T34	Participant 301 304	sua
+A150	Lexical_Head T34 Pronoun
+A151	Individuation_Domain T34 Individual
+A152	Participant_Type_Domain T34 Org
+A153	Involvement T34 1
+T35	Participant 305 311	página
+A154	Lexical_Head T35 Noun
+A155	Individuation_Domain T35 Individual
+A156	Participant_Type_Domain T35 Other
+A157	Involvement T35 1
+T36	Participant 313 332	aquela procuradoria
+A158	Lexical_Head T36 Noun
+A159	Individuation_Domain T36 Individual
+A160	Participant_Type_Domain T36 Org
+A161	Involvement T36 1
+T37	Participant 397 405	a vítima
+A162	Lexical_Head T37 Noun
+A163	Individuation_Domain T37 Individual
+A164	Participant_Type_Domain T37 Per
+A165	Involvement T37 1
+T38	Participant 412 419	10 anos
+A166	Lexical_Head T38 Noun
+A167	Individuation_Domain T38 Individual
+A168	Participant_Type_Domain T38 Other
+A169	Involvement T38 >1
+T39	Participant 451 460	o arguido
+A170	Lexical_Head T39 Noun
+A171	Individuation_Domain T39 Individual
+A172	Participant_Type_Domain T39 Per
+A173	Involvement T39 1
+T40	Participant 421 425	O MP
+A174	Lexical_Head T40 Noun
+A175	Individuation_Domain T40 Individual
+A176	Participant_Type_Domain T40 Org
+A177	Involvement T40 1
+T41	Participant 482 485	sua
+A178	Lexical_Head T41 Pronoun
+A179	Individuation_Domain T41 Individual
+A180	Participant_Type_Domain T41 Per
+A181	Involvement T41 1
+T42	Participant 486 497	companheira
+A182	Lexical_Head T42 Noun
+A183	Individuation_Domain T42 Individual
+A184	Participant_Type_Domain T42 Per
+A185	Involvement T42 1
+T43	Participant 212 223	companheira
+A186	Lexical_Head T43 Noun
+A187	Individuation_Domain T43 Individual
+A188	Participant_Type_Domain T43 Per
+A189	Involvement T43 1
+T44	Participant 519 524	Braga
+A190	Lexical_Head T44 Noun
+A191	Individuation_Domain T44 Individual
+A192	Participant_Type_Domain T44 Loc
+A193	Involvement T44 1
+T45	Participant 537 543	Amares
+A194	Lexical_Head T45 Noun
+A195	Individuation_Domain T45 Individual
+A196	Participant_Type_Domain T45 Loc
+A197	Involvement T45 1
+T46	Participant 559 563	o MP
+A198	Lexical_Head T46 Noun
+A199	Individuation_Domain T46 Individual
+A200	Participant_Type_Domain T46 Org
+A201	Involvement T46 1
+T47	Participant 565 574	o arguido
+A202	Lexical_Head T47 Noun
+A203	Individuation_Domain T47 Individual
+A204	Participant_Type_Domain T47 Per
+A205	Involvement T47 1
+T48	Participant 622 629	a filha
+A206	Lexical_Head T48 Noun
+A207	Individuation_Domain T48 Individual
+A208	Participant_Type_Domain T48 Per
+A209	Involvement T48 1
+T49	Participant 633 644	companheira
+A210	Lexical_Head T49 Noun
+A211	Individuation_Domain T49 Individual
+A212	Participant_Type_Domain T49 Per
+A213	Involvement T49 1
+T50	Participant 698 701	ela
+A214	Lexical_Head T50 Pronoun
+A215	Individuation_Domain T50 Individual
+A216	Participant_Type_Domain T50 Per
+A217	Involvement T50 1
+R28	OLINK_partOf Arg1:T32 Arg2:T43	
+R29	OLINK_partOf Arg1:T32 Arg2:T30	
+R30	OLINK_objIdentity Arg1:T32 Arg2:T31	
+R31	OLINK_objIdentity Arg1:T34 Arg2:T33	
+R32	OLINK_partOf Arg1:T35 Arg2:T34	
+R33	OLINK_objIdentity Arg1:T36 Arg2:T34	
+R34	OLINK_objIdentity Arg1:T37 Arg2:T31	
+R35	OLINK_objIdentity Arg1:T40 Arg2:T20	
+R36	OLINK_objIdentity Arg1:T39 Arg2:T29	
+R37	OLINK_objIdentity Arg1:T41 Arg2:T39	
+R38	OLINK_partOf Arg1:T42 Arg2:T41	
+R39	OLINK_objIdentity Arg1:T42 Arg2:T43	
+R40	OLINK_objIdentity Arg1:T46 Arg2:T40	
+R41	OLINK_objIdentity Arg1:T47 Arg2:T39	
+R42	OLINK_partOf Arg1:T48 Arg2:T49	
+R43	OLINK_objIdentity Arg1:T48 Arg2:T37	
+R44	OLINK_objIdentity Arg1:T49 Arg2:T42	
+R45	OLINK_objIdentity Arg1:T50 Arg2:T48	
+T52	Participant 667 675	momentos
+A222	Lexical_Head T52 Noun
+A223	Individuation_Domain T52 Individual
+A224	Participant_Type_Domain T52 Other
+A225	Involvement T52 1
+R46	SRLINK_agent Arg1:T2 Arg2:T20	
+R47	SRLINK_patient Arg1:T2 Arg2:T29	
+R48	SRLINK_theme Arg1:T2 Arg2:T3	
+R49	SRLINK_beneficiary Arg1:T3 Arg2:T30	
+R50	SRLINK_theme Arg1:T4 Arg2:T31	
+R51	SRLINK_pivot Arg1:T4 Arg2:T32	
+R52	SRLINK_agent Arg1:T5 Arg2:T33	
+R53	SRLINK_theme Arg1:T5 Arg2:T2	
+R54	SLINK_evidential Arg1:T5 Arg2:T2	
+R55	SRLINK_patient Arg1:T8 Arg2:T7	
+R56	SRLINK_location Arg1:T8 Arg2:T35	
+R57	SRLINK_agent Arg1:T8 Arg2:T34	
+R58	SRLINK_agent Arg1:T9 Arg2:T36	
+R59	SRLINK_medium Arg1:T9 Arg2:T7	
+R60	SRLINK_theme Arg1:T9 Arg2:T11	
+R61	SLINK_evidential Arg1:T9 Arg2:T11	
+R62	SRLINK_theme Arg1:T11 Arg2:T10	
+R63	SRLINK_pivot Arg1:T13 Arg2:T37	
+R64	SRLINK_theme Arg1:T13 Arg2:T38	
+R65	SRLINK_agent Arg1:T14 Arg2:T40	
+R66	SRLINK_theme Arg1:T14 Arg2:T15	
+R67	SRLINK_theme Arg1:T15 Arg2:T16	
+R68	SRLINK_pivot Arg1:T17 Arg2:T39	
+R69	SRLINK_partner Arg1:T17 Arg2:T42	
+R70	SRLINK_location Arg1:T17 Arg2:T44	
+R71	SRLINK_location Arg1:T17 Arg2:T45	
+R72	SRLINK_agent Arg1:T16 Arg2:T39	
+R73	SRLINK_pivot Arg1:T21 Arg2:T47	
+R74	SRLINK_theme Arg1:T21 Arg2:T22	
+R75	SRLINK_partner Arg1:T21 Arg2:T48	
+R76	SRLINK_agent Arg1:T23 Arg2:T47	
+R77	SRLINK_theme Arg1:T23 Arg2:T52	
+R78	SRLINK_theme Arg1:T24 Arg2:T52	
+R79	SRLINK_manner Arg1:T24 Arg2:T25	
+R80	SRLINK_partner Arg1:T24 Arg2:T50	
+R81	SRLINK_theme Arg1:T27 Arg2:T26	
+T51	Participant 704 714	O despacho
+A218	Lexical_Head T51 Noun
+A219	Individuation_Domain T51 Individual
+A220	Participant_Type_Domain T51 Other
+A221	Involvement T51 1
+R82	SRLINK_theme Arg1:T26 Arg2:T51	

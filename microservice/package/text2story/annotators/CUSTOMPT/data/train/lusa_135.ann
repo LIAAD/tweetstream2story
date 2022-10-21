@@ -1,0 +1,323 @@
+T1	Time 30 41	11 nov 2020
+A1	Time_Type T1 Date
+A2	TemporalFunction T1 Publication_Time
+#1	AnnotatorNotes T1	value=2020-11-11
+T2	Time 138 142	hoje
+A3	Time_Type T2 Date
+A4	TemporalFunction T2 Publication_Time
+#2	AnnotatorNotes T2	value=2020-11-11 anchorTime=Publication_Time
+T3	Event 129 137	roubaram
+A5	Class T3 Occurrence
+A6	Event_Type T3 Transition
+A7	Pos T3 Verb
+A8	Tense T3 Past
+A9	Aspect T3 Perfective
+A10	Polarity T3 Pos
+T4	Event 243 255	está em fuga
+A11	Class T4 State
+A12	Event_Type T4 State
+A13	Pos T4 Verb
+A14	Tense T4 Present
+A15	Aspect T4 Progressive
+A16	Polarity T4 Pos
+T5	Event 272 277	disse
+A17	Class T5 Reporting
+A18	Event_Type T5 Transition
+A19	Pos T5 Verb
+A20	Tense T5 Past
+A21	Aspect T5 Perfective
+A22	Polarity T5 Pos
+T6	Event 314 323	consumado
+A23	Class T6 Occurrence
+A24	Event_Type T6 Transition
+A25	Pos T6 Verb
+A26	Tense T6 Past
+A27	Aspect T6 Perfective
+A28	Polarity T6 Pos
+T8	Event 450 457	atuaram
+A31	Class T8 Occurrence
+A32	Event_Type T8 Process
+A33	Pos T8 Verb
+A34	Tense T8 Past
+A35	Aspect T8 Perfective
+A36	Polarity T8 Pos
+T9	Event 466 472	tapada
+A37	Class T9 State
+A38	Event_Type T9 State
+A39	Pos T9 Verb
+A40	VForm T9 Participle
+A41	Polarity T9 Pos
+T10	Event 474 481	Levaram
+A42	Class T10 Occurrence
+A43	Event_Type T10 Transition
+A44	Pos T10 Verb
+A45	Tense T10 Past
+A46	Aspect T10 Perfective
+A47	Polarity T10 Pos
+T11	Event 536 551	não determinado
+A48	Class T11 State
+A49	Event_Type T11 State
+A50	Pos T11 Adjective
+A51	Polarity T11 Neg
+T12	Event 593 599	detido
+A52	Class T12 Occurrence
+A53	Event_Type T12 Transition
+A54	Pos T12 Verb
+A55	Tense T12 Past
+A56	Aspect T12 Perfective
+A57	Polarity T12 Pos
+T13	Event 640 650	continuava
+A58	Class T13 Aspectual
+A59	Pos T13 Verb
+A60	Tense T13 Past
+A61	Aspect T13 Progressive
+A62	Polarity T13 Pos
+T14	Event 657 666	procurado
+A63	Class T14 Occurrence
+A64	Event_Type T14 Process
+A65	Pos T14 Verb
+A66	VForm T14 Infinitive
+A67	Tense T14 Past
+A68	Aspect T14 Imperfective
+T15	Time 676 681	14:30
+A69	Time_Type T15 Time
+A70	TemporalFunction T15 None
+#4	AnnotatorNotes T15	value=2020-11-11T14:30
+T16	Time 330 349	as 12:00 e as 12:30
+A71	Time_Type T16 Time
+#5	AnnotatorNotes T16	value=P30Mi
+T17	Event 686 693	procura
+A73	Class T17 Occurrence
+A74	Event_Type T17 Process
+A75	Pos T17 Noun
+A76	Polarity T17 Pos
+T18	Event 725 735	envolvidos
+A77	Class T18 State
+A78	Event_Type T18 State
+A79	Pos T18 Verb
+A80	Tense T18 Present
+A81	Polarity T18 Pos
+A82	Aspect T18 Progressive
+T19	Event 710 717	a monte
+A83	Class T19 State
+A84	Event_Type T19 State
+A85	Pos T19 Noun
+A86	Polarity T19 Pos
+R1	TLINK_isIncluded Arg1:T3 Arg2:T2	
+R2	TLINK_after Arg1:T4 Arg2:T3	
+R3	TLINK_simultaneous Arg1:T5 Arg2:T4	
+R6	TLINK_isIncluded Arg1:T6 Arg2:T16	
+R7	TLINK_simultaneous Arg1:T8 Arg2:T6	
+R8	TLINK_isIncluded Arg1:T9 Arg2:T8	
+R9	TLINK_includes Arg1:T11 Arg2:T10	
+R10	TLINK_after Arg1:T12 Arg2:T10	
+R11	ALINK_continues Arg1:T13 Arg2:T14	
+R12	TLINK_simultaneous Arg1:T13 Arg2:T12	
+R13	TLINK_isIncluded Arg1:T14 Arg2:T13	
+R14	TLINK_isIncluded Arg1:T14 Arg2:T15	
+R15	TLINK_includes Arg1:T19 Arg2:T17	
+R16	TLINK_simultaneous Arg1:T18 Arg2:T17	
+R17	TLINK_identity Arg1:T17 Arg2:T14	
+T7	Event 302 309	assalto
+A29	Class T7 Occurrence
+A30	Event_Type T7 Transition
+A72	Pos T7 Noun
+A87	Polarity T7 Pos
+R4	TLINK_before Arg1:T7 Arg2:T5	
+R5	TLINK_identity Arg1:T6 Arg2:T7	
+R18	TLINK_identity Arg1:T7 Arg2:T3	
+R19	TLINK_simultaneous Arg1:T10 Arg2:T8	
+T20	Participant 117 128	Dois homens
+A88	Lexical_Head T20 Noun
+A89	Individuation_Domain T20 Individual
+A90	Participant_Type_Domain T20 Per
+A91	Involvement T20 >1
+T21	Participant 143 162	a caixa registadora
+A92	Lexical_Head T21 Noun
+A93	Individuation_Domain T21 Individual
+A94	Participant_Type_Domain T21 Obj
+A95	Involvement T21 1
+T22	Participant 166 181	uma confeitaria
+A96	Lexical_Head T22 Noun
+A97	Individuation_Domain T22 Individual
+A98	Participant_Type_Domain T22 Org
+A99	Involvement T22 1
+T23	Participant 185 217	concelho de Santa Maria da Feira
+A100	Lexical_Head T23 Noun
+A101	Individuation_Domain T23 Individual
+A102	Participant_Type_Domain T23 Loc
+A103	Involvement T23 1
+T24	Participant 220 222	um
+A104	Lexical_Head T24 Pronoun
+A105	Individuation_Domain T24 Individual
+A106	Participant_Type_Domain T24 Per
+A107	Involvement T24 1
+T25	Participant 227 242	dois envolvidos
+A108	Lexical_Head T25 Noun
+A109	Individuation_Domain T25 Individual
+A110	Participant_Type_Domain T25 Per
+A111	Involvement T25 >1
+R20	OLINK_partOf Arg1:T24 Arg2:T25	
+R21	OLINK_partOf Arg1:T24 Arg2:T20	
+R22	OLINK_objIdentity Arg1:T25 Arg2:T20	
+R23	OLINK_partOf Arg1:T21 Arg2:T22	
+R24	OLINK_partOf Arg1:T22 Arg2:T23	
+T26	Participant 259 270	autoridades
+A112	Lexical_Head T26 Noun
+A113	Individuation_Domain T26 Individual
+A114	Participant_Type_Domain T26 Org
+A115	Involvement T26 Und
+T27	Participant 278 291	fonte oficial
+A116	Lexical_Head T27 Noun
+A117	Individuation_Domain T27 Individual
+A118	Participant_Type_Domain T27 Per
+A119	Involvement T27 1
+T28	Participant 295 298	GNR
+A120	Lexical_Head T28 Noun
+A121	Individuation_Domain T28 Individual
+A122	Participant_Type_Domain T28 Org
+A123	Involvement T28 1
+R25	OLINK_partOf Arg1:T27 Arg2:T28	
+R26	OLINK_partOf Arg1:T28 Arg2:T26	
+T29	Participant 355 366	confeitaria
+A124	Lexical_Head T29 Noun
+A125	Individuation_Domain T29 Individual
+A126	Participant_Type_Domain T29 Org
+A127	Involvement T29 1
+T30	Participant 370 390	Milheirós de Poiares
+A128	Lexical_Head T30 Noun
+A129	Individuation_Domain T30 Individual
+A130	Participant_Type_Domain T30 Loc
+A131	Involvement T30 1
+T31	Participant 392 412	Santa Maria da Feria
+A132	Lexical_Head T31 Noun
+A133	Individuation_Domain T31 Individual
+A134	Participant_Type_Domain T31 Loc
+A135	Involvement T31 1
+T32	Participant 414 432	distrito de Aveiro
+A136	Lexical_Head T32 Noun
+A137	Individuation_Domain T32 Individual
+A138	Participant_Type_Domain T32 Loc
+A139	Involvement T32 1
+T33	Participant 436 449	os envolvidos
+A140	Lexical_Head T33 Noun
+A141	Individuation_Domain T33 Individual
+A142	Participant_Type_Domain T33 Per
+A143	Involvement T33 >1
+T34	Participant 461 465	cara
+A144	Lexical_Head T34 Noun
+A145	Individuation_Domain T34 Individual
+A146	Participant_Type_Domain T34 Other
+A147	Involvement T34 1
+R27	OLINK_partOf Arg1:T34 Arg2:T33	
+R28	OLINK_objIdentity Arg1:T29 Arg2:T22	
+R29	OLINK_partOf Arg1:T29 Arg2:T30	
+R30	OLINK_partOf Arg1:T30 Arg2:T31	
+R31	OLINK_partOf Arg1:T31 Arg2:T32	
+R32	OLINK_objIdentity Arg1:T31 Arg2:T23	
+R33	OLINK_objIdentity Arg1:T33 Arg2:T25	
+T35	Participant 482 501	a caixa registadora
+A148	Lexical_Head T35 Noun
+A149	Individuation_Domain T35 Individual
+A150	Participant_Type_Domain T35 Obj
+A151	Involvement T35 1
+R34	OLINK_objIdentity Arg1:T35 Arg2:T21	
+T36	Participant 506 529	um montante em dinheiro
+A152	Lexical_Head T36 Noun
+A154	Participant_Type_Domain T36 Other
+A155	Involvement T36 1
+A153	Individuation_Domain T36 Individual
+T37	Participant 570 572	Um
+A156	Lexical_Head T37 Pronoun
+A157	Individuation_Domain T37 Individual
+A158	Participant_Type_Domain T37 Per
+A159	Involvement T37 1
+T38	Participant 577 588	assaltantes
+A160	Lexical_Head T38 Noun
+A161	Individuation_Domain T38 Individual
+A162	Participant_Type_Domain T38 Per
+A163	Involvement T38 >1
+R35	OLINK_partOf Arg1:T37 Arg2:T38	
+R36	OLINK_objIdentity Arg1:T38 Arg2:T33	
+T39	Participant 609 629	Milheirós de Poiares
+A164	Lexical_Head T39 Noun
+A165	Individuation_Domain T39 Individual
+A166	Participant_Type_Domain T39 Loc
+A167	Involvement T39 1
+T40	Participant 697 702	homem
+A168	Lexical_Head T40 Noun
+A169	Individuation_Domain T40 Individual
+A170	Participant_Type_Domain T40 Per
+A171	Involvement T40 1
+T41	Participant 632 639	o outro
+A172	Lexical_Head T41 Pronoun
+A173	Individuation_Domain T41 Individual
+A174	Participant_Type_Domain T41 Per
+A175	Involvement T41 1
+R37	OLINK_partOf Arg1:T41 Arg2:T38	
+R38	OLINK_objIdentity Arg1:T40 Arg2:T41	
+T42	Participant 736 741	meios
+A176	Lexical_Head T42 Noun
+A177	Individuation_Domain T42 Individual
+A178	Participant_Type_Domain T42 Other
+A179	Involvement T42 >1
+T43	Participant 810 831	aquela força policial
+A180	Lexical_Head T43 Noun
+A181	Individuation_Domain T43 Individual
+A182	Participant_Type_Domain T43 Org
+A183	Involvement T43 1
+T44	Participant 772 775	GNR
+A184	Lexical_Head T44 Noun
+A185	Individuation_Domain T44 Individual
+A186	Participant_Type_Domain T44 Org
+A187	Involvement T44 1
+T45	Participant 745 768	dispositivo territorial
+A188	Lexical_Head T45 Noun
+A189	Individuation_Domain T45 Individual
+A190	Participant_Type_Domain T45 Org
+A191	Involvement T45 1
+R39	OLINK_partOf Arg1:T42 Arg2:T45	
+R40	OLINK_partOf Arg1:T45 Arg2:T44	
+T46	Participant 781 808	Destacamento de Intervenção
+A192	Lexical_Head T46 Noun
+A193	Individuation_Domain T46 Individual
+A194	Participant_Type_Domain T46 Org
+A195	Involvement T46 1
+R41	OLINK_partOf Arg1:T46 Arg2:T43	
+R42	OLINK_objIdentity Arg1:T43 Arg2:T44	
+R43	SRLINK_agent Arg1:T3 Arg2:T20	
+R44	SRLINK_theme Arg1:T3 Arg2:T21	
+R45	SRLINK_beneficiary Arg1:T3 Arg2:T22	
+R46	SRLINK_location Arg1:T3 Arg2:T23	
+R47	SRLINK_pivot Arg1:T4 Arg2:T24	
+R48	SRLINK_theme Arg1:T4 Arg2:T26	
+R49	SRLINK_agent Arg1:T5 Arg2:T27	
+R50	SRLINK_theme Arg1:T5 Arg2:T3	
+R51	SLINK_evidential Arg1:T5 Arg2:T3	
+R52	SRLINK_theme Arg1:T6 Arg2:T7	
+R53	SRLINK_location Arg1:T6 Arg2:T29	
+R54	SRLINK_location Arg1:T6 Arg2:T30	
+R55	SRLINK_location Arg1:T6 Arg2:T31	
+R56	SRLINK_location Arg1:T6 Arg2:T32	
+R57	SRLINK_agent Arg1:T8 Arg2:T33	
+R58	SRLINK_manner Arg1:T8 Arg2:T9	
+R59	SRLINK_pivot Arg1:T9 Arg2:T34	
+R60	SRLINK_agent Arg1:T10 Arg2:T33	
+R61	SRLINK_patient Arg1:T10 Arg2:T35	
+R62	SRLINK_patient Arg1:T10 Arg2:T36	
+R63	SRLINK_theme Arg1:T11 Arg2:T36	
+T47	Participant 561 568	a fonte
+A196	Lexical_Head T47 Noun
+A197	Individuation_Domain T47 Individual
+A198	Participant_Type_Domain T47 Per
+A199	Involvement T47 1
+R64	OLINK_objIdentity Arg1:T47 Arg2:T27	
+R65	SRLINK_patient Arg1:T12 Arg2:T37	
+R66	SRLINK_location Arg1:T12 Arg2:T39	
+R67	SRLINK_pivot Arg1:T13 Arg2:T41	
+A200	Event_Type T13 State
+R68	SRLINK_theme Arg1:T13 Arg2:T14	
+R69	SRLINK_theme Arg1:T17 Arg2:T40	
+R70	SRLINK_pivot Arg1:T19 Arg2:T40	
+R71	SRLINK_setting Arg1:T18 Arg2:T17	
+R72	SRLINK_pivot Arg1:T18 Arg2:T42	
