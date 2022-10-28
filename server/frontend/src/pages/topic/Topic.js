@@ -31,7 +31,14 @@ const Topic = (props) => {
     const getTopic = () => {
 
         setLoadingTopic(true);
-        fetch(`${process.env.REACT_APP_API_URL}/api/topic/${id}`)
+        const headers = new Headers({
+            "Authorization": "Bearer " + localStorage.getItem("session"),
+        });
+        
+        fetch(`${process.env.REACT_APP_API_URL}/api/topic/${id}`,
+            {
+                headers: headers
+            })
             .then(r => r.json())
             .then(r => {
                 setTopic(r.topic);
@@ -48,10 +55,10 @@ const Topic = (props) => {
                     <Row className="mt-5 mx-3 mx-lg-0 min-vh-70">
                         <Sidebar />
                         <Col lg={9} className="rounded-corners enhanced-body-background-color px-4 pe-lg-5 pt-4 pb-5">
-                            
+
                             <Row>
                                 <Col className="text-end ms-auto">
-                                    <IntervalSwitch mode={mode} handleSelect={(mode) => setMode(mode)}/>
+                                    <IntervalSwitch mode={mode} handleSelect={(mode) => setMode(mode)} />
                                 </Col>
                             </Row>
 
@@ -65,7 +72,7 @@ const Topic = (props) => {
                                     <Spinner animation="border" />
                                     <span className="ms-2">Loading</span>
                                 </>
-                                )}
+                            )}
 
 
                         </Col>

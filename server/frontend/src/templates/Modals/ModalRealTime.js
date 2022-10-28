@@ -23,7 +23,7 @@ const ModalRealTime = (props) => {
         (mm > 9 ? '' : '0') + mm
         ].join('');
     }
-    
+
     const [mode, setMode] = useState(modes.NOW)
     const [consumerKey, setConsumerKey] = useState("")
     const [consumerSecret, setConsumerSecret] = useState("")
@@ -54,11 +54,11 @@ const ModalRealTime = (props) => {
 
         let requestBody = {
             "startDate": mode === modes.NOW
-                            ?  now.toISOString().split('.')[0] + 'Z'
-                            : new Date(startDate).toISOString().split('.')[0] + 'Z',
+                ? now.toISOString().split('.')[0] + 'Z'
+                : new Date(startDate).toISOString().split('.')[0] + 'Z',
             "endDate": mode === modes.NOW
-                            ? new Date(now.getTime() + 86400000).toISOString().split('.')[0] + 'Z'
-                            : new Date(endDate).toISOString().split('.')[0] + 'Z',
+                ? new Date(now.getTime() + 86400000).toISOString().split('.')[0] + 'Z'
+                : new Date(endDate).toISOString().split('.')[0] + 'Z',
             "timeInterval": parseInt(timeInterval),
             "timeUnit": timeUnit,
             "lang": lang,
@@ -87,35 +87,6 @@ const ModalRealTime = (props) => {
                 </Modal.Header>
 
                 <Modal.Body className={"pb-3 align-center"}>
-                    <Form.Label> Twitter API Credentials</Form.Label>
-                    <Row className="mb-3">
-                        <Form.Group as={Col}>
-                            <Form.Control
-                                type="text"
-                                placeholder="Consumer key"
-                                rows={1}
-                                name="text"
-                                value={consumerKey}
-                                onChange={(event) => setConsumerKey(event.target.value)}
-                            />
-                        </Form.Group>
-
-                        <Form.Group as={Col}>
-                            <Form.Control
-                                type="text"
-                                placeholder="Consumer secret"
-                                rows={1}
-                                name="text"
-                                value={consumerSecret}
-                                onChange={(event) => setConsumerSecret(event.target.value)}
-                            />
-                        </Form.Group>
-                        <Form.Text id="passwordHelpBlock" muted>
-                            Your credentials will not be stored.
-                        </Form.Text>
-                    </Row>
-
-
 
                     <Form.Group className="mb-3">
                         <Form.Label> Language </Form.Label>
@@ -213,16 +184,44 @@ const ModalRealTime = (props) => {
                                     Topic should end before current time and after its start date.
                                 </Form.Control.Feedback>
                             </Form.Group>
+
+                            <Form.Label> Twitter API Credentials</Form.Label>
+                            <Row className="mb-3">
+                                <Form.Group as={Col}>
+                                    <Form.Control
+                                        type="text"
+                                        placeholder="Consumer key"
+                                        rows={1}
+                                        name="text"
+                                        value={consumerKey}
+                                        onChange={(event) => setConsumerKey(event.target.value)}
+                                    />
+                                </Form.Group>
+
+                                <Form.Group as={Col}>
+                                    <Form.Control
+                                        type="text"
+                                        placeholder="Consumer secret"
+                                        rows={1}
+                                        name="text"
+                                        value={consumerSecret}
+                                        onChange={(event) => setConsumerSecret(event.target.value)}
+                                    />
+                                </Form.Group>
+                                <Form.Text id="passwordHelpBlock" muted>
+                                    Your credentials will not be stored.
+                                </Form.Text>
+                            </Row>
                         </>
                     )}
 
                 </Modal.Body>
 
                 <Modal.Footer>
-                    {props.error && 
-                    <Alert variant="danger">
-                        {props.error}
-                    </Alert>
+                    {props.error &&
+                        <Alert variant="danger">
+                            {props.error}
+                        </Alert>
                     }
                     <Button type="submit" variant="outline-dark">Submit</Button>
                 </Modal.Footer>

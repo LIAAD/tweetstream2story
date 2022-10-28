@@ -1,4 +1,4 @@
-from TwitterAPI import TwitterAPI, TwitterPager
+from TwitterAPI import TwitterAPI, TwitterPager, TwitterConnectionError
 from elasticsearch import Elasticsearch
 import threading
 import schedule

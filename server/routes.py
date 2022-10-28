@@ -56,7 +56,7 @@ def get_topic(id):
     if request.headers.get("Authorization"):
         user = request.headers.get('Authorization').split()[1]
         topic = get_topic_by_es_id(id, user)
-    else:
+    if topic == -1:
         topic = get_topic_by_es_id(id)
 
     if topic == -1:

@@ -2,7 +2,7 @@ from flask import Flask
 from flask_cors import CORS
 from topic import Topic
 import threading
-from services import es, twitter
+from services import es, twitter, TwitterConnectionError
 from utils import clean_tweet, is_similar
 
 # Load topics from ElasticSearch "topics" index, containing metadata for each
@@ -45,6 +45,8 @@ def get_topic_by_es_id(id, user=""):
         return examples[index[0]] if index else -1
 
     else:
+        if not user in topics:
+            return -1
         index = [index for index, topic in enumerate(topics[user]) if topic.es_id == id]
         return topics[user][index[0]] if index else -1
 
@@ -57,40 +59,46 @@ def get_topic_by_twitter_id(id):
     return -1
 
 def stream_tweets():
-    r = twitter.request('tweets/search/stream', {
-        "tweet.fields": "created_at"
-    })
+    while True:
+        try:
+            r = twitter.request('tweets/search/stream', {
+                "tweet.fields": "created_at"
+            })
 
-    # Each item is a new tweet in the stream
-    for item in r:
-        
-        if not "data" in item:
-            continue
+            # Each item is a new tweet in the stream
+            for item in r:
+                
+                if not "data" in item:
+                    continue
 
-        # Define fields for respective index
-        tweet = {
-            "id": item["data"]["id"],
-            "text": item["data"]["text"],
-            "date": item["data"]["created_at"],
-        }
+                # Define fields for respective index
+                tweet = {
+                    "id": item["data"]["id"],
+                    "text": item["data"]["text"],
+                    "date": item["data"]["created_at"],
+                }
 
-        # Get rule that the tweet matches and respective topic
-        # A tweet can match different topics
-        for rule in item["matching_rules"]:
-            rule_id = rule["id"]
+                # Get rule that the tweet matches and respective topic
+                # A tweet can match different topics
+                for rule in item["matching_rules"]:
+                    rule_id = rule["id"]
 
-            topic = get_topic_by_twitter_id(rule_id)
-            
-            if topic == -1:
-                continue
+                    topic = get_topic_by_twitter_id(rule_id)
+                    
+                    if topic == -1:
+                        continue
 
-            # Store tweet in ElasticSearch, in respective index, if it isn't similar to other tweets
-            es_id = topic.es_id.lower()
-            tweet["clean_text"] = clean_tweet(item["data"]["text"])
-            if is_similar(tweet["clean_text"], es, es_id):
-                continue
+                    # Store tweet in ElasticSearch, in respective index, if it isn't similar to other tweets
+                    es_id = topic.es_id.lower()
+                    tweet["clean_text"] = clean_tweet(item["data"]["text"])
+                    if is_similar(tweet["clean_text"], es, es_id):
+                        continue
 
-            es.index(index=es_id, document=tweet)
+                    es.index(index=es_id, document=tweet)
+
+        # Retry connection in case of stream interruption
+        except TwitterConnectionError:
+            pass
         
 def get_rules():
     r = twitter.request('tweets/search/stream/rules', method_override='GET')
