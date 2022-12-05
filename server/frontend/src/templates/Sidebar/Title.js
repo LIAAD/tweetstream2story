@@ -11,16 +11,16 @@ const Title = (props) => {
           <Navbar.Collapse id="responsive-navbar-nav" className="pt-3">
             <Nav className="mr-auto">
               <div className="mb-3">
-                <a href="https://www.google.pt">The Paper</a>
-              </div>
-              <div className="mb-3">
-                <Link to="/demo">Demo</Link>
-              </div>
-              <div className="mb-3">
-                <a href="https://www.google.pt">Open Source</a>
-              </div>
-              <div className="mb-3">
                 <Link to="/about">About</Link>
+              </div>
+              <div className="mb-3">
+                <Link to="/">Demo</Link>
+              </div>
+              <div className="mb-3">
+                <Link to="/examples">Examples</Link>
+              </div>
+              <div className="mb-3">
+                <a href="https://github.com/LIAAD/tweetstream2story">Open Source</a>
               </div>
             </Nav>
           </Navbar.Collapse>
